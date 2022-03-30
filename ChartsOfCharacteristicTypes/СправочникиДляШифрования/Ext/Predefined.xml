@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.11">
+	<Item id="9d648d95-de0b-4da4-b425-bbbb9efca976">
+		<Name>ПодсистемаБД</Name>
+		<Code>000000002</Code>
+		<Description>БД</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="6805e949-a65b-4ee3-95e7-09ba4ff9124b">
+				<Name>БД</Name>
+				<Code>000000004</Code>
+				<Description>БД</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c038ce11-736a-4fd1-96ea-8f3f583a2d92">
+				<Name>СУБД</Name>
+				<Code>000000005</Code>
+				<Description>СУБД</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="8611b5b5-c79f-45fb-9220-2e4d2ba7a377">
+		<Name>ПодсистемаЖелезо</Name>
+		<Code>000000001</Code>
+		<Description>Железо</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="8951238d-f1d7-41a9-98c4-7a790424ba9f">
+				<Name>Видеорегистраторы</Name>
+				<Code>000000006</Code>
+				<Description>Видеорегистраторы</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="fd9b1cc9-c795-4f29-b0a1-912f74566dea">
+				<Name>Кассы</Name>
+				<Code>000000008</Code>
+				<Description>Кассы</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f3d7b91f-1c8e-4f76-a1e3-9f32f9374a18">
+				<Name>Принтеры</Name>
+				<Code>000000009</Code>
+				<Description>Принтеры</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3d7368d7-c5ec-4d41-8693-953cda7bfb85">
+				<Name>Серверы</Name>
+				<Code>000000010</Code>
+				<Description>Серверы</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="8e573a78-4d2a-4b55-9bb8-8626af218f07">
+				<Name>СетевоеОборудование</Name>
+				<Code>000000014</Code>
+				<Description>Сетевое оборудование</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="51e216fc-a3ba-419e-a19b-c07ea56c5635">
+				<Name>Устройства</Name>
+				<Code>000000012</Code>
+				<Description>Устройства</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="3f491a4c-c03f-4745-ab71-8511ed0223f0">
+		<Name>ПодсистемаНСИ</Name>
+		<Code>000000003</Code>
+		<Description>НСИ</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="7c1410ce-44c6-4bdc-b5e6-1de88e4f7989">
+				<Name>Домены</Name>
+				<Code>000000007</Code>
+				<Description>Домены</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1e999ed3-0b4f-409d-8a99-e7494a0057a9">
+				<Name>СерверыVPN</Name>
+				<Code>000000011</Code>
+				<Description>Серверы VPN</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="9d2e8ed1-f2e5-4692-ab9c-770fd1791b9a">
+				<Name>УстройстваСУдаленнымУправлением</Name>
+				<Code>000000015</Code>
+				<Description>Устройства с удаленным управлением</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c24479c1-1336-4d66-b01f-5224d520871e">
+				<Name>УчетныеДанные</Name>
+				<Code>000000013</Code>
+				<Description>Учетные данные</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

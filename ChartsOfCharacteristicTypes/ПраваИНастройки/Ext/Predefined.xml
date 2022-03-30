@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.11">
+	<Item id="0a9d1455-eba8-4a2c-b5c8-c981dceff711">
+		<Name>Общее</Name>
+		<Code>000000001</Code>
+		<Description>Общее</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="b2f4215a-7fc0-40b9-b9a2-5c6d38285ad9">
+				<Name>РазрешеноИзменятьДопНастройкиПользователей</Name>
+				<Code>000000004</Code>
+				<Description>Разрешено изменять доп настройки пользователей</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="06f2aafb-163b-4cd3-b4d4-6a112b5b6094">
+				<Name>РазрешеноИзменятьПользователей</Name>
+				<Code>000000003</Code>
+				<Description>Разрешено изменять пользователей</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="13f23a85-183c-4c13-8121-174c4b9bb218">
+				<Name>РазрешеноПросматриватьЗаметкиДругихПользователей</Name>
+				<Code>000000002</Code>
+				<Description>Разрешено просматривать заметки других пользователей</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

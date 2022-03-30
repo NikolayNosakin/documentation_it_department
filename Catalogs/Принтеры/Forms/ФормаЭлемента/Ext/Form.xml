@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<Visible>false</Visible>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Клиент" id="7">
+			<DataPath>Объект.Клиент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<DropListButton>false</DropListButton>
+			<ChoiceButton>true</ChoiceButton>
+			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+			<ClearButton>false</ClearButton>
+			<SpinButton>false</SpinButton>
+			<OpenButton>true</OpenButton>
+			<CreateButton>false</CreateButton>
+			<ContextMenu name="КлиентКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ТипПодключения" id="13">
+			<DataPath>Объект.ТипПодключения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<DropListButton>true</DropListButton>
+			<ChoiceButton>false</ChoiceButton>
+			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+			<ClearButton>false</ClearButton>
+			<SpinButton>false</SpinButton>
+			<OpenButton>false</OpenButton>
+			<CreateButton>false</CreateButton>
+			<ContextMenu name="ТипПодключенияКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ТипПодключенияРасширеннаяПодсказка" id="15"/>
+			<Events>
+				<Event name="OnChange">ТипПодключенияПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="IP" id="10">
+			<DataPath>Объект.IP</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="IPКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="IPРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<UsualGroup name="Группа3" id="50">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="51"/>
+			<ChildItems>
+				<InputField name="Логин" id="44">
+					<DataPath>Объект.Логин</DataPath>
+					<ContextMenu name="ЛогинКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ЛогинРасширеннаяПодсказка" id="46"/>
+				</InputField>
+				<InputField name="Пароль" id="47">
+					<DataPath>Объект.Пароль</DataPath>
+					<ContextMenu name="ПарольКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="49"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Группа1" id="38">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="39"/>
+			<ChildItems>
+				<Page name="ГрМоделиКартриджей" id="40">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Модели картриджей</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Модели картриджей</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГрМоделиКартриджейРасширеннаяПодсказка" id="41"/>
+					<ChildItems>
+						<Table name="МоделиКартриджей" id="19">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.МоделиКартриджей</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="МоделиКартриджейКонтекстноеМеню" id="20"/>
+							<AutoCommandBar name="МоделиКартриджейКоманднаяПанель" id="21"/>
+							<ExtendedTooltip name="МоделиКартриджейРасширеннаяПодсказка" id="22"/>
+							<SearchStringAddition name="МоделиКартриджейСтрокаПоиска" id="23">
+								<AdditionSource>
+									<Item>МоделиКартриджей</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="МоделиКартриджейСтрокаПоискаКонтекстноеМеню" id="24"/>
+								<ExtendedTooltip name="МоделиКартриджейСтрокаПоискаРасширеннаяПодсказка" id="25"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="МоделиКартриджейСостояниеПросмотра" id="26">
+								<AdditionSource>
+									<Item>МоделиКартриджей</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="МоделиКартриджейСостояниеПросмотраКонтекстноеМеню" id="27"/>
+								<ExtendedTooltip name="МоделиКартриджейСостояниеПросмотраРасширеннаяПодсказка" id="28"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="МоделиКартриджейУправлениеПоиском" id="29">
+								<AdditionSource>
+									<Item>МоделиКартриджей</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="МоделиКартриджейУправлениеПоискомКонтекстноеМеню" id="30"/>
+								<ExtendedTooltip name="МоделиКартриджейУправлениеПоискомРасширеннаяПодсказка" id="31"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="МоделиКартриджейНомерСтроки" id="32">
+									<DataPath>Объект.МоделиКартриджей.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="МоделиКартриджейНомерСтрокиКонтекстноеМеню" id="33"/>
+									<ExtendedTooltip name="МоделиКартриджейНомерСтрокиРасширеннаяПодсказка" id="34"/>
+								</LabelField>
+								<InputField name="МоделиКартриджейМодель" id="35">
+									<DataPath>Объект.МоделиКартриджей.Модель</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="МоделиКартриджейМодельКонтекстноеМеню" id="36"/>
+									<ExtendedTooltip name="МоделиКартриджейМодельРасширеннаяПодсказка" id="37"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Группа2" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<InputField name="Описание" id="16">
+							<DataPath>Объект.Описание</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<MultiLine>true</MultiLine>
+							<ContextMenu name="ОписаниеКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="18"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Принтеры</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

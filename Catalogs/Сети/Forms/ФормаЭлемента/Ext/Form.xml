@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Клиент" id="7">
+			<DataPath>Объект.Клиент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<DropListButton>false</DropListButton>
+			<ChoiceButton>true</ChoiceButton>
+			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+			<ClearButton>false</ClearButton>
+			<SpinButton>false</SpinButton>
+			<OpenButton>true</OpenButton>
+			<CreateButton>false</CreateButton>
+			<ContextMenu name="КлиентКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Шлюз" id="10">
+			<DataPath>Объект.Шлюз</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<DropListButton>false</DropListButton>
+			<ChoiceButton>true</ChoiceButton>
+			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+			<ClearButton>true</ClearButton>
+			<SpinButton>false</SpinButton>
+			<OpenButton>true</OpenButton>
+			<CreateButton>false</CreateButton>
+			<ContextMenu name="ШлюзКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ШлюзРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Сервер_DHCP" id="99">
+			<DataPath>Объект.Сервер_DHCP</DataPath>
+			<ContextMenu name="Сервер_DHCPКонтекстноеМеню" id="100"/>
+			<ExtendedTooltip name="Сервер_DHCPРасширеннаяПодсказка" id="101"/>
+		</InputField>
+		<Pages name="Группа1" id="41">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="42"/>
+			<ChildItems>
+				<Page name="Группа2" id="43">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Локальные IP</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="44"/>
+					<ChildItems>
+						<Table name="ЛокальныеIP" id="74">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ЛокальныеIP</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ЛокальныеIPКонтекстноеМеню" id="75"/>
+							<AutoCommandBar name="ЛокальныеIPКоманднаяПанель" id="76"/>
+							<ExtendedTooltip name="ЛокальныеIPРасширеннаяПодсказка" id="77"/>
+							<SearchStringAddition name="ЛокальныеIPСтрокаПоиска" id="78">
+								<AdditionSource>
+									<Item>ЛокальныеIP</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЛокальныеIPСтрокаПоискаКонтекстноеМеню" id="79"/>
+								<ExtendedTooltip name="ЛокальныеIPСтрокаПоискаРасширеннаяПодсказка" id="80"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ЛокальныеIPСостояниеПросмотра" id="81">
+								<AdditionSource>
+									<Item>ЛокальныеIP</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЛокальныеIPСостояниеПросмотраКонтекстноеМеню" id="82"/>
+								<ExtendedTooltip name="ЛокальныеIPСостояниеПросмотраРасширеннаяПодсказка" id="83"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ЛокальныеIPУправлениеПоиском" id="84">
+								<AdditionSource>
+									<Item>ЛокальныеIP</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ЛокальныеIPУправлениеПоискомКонтекстноеМеню" id="85"/>
+								<ExtendedTooltip name="ЛокальныеIPУправлениеПоискомРасширеннаяПодсказка" id="86"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ЛокальныеIPНомерСтроки" id="87">
+									<DataPath>Объект.ЛокальныеIP.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЛокальныеIPНомерСтрокиКонтекстноеМеню" id="88"/>
+									<ExtendedTooltip name="ЛокальныеIPНомерСтрокиРасширеннаяПодсказка" id="89"/>
+								</LabelField>
+								<InputField name="ЛокальныеIPIP" id="90">
+									<DataPath>Объект.ЛокальныеIP.IP</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЛокальныеIPIPКонтекстноеМеню" id="91"/>
+									<ExtendedTooltip name="ЛокальныеIPIPРасширеннаяПодсказка" id="92"/>
+								</InputField>
+								<InputField name="ЛокальныеIPMAC" id="93">
+									<DataPath>Объект.ЛокальныеIP.MAC</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЛокальныеIPMACКонтекстноеМеню" id="94"/>
+									<ExtendedTooltip name="ЛокальныеIPMACРасширеннаяПодсказка" id="95"/>
+								</InputField>
+								<InputField name="ЛокальныеIPОписание" id="96">
+									<DataPath>Объект.ЛокальныеIP.Описание</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЛокальныеIPОписаниеКонтекстноеМеню" id="97"/>
+									<ExtendedTooltip name="ЛокальныеIPОписаниеРасширеннаяПодсказка" id="98"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Группа4" id="47">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Внешние IP</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="48"/>
+					<ChildItems>
+						<Table name="ВнешниеIP" id="49">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ВнешниеIP</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ВнешниеIPКонтекстноеМеню" id="50"/>
+							<AutoCommandBar name="ВнешниеIPКоманднаяПанель" id="51"/>
+							<ExtendedTooltip name="ВнешниеIPРасширеннаяПодсказка" id="52"/>
+							<SearchStringAddition name="ВнешниеIPСтрокаПоиска" id="53">
+								<AdditionSource>
+									<Item>ВнешниеIP</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВнешниеIPСтрокаПоискаКонтекстноеМеню" id="54"/>
+								<ExtendedTooltip name="ВнешниеIPСтрокаПоискаРасширеннаяПодсказка" id="55"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ВнешниеIPСостояниеПросмотра" id="56">
+								<AdditionSource>
+									<Item>ВнешниеIP</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВнешниеIPСостояниеПросмотраКонтекстноеМеню" id="57"/>
+								<ExtendedTooltip name="ВнешниеIPСостояниеПросмотраРасширеннаяПодсказка" id="58"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ВнешниеIPУправлениеПоиском" id="59">
+								<AdditionSource>
+									<Item>ВнешниеIP</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ВнешниеIPУправлениеПоискомКонтекстноеМеню" id="60"/>
+								<ExtendedTooltip name="ВнешниеIPУправлениеПоискомРасширеннаяПодсказка" id="61"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ВнешниеIPНомерСтроки" id="62">
+									<DataPath>Объект.ВнешниеIP.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ВнешниеIPНомерСтрокиКонтекстноеМеню" id="63"/>
+									<ExtendedTooltip name="ВнешниеIPНомерСтрокиРасширеннаяПодсказка" id="64"/>
+								</LabelField>
+								<InputField name="ВнешниеIPIP" id="65">
+									<DataPath>Объект.ВнешниеIP.IP</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ВнешниеIPIPКонтекстноеМеню" id="66"/>
+									<ExtendedTooltip name="ВнешниеIPIPРасширеннаяПодсказка" id="67"/>
+								</InputField>
+								<InputField name="ВнешниеIPMAC" id="68">
+									<DataPath>Объект.ВнешниеIP.MAC</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ВнешниеIPMACКонтекстноеМеню" id="69"/>
+									<ExtendedTooltip name="ВнешниеIPMACРасширеннаяПодсказка" id="70"/>
+								</InputField>
+								<InputField name="ВнешниеIPОписание" id="71">
+									<DataPath>Объект.ВнешниеIP.Описание</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ВнешниеIPОписаниеКонтекстноеМеню" id="72"/>
+									<ExtendedTooltip name="ВнешниеIPОписаниеРасширеннаяПодсказка" id="73"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Группа5" id="102">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>DNS</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="103"/>
+					<ChildItems>
+						<Table name="DNS" id="104">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.DNS</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="DNSКонтекстноеМеню" id="105"/>
+							<AutoCommandBar name="DNSКоманднаяПанель" id="106"/>
+							<ExtendedTooltip name="DNSРасширеннаяПодсказка" id="107"/>
+							<SearchStringAddition name="DNSСтрокаПоиска" id="108">
+								<AdditionSource>
+									<Item>DNS</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="DNSСтрокаПоискаКонтекстноеМеню" id="109"/>
+								<ExtendedTooltip name="DNSСтрокаПоискаРасширеннаяПодсказка" id="110"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="DNSСостояниеПросмотра" id="111">
+								<AdditionSource>
+									<Item>DNS</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="DNSСостояниеПросмотраКонтекстноеМеню" id="112"/>
+								<ExtendedTooltip name="DNSСостояниеПросмотраРасширеннаяПодсказка" id="113"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="DNSУправлениеПоиском" id="114">
+								<AdditionSource>
+									<Item>DNS</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="DNSУправлениеПоискомКонтекстноеМеню" id="115"/>
+								<ExtendedTooltip name="DNSУправлениеПоискомРасширеннаяПодсказка" id="116"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="DNSНомерСтроки" id="117">
+									<DataPath>Объект.DNS.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="DNSНомерСтрокиКонтекстноеМеню" id="118"/>
+									<ExtendedTooltip name="DNSНомерСтрокиРасширеннаяПодсказка" id="119"/>
+								</LabelField>
+								<InputField name="DNSIP" id="120">
+									<DataPath>Объект.DNS.IP</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="DNSIPКонтекстноеМеню" id="121"/>
+									<ExtendedTooltip name="DNSIPРасширеннаяПодсказка" id="122"/>
+								</InputField>
+								<InputField name="DNSОписание" id="123">
+									<DataPath>Объект.DNS.Описание</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="DNSОписаниеКонтекстноеМеню" id="124"/>
+									<ExtendedTooltip name="DNSОписаниеРасширеннаяПодсказка" id="125"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Группа3" id="45">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="46"/>
+					<ChildItems>
+						<InputField name="Описание" id="13">
+							<DataPath>Объект.Описание</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<MultiLine>true</MultiLine>
+							<ContextMenu name="ОписаниеКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="15"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Сети</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

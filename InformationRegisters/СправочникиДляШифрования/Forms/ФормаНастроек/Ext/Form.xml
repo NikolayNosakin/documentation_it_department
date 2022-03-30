@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="Записать" id="49">
+				<Type>CommandBarButton</Type>
+				<Width>9</Width>
+				<CommandName>Form.Command.Записать</CommandName>
+				<ExtendedTooltip name="ЗаписатьРасширеннаяПодсказка" id="50"/>
+			</Button>
+			<Button name="ФормаОбработатьПароли" id="57">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОбработатьПароли</CommandName>
+				<ExtendedTooltip name="ФормаОбработатьПаролиРасширеннаяПодсказка" id="58"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Table name="ДеревоНастроек_" id="23">
+			<Representation>Tree</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<InitialTreeView>ExpandAllLevels</InitialTreeView>
+			<DataPath>ДеревоНастроек_</DataPath>
+			<CommandSet>
+				<ExcludedCommand>Add</ExcludedCommand>
+				<ExcludedCommand>Change</ExcludedCommand>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
+			</CommandSet>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ContextMenu name="ДеревоНастроек_КонтекстноеМеню" id="24"/>
+			<AutoCommandBar name="ДеревоНастроек_КоманднаяПанель" id="25">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ДеревоНастроек_РасширеннаяПодсказка" id="26"/>
+			<SearchStringAddition name="ДеревоНастроек_СтрокаПоиска" id="27">
+				<AdditionSource>
+					<Item>ДеревоНастроек_</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоНастроек_СтрокаПоискаКонтекстноеМеню" id="28"/>
+				<ExtendedTooltip name="ДеревоНастроек_СтрокаПоискаРасширеннаяПодсказка" id="29"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДеревоНастроек_СостояниеПросмотра" id="30">
+				<AdditionSource>
+					<Item>ДеревоНастроек_</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоНастроек_СостояниеПросмотраКонтекстноеМеню" id="31"/>
+				<ExtendedTooltip name="ДеревоНастроек_СостояниеПросмотраРасширеннаяПодсказка" id="32"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДеревоНастроек_УправлениеПоиском" id="33">
+				<AdditionSource>
+					<Item>ДеревоНастроек_</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоНастроек_УправлениеПоискомКонтекстноеМеню" id="34"/>
+				<ExtendedTooltip name="ДеревоНастроек_УправлениеПоискомРасширеннаяПодсказка" id="35"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ПраваИНастройкиНастройка" id="36">
+					<DataPath>ДеревоНастроек_.Настройка</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Справочник</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПраваИНастройкиНастройкаКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="ПраваИНастройкиНастройкаРасширеннаяПодсказка" id="38"/>
+				</InputField>
+				<InputField name="ПраваИНастройкиЗначение" id="39">
+					<DataPath>ДеревоНастроек_.Значение</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шифровать</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ChooseType>false</ChooseType>
+					<ContextMenu name="ПраваИНастройкиЗначениеКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="ПраваИНастройкиЗначениеРасширеннаяПодсказка" id="41"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="Группа2" id="55">
+			<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="56"/>
+			<ChildItems>
+				<Button name="ФормаОткрытьРегистрНастроек" id="51">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.ОткрытьРегистрНастроек</CommandName>
+					<ExtendedTooltip name="ФормаОткрытьРегистрНастроекРасширеннаяПодсказка" id="52"/>
+				</Button>
+				<Button name="ФормаОткрытьСписокНастроек" id="53">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.ОткрытьСписокНастроек</CommandName>
+					<ExtendedTooltip name="ФормаОткрытьСписокНастроекРасширеннаяПодсказка" id="54"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ДеревоНастроек_" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дерево настроек</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Настройка" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СправочникиДляШифрования</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Значение" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СправочникиДляШифрования</v8:TypeSet>
+					</Type>
+				</Column>
+				<Column name="ЭтоНастройка" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Это настройка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ПраваИНастройкиЗначение</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДеревоНастроек_.ЭтоНастройка</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="Записать" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Записать</Action>
+		</Command>
+		<Command name="ОткрытьРегистрНастроек" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистр настроек</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть регистр настроек</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьРегистрНастроек</Action>
+		</Command>
+		<Command name="ОткрытьСписокНастроек" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список настроек</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть список настроек</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьСписокНастроек</Action>
+		</Command>
+		<Command name="ОбработатьПароли" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать пароли</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать пароли</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбработатьПароли</Action>
+		</Command>
+	</Commands>
+</Form>
