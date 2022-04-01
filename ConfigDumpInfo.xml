@@ -12,14 +12,17 @@
 		<Metadata name="Catalog.SkackBots.Form.ФормаСписка.Form" id="4a82ce75-d65f-4c74-9362-444dc9279ffa.0" configVersion="714a02b3e23cb445a0e3a2b2c035c1c600000000"/>
 		<Metadata name="Catalog.SkackBots.Form.ФормаЭлемента" id="e4c012f4-d5b5-4bc8-8288-921cb7ebd3e2" configVersion="0f0cbc7902504c41a518e04fe7e1bd8200000000"/>
 		<Metadata name="Catalog.SkackBots.Form.ФормаЭлемента.Form" id="e4c012f4-d5b5-4bc8-8288-921cb7ebd3e2.0" configVersion="ac928fd116cdf544bdc607cc447d91ef00000000"/>
-		<Metadata name="Catalog.БД" id="975a813f-3ae0-4b58-b6a2-bc8c1e1f5ecd" configVersion="5c9cccee82446f48b37e4b9b6d6a968500000000">
+		<Metadata name="Catalog.БД" id="975a813f-3ae0-4b58-b6a2-bc8c1e1f5ecd" configVersion="885b750fd98b8240acf690c864fcd16000000000">
 			<Metadata name="Catalog.БД.Attribute.Тестовая" id="0182a90c-44f0-4369-9db0-fe1ced708fb5"/>
+			<Metadata name="Catalog.БД.Attribute.ОпубликованаНаWebСервере" id="01b2caed-be1a-4bbd-9531-f48cb1673928"/>
+			<Metadata name="Catalog.БД.Attribute.АдресПубликации" id="0e20ba42-aa30-47d2-bba5-2bcfe6906531"/>
 			<Metadata name="Catalog.БД.Attribute.Поддержка" id="0e901010-4daf-494d-8502-af088ee4fd77"/>
 			<Metadata name="Catalog.БД.Attribute.ИспользуетсяХранилище" id="194811f6-e04b-4f49-9a49-38e8e4ea28fe"/>
 			<Metadata name="Catalog.БД.Attribute.ТипБД" id="24b73af8-12bb-4f1f-b64f-aae7c5f08be5"/>
 			<Metadata name="Catalog.БД.TabularSection.ПользователиХранилища" id="278b538b-ead9-45d1-8e0a-9833a03a375d"/>
 			<Metadata name="Catalog.БД.TabularSection.ПользователиХранилища.Attribute.Описание" id="320c0be1-1640-4772-8e2a-fa41123d857a"/>
 			<Metadata name="Catalog.БД.TabularSection.ПользователиБД.Attribute.Логин" id="373dbf53-0965-44d9-aeef-72c11e817149"/>
+			<Metadata name="Catalog.БД.Attribute.WebСервер" id="4e4cff99-a620-4f89-afcd-7bca7bd20b71"/>
 			<Metadata name="Catalog.БД.TabularSection.ПользователиХранилища.Attribute.Пароль" id="60c79ec0-1835-4157-9ce2-583106610839"/>
 			<Metadata name="Catalog.БД.TabularSection.ПользователиБД" id="6b315e08-7755-45cc-a9d6-e795783e6dc2"/>
 			<Metadata name="Catalog.БД.TabularSection.ПользователиБД.Attribute.ПользовательОС" id="805dc6b0-9e65-4c9c-89b4-18eae70b82c8"/>
@@ -40,8 +43,8 @@
 		<Metadata name="Catalog.БД.Form.ФормаВыбора.Form" id="63589837-de5e-46fd-8f66-0dc1bd3bef1d.0" configVersion="65408c912fbe5e46ab02b6a24296eecc00000000"/>
 		<Metadata name="Catalog.БД.Form.ФормаСписка" id="945db473-6f6e-4af8-8419-d6bff2b50f53" configVersion="e80f97aa3a38324dacf22b32c973553e00000000"/>
 		<Metadata name="Catalog.БД.Form.ФормаСписка.Form" id="945db473-6f6e-4af8-8419-d6bff2b50f53.0" configVersion="71897c7eac758747bf54e6c5f35275da00000000"/>
-		<Metadata name="Catalog.БД.Form.ФормаЭлемента" id="3b6d2205-6291-4a3a-9c89-2bde1853a8c5" configVersion="24da1687629b9542af4c3bf7cf6da84300000000"/>
-		<Metadata name="Catalog.БД.Form.ФормаЭлемента.Form" id="3b6d2205-6291-4a3a-9c89-2bde1853a8c5.0" configVersion="ed8b9c899fb8744a8642c50be08809e100000000"/>
+		<Metadata name="Catalog.БД.Form.ФормаЭлемента" id="3b6d2205-6291-4a3a-9c89-2bde1853a8c5" configVersion="9170593fb8840d4fb1efb32f5e1a8d9500000000"/>
+		<Metadata name="Catalog.БД.Form.ФормаЭлемента.Form" id="3b6d2205-6291-4a3a-9c89-2bde1853a8c5.0" configVersion="707332a169ac9b419199348812bbec7a00000000"/>
 		<Metadata name="Catalog.БДПрисоединенныеФайлы" id="9603efba-5649-4d5b-9ed4-d338fbbef3d2" configVersion="58cd6362ac20d14c80b3b4989f30aa0200000000">
 			<Metadata name="Catalog.БДПрисоединенныеФайлы.Attribute.ДатаСоздания" id="148d09f7-219d-4c83-9466-31e22dd76d8b"/>
 			<Metadata name="Catalog.БДПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.УстановившийПодпись" id="171efb5a-06f3-4719-9f3c-17137f72817d"/>
@@ -3379,7 +3382,7 @@
 		<Metadata name="CommonTemplate.ОписаниеИзмененийСистемы.Template" id="65c823fc-ec4b-4082-8da2-ab42c6838c58.0" configVersion="115612821f39f145bfd4966311571f3200000000"/>
 		<Metadata name="CommonTemplate.ПолучениеДереваОбработчиковОбновления" id="88b879b7-1bb3-4478-b569-35bdb5c56939" configVersion="b256abacd00e1441bb247c7def79dd5100000000"/>
 		<Metadata name="CommonTemplate.ПолучениеДереваОбработчиковОбновления.Template" id="88b879b7-1bb3-4478-b569-35bdb5c56939.0" configVersion="a8327de3f9ba8d42a7d1da4d9ecffb3300000000"/>
-		<Metadata name="Configuration.Документация" id="78805868-fed3-4b34-b28e-7e7f38442044" configVersion="2c4086aadc59354bba9d0487671864c100000000"/>
+		<Metadata name="Configuration.Документация" id="78805868-fed3-4b34-b28e-7e7f38442044" configVersion="e2241cb12cbd9c4cac4e05c26884aaa000000000"/>
 		<Metadata name="Configuration.Документация.ClientApplicationInterface" id="5e51e0eb-9817-44a4-be96-dd10fb45fd43.b" configVersion="385bfce07362ff45b5744530134deae100000000"/>
 		<Metadata name="Configuration.Документация.CommandInterface" id="5e51e0eb-9817-44a4-be96-dd10fb45fd43.a" configVersion="489b79c41a78e4489466010c4697be1b00000000"/>
 		<Metadata name="Configuration.Документация.ExternalConnectionModule" id="5e51e0eb-9817-44a4-be96-dd10fb45fd43.5" configVersion="d4079715cbf0574ca8314aa135d0bd9900000000"/>
@@ -4179,6 +4182,11 @@
 		<Metadata name="DefinedType.ПрисоединенныйФайл" id="bef6081e-f377-41d6-83a1-b0e218a3fb46" configVersion="039db53dfc873f4d954519e5a57af49800000000"/>
 		<Metadata name="DefinedType.ПрисоединенныйФайлОбъект" id="9b67bfd5-ef23-4205-b7ba-9466517e9999" configVersion="e83145233580a84ab904a03a296c2c0000000000"/>
 		<Metadata name="DefinedType.ФизическоеЛицо" id="46b0a5b3-1fa7-44ff-a941-c6de47d36e77" configVersion="21de82fbe5c358468ac6a5b089ac1b5100000000"/>
+		<Metadata name="Enum.WebСерверы" id="2a59b6c8-438d-4507-a538-984d47e08f7d" configVersion="667d9dd9cc24d348888029d885b6694000000000">
+			<Metadata name="Enum.WebСерверы.EnumValue.Apache" id="b6cce945-d472-436f-a31b-bed33d603e4b"/>
+			<Metadata name="Enum.WebСерверы.EnumValue.ibsrv" id="d0d95154-cd45-49e6-986b-0308c3f7a785"/>
+			<Metadata name="Enum.WebСерверы.EnumValue.IIS" id="f44df00f-e653-4525-85f1-74f0dcfabffd"/>
+		</Metadata>
 		<Metadata name="Enum.ВариантыИспользованияВнешнихКомпонент" id="98aa8a80-29fa-4a54-8d0e-90d413d63da1" configVersion="333a728f9d12394489bb7cf18ee095af00000000">
 			<Metadata name="Enum.ВариантыИспользованияВнешнихКомпонент.EnumValue.Отключена" id="37e81463-a558-4b03-b0e4-82ac0e99c80c"/>
 			<Metadata name="Enum.ВариантыИспользованияВнешнихКомпонент.EnumValue.Используется" id="60af0c11-852e-4b45-afb7-251d75a87150"/>

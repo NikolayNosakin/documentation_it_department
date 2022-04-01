@@ -116,6 +116,45 @@
 			<ContextMenu name="ПутьК_БДКонтекстноеМеню" id="26"/>
 			<ExtendedTooltip name="ПутьК_БДРасширеннаяПодсказка" id="27"/>
 		</InputField>
+		<UsualGroup name="Группа6" id="132">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="133"/>
+			<ChildItems>
+				<UsualGroup name="Группа8" id="143">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="144"/>
+					<ChildItems>
+						<CheckBoxField name="ОпубликованаНаWebСервере" id="134">
+							<DataPath>Объект.ОпубликованаНаWebСервере</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОпубликованаНаWebСервереКонтекстноеМеню" id="135"/>
+							<ExtendedTooltip name="ОпубликованаНаWebСервереРасширеннаяПодсказка" id="136"/>
+							<Events>
+								<Event name="OnChange">ОпубликованаНаWebСервереПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<InputField name="WebСервер" id="137">
+							<DataPath>Объект.WebСервер</DataPath>
+							<HorizontalStretch>false</HorizontalStretch>
+							<DropListButton>false</DropListButton>
+							<ChoiceButton>true</ChoiceButton>
+							<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+							<ClearButton>false</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>false</OpenButton>
+							<CreateButton>false</CreateButton>
+							<ContextMenu name="WebСерверКонтекстноеМеню" id="138"/>
+							<ExtendedTooltip name="WebСерверРасширеннаяПодсказка" id="139"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="АдресПубликации" id="140">
+					<DataPath>Объект.АдресПубликации</DataPath>
+					<ContextMenu name="АдресПубликацииКонтекстноеМеню" id="141"/>
+					<ExtendedTooltip name="АдресПубликацииРасширеннаяПодсказка" id="142"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="Группа2" id="98">
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="99"/>
