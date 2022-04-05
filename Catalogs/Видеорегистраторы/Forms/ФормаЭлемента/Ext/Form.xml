@@ -67,6 +67,7 @@
 					<ChildItems>
 						<Table name="ПодключенныеКамеры" id="19">
 							<Representation>List</Representation>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -138,6 +139,7 @@
 					<ExtendedTooltip name="ГруппаУчетныеДанныеРасширеннаяПодсказка" id="48"/>
 					<ChildItems>
 						<Table name="УчетныеДанные" id="49">
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>

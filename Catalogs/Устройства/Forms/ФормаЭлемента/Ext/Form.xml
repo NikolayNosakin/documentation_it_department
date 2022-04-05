@@ -54,6 +54,18 @@
 				<Event name="OnChange">НазначитьНаименование</Event>
 			</Events>
 		</InputField>
+		<InputField name="Домен" id="101">
+			<DataPath>Объект.Домен</DataPath>
+			<DropListButton>false</DropListButton>
+			<ChoiceButton>true</ChoiceButton>
+			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+			<ClearButton>false</ClearButton>
+			<SpinButton>false</SpinButton>
+			<OpenButton>true</OpenButton>
+			<CreateButton>false</CreateButton>
+			<ContextMenu name="ДоменКонтекстноеМеню" id="102"/>
+			<ExtendedTooltip name="ДоменРасширеннаяПодсказка" id="103"/>
+		</InputField>
 		<Pages name="Страницы" id="13">
 			<Title>
 				<v8:item>
@@ -74,6 +86,7 @@
 					<ChildItems>
 						<Table name="IP" id="17">
 							<Representation>List</Representation>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -156,6 +169,7 @@
 					<ChildItems>
 						<Table name="УчетныеДанные" id="44">
 							<Representation>List</Representation>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -228,6 +242,7 @@
 					<ChildItems>
 						<Table name="Комплектующие" id="71">
 							<Representation>List</Representation>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>

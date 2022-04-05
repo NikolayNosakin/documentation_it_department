@@ -171,6 +171,7 @@
 					<ChildItems>
 						<Table name="IP" id="22">
 							<Representation>List</Representation>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -276,6 +277,7 @@
 									<ExtendedTooltip name="ЛокальныеРасширеннаяПодсказка" id="86"/>
 									<ChildItems>
 										<Table name="УчетныеДанные" id="55">
+											<HeightControlVariant>UseContentHeight</HeightControlVariant>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
@@ -353,6 +355,7 @@
 									<ExtendedTooltip name="ДоменныеРасширеннаяПодсказка" id="88"/>
 									<ChildItems>
 										<Table name="ДоменныеПользователи" id="89">
+											<HeightControlVariant>UseContentHeight</HeightControlVariant>
 											<UseAlternationRowColor>true</UseAlternationRowColor>
 											<EnableStartDrag>true</EnableStartDrag>
 											<DataPath>ДоменныеПользователи</DataPath>
@@ -453,6 +456,7 @@
 					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="136"/>
 					<ChildItems>
 						<Table name="Комплектующие" id="137">
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
