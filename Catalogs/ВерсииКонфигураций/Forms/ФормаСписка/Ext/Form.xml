@@ -84,6 +84,17 @@
 					<ContextMenu name="ДатаВыходаКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="ДатаВыходаРасширеннаяПодсказка" id="27"/>
 				</LabelField>
+				<LabelField name="ОбновлениеДляВерсийСтрока" id="28">
+					<DataPath>Список.ОбновлениеДляВерсийСтрока</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>С версий</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОбновлениеДляВерсийСтрокаКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ОбновлениеДляВерсийСтрокаРасширеннаяПодсказка" id="30"/>
+				</LabelField>
 				<LabelField name="Описание" id="19">
 					<DataPath>Список.Описание</DataPath>
 					<ContextMenu name="ОписаниеКонтекстноеМеню" id="20"/>
