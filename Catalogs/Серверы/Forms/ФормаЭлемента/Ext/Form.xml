@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
@@ -16,6 +16,7 @@
 			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<UsualGroup name="Группа7" id="127">
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="128"/>
@@ -48,6 +49,7 @@
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="Группа6" id="125">
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="126"/>
@@ -109,6 +111,7 @@
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="Группа5" id="123">
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="124"/>
@@ -158,6 +161,7 @@
 			</ChildItems>
 		</UsualGroup>
 		<Pages name="Группа1" id="41">
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="42"/>
 			<ChildItems>
 				<Page name="Группа2" id="43">
@@ -259,6 +263,7 @@
 					<ExtendedTooltip name="ГрУчетныеДанныеРасширеннаяПодсказка" id="54"/>
 					<ChildItems>
 						<Pages name="Группа4" id="83">
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
 							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="84"/>
 							<ChildItems>
 								<Page name="Локальные" id="85">
@@ -373,6 +378,7 @@
 											<ShowRoot>true</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="ДоменныеПользователиКонтекстноеМеню" id="90"/>
 											<AutoCommandBar name="ДоменныеПользователиКоманднаяПанель" id="91"/>
 											<ExtendedTooltip name="ДоменныеПользователиРасширеннаяПодсказка" id="92"/>
