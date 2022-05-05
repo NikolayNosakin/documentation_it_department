@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
@@ -33,39 +33,31 @@
 			<ContextMenu name="КлиентКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="9"/>
 		</InputField>
-		<UsualGroup name="Группа4" id="55">
-			<Behavior>Usual</Behavior>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="56"/>
-			<ChildItems>
-				<InputField name="ТипПодключения" id="13">
-					<DataPath>Объект.ТипПодключения</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<HorizontalStretch>false</HorizontalStretch>
-					<DropListButton>true</DropListButton>
-					<ChoiceButton>false</ChoiceButton>
-					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
-					<ClearButton>false</ClearButton>
-					<SpinButton>false</SpinButton>
-					<OpenButton>false</OpenButton>
-					<CreateButton>false</CreateButton>
-					<ContextMenu name="ТипПодключенияКонтекстноеМеню" id="14"/>
-					<ExtendedTooltip name="ТипПодключенияРасширеннаяПодсказка" id="15"/>
-					<Events>
-						<Event name="OnChange">ТипПодключенияПриИзменении</Event>
-					</Events>
-				</InputField>
-				<CheckBoxField name="Расшарен" id="52">
-					<DataPath>Объект.Расшарен</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="РасшаренКонтекстноеМеню" id="53"/>
-					<ExtendedTooltip name="РасшаренРасширеннаяПодсказка" id="54"/>
-					<Events>
-						<Event name="OnChange">ТипПодключенияПриИзменении</Event>
-					</Events>
-				</CheckBoxField>
-			</ChildItems>
-		</UsualGroup>
+		<InputField name="ТипПодключения" id="13">
+			<DataPath>Объект.ТипПодключения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<DropListButton>true</DropListButton>
+			<ChoiceButton>false</ChoiceButton>
+			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+			<ClearButton>false</ClearButton>
+			<SpinButton>false</SpinButton>
+			<OpenButton>false</OpenButton>
+			<CreateButton>false</CreateButton>
+			<ContextMenu name="ТипПодключенияКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ТипПодключенияРасширеннаяПодсказка" id="15"/>
+			<Events>
+				<Event name="OnChange">ТипПодключенияПриИзменении</Event>
+			</Events>
+		</InputField>
+		<CheckBoxField name="Расшарен" id="52">
+			<DataPath>Объект.Расшарен</DataPath>
+			<CheckBoxType>CheckBox</CheckBoxType>
+			<ContextMenu name="РасшаренКонтекстноеМеню" id="53"/>
+			<ExtendedTooltip name="РасшаренРасширеннаяПодсказка" id="54"/>
+			<Events>
+				<Event name="OnChange">ТипПодключенияПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
 		<InputField name="IP" id="10">
 			<DataPath>Объект.IP</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -147,6 +139,7 @@
 							<ChildItems>
 								<LabelField name="МоделиКартриджейНомерСтроки" id="32">
 									<DataPath>Объект.МоделиКартриджей.LineNumber</DataPath>
+									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="МоделиКартриджейНомерСтрокиКонтекстноеМеню" id="33"/>
 									<ExtendedTooltip name="МоделиКартриджейНомерСтрокиРасширеннаяПодсказка" id="34"/>

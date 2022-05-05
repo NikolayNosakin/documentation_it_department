@@ -229,7 +229,7 @@
 			<ModalityUseMode>UseWithWarnings</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_18</CompatibilityMode>
+			<CompatibilityMode>Version8_3_20</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
@@ -973,6 +973,8 @@
 			<CommonModule>ШифрованиеДанныхКлиент</CommonModule>
 			<CommonModule>СобытияФормКлиент</CommonModule>
 			<CommonModule>СобытияФормСервер</CommonModule>
+			<CommonModule>СохранениеВосстановлениеДанныхСервер</CommonModule>
+			<CommonModule>ЯндексДискОбменДанными</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
@@ -1157,6 +1159,7 @@
 			<Constant>ПараметрыБлокировкиРаботыСВнешнимиРесурсами</Constant>
 			<Constant>ПараметрыРезервногоКопирования</Constant>
 			<Constant>ПараметрыХраненияФайловВИБ</Constant>
+			<Constant>ПаролиЗашифрованы</Constant>
 			<Constant>ПользовательСтандартногоИнтерфейсаOData</Constant>
 			<Constant>ПроверятьИспользованиеУдаляемыхОбъектов</Constant>
 			<Constant>ПрофильБезопасностиИнформационнойБазы</Constant>
@@ -1173,12 +1176,17 @@
 			<Constant>СписокРасширенийФайловOpenDocument</Constant>
 			<Constant>СписокРасширенийФайловOpenDocumentОбластиДанных</Constant>
 			<Constant>СпособХраненияФайлов</Constant>
+			<Constant>УведомлятьОбОкончанииФН</Constant>
 			<Constant>УчетнаяЗаписьДляВосстановленияПароля</Constant>
 			<Constant>ХранитьФайлыВТомахНаДиске</Constant>
-			<Constant>УведомлятьОбОкончанииФН</Constant>
-			<Constant>ШифроватьПароли</Constant>
 			<Constant>ШифрованнаяСтрокаДляПроверкиПароля</Constant>
-			<Constant>ПаролиЗашифрованы</Constant>
+			<Constant>ШифроватьПароли</Constant>
+			<Constant>ЯД_ID_Приложения</Constant>
+			<Constant>ЯД_КодАвторизации</Constant>
+			<Constant>ЯД_ПарольПриложения</Constant>
+			<Constant>ЯД_СрокДействияТокена</Constant>
+			<Constant>ЯД_Токен</Constant>
+			<Constant>РезервноеКопированиеНаЯндексДиск</Constant>
 			<CommonForm>БлокировкаРаботыСВнешнимиРесурсами</CommonForm>
 			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
 			<CommonForm>ВводНаРазныхЯзыках</CommonForm>
@@ -1237,6 +1245,7 @@
 			<CommonForm>ФормаНастроекОтчета</CommonForm>
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>ФормаПоиска</CommonForm>
+			<CommonForm>ЯДФормаАвторизации</CommonForm>
 			<Catalog>SkackBots</Catalog>
 			<Catalog>БД</Catalog>
 			<Catalog>БДПрисоединенныеФайлы</Catalog>
@@ -1403,6 +1412,7 @@
 			<DataProcessor>ТестПодключенияК_FTP</DataProcessor>
 			<DataProcessor>УдалениеПомеченныхОбъектов</DataProcessor>
 			<DataProcessor>ГенераторПаролей</DataProcessor>
+			<DataProcessor>СохранениеВосстановлениеДанных</DataProcessor>
 			<InformationRegister>Slack_ИсторияСообщений</InformationRegister>
 			<InformationRegister>АдресныеОбъекты</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
