@@ -22,6 +22,13 @@
 				<Event name="DocumentComplete">АдресДокументСформирован</Event>
 			</Events>
 		</HTMLDocumentField>
+		<Button name="Сохранить" id="4">
+			<Type>UsualButton</Type>
+			<DefaultButton>true</DefaultButton>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.Сохранить</CommandName>
+			<ExtendedTooltip name="СохранитьРасширеннаяПодсказка" id="5"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Адрес" id="2">
@@ -40,4 +47,21 @@
 			</Type>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="Сохранить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сохранить</Action>
+		</Command>
+	</Commands>
 </Form>
