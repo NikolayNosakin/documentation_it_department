@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<CollapseItemsByImportanceVariant>DontUse</CollapseItemsByImportanceVariant>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -33,12 +34,10 @@
 					<v8:content>Командная панель содержания</v8:content>
 				</v8:item>
 			</ToolTip>
+			<VerticalAlign>Center</VerticalAlign>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="КоманднаяПанельСодержанияРасширеннаяПодсказка" id="128"/>
 			<ChildItems>
-				<CommandBar name="Группа14" id="252">
-					<ExtendedTooltip name="Группа14РасширеннаяПодсказка" id="253"/>
-				</CommandBar>
 				<UsualGroup name="Группа10" id="234">
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="235"/>
@@ -62,7 +61,6 @@
 							</ChildItems>
 						</UsualGroup>
 						<LabelDecoration name="Декорация2" id="165">
-							<Visible>false</Visible>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -71,41 +69,6 @@
 							</Title>
 							<ContextMenu name="Декорация2КонтекстноеМеню" id="166"/>
 							<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="167"/>
-						</LabelDecoration>
-						<UsualGroup name="Группа2" id="137">
-							<Visible>false</Visible>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="138"/>
-							<ChildItems>
-								<Button name="ВырезатьВБуферОбмена" id="139">
-									<Type>Hyperlink</Type>
-									<Representation>Picture</Representation>
-									<CommandName>Form.Item.Содержание.StandardCommand.CutToClipboard</CommandName>
-									<ExtendedTooltip name="ВырезатьВБуферОбменаРасширеннаяПодсказка" id="140"/>
-								</Button>
-								<Button name="КопироватьВБуферОбмена" id="141">
-									<Type>Hyperlink</Type>
-									<Representation>Picture</Representation>
-									<CommandName>Form.Item.Содержание.StandardCommand.CopyToClipboard</CommandName>
-									<ExtendedTooltip name="КопироватьВБуферОбменаРасширеннаяПодсказка" id="142"/>
-								</Button>
-								<Button name="ВставитьИзБуфераОбмена" id="143">
-									<Type>Hyperlink</Type>
-									<Representation>Picture</Representation>
-									<CommandName>Form.Item.Содержание.StandardCommand.PasteFromClipboard</CommandName>
-									<ExtendedTooltip name="ВставитьИзБуфераОбменаРасширеннаяПодсказка" id="144"/>
-								</Button>
-							</ChildItems>
-						</UsualGroup>
-						<LabelDecoration name="Декорация1" id="153">
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>|</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="Декорация1КонтекстноеМеню" id="154"/>
-							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="155"/>
 						</LabelDecoration>
 						<UsualGroup name="Группа9" id="228">
 							<ShowTitle>false</ShowTitle>
@@ -131,22 +94,16 @@
 								</Button>
 							</ChildItems>
 						</UsualGroup>
-						<LabelDecoration name="Декорация4" id="162">
+						<LabelDecoration name="Декорация1" id="153">
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>|</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Декорация4КонтекстноеМеню" id="163"/>
-							<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="164"/>
+							<ContextMenu name="Декорация1КонтекстноеМеню" id="154"/>
+							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="155"/>
 						</LabelDecoration>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="Группа11" id="236">
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="237"/>
-					<ChildItems>
 						<UsualGroup name="Группа1" id="129">
 							<HorizontalStretch>false</HorizontalStretch>
 							<VerticalStretch>false</VerticalStretch>
@@ -174,16 +131,22 @@
 								</Button>
 							</ChildItems>
 						</UsualGroup>
-						<LabelDecoration name="Декорация3" id="168">
+						<LabelDecoration name="Декорация4" id="162">
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>|</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Декорация3КонтекстноеМеню" id="169"/>
-							<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="170"/>
+							<ContextMenu name="Декорация4КонтекстноеМеню" id="163"/>
+							<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="164"/>
 						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа11" id="236">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="237"/>
+					<ChildItems>
 						<UsualGroup name="Группа4" id="171">
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="172"/>
@@ -202,15 +165,15 @@
 								</Button>
 							</ChildItems>
 						</UsualGroup>
-						<LabelDecoration name="Декорация5" id="177">
+						<LabelDecoration name="Декорация3" id="168">
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>|</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Декорация5КонтекстноеМеню" id="178"/>
-							<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="179"/>
+							<ContextMenu name="Декорация3КонтекстноеМеню" id="169"/>
+							<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="170"/>
 						</LabelDecoration>
 						<UsualGroup name="Группа6" id="195">
 							<ShowTitle>false</ShowTitle>
@@ -230,22 +193,16 @@
 								</Button>
 							</ChildItems>
 						</UsualGroup>
-						<LabelDecoration name="Декорация6" id="180">
+						<LabelDecoration name="Декорация5" id="177">
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>|</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Декорация6КонтекстноеМеню" id="181"/>
-							<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="182"/>
+							<ContextMenu name="Декорация5КонтекстноеМеню" id="178"/>
+							<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="179"/>
 						</LabelDecoration>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="Группа12" id="238">
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="Группа12РасширеннаяПодсказка" id="239"/>
-					<ChildItems>
 						<UsualGroup name="Группа7" id="201">
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="202"/>
@@ -276,16 +233,22 @@
 								</Button>
 							</ChildItems>
 						</UsualGroup>
-						<LabelDecoration name="Декорация7" id="183">
+						<LabelDecoration name="Декорация6" id="180">
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>|</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Декорация7КонтекстноеМеню" id="184"/>
-							<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="185"/>
+							<ContextMenu name="Декорация6КонтекстноеМеню" id="181"/>
+							<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="182"/>
 						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа12" id="238">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа12РасширеннаяПодсказка" id="239"/>
+					<ChildItems>
 						<UsualGroup name="Группа8" id="211">
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="212"/>
@@ -304,15 +267,15 @@
 								</Button>
 							</ChildItems>
 						</UsualGroup>
-						<LabelDecoration name="Декорация9" id="217">
+						<LabelDecoration name="Декорация7" id="183">
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>|</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Декорация9КонтекстноеМеню" id="218"/>
-							<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="219"/>
+							<ContextMenu name="Декорация7КонтекстноеМеню" id="184"/>
+							<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="185"/>
 						</LabelDecoration>
 						<UsualGroup name="Группа3" id="145">
 							<ShowTitle>false</ShowTitle>
@@ -338,6 +301,17 @@
 								</Button>
 							</ChildItems>
 						</UsualGroup>
+						<LabelDecoration name="Декорация9" id="217">
+							<Visible>false</Visible>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>|</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация9КонтекстноеМеню" id="218"/>
+							<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="219"/>
+						</LabelDecoration>
 						<LabelDecoration name="Декорация10" id="220">
 							<Visible>false</Visible>
 							<Title formatted="false">
@@ -349,6 +323,51 @@
 							<ContextMenu name="Декорация10КонтекстноеМеню" id="221"/>
 							<ExtendedTooltip name="Декорация10РасширеннаяПодсказка" id="222"/>
 						</LabelDecoration>
+						<CommandBar name="Группа13" id="242" DisplayImportance="VeryLow">
+							<EnableContentChange>true</EnableContentChange>
+							<HorizontalStretch>false</HorizontalStretch>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<HorizontalLocation>Right</HorizontalLocation>
+							<ExtendedTooltip name="Группа13РасширеннаяПодсказка" id="243"/>
+							<ChildItems>
+								<Button name="Зачеркивание" id="240">
+									<Type>CommandBarHyperlink</Type>
+									<Representation>Picture</Representation>
+									<CommandName>Form.Item.Содержание.StandardCommand.Strikeout</CommandName>
+									<Picture>
+										<xr:Ref>CommonPicture.Перечеркивание</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="ЗачеркиваниеРасширеннаяПодсказка" id="241"/>
+								</Button>
+								<Button name="МеждустрочныйИнтервал" id="244">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Item.Содержание.StandardCommand.LineSpacing</CommandName>
+									<Picture>
+										<xr:Ref>CommonPicture.МеждустрочныйИнтервал</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="МеждустрочныйИнтервалРасширеннаяПодсказка" id="245"/>
+								</Button>
+								<Button name="НайтиВезде" id="250">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Item.Содержание.StandardCommand.SearchEverywhere</CommandName>
+									<ExtendedTooltip name="НайтиВездеРасширеннаяПодсказка" id="251"/>
+								</Button>
+								<Button name="ВыделитьВсе" id="246">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Item.Содержание.StandardCommand.SelectAll</CommandName>
+									<ExtendedTooltip name="ВыделитьВсеРасширеннаяПодсказка" id="247"/>
+								</Button>
+								<Button name="Печать" id="248">
+									<Type>CommandBarHyperlink</Type>
+									<Representation>Picture</Representation>
+									<CommandName>Form.Item.Содержание.StandardCommand.Print</CommandName>
+									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+									<ExtendedTooltip name="ПечатьРасширеннаяПодсказка" id="249"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
 					</ChildItems>
 				</UsualGroup>
 				<LabelDecoration name="Декорация11" id="223">
@@ -362,47 +381,31 @@
 					<ContextMenu name="Декорация11КонтекстноеМеню" id="224"/>
 					<ExtendedTooltip name="Декорация11РасширеннаяПодсказка" id="225"/>
 				</LabelDecoration>
-				<CommandBar name="Группа13" id="242" DisplayImportance="VeryLow">
-					<ExtendedTooltip name="Группа13РасширеннаяПодсказка" id="243"/>
+				<UsualGroup name="Группа2" id="137">
+					<Visible>false</Visible>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="138"/>
 					<ChildItems>
-						<Button name="Зачеркивание" id="240">
-							<Type>CommandBarHyperlink</Type>
+						<Button name="ВырезатьВБуферОбмена" id="139">
+							<Type>Hyperlink</Type>
 							<Representation>Picture</Representation>
-							<CommandName>Form.Item.Содержание.StandardCommand.Strikeout</CommandName>
-							<Picture>
-								<xr:Ref>CommonPicture.Перечеркивание</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
-							</Picture>
-							<ExtendedTooltip name="ЗачеркиваниеРасширеннаяПодсказка" id="241"/>
+							<CommandName>Form.Item.Содержание.StandardCommand.CutToClipboard</CommandName>
+							<ExtendedTooltip name="ВырезатьВБуферОбменаРасширеннаяПодсказка" id="140"/>
 						</Button>
-						<Button name="МеждустрочныйИнтервал" id="244">
-							<Type>CommandBarButton</Type>
-							<CommandName>Form.Item.Содержание.StandardCommand.LineSpacing</CommandName>
-							<Picture>
-								<xr:Ref>CommonPicture.МеждустрочныйИнтервал</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
-							</Picture>
-							<ExtendedTooltip name="МеждустрочныйИнтервалРасширеннаяПодсказка" id="245"/>
-						</Button>
-						<Button name="НайтиВезде" id="250">
-							<Type>CommandBarButton</Type>
-							<CommandName>Form.Item.Содержание.StandardCommand.SearchEverywhere</CommandName>
-							<ExtendedTooltip name="НайтиВездеРасширеннаяПодсказка" id="251"/>
-						</Button>
-						<Button name="ВыделитьВсе" id="246">
-							<Type>CommandBarButton</Type>
-							<CommandName>Form.Item.Содержание.StandardCommand.SelectAll</CommandName>
-							<ExtendedTooltip name="ВыделитьВсеРасширеннаяПодсказка" id="247"/>
-						</Button>
-						<Button name="Печать" id="248">
-							<Type>CommandBarHyperlink</Type>
+						<Button name="КопироватьВБуферОбмена" id="141">
+							<Type>Hyperlink</Type>
 							<Representation>Picture</Representation>
-							<CommandName>Form.Item.Содержание.StandardCommand.Print</CommandName>
-							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-							<ExtendedTooltip name="ПечатьРасширеннаяПодсказка" id="249"/>
+							<CommandName>Form.Item.Содержание.StandardCommand.CopyToClipboard</CommandName>
+							<ExtendedTooltip name="КопироватьВБуферОбменаРасширеннаяПодсказка" id="142"/>
+						</Button>
+						<Button name="ВставитьИзБуфераОбмена" id="143">
+							<Type>Hyperlink</Type>
+							<Representation>Picture</Representation>
+							<CommandName>Form.Item.Содержание.StandardCommand.PasteFromClipboard</CommandName>
+							<ExtendedTooltip name="ВставитьИзБуфераОбменаРасширеннаяПодсказка" id="144"/>
 						</Button>
 					</ChildItems>
-				</CommandBar>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="СодержаниеЗаметки" id="14">
