@@ -125,6 +125,11 @@
 					<ContextMenu name="ТипПодключенияКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="ТипПодключенияРасширеннаяПодсказка" id="27"/>
 				</LabelField>
+				<LabelField name="Местоположение" id="37">
+					<DataPath>Список.Местоположение</DataPath>
+					<ContextMenu name="МестоположениеКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="МестоположениеРасширеннаяПодсказка" id="39"/>
+				</LabelField>
 				<LabelField name="Описание" id="28">
 					<DataPath>Список.Описание</DataPath>
 					<ContextMenu name="ОписаниеКонтекстноеМеню" id="29"/>
@@ -152,7 +157,8 @@
 	Принтеры.ТипПодключения КАК ТипПодключения,
 	Принтеры.Описание КАК Описание,
 	Принтеры.Предопределенный КАК Предопределенный,
-	Принтеры.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных
+	Принтеры.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
+	Принтеры.Местоположение КАК Местоположение
 ИЗ
 	Справочник.док_Принтеры КАК Принтеры
 ГДЕ
@@ -221,6 +227,10 @@
 					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
 					<dcssch:field>Предопределенный</dcssch:field>
 				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Местоположение</dcssch:dataPath>
+					<dcssch:field>Местоположение</dcssch:field>
+				</Field>
 				<Parameter>
 					<dcssch:name>Клиент</dcssch:name>
 					<dcssch:title xsi:type="v8:LocalStringType">
@@ -241,7 +251,6 @@
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
-					<dcsset:dataParameters/>
 					<dcsset:order>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>

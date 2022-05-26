@@ -64,6 +64,18 @@
 			<ContextMenu name="IPКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="IPРасширеннаяПодсказка" id="12"/>
 		</InputField>
+		<InputField name="Местоположение" id="55">
+			<DataPath>Объект.Местоположение</DataPath>
+			<DropListButton>false</DropListButton>
+			<ChoiceButton>true</ChoiceButton>
+			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+			<ClearButton>false</ClearButton>
+			<SpinButton>false</SpinButton>
+			<OpenButton>true</OpenButton>
+			<CreateButton>false</CreateButton>
+			<ContextMenu name="МестоположениеКонтекстноеМеню" id="56"/>
+			<ExtendedTooltip name="МестоположениеРасширеннаяПодсказка" id="57"/>
+		</InputField>
 		<UsualGroup name="Группа3" id="50">
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>

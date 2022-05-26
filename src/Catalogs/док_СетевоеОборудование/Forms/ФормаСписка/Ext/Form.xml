@@ -130,6 +130,11 @@
 					<ContextMenu name="IPКонтекстноеМеню" id="38"/>
 					<ExtendedTooltip name="IPРасширеннаяПодсказка" id="39"/>
 				</LabelField>
+				<LabelField name="Местоположение" id="40">
+					<DataPath>Список.Местоположение</DataPath>
+					<ContextMenu name="МестоположениеКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="МестоположениеРасширеннаяПодсказка" id="42"/>
+				</LabelField>
 				<LabelField name="Описание" id="25">
 					<DataPath>Список.Описание</DataPath>
 					<ContextMenu name="ОписаниеКонтекстноеМеню" id="26"/>
@@ -158,7 +163,8 @@
 	СетевоеОборудование.Описание КАК Описание,
 	СетевоеОборудование.Предопределенный КАК Предопределенный,
 	СетевоеОборудование.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
-	ЕСТЬNULL(СетевоеОборудованиеIP.IP, "") КАК IP
+	ЕСТЬNULL(СетевоеОборудованиеIP.IP, "") КАК IP,
+	СетевоеОборудование.Местоположение КАК Местоположение
 ИЗ
 	Справочник.док_СетевоеОборудование КАК СетевоеОборудование
 		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.док_СетевоеОборудование.IP КАК СетевоеОборудованиеIP
@@ -224,6 +230,10 @@
 						</v8:item>
 					</dcssch:title>
 				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Местоположение</dcssch:dataPath>
+					<dcssch:field>Местоположение</dcssch:field>
+				</Field>
 				<Parameter>
 					<dcssch:name>Клиент</dcssch:name>
 					<dcssch:title xsi:type="v8:LocalStringType">
@@ -244,7 +254,6 @@
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
-					<dcsset:dataParameters/>
 					<dcsset:order>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>

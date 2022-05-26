@@ -133,6 +133,11 @@
 					<ContextMenu name="IPКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="IPРасширеннаяПодсказка" id="27"/>
 				</LabelField>
+				<LabelField name="Местоположение" id="39">
+					<DataPath>Список.Местоположение</DataPath>
+					<ContextMenu name="МестоположениеКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="МестоположениеРасширеннаяПодсказка" id="41"/>
+				</LabelField>
 				<LabelField name="Описание" id="28">
 					<DataPath>Список.Описание</DataPath>
 					<ContextMenu name="ОписаниеКонтекстноеМеню" id="29"/>
@@ -151,25 +156,25 @@
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
-	СправочникВидеорегистраторы.Ссылка,
-	СправочникВидеорегистраторы.ПометкаУдаления,
-	СправочникВидеорегистраторы.Код,
-	СправочникВидеорегистраторы.Наименование,
-	СправочникВидеорегистраторы.Клиент,
-	СправочникВидеорегистраторы.Тип,
-	СправочникВидеорегистраторы.IP,
-	СправочникВидеорегистраторы.Описание,
-	СправочникВидеорегистраторы.ПодключенныеКамеры,
-	СправочникВидеорегистраторы.Предопределенный,
-	СправочникВидеорегистраторы.ИмяПредопределенныхДанных
+	Видеорегистраторы.Ссылка КАК Ссылка,
+	Видеорегистраторы.ПометкаУдаления КАК ПометкаУдаления,
+	Видеорегистраторы.Код КАК Код,
+	Видеорегистраторы.Наименование КАК Наименование,
+	Видеорегистраторы.Клиент КАК Клиент,
+	Видеорегистраторы.Тип КАК Тип,
+	Видеорегистраторы.IP КАК IP,
+	Видеорегистраторы.Описание КАК Описание,
+	Видеорегистраторы.Предопределенный КАК Предопределенный,
+	Видеорегистраторы.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
+	Видеорегистраторы.Местоположение КАК Местоположение
 ИЗ
-	Справочник.док_Видеорегистраторы КАК СправочникВидеорегистраторы
+	Справочник.док_Видеорегистраторы КАК Видеорегистраторы
 ГДЕ
 	ВЫБОР
 			КОГДА &amp;Клиент = ЗНАЧЕНИЕ(Справочник.док_Клиенты.ПустаяСсылка)
 				ТОГДА ИСТИНА
-			ИНАЧЕ СправочникВидеорегистраторы.Клиент = &amp;Клиент
-		КОНЕЦ	</QueryText>
+			ИНАЧЕ Видеорегистраторы.Клиент = &amp;Клиент
+		КОНЕЦ</QueryText>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Наименование</dcssch:dataPath>
 					<dcssch:field>Наименование</dcssch:field>
@@ -210,22 +215,6 @@
 					<dcssch:dataPath>Описание</dcssch:dataPath>
 					<dcssch:field>Описание</dcssch:field>
 				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ПодключенныеКамеры.НомерСтроки</dcssch:dataPath>
-					<dcssch:field>ПодключенныеКамеры.НомерСтроки</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ПодключенныеКамеры.Ссылка</dcssch:dataPath>
-					<dcssch:field>ПодключенныеКамеры.Ссылка</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ПодключенныеКамеры.Камера</dcssch:dataPath>
-					<dcssch:field>ПодключенныеКамеры.Камера</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ПодключенныеКамеры.IP</dcssch:dataPath>
-					<dcssch:field>ПодключенныеКамеры.IP</dcssch:field>
-				</Field>
 				<Field xsi:type="dcssch:DataSetFieldNestedDataSet">
 					<dcssch:dataPath>ПодключенныеКамеры</dcssch:dataPath>
 					<dcssch:field>ПодключенныеКамеры</dcssch:field>
@@ -233,6 +222,10 @@
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
 					<dcssch:field>Предопределенный</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Местоположение</dcssch:dataPath>
+					<dcssch:field>Местоположение</dcssch:field>
 				</Field>
 				<Parameter>
 					<dcssch:name>Клиент</dcssch:name>
@@ -254,7 +247,6 @@
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
-					<dcsset:dataParameters/>
 					<dcsset:order>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
