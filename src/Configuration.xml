@@ -235,10 +235,10 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Администрирование</Subsystem>
-			<Subsystem>БД</Subsystem>
-			<Subsystem>Взаимодействия</Subsystem>
-			<Subsystem>Железо</Subsystem>
-			<Subsystem>НСИ</Subsystem>
+			<Subsystem>док_БД</Subsystem>
+			<Subsystem>док_Взаимодействия</Subsystem>
+			<Subsystem>док_Железо</Subsystem>
+			<Subsystem>док_НСИ</Subsystem>
 			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
 			<StyleItem>ВажнаяНадписьШрифт</StyleItem>
@@ -655,7 +655,7 @@
 			<SessionParameter>ТекущийВнешнийПользователь</SessionParameter>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<SessionParameter>УстановленныеРасширения</SessionParameter>
-			<SessionParameter>ПарольДляШифрования</SessionParameter>
+			<SessionParameter>док_ПарольДляШифрования</SessionParameter>
 			<Role>АдминистраторСистемы</Role>
 			<Role>Администрирование</Role>
 			<Role>БазовыеПраваБСП</Role>
@@ -712,7 +712,6 @@
 			<CommonTemplate>ПолучениеДереваОбработчиковОбновления</CommonTemplate>
 			<FilterCriterion>ФайлыВТоме</FilterCriterion>
 			<CommonModule>GoogleПереводчик</CommonModule>
-			<CommonModule>nns_ОбщегоНазначения</CommonModule>
 			<CommonModule>АдминистрированиеКластера</CommonModule>
 			<CommonModule>АдминистрированиеКластераCOM</CommonModule>
 			<CommonModule>АдминистрированиеКластераCOMКлиентСервер</CommonModule>
@@ -753,6 +752,10 @@
 			<CommonModule>ДлительныеОперацииВызовСервера</CommonModule>
 			<CommonModule>ДлительныеОперацииГлобальный</CommonModule>
 			<CommonModule>ДлительныеОперацииКлиент</CommonModule>
+			<CommonModule>док__ОбщегоНазначения</CommonModule>
+			<CommonModule>док_ИнтеграцияSlack</CommonModule>
+			<CommonModule>док_ШифрованиеДанныхКлиент</CommonModule>
+			<CommonModule>док_ШифрованиеДанныхСервер</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработки</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработкиВБезопасномРежимеСлужебный</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработкиВызовСервера</CommonModule>
@@ -777,7 +780,6 @@
 			<CommonModule>ЗапретРедактированияРеквизитовОбъектовПереопределяемый</CommonModule>
 			<CommonModule>ЗапретРедактированияРеквизитовОбъектовСлужебный</CommonModule>
 			<CommonModule>ЗапретРедактированияРеквизитовОбъектовСлужебныйКлиент</CommonModule>
-			<CommonModule>ИнтеграцияSlack</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСП</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСПКлиент</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСПКлиентПовтИсп</CommonModule>
@@ -907,6 +909,8 @@
 			<CommonModule>РезервноеКопированиеИБКлиент</CommonModule>
 			<CommonModule>РезервноеКопированиеИБКлиентПереопределяемый</CommonModule>
 			<CommonModule>РезервноеКопированиеИБСервер</CommonModule>
+			<CommonModule>СобытияФормКлиент</CommonModule>
+			<CommonModule>СобытияФормСервер</CommonModule>
 			<CommonModule>СоединенияИБ</CommonModule>
 			<CommonModule>СоединенияИБВызовСервера</CommonModule>
 			<CommonModule>СоединенияИБГлобальный</CommonModule>
@@ -916,6 +920,7 @@
 			<CommonModule>СозданиеНаОсновании</CommonModule>
 			<CommonModule>СозданиеНаОснованииПереопределяемый</CommonModule>
 			<CommonModule>СозданиеНаОснованииПовтИсп</CommonModule>
+			<CommonModule>СохранениеВосстановлениеДанныхСервер</CommonModule>
 			<CommonModule>СтандартныеПодсистемыВызовСервера</CommonModule>
 			<CommonModule>СтандартныеПодсистемыГлобальный</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиент</CommonModule>
@@ -970,13 +975,8 @@
 			<CommonModule>ФайловаяСистемаСлужебныйКлиент</CommonModule>
 			<CommonModule>ФайловаяСистемаСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ФизическиеЛицаКлиентСервер</CommonModule>
-			<CommonModule>ЯндексПереводчик</CommonModule>
-			<CommonModule>ШифрованиеДанныхСервер</CommonModule>
-			<CommonModule>ШифрованиеДанныхКлиент</CommonModule>
-			<CommonModule>СобытияФормКлиент</CommonModule>
-			<CommonModule>СобытияФормСервер</CommonModule>
-			<CommonModule>СохранениеВосстановлениеДанныхСервер</CommonModule>
 			<CommonModule>ЯндексДискОбменДанными</CommonModule>
+			<CommonModule>ЯндексПереводчик</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
@@ -1023,11 +1023,12 @@
 			<EventSubscription>СвойстваПередУдалениемСсылочногоОбъекта</EventSubscription>
 			<EventSubscription>СкопироватьРеквизитыВерсииФайловВФайл</EventSubscription>
 			<EventSubscription>УстановитьПометкуУдаленияПрисоединенныхФайлов</EventSubscription>
+			<ScheduledJob>док_Slack_РассылкаСообщений</ScheduledJob>
+			<ScheduledJob>док_ОтправкаУведомленийОбОкончанииФН</ScheduledJob>
 			<ScheduledJob>ЗапускДополнительныхОбработок</ScheduledJob>
 			<ScheduledJob>ИзвлечениеТекста</ScheduledJob>
 			<ScheduledJob>ИсправлениеУстаревшихАдресов</ScheduledJob>
 			<ScheduledJob>КонтрольАктивностиПользователей</ScheduledJob>
-			<ScheduledJob>Slack_РассылкаСообщений</ScheduledJob>
 			<ScheduledJob>ОбновлениеИндексаППД</ScheduledJob>
 			<ScheduledJob>ОбновлениеПредопределенныхВариантовОтчетов</ScheduledJob>
 			<ScheduledJob>ОбработкаСервисовИнтеграции</ScheduledJob>
@@ -1038,7 +1039,6 @@
 			<ScheduledJob>СлияниеИндексаППД</ScheduledJob>
 			<ScheduledJob>УдалениеПомеченных</ScheduledJob>
 			<ScheduledJob>УдалениеУстаревшихПараметровРаботыВерсийРасширений</ScheduledJob>
-			<ScheduledJob>ОтправкаУведомленийОбОкончанииФН</ScheduledJob>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьВнешнихПользователей</FunctionalOption>
 			<FunctionalOption>ИспользоватьГруппыВнешнихПользователей</FunctionalOption>
@@ -1062,8 +1062,8 @@
 			<FunctionalOption>СтандартныеПодсистемыВЛокальномРежиме</FunctionalOption>
 			<FunctionalOption>СтандартныеПодсистемыВМоделиСервиса</FunctionalOption>
 			<FunctionalOption>ХранитьФайлыВТомахНаДиске</FunctionalOption>
-			<FunctionalOption>УведомлятьОбОкончанииФН</FunctionalOption>
-			<FunctionalOption>ШифроватьПароли</FunctionalOption>
+			<FunctionalOption>док_УведомлятьОбОкончанииФН</FunctionalOption>
+			<FunctionalOption>док_ШифроватьПароли</FunctionalOption>
 			<FunctionalOptionsParameter>ДополнительныеОтчетыИОбработкиОбъектНазначения</FunctionalOptionsParameter>
 			<FunctionalOptionsParameter>ДополнительныеОтчетыИОбработкиТипФормы</FunctionalOptionsParameter>
 			<DefinedType>БезопасныйРежим</DefinedType>
@@ -1230,7 +1230,7 @@
 			<CommonForm>ПредупреждениеБезопасности</CommonForm>
 			<CommonForm>ПредупрежденияПриЗавершенииРаботы</CommonForm>
 			<CommonForm>ПустойРабочийСтол</CommonForm>
-			<CommonForm>РабочийСтол</CommonForm>
+			<CommonForm>док_РабочийСтол</CommonForm>
 			<CommonForm>Расширения</CommonForm>
 			<CommonForm>РегиональныеНастройки</CommonForm>
 			<CommonForm>РедактированиеГиперссылки</CommonForm>
@@ -1240,7 +1240,7 @@
 			<CommonForm>СозданиеНачальногоОбразаСФайлами</CommonForm>
 			<CommonForm>СохранениеПечатнойФормы</CommonForm>
 			<CommonForm>СравнениеТабличныхДокументов</CommonForm>
-			<CommonForm>СменитьСтиль</CommonForm>
+			<CommonForm>док_СменитьСтиль</CommonForm>
 			<CommonForm>УстановкаВнешнейКомпонентыНевозможна</CommonForm>
 			<CommonForm>ФайлыВТоме</CommonForm>
 			<CommonForm>ФормаВариантаОтчета</CommonForm>
@@ -1248,26 +1248,53 @@
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>ФормаПоиска</CommonForm>
 			<CommonForm>ЯДФормаАвторизации</CommonForm>
-			<CommonForm>СохранениеВосстановлениеДанных</CommonForm>
-			<Catalog>SkackBots</Catalog>
-			<Catalog>БД</Catalog>
-			<Catalog>БДПрисоединенныеФайлы</Catalog>
+			<CommonForm>док_СохранениеВосстановлениеДанных</CommonForm>
 			<Catalog>ВариантыОтчетов</Catalog>
-			<Catalog>ВерсииКонфигураций</Catalog>
-			<Catalog>ВерсииПлатформы1С</Catalog>
 			<Catalog>ВерсииРасширений</Catalog>
 			<Catalog>ВерсииФайлов</Catalog>
-			<Catalog>Видеорегистраторы</Catalog>
-			<Catalog>ВидеорегистраторыПрисоединенныеФайлы</Catalog>
-			<Catalog>ВидыКомплектующих</Catalog>
 			<Catalog>ВидыКонтактнойИнформации</Catalog>
-			<Catalog>ВидыУстройств</Catalog>
 			<Catalog>ВнешниеКомпоненты</Catalog>
 			<Catalog>ВнешниеПользователи</Catalog>
 			<Catalog>ГруппыВнешнихПользователей</Catalog>
 			<Catalog>ГруппыПользователей</Catalog>
-			<Catalog>Домены</Catalog>
-			<Catalog>ДоменыПрисоединенныеФайлы</Catalog>
+			<Catalog>док_SkackBots</Catalog>
+			<Catalog>док_БД</Catalog>
+			<Catalog>док_БДПрисоединенныеФайлы</Catalog>
+			<Catalog>док_ВерсииКонфигураций</Catalog>
+			<Catalog>док_ВерсииПлатформы1С</Catalog>
+			<Catalog>док_Видеорегистраторы</Catalog>
+			<Catalog>док_ВидеорегистраторыПрисоединенныеФайлы</Catalog>
+			<Catalog>док_ВидыКомплектующих</Catalog>
+			<Catalog>док_ВидыУстройств</Catalog>
+			<Catalog>док_Домены</Catalog>
+			<Catalog>док_ДоменыПрисоединенныеФайлы</Catalog>
+			<Catalog>док_Кассы</Catalog>
+			<Catalog>док_КассыПрисоединенныеФайлы</Catalog>
+			<Catalog>док_Клиенты</Catalog>
+			<Catalog>док_КлиентыПрисоединенныеФайлы</Catalog>
+			<Catalog>док_Конфигурации</Catalog>
+			<Catalog>док_Лицензии</Catalog>
+			<Catalog>док_ЛицензииПрисоединенныеФайлы</Catalog>
+			<Catalog>док_Номенклатура</Catalog>
+			<Catalog>док_ОперационныеСистемы</Catalog>
+			<Catalog>док_Принтеры</Catalog>
+			<Catalog>док_ПринтерыПрисоединенныеФайлы</Catalog>
+			<Catalog>док_Серверы</Catalog>
+			<Catalog>док_СерверыVPN</Catalog>
+			<Catalog>док_СерверыVPNПрисоединенныеФайлы</Catalog>
+			<Catalog>док_СерверыПрисоединенныеФайлы</Catalog>
+			<Catalog>док_Сервисы</Catalog>
+			<Catalog>док_СетевоеОборудование</Catalog>
+			<Catalog>док_СетевоеОборудованиеПрисоединенныеФайлы</Catalog>
+			<Catalog>док_Сети</Catalog>
+			<Catalog>док_СетиПрисоединенныеФайлы</Catalog>
+			<Catalog>док_СУБД</Catalog>
+			<Catalog>док_СУБДПрисоединенныеФайлы</Catalog>
+			<Catalog>док_Устройства</Catalog>
+			<Catalog>док_УстройстваПрисоединенныеФайлы</Catalog>
+			<Catalog>док_УстройстваСУдаленнымУправлением</Catalog>
+			<Catalog>док_УчетныеДанныеСервисов</Catalog>
+			<Catalog>док_УчетныеДанныеСервисовПрисоединенныеФайлы</Catalog>
 			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
 			<Catalog>Заметки</Catalog>
 			<Catalog>ЗаметкиПрисоединенныеФайлы</Catalog>
@@ -1275,42 +1302,15 @@
 			<Catalog>ЗначенияСвойствОбъектовИерархия</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
 			<Catalog>ИдентификаторыОбъектовРасширений</Catalog>
-			<Catalog>Кассы</Catalog>
-			<Catalog>КассыПрисоединенныеФайлы</Catalog>
-			<Catalog>Клиенты</Catalog>
-			<Catalog>КлиентыПрисоединенныеФайлы</Catalog>
-			<Catalog>Конфигурации</Catalog>
-			<Catalog>Лицензии</Catalog>
-			<Catalog>ЛицензииПрисоединенныеФайлы</Catalog>
 			<Catalog>МакетыПечатныхФорм</Catalog>
 			<Catalog>НаборыДополнительныхРеквизитовИСведений</Catalog>
-			<Catalog>Номенклатура</Catalog>
-			<Catalog>ОперационныеСистемы</Catalog>
 			<Catalog>ПапкиФайлов</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>ПользовательскиеНастройкиОтчетов</Catalog>
 			<Catalog>ПредопределенныеВариантыОтчетов</Catalog>
 			<Catalog>ПредопределенныеВариантыОтчетовРасширений</Catalog>
-			<Catalog>Принтеры</Catalog>
-			<Catalog>ПринтерыПрисоединенныеФайлы</Catalog>
-			<Catalog>Серверы</Catalog>
-			<Catalog>СерверыVPN</Catalog>
-			<Catalog>СерверыVPNПрисоединенныеФайлы</Catalog>
-			<Catalog>СерверыПрисоединенныеФайлы</Catalog>
-			<Catalog>Сервисы</Catalog>
-			<Catalog>СетевоеОборудование</Catalog>
-			<Catalog>СетевоеОборудованиеПрисоединенныеФайлы</Catalog>
-			<Catalog>Сети</Catalog>
-			<Catalog>СетиПрисоединенныеФайлы</Catalog>
 			<Catalog>СтраныМира</Catalog>
-			<Catalog>СУБД</Catalog>
-			<Catalog>СУБДПрисоединенныеФайлы</Catalog>
 			<Catalog>ТомаХраненияФайлов</Catalog>
-			<Catalog>Устройства</Catalog>
-			<Catalog>УстройстваПрисоединенныеФайлы</Catalog>
-			<Catalog>УстройстваСУдаленнымУправлением</Catalog>
-			<Catalog>УчетныеДанныеСервисов</Catalog>
-			<Catalog>УчетныеДанныеСервисовПрисоединенныеФайлы</Catalog>
 			<Catalog>УчетныеЗаписиСинхронизацииФайлов</Catalog>
 			<Catalog>УчетныеЗаписиЭлектроннойПочты</Catalog>
 			<Catalog>Файлы</Catalog>
@@ -1323,11 +1323,21 @@
 			<Enum>ВариантыСжатияTIFF</Enum>
 			<Enum>ВидыДополнительныхОтчетовИОбработок</Enum>
 			<Enum>ДействияСФайламиПоДвойномуЩелчку</Enum>
+			<Enum>док_WebСерверы</Enum>
+			<Enum>док_ПоддержкаКонфигурации</Enum>
+			<Enum>док_ПоколениеВМ</Enum>
+			<Enum>док_ПрограммаУдаленногоУправления</Enum>
+			<Enum>док_Разрядность</Enum>
+			<Enum>док_ТипБД</Enum>
+			<Enum>док_ТипВидеорегистратора</Enum>
+			<Enum>док_ТипНоменклатуры</Enum>
+			<Enum>док_ТипПодключения</Enum>
+			<Enum>док_ТипСервера</Enum>
+			<Enum>док_ТипСетевогоОборудования</Enum>
+			<Enum>док_ТипыVPN</Enum>
 			<Enum>ДоступныеПериодыОтчета</Enum>
 			<Enum>ОперацииАдминистрированияПрофилейБезопасности</Enum>
 			<Enum>ПериодОчисткиФайлов</Enum>
-			<Enum>ПоддержкаКонфигурации</Enum>
-			<Enum>ПоколениеВМ</Enum>
 			<Enum>РазмерыБумаги</Enum>
 			<Enum>РазрешенияСканированногоИзображения</Enum>
 			<Enum>РежимыВыполненияОбработчиков</Enum>
@@ -1342,16 +1352,10 @@
 			<Enum>СпособыРедактированияЭлектронныхПисем</Enum>
 			<Enum>СпособыСравненияВерсийФайлов</Enum>
 			<Enum>СпособыУстановкиВремениНапоминания</Enum>
-			<Enum>СтатусКлиента</Enum>
+			<Enum>док_СтатусКлиента</Enum>
 			<Enum>СтатусыИзвлеченияТекстаФайлов</Enum>
 			<Enum>СтатусыОбработчиковОбновления</Enum>
-			<Enum>ТипБД</Enum>
-			<Enum>ТипВидеорегистратора</Enum>
-			<Enum>ТипНоменклатуры</Enum>
-			<Enum>ТипПодключения</Enum>
 			<Enum>ТипПравПользователей</Enum>
-			<Enum>ТипСервера</Enum>
-			<Enum>ТипСетевогоОборудования</Enum>
 			<Enum>ТипыДанныхКэшаПрограммныхИнтерфейсов</Enum>
 			<Enum>ТипыКонтактнойИнформации</Enum>
 			<Enum>ТипыОтчетов</Enum>
@@ -1364,10 +1368,6 @@
 			<Enum>ФорматыХраненияОдностраничныхФайлов</Enum>
 			<Enum>ЦветаЗаметок</Enum>
 			<Enum>ЦветностиИзображения</Enum>
-			<Enum>ТипыVPN</Enum>
-			<Enum>ПрограммаУдаленногоУправления</Enum>
-			<Enum>Разрядность</Enum>
-			<Enum>WebСерверы</Enum>
 			<Report>АнализЖурналаРегистрации</Report>
 			<Report>ИспользуемыеВнешниеРесурсы</Report>
 			<Report>МестаИспользованияСсылок</Report>
@@ -1376,12 +1376,17 @@
 			<Report>ПрогрессОтложенногоОбновления</Report>
 			<Report>СведенияОПользователях</Report>
 			<Report>УниверсальныйОтчет</Report>
-			<DataProcessor>SlackConnect</DataProcessor>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>АктивныеПользователи</DataProcessor>
 			<DataProcessor>БлокировкаРаботыПользователей</DataProcessor>
 			<DataProcessor>ВводКонтактнойИнформации</DataProcessor>
 			<DataProcessor>ГрупповоеИзменениеРеквизитов</DataProcessor>
+			<DataProcessor>док_SlackConnect</DataProcessor>
+			<DataProcessor>док_ГенераторПаролей</DataProcessor>
+			<DataProcessor>док_ПанельАдминистрированияДокументация</DataProcessor>
+			<DataProcessor>док_Регистрация_V83_COMConnector</DataProcessor>
+			<DataProcessor>док_Создание_v8i</DataProcessor>
+			<DataProcessor>док_ТестПодключенияК_FTP</DataProcessor>
 			<DataProcessor>ЖурналРегистрации</DataProcessor>
 			<DataProcessor>ЗагрузкаДанныхИзФайла</DataProcessor>
 			<DataProcessor>ЗаменаИОбъединениеЭлементов</DataProcessor>
@@ -1395,7 +1400,6 @@
 			<DataProcessor>НерекомендуемаяВерсияПлатформы</DataProcessor>
 			<DataProcessor>ОписаниеОбработчиковОбновления</DataProcessor>
 			<DataProcessor>ПанельАдминистрированияБСП</DataProcessor>
-			<DataProcessor>ПанельАдминистрированияДокументация</DataProcessor>
 			<DataProcessor>ПанельВзаимодействия</DataProcessor>
 			<DataProcessor>ПереносФайлов</DataProcessor>
 			<DataProcessor>ПодключениеОбсуждений</DataProcessor>
@@ -1404,18 +1408,13 @@
 			<DataProcessor>ПолучитьСписокИнформационныхБазС_Сервера</DataProcessor>
 			<DataProcessor>РаботаСФайлами</DataProcessor>
 			<DataProcessor>РасширенныйВводКонтактнойИнформации</DataProcessor>
-			<DataProcessor>Регистрация_V83_COMConnector</DataProcessor>
 			<DataProcessor>РегламентныеИФоновыеЗадания</DataProcessor>
 			<DataProcessor>РезервноеКопированиеИБ</DataProcessor>
 			<DataProcessor>РезультатыОбновленияПрограммы</DataProcessor>
 			<DataProcessor>РекомендацияПоПовышениюСкоростиРаботы</DataProcessor>
 			<DataProcessor>Сканирование</DataProcessor>
-			<DataProcessor>Создание_v8i</DataProcessor>
 			<DataProcessor>ТекущиеДела</DataProcessor>
-			<DataProcessor>ТестПодключенияК_FTP</DataProcessor>
 			<DataProcessor>УдалениеПомеченныхОбъектов</DataProcessor>
-			<DataProcessor>ГенераторПаролей</DataProcessor>
-			<InformationRegister>Slack_ИсторияСообщений</InformationRegister>
 			<InformationRegister>АдресныеОбъекты</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>
@@ -1423,6 +1422,9 @@
 			<InformationRegister>ВерсииПодсистем</InformationRegister>
 			<InformationRegister>ДанныеОбработанныеВЦентральномУзлеРИБ</InformationRegister>
 			<InformationRegister>ДвоичныеДанныеФайлов</InformationRegister>
+			<InformationRegister>док_Slack_ИсторияСообщений</InformationRegister>
+			<InformationRegister>док_НастройкиПользователей</InformationRegister>
+			<InformationRegister>док_СправочникиДляШифрования</InformationRegister>
 			<InformationRegister>ДомаЗданияСтроения</InformationRegister>
 			<InformationRegister>ДополнительныеАдресныеСведения</InformationRegister>
 			<InformationRegister>ДополнительныеСведения</InformationRegister>
@@ -1440,7 +1442,6 @@
 			<InformationRegister>НастройкиВариантовОтчетов</InformationRegister>
 			<InformationRegister>НастройкиКомандПечати</InformationRegister>
 			<InformationRegister>НастройкиОчисткиФайлов</InformationRegister>
-			<InformationRegister>НастройкиПользователей</InformationRegister>
 			<InformationRegister>НастройкиСинхронизацииФайлов</InformationRegister>
 			<InformationRegister>НеудаленныеОбъекты</InformationRegister>
 			<InformationRegister>НомераОтсканированныхФайлов</InformationRegister>
@@ -1465,16 +1466,15 @@
 			<InformationRegister>СвязиАдресныхОбъектов</InformationRegister>
 			<InformationRegister>СлужебныеАдресныеСведения</InformationRegister>
 			<InformationRegister>СоставыГруппПользователей</InformationRegister>
-			<InformationRegister>СправочникиДляШифрования</InformationRegister>
 			<InformationRegister>СтатусыСинхронизацииФайловСОблачнымСервисом</InformationRegister>
 			<InformationRegister>УведомляемыеПользователиОбОкончанииФН</InformationRegister>
 			<InformationRegister>УдалитьХранимыеФайлыВерсий</InformationRegister>
 			<InformationRegister>УдаляемыеОбъекты</InformationRegister>
 			<InformationRegister>УровниСокращенийАдресныхСведений</InformationRegister>
 			<InformationRegister>ФайлыВРабочемКаталоге</InformationRegister>
+			<ChartOfCharacteristicTypes>док_ПраваИНастройки</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>док_СправочникиДляШифрования</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
-			<ChartOfCharacteristicTypes>ПраваИНастройки</ChartOfCharacteristicTypes>
-			<ChartOfCharacteristicTypes>СправочникиДляШифрования</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

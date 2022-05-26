@@ -11,21 +11,21 @@
 			</Synonym>
 			<Comment/>
 			<Source>
-				<v8:Type>cfg:CatalogManager.СерверыVPNПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.док_СерверыVPNПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogManager.ЗаметкиПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogManager.КассыПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogManager.УчетныеДанныеСервисовПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogManager.ЛицензииПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogManager.СетевоеОборудованиеПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogManager.УстройстваПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogManager.ВидеорегистраторыПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogManager.ПринтерыПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogManager.ДоменыПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogManager.СерверыПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogManager.СетиПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogManager.БДПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogManager.КлиентыПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogManager.СУБДПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.док_КассыПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.док_УчетныеДанныеСервисовПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.док_ЛицензииПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.док_СетевоеОборудованиеПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.док_УстройстваПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.док_ВидеорегистраторыПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.док_ПринтерыПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.док_ДоменыПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.док_СерверыПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.док_СетиПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.док_БДПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.док_КлиентыПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogManager.док_СУБДПрисоединенныеФайлы</v8:Type>
 			</Source>
 			<Event>FormGetProcessing</Event>
 			<Handler>CommonModule.РаботаСФайламиКлиентСервер.ОпределитьФормуПрисоединенногоФайла</Handler>

@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="96">
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="97"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<CheckBoxField name="Тестовая" id="119">
+					<DataPath>Объект.Тестовая</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТестоваяКонтекстноеМеню" id="120"/>
+					<ExtendedTooltip name="ТестоваяРасширеннаяПодсказка" id="121"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа3" id="100">
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="101"/>
+			<ChildItems>
+				<UsualGroup name="Группа7" id="130">
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="131"/>
+					<ChildItems>
+						<InputField name="Конфигурация" id="122">
+							<DataPath>Объект.Конфигурация</DataPath>
+							<DropListButton>false</DropListButton>
+							<ChoiceButton>true</ChoiceButton>
+							<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+							<ClearButton>false</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>true</OpenButton>
+							<CreateButton>true</CreateButton>
+							<ContextMenu name="КонфигурацияКонтекстноеМеню" id="123"/>
+							<ExtendedTooltip name="КонфигурацияРасширеннаяПодсказка" id="124"/>
+						</InputField>
+						<InputField name="ВерсияКонфигурации" id="125">
+							<DataPath>Объект.ВерсияКонфигурации</DataPath>
+							<DropListButton>false</DropListButton>
+							<ChoiceButton>true</ChoiceButton>
+							<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+							<ClearButton>false</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>true</OpenButton>
+							<CreateButton>true</CreateButton>
+							<ContextMenu name="ВерсияКонфигурацииКонтекстноеМеню" id="126"/>
+							<ExtendedTooltip name="ВерсияКонфигурацииРасширеннаяПодсказка" id="127"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа4" id="104">
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="105"/>
+			<ChildItems>
+				<InputField name="Поддержка" id="16">
+					<DataPath>Объект.Поддержка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<DropListButton>true</DropListButton>
+					<ChoiceButton>false</ChoiceButton>
+					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+					<ClearButton>false</ClearButton>
+					<SpinButton>false</SpinButton>
+					<OpenButton>false</OpenButton>
+					<CreateButton>false</CreateButton>
+					<ContextMenu name="ПоддержкаКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ПоддержкаРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<InputField name="ТипБД" id="22">
+					<DataPath>Объект.ТипБД</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТипБДКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ТипБДРасширеннаяПодсказка" id="24"/>
+					<Events>
+						<Event name="OnChange">ТипБДПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ИмяИБ" id="7">
+			<DataPath>Объект.ИмяИБ</DataPath>
+			<Visible>false</Visible>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ИмяИБКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ИмяИБРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ПутьК_БД" id="25">
+			<DataPath>Объект.ПутьК_БД</DataPath>
+			<Visible>false</Visible>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПутьК_БДКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ПутьК_БДРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<UsualGroup name="Группа6" id="132">
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="133"/>
+			<ChildItems>
+				<UsualGroup name="Группа8" id="143">
+					<Behavior>Usual</Behavior>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="144"/>
+					<ChildItems>
+						<CheckBoxField name="ОпубликованаНаWebСервере" id="134">
+							<DataPath>Объект.ОпубликованаНаWebСервере</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОпубликованаНаWebСервереКонтекстноеМеню" id="135"/>
+							<ExtendedTooltip name="ОпубликованаНаWebСервереРасширеннаяПодсказка" id="136"/>
+							<Events>
+								<Event name="OnChange">ОпубликованаНаWebСервереПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<InputField name="WebСервер" id="137">
+							<DataPath>Объект.WebСервер</DataPath>
+							<HorizontalStretch>false</HorizontalStretch>
+							<DropListButton>false</DropListButton>
+							<ChoiceButton>true</ChoiceButton>
+							<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+							<ClearButton>false</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>false</OpenButton>
+							<CreateButton>false</CreateButton>
+							<ContextMenu name="WebСерверКонтекстноеМеню" id="138"/>
+							<ExtendedTooltip name="WebСерверРасширеннаяПодсказка" id="139"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="АдресПубликации" id="140">
+					<DataPath>Объект.АдресПубликации</DataPath>
+					<ContextMenu name="АдресПубликацииКонтекстноеМеню" id="141"/>
+					<ExtendedTooltip name="АдресПубликацииРасширеннаяПодсказка" id="142"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="98">
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="99"/>
+			<ChildItems>
+				<CheckBoxField name="ИспользуетсяХранилищеКонфигурации" id="31">
+					<DataPath>Объект.ИспользуетсяХранилище</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ИспользуетсяХранилищеКонфигурацииКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ИспользуетсяХранилищеКонфигурацииРасширеннаяПодсказка" id="33"/>
+					<Events>
+						<Event name="OnChange">ИспользуетсяХранилищеКонфигурацииПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<InputField name="ПутьКХранилищу" id="34">
+					<DataPath>Объект.ПутьКХранилищу</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПутьКХранилищуКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ПутьКХранилищуРасширеннаяПодсказка" id="36"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа5" id="111">
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="112"/>
+			<ChildItems>
+				<InputField name="СУБД" id="37">
+					<DataPath>Объект.СУБД</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<DropListButton>false</DropListButton>
+					<ChoiceButton>true</ChoiceButton>
+					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+					<ClearButton>false</ClearButton>
+					<SpinButton>false</SpinButton>
+					<OpenButton>true</OpenButton>
+					<CreateButton>false</CreateButton>
+					<ContextMenu name="СУБДКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="СУБДРасширеннаяПодсказка" id="39"/>
+				</InputField>
+				<InputField name="СУБДКлиент" id="116">
+					<DataPath>Объект.СУБД.Сервер.Клиент</DataPath>
+					<DropListButton>false</DropListButton>
+					<ChoiceButton>false</ChoiceButton>
+					<ClearButton>false</ClearButton>
+					<SpinButton>false</SpinButton>
+					<OpenButton>true</OpenButton>
+					<CreateButton>false</CreateButton>
+					<ContextMenu name="СУБДКлиентКонтекстноеМеню" id="117"/>
+					<ExtendedTooltip name="СУБДКлиентРасширеннаяПодсказка" id="118"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Страницы" id="40">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<Page name="ГруппаПользователиБД" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователи БД</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаПользователиБДРасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<Table name="ПользователиБД" id="44">
+							<Representation>List</Representation>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ПользователиБД</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПользователиБДКонтекстноеМеню" id="45"/>
+							<AutoCommandBar name="ПользователиБДКоманднаяПанель" id="46"/>
+							<ExtendedTooltip name="ПользователиБДРасширеннаяПодсказка" id="47"/>
+							<SearchStringAddition name="ПользователиБДСтрокаПоиска" id="48">
+								<AdditionSource>
+									<Item>ПользователиБД</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПользователиБДСтрокаПоискаКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="ПользователиБДСтрокаПоискаРасширеннаяПодсказка" id="50"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПользователиБДСостояниеПросмотра" id="51">
+								<AdditionSource>
+									<Item>ПользователиБД</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПользователиБДСостояниеПросмотраКонтекстноеМеню" id="52"/>
+								<ExtendedTooltip name="ПользователиБДСостояниеПросмотраРасширеннаяПодсказка" id="53"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПользователиБДУправлениеПоиском" id="54">
+								<AdditionSource>
+									<Item>ПользователиБД</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПользователиБДУправлениеПоискомКонтекстноеМеню" id="55"/>
+								<ExtendedTooltip name="ПользователиБДУправлениеПоискомРасширеннаяПодсказка" id="56"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ПользователиБДНомерСтроки" id="57">
+									<DataPath>Объект.ПользователиБД.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПользователиБДНомерСтрокиКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="ПользователиБДНомерСтрокиРасширеннаяПодсказка" id="59"/>
+								</LabelField>
+								<InputField name="ПользователиБДЛогин" id="60">
+									<DataPath>Объект.ПользователиБД.Логин</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПользователиБДЛогинКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="ПользователиБДЛогинРасширеннаяПодсказка" id="62"/>
+								</InputField>
+								<InputField name="ПользователиБДПароль" id="63">
+									<DataPath>Объект.ПользователиБД.Пароль</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПользователиБДПарольКонтекстноеМеню" id="64"/>
+									<ExtendedTooltip name="ПользователиБДПарольРасширеннаяПодсказка" id="65"/>
+								</InputField>
+								<InputField name="ПользователиБДПользовательОС" id="106">
+									<DataPath>Объект.ПользователиБД.ПользовательОС</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПользователиБДПользовательОСКонтекстноеМеню" id="107"/>
+									<ExtendedTooltip name="ПользователиБДПользовательОСРасширеннаяПодсказка" id="108"/>
+								</InputField>
+								<InputField name="ПользователиБДОписание" id="66">
+									<DataPath>Объект.ПользователиБД.Описание</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПользователиБДОписаниеКонтекстноеМеню" id="67"/>
+									<ExtendedTooltip name="ПользователиБДОписаниеРасширеннаяПодсказка" id="68"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаПользователиХранилища" id="69">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователи хранилища</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаПользователиХранилищаРасширеннаяПодсказка" id="70"/>
+					<ChildItems>
+						<Table name="ПользователиХранилища" id="71">
+							<Representation>List</Representation>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ПользователиХранилища</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПользователиХранилищаКонтекстноеМеню" id="72"/>
+							<AutoCommandBar name="ПользователиХранилищаКоманднаяПанель" id="73"/>
+							<ExtendedTooltip name="ПользователиХранилищаРасширеннаяПодсказка" id="74"/>
+							<SearchStringAddition name="ПользователиХранилищаСтрокаПоиска" id="75">
+								<AdditionSource>
+									<Item>ПользователиХранилища</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПользователиХранилищаСтрокаПоискаКонтекстноеМеню" id="76"/>
+								<ExtendedTooltip name="ПользователиХранилищаСтрокаПоискаРасширеннаяПодсказка" id="77"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПользователиХранилищаСостояниеПросмотра" id="78">
+								<AdditionSource>
+									<Item>ПользователиХранилища</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПользователиХранилищаСостояниеПросмотраКонтекстноеМеню" id="79"/>
+								<ExtendedTooltip name="ПользователиХранилищаСостояниеПросмотраРасширеннаяПодсказка" id="80"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПользователиХранилищаУправлениеПоиском" id="81">
+								<AdditionSource>
+									<Item>ПользователиХранилища</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПользователиХранилищаУправлениеПоискомКонтекстноеМеню" id="82"/>
+								<ExtendedTooltip name="ПользователиХранилищаУправлениеПоискомРасширеннаяПодсказка" id="83"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ПользователиХранилищаНомерСтроки" id="84">
+									<DataPath>Объект.ПользователиХранилища.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПользователиХранилищаНомерСтрокиКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="ПользователиХранилищаНомерСтрокиРасширеннаяПодсказка" id="86"/>
+								</LabelField>
+								<InputField name="ПользователиХранилищаЛогин" id="87">
+									<DataPath>Объект.ПользователиХранилища.Логин</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПользователиХранилищаЛогинКонтекстноеМеню" id="88"/>
+									<ExtendedTooltip name="ПользователиХранилищаЛогинРасширеннаяПодсказка" id="89"/>
+								</InputField>
+								<InputField name="ПользователиХранилищаПароль" id="90">
+									<DataPath>Объект.ПользователиХранилища.Пароль</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПользователиХранилищаПарольКонтекстноеМеню" id="91"/>
+									<ExtendedTooltip name="ПользователиХранилищаПарольРасширеннаяПодсказка" id="92"/>
+								</InputField>
+								<InputField name="ПользователиХранилищаОписание" id="93">
+									<DataPath>Объект.ПользователиХранилища.Описание</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПользователиХранилищаОписаниеКонтекстноеМеню" id="94"/>
+									<ExtendedTooltip name="ПользователиХранилищаОписаниеРасширеннаяПодсказка" id="95"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаОписание" id="109">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа описание</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаОписаниеРасширеннаяПодсказка" id="110"/>
+					<ChildItems>
+						<InputField name="Описание" id="28">
+							<DataPath>Объект.Описание</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<MultiLine>true</MultiLine>
+							<ContextMenu name="ОписаниеКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="30"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.док_БД</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
