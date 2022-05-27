@@ -518,6 +518,73 @@
 						</Table>
 					</ChildItems>
 				</Page>
+				<Page name="Группа9" id="165">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Порты</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="166"/>
+					<ChildItems>
+						<Table name="Порты" id="167">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Порты</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПортыКонтекстноеМеню" id="168"/>
+							<AutoCommandBar name="ПортыКоманднаяПанель" id="169"/>
+							<ExtendedTooltip name="ПортыРасширеннаяПодсказка" id="170"/>
+							<SearchStringAddition name="ПортыСтрокаПоиска" id="171">
+								<AdditionSource>
+									<Item>Порты</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПортыСтрокаПоискаКонтекстноеМеню" id="172"/>
+								<ExtendedTooltip name="ПортыСтрокаПоискаРасширеннаяПодсказка" id="173"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПортыСостояниеПросмотра" id="174">
+								<AdditionSource>
+									<Item>Порты</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПортыСостояниеПросмотраКонтекстноеМеню" id="175"/>
+								<ExtendedTooltip name="ПортыСостояниеПросмотраРасширеннаяПодсказка" id="176"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПортыУправлениеПоиском" id="177">
+								<AdditionSource>
+									<Item>Порты</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПортыУправлениеПоискомКонтекстноеМеню" id="178"/>
+								<ExtendedTooltip name="ПортыУправлениеПоискомРасширеннаяПодсказка" id="179"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ПортыНомерСтроки" id="180">
+									<DataPath>Объект.Порты.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>3</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ПортыНомерСтрокиКонтекстноеМеню" id="181"/>
+									<ExtendedTooltip name="ПортыНомерСтрокиРасширеннаяПодсказка" id="182"/>
+								</LabelField>
+								<InputField name="ПортыНомер" id="183">
+									<DataPath>Объект.Порты.Номер</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПортыНомерКонтекстноеМеню" id="184"/>
+									<ExtendedTooltip name="ПортыНомерРасширеннаяПодсказка" id="185"/>
+								</InputField>
+								<InputField name="ПортыНазначение" id="186">
+									<DataPath>Объект.Порты.Назначение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПортыНазначениеКонтекстноеМеню" id="187"/>
+									<ExtendedTooltip name="ПортыНазначениеРасширеннаяПодсказка" id="188"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 				<Page name="Группа3" id="45">
 					<Title>
 						<v8:item>
