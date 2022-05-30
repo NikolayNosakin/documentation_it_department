@@ -37,11 +37,11 @@
 			<ContextMenu name="ДлительнаяОперацияКонтекстноеМеню" id="12"/>
 			<ExtendedTooltip name="ДлительнаяОперацияРасширеннаяПодсказка" id="13"/>
 		</PictureDecoration>
-		<CheckBoxField name="РезервноеКопированиеНаЯндексДиск" id="14">
-			<DataPath>РезервноеКопированиеНаЯндексДиск</DataPath>
+		<CheckBoxField name="док_РезервноеКопированиеНаЯндексДиск" id="14">
+			<DataPath>док_РезервноеКопированиеНаЯндексДиск</DataPath>
 			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="РезервноеКопированиеНаЯндексДискКонтекстноеМеню" id="15"/>
-			<ExtendedTooltip name="РезервноеКопированиеНаЯндексДискРасширеннаяПодсказка" id="16"/>
+			<ContextMenu name="док_РезервноеКопированиеНаЯндексДискКонтекстноеМеню" id="15"/>
+			<ExtendedTooltip name="док_РезервноеКопированиеНаЯндексДискРасширеннаяПодсказка" id="16"/>
 			<Events>
 				<Event name="OnChange">КонстантыПриИзменении</Event>
 			</Events>
@@ -236,11 +236,11 @@
 		</Table>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="РезервноеКопированиеНаЯндексДиск" id="1">
+		<Attribute name="док_РезервноеКопированиеНаЯндексДиск" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Резервное копирование на яндекс диск</v8:content>
+					<v8:content>Док резервное копирование на яндекс диск</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

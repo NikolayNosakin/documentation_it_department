@@ -1,31 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
-	<Constant uuid="470c6ba1-1e4b-429e-a7da-cb7e4747b9d0">
+	<Constant uuid="60466aee-8fce-47ed-9ecd-262822103d1a">
 		<InternalInfo>
-			<xr:GeneratedType name="ConstantManager.УведомлятьОбОкончанииФН" category="Manager">
-				<xr:TypeId>e866da51-b824-452d-9caa-c1a806673a1c</xr:TypeId>
-				<xr:ValueId>9b1c054b-60f0-4eb5-9674-3e9950f66d02</xr:ValueId>
+			<xr:GeneratedType name="ConstantManager.док_ШифрованнаяСтрокаДляПроверкиПароля" category="Manager">
+				<xr:TypeId>25587e69-920a-4a35-a943-866de10e6439</xr:TypeId>
+				<xr:ValueId>49110729-231e-4a94-9f03-f1a156584870</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueManager.УведомлятьОбОкончанииФН" category="ValueManager">
-				<xr:TypeId>5cbfb823-074e-4397-b51d-baf1b86042d1</xr:TypeId>
-				<xr:ValueId>586a4346-6313-4ac9-99cf-4bd1048ddd42</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueManager.док_ШифрованнаяСтрокаДляПроверкиПароля" category="ValueManager">
+				<xr:TypeId>9a9a998f-fee0-48e0-bc15-98c7dad4af6d</xr:TypeId>
+				<xr:ValueId>205f5801-2dd2-404a-8b9e-01f274f5fa92</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueKey.УведомлятьОбОкончанииФН" category="ValueKey">
-				<xr:TypeId>bf787599-495a-489e-b292-2de6387dcf39</xr:TypeId>
-				<xr:ValueId>2ac31d4a-2c95-44ac-8444-78d813220b1d</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueKey.док_ШифрованнаяСтрокаДляПроверкиПароля" category="ValueKey">
+				<xr:TypeId>e1c5d284-83e2-4a8d-b272-6e2d81c4adcd</xr:TypeId>
+				<xr:ValueId>cc438036-eb0d-4806-9d0d-dbfc88863c1e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>УведомлятьОбОкончанииФН</Name>
+			<Name>док_ШифрованнаяСтрокаДляПроверкиПароля</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Уведомлять об окончании ФН</v8:content>
+					<v8:content>Шифрованная строка для проверки пароля</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Type>
-				<v8:Type>xs:boolean</v8:Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm/>

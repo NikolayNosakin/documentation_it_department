@@ -673,6 +673,15 @@
 			<Role>ДобавлениеИзменениеПапокИФайловВнешнимиПользователями</Role>
 			<Role>ДобавлениеИзменениеПользователей</Role>
 			<Role>ДобавлениеИзменениеУчетныхЗаписейЭлектроннойПочты</Role>
+			<Role>док_БазовыеПрава</Role>
+			<Role>док_БД_Редактирование</Role>
+			<Role>док_БД_Чтение</Role>
+			<Role>док_Взаимодействия_Редактирование</Role>
+			<Role>док_Взаимодействия_Чтение</Role>
+			<Role>док_Железо_Редактирование</Role>
+			<Role>док_Железо_Чтение</Role>
+			<Role>док_НСИ_Редактирование</Role>
+			<Role>док_НСИ_Чтение</Role>
 			<Role>ЗапускAutomation</Role>
 			<Role>ЗапускВебКлиента</Role>
 			<Role>ЗапускВнешнегоСоединения</Role>
@@ -681,13 +690,13 @@
 			<Role>ЗапускТонкогоКлиента</Role>
 			<Role>ИзменениеДополнительныхСведений</Role>
 			<Role>ИзменениеМакетовПечатныхФорм</Role>
-			<Role>ПолныеПраваБезУдаления</Role>
 			<Role>ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</Role>
 			<Role>ИспользованиеОбработкиТекущиеДела</Role>
 			<Role>ИспользованиеУниверсальногоОтчета</Role>
 			<Role>НастройкаСинхронизацииФайлов</Role>
 			<Role>ОбновлениеКонфигурацииБазыДанных</Role>
 			<Role>ПолныеПрава</Role>
+			<Role>ПолныеПраваБезУдаления</Role>
 			<Role>ПросмотрЖурналаРегистрации</Role>
 			<Role>ПросмотрОписанияИзмененийПрограммы</Role>
 			<Role>РедактированиеПечатныхФорм</Role>
@@ -1126,6 +1135,11 @@
 			<Constant>ГлавныйУзел</Constant>
 			<Constant>ДанныеДляИзмененияМультиязычныхРеквизитов</Constant>
 			<Constant>ДетализироватьОбновлениеИБВЖурналеРегистрации</Constant>
+			<Constant>док_ПаролиЗашифрованы</Constant>
+			<Constant>док_РезервноеКопированиеНаЯндексДиск</Constant>
+			<Constant>док_УведомлятьОбОкончанииФН</Constant>
+			<Constant>док_ШифрованнаяСтрокаДляПроверкиПароля</Constant>
+			<Constant>док_ШифроватьПароли</Constant>
 			<Constant>ДополнительныйЯзык1</Constant>
 			<Constant>ДополнительныйЯзык2</Constant>
 			<Constant>ЗаголовокСистемы</Constant>
@@ -1161,7 +1175,6 @@
 			<Constant>ПараметрыБлокировкиРаботыСВнешнимиРесурсами</Constant>
 			<Constant>ПараметрыРезервногоКопирования</Constant>
 			<Constant>ПараметрыХраненияФайловВИБ</Constant>
-			<Constant>ПаролиЗашифрованы</Constant>
 			<Constant>ПользовательСтандартногоИнтерфейсаOData</Constant>
 			<Constant>ПроверятьИспользованиеУдаляемыхОбъектов</Constant>
 			<Constant>ПрофильБезопасностиИнформационнойБазы</Constant>
@@ -1178,17 +1191,13 @@
 			<Constant>СписокРасширенийФайловOpenDocument</Constant>
 			<Constant>СписокРасширенийФайловOpenDocumentОбластиДанных</Constant>
 			<Constant>СпособХраненияФайлов</Constant>
-			<Constant>УведомлятьОбОкончанииФН</Constant>
 			<Constant>УчетнаяЗаписьДляВосстановленияПароля</Constant>
 			<Constant>ХранитьФайлыВТомахНаДиске</Constant>
-			<Constant>ШифрованнаяСтрокаДляПроверкиПароля</Constant>
-			<Constant>ШифроватьПароли</Constant>
 			<Constant>ЯД_ID_Приложения</Constant>
 			<Constant>ЯД_КодАвторизации</Constant>
 			<Constant>ЯД_ПарольПриложения</Constant>
 			<Constant>ЯД_СрокДействияТокена</Constant>
 			<Constant>ЯД_Токен</Constant>
-			<Constant>РезервноеКопированиеНаЯндексДиск</Constant>
 			<CommonForm>БлокировкаРаботыСВнешнимиРесурсами</CommonForm>
 			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
 			<CommonForm>ВводНаРазныхЯзыках</CommonForm>
@@ -1207,6 +1216,9 @@
 			<CommonForm>ВыборФорматаВложений</CommonForm>
 			<CommonForm>ГруппыПользователей</CommonForm>
 			<CommonForm>ДлительнаяОперация</CommonForm>
+			<CommonForm>док_РабочийСтол</CommonForm>
+			<CommonForm>док_СменитьСтиль</CommonForm>
+			<CommonForm>док_СохранениеВосстановлениеДанных</CommonForm>
 			<CommonForm>ДополнительныеОтчетыИОбработки</CommonForm>
 			<CommonForm>ДополнительныеПараметрыПроксиСервера</CommonForm>
 			<CommonForm>КонтрольДинамическогоОбновления</CommonForm>
@@ -1230,7 +1242,6 @@
 			<CommonForm>ПредупреждениеБезопасности</CommonForm>
 			<CommonForm>ПредупрежденияПриЗавершенииРаботы</CommonForm>
 			<CommonForm>ПустойРабочийСтол</CommonForm>
-			<CommonForm>док_РабочийСтол</CommonForm>
 			<CommonForm>Расширения</CommonForm>
 			<CommonForm>РегиональныеНастройки</CommonForm>
 			<CommonForm>РедактированиеГиперссылки</CommonForm>
@@ -1240,7 +1251,6 @@
 			<CommonForm>СозданиеНачальногоОбразаСФайлами</CommonForm>
 			<CommonForm>СохранениеПечатнойФормы</CommonForm>
 			<CommonForm>СравнениеТабличныхДокументов</CommonForm>
-			<CommonForm>док_СменитьСтиль</CommonForm>
 			<CommonForm>УстановкаВнешнейКомпонентыНевозможна</CommonForm>
 			<CommonForm>ФайлыВТоме</CommonForm>
 			<CommonForm>ФормаВариантаОтчета</CommonForm>
@@ -1248,7 +1258,6 @@
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>ФормаПоиска</CommonForm>
 			<CommonForm>ЯДФормаАвторизации</CommonForm>
-			<CommonForm>док_СохранениеВосстановлениеДанных</CommonForm>
 			<Catalog>ВариантыОтчетов</Catalog>
 			<Catalog>ВерсииРасширений</Catalog>
 			<Catalog>ВерсииФайлов</Catalog>
@@ -1276,6 +1285,7 @@
 			<Catalog>док_Лицензии</Catalog>
 			<Catalog>док_ЛицензииПрисоединенныеФайлы</Catalog>
 			<Catalog>док_МестоположенияТехники</Catalog>
+			<Catalog>док_НазначенияПортов</Catalog>
 			<Catalog>док_Номенклатура</Catalog>
 			<Catalog>док_ОперационныеСистемы</Catalog>
 			<Catalog>док_Принтеры</Catalog>
@@ -1316,7 +1326,6 @@
 			<Catalog>УчетныеЗаписиЭлектроннойПочты</Catalog>
 			<Catalog>Файлы</Catalog>
 			<Catalog>ЯзыкиПечатныхФорм</Catalog>
-			<Catalog>док_НазначенияПортов</Catalog>
 			<Enum>ВариантыИспользованияВнешнихКомпонент</Enum>
 			<Enum>ВариантыОчисткиФайлов</Enum>
 			<Enum>ВариантыПериода</Enum>

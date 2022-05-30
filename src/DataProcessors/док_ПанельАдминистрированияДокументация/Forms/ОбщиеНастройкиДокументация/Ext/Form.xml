@@ -28,7 +28,7 @@
 			<ExtendedTooltip name="ГруппаУведомлятьОбОкончанииФНРасширеннаяПодсказка" id="5"/>
 			<ChildItems>
 				<CheckBoxField name="УведомлятьОбОкончанииФН" id="1">
-					<DataPath>НаборКонстант.УведомлятьОбОкончанииФН</DataPath>
+					<DataPath>НаборКонстант.док_УведомлятьОбОкончанииФН</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="УведомлятьОбОкончанииФНКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="УведомлятьОбОкончанииФНРасширеннаяПодсказка" id="3"/>
@@ -49,12 +49,12 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="14"/>
 			<ChildItems>
-				<CheckBoxField name="ШифроватьПароли" id="8">
-					<DataPath>НаборКонстант.ШифроватьПароли</DataPath>
+				<CheckBoxField name="док_ШифроватьПароли" id="8">
+					<DataPath>НаборКонстант.док_ШифроватьПароли</DataPath>
 					<Enabled>false</Enabled>
 					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ШифроватьПаролиКонтекстноеМеню" id="9"/>
-					<ExtendedTooltip name="ШифроватьПаролиРасширеннаяПодсказка" id="10"/>
+					<ContextMenu name="док_ШифроватьПаролиКонтекстноеМеню" id="9"/>
+					<ExtendedTooltip name="док_ШифроватьПаролиРасширеннаяПодсказка" id="10"/>
 					<Events>
 						<Event name="OnChange">ШифроватьПаролиПриИзменении</Event>
 					</Events>

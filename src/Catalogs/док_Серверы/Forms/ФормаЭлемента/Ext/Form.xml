@@ -360,6 +360,7 @@
 									<ExtendedTooltip name="ДоменныеРасширеннаяПодсказка" id="88"/>
 									<ChildItems>
 										<Table name="ДоменныеПользователи" id="89">
+											<Height>3</Height>
 											<HeightControlVariant>UseContentHeight</HeightControlVariant>
 											<UseAlternationRowColor>true</UseAlternationRowColor>
 											<EnableStartDrag>true</EnableStartDrag>
@@ -528,6 +529,7 @@
 					<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="166"/>
 					<ChildItems>
 						<Table name="Порты" id="167">
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -599,8 +601,8 @@
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
-							<AutoMaxHeight>false</AutoMaxHeight>
 							<MultiLine>true</MultiLine>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
 							<ContextMenu name="ОписаниеКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="18"/>
 						</InputField>
@@ -684,7 +686,6 @@
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
-					<dcsset:dataParameters/>
 					<dcsset:order>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
