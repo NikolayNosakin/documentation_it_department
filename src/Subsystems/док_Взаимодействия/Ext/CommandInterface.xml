@@ -7,7 +7,15 @@
 			</Visibility>
 		</Command>
 	</CommandsVisibility>
-	<SubsystemsOrder>
-		<Subsystem>Subsystem.док_Взаимодействия.Subsystem.Slack</Subsystem>
-	</SubsystemsOrder>
+	<CommandsOrder>
+		<Command name="Catalog.док_Боты.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ПанельВзаимодействия.Command.Slack">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelOrdinary</Group>
+	</GroupsOrder>
 </CommandInterface>

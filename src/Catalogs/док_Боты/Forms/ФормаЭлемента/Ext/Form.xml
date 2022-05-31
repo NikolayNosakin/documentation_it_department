@@ -11,10 +11,15 @@
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="Token" id="4">
-			<DataPath>Объект.Token</DataPath>
+			<DataPath>Объект.Токен</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="TokenКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="TokenРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Вид" id="13">
+			<DataPath>Объект.Вид</DataPath>
+			<ContextMenu name="ВидКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ВидРасширеннаяПодсказка" id="15"/>
 		</InputField>
 		<InputField name="Клиент" id="10">
 			<DataPath>Объект.Клиент</DataPath>
@@ -40,7 +45,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:CatalogObject.док_SkackBots</v8:Type>
+				<v8:Type>cfg:CatalogObject.док_Боты</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>

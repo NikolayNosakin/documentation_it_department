@@ -2,33 +2,33 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Catalog uuid="bf30fbf2-6d6d-4e69-8b31-cfb4f98aeec9">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.док_SkackBots" category="Object">
+			<xr:GeneratedType name="CatalogObject.док_Боты" category="Object">
 				<xr:TypeId>82edef65-42ed-4ef9-abfc-63ae7dd1fd14</xr:TypeId>
 				<xr:ValueId>ec963b49-19e5-4e9e-90da-08678e1d35a1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.док_SkackBots" category="Ref">
+			<xr:GeneratedType name="CatalogRef.док_Боты" category="Ref">
 				<xr:TypeId>aab9cfe9-e225-4e24-b341-89bf040e956c</xr:TypeId>
 				<xr:ValueId>b4f817ea-f1ba-4c47-800c-bc8916714acf</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.док_SkackBots" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.док_Боты" category="Selection">
 				<xr:TypeId>17c79e88-169a-4482-9b00-756f5fbd6dbe</xr:TypeId>
 				<xr:ValueId>727d209a-9918-472e-bae3-45dacc114811</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.док_SkackBots" category="List">
+			<xr:GeneratedType name="CatalogList.док_Боты" category="List">
 				<xr:TypeId>277ef3f7-51a9-47e5-8b81-fc917e16452a</xr:TypeId>
 				<xr:ValueId>d5d68c77-ee93-4720-9b88-9cef56fe69b1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.док_SkackBots" category="Manager">
+			<xr:GeneratedType name="CatalogManager.док_Боты" category="Manager">
 				<xr:TypeId>c7348eb9-9d74-43a9-9b2c-dbc5bab11ce8</xr:TypeId>
 				<xr:ValueId>bcf33386-8e12-4dcf-9276-c192903e9b74</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>док_SkackBots</Name>
+			<Name>док_Боты</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Skack Bots</v8:content>
+					<v8:content>Боты</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -290,16 +290,16 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.док_SkackBots.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.док_SkackBots.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.док_Боты.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.док_Боты.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.док_SkackBots.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.док_Боты.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
-			<DefaultListForm>Catalog.док_SkackBots.Form.ФормаСписка</DefaultListForm>
-			<DefaultChoiceForm>Catalog.док_SkackBots.Form.ФормаВыбора</DefaultChoiceForm>
+			<DefaultListForm>Catalog.док_Боты.Form.ФормаСписка</DefaultListForm>
+			<DefaultChoiceForm>Catalog.док_Боты.Form.ФормаВыбора</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
@@ -330,11 +330,11 @@
 		<ChildObjects>
 			<Attribute uuid="01f0702c-eabf-4f95-8600-266938540335">
 				<Properties>
-					<Name>Token</Name>
+					<Name>Токен</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Token</v8:content>
+							<v8:content>Токен</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -428,6 +428,46 @@
 					<Comment/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f41f1a9a-d10f-4ebc-999a-7c858099bbc5">
+				<Properties>
+					<Name>Вид</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:EnumRef.док_ВидыБотов</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

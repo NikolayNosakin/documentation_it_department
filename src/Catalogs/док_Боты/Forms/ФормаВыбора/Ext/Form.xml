@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<EnterKeyBehavior>DefaultButton</EnterKeyBehavior>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<SearchStringAddition name="Поиск" id="25">
+		<SearchStringAddition name="Поиск" id="28">
 			<Visible>false</Visible>
 			<AdditionSource>
 				<Item>Список</Item>
@@ -18,8 +20,8 @@
 					<v8:content>Поиск</v8:content>
 				</v8:item>
 			</Title>
-			<ContextMenu name="ПоискКонтекстноеМеню" id="26"/>
-			<ExtendedTooltip name="ПоискРасширеннаяПодсказка" id="27"/>
+			<ContextMenu name="ПоискКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ПоискРасширеннаяПодсказка" id="30"/>
 		</SearchStringAddition>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
 			<Title>
@@ -38,6 +40,7 @@
 			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
+			<ChoiceMode>true</ChoiceMode>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
@@ -95,14 +98,19 @@
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
 				<LabelField name="Token" id="19">
-					<DataPath>Список.Token</DataPath>
+					<DataPath>~Список.Token</DataPath>
 					<ContextMenu name="TokenКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="TokenРасширеннаяПодсказка" id="21"/>
 				</LabelField>
-				<LabelField name="Клиент" id="28">
+				<LabelField name="Вид" id="31">
+					<DataPath>Список.Вид</DataPath>
+					<ContextMenu name="ВидКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ВидРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<LabelField name="Клиент" id="25">
 					<DataPath>Список.Клиент</DataPath>
-					<ContextMenu name="КлиентКонтекстноеМеню" id="29"/>
-					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="30"/>
+					<ContextMenu name="КлиентКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="27"/>
 				</LabelField>
 				<LabelField name="Описание" id="22">
 					<DataPath>Список.Описание</DataPath>
@@ -121,7 +129,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>Catalog.док_SkackBots</MainTable>
+				<MainTable>Catalog.док_Боты</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
