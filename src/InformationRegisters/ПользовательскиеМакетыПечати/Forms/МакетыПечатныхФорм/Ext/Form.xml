@@ -430,15 +430,7 @@
 					<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 					<EditMode>EnterOnInput</EditMode>
 					<ShowInHeader>false</ShowInHeader>
-					<HeaderPicture>
-						<xr:Ref>CommonPicture.ПереводТекста</xr:Ref>
-						<xr:LoadTransparent>false</xr:LoadTransparent>
-					</HeaderPicture>
 					<HorizontalStretch>false</HorizontalStretch>
-					<ValuesPicture>
-						<xr:Ref>CommonPicture.ПереводТекста</xr:Ref>
-						<xr:LoadTransparent>false</xr:LoadTransparent>
-					</ValuesPicture>
 					<ContextMenu name="МакетыДоступенПереводКонтекстноеМеню" id="177"/>
 					<ExtendedTooltip name="МакетыДоступенПереводРасширеннаяПодсказка" id="178"/>
 				</PictureField>
@@ -773,6 +765,11 @@
 					</Type>
 				</Column>
 				<Column name="ЭтоПечатнаяФорма" id="22">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ДоступноСоздание" id="27">
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>

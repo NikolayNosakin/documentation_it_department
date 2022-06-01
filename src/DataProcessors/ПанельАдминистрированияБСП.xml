@@ -28,12 +28,14 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
+			<Form>ИнтернетПоддержкаИСервисы</Form>
 			<Form>НастройкиПользователейИПрав</Form>
 			<Form>НастройкиРаботыСФайлами</Form>
 			<Form>Обслуживание</Form>
 			<Form>ОбщиеНастройки</Form>
 			<Form>Органайзер</Form>
 			<Form>ПечатныеФормыОтчетыИОбработки</Form>
+			<Form>СинхронизацияДанных</Form>
 			<Form>Форма</Form>
 			<Command uuid="f81b1f2d-6fde-4861-8fee-1dbe6acf3985">
 				<Properties>
@@ -139,6 +141,33 @@
 					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
+			<Command uuid="527ea8ca-e723-454a-8e9e-f2e7a38e62ee">
+				<Properties>
+					<Name>СинхронизацияДанных</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Синхронизация данных</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>NavigationPanelOrdinary</Group>
+					<CommandParameterType/>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Синхронизация данных с другими программами
+и организация совместной работы в распределенной информационной базе.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
 			<Command uuid="ef257b20-da10-4cda-8b9d-7de2d68a2f71">
 				<Properties>
 					<Name>НастройкиРаботыСФайлами</Name>
@@ -184,6 +213,32 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка печатных форм, вариантов отчетов, рассылок отчетов, дополнительных отчетов и обработок.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
+			<Command uuid="acd30e63-68dc-4ab2-a6fe-16eb69d09271">
+				<Properties>
+					<Name>ИнтернетПоддержкаИСервисы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Интернет-поддержка и сервисы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>NavigationPanelOrdinary</Group>
+					<CommandParameterType/>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Интернет-сервисы и поддержка. Обновление версии программы. Загрузка классификаторов.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture/>

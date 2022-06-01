@@ -4,41 +4,6 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>CommonCommand.ДополнительныеОтчетыАдминистрирование</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ДополнительныеОтчетыЖелезо</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ДополнительныеОтчетыБД</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ДополнительныеОбработкиНСИ</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ДополнительныеОбработкиАдминистрирование</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</name>
 		<right>
 			<name>Read</name>
@@ -68,33 +33,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.Документация</name>
-		<right>
-			<name>MainWindowModeNormal</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeEmbeddedWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeFullscreenWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeKiosk</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>AnalyticsSystemClient</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ДополнительныеОтчетыИОбработки</name>
 		<right>
 			<name>Read</name>
@@ -118,21 +56,7 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonCommand.ДополнительныеОбработкиЖелезо</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.ДополнительныеОтчетыИОбработки</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ДополнительныеОбработкиБД</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -146,23 +70,29 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonCommand.ДополнительныеОтчетыВзаимодействия</name>
+		<name>Configuration.Документация</name>
 		<right>
-			<name>View</name>
+			<name>MainWindowModeNormal</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ДополнительныеОтчетыНСИ</name>
 		<right>
-			<name>View</name>
+			<name>MainWindowModeWorkplace</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ДополнительныеОбработкиВзаимодействия</name>
 		<right>
-			<name>View</name>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
 			<value>true</value>
 		</right>
 	</object>

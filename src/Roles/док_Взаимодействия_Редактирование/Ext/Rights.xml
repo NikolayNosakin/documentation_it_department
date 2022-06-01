@@ -11,14 +11,14 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ПанельВзаимодействия.Command.Slack</name>
+		<name>DataProcessor.док_ПанельВзаимодействия.Command.Slack</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ПанельВзаимодействия</name>
+		<name>DataProcessor.док_ПанельВзаимодействия</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
@@ -126,6 +126,33 @@
 		<name>CommonCommand.ДополнительныеОтчетыВзаимодействия</name>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Configuration.Документация</name>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
 			<value>true</value>
 		</right>
 	</object>

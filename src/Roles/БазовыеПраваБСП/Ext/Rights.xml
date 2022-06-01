@@ -4,17 +4,6 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>CommonAttribute.НаименованиеЯзык1</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.НаличиеФайлов</name>
 		<right>
 			<name>Read</name>
@@ -53,6 +42,13 @@
 		</right>
 		<right>
 			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ПраваДоступа</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -110,13 +106,6 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.РегиональныеНастройки</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -200,6 +189,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonCommand.НастроитьПрава</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.СпособХраненияФайлов</name>
 		<right>
 			<name>Read</name>
@@ -254,6 +250,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ИспользоватьСинхронизациюДанныхВЛокальномРежиме</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ВариантыОтчетов.Command.Открыть</name>
 		<right>
 			<name>View</name>
@@ -283,17 +290,6 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonAttribute.НаименованиеЯзык2</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.УстановкаВнешнейКомпонентыНевозможна</name>
 		<right>
 			<name>View</name>
@@ -302,6 +298,13 @@
 	</object>
 	<object>
 		<name>CommonForm.ВопросОбУстановкеВнешнейКомпоненты</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ПраваДоступаУпрощенно</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -406,6 +409,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ИспользоватьВерсионированиеОбъектов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>SessionParameter.ВыполняетсяОбновлениеИБ</name>
 		<right>
 			<name>Get</name>
@@ -416,6 +430,17 @@
 		<name>InformationRegister.ПричиныИзмененияАдресныхСведений</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ЗагрузкаДанныхИзФайла</name>
+		<right>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -482,7 +507,7 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.ВводНаРазныхЯзыках</name>
+		<name>CommonForm.НастройкиПравОбъектов</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -533,6 +558,24 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ЗагрузитьСообщениеОбменаДанными</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>SessionParameter.ОграничениеДоступаНаУровнеЗаписейУниверсально</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ОсновнойЯзык</name>
 		<right>
 			<name>Read</name>
@@ -547,17 +590,6 @@
 		<name>DataProcessor.ВводКонтактнойИнформации</name>
 		<right>
 			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ИспользоватьДополнительныйЯзык1</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -711,11 +743,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ИспользоватьДополнительныйЯзык2</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
+		<name>CommonForm.ПраваДоступа</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -755,33 +783,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.Документация</name>
-		<right>
-			<name>MainWindowModeNormal</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeEmbeddedWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeFullscreenWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeKiosk</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>AnalyticsSystemClient</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.СтраныМира</name>
 		<right>
 			<name>Read</name>
@@ -813,6 +814,20 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.Склонения</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.КонтрольИзмененияРолейПользователяИБ</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -866,20 +881,20 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.НапоминаниеПриРедактировании</name>
+		<name>Constant.КоличествоПотоковДлительныхОпераций</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>CommonAttribute.КомментарийЯзык1</name>
+		<name>CommonForm.НапоминаниеПриРедактировании</name>
 		<right>
 			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -905,7 +920,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ИспользоватьПолнотекстовыйПоиск</name>
+		<name>Constant.ДатаОбновленияПовторноИспользуемыхЗначенийМРО</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -916,7 +931,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ДополнительныйЯзык2</name>
+		<name>Constant.ИспользоватьПолнотекстовыйПоиск</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -941,17 +956,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.СервисПереводаТекста</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.НеИспользоватьРазделениеПоОбластямДанных</name>
 		<right>
 			<name>Read</name>
@@ -964,6 +968,17 @@
 	</object>
 	<object>
 		<name>CommonForm.ФормаОтчета</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ПервоеОбновлениеДоступаЗавершилось</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1021,7 +1036,29 @@
 		</right>
 	</object>
 	<object>
+		<name>Report.ПраваДоступа</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ГлавныйУзел</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ЗаголовокСистемы</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1072,7 +1109,29 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.СтандартныеПодсистемыВАвтономномРежиме</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.КонтрольДинамическогоОбновления</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ОграничиватьДоступНаУровнеЗаписейУниверсально</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1157,6 +1216,17 @@
 		</right>
 	</object>
 	<object>
+		<name>SessionParameter.ВыполняетсяЗаписьОбъекта</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Set</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьГруппыПользователей</name>
 		<right>
 			<name>Read</name>
@@ -1169,6 +1239,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.АдресныеОбъекты</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.НастройкаПодчиненногоУзлаРИБЗавершена</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1338,6 +1419,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.КаталогВременныхФайловДляWindows</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьНапоминанияПользователя</name>
 		<right>
 			<name>Read</name>
@@ -1349,7 +1441,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЯзыкиПечатныхФорм</name>
+		<name>Constant.ПрефиксУзлаРаспределеннойИнформационнойБазы</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1358,13 +1450,20 @@
 			<name>View</name>
 			<value>true</value>
 		</right>
+	</object>
+	<object>
+		<name>Constant.СообщениеОбменаДаннымиИзГлавногоУзла</name>
 		<right>
-			<name>InputByString</name>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Constant.ИспользоватьСервисПереводаТекста</name>
+		<name>Constant.ИспользоватьЗаметки</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1385,6 +1484,17 @@
 		<name>Report.МестаИспользованияСсылок</name>
 		<right>
 			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ОграничиватьДоступНаУровнеЗаписей</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -1426,11 +1536,29 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ИспользоватьСервисСклоненияMorpher</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.СведенияОбОбновленииИБ</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.Расширения</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1488,7 +1616,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ЗаголовокСистемы</name>
+		<name>SessionParameter.ОтключениеОбновленияКлючейДоступа</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ЭтоАвтономноеРабочееМесто</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1506,13 +1641,20 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonAttribute.КомментарийЯзык2</name>
+		<name>SessionParameter.ДатаОбновленияПовторноИспользуемыхЗначенийМРО</name>
 		<right>
-			<name>View</name>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.КаталогВременныхФайловДляLinux</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1543,6 +1685,44 @@
 		</right>
 	</object>
 	<object>
+		<name>Configuration.Документация</name>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.КоличествоЭлементовВТранзакцииЗагрузкиДанных</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>SessionParameter.ТекущийВнешнийПользователь</name>
 		<right>
 			<name>Get</name>
@@ -1553,17 +1733,6 @@
 		<name>DataProcessor.ГрупповоеИзменениеРеквизитов</name>
 		<right>
 			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ДополнительныйЯзык1</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -1680,6 +1849,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ПовторитьЗагрузкуСообщенияОбменаДаннымиПередЗапуском</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>SessionParameter.ПодключенныеРасширения</name>
 		<right>
 			<name>Get</name>
@@ -1712,6 +1892,17 @@
 		<name>DataProcessor.ПоискИУдалениеДублей</name>
 		<right>
 			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ИспользоватьСинхронизациюДанных</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>

@@ -13,14 +13,6 @@
 				<CommandName>Form.Command.ЗаписатьОбработчик</CommandName>
 				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="230"/>
 			</Button>
-			<Button name="ФормаПроверитьЦиклВПорядкеОбработчиков" id="779">
-				<Type>CommandBarButton</Type>
-				<UserVisible>
-					<xr:Common>false</xr:Common>
-				</UserVisible>
-				<CommandName>Form.Command.ПроверитьЦиклВПорядкеОбработчиков</CommandName>
-				<ExtendedTooltip name="ФормаПроверитьЦиклВПорядкеОбработчиковРасширеннаяПодсказка" id="780"/>
-			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -632,6 +624,10 @@
 											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>Объект.ЧитаемыеОбъекты</DataPath>
 											<RowPictureDataPath>Объект.ЧитаемыеОбъекты.ИндексКартинки</RowPictureDataPath>
+											<RowsPicture>
+												<xr:Ref>CommonPicture.КоллекцияОбъектыМетаданных</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</RowsPicture>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -814,6 +810,10 @@
 											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>Объект.ИзменяемыеОбъекты</DataPath>
 											<RowPictureDataPath>Объект.ИзменяемыеОбъекты.ИндексКартинки</RowPictureDataPath>
+											<RowsPicture>
+												<xr:Ref>CommonPicture.КоллекцияОбъектыМетаданных</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</RowsPicture>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -964,6 +964,10 @@
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Объект.БлокируемыеОбъекты</DataPath>
 							<RowPictureDataPath>Объект.БлокируемыеОбъекты.ИндексКартинки</RowPictureDataPath>
+							<RowsPicture>
+								<xr:Ref>CommonPicture.КоллекцияОбъектыМетаданных</xr:Ref>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</RowsPicture>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1890,21 +1894,6 @@
 			</Title>
 			<Shortcut>Shift+V</Shortcut>
 			<Action>ДобавитьОбъектОбработчикаВИзменяемые</Action>
-		</Command>
-		<Command name="ПроверитьЦиклВПорядкеОбработчиков" id="8">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Есть цикл в порядке обработчиков</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Проверить цикл в порядке обработчиков</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ПроверитьЦиклВПорядкеОбработчиков</Action>
 		</Command>
 		<Command name="ДобавитьИзменяемыйОбъектВЧитаемые" id="9">
 			<Title>

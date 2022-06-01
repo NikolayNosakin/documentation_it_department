@@ -4,6 +4,17 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>InformationRegister.СостоянияРассылокОтчетов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.НаличиеФайлов</name>
 		<right>
 			<name>Read</name>
@@ -45,9 +56,32 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_Домены</name>
+		<name>Catalog.ВариантыОтчетов</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ВерсииОбъектов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -104,23 +138,43 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_УстройстваПрисоединенныеФайлы</name>
+		<name>Catalog.КлючиДоступа</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Устройства</name>
 		<right>
-			<name>Read</name>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_ВидеорегистраторыПрисоединенныеФайлы</name>
+		<name>InformationRegister.НаборыЗначенийДоступа</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ОбновлениеКлючейДоступаКДанным</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -143,13 +197,6 @@
 		</right>
 		<right>
 			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_ДоменыПрисоединенныеФайлы</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -180,20 +227,6 @@
 		</right>
 		<right>
 			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Сети</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_ВидыКомплектующих</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -235,14 +268,18 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_Видеорегистраторы</name>
+		<name>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</name>
+		<name>InformationRegister.НастройкиВерсионированияОбъектов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -264,20 +301,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_Серверы</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Кассы</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.СтатусыСинхронизацииФайловСОблачнымСервисом</name>
 		<right>
 			<name>Read</name>
@@ -289,9 +312,24 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_СетиПрисоединенныеФайлы</name>
+		<name>Constant.ИспользоватьВерсионированиеОбъектов</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НаследованиеНастроекПравОбъектов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -315,20 +353,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_СерверыПрисоединенныеФайлы</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.ПользовательСтандартногоИнтерфейсаOData</name>
 		<right>
 			<name>Read</name>
@@ -340,16 +364,32 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_Номенклатура</name>
+		<name>Catalog.ПользовательскиеНастройкиОтчетов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
-		<name>Catalog.док_Конфигурации</name>
+		<name>InformationRegister.ЗначенияГруппДоступаПоУмолчанию</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -365,16 +405,13 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_СетевоеОборудование</name>
+		<name>InformationRegister.КлючиДоступаВнешнихПользователей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.док_СетевоеОборудованиеПрисоединенныеФайлы</name>
 		<right>
-			<name>Read</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -420,7 +457,18 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.НастройкиВходаПользователей</name>
+		<name>InformationRegister.КлючиДоступаНаборовГруппДоступа</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.УдалитьНастройкиВходаПользователей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -472,33 +520,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.Документация</name>
-		<right>
-			<name>MainWindowModeNormal</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeEmbeddedWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeFullscreenWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeKiosk</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>AnalyticsSystemClient</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.СтраныМира</name>
 		<right>
 			<name>Read</name>
@@ -529,16 +550,24 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЗаметкиПрисоединенныеФайлы</name>
+		<name>InformationRegister.СклоненияПредставленийОбъектов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
-		<name>Catalog.док_Принтеры</name>
+		<name>InformationRegister.ОбновлениеКлючейДоступаТекущиеЗадания</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -565,6 +594,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ПользовательскиеМакетыПечати</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</name>
 		<right>
 			<name>Read</name>
@@ -576,9 +616,65 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_СУБД</name>
+		<name>InformationRegister.ТаблицыГруппДоступа</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ОбновлениеКлючейДоступаПользователей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.РассылкиОтчетов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДлительныеОперации</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НастройкиПравОбъектов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -651,21 +747,69 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_БДПрисоединенныеФайлы</name>
+		<name>InformationRegister.ЗначенияГруппДоступа</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.док_БД</name>
 		<right>
-			<name>Read</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>Constant.РежимОчисткиФайлов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ГруппыЗначенийДоступа</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НастройкиКомандПечати</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ПервоеОбновлениеДоступаЗавершилось</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ПредопределенныеВариантыОтчетов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ЗаголовокСистемы</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -695,16 +839,13 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_СУБДПрисоединенныеФайлы</name>
+		<name>Constant.ОграничиватьДоступНаУровнеЗаписейУниверсально</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.док_УчетныеДанныеСервисов</name>
 		<right>
-			<name>Read</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -780,6 +921,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.НастройкиКолонтитулов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьГруппыПользователей</name>
 		<right>
 			<name>Read</name>
@@ -810,23 +962,24 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_Сервисы</name>
+		<name>InformationRegister.ПараметрыОграниченияДоступа</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Боты</name>
 		<right>
-			<name>Read</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_ВерсииКонфигураций</name>
+		<name>InformationRegister.НастройкиВариантовОтчетов</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -842,9 +995,35 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_УчетныеДанныеСервисовПрисоединенныеФайлы</name>
+		<name>Constant.ПрефиксУзлаРаспределеннойИнформационнойБазы</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ИспользоватьЗаметки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ОграничиватьДоступНаУровнеЗаписей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -868,16 +1047,32 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_ПринтерыПрисоединенныеФайлы</name>
+		<name>Catalog.ГруппыДоступа</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
-		<name>Catalog.док_ЛицензииПрисоединенныеФайлы</name>
+		<name>InformationRegister.ИспользуемыеВидыДоступа</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -893,13 +1088,43 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ЗаголовокСистемы</name>
+		<name>InformationRegister.КлючиДоступаКРегистрам</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.КлючиДоступаКОбъектам</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.НаборыГруппДоступа</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -911,21 +1136,97 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КлиентыПрисоединенныеФайлы</name>
+		<name>Catalog.МакетыПечатныхФорм</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
-		<name>Catalog.док_Лицензии</name>
+		<name>Configuration.Документация</name>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.КлючиДоступаПользователей</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.КлючиДоступаГруппДоступа</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ИспользуемыеВидыДоступаПоТаблицам</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>InformationRegister.КодировкиФайлов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ПоследнееОбновлениеДоступа</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -951,20 +1252,6 @@
 		</right>
 		<right>
 			<name>Delete</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_ОперационныеСистемы</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Клиенты</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1010,7 +1297,26 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ИдентификаторИнформационнойБазы</name>
+		<name>Catalog.ПрофилиГруппДоступа</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ПоставляемыеМакетыПечати</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1039,6 +1345,25 @@
 		</right>
 		<right>
 			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.НастройкиАвторизацииИнтернетСервисов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 	</object>

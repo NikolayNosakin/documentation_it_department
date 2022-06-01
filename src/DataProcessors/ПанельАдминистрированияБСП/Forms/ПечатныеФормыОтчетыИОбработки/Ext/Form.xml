@@ -120,7 +120,7 @@
 								</Button>
 								<Button name="СправочникЯзыкиПечатныхФормОткрытьСписок" id="1707">
 									<Type>Hyperlink</Type>
-									<CommandName>Catalog.ЯзыкиПечатныхФорм.StandardCommand.OpenList</CommandName>
+									<CommandName>0</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="СправочникЯзыкиПечатныхФормОткрытьСписокРасширеннаяПодсказка" id="1708">
 										<Title formatted="false">
@@ -190,7 +190,6 @@
 									</ExtendedTooltip>
 									<ChildItems>
 										<CheckBoxField name="ИспользоватьСервисПереводаТекста" id="1719">
-											<DataPath>НаборКонстант.ИспользоватьСервисПереводаТекста</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -282,7 +281,7 @@
 							<ChildItems>
 								<Button name="ОткрытьРассылкиОтчетов" id="1577">
 									<Type>Hyperlink</Type>
-									<CommandName>0</CommandName>
+									<CommandName>Catalog.РассылкиОтчетов.StandardCommand.OpenList</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьРассылкиОтчетовExtendedTooltip" id="1613">
 										<Title formatted="false">
@@ -630,7 +629,6 @@
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
 				<Field>НаборКонстант.ЗаголовокСистемы</Field>
-				<Field>НаборКонстант.СервисПереводаТекста</Field>
 			</UseAlways>
 		</Attribute>
 		<Attribute name="РежимРаботы" id="15">

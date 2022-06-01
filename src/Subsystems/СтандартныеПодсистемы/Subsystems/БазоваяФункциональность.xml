@@ -143,7 +143,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ФорматWord2007</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОтправитьПолучитьПочту</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ФорматыСохраненияОтчетов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">5e09dc5e-bbb7-4c38-b609-940c24f63c84</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.СтандартныеПодсистемыВАвтономномРежиме</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.МетаданныеПеречисления</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.МетаданныеРесурсы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтатусыДокумента</xr:Item>
@@ -234,7 +234,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВерсииРасширений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.БазовыеПраваВнешнихПользователейБСП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДлительныеОперацииВызовСервера</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДлительныеОперацииГлобальный</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ГиперссылкаЦвет</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.БуферОбмена</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СкопироватьВБуферОбмена</xr:Item>
@@ -260,7 +259,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияСлужебныйКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОбновитьФайлИзФайлаНаДиске</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СохранитьФайлКак</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ОтмененныеДлительныеОперации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ДлительныеОперации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ЗавершитьРаботу</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ФайловаяСистемаКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РегламентированныеДанныеКлиентСервер</xr:Item>
@@ -360,6 +359,21 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.МетаданныеВнешниеИсточникиТаблицы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.МетаданныеВнешниеИсточникиТаблицыИзмерений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.МетаданныеВнешниеИсточникиФункции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ЗаполнениеПараметровРаботыРасширений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.КоличествоПотоковДлительныхОпераций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.КаталогВременныхФайловДляLinux</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.КаталогВременныхФайловДляWindows</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДлительныеОперации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.СтандартныеПодсистемыВАвтономномРежиме</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ОтправкаСерверныхОповещенийКлиентам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СерверныеОповещения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СерверныеОповещенияГлобальный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СерверныеОповещенияКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СерверныеОповещенияСлужебныйВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СерверныеОповещенияСлужебныйПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОтправленныеСерверныеОповещения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПериодическиеСерверныеОповещения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.СостояниеОтправкиСерверныхОповещений</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
