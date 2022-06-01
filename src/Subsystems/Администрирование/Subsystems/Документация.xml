@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<Subsystem uuid="65894951-76d8-433c-8d7c-4367ad066f12">
+		<Properties>
+			<Name>Документация</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документация</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.док_ШифроватьПароли</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.док_ШифрованнаяСтрокаДляПроверкиПароля</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.док_УведомлятьОбОкончанииФН</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.док_РезервноеКопированиеНаЯндексДиск</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.док_ПаролиЗашифрованы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЯД_ID_Приложения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЯД_КодАвторизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЯД_ПарольПриложения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЯД_СрокДействияТокена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЯД_Токен</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.док_ПарольДляШифрования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.док_БазовыеПрава</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.док_БД_Редактирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.док_БД_Чтение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.док_Взаимодействия_Редактирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.док_Взаимодействия_Чтение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.док_Железо_Редактирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.док_Железо_Чтение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.док_НСИ_Чтение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.док_НСИ_Редактирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.док_ПолныеПраваБезУдаления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.док_ОтправкаУведомленийОбОкончанииФН</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.док_Slack_РассылкаСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.док_ШифроватьПароли</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.док_УведомлятьОбОкончанииФН</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.док_Настройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.док_РабочийСтол</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.док_СменитьСтиль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.док_СохранениеВосстановлениеДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ЯДФормаАвторизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.док_БД</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.док_Главное</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.док_Консоль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.док_Коробка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.док_МеждустрочныйИнтервал</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.док_Перечеркивание</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.док_Сервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтильОформления_ПоУмолчанию</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтильОформленияЗеленый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтильОформленияРозовый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтильОформленияСиний</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтильОформленияСерый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтильОформленияТемноСерый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтильОформленияТемный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.док_НастройкаУведомленийПользователейОбОкончанииФН</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.док_ПанельАдминистрированияДокументация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.док_СправочникиДляШифрования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.док_ПраваИНастройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.док_НастройкиПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.док_УведомляемыеПользователиОбОкончанииФН</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.док_СправочникиДляШифрования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.док_ОбработкичиРегламентныхЗаданий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.док_ОбщегоНазначения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.док_СобытияФормКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.док_СобытияФормСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.док_СохранениеВосстановлениеДанныхСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.док_ШифрованиеДанныхКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.док_ШифрованиеДанныхСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыДокументация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЯндексДискОбменДанными</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Style.СтильОформленияЗеленый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Style.СтильОформленияРозовый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Style.СтильОформленияСерый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Style.СтильОформленияСиний</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Style.СтильОформленияТемноСерый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Style.СтильОформленияТемный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КонсольРегламентныхИФоновыхЗаданий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonTemplate.ОписаниеИзмененийСистемы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОпределитьФормуПрисоединенногоФайла</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>
