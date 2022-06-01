@@ -31,11 +31,6 @@
 			<ContextMenu name="СтатусКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="9"/>
 		</InputField>
-		<InputField name="ОфисныйНомер" id="41">
-			<DataPath>Объект.ОфисныйНомер</DataPath>
-			<ContextMenu name="ОфисныйНомерКонтекстноеМеню" id="42"/>
-			<ExtendedTooltip name="ОфисныйНомерРасширеннаяПодсказка" id="43"/>
-		</InputField>
 		<UsualGroup name="ГруппаКонтактнаяИнформация" id="44">
 			<Title>
 				<v8:item>
@@ -48,6 +43,15 @@
 			<Representation>StrongSeparation</Representation>
 			<ExtendedTooltip name="ГруппаКонтактнаяИнформацияРасширеннаяПодсказка" id="45"/>
 		</UsualGroup>
+		<InputField name="Описание" id="46">
+			<DataPath>Объект.Описание</DataPath>
+			<TitleLocation>Top</TitleLocation>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<AutoMaxHeight>false</AutoMaxHeight>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="ОписаниеКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="48"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
