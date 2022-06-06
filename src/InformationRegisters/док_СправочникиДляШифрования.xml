@@ -254,29 +254,6 @@
 			<Form>ФормаСписка</Form>
 			<Form>ФормаЗаписи</Form>
 			<Form>ФормаНастроек</Form>
-			<Command uuid="aac2aca2-85b6-434b-96a0-135e3e4a8ac9">
-				<Properties>
-					<Name>СправочникиДляШифрования</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Справочники для шифрования</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Group>FormNavigationPanelGoTo</Group>
-					<CommandParameterType>
-						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
-					</CommandParameterType>
-					<ParameterUseMode>Single</ParameterUseMode>
-					<ModifiesData>false</ModifiesData>
-					<Representation>Auto</Representation>
-					<ToolTip/>
-					<Picture/>
-					<Shortcut/>
-					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
-				</Properties>
-			</Command>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

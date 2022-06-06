@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.0.1.5</Version>
+			<Version>1.0.2.0</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_documentation_it_department/releases/latest</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -237,7 +237,7 @@
 			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>док_БД</Subsystem>
 			<Subsystem>док_Взаимодействия</Subsystem>
-			<Subsystem>док_Железо</Subsystem>
+			<Subsystem>док_Инфраструктура</Subsystem>
 			<Subsystem>док_НСИ</Subsystem>
 			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
@@ -795,8 +795,8 @@
 			<Role>док_БД_Чтение</Role>
 			<Role>док_Взаимодействия_Редактирование</Role>
 			<Role>док_Взаимодействия_Чтение</Role>
-			<Role>док_Железо_Редактирование</Role>
-			<Role>док_Железо_Чтение</Role>
+			<Role>док_Инфраструктура_Редактирование</Role>
+			<Role>док_Инфраструктура_Чтение</Role>
 			<Role>док_НСИ_Редактирование</Role>
 			<Role>док_НСИ_Чтение</Role>
 			<Role>док_ПолныеПраваБезУдаления</Role>
@@ -843,6 +843,8 @@
 			<CommonTemplate>ОписаниеИзмененийСистемы</CommonTemplate>
 			<CommonTemplate>ПолучениеДереваОбработчиковОбновления</CommonTemplate>
 			<CommonTemplate>СтруктураПодчиненности</CommonTemplate>
+			<CommonTemplate>док_РабочийСтол</CommonTemplate>
+			<CommonTemplate>док_РабочийСтолМобильный</CommonTemplate>
 			<FilterCriterion>СвязанныеДокументы</FilterCriterion>
 			<FilterCriterion>ФайлыВТоме</FilterCriterion>
 			<CommonModule>АдминистрированиеКластера</CommonModule>
@@ -1330,12 +1332,12 @@
 			<CommonCommand>ДополнительныеОбработкиАдминистрирование</CommonCommand>
 			<CommonCommand>ДополнительныеОбработкиБД</CommonCommand>
 			<CommonCommand>ДополнительныеОбработкиВзаимодействия</CommonCommand>
-			<CommonCommand>ДополнительныеОбработкиЖелезо</CommonCommand>
+			<CommonCommand>ДополнительныеОбработкиИнфраструктура</CommonCommand>
 			<CommonCommand>ДополнительныеОбработкиНСИ</CommonCommand>
 			<CommonCommand>ДополнительныеОтчетыАдминистрирование</CommonCommand>
 			<CommonCommand>ДополнительныеОтчетыБД</CommonCommand>
 			<CommonCommand>ДополнительныеОтчетыВзаимодействия</CommonCommand>
-			<CommonCommand>ДополнительныеОтчетыЖелезо</CommonCommand>
+			<CommonCommand>ДополнительныеОтчетыИнфраструктура</CommonCommand>
 			<CommonCommand>ДополнительныеОтчетыНСИ</CommonCommand>
 			<CommonCommand>ДополнительныеСведенияКоманднаяПанель</CommonCommand>
 			<CommonCommand>ЗагрузитьКомплектПравил</CommonCommand>
@@ -1539,6 +1541,7 @@
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>ФормаПоиска</CommonForm>
 			<CommonForm>ЯДФормаАвторизации</CommonForm>
+			<CommonForm>док_РабочийСтол_v2</CommonForm>
 			<Catalog>ВариантыОтчетов</Catalog>
 			<Catalog>ВерсииРасширений</Catalog>
 			<Catalog>ВерсииФайлов</Catalog>
