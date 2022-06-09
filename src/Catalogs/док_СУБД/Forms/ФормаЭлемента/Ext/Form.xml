@@ -21,40 +21,6 @@
 			<ContextMenu name="ИмяСервераКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ИмяСервераРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<UsualGroup name="Группа1" id="102">
-			<Behavior>Usual</Behavior>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="103"/>
-			<ChildItems>
-				<InputField name="ВерсияПлатформыСсылка" id="107">
-					<DataPath>Объект.ВерсияПлатформы</DataPath>
-					<HorizontalStretch>false</HorizontalStretch>
-					<DropListButton>false</DropListButton>
-					<ChoiceButton>true</ChoiceButton>
-					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
-					<ClearButton>false</ClearButton>
-					<SpinButton>false</SpinButton>
-					<OpenButton>false</OpenButton>
-					<CreateButton>true</CreateButton>
-					<ContextMenu name="ВерсияПлатформыСсылкаКонтекстноеМеню" id="108"/>
-					<ExtendedTooltip name="ВерсияПлатформыСсылкаРасширеннаяПодсказка" id="109"/>
-				</InputField>
-				<InputField name="Разрядность" id="104">
-					<DataPath>Объект.Разрядность</DataPath>
-					<HorizontalStretch>false</HorizontalStretch>
-					<DropListButton>false</DropListButton>
-					<ChoiceButton>true</ChoiceButton>
-					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
-					<ClearButton>false</ClearButton>
-					<SpinButton>false</SpinButton>
-					<OpenButton>false</OpenButton>
-					<CreateButton>false</CreateButton>
-					<ContextMenu name="РазрядностьКонтекстноеМеню" id="105"/>
-					<ExtendedTooltip name="РазрядностьРасширеннаяПодсказка" id="106"/>
-				</InputField>
-			</ChildItems>
-		</UsualGroup>
 		<InputField name="Сервер" id="13">
 			<DataPath>Объект.Сервер</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -71,6 +37,22 @@
 				<Event name="OnChange">СерверПриИзменении</Event>
 			</Events>
 		</InputField>
+		<UsualGroup name="Группа1" id="137">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="138"/>
+			<ChildItems>
+				<InputField name="ВерсияПлатформы" id="139">
+					<DataPath>Объект.ВерсияПлатформы</DataPath>
+					<ContextMenu name="ВерсияПлатформыКонтекстноеМеню" id="140"/>
+					<ExtendedTooltip name="ВерсияПлатформыРасширеннаяПодсказка" id="141"/>
+				</InputField>
+				<InputField name="Разрядность" id="142">
+					<DataPath>Объект.Разрядность</DataPath>
+					<ContextMenu name="РазрядностьКонтекстноеМеню" id="143"/>
+					<ExtendedTooltip name="РазрядностьРасширеннаяПодсказка" id="144"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<Pages name="Страницы" id="16">
 			<Title>
 				<v8:item>
@@ -81,6 +63,86 @@
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="17"/>
 			<ChildItems>
+				<Page name="ГрПлатформы" id="110">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Платформы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гр платформы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГрПлатформыРасширеннаяПодсказка" id="111"/>
+					<ChildItems>
+						<Table name="Платформы" id="112">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Платформы</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПлатформыКонтекстноеМеню" id="113"/>
+							<AutoCommandBar name="ПлатформыКоманднаяПанель" id="114"/>
+							<ExtendedTooltip name="ПлатформыРасширеннаяПодсказка" id="115"/>
+							<SearchStringAddition name="ПлатформыСтрокаПоиска" id="116">
+								<AdditionSource>
+									<Item>Платформы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПлатформыСтрокаПоискаКонтекстноеМеню" id="117"/>
+								<ExtendedTooltip name="ПлатформыСтрокаПоискаРасширеннаяПодсказка" id="118"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПлатформыСостояниеПросмотра" id="119">
+								<AdditionSource>
+									<Item>Платформы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПлатформыСостояниеПросмотраКонтекстноеМеню" id="120"/>
+								<ExtendedTooltip name="ПлатформыСостояниеПросмотраРасширеннаяПодсказка" id="121"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПлатформыУправлениеПоиском" id="122">
+								<AdditionSource>
+									<Item>Платформы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПлатформыУправлениеПоискомКонтекстноеМеню" id="123"/>
+								<ExtendedTooltip name="ПлатформыУправлениеПоискомРасширеннаяПодсказка" id="124"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ПлатформыНомерСтроки" id="125">
+									<DataPath>Объект.Платформы.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПлатформыНомерСтрокиКонтекстноеМеню" id="126"/>
+									<ExtendedTooltip name="ПлатформыНомерСтрокиРасширеннаяПодсказка" id="127"/>
+								</LabelField>
+								<InputField name="ПлатформыВерсия" id="128">
+									<DataPath>Объект.Платформы.Версия</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<DropListButton>false</DropListButton>
+									<ChoiceButton>true</ChoiceButton>
+									<SpinButton>false</SpinButton>
+									<ContextMenu name="ПлатформыВерсияКонтекстноеМеню" id="129"/>
+									<ExtendedTooltip name="ПлатформыВерсияРасширеннаяПодсказка" id="130"/>
+								</InputField>
+								<InputField name="ПлатформыРазрядность" id="131">
+									<DataPath>Объект.Платформы.Разрядность</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПлатформыРазрядностьКонтекстноеМеню" id="132"/>
+									<ExtendedTooltip name="ПлатформыРазрядностьРасширеннаяПодсказка" id="133"/>
+								</InputField>
+								<InputField name="ПлатформыДиапазонПортов" id="134">
+									<DataPath>Объект.Платформы.ДиапазонПортов</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПлатформыДиапазонПортовКонтекстноеМеню" id="135"/>
+									<ExtendedTooltip name="ПлатформыДиапазонПортовРасширеннаяПодсказка" id="136"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 				<Page name="ГруппаСУБД" id="39">
 					<Title>
 						<v8:item>
