@@ -48,7 +48,8 @@
 					<ContextMenu name="ОбновлениеДляВерсийКонтекстноеМеню" id="42"/>
 					<ExtendedTooltip name="ОбновлениеДляВерсийРасширеннаяПодсказка" id="43"/>
 					<Events>
-						<Event name="OnChange">ОбновлениеДляВерсий1ПриИзменении</Event>
+						<Event name="OnChange">ОбновлениеДляВерсийПриИзменении</Event>
+						<Event name="StartChoice">ОбновлениеДляВерсийНачалоВыбора</Event>
 					</Events>
 				</InputField>
 				<Button name="ЗаполнитьВерсииИзСтроки" id="46">
