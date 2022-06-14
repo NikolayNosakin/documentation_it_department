@@ -22,7 +22,7 @@
 			<ContextMenu name="ПоискКонтекстноеМеню" id="35"/>
 			<ExtendedTooltip name="ПоискРасширеннаяПодсказка" id="36"/>
 		</SearchStringAddition>
-		<InputField name="Клиент1" id="31">
+		<InputField name="Клиент" id="31">
 			<DataPath>Клиент</DataPath>
 			<DropListButton>false</DropListButton>
 			<ChoiceButton>true</ChoiceButton>
@@ -31,10 +31,10 @@
 			<SpinButton>false</SpinButton>
 			<OpenButton>false</OpenButton>
 			<CreateButton>false</CreateButton>
-			<ContextMenu name="Клиент1КонтекстноеМеню" id="32"/>
-			<ExtendedTooltip name="Клиент1РасширеннаяПодсказка" id="33"/>
+			<ContextMenu name="КлиентКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="33"/>
 			<Events>
-				<Event name="OnChange">Клиент1ПриИзменении</Event>
+				<Event name="OnChange">КлиентПриИзменении</Event>
 			</Events>
 		</InputField>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
@@ -116,11 +116,6 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
-				<LabelField name="ВерсияПлатформы" id="22">
-					<DataPath>Список.ВерсияПлатформы</DataPath>
-					<ContextMenu name="ВерсияПлатформыКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="ВерсияПлатформыРасширеннаяПодсказка" id="24"/>
-				</LabelField>
 				<LabelField name="Сервер" id="25">
 					<DataPath>Список.Сервер</DataPath>
 					<ContextMenu name="СерверКонтекстноеМеню" id="26"/>
@@ -148,7 +143,6 @@
 	СпрСУБД.ПометкаУдаления КАК ПометкаУдаления,
 	СпрСУБД.Код КАК Код,
 	СпрСУБД.Наименование КАК Наименование,
-	СпрСУБД.ВерсияПлатформы КАК ВерсияПлатформы,
 	СпрСУБД.Сервер КАК Сервер,
 	СпрСУБД.Описание КАК Описание,
 	СпрСУБД.Предопределенный КАК Предопределенный,
@@ -161,10 +155,6 @@
 				ТОГДА ИСТИНА
 			ИНАЧЕ СпрСУБД.Сервер.Клиент = &amp;Клиент
 		КОНЕЦ</QueryText>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Разрядность</dcssch:dataPath>
-					<dcssch:field>Разрядность</dcssch:field>
-				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ВерсияПлатформы</dcssch:dataPath>
 					<dcssch:field>ВерсияПлатформы</dcssch:field>
@@ -204,6 +194,10 @@
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
 					<dcssch:field>Предопределенный</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Платформы</dcssch:dataPath>
+					<dcssch:field>Платформы</dcssch:field>
 				</Field>
 				<Parameter>
 					<dcssch:name>Клиент</dcssch:name>

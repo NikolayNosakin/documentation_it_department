@@ -37,22 +37,6 @@
 				<Event name="OnChange">СерверПриИзменении</Event>
 			</Events>
 		</InputField>
-		<UsualGroup name="Группа1" id="137">
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="138"/>
-			<ChildItems>
-				<InputField name="ВерсияПлатформы" id="139">
-					<DataPath>Объект.ВерсияПлатформы</DataPath>
-					<ContextMenu name="ВерсияПлатформыКонтекстноеМеню" id="140"/>
-					<ExtendedTooltip name="ВерсияПлатформыРасширеннаяПодсказка" id="141"/>
-				</InputField>
-				<InputField name="Разрядность" id="142">
-					<DataPath>Объект.Разрядность</DataPath>
-					<ContextMenu name="РазрядностьКонтекстноеМеню" id="143"/>
-					<ExtendedTooltip name="РазрядностьРасширеннаяПодсказка" id="144"/>
-				</InputField>
-			</ChildItems>
-		</UsualGroup>
 		<Pages name="Страницы" id="16">
 			<Title>
 				<v8:item>
@@ -79,6 +63,7 @@
 					<ExtendedTooltip name="ГрПлатформыРасширеннаяПодсказка" id="111"/>
 					<ChildItems>
 						<Table name="Платформы" id="112">
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -250,14 +235,30 @@
 							<DataPath>Объект.Сервер.IP</DataPath>
 							<CommandSet>
 								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
 								<ExcludedCommand>Change</ExcludedCommand>
 								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 								<ExcludedCommand>Delete</ExcludedCommand>
 								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>OutputList</ExcludedCommand>
+								<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+								<ExcludedCommand>SearchHistory</ExcludedCommand>
+								<ExcludedCommand>SelectAll</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+								<ExcludedCommand>SortListAsc</ExcludedCommand>
+								<ExcludedCommand>SortListDesc</ExcludedCommand>
 							</CommandSet>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="СерверIPКонтекстноеМеню" id="73"/>
-							<AutoCommandBar name="СерверIPКоманднаяПанель" id="74"/>
+							<AutoCommandBar name="СерверIPКоманднаяПанель" id="74">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
 							<ExtendedTooltip name="СерверIPРасширеннаяПодсказка" id="75"/>
 							<SearchStringAddition name="СерверIPСтрокаПоиска" id="76">
 								<AdditionSource>
