@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
-	<Enum uuid="33f53cd3-6265-4a9c-b339-6b19bc506c69">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="ec3f1b5b-d381-4a45-bc36-cc3d92983ee9">
 		<InternalInfo>
-			<xr:GeneratedType name="EnumRef.док_ПрограммаУдаленногоУправления" category="Ref">
-				<xr:TypeId>e868937b-d3a1-40d1-b3f4-8c782a93c4c6</xr:TypeId>
-				<xr:ValueId>35336c8b-a11b-4cba-bb96-7a98c1e29364</xr:ValueId>
+			<xr:GeneratedType name="EnumRef.док_ПоколенияВМ" category="Ref">
+				<xr:TypeId>fc22a0b0-afb0-41b2-adf5-beda6b4a0f0c</xr:TypeId>
+				<xr:ValueId>868d5a31-99ca-46d5-a383-9eedcbf51736</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumManager.док_ПрограммаУдаленногоУправления" category="Manager">
-				<xr:TypeId>2c21c313-b25d-4867-a22d-25b342ce0fce</xr:TypeId>
-				<xr:ValueId>dbf532bc-45cd-4dbc-b027-8fd33fb300cd</xr:ValueId>
+			<xr:GeneratedType name="EnumManager.док_ПоколенияВМ" category="Manager">
+				<xr:TypeId>26b80562-0953-4f1e-83b4-75cc117a56b4</xr:TypeId>
+				<xr:ValueId>233493e7-3fb7-4c4a-a211-af8c2133e83a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumList.док_ПрограммаУдаленногоУправления" category="List">
-				<xr:TypeId>8c606907-9ffa-4e6b-8b05-06868093b298</xr:TypeId>
-				<xr:ValueId>d063d3e9-b490-4412-928f-1ea6d1d539e3</xr:ValueId>
+			<xr:GeneratedType name="EnumList.док_ПоколенияВМ" category="List">
+				<xr:TypeId>a3e4ffbf-b9e2-43de-b06c-4cdeba79ad3f</xr:TypeId>
+				<xr:ValueId>ccf494b6-940a-46a3-ac17-214f81515b71</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>док_ПрограммаУдаленногоУправления</Name>
+			<Name>док_ПоколенияВМ</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Программа удаленного управления</v8:content>
+					<v8:content>Поколение ВМ</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -92,25 +92,25 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="4f163062-9c08-4ed1-ba54-c5cbe0f12ad1">
+			<EnumValue uuid="f454f9ca-ed19-424b-86ce-884ea6be3b80">
 				<Properties>
-					<Name>TeamViewer</Name>
+					<Name>Поколение1</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>TeamViewer</v8:content>
+							<v8:content>1</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="11e8b11e-8379-4cbc-a4e2-88cbcc873a36">
+			<EnumValue uuid="b5626974-1c06-4103-b8eb-9558bf143f3f">
 				<Properties>
-					<Name>AnyDesk</Name>
+					<Name>Поколение2</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>AnyDesk</v8:content>
+							<v8:content>2</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

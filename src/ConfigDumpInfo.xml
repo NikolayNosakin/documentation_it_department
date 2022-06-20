@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.14">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.15">
 	<ConfigVersions>
 		<Metadata name="Catalog.ВариантыОтчетов" id="0adf02da-940a-4bfc-afa5-59605494a169" configVersion="16aa9038870512458c2307e96c52da5700000000">
 			<Metadata name="Catalog.ВариантыОтчетов.Attribute.ВидимостьПоУмолчаниюПереопределена" id="08427a9a-fb3a-4bc1-b2e2-72e4f89680cd"/>
@@ -1671,7 +1671,7 @@
 		</Metadata>
 		<Metadata name="Catalog.док_СУБДПрисоединенныеФайлы.ManagerModule" id="a3d5b358-5f82-48dd-b67b-6af1d717af13.3" configVersion="3645269f9f565a4dbf1d6a80f0531b5700000000"/>
 		<Metadata name="Catalog.док_СУБДПрисоединенныеФайлы.ObjectModule" id="a3d5b358-5f82-48dd-b67b-6af1d717af13.0" configVersion="65b1c79d458fef40840ae48d42fa363900000000"/>
-		<Metadata name="Catalog.док_Серверы" id="47410a5b-1ac3-4401-952f-e16ed9273f03" configVersion="2c2a59cc86eb444fabbff1e6e39699b900000000">
+		<Metadata name="Catalog.док_Серверы" id="47410a5b-1ac3-4401-952f-e16ed9273f03" configVersion="11038c41a9683c468062056f0bc55e4a00000000">
 			<Metadata name="Catalog.док_Серверы.TabularSection.IP.Attribute.Основной" id="02c4298b-0dff-4ad0-bcf4-50e98711d2aa"/>
 			<Metadata name="Catalog.док_Серверы.TabularSection.IP.Attribute.IP" id="03b3e804-dc49-49f1-824b-546635e71ca6"/>
 			<Metadata name="Catalog.док_Серверы.TabularSection.УчетныеДанные" id="0fb0c6f7-5b3a-4ab7-8ede-3621ad792400"/>
@@ -1703,8 +1703,8 @@
 		<Metadata name="Catalog.док_Серверы.Form.ФормаВыбора.Form" id="f0b19092-8f13-43b0-b351-10d1d7bd8d48.0" configVersion="f4c53a045624774980fa80a6adae695400000000"/>
 		<Metadata name="Catalog.док_Серверы.Form.ФормаСписка" id="677a022b-72ca-458a-a12d-d07ec783969b" configVersion="36d3265da5dcfb4b99e0b776823afdc800000000"/>
 		<Metadata name="Catalog.док_Серверы.Form.ФормаСписка.Form" id="677a022b-72ca-458a-a12d-d07ec783969b.0" configVersion="81da91d81141e4499cae1370988c615d00000000"/>
-		<Metadata name="Catalog.док_Серверы.Form.ФормаЭлемента" id="84242aaf-b461-49fa-b7e2-a1a87c239830" configVersion="1deb1bfc3cf1bb41a87b274da3b7c22a00000000"/>
-		<Metadata name="Catalog.док_Серверы.Form.ФормаЭлемента.Form" id="84242aaf-b461-49fa-b7e2-a1a87c239830.0" configVersion="62d369b52ccafb45af810a0c101bf14500000000"/>
+		<Metadata name="Catalog.док_Серверы.Form.ФормаЭлемента" id="84242aaf-b461-49fa-b7e2-a1a87c239830" configVersion="92c71ef05e46054697282ff69d4859cd00000000"/>
+		<Metadata name="Catalog.док_Серверы.Form.ФормаЭлемента.Form" id="84242aaf-b461-49fa-b7e2-a1a87c239830.0" configVersion="64cfeedd841aaf498826603f900e3b6f00000000"/>
 		<Metadata name="Catalog.док_Серверы.ManagerModule" id="47410a5b-1ac3-4401-952f-e16ed9273f03.3" configVersion="9f2fdaa48a1bcb4ea9da1917bb8b1c5400000000"/>
 		<Metadata name="Catalog.док_СерверыVPN" id="c30a4200-f226-4d50-a104-4eb4535deae3" configVersion="efd8b6652b18664f84618347cc8f969000000000">
 			<Metadata name="Catalog.док_СерверыVPN.Attribute.Сеть" id="185d050a-c596-46f5-8e0a-5941eb2209b1"/>
@@ -5576,13 +5576,14 @@
 			<Metadata name="Enum.док_ПоддержкаКонфигурации.EnumValue.ТиповаяИзменённая" id="78e8ea8f-dce1-4b0e-a07b-d5bd5ffcc372"/>
 			<Metadata name="Enum.док_ПоддержкаКонфигурации.EnumValue.Самописная" id="a9e03474-5dde-45f1-b4fd-fb6e666cb4c6"/>
 		</Metadata>
-		<Metadata name="Enum.док_ПоколениеВМ" id="ec3f1b5b-d381-4a45-bc36-cc3d92983ee9" configVersion="59bd5df4e0865a42b3ade50900db6f1900000000">
-			<Metadata name="Enum.док_ПоколениеВМ.EnumValue.Поколение2" id="b5626974-1c06-4103-b8eb-9558bf143f3f"/>
-			<Metadata name="Enum.док_ПоколениеВМ.EnumValue.Поколение1" id="f454f9ca-ed19-424b-86ce-884ea6be3b80"/>
+		<Metadata name="Enum.док_ПоколенияВМ" id="ec3f1b5b-d381-4a45-bc36-cc3d92983ee9" configVersion="fc4a5fd36ece2c41865fbd47ef968b8500000000">
+			<Metadata name="Enum.док_ПоколенияВМ.EnumValue.Поколение2" id="b5626974-1c06-4103-b8eb-9558bf143f3f"/>
+			<Metadata name="Enum.док_ПоколенияВМ.EnumValue.Поколение1" id="f454f9ca-ed19-424b-86ce-884ea6be3b80"/>
 		</Metadata>
-		<Metadata name="Enum.док_ПрограммаУдаленногоУправления" id="33f53cd3-6265-4a9c-b339-6b19bc506c69" configVersion="6682f13a4b15eb4488d246373be5f16400000000">
-			<Metadata name="Enum.док_ПрограммаУдаленногоУправления.EnumValue.AnyDesk" id="11e8b11e-8379-4cbc-a4e2-88cbcc873a36"/>
-			<Metadata name="Enum.док_ПрограммаУдаленногоУправления.EnumValue.TeamViewer" id="4f163062-9c08-4ed1-ba54-c5cbe0f12ad1"/>
+		<Metadata name="Enum.док_ПрограммыУдаленногоУправления" id="33f53cd3-6265-4a9c-b339-6b19bc506c69" configVersion="93aa82b0efd8aa43880defb8e5cbd81b00000000">
+			<Metadata name="Enum.док_ПрограммыУдаленногоУправления.EnumValue.AnyDesk" id="11e8b11e-8379-4cbc-a4e2-88cbcc873a36"/>
+			<Metadata name="Enum.док_ПрограммыУдаленногоУправления.EnumValue.TeamViewer" id="4f163062-9c08-4ed1-ba54-c5cbe0f12ad1"/>
+			<Metadata name="Enum.док_ПрограммыУдаленногоУправления.EnumValue.RustDesk" id="eee84235-f90a-4fde-85ef-047abfb0e635"/>
 		</Metadata>
 		<Metadata name="Enum.док_Разрядность" id="6ad52e42-fb83-40c8-a468-420d4ca7e4d4" configVersion="693f08820271ec40816bc0c7e90fb56600000000">
 			<Metadata name="Enum.док_Разрядность.EnumValue.x32_x64" id="4adc1e87-ca84-49ee-9fd3-884b0258266c"/>
