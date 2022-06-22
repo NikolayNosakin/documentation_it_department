@@ -78,23 +78,11 @@
 					<SpinButton>false</SpinButton>
 					<OpenButton>true</OpenButton>
 					<CreateButton>false</CreateButton>
-					<ChoiceParameterLinks>
-						<xr:Link>
-							<xr:Name>Отбор.Клиент</xr:Name>
-							<xr:DataPath xsi:type="xs:string">Объект.Клиент</xr:DataPath>
-							<xr:ValueChange>Clear</xr:ValueChange>
-						</xr:Link>
-					</ChoiceParameterLinks>
-					<ChoiceParameters>
-						<app:item name="Отбор.Тип">
-							<app:value xsi:type="FormChoiceListDesTimeValue">
-								<Presentation/>
-								<Value xsi:type="xr:DesignTimeRef">Enum.док_ТипСервера.EnumValue.Хост</Value>
-							</app:value>
-						</app:item>
-					</ChoiceParameters>
 					<ContextMenu name="РодительКонтекстноеМеню" id="133"/>
 					<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="134"/>
+					<Events>
+						<Event name="StartChoice">РодительНачалоВыбора</Event>
+					</Events>
 				</InputField>
 				<InputField name="Поколение" id="129">
 					<DataPath>Объект.Поколение</DataPath>
