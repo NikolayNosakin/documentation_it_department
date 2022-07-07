@@ -4,6 +4,41 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>CommonCommand.ДополнительныеОтчетыАдминистрирование</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ДополнительныеОтчетыИнфраструктура</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ДополнительныеОтчетыБД</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ДополнительныеОбработкиНСИ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ДополнительныеОбработкиАдминистрирование</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</name>
 		<right>
 			<name>Read</name>
@@ -56,6 +91,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonCommand.ДополнительныеОбработкиИнфраструктура</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.ДополнительныеОтчетыИОбработки</name>
 		<right>
 			<name>View</name>
@@ -63,7 +105,21 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonCommand.ДополнительныеОбработкиБД</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.НастройкаМоихОтчетовИОбработок</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ДополнительныеОтчетыВзаимодействия</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -93,6 +149,20 @@
 		</right>
 		<right>
 			<name>AnalyticsSystemClient</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ДополнительныеОтчетыНСИ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ДополнительныеОбработкиВзаимодействия</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

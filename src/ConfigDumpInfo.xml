@@ -1236,7 +1236,7 @@
 		</Metadata>
 		<Metadata name="Catalog.док_ВидеорегистраторыПрисоединенныеФайлы.ManagerModule" id="2529d133-2421-4084-88ff-cd3de0fdac51.3" configVersion="01d37871f660ce4092ba38a71092728300000000"/>
 		<Metadata name="Catalog.док_ВидеорегистраторыПрисоединенныеФайлы.ObjectModule" id="2529d133-2421-4084-88ff-cd3de0fdac51.0" configVersion="779920fde64a3a47935ab92d4317792200000000"/>
-		<Metadata name="Catalog.док_ВидыКомплектующих" id="3eda7f14-7cdb-4c12-91bf-4aef88909498" configVersion="3c2b8316533d824bbf0686e3c661faf500000000"/>
+		<Metadata name="Catalog.док_ВидыКомплектующих" id="3eda7f14-7cdb-4c12-91bf-4aef88909498" configVersion="31563517c13ecf4aba5334a8e7043f6300000000"/>
 		<Metadata name="Catalog.док_ВидыКомплектующих.Form.ФормаВыбора" id="c1eca00f-b41d-47ae-a9b9-2dc11d1dedb2" configVersion="275df67c3ab7d94a9490f823ad48087700000000"/>
 		<Metadata name="Catalog.док_ВидыКомплектующих.Form.ФормаВыбора.Form" id="c1eca00f-b41d-47ae-a9b9-2dc11d1dedb2.0" configVersion="e71182a23c85df4dbc0e98b8a864fdaf00000000"/>
 		<Metadata name="Catalog.док_ВидыКомплектующих.Form.ФормаСписка" id="fc9420b2-7e0a-472f-b7c6-583817bd67ac" configVersion="a1fbe85a39c03a488d614b0e8367c5d200000000"/>
@@ -1611,12 +1611,14 @@
 		</Metadata>
 		<Metadata name="Catalog.док_ПринтерыПрисоединенныеФайлы.ManagerModule" id="ce0dd717-e342-4542-999c-f08f4e62c2dc.3" configVersion="826e9fe8208a7540b139c3563741bd0700000000"/>
 		<Metadata name="Catalog.док_ПринтерыПрисоединенныеФайлы.ObjectModule" id="ce0dd717-e342-4542-999c-f08f4e62c2dc.0" configVersion="806c2b10163e304a92559fb6ecd0c62700000000"/>
-		<Metadata name="Catalog.док_СУБД" id="8c86e581-d26b-414f-be32-1c66b8491fac" configVersion="5e9820b83da3994ebb7e0fca0464c95700000000">
+		<Metadata name="Catalog.док_СУБД" id="8c86e581-d26b-414f-be32-1c66b8491fac" configVersion="74fa2c9cdbec164d84148814fca3d4cf00000000">
 			<Metadata name="Catalog.док_СУБД.TabularSection.СУБД.Attribute.Логин" id="1ca8e39a-7c7e-474c-83e4-439709dd90d5"/>
 			<Metadata name="Catalog.док_СУБД.TabularSection.СУБД.Attribute.ПарольЗашифрован" id="3332b960-2076-4ca0-829e-7aac1b6faee2"/>
 			<Metadata name="Catalog.док_СУБД.TabularSection.Платформы" id="3b288289-1740-4154-a735-323eb77c6c47"/>
 			<Metadata name="Catalog.док_СУБД.Attribute.Сервер" id="402125ec-70cc-4080-9be1-f5194d695e27"/>
 			<Metadata name="Catalog.док_СУБД.TabularSection.Платформы.Attribute.Разрядность" id="85beefa8-167a-4cbc-98d8-c7fb41b549a3"/>
+			<Metadata name="Catalog.док_СУБД.TabularSection.Платформы.Attribute.Пароль" id="94bf3df6-ee3d-4235-9d83-28b0ed5f0505"/>
+			<Metadata name="Catalog.док_СУБД.TabularSection.Платформы.Attribute.Логин" id="9eed9081-1aac-4a7c-8464-ae7fddf3e4c4"/>
 			<Metadata name="Catalog.док_СУБД.TabularSection.СУБД.Attribute.Версия" id="a262a166-8bb2-430d-a422-4de8387b7a26"/>
 			<Metadata name="Catalog.док_СУБД.TabularSection.СУБД" id="a8ea3466-3739-46f8-a64d-6be8dd808cbd"/>
 			<Metadata name="Catalog.док_СУБД.TabularSection.СУБД.Attribute.Тип" id="b090ebbe-a35c-467e-be86-96a065371d0c"/>
@@ -1630,8 +1632,8 @@
 		<Metadata name="Catalog.док_СУБД.Form.ФормаВыбора.Form" id="2f66f575-4413-4a76-8d94-d490c886e92c.0" configVersion="560e3be73e67e1429970abaa05cc43db00000000"/>
 		<Metadata name="Catalog.док_СУБД.Form.ФормаСписка" id="3f29d298-c09a-4d1f-b434-bea848183f2e" configVersion="d72f0d291afc0941ac197f395aa1275d00000000"/>
 		<Metadata name="Catalog.док_СУБД.Form.ФормаСписка.Form" id="3f29d298-c09a-4d1f-b434-bea848183f2e.0" configVersion="bd85391f8482814498710e593f29549b00000000"/>
-		<Metadata name="Catalog.док_СУБД.Form.ФормаЭлемента" id="378cc9a0-e213-4d8c-8249-d89cd9845c0b" configVersion="f8103c87f6a60244900343ac1e52f74b00000000"/>
-		<Metadata name="Catalog.док_СУБД.Form.ФормаЭлемента.Form" id="378cc9a0-e213-4d8c-8249-d89cd9845c0b.0" configVersion="6d672af946a2974fa8b21c2b0662984a00000000"/>
+		<Metadata name="Catalog.док_СУБД.Form.ФормаЭлемента" id="378cc9a0-e213-4d8c-8249-d89cd9845c0b" configVersion="2c2b04f921e2334baf0476cbf15f60a300000000"/>
+		<Metadata name="Catalog.док_СУБД.Form.ФормаЭлемента.Form" id="378cc9a0-e213-4d8c-8249-d89cd9845c0b.0" configVersion="cf20f28b7a50214ab5bde362bef54f0900000000"/>
 		<Metadata name="Catalog.док_СУБДПрисоединенныеФайлы" id="a3d5b358-5f82-48dd-b67b-6af1d717af13" configVersion="8570af4582fa264d8f4e533c8da370f900000000">
 			<Metadata name="Catalog.док_СУБДПрисоединенныеФайлы.Attribute.ТипХраненияФайла" id="003fe9af-0812-491f-91bc-26d6af707e1d"/>
 			<Metadata name="Catalog.док_СУБДПрисоединенныеФайлы.Attribute.Размер" id="0d46481f-80b3-454b-bdbf-25d356d6a431"/>
@@ -2412,7 +2414,7 @@
 		<Metadata name="CommonForm.док_РабочийСтол.Form" id="7258d884-f592-4e9f-ad44-7b92f6a84706.0" configVersion="4a57c5fa17b6734a82cb1ff6bdf5897f00000000"/>
 		<Metadata name="CommonForm.док_РабочийСтол_v2" id="0756e958-0d17-4785-a58b-86fa0ce64a73" configVersion="de8731946f970f4580c4d175aac17a8e00000000"/>
 		<Metadata name="CommonForm.док_РабочийСтол_v2.Form" id="0756e958-0d17-4785-a58b-86fa0ce64a73.0" configVersion="871aca5f637243478083a35293de349600000000"/>
-		<Metadata name="CommonForm.док_СменитьСтиль" id="661a21f4-4e95-4313-a729-790f744a88f4" configVersion="1aa13c32c5883c4c970d812b23a64ede00000000"/>
+		<Metadata name="CommonForm.док_СменитьСтиль" id="661a21f4-4e95-4313-a729-790f744a88f4" configVersion="3a78ede6ea44fa4db7dc268f7ad747df00000000"/>
 		<Metadata name="CommonForm.док_СменитьСтиль.Form" id="661a21f4-4e95-4313-a729-790f744a88f4.0" configVersion="1adb03d39972b64e89078a57c9dafeeb00000000"/>
 		<Metadata name="CommonForm.док_СохранениеВосстановлениеДанных" id="2391ae19-3c7a-4d19-97cb-a63ba2962c0a" configVersion="76b3f3ab50311948936d4d9f5eadeacd00000000"/>
 		<Metadata name="CommonForm.док_СохранениеВосстановлениеДанных.Form" id="2391ae19-3c7a-4d19-97cb-a63ba2962c0a.0" configVersion="7d39c14532520d408e1fd94f2d3b508c00000000"/>
@@ -2632,8 +2634,8 @@
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыВызовСервера.Module" id="f20a04a7-84fa-48e3-8ac5-28176c1fcada.0" configVersion="74bc45281202c34fb8ae2a3e62d749fa00000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыГлобальный" id="b722d6e1-fd6f-4bb4-923d-01764393722d" configVersion="002bab165fbfc344bd2e9fecc24c0dbe00000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыГлобальный.Module" id="b722d6e1-fd6f-4bb4-923d-01764393722d.0" configVersion="fc8de45f5d60b940bcc63f7d78a56d8600000000"/>
-		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыДокументация" id="9bcee245-29b0-4b4c-8160-a82d5df832c3" configVersion="46c66e116e3c0247ab26a81f092ffc3800000000"/>
-		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыДокументация.Module" id="9bcee245-29b0-4b4c-8160-a82d5df832c3.0" configVersion="0c6c36242f96824ea40d6a1d35c5750b00000000"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыДокументация" id="9bcee245-29b0-4b4c-8160-a82d5df832c3" configVersion="2ba21c5d3a017d4096823d3546dfb97000000000"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыДокументация.Module" id="9bcee245-29b0-4b4c-8160-a82d5df832c3.0" configVersion="2c42d15f3605c34c835f6a3fe491d32600000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыКлиент" id="ac5f945e-2d03-44fb-a8cf-5d786194cefd" configVersion="91a7106cb4752f4d98dfbb5d2ff06e0d00000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыКлиент.Module" id="ac5f945e-2d03-44fb-a8cf-5d786194cefd.0" configVersion="193e6dac3229d54f9705e955a56649fd00000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыКлиентПереопределяемый" id="698ec00f-bf75-420e-81ab-a98808daf3f7" configVersion="2e991e7041ced34882af715ed311621300000000"/>
@@ -3877,11 +3879,12 @@
 		<Metadata name="CommonTemplate.док_РабочийСтол.Template" id="a94568a7-4b7d-42c7-8030-36b602e32a4f.0" configVersion="9a88320dbe3ce447a0f876ed652cc46c00000000"/>
 		<Metadata name="CommonTemplate.док_РабочийСтолМобильный" id="c070e520-bf95-4e01-aad7-f09074c9e77b" configVersion="0bb54e51f424604083f248437e213f2a00000000"/>
 		<Metadata name="CommonTemplate.док_РабочийСтолМобильный.Template" id="c070e520-bf95-4e01-aad7-f09074c9e77b.0" configVersion="d6716755a33c2d4cb55f2d52d975277000000000"/>
-		<Metadata name="Configuration.Документация" id="df4c43c4-63b4-4216-ac10-c353308b57d7" configVersion="975fe508803b7143907e68c8f9bf3b6100000000"/>
+		<Metadata name="Configuration.Документация" id="df4c43c4-63b4-4216-ac10-c353308b57d7" configVersion="110201ceb6253445bdfbf5ae72b132a400000000"/>
 		<Metadata name="Configuration.Документация.ClientApplicationInterface" id="a5e31f28-993e-47ee-ad37-9a81a135fc87.b" configVersion="9eae0bbb5397384893029496401fc4f100000000"/>
 		<Metadata name="Configuration.Документация.CommandInterface" id="a5e31f28-993e-47ee-ad37-9a81a135fc87.a" configVersion="6bae6ce085cac843a5b48e334efeb54700000000"/>
 		<Metadata name="Configuration.Документация.ExternalConnectionModule" id="a5e31f28-993e-47ee-ad37-9a81a135fc87.5" configVersion="e5977fa73e206f4c99952919a80bec2d00000000"/>
 		<Metadata name="Configuration.Документация.HomePageWorkArea" id="a5e31f28-993e-47ee-ad37-9a81a135fc87.8" configVersion="f8ccab429563f249a9111b541316641f00000000"/>
+		<Metadata name="Configuration.Документация.MainSectionCommandInterface" id="a5e31f28-993e-47ee-ad37-9a81a135fc87.9" configVersion="c614379fbf9b63409599bf52f358115400000000"/>
 		<Metadata name="Configuration.Документация.MainSectionPicture" id="a5e31f28-993e-47ee-ad37-9a81a135fc87.c" configVersion="3ac441bb373d634f8dd39a23c567fd9200000000"/>
 		<Metadata name="Configuration.Документация.ManagedApplicationModule" id="a5e31f28-993e-47ee-ad37-9a81a135fc87.6" configVersion="718d88d472800d4e8d730341558de44d00000000"/>
 		<Metadata name="Configuration.Документация.OrdinaryApplicationModule" id="a5e31f28-993e-47ee-ad37-9a81a135fc87.0" configVersion="6a3923852f873440920c24557347445700000000"/>
@@ -7092,8 +7095,8 @@
 		<Metadata name="Role.ДобавлениеИзменениеДополнительныхОтчетовИОбработок.Rights" id="4a008342-f72f-4ca1-bad1-64b59b509911.0" configVersion="c7c0c8b2d6d83c4f90db388d63833f5700000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеДополнительныхРеквизитовИСведений" id="4436b2cf-2d71-401f-99fd-012ff0c91fbd" configVersion="c6eebdc7e2691e4f92e550fecfd7b71f00000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеДополнительныхРеквизитовИСведений.Rights" id="4436b2cf-2d71-401f-99fd-012ff0c91fbd.0" configVersion="62ad51ebce577049b8a620906abf8e6300000000"/>
-		<Metadata name="Role.ДобавлениеИзменениеЗаметок" id="5d75aae8-9d9c-4a47-b8c0-2ce56431fe53" configVersion="86ed0221fe6dff47b63456a0e33a16fa00000000"/>
-		<Metadata name="Role.ДобавлениеИзменениеЗаметок.Rights" id="5d75aae8-9d9c-4a47-b8c0-2ce56431fe53.0" configVersion="a91eb1adabcc8f409651a817a0e4d33000000000"/>
+		<Metadata name="Role.ДобавлениеИзменениеЗаметок" id="5d75aae8-9d9c-4a47-b8c0-2ce56431fe53" configVersion="5fd69129f704dd4b90696dc8fc51fa8200000000"/>
+		<Metadata name="Role.ДобавлениеИзменениеЗаметок.Rights" id="5d75aae8-9d9c-4a47-b8c0-2ce56431fe53.0" configVersion="40542074f8f70c4ea1b75370f88a382c00000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеЛичныхВариантовОтчетов" id="de4d37c9-b278-4c0c-bc10-1b63ecd72947" configVersion="3ec5026700f1654e9ab65c463ec55d3300000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеЛичныхВариантовОтчетов.Rights" id="de4d37c9-b278-4c0c-bc10-1b63ecd72947.0" configVersion="99ff9d432c2f7547a4e137229ebff81b00000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеНапоминаний" id="5a741cf6-8160-4409-9396-2e6d1e67e6fa" configVersion="1476d02df493e24282fbf33ad1747a9900000000"/>
@@ -7160,8 +7163,8 @@
 		<Metadata name="Role.ЧтениеВерсийОбъектов.Rights" id="1c1a5bf8-bbe6-4a69-973e-11445175dac2.0" configVersion="1fc0221e8990884884de6ec19074134300000000"/>
 		<Metadata name="Role.ЧтениеВнешнихПользователей" id="f11ffcfd-3588-4785-b222-cebe80455303" configVersion="703c3ba7ee8f3a41b78f88317b315a9300000000"/>
 		<Metadata name="Role.ЧтениеВнешнихПользователей.Rights" id="f11ffcfd-3588-4785-b222-cebe80455303.0" configVersion="222d655ca697244b9acf6daf6120e0ae00000000"/>
-		<Metadata name="Role.ЧтениеДополнительныхОтчетовИОбработок" id="1c7e9baa-7728-4afd-829a-806cee13ecdb" configVersion="a870d377467ec64088fc0b11f4dc98ca00000000"/>
-		<Metadata name="Role.ЧтениеДополнительныхОтчетовИОбработок.Rights" id="1c7e9baa-7728-4afd-829a-806cee13ecdb.0" configVersion="c54660938562d64193ee262ec56a837600000000"/>
+		<Metadata name="Role.ЧтениеДополнительныхОтчетовИОбработок" id="1c7e9baa-7728-4afd-829a-806cee13ecdb" configVersion="0963d8dba19b594c880fba540f209fbc00000000"/>
+		<Metadata name="Role.ЧтениеДополнительныхОтчетовИОбработок.Rights" id="1c7e9baa-7728-4afd-829a-806cee13ecdb.0" configVersion="b09f94c56e70fa448456d074e508546a00000000"/>
 		<Metadata name="Role.ЧтениеДополнительныхСведений" id="5d216c28-0724-4e7d-86cf-b6f75e7e28b7" configVersion="f6eef0c89e14b34a8152c4bb50e60c5d00000000"/>
 		<Metadata name="Role.ЧтениеДополнительныхСведений.Rights" id="5d216c28-0724-4e7d-86cf-b6f75e7e28b7.0" configVersion="ff99887549afc342a48f77546ae7356300000000"/>
 		<Metadata name="Role.ЧтениеИнформацииОВерсияхОбъектов" id="dfafcdf3-cdeb-4822-9f41-a730d9d3fb24" configVersion="9f8dcbbd1dc8e440a6727c64db73acab00000000"/>
@@ -7170,26 +7173,194 @@
 		<Metadata name="Role.ЧтениеРассылокОтчетов.Rights" id="89cc9ae4-e933-4f4a-849f-48ef67b75819.0" configVersion="b87b2e32821589409b00bba0e4f36f7c00000000"/>
 		<Metadata name="Role.ЧтениеУчетныхЗаписейЭлектроннойПочты" id="4a70416b-6598-4239-be70-2c0c8255388a" configVersion="1b851ba842184f41a5c36f29717eb30200000000"/>
 		<Metadata name="Role.ЧтениеУчетныхЗаписейЭлектроннойПочты.Rights" id="4a70416b-6598-4239-be70-2c0c8255388a.0" configVersion="bd95499e60ab10478d783abe13a8f7de00000000"/>
-		<Metadata name="Role.док_БД_Редактирование" id="0f23a832-3d55-4391-8557-d7bb27bed378" configVersion="f02aef60ca637d4f86bd997a965e3bd300000000"/>
-		<Metadata name="Role.док_БД_Редактирование.Rights" id="0f23a832-3d55-4391-8557-d7bb27bed378.0" configVersion="e5251d1923222441814e2ee09af5b3cc00000000"/>
-		<Metadata name="Role.док_БД_Чтение" id="bed2bd12-510f-4b52-86b5-ac0c4b8037b4" configVersion="e54cee573f1d05419c412b980751031300000000"/>
-		<Metadata name="Role.док_БД_Чтение.Rights" id="bed2bd12-510f-4b52-86b5-ac0c4b8037b4.0" configVersion="ade7c2905b0efd489bb911cbd7f6ff8a00000000"/>
-		<Metadata name="Role.док_БазовыеПрава" id="e2c08094-f2ef-4749-97ec-1b085b3cd924" configVersion="092c8ac6c0f3da4ebb67abe0777698dc00000000"/>
-		<Metadata name="Role.док_БазовыеПрава.Rights" id="e2c08094-f2ef-4749-97ec-1b085b3cd924.0" configVersion="9cc3fc2080ff264a8c695a32b1d01ff400000000"/>
-		<Metadata name="Role.док_Взаимодействия_Редактирование" id="d6e6e9c3-6a4c-41d6-8bb5-1c144b516667" configVersion="520278891e2ca345b67fbbe0890f583b00000000"/>
-		<Metadata name="Role.док_Взаимодействия_Редактирование.Rights" id="d6e6e9c3-6a4c-41d6-8bb5-1c144b516667.0" configVersion="79cc4d72b7ad2f4285d364dec6a6816200000000"/>
-		<Metadata name="Role.док_Взаимодействия_Чтение" id="64ff4755-35d3-4908-857b-1b0a808a7f0b" configVersion="b33b7c7b2924a040a06ed663cedb757a00000000"/>
-		<Metadata name="Role.док_Взаимодействия_Чтение.Rights" id="64ff4755-35d3-4908-857b-1b0a808a7f0b.0" configVersion="6e8ea832a63ec0468079c90830c9c50400000000"/>
-		<Metadata name="Role.док_Инфраструктура_Редактирование" id="8cc2daf8-810e-4810-8ce5-b206e55a0cfc" configVersion="d6cbb26c7df00a49b564f953063daff100000000"/>
-		<Metadata name="Role.док_Инфраструктура_Редактирование.Rights" id="8cc2daf8-810e-4810-8ce5-b206e55a0cfc.0" configVersion="fdf003fdf3823a49b759a041162f43ac00000000"/>
-		<Metadata name="Role.док_Инфраструктура_Чтение" id="90c2e6e1-b599-4534-86b5-ebcb31037cfd" configVersion="88b6a65f01d6fd41bf2aa000349970e200000000"/>
-		<Metadata name="Role.док_Инфраструктура_Чтение.Rights" id="90c2e6e1-b599-4534-86b5-ebcb31037cfd.0" configVersion="07caff07b48bb14799b41d901c0123cd00000000"/>
-		<Metadata name="Role.док_НСИ_Редактирование" id="02d32da0-9ae1-450c-af93-fb5938c7b96f" configVersion="23eb15ada5b76f40b0f268d13756b1e100000000"/>
-		<Metadata name="Role.док_НСИ_Редактирование.Rights" id="02d32da0-9ae1-450c-af93-fb5938c7b96f.0" configVersion="d75022dd914b404b8a19dee184b9659100000000"/>
-		<Metadata name="Role.док_НСИ_Чтение" id="9552f840-21b3-4495-bfff-427b93765e09" configVersion="f61298897b21d84cb535291bc42d954700000000"/>
-		<Metadata name="Role.док_НСИ_Чтение.Rights" id="9552f840-21b3-4495-bfff-427b93765e09.0" configVersion="a9221cd4d3558b4a8e445ce0be4832f900000000"/>
+		<Metadata name="Role.док_БазовыеПрава" id="e2c08094-f2ef-4749-97ec-1b085b3cd924" configVersion="6c0680d473931b4b9a5da32acf439afc00000000"/>
+		<Metadata name="Role.док_БазовыеПрава.Rights" id="e2c08094-f2ef-4749-97ec-1b085b3cd924.0" configVersion="fa78ea8e1ca8884a991bb04ddbce718800000000"/>
 		<Metadata name="Role.док_ПолныеПраваБезУдаления" id="5342f557-ab39-423d-9480-063addecb4db" configVersion="0727fed1b76b904aa9f71fe8426e7ba800000000"/>
 		<Metadata name="Role.док_ПолныеПраваБезУдаления.Rights" id="5342f557-ab39-423d-9480-063addecb4db.0" configVersion="ceb3db382a05da4f9cd665fd2f98405b00000000"/>
+		<Metadata name="Role.док_Редактирование_АТС" id="9980b60e-e7eb-494e-a3c0-1e90d187528e" configVersion="39319dcb4670bc449491035246399d5200000000"/>
+		<Metadata name="Role.док_Редактирование_АТС.Rights" id="9980b60e-e7eb-494e-a3c0-1e90d187528e.0" configVersion="731c2fb7c3df1a46b1cad387b67b9f1f00000000"/>
+		<Metadata name="Role.док_Редактирование_АТС_Пароли" id="74f1d839-1947-4ce7-a5b3-f694cc2efb02" configVersion="6caadc77e4a08d4f9900970dc24f2f5c00000000"/>
+		<Metadata name="Role.док_Редактирование_АТС_Пароли.Rights" id="74f1d839-1947-4ce7-a5b3-f694cc2efb02.0" configVersion="2e73fdba7e92774abd70ee621d437a8400000000"/>
+		<Metadata name="Role.док_Редактирование_БД" id="447c9150-0946-44fd-87f2-5ff5d452f3bf" configVersion="0dbfd7a512d7d54496401ec71f1cf88800000000"/>
+		<Metadata name="Role.док_Редактирование_БД.Rights" id="447c9150-0946-44fd-87f2-5ff5d452f3bf.0" configVersion="7d7c50c3ccb81142a3e806e954776d5e00000000"/>
+		<Metadata name="Role.док_Редактирование_БД_Пароли" id="84582fa0-a814-4050-82b3-2a7c51923f54" configVersion="57fdf720aa882f4288bab0a9bb91c1cc00000000"/>
+		<Metadata name="Role.док_Редактирование_БД_Пароли.Rights" id="84582fa0-a814-4050-82b3-2a7c51923f54.0" configVersion="19bb925adba0174d90f224138f15277c00000000"/>
+		<Metadata name="Role.док_Редактирование_Боты" id="7efb24d1-b377-45fe-973e-3c1a3c80171c" configVersion="e56b28ececfd704bad7e2cf06295dce200000000"/>
+		<Metadata name="Role.док_Редактирование_Боты.Rights" id="7efb24d1-b377-45fe-973e-3c1a3c80171c.0" configVersion="547703d9fba4834e913e06236cc272da00000000"/>
+		<Metadata name="Role.док_Редактирование_ВерсииКонфигураций" id="f906fcd0-acb1-42da-8e9e-fb049bffd08e" configVersion="ea4c468440d016419fa806da8604846c00000000"/>
+		<Metadata name="Role.док_Редактирование_ВерсииКонфигураций.Rights" id="f906fcd0-acb1-42da-8e9e-fb049bffd08e.0" configVersion="8c700377e0d4104bb8ce53c80e27f6ba00000000"/>
+		<Metadata name="Role.док_Редактирование_ВерсииПлатформы1С" id="fe0264f1-faa4-4598-846d-9b7de2e1e413" configVersion="30221b98f9059d4c9e7fc7b4e4d29b9000000000"/>
+		<Metadata name="Role.док_Редактирование_ВерсииПлатформы1С.Rights" id="fe0264f1-faa4-4598-846d-9b7de2e1e413.0" configVersion="3e649d04f34577468bc2bc8af5863e9600000000"/>
+		<Metadata name="Role.док_Редактирование_Видеорегистраторы" id="761f9767-fb93-469f-a346-f38cff20fcce" configVersion="a50059e9472a3d4e8e5cc00251d5944100000000"/>
+		<Metadata name="Role.док_Редактирование_Видеорегистраторы.Rights" id="761f9767-fb93-469f-a346-f38cff20fcce.0" configVersion="b5243798225ed8478282e4a91ea6a7ce00000000"/>
+		<Metadata name="Role.док_Редактирование_Видеорегистраторы_Пароли" id="b94c00ae-30d0-4d36-818d-79c890387fed" configVersion="507be290f7048148b346927e5fb49aae00000000"/>
+		<Metadata name="Role.док_Редактирование_Видеорегистраторы_Пароли.Rights" id="b94c00ae-30d0-4d36-818d-79c890387fed.0" configVersion="6776331f97a2d643bfc673d9d4b3474900000000"/>
+		<Metadata name="Role.док_Редактирование_ВидеорегистраторыПрисоединенныеФайлы" id="94bca3f7-ad63-4358-8c9e-77c7dbd515cb" configVersion="92ba8791ffac7c49b6a3675de5b81c5d00000000"/>
+		<Metadata name="Role.док_Редактирование_ВидеорегистраторыПрисоединенныеФайлы.Rights" id="94bca3f7-ad63-4358-8c9e-77c7dbd515cb.0" configVersion="835ee85f45e2e543b1a6688bd896039c00000000"/>
+		<Metadata name="Role.док_Редактирование_ВидыКомплектующих" id="c8776b93-531e-483f-a2a7-6e6c37441936" configVersion="141f5b90f600ef479124772defa4727200000000"/>
+		<Metadata name="Role.док_Редактирование_ВидыКомплектующих.Rights" id="c8776b93-531e-483f-a2a7-6e6c37441936.0" configVersion="d244b0791cbcd24abea40725874b3db100000000"/>
+		<Metadata name="Role.док_Редактирование_ВидыУстройств" id="10c0702a-6bd5-400a-a791-3a4bd82526bc" configVersion="83a9782df13e9144b0a176a67f1d595200000000"/>
+		<Metadata name="Role.док_Редактирование_ВидыУстройств.Rights" id="10c0702a-6bd5-400a-a791-3a4bd82526bc.0" configVersion="2793f5475e24c34caee0a15510e8c3b900000000"/>
+		<Metadata name="Role.док_Редактирование_Домены" id="7f201fc8-10fe-47c7-95e2-6bece30c622a" configVersion="dfc7ea967cf9a445baa698f830c5560800000000"/>
+		<Metadata name="Role.док_Редактирование_Домены.Rights" id="7f201fc8-10fe-47c7-95e2-6bece30c622a.0" configVersion="d61ac6cedf11de4c9b8d39c44ff9c70d00000000"/>
+		<Metadata name="Role.док_Редактирование_Домены_Пароли" id="590e5b7a-acbb-4179-b1a2-1af0d78bde13" configVersion="49b14cc738b30c438c81923c8127cd5700000000"/>
+		<Metadata name="Role.док_Редактирование_Домены_Пароли.Rights" id="590e5b7a-acbb-4179-b1a2-1af0d78bde13.0" configVersion="111d55e30763c441b6f9880f21a8c9bc00000000"/>
+		<Metadata name="Role.док_Редактирование_ДоменыПрисоединенныеФайлы" id="7f08b471-2fd0-4397-bc91-d896a47e5541" configVersion="3b140c81933dbf44879f1217b1a2b62500000000"/>
+		<Metadata name="Role.док_Редактирование_ДоменыПрисоединенныеФайлы.Rights" id="7f08b471-2fd0-4397-bc91-d896a47e5541.0" configVersion="208de5cda40fb5429922ec13becdac5c00000000"/>
+		<Metadata name="Role.док_Редактирование_Кассы" id="2adbdc99-54cc-4769-b70e-a4d8797e29be" configVersion="3728638d8c4474479e8000b1e93c583d00000000"/>
+		<Metadata name="Role.док_Редактирование_Кассы.Rights" id="2adbdc99-54cc-4769-b70e-a4d8797e29be.0" configVersion="e4807e77173e9f44b9735447974c57b000000000"/>
+		<Metadata name="Role.док_Редактирование_Кассы_Пароли" id="12cd23cf-657c-4500-9022-a9ac453880df" configVersion="471e1c39b54bca4abedbea00e9b7a99200000000"/>
+		<Metadata name="Role.док_Редактирование_Кассы_Пароли.Rights" id="12cd23cf-657c-4500-9022-a9ac453880df.0" configVersion="563a226135b2484cbc53ceadc16a8e1f00000000"/>
+		<Metadata name="Role.док_Редактирование_КассыПрисоединенныеФайлы" id="5274d987-0e41-4767-8b31-5709c13881b9" configVersion="76f406a04d97e14e9189d9b9372121d300000000"/>
+		<Metadata name="Role.док_Редактирование_КассыПрисоединенныеФайлы.Rights" id="5274d987-0e41-4767-8b31-5709c13881b9.0" configVersion="55b1995e7dad21429eb15d2ae1f973ad00000000"/>
+		<Metadata name="Role.док_Редактирование_Клиенты" id="70b51252-153a-4176-a539-7a2b011aa9e7" configVersion="4f9a0942c54b2b4e9a757dd95f642fda00000000"/>
+		<Metadata name="Role.док_Редактирование_Клиенты.Rights" id="70b51252-153a-4176-a539-7a2b011aa9e7.0" configVersion="6e0dfc7558752e4eac9499e4afbb45d000000000"/>
+		<Metadata name="Role.док_Редактирование_КлиентыПрисоединенныеФайлы" id="37206fb6-1a38-4c12-9e47-7b55f130834b" configVersion="0ae5f0db476c914fbadd9ecf48da155000000000"/>
+		<Metadata name="Role.док_Редактирование_КлиентыПрисоединенныеФайлы.Rights" id="37206fb6-1a38-4c12-9e47-7b55f130834b.0" configVersion="2bedd6bdac94ad499b38b8a6621fd94000000000"/>
+		<Metadata name="Role.док_Редактирование_КонтактныеЛицаКлиентов" id="23929185-4819-44f0-b220-e982406585d3" configVersion="c0961dd2eca4b34a82db0ff56fa1a4f600000000"/>
+		<Metadata name="Role.док_Редактирование_КонтактныеЛицаКлиентов.Rights" id="23929185-4819-44f0-b220-e982406585d3.0" configVersion="c35ecc1fa6a4ef4f9771bc20d0c8e27700000000"/>
+		<Metadata name="Role.док_Редактирование_Конфигурации" id="af3a0be8-4ae8-4b5f-be10-547ec8bfa998" configVersion="2442fc393542824e8f83cb0e927b504d00000000"/>
+		<Metadata name="Role.док_Редактирование_Конфигурации.Rights" id="af3a0be8-4ae8-4b5f-be10-547ec8bfa998.0" configVersion="f591f2836cc45849ba98256e308e26a400000000"/>
+		<Metadata name="Role.док_Редактирование_Лицензии" id="456d645a-29db-4749-a838-f77fcae064c7" configVersion="30dd4e2dd026694590b1f09b39d307fe00000000"/>
+		<Metadata name="Role.док_Редактирование_Лицензии.Rights" id="456d645a-29db-4749-a838-f77fcae064c7.0" configVersion="2e1ceff579785741b41effcb37390a9400000000"/>
+		<Metadata name="Role.док_Редактирование_ЛицензииПрисоединенныеФайлы" id="097bfab5-3b9b-4114-85f3-2de77993a290" configVersion="6768f9cb400a7642a45994e58f65631200000000"/>
+		<Metadata name="Role.док_Редактирование_ЛицензииПрисоединенныеФайлы.Rights" id="097bfab5-3b9b-4114-85f3-2de77993a290.0" configVersion="d5b062883802c54bb6a871896547df7000000000"/>
+		<Metadata name="Role.док_Редактирование_МестоположенияТехники" id="8a5991c2-125e-4353-82c7-7cdc7e395979" configVersion="0afb28b3d9169a40b522728dd264358300000000"/>
+		<Metadata name="Role.док_Редактирование_МестоположенияТехники.Rights" id="8a5991c2-125e-4353-82c7-7cdc7e395979.0" configVersion="6ac5d5045e97cb41bc02a41288d1396c00000000"/>
+		<Metadata name="Role.док_Редактирование_НазначенияПортов" id="76c3fab1-c215-4734-bf1d-dcbf5b8d4d9e" configVersion="46a5baf395fc6843a16a70b4f7ffb48500000000"/>
+		<Metadata name="Role.док_Редактирование_НазначенияПортов.Rights" id="76c3fab1-c215-4734-bf1d-dcbf5b8d4d9e.0" configVersion="4b41b306bdff5d4bab486520a4e9275d00000000"/>
+		<Metadata name="Role.док_Редактирование_Номенклатура" id="fcc6a933-4990-42d5-90f7-1925426dd408" configVersion="7c1408c2350bd5498a0ef56b53f6230500000000"/>
+		<Metadata name="Role.док_Редактирование_Номенклатура.Rights" id="fcc6a933-4990-42d5-90f7-1925426dd408.0" configVersion="ce37a16cd13eeb4cb90111b3b9b5be5200000000"/>
+		<Metadata name="Role.док_Редактирование_ОперационныеСистемы" id="feb15c98-04ab-494a-8ea2-08b6482eb51a" configVersion="b49cdbfeeb46f748882bae2ce798c9da00000000"/>
+		<Metadata name="Role.док_Редактирование_ОперационныеСистемы.Rights" id="feb15c98-04ab-494a-8ea2-08b6482eb51a.0" configVersion="0c40512a2d952b4e805fe8b3f33f99b300000000"/>
+		<Metadata name="Role.док_Редактирование_Принтеры" id="61e1e2ef-c2cc-4ef0-b02e-fc463a505b43" configVersion="2f6302fd7072f44e96b6c30347340ddd00000000"/>
+		<Metadata name="Role.док_Редактирование_Принтеры.Rights" id="61e1e2ef-c2cc-4ef0-b02e-fc463a505b43.0" configVersion="6d41a3509789fe47a9b75f0598866b6d00000000"/>
+		<Metadata name="Role.док_Редактирование_ПринтерыПрисоединенныеФайлы" id="d5841b37-c1af-42ba-98db-66a6b3b52450" configVersion="e4b3f1789accda4589babbb384ff040400000000"/>
+		<Metadata name="Role.док_Редактирование_ПринтерыПрисоединенныеФайлы.Rights" id="d5841b37-c1af-42ba-98db-66a6b3b52450.0" configVersion="ebb874b3f9d0594d9e436871831b1e0900000000"/>
+		<Metadata name="Role.док_Редактирование_СУБД" id="61470ed1-0b52-4d8a-843e-6ebac2846a2b" configVersion="584da3c18794254891fad32565e2ce1500000000"/>
+		<Metadata name="Role.док_Редактирование_СУБД.Rights" id="61470ed1-0b52-4d8a-843e-6ebac2846a2b.0" configVersion="8ab113341daabf40b363dd2064e1189400000000"/>
+		<Metadata name="Role.док_Редактирование_СУБД_Пароли" id="e482f6ac-0b4a-4c8d-8eb5-75b5792cf76f" configVersion="38ab5a7178fdab479a4a7f7e8e3bf9fc00000000"/>
+		<Metadata name="Role.док_Редактирование_СУБД_Пароли.Rights" id="e482f6ac-0b4a-4c8d-8eb5-75b5792cf76f.0" configVersion="ccbfa4a4a33eff40a4682aab5956135200000000"/>
+		<Metadata name="Role.док_Редактирование_Серверы" id="813a3954-2f95-4f51-92f1-341a8a77d123" configVersion="33a7df157d0e3442910a0503633bde5a00000000"/>
+		<Metadata name="Role.док_Редактирование_Серверы.Rights" id="813a3954-2f95-4f51-92f1-341a8a77d123.0" configVersion="db097e230f32044cb3b644821ca3bbf300000000"/>
+		<Metadata name="Role.док_Редактирование_СерверыVPN" id="5c760938-d205-4e88-ad75-431216c74ad4" configVersion="115d246376f58b4ca609ffdbabc95e3b00000000"/>
+		<Metadata name="Role.док_Редактирование_СерверыVPN.Rights" id="5c760938-d205-4e88-ad75-431216c74ad4.0" configVersion="1ef5bf299449ab4bb0041cb105ffb01700000000"/>
+		<Metadata name="Role.док_Редактирование_Серверы_Пароли" id="0b8e17aa-3ecb-4be5-bb33-5baa71d7f1fb" configVersion="2f59edcdbce7e34fa43ba8c34b77163a00000000"/>
+		<Metadata name="Role.док_Редактирование_Серверы_Пароли.Rights" id="0b8e17aa-3ecb-4be5-bb33-5baa71d7f1fb.0" configVersion="40cd2bbe3a5cc743b9e1dfcdea8f014c00000000"/>
+		<Metadata name="Role.док_Редактирование_Сервисы" id="ee465ea8-76d6-463c-a717-3a80d0da7ca2" configVersion="18fc23f75b5dfc4ca9529cd034cbeb6900000000"/>
+		<Metadata name="Role.док_Редактирование_Сервисы.Rights" id="ee465ea8-76d6-463c-a717-3a80d0da7ca2.0" configVersion="f492faf67ee3c946bb1467b6925fb40c00000000"/>
+		<Metadata name="Role.док_Редактирование_СетевоеОборудование" id="a6d6a04c-25ca-4b7e-a924-630b707541f2" configVersion="784e5f775e0d4f458e4c11ba0a99182e00000000"/>
+		<Metadata name="Role.док_Редактирование_СетевоеОборудование.Rights" id="a6d6a04c-25ca-4b7e-a924-630b707541f2.0" configVersion="f0f2e966815d314793cd0187b889f07e00000000"/>
+		<Metadata name="Role.док_Редактирование_СетевоеОборудование_Пароли" id="d949add9-7787-4d89-be13-c8bf71711516" configVersion="2a5f0a0c0960234a9f0675150ab1f89800000000"/>
+		<Metadata name="Role.док_Редактирование_СетевоеОборудование_Пароли.Rights" id="d949add9-7787-4d89-be13-c8bf71711516.0" configVersion="8fb0bf9ee48a484e846b32fdc560af8500000000"/>
+		<Metadata name="Role.док_Редактирование_Сети" id="fd8064a9-7aac-4b32-9f4c-aeec6afbf623" configVersion="82eae41f08e31d47884c4498383077b900000000"/>
+		<Metadata name="Role.док_Редактирование_Сети.Rights" id="fd8064a9-7aac-4b32-9f4c-aeec6afbf623.0" configVersion="4b1bca95d1c3a846b564dd8aacfc0c7200000000"/>
+		<Metadata name="Role.док_Редактирование_Устройства" id="64de1c0f-10ca-4822-abbe-d3f5d1cefacb" configVersion="ed05b46f283250409eb8e8f0d4b74ae900000000"/>
+		<Metadata name="Role.док_Редактирование_Устройства.Rights" id="64de1c0f-10ca-4822-abbe-d3f5d1cefacb.0" configVersion="ce8cf475034d584599792cfc8340315c00000000"/>
+		<Metadata name="Role.док_Редактирование_Устройства_Пароли" id="b61522d7-c2df-4650-aeed-99e6419921e2" configVersion="1cdf9f88c7f64b46a62738b07af9e61600000000"/>
+		<Metadata name="Role.док_Редактирование_Устройства_Пароли.Rights" id="b61522d7-c2df-4650-aeed-99e6419921e2.0" configVersion="adaba00db0b42945865fb13bf2164fd400000000"/>
+		<Metadata name="Role.док_Редактирование_УстройстваСУдаленнымУправлением" id="f8b4e71d-0733-407b-aae5-0be544d02fb3" configVersion="a5d4baba46db6a4b927d4571e165869e00000000"/>
+		<Metadata name="Role.док_Редактирование_УстройстваСУдаленнымУправлением.Rights" id="f8b4e71d-0733-407b-aae5-0be544d02fb3.0" configVersion="4f4d8d037cc6ae439d486bc7b4ade36a00000000"/>
+		<Metadata name="Role.док_Редактирование_УчетныеДанныеСервисов" id="030ce66b-9940-4234-8fe9-1ac676e9e02e" configVersion="5c7227dbcd92f14da80f2e97d1659e9100000000"/>
+		<Metadata name="Role.док_Редактирование_УчетныеДанныеСервисов.Rights" id="030ce66b-9940-4234-8fe9-1ac676e9e02e.0" configVersion="507b7422326b2440b935e4ffef392a7e00000000"/>
+		<Metadata name="Role.док_Чтение_АТС" id="3fd68c86-78f1-444f-bcd7-0badc1483754" configVersion="b8b7cb4356121b42bdbdb6530a8f0f8600000000"/>
+		<Metadata name="Role.док_Чтение_АТС.Rights" id="3fd68c86-78f1-444f-bcd7-0badc1483754.0" configVersion="5a99fe516205dd4f8921081c977dd29500000000"/>
+		<Metadata name="Role.док_Чтение_АТС_Пароли" id="05c3bb8d-d218-4213-8b85-75c3824ea98f" configVersion="39c7706cb5cbce4f82e8b7a1f4d95d1100000000"/>
+		<Metadata name="Role.док_Чтение_АТС_Пароли.Rights" id="05c3bb8d-d218-4213-8b85-75c3824ea98f.0" configVersion="43ad99311ca85b40ad92a9eb42efc62c00000000"/>
+		<Metadata name="Role.док_Чтение_БД" id="0ffd54b1-a6c8-4a94-a629-20a620b3b703" configVersion="19fba432002be34980e275407be51ce400000000"/>
+		<Metadata name="Role.док_Чтение_БД.Rights" id="0ffd54b1-a6c8-4a94-a629-20a620b3b703.0" configVersion="e93303bdd26dc5448b9792d23872844300000000"/>
+		<Metadata name="Role.док_Чтение_БД_Пароли" id="ac34fde4-b9f9-406b-a247-e5d0aa5bf0b4" configVersion="d8a510efe5599f498d3bc59f4697539600000000"/>
+		<Metadata name="Role.док_Чтение_БД_Пароли.Rights" id="ac34fde4-b9f9-406b-a247-e5d0aa5bf0b4.0" configVersion="b90f4652437ffe42b12ba72fa5cc519300000000"/>
+		<Metadata name="Role.док_Чтение_Боты" id="f524c871-c333-4323-8d49-ec39fbca0ae8" configVersion="4f7f4523b674514b953bde45875b9ac500000000"/>
+		<Metadata name="Role.док_Чтение_Боты.Rights" id="f524c871-c333-4323-8d49-ec39fbca0ae8.0" configVersion="89ecfc209974034c8663531806508c9c00000000"/>
+		<Metadata name="Role.док_Чтение_ВерсииКонфигураций" id="c06e1799-ce12-492a-abac-3c4ccff03a5b" configVersion="4b6958e830195f4b8d3144d60008439700000000"/>
+		<Metadata name="Role.док_Чтение_ВерсииКонфигураций.Rights" id="c06e1799-ce12-492a-abac-3c4ccff03a5b.0" configVersion="125009106c4f544a8106dd538bb7ae6600000000"/>
+		<Metadata name="Role.док_Чтение_ВерсииПлатформы1С" id="da1ce14c-b485-4923-aec1-68cc3c53ce56" configVersion="338b377f7be13a429aada89110489ea200000000"/>
+		<Metadata name="Role.док_Чтение_ВерсииПлатформы1С.Rights" id="da1ce14c-b485-4923-aec1-68cc3c53ce56.0" configVersion="cbf9f705d0f4b141aa73d4e1aa5fd2df00000000"/>
+		<Metadata name="Role.док_Чтение_Видеорегистраторы" id="3f76bb7f-7693-4790-9b8c-d0f0540c52ac" configVersion="48167595b4f3404fb6fefd9597a235aa00000000"/>
+		<Metadata name="Role.док_Чтение_Видеорегистраторы.Rights" id="3f76bb7f-7693-4790-9b8c-d0f0540c52ac.0" configVersion="38e41ef172c9bb4980d0ad5fa38f845c00000000"/>
+		<Metadata name="Role.док_Чтение_Видеорегистраторы_Пароли" id="3546ee8e-f3cb-4526-a9a2-dcd08a70a552" configVersion="4cdacec8a7737b49a49fbc20c26ce1d300000000"/>
+		<Metadata name="Role.док_Чтение_Видеорегистраторы_Пароли.Rights" id="3546ee8e-f3cb-4526-a9a2-dcd08a70a552.0" configVersion="c3c32f7d80300140903f770cbc71469400000000"/>
+		<Metadata name="Role.док_Чтение_ВидеорегистраторыПрисоединенныеФайлы" id="1527248a-1e6c-4ab2-8125-b13feeef183c" configVersion="a5fd59ed5b9a24419c67a724a7543e8900000000"/>
+		<Metadata name="Role.док_Чтение_ВидеорегистраторыПрисоединенныеФайлы.Rights" id="1527248a-1e6c-4ab2-8125-b13feeef183c.0" configVersion="30fc6afe9af2b14ca55ba09a061bf23800000000"/>
+		<Metadata name="Role.док_Чтение_ВидыКомплектующих" id="dc735917-d964-4acd-8935-0072881eac9d" configVersion="3d093c72bfd2074eabf6fae4962fb09200000000"/>
+		<Metadata name="Role.док_Чтение_ВидыКомплектующих.Rights" id="dc735917-d964-4acd-8935-0072881eac9d.0" configVersion="a419c913c852f144b9ffd2c5926408fc00000000"/>
+		<Metadata name="Role.док_Чтение_ВидыУстройств" id="9a68420e-aa19-4276-896b-a52ff11bd939" configVersion="f1466c314a0df949baddfba865daaa6f00000000"/>
+		<Metadata name="Role.док_Чтение_ВидыУстройств.Rights" id="9a68420e-aa19-4276-896b-a52ff11bd939.0" configVersion="1ad414649b463747904527c630e7502f00000000"/>
+		<Metadata name="Role.док_Чтение_Домены" id="d8e51ffd-e73d-4301-9398-b8b90f5388b8" configVersion="4f2466f9a61d664c9567d91fe1af92a600000000"/>
+		<Metadata name="Role.док_Чтение_Домены.Rights" id="d8e51ffd-e73d-4301-9398-b8b90f5388b8.0" configVersion="86f347c5f1cdda4e866a8e9ad8ea8a5900000000"/>
+		<Metadata name="Role.док_Чтение_Домены_Пароли" id="44e480ad-9a5a-4d40-87cb-9274b65519d7" configVersion="103cafdaf0c0ef4cac0460f8305980a000000000"/>
+		<Metadata name="Role.док_Чтение_Домены_Пароли.Rights" id="44e480ad-9a5a-4d40-87cb-9274b65519d7.0" configVersion="8ed2dfe2119a2247b891fc55a479760700000000"/>
+		<Metadata name="Role.док_Чтение_ДоменыПрисоединенныеФайлы" id="9800ca35-b5db-4d0e-87ea-2e0bfe653193" configVersion="29fd506d96159745bcf4354d8757c1d300000000"/>
+		<Metadata name="Role.док_Чтение_ДоменыПрисоединенныеФайлы.Rights" id="9800ca35-b5db-4d0e-87ea-2e0bfe653193.0" configVersion="c6659e1ddfeabf4ba2cb74524a73d6c000000000"/>
+		<Metadata name="Role.док_Чтение_Кассы" id="5001f8bc-30c2-4fce-99c1-a86a3dcc2cd3" configVersion="e1e58c3c36551949ae006e71a78d11e000000000"/>
+		<Metadata name="Role.док_Чтение_Кассы.Rights" id="5001f8bc-30c2-4fce-99c1-a86a3dcc2cd3.0" configVersion="3d03101d46999349bc6c3fb37ec67fc500000000"/>
+		<Metadata name="Role.док_Чтение_Кассы_Пароли" id="5e15a8b5-1aa6-462b-8ced-a05b8b9ac8a0" configVersion="a2dc2be2d8d35a4eb8493db81b65618400000000"/>
+		<Metadata name="Role.док_Чтение_Кассы_Пароли.Rights" id="5e15a8b5-1aa6-462b-8ced-a05b8b9ac8a0.0" configVersion="a398ba6f7b33674196038726194a9f9000000000"/>
+		<Metadata name="Role.док_Чтение_КассыПрисоединенныеФайлы" id="303ea8f8-df86-4be0-9bf5-b8037009d583" configVersion="2116bf145d4514459b2195c6aed5415b00000000"/>
+		<Metadata name="Role.док_Чтение_КассыПрисоединенныеФайлы.Rights" id="303ea8f8-df86-4be0-9bf5-b8037009d583.0" configVersion="f60eaacf3c2f694083a3609c12b7010100000000"/>
+		<Metadata name="Role.док_Чтение_Клиенты" id="0331d9e4-bb3c-434e-bd5e-ba3c7b8f92d6" configVersion="9787cc4442b6854aad569e20ef711ff000000000"/>
+		<Metadata name="Role.док_Чтение_Клиенты.Rights" id="0331d9e4-bb3c-434e-bd5e-ba3c7b8f92d6.0" configVersion="02893f8a4d21fe43aadb4eb06b5b71f300000000"/>
+		<Metadata name="Role.док_Чтение_КлиентыПрисоединенныеФайлы" id="4eb04644-a3a9-4f60-89e4-d5732af61bbd" configVersion="668789a2f8379a409dc216c911fc9cd800000000"/>
+		<Metadata name="Role.док_Чтение_КлиентыПрисоединенныеФайлы.Rights" id="4eb04644-a3a9-4f60-89e4-d5732af61bbd.0" configVersion="0e77744bc1c5524b88cbf68d7ea61efe00000000"/>
+		<Metadata name="Role.док_Чтение_КонтактныеЛицаКлиентов" id="924274f4-8bb0-46c7-ba42-b52e1d226fd7" configVersion="605c9a56ee0e2e43b0dc8425643deb2d00000000"/>
+		<Metadata name="Role.док_Чтение_КонтактныеЛицаКлиентов.Rights" id="924274f4-8bb0-46c7-ba42-b52e1d226fd7.0" configVersion="b5b799d4c6f5ab4b85e9385abcec3cc800000000"/>
+		<Metadata name="Role.док_Чтение_Конфигурации" id="9b78d5db-1343-4917-9318-a56d8ce66b05" configVersion="00fbe45091124543ba91c66e07ec9d9400000000"/>
+		<Metadata name="Role.док_Чтение_Конфигурации.Rights" id="9b78d5db-1343-4917-9318-a56d8ce66b05.0" configVersion="ff0b4f3dd66e5f47ab993c50482fd3a000000000"/>
+		<Metadata name="Role.док_Чтение_Лицензии" id="3b76f013-55b0-4ff4-8737-0d9f6f61eda9" configVersion="ba090a29e86756488c6c16dd6199336d00000000"/>
+		<Metadata name="Role.док_Чтение_Лицензии.Rights" id="3b76f013-55b0-4ff4-8737-0d9f6f61eda9.0" configVersion="b0e3541ad59ea545bdfb6c8619b3974f00000000"/>
+		<Metadata name="Role.док_Чтение_ЛицензииПрисоединенныеФайлы" id="bd8f1237-6d3c-4dbd-85f3-e7cbec55ec6a" configVersion="397060b57852fb46aadf815dfaf0186c00000000"/>
+		<Metadata name="Role.док_Чтение_ЛицензииПрисоединенныеФайлы.Rights" id="bd8f1237-6d3c-4dbd-85f3-e7cbec55ec6a.0" configVersion="dea8b71f156577499eed70dd3e54550800000000"/>
+		<Metadata name="Role.док_Чтение_МестоположенияТехники" id="1917d539-3767-483d-b6e3-e6679f872aee" configVersion="d8a5224b88288941b2924ca02a35fb3300000000"/>
+		<Metadata name="Role.док_Чтение_МестоположенияТехники.Rights" id="1917d539-3767-483d-b6e3-e6679f872aee.0" configVersion="9ce202f47383f040a0a656f1fa33008f00000000"/>
+		<Metadata name="Role.док_Чтение_НазначенияПортов" id="01498087-6d54-40b7-bc0d-24f1e00c7474" configVersion="fae4bcff535edd43b527689c0beda94b00000000"/>
+		<Metadata name="Role.док_Чтение_НазначенияПортов.Rights" id="01498087-6d54-40b7-bc0d-24f1e00c7474.0" configVersion="eb18c0c615f92a48a72154cd2d7a067700000000"/>
+		<Metadata name="Role.док_Чтение_Номенклатура" id="e2b5ee85-1258-4d63-8755-40df1db8628f" configVersion="fd713d7fac16c74ea1e38bc744d8400700000000"/>
+		<Metadata name="Role.док_Чтение_Номенклатура.Rights" id="e2b5ee85-1258-4d63-8755-40df1db8628f.0" configVersion="53047ebda9e9f54c8c5db81b821344ac00000000"/>
+		<Metadata name="Role.док_Чтение_ОперационныеСистемы" id="e6bc67ad-87b8-4e67-b980-f1d824ece46a" configVersion="202148b2c368c340b4830cf112ecd4e500000000"/>
+		<Metadata name="Role.док_Чтение_ОперационныеСистемы.Rights" id="e6bc67ad-87b8-4e67-b980-f1d824ece46a.0" configVersion="a18d254ca317f542bc26829ef592267800000000"/>
+		<Metadata name="Role.док_Чтение_ПодсистемыБД" id="249d1164-4296-4de8-b9e2-de2de910541f" configVersion="36a5c829fd3c9e47a598888aa3f0e79800000000"/>
+		<Metadata name="Role.док_Чтение_ПодсистемыБД.Rights" id="249d1164-4296-4de8-b9e2-de2de910541f.0" configVersion="e25441823f67264c8b3decab32b9e93c00000000"/>
+		<Metadata name="Role.док_Чтение_ПодсистемыВзаимодействия" id="aa39361c-cc66-4dda-ac24-79888cb1eaa0" configVersion="b2edfee2271220489fd7e5c6247d8ba500000000"/>
+		<Metadata name="Role.док_Чтение_ПодсистемыВзаимодействия.Rights" id="aa39361c-cc66-4dda-ac24-79888cb1eaa0.0" configVersion="5ba4d833519b9f4289659db56e0fcd7900000000"/>
+		<Metadata name="Role.док_Чтение_ПодсистемыИнфраструктура" id="5d51c8ee-a1c6-443a-9126-ad8be8e7631a" configVersion="e28fffcaba65b540a95279c498e98ab700000000"/>
+		<Metadata name="Role.док_Чтение_ПодсистемыИнфраструктура.Rights" id="5d51c8ee-a1c6-443a-9126-ad8be8e7631a.0" configVersion="1e1814074c5f7249969544cd882f802a00000000"/>
+		<Metadata name="Role.док_Чтение_ПодсистемыНСИ" id="40d900cb-22f9-431c-8cfc-7c295aaa9d6c" configVersion="f772ea3f72f49548aa18de770eca2d1e00000000"/>
+		<Metadata name="Role.док_Чтение_ПодсистемыНСИ.Rights" id="40d900cb-22f9-431c-8cfc-7c295aaa9d6c.0" configVersion="5ccd39f84c0c9f47915bcf95564398c900000000"/>
+		<Metadata name="Role.док_Чтение_Принтеры" id="0ad6fcf4-3197-4f14-beb1-b08e3c18668c" configVersion="adc46f75f425ea4f9e09ba2b1fb266f400000000"/>
+		<Metadata name="Role.док_Чтение_Принтеры.Rights" id="0ad6fcf4-3197-4f14-beb1-b08e3c18668c.0" configVersion="ab5125b17af7324bae6ca3055a5b02ca00000000"/>
+		<Metadata name="Role.док_Чтение_ПринтерыПрисоединенныеФайлы" id="514e5478-80d0-4241-a7fb-0088212f65d0" configVersion="45e262e8c8689144b77781fd4cd66a5a00000000"/>
+		<Metadata name="Role.док_Чтение_ПринтерыПрисоединенныеФайлы.Rights" id="514e5478-80d0-4241-a7fb-0088212f65d0.0" configVersion="ca7a5e4b0c382b4ea590083ce3cc0c3000000000"/>
+		<Metadata name="Role.док_Чтение_СУБД" id="60b98e1a-8457-4406-9248-7dc4ea6e6779" configVersion="5a8b3e5ca2359842bcd55ef271a51f9d00000000"/>
+		<Metadata name="Role.док_Чтение_СУБД.Rights" id="60b98e1a-8457-4406-9248-7dc4ea6e6779.0" configVersion="5f47f3ef79366f408d8cfd9481cb44b000000000"/>
+		<Metadata name="Role.док_Чтение_СУБД_Пароли" id="8f8dedd8-e2f7-45b9-b790-ff3b6db6937e" configVersion="44ac6bf7fcae0a4d972359d169e503b500000000"/>
+		<Metadata name="Role.док_Чтение_СУБД_Пароли.Rights" id="8f8dedd8-e2f7-45b9-b790-ff3b6db6937e.0" configVersion="0d8d7b6e00317f4fbb5b965354bff1e200000000"/>
+		<Metadata name="Role.док_Чтение_Серверы" id="3240b8dc-d663-41b0-8d73-890243f43ccf" configVersion="6e9c06f5d6b36644a62e434d1fd4aa3000000000"/>
+		<Metadata name="Role.док_Чтение_Серверы.Rights" id="3240b8dc-d663-41b0-8d73-890243f43ccf.0" configVersion="b30a6d18949a4d4a9b23bf17e12d413400000000"/>
+		<Metadata name="Role.док_Чтение_СерверыVPN" id="cdefc638-3372-4e6c-b0c2-09e44144579f" configVersion="a24455666646d1448e203a5380a3131300000000"/>
+		<Metadata name="Role.док_Чтение_СерверыVPN.Rights" id="cdefc638-3372-4e6c-b0c2-09e44144579f.0" configVersion="de3d917a6d27a84ab4509696d6aefbad00000000"/>
+		<Metadata name="Role.док_Чтение_Серверы_Пароли" id="1255d066-1ea4-4d40-8778-b100a6af8594" configVersion="f3f3dc1c2cefc5448fb0d016ed38cfaf00000000"/>
+		<Metadata name="Role.док_Чтение_Серверы_Пароли.Rights" id="1255d066-1ea4-4d40-8778-b100a6af8594.0" configVersion="988747ac9c8d324e90232e9ed46a721300000000"/>
+		<Metadata name="Role.док_Чтение_Сервисы" id="7ae4f3a4-b09b-496d-9bcf-98f419e14d4d" configVersion="60115be4a9dfa849934f6c643b6b57ce00000000"/>
+		<Metadata name="Role.док_Чтение_Сервисы.Rights" id="7ae4f3a4-b09b-496d-9bcf-98f419e14d4d.0" configVersion="65ff78c66cf3b94ab5cda3a2c4436b0d00000000"/>
+		<Metadata name="Role.док_Чтение_СетевоеОборудование" id="bca4943d-ccd0-4a86-8eec-fae7ed8a6e8d" configVersion="60ea62b27de9c348bbfa9caf6499bcf200000000"/>
+		<Metadata name="Role.док_Чтение_СетевоеОборудование.Rights" id="bca4943d-ccd0-4a86-8eec-fae7ed8a6e8d.0" configVersion="930a926576dc0642a3ae0d37ee4604ed00000000"/>
+		<Metadata name="Role.док_Чтение_СетевоеОборудование_Пароли" id="2a32bafc-4143-4e44-836b-42a798bfba2b" configVersion="badbbe7adbbac04bb92f6005bac2df9600000000"/>
+		<Metadata name="Role.док_Чтение_СетевоеОборудование_Пароли.Rights" id="2a32bafc-4143-4e44-836b-42a798bfba2b.0" configVersion="9c668188d5ad614bae36552fd885e80400000000"/>
+		<Metadata name="Role.док_Чтение_Сети" id="ed0af69a-e33d-48e3-aa4d-bca0ba654efb" configVersion="67bae3ef513ada4891a9c702109991a500000000"/>
+		<Metadata name="Role.док_Чтение_Сети.Rights" id="ed0af69a-e33d-48e3-aa4d-bca0ba654efb.0" configVersion="c99b3c939779c0458f2c05edd4c9ccc000000000"/>
+		<Metadata name="Role.док_Чтение_Устройства" id="dce45ad3-3be2-4e04-b3fc-ed69805975bb" configVersion="4b7af7c8c07fa4489d3c2f36b4e098c500000000"/>
+		<Metadata name="Role.док_Чтение_Устройства.Rights" id="dce45ad3-3be2-4e04-b3fc-ed69805975bb.0" configVersion="580e8184b4402a489cbf7fbc2af55a3400000000"/>
+		<Metadata name="Role.док_Чтение_Устройства_Пароли" id="66d348aa-f91d-49d3-896d-6d2981c2e169" configVersion="dfb025eae5ac5e44b36719342fc2e1fb00000000"/>
+		<Metadata name="Role.док_Чтение_Устройства_Пароли.Rights" id="66d348aa-f91d-49d3-896d-6d2981c2e169.0" configVersion="bfd80178bdd03d4aa6d71384bd1be0cd00000000"/>
+		<Metadata name="Role.док_Чтение_УстройстваСУдаленнымУправлением" id="1f0bda14-ca7e-4dcd-85df-39f977fb55ba" configVersion="a5f48c32c9d68949ac61a3eea998582b00000000"/>
+		<Metadata name="Role.док_Чтение_УстройстваСУдаленнымУправлением.Rights" id="1f0bda14-ca7e-4dcd-85df-39f977fb55ba.0" configVersion="ef33d47383689e4e9da3ed46caff9b8900000000"/>
+		<Metadata name="Role.док_Чтение_УчетныеДанныеСервисов" id="a504c5fd-6925-414a-b608-6486cfd52c80" configVersion="c7d7f43c9c28d74189b5090dfdb9f4f000000000"/>
+		<Metadata name="Role.док_Чтение_УчетныеДанныеСервисов.Rights" id="a504c5fd-6925-414a-b608-6486cfd52c80.0" configVersion="63fa1cba0af98b4ba2ceaa9c03b2465800000000"/>
+		<Metadata name="Role.док_ЧтениеОбработокБД" id="a3a22828-dcc0-45cd-9f5a-dff74612a00c" configVersion="b8966948a42b8449a3a9917435a8374300000000"/>
+		<Metadata name="Role.док_ЧтениеОбработокБД.Rights" id="a3a22828-dcc0-45cd-9f5a-dff74612a00c.0" configVersion="cbb78aaa29fe73478b17c7992d155be000000000"/>
+		<Metadata name="Role.док_ЧтениеОбработокНСИ" id="a1ce21a4-69d0-4d3e-8849-95499b267970" configVersion="5d3270e33ab0fd4dbfaf1c8b2f12e97100000000"/>
+		<Metadata name="Role.док_ЧтениеОбработокНСИ.Rights" id="a1ce21a4-69d0-4d3e-8849-95499b267970.0" configVersion="709beafef5dc484f9ea1a83a4bd6011d00000000"/>
 		<Metadata name="ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа" id="53caada5-1d53-45dc-9432-90075ddca890" configVersion="b7378462c6eea140b56fcc2c4193c28800000000"/>
 		<Metadata name="ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа.Schedule" id="53caada5-1d53-45dc-9432-90075ddca890.0" configVersion="84f6bb0818b6074fbbe3503cc01610d900000000"/>
 		<Metadata name="ScheduledJob.ЗаполнениеПараметровРаботыРасширений" id="f00116da-2bf1-4edd-b939-f25d36774f5b" configVersion="294bc1748b56574a84492f0db499a20400000000"/>
@@ -7387,7 +7558,7 @@
 		<Metadata name="StyleItem.ЦветФонаПредупреждения" id="b8c4aff0-a36d-4be9-9a5e-b0873d83ff15" configVersion="7b2c3ac74320b448a01033f2e24e821600000000"/>
 		<Metadata name="Subsystem.Администрирование" id="9233322b-dfdb-4c66-91fe-1299292d40a5" configVersion="5d374e04ed5d8547a38f75c2fa3641a800000000"/>
 		<Metadata name="Subsystem.Администрирование.CommandInterface" id="9233322b-dfdb-4c66-91fe-1299292d40a5.1" configVersion="9d105798d0230d45adde9fd251bd0d8000000000"/>
-		<Metadata name="Subsystem.Администрирование.Subsystem.Документация" id="65894951-76d8-433c-8d7c-4367ad066f12" configVersion="01eb5d1d9413da41977c818c1d7e8f0f00000000"/>
+		<Metadata name="Subsystem.Администрирование.Subsystem.Документация" id="65894951-76d8-433c-8d7c-4367ad066f12" configVersion="14c18e0206fa184c8cb5002384ae2fdb00000000"/>
 		<Metadata name="Subsystem.Администрирование.Subsystem.Документация.CommandInterface" id="65894951-76d8-433c-8d7c-4367ad066f12.1" configVersion="6c55ff4c8578c74bb6d48cc0d683aeb000000000"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="7795348b-2f52-47f7-bf00-e11e5e795a43" configVersion="45391e63e94a5949b7bcfb193eb4061700000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы" id="0421b67e-ed26-491d-ab98-ec59002ed4ce" configVersion="8222b861a7e0c54590755cf9a63489da00000000"/>

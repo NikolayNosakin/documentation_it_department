@@ -118,6 +118,32 @@
 									<ContextMenu name="ПлатформыРазрядностьКонтекстноеМеню" id="132"/>
 									<ExtendedTooltip name="ПлатформыРазрядностьРасширеннаяПодсказка" id="133"/>
 								</InputField>
+								<ColumnGroup name="ПлатформыГруппа1" id="143">
+									<EnableContentChange>true</EnableContentChange>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Администратор кластера</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="ПлатформыГруппа1РасширеннаяПодсказка" id="144"/>
+									<ChildItems>
+										<InputField name="ПлатформыЛогин" id="137">
+											<DataPath>Объект.Платформы.Логин</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ПлатформыЛогинКонтекстноеМеню" id="138"/>
+											<ExtendedTooltip name="ПлатформыЛогинРасширеннаяПодсказка" id="139"/>
+										</InputField>
+										<InputField name="ПлатформыПароль" id="140">
+											<DataPath>Объект.Платформы.Пароль</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ПлатформыПарольКонтекстноеМеню" id="141"/>
+											<ExtendedTooltip name="ПлатформыПарольРасширеннаяПодсказка" id="142"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
 								<InputField name="ПлатформыДиапазонПортов" id="134">
 									<DataPath>Объект.Платформы.ДиапазонПортов</DataPath>
 									<EditMode>EnterOnInput</EditMode>
