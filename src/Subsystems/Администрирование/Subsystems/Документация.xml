@@ -28,14 +28,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЯД_Токен</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.док_ПарольДляШифрования</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.док_БазовыеПрава</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">0f23a832-3d55-4391-8557-d7bb27bed378</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">bed2bd12-510f-4b52-86b5-ac0c4b8037b4</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">d6e6e9c3-6a4c-41d6-8bb5-1c144b516667</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">64ff4755-35d3-4908-857b-1b0a808a7f0b</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">8cc2daf8-810e-4810-8ce5-b206e55a0cfc</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">90c2e6e1-b599-4534-86b5-ebcb31037cfd</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">9552f840-21b3-4495-bfff-427b93765e09</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">02d32da0-9ae1-450c-af93-fb5938c7b96f</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.док_ПолныеПраваБезУдаления</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.док_ОтправкаУведомленийОбОкончанииФН</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.док_Slack_РассылкаСообщений</xr:Item>
@@ -85,6 +77,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КонсольРегламентныхИФоновыхЗаданий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonTemplate.ОписаниеИзмененийСистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОпределитьФормуПрисоединенногоФайла</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.док_ИспользоватьОграничениеRLS_ПоКлиентам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.док_РазрешенныеКлиенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.док_ИспользоватьОграничениеRLSПоКлиентам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.док_ИспользоватьОграничениеRLS_ПоКлиентам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.док_РазрешенныеКлиентыПользователей</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

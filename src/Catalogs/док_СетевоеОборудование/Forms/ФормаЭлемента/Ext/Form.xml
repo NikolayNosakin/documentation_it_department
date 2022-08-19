@@ -3,6 +3,9 @@
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Код" id="1">
 			<DataPath>Объект.Code</DataPath>
@@ -29,6 +32,9 @@
 			<CreateButton>false</CreateButton>
 			<ContextMenu name="ТипКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="9"/>
+			<Events>
+				<Event name="OnChange">ТипПриИзменении</Event>
+			</Events>
 		</InputField>
 		<InputField name="Модель" id="74">
 			<DataPath>Объект.Модель</DataPath>
@@ -233,6 +239,85 @@
 						</Table>
 					</ChildItems>
 				</Page>
+				<Page name="ГруппаWiFi" id="83">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Wi-Fi</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа wi fi</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаWiFiРасширеннаяПодсказка" id="84"/>
+					<ChildItems>
+						<Table name="СетиWiFi" id="85">
+							<Representation>List</Representation>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.СетиWiFi</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СетиWiFiКонтекстноеМеню" id="86"/>
+							<AutoCommandBar name="СетиWiFiКоманднаяПанель" id="87"/>
+							<ExtendedTooltip name="СетиWiFiРасширеннаяПодсказка" id="88"/>
+							<SearchStringAddition name="СетиWiFiСтрокаПоиска" id="89">
+								<AdditionSource>
+									<Item>СетиWiFi</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СетиWiFiСтрокаПоискаКонтекстноеМеню" id="90"/>
+								<ExtendedTooltip name="СетиWiFiСтрокаПоискаРасширеннаяПодсказка" id="91"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СетиWiFiСостояниеПросмотра" id="92">
+								<AdditionSource>
+									<Item>СетиWiFi</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СетиWiFiСостояниеПросмотраКонтекстноеМеню" id="93"/>
+								<ExtendedTooltip name="СетиWiFiСостояниеПросмотраРасширеннаяПодсказка" id="94"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СетиWiFiУправлениеПоиском" id="95">
+								<AdditionSource>
+									<Item>СетиWiFi</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СетиWiFiУправлениеПоискомКонтекстноеМеню" id="96"/>
+								<ExtendedTooltip name="СетиWiFiУправлениеПоискомРасширеннаяПодсказка" id="97"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СетиWiFiНомерСтроки" id="98">
+									<DataPath>Объект.СетиWiFi.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СетиWiFiНомерСтрокиКонтекстноеМеню" id="99"/>
+									<ExtendedTooltip name="СетиWiFiНомерСтрокиРасширеннаяПодсказка" id="100"/>
+								</LabelField>
+								<InputField name="СетиWiFiНазвание" id="101">
+									<DataPath>Объект.СетиWiFi.Название</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СетиWiFiНазваниеКонтекстноеМеню" id="102"/>
+									<ExtendedTooltip name="СетиWiFiНазваниеРасширеннаяПодсказка" id="103"/>
+								</InputField>
+								<InputField name="СетиWiFiПароль" id="104">
+									<DataPath>Объект.СетиWiFi.Пароль</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СетиWiFiПарольКонтекстноеМеню" id="105"/>
+									<ExtendedTooltip name="СетиWiFiПарольРасширеннаяПодсказка" id="106"/>
+								</InputField>
+								<InputField name="СетиWiFiЧастота" id="107">
+									<DataPath>Объект.СетиWiFi.Частота</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СетиWiFiЧастотаКонтекстноеМеню" id="108"/>
+									<ExtendedTooltip name="СетиWiFiЧастотаРасширеннаяПодсказка" id="109"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 				<Page name="ГруппаОписание" id="72">
 					<Title>
 						<v8:item>
@@ -255,6 +340,7 @@
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<AutoMaxHeight>false</AutoMaxHeight>
 							<MultiLine>true</MultiLine>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
 							<ContextMenu name="ОписаниеКонтекстноеМеню" id="14"/>
 							<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="15"/>
 						</InputField>

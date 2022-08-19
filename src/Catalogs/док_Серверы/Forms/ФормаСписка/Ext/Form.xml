@@ -178,7 +178,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>false</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	Серверы.Ссылка КАК Ссылка,
 	Серверы.ПометкаУдаления КАК ПометкаУдаления,
 	Серверы.Родитель КАК Родитель,
@@ -282,6 +282,10 @@
 							<v8:content>IP</v8:content>
 						</v8:item>
 					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Порты</dcssch:dataPath>
+					<dcssch:field>Порты</dcssch:field>
 				</Field>
 				<Parameter>
 					<dcssch:name>Клиент</dcssch:name>

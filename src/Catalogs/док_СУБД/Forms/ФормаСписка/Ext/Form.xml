@@ -138,7 +138,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	СпрСУБД.Ссылка КАК Ссылка,
 	СпрСУБД.ПометкаУдаления КАК ПометкаУдаления,
 	СпрСУБД.Код КАК Код,
@@ -155,10 +155,6 @@
 				ТОГДА ИСТИНА
 			ИНАЧЕ СпрСУБД.Сервер.Клиент = &amp;Клиент
 		КОНЕЦ</QueryText>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ВерсияПлатформы</dcssch:dataPath>
-					<dcssch:field>ВерсияПлатформы</dcssch:field>
-				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Код</dcssch:dataPath>
 					<dcssch:field>Код</dcssch:field>

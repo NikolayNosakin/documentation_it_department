@@ -739,7 +739,9 @@
 			<SessionParameter>ВыполняетсяУдалениеОбъектов</SessionParameter>
 			<SessionParameter>ДатаОбновленияПовторноИспользуемыхЗначенийМРО</SessionParameter>
 			<SessionParameter>ДлительныеОперации</SessionParameter>
+			<SessionParameter>док_ИспользоватьОграничениеRLSПоКлиентам</SessionParameter>
 			<SessionParameter>док_ПарольДляШифрования</SessionParameter>
+			<SessionParameter>док_РазрешенныеКлиенты</SessionParameter>
 			<SessionParameter>ИдентификаторыТаблицСОтдельнымиНастройкамиПрав</SessionParameter>
 			<SessionParameter>ИнтерактивнаяПроверкаЗаполненияКонтактнойИнформации</SessionParameter>
 			<SessionParameter>ИнтерактивнаяПроверкаЗаполненияСвойств</SessionParameter>
@@ -987,6 +989,7 @@
 			<CommonModule>док_СобытияФормКлиент</CommonModule>
 			<CommonModule>док_СобытияФормСервер</CommonModule>
 			<CommonModule>док_СохранениеВосстановлениеДанныхСервер</CommonModule>
+			<CommonModule>док_СтандартныеПодсистемыСервер</CommonModule>
 			<CommonModule>док_ШифрованиеДанныхКлиент</CommonModule>
 			<CommonModule>док_ШифрованиеДанныхСервер</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработки</CommonModule>
@@ -1345,6 +1348,7 @@
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>АктуальнаяДатаОбновленияПовторноИспользуемыхЗначенийМРО</FunctionalOption>
 			<FunctionalOption>ВариантыВерсионированияОбъектов</FunctionalOption>
+			<FunctionalOption>док_ИспользоватьОграничениеRLS_ПоКлиентам</FunctionalOption>
 			<FunctionalOption>док_УведомлятьОбОкончанииФН</FunctionalOption>
 			<FunctionalOption>док_ШифроватьПароли</FunctionalOption>
 			<FunctionalOption>ИспользоватьВерсионированиеОбъекта</FunctionalOption>
@@ -1478,6 +1482,7 @@
 			<Constant>ДанныеДляОтложенногоОбновления</Constant>
 			<Constant>ДатаОбновленияПовторноИспользуемыхЗначенийМРО</Constant>
 			<Constant>ДетализироватьОбновлениеИБВЖурналеРегистрации</Constant>
+			<Constant>док_ИспользоватьОграничениеRLS_ПоКлиентам</Constant>
 			<Constant>док_ПаролиЗашифрованы</Constant>
 			<Constant>док_РезервноеКопированиеНаЯндексДиск</Constant>
 			<Constant>док_УведомлятьОбОкончанииФН</Constant>
@@ -1667,6 +1672,7 @@
 			<Catalog>док_ОперационныеСистемы</Catalog>
 			<Catalog>док_Принтеры</Catalog>
 			<Catalog>док_ПринтерыПрисоединенныеФайлы</Catalog>
+			<Catalog>док_РазрешенныеКлиентыПользователей</Catalog>
 			<Catalog>док_Серверы</Catalog>
 			<Catalog>док_СерверыVPN</Catalog>
 			<Catalog>док_СерверыVPNПрисоединенныеФайлы</Catalog>
@@ -1776,6 +1782,7 @@
 			<Enum>ФорматыХраненияОдностраничныхФайлов</Enum>
 			<Enum>ЦветаЗаметок</Enum>
 			<Enum>ЦветностиИзображения</Enum>
+			<Enum>док_ЧастотыWiFi</Enum>
 			<Report>АнализВерсийОбъектов</Report>
 			<Report>АнализЖурналаРегистрации</Report>
 			<Report>АнализПравДоступа</Report>

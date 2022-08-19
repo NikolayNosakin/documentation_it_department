@@ -972,6 +972,33 @@
 	<object>
 		<name>Catalog.док_БД</name>
 		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
 			<name>Delete</name>
 			<value>false</value>
 		</right>
@@ -1568,7 +1595,89 @@
 		</right>
 	</object>
 	<object>
+		<name>Configuration.Документация</name>
+		<right>
+			<name>Administration</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>DataAdministration</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataBaseConfiguration</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ExclusiveMode</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>TechnicalSpecialistMode</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ExclusiveModeTerminationAtSessionStart</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ConfigurationExtensionsAdministration</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.док_АТС</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
 		<right>
 			<name>Delete</name>
 			<value>false</value>

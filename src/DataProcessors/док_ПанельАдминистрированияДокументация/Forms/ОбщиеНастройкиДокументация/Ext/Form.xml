@@ -67,6 +67,33 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
+		<UsualGroup name="Группа2" id="22">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="23"/>
+			<ChildItems>
+				<CheckBoxField name="док_ИспользоватьОграничениеRLS_ПоКлиентам" id="17">
+					<DataPath>НаборКонстант.док_ИспользоватьОграничениеRLS_ПоКлиентам</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="док_ИспользоватьОграничениеRLS_ПоКлиентамКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="док_ИспользоватьОграничениеRLS_ПоКлиентамРасширеннаяПодсказка" id="19"/>
+					<Events>
+						<Event name="OnChange">док_ИспользоватьОграничениеRLS_ПоКлиентамПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<Button name="НастроитьОграничениеПользователейПоКлиентам" id="20">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.НастроитьОграничениеПользователейПоКлиентам</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настроить</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="НастроитьОграничениеПользователейПоКлиентамРасширеннаяПодсказка" id="21"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 		<Button name="СохранениеВосстановлениеДанных" id="15">
 			<Type>Hyperlink</Type>
 			<CommandName>Form.Command.СохранениеВосстановлениеДанных</CommandName>
@@ -162,6 +189,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СохранениеВосстановлениеДанных</Action>
+		</Command>
+		<Command name="НастроитьОграничениеПользователейПоКлиентам" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настроить ограничение пользователей по клиентам</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настроить ограничение пользователей по клиентам</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НастроитьОграничениеПользователейПоКлиентам</Action>
 		</Command>
 	</Commands>
 </Form>
