@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.0.2.1</Version>
+			<Version>1.0.2.2</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_documentation_it_department/releases/latest</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -299,6 +299,7 @@
 			<StyleItem>ЦветФонаОтрицательногоЗначения</StyleItem>
 			<StyleItem>ЦветФонаПоложительногоЗначения</StyleItem>
 			<StyleItem>ЦветФонаПредупреждения</StyleItem>
+			<Style>СтильОформленияБелый</Style>
 			<Style>СтильОформленияЗеленый</Style>
 			<Style>СтильОформленияРозовый</Style>
 			<Style>СтильОформленияСерый</Style>
@@ -649,13 +650,6 @@
 			<CommonPicture>Среднее</CommonPicture>
 			<CommonPicture>СтатусыДокумента</CommonPicture>
 			<CommonPicture>СтатусыСопоставленияОбъектов</CommonPicture>
-			<CommonPicture>СтильОформления_ПоУмолчанию</CommonPicture>
-			<CommonPicture>СтильОформленияЗеленый</CommonPicture>
-			<CommonPicture>СтильОформленияРозовый</CommonPicture>
-			<CommonPicture>СтильОформленияСерый</CommonPicture>
-			<CommonPicture>СтильОформленияСиний</CommonPicture>
-			<CommonPicture>СтильОформленияТемноСерый</CommonPicture>
-			<CommonPicture>СтильОформленияТемный</CommonPicture>
 			<CommonPicture>СтрелкаВверх</CommonPicture>
 			<CommonPicture>СтрелкаВлево</CommonPicture>
 			<CommonPicture>СтрелкаВниз</CommonPicture>
@@ -1470,6 +1464,7 @@
 			<CommonCommand>УдалитьНастройкуСинхронизации</CommonCommand>
 			<CommonCommand>УстановитьРасширениеДляРаботыС1СПредприятием</CommonCommand>
 			<CommonCommand>ФайлыВТоме</CommonCommand>
+			<CommonCommand>док_СменитьСтиль</CommonCommand>
 			<CommandGroup>Информация</CommandGroup>
 			<CommandGroup>Органайзер</CommandGroup>
 			<CommandGroup>ПараметрыСинхронизацииДанных</CommandGroup>

@@ -2,7 +2,6 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<WindowOpeningMode>LockWholeInterface</WindowOpeningMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
-		<Autofill>false</Autofill>
 		<ChildItems>
 			<Button name="ФормаПерезапустить" id="45">
 				<Type>CommandBarButton</Type>
@@ -31,21 +30,9 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<LabelDecoration name="Декорация3" id="53">
-			<AutoMaxWidth>false</AutoMaxWidth>
-			<AutoMaxHeight>false</AutoMaxHeight>
-			<HorizontalStretch>true</HorizontalStretch>
-			<VerticalStretch>false</VerticalStretch>
-			<Border width="1">
-				<v8ui:style xsi:type="v8ui:ControlBorderType">Underline</v8ui:style>
-			</Border>
-			<ContextMenu name="Декорация3КонтекстноеМеню" id="54"/>
-			<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="55"/>
-		</LabelDecoration>
 		<UsualGroup name="Группа6" id="38">
 			<HorizontalStretch>true</HorizontalStretch>
 			<Behavior>Usual</Behavior>
@@ -55,80 +42,52 @@
 			<ChildItems>
 				<RadioButtonField name="Стиль" id="5">
 					<DataPath>Стиль</DataPath>
-					<TitleLocation>None</TitleLocation>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цветовая схема</v8:content>
+						</v8:item>
+					</Title>
 					<RadioButtonType>Tumbler</RadioButtonType>
 					<ContextMenu name="СтильКонтекстноеМеню" id="6"/>
 					<ExtendedTooltip name="СтильРасширеннаяПодсказка" id="7"/>
-					<Events>
-						<Event name="OnChange">СхемаПриИзменении</Event>
-					</Events>
 				</RadioButtonField>
 			</ChildItems>
 		</UsualGroup>
-		<LabelDecoration name="Декорация1" id="47">
-			<AutoMaxWidth>false</AutoMaxWidth>
-			<AutoMaxHeight>false</AutoMaxHeight>
-			<HorizontalStretch>true</HorizontalStretch>
-			<VerticalStretch>false</VerticalStretch>
-			<Border width="1">
-				<v8ui:style xsi:type="v8ui:ControlBorderType">Overline</v8ui:style>
-			</Border>
-			<ContextMenu name="Декорация1КонтекстноеМеню" id="48"/>
-			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="49"/>
-		</LabelDecoration>
-		<UsualGroup name="Группа7" id="43">
-			<HorizontalStretch>true</HorizontalStretch>
-			<HorizontalAlign>Center</HorizontalAlign>
-			<Behavior>Usual</Behavior>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="44"/>
-			<ChildItems>
-				<PictureDecoration name="Предпросмотр" id="40">
-					<AutoMaxWidth>false</AutoMaxWidth>
-					<MaxWidth>10</MaxWidth>
-					<AutoMaxHeight>false</AutoMaxHeight>
-					<MaxHeight>10</MaxHeight>
-					<Title formatted="false">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Предпросмотр</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Синяя</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Hyperlink>true</Hyperlink>
-					<PictureSize>Proportionally</PictureSize>
-					<Picture>
-						<xr:Ref>CommonPicture.СтильОформления_ПоУмолчанию</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
-					<Border width="1">
-						<v8ui:style xsi:type="v8ui:ControlBorderType">Single</v8ui:style>
-					</Border>
-					<ContextMenu name="ПредпросмотрКонтекстноеМеню" id="41"/>
-					<ExtendedTooltip name="ПредпросмотрРасширеннаяПодсказка" id="42"/>
-					<Events>
-						<Event name="Click">Декорация3Нажатие</Event>
-					</Events>
-				</PictureDecoration>
-			</ChildItems>
-		</UsualGroup>
-		<LabelDecoration name="Декорация2" id="50">
-			<AutoMaxWidth>false</AutoMaxWidth>
-			<AutoMaxHeight>false</AutoMaxHeight>
-			<HorizontalStretch>true</HorizontalStretch>
-			<VerticalStretch>false</VerticalStretch>
-			<Border width="1">
-				<v8ui:style xsi:type="v8ui:ControlBorderType">Overline</v8ui:style>
-			</Border>
-			<ContextMenu name="Декорация2КонтекстноеМеню" id="51"/>
-			<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="52"/>
-		</LabelDecoration>
+		<RadioButtonField name="МасштабФорм" id="47">
+			<DataPath>МасштабФорм</DataPath>
+			<RadioButtonType>Tumbler</RadioButtonType>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Компактный</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">Компактный</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Обычный</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">Обычный</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="МасштабФормКонтекстноеМеню" id="48"/>
+			<ExtendedTooltip name="МасштабФормРасширеннаяПодсказка" id="49"/>
+		</RadioButtonField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Стиль" id="1">
@@ -146,48 +105,20 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="СтилиКартинки" id="2">
+		<Attribute name="МасштабФорм" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Стили картинки</v8:content>
+					<v8:content>Масштаб форм</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>v8:ValueTable</v8:Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
-			<Columns>
-				<Column name="ИмяСтиля" id="1">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Имя стиля</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Column>
-				<Column name="ИмяКартинки" id="2">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Имя картинки</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Column>
-			</Columns>
 		</Attribute>
 	</Attributes>
 	<Commands>

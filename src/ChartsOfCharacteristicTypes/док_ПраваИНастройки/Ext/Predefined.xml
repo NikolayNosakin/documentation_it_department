@@ -1,5 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.15">
+	<Item id="18dd9cac-9a92-42f7-b16f-d0ac59472b8d">
+		<Name>Интерфейс</Name>
+		<Code>000000005</Code>
+		<Description>Интерфейс</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="0d2ca0ad-b09a-4c7f-8d9e-ad683a504e29">
+				<Name>МасштабФорм</Name>
+				<Code>000000006</Code>
+				<Description>Масштаб форм</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>100</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b7485799-7fe7-4d2b-ad99-a5a325f5e091">
+				<Name>Стиль</Name>
+				<Code>000000007</Code>
+				<Description>Стиль</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>100</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
 	<Item id="0a9d1455-eba8-4a2c-b5c8-c981dceff711">
 		<Name>Общее</Name>
 		<Code>000000001</Code>
@@ -20,15 +55,6 @@
 				<Name>РазрешеноИзменятьПользователей</Name>
 				<Code>000000003</Code>
 				<Description>Разрешено изменять пользователей</Description>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-				<IsFolder>false</IsFolder>
-			</Item>
-			<Item id="13f23a85-183c-4c13-8121-174c4b9bb218">
-				<Name>РазрешеноПросматриватьЗаметкиДругихПользователей</Name>
-				<Code>000000002</Code>
-				<Description>Разрешено просматривать заметки других пользователей</Description>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
