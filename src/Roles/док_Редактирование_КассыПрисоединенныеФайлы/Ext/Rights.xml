@@ -5845,13 +5845,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.Автор</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ПараметрыОграниченияДоступа.Attribute.ДатаСоздания</name>
 		<right>
 			<name>View</name>
@@ -6385,13 +6378,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.Изменил</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -7773,13 +7759,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.ДатаМодификацииУниверсальная</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ОбновлениеКлючейДоступаПользователей.Attribute.ПараметрыЗадания</name>
 		<right>
 			<name>View</name>
@@ -8137,13 +8116,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Подпись</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -9464,13 +9436,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.ХранитьВерсии</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -11589,13 +11554,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.ТипХраненияФайла</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ТранспортСообщенийОбменаEMAIL.Attribute.EMAILСжиматьФайлИсходящегоСообщения</name>
 		<right>
 			<name>View</name>
@@ -11865,13 +11823,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.КомуВыданСертификат</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -13114,9 +13065,48 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ ВладелецФайла.Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ ВладелецФайла.Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ ВладелецФайла.Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -13134,69 +13124,6 @@
 		<right>
 			<name>ViewDataHistory</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.StandardAttribute.Predefined</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.StandardAttribute.IsFolder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.StandardAttribute.Owner</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.StandardAttribute.Parent</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.StandardAttribute.Description</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.StandardAttribute.Code</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -14052,13 +13979,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.СтатусИзвлеченияТекста</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -15858,13 +15778,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ДатаПодписи</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.док_СетиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Отпечаток</name>
 		<right>
 			<name>View</name>
@@ -16910,13 +16823,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Комментарий</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов.Resource.ТипВладельца</name>
 		<right>
 			<name>View</name>
@@ -17307,13 +17213,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.Зашифрован</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -18244,13 +18143,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.КонвертацияОбъектовXDTO.Attribute.ПродолжитьПриОшибке</name>
 		<right>
 			<name>View</name>
@@ -19021,13 +18913,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Отпечаток</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.КлючиДоступа.Attribute.Значение1</name>
 		<right>
 			<name>View</name>
@@ -19528,13 +19413,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.Размер</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -20157,13 +20035,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.УстановившийПодпись</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.Attribute.ЗаполнятьОбязательно</name>
 		<right>
 			<name>View</name>
@@ -20494,13 +20365,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.Описание</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ИспользуемыеВидыДоступа.Dimension.ТипЗначенийДоступа</name>
 		<right>
 			<name>View</name>
@@ -20787,13 +20651,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.ДатаЗаема</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ОбновлениеКлючейДоступаПользователей.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
@@ -20876,13 +20733,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -21527,13 +21377,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.ТекстХранилище</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ДлительныеОперации.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
@@ -21572,13 +21415,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.ВладелецФайла</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -23763,13 +23599,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.Редактирует</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ОбщиеНастройкиУзловИнформационныхБаз.Attribute.НомерОтправленного</name>
 		<right>
 			<name>View</name>
@@ -24325,13 +24154,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ДатаПроверкиПодписи</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -25911,13 +25733,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования.Attribute.Представление</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.док_СетевоеОборудованиеПрисоединенныеФайлы.Attribute.ИндексКартинки</name>
 		<right>
 			<name>View</name>
@@ -26495,13 +26310,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.ФайлХранилище</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -27531,13 +27339,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования.Attribute.Сертификат</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.док_СУБДПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ПодписьВерна</name>
 		<right>
 			<name>View</name>
@@ -27851,13 +27652,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.ПутьКФайлу</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -29162,13 +28956,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.ДатаСоздания</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.КонвертацияОбъектовXDTO.Attribute.ИмяФайлаПротоколаОбмена</name>
 		<right>
 			<name>View</name>
@@ -30285,13 +30072,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.Расширение</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -32135,13 +31915,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.ПодписанЭП</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.КлючиДоступа.Attribute.Значение3</name>
 		<right>
 			<name>View</name>
@@ -32851,13 +32624,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ИмяФайлаПодписи</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -33672,13 +33438,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.ИндексКартинки</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -34669,13 +34428,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования.Attribute.Отпечаток</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.док_СетевоеОборудование.Attribute.Описание</name>
 		<right>
 			<name>View</name>
@@ -35583,13 +35335,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.Attribute.Том</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -38654,13 +38399,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Сертификат</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.УдалитьХранимыеФайлыВерсий.Resource.ХранимыйФайл</name>
 		<right>
 			<name>View</name>
@@ -39117,13 +38855,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ПодписьВерна</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

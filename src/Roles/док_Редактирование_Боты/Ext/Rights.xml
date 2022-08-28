@@ -312,13 +312,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_Боты.Attribute.Токен</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.СопоставлениеОбъектовИнформационныхБаз.TabularSection.ТаблицаАвтоматическиСопоставленныхОбъектов.Attribute.ПриемникИндексКартинки</name>
 		<right>
 			<name>View</name>
@@ -7034,13 +7027,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Боты.Attribute.Клиент</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -15434,13 +15420,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Боты.Attribute.Описание</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -29531,13 +29510,48 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -29553,71 +29567,12 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>ViewDataHistory</name>
+			<name>UpdateDataHistoryVersionComment</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Боты.StandardAttribute.PredefinedDataName</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Боты.StandardAttribute.Predefined</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Боты.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Боты.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Боты.StandardAttribute.IsFolder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Боты.StandardAttribute.Owner</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Боты.StandardAttribute.Parent</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Боты.StandardAttribute.Description</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Боты.StandardAttribute.Code</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>ViewDataHistory</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -37716,13 +37671,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.док_Боты.Attribute.Вид</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

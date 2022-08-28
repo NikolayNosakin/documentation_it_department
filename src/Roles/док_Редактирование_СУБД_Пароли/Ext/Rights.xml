@@ -20930,14 +20930,29 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ Сервер.Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ Сервер.Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Update</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
+ГДЕ Сервер.Клиент В(&amp;док_РазрешенныеКлиенты)
+#КонецЕсли</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>View</name>
