@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -7,9 +7,6 @@
 		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
-	<CommandSet>
-		<ExcludedCommand>OpenFromStandaloneServer</ExcludedCommand>
-	</CommandSet>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -94,9 +91,6 @@
 			<EnableStartDrag>true</EnableStartDrag>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>~Список.DefaultPicture</RowPictureDataPath>
-			<CommandSet>
-				<ExcludedCommand>SearchEverywhere</ExcludedCommand>
-			</CommandSet>
 			<AutoRefresh>false</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
 			<Period>
@@ -145,32 +139,37 @@
 				<Event name="Selection">СписокВыбор</Event>
 			</Events>
 			<ChildItems>
+				<InputField name="ОбластьДанныхВспомогательныеДанные" id="71">
+					<DataPath>~Список.ОбластьДанныхВспомогательныеДанные</DataPath>
+					<ContextMenu name="ОбластьДанныхВспомогательныеДанныеКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="ОбластьДанныхВспомогательныеДанныеРасширеннаяПодсказка" id="73"/>
+				</InputField>
 				<LabelField name="ИмяОбработчика" id="16">
-					<DataPath>Список.ИмяОбработчика</DataPath>
+					<DataPath>~Список.ИмяОбработчика</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="ИмяОбработчикаКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="ИмяОбработчикаРасширеннаяПодсказка" id="18"/>
 				</LabelField>
 				<LabelField name="Статус" id="19">
-					<DataPath>Список.Статус</DataPath>
+					<DataPath>~Список.Статус</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="СтатусКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="21"/>
 				</LabelField>
 				<LabelField name="Версия" id="22">
-					<DataPath>Список.Версия</DataPath>
+					<DataPath>~Список.Версия</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="ВерсияКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ВерсияРасширеннаяПодсказка" id="24"/>
 				</LabelField>
 				<LabelField name="РежимВыполнения" id="31">
-					<DataPath>Список.РежимВыполнения</DataPath>
+					<DataPath>~Список.РежимВыполнения</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="РежимВыполненияКонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="РежимВыполненияРасширеннаяПодсказка" id="33"/>
 				</LabelField>
 				<LabelField name="ОчередьОтложеннойОбработки" id="58">
-					<DataPath>Список.ОчередьОтложеннойОбработки</DataPath>
+					<DataPath>~Список.ОчередьОтложеннойОбработки</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<Title>
 						<v8:item>
@@ -183,6 +182,20 @@
 				</LabelField>
 			</ChildItems>
 		</Table>
+		<LabelDecoration name="ПрогрессОбновленияОбластейДанных" id="74">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прогресс обновления областей данных</v8:content>
+				</v8:item>
+			</Title>
+			<Hyperlink>true</Hyperlink>
+			<ContextMenu name="ПрогрессОбновленияОбластейДанныхКонтекстноеМеню" id="75"/>
+			<ExtendedTooltip name="ПрогрессОбновленияОбластейДанныхРасширеннаяПодсказка" id="76"/>
+			<Events>
+				<Event name="Click">ПрогрессОбновленияОбластейДанныхНажатие</Event>
+			</Events>
+		</LabelDecoration>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Список" id="1">
@@ -219,7 +232,8 @@
        ОбработчикиОбновления.ИтерацияЗапуска, 
        ОбработчикиОбновления.ОбрабатываемыеДанные, 
        ОбработчикиОбновления.РежимВыполненияОтложенногоОбработчика, 
-       ОбработчикиОбновления.ИзменяемыеОбъекты
+       ОбработчикиОбновления.ИзменяемыеОбъекты,
+       ОбработчикиОбновления.ОбластьДанныхВспомогательныеДанные
  ИЗ 
        РегистрСведений.ОбработчикиОбновления
  КАК 
@@ -262,6 +276,20 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:EnumRef.РежимыВыполненияОбработчиков</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДоступноИспользованиеРазделенныхДанных" id="4">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтчетПрогрессОбновления" id="5">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>

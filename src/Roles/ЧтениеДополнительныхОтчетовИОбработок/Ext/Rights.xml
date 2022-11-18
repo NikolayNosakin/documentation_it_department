@@ -1,43 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.15">
+<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.14">
 	<setForNewObjects>false</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
-	<object>
-		<name>CommonCommand.ДополнительныеОтчетыАдминистрирование</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ДополнительныеОтчетыИнфраструктура</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ДополнительныеОтчетыБД</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ДополнительныеОбработкиНСИ</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ДополнительныеОбработкиАдминистрирование</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
 	<object>
 		<name>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</name>
 		<right>
@@ -91,13 +56,6 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonCommand.ДополнительныеОбработкиИнфраструктура</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.ДополнительныеОтчетыИОбработки</name>
 		<right>
 			<name>View</name>
@@ -105,21 +63,7 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonCommand.ДополнительныеОбработкиБД</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.НастройкаМоихОтчетовИОбработок</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ДополнительныеОтчетыВзаимодействия</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -149,20 +93,6 @@
 		</right>
 		<right>
 			<name>AnalyticsSystemClient</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ДополнительныеОтчетыНСИ</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ДополнительныеОбработкиВзаимодействия</name>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

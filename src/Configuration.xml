@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Configuration uuid="df4c43c4-63b4-4216-ac10-c353308b57d7">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -41,7 +41,7 @@
 			</Synonym>
 			<Comment/>
 			<NamePrefix/>
-			<ConfigurationExtensionCompatibilityMode>Version8_3_22</ConfigurationExtensionCompatibilityMode>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_21</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.0.2.4</Version>
+			<Version>1.1.2.4</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_documentation_it_department/releases/latest</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -69,7 +69,6 @@
 			<DefaultReportForm>CommonForm.ФормаОтчета</DefaultReportForm>
 			<DefaultReportVariantForm>CommonForm.ФормаВариантаОтчета</DefaultReportVariantForm>
 			<DefaultReportSettingsForm>CommonForm.ФормаНастроекОтчета</DefaultReportSettingsForm>
-			<DefaultReportAppearanceTemplate/>
 			<DefaultDynamicListSettingsForm/>
 			<DefaultSearchForm/>
 			<DefaultDataHistoryChangeHistoryForm/>
@@ -197,10 +196,6 @@
 				<app:functionality>
 					<app:functionality>AllFilesAccess</app:functionality>
 					<app:use>true</app:use>
-				</app:functionality>
-				<app:functionality>
-					<app:functionality>Videoconferences</app:functionality>
-					<app:use>false</app:use>
 				</app:functionality>
 			</UsedMobileApplicationFunctionalities>
 			<StandaloneConfigurationRestrictionRoles/>
@@ -554,6 +549,7 @@
 			<CommonPicture>ПодменюСервис</CommonPicture>
 			<CommonPicture>ПодписанЗашифрованЗаголовок</CommonPicture>
 			<CommonPicture>ПодписанЗашифрованСостояния</CommonPicture>
+			<CommonPicture>ПодписанЭП</CommonPicture>
 			<CommonPicture>Подпись</CommonPicture>
 			<CommonPicture>Подсистема</CommonPicture>
 			<CommonPicture>Подчеркивание</CommonPicture>
@@ -685,7 +681,6 @@
 			<CommonPicture>ТолстаяГраницаСверху</CommonPicture>
 			<CommonPicture>ТолстаяГраницаСнизу</CommonPicture>
 			<CommonPicture>УвеличитьШрифт</CommonPicture>
-			<CommonPicture>УдалитьИнформация</CommonPicture>
 			<CommonPicture>УменьшитьШрифт</CommonPicture>
 			<CommonPicture>УровеньДоступаАдминистрированиеИсточника</CommonPicture>
 			<CommonPicture>УровеньДоступаЕстьПраво</CommonPicture>
@@ -719,10 +714,9 @@
 			<CommonPicture>ШтампЭлектроннойПодписи</CommonPicture>
 			<CommonPicture>ЭлектронноеПисьмо</CommonPicture>
 			<CommonPicture>ЯндексКарты</CommonPicture>
-			<CommonPicture>ПодписанЭП</CommonPicture>
+			<CommonPicture>УдалитьИнформация</CommonPicture>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
-			<SessionParameter>ВерсииШаблоновОграниченияДоступа</SessionParameter>
 			<SessionParameter>ВерсияРасширений</SessionParameter>
 			<SessionParameter>ВидыДоступаБезГруппДляЗначенияДоступа</SessionParameter>
 			<SessionParameter>ВидыДоступаСОднойГруппойДляЗначенияДоступа</SessionParameter>
@@ -733,13 +727,14 @@
 			<SessionParameter>ВыполняетсяУдалениеОбъектов</SessionParameter>
 			<SessionParameter>ДатаОбновленияПовторноИспользуемыхЗначенийМРО</SessionParameter>
 			<SessionParameter>ДлительныеОперации</SessionParameter>
+			<SessionParameter>ИдентификаторыТаблицСОтдельнымиНастройкамиПрав</SessionParameter>
 			<SessionParameter>док_ИспользоватьОграничениеRLSПоКлиентам</SessionParameter>
 			<SessionParameter>док_ПарольДляШифрования</SessionParameter>
 			<SessionParameter>док_РазрешенныеКлиенты</SessionParameter>
-			<SessionParameter>ИдентификаторыТаблицСОтдельнымиНастройкамиПрав</SessionParameter>
 			<SessionParameter>ИнтерактивнаяПроверкаЗаполненияКонтактнойИнформации</SessionParameter>
 			<SessionParameter>ИнтерактивнаяПроверкаЗаполненияСвойств</SessionParameter>
 			<SessionParameter>КлючДанныхПовторногоИспользования</SessionParameter>
+			<SessionParameter>ВерсииШаблоновОграниченияДоступа</SessionParameter>
 			<SessionParameter>ОбщиеПараметрыШаблоновОграниченияДоступа</SessionParameter>
 			<SessionParameter>ОграничениеДоступаНаУровнеЗаписейИспользуется</SessionParameter>
 			<SessionParameter>ОграничениеДоступаНаУровнеЗаписейУниверсально</SessionParameter>
@@ -772,6 +767,7 @@
 			<SessionParameter>ТипыВладельцевНастроекПрав</SessionParameter>
 			<SessionParameter>ТипыЗначенийДоступаСГруппами</SessionParameter>
 			<SessionParameter>УстановленныеРасширения</SessionParameter>
+			<SessionParameter>ОбновлениеСправочниковИдентификаторов</SessionParameter>
 			<Role>АдминистраторСистемы</Role>
 			<Role>Администрирование</Role>
 			<Role>БазовыеПраваБСП</Role>
@@ -949,7 +945,6 @@
 			<FilterCriterion>ФайлыВТоме</FilterCriterion>
 			<CommonModule>АдминистрированиеКластера</CommonModule>
 			<CommonModule>АдминистрированиеКластераCOM</CommonModule>
-			<CommonModule>АдминистрированиеКластераCOMКлиентСервер</CommonModule>
 			<CommonModule>АдминистрированиеКластераRAS</CommonModule>
 			<CommonModule>АдминистрированиеКластераRASКлиентСервер</CommonModule>
 			<CommonModule>АдминистрированиеКластераКлиентСервер</CommonModule>
@@ -991,6 +986,7 @@
 			<CommonModule>ДлительныеОперации</CommonModule>
 			<CommonModule>ДлительныеОперацииВызовСервера</CommonModule>
 			<CommonModule>ДлительныеОперацииКлиент</CommonModule>
+			<CommonModule>ДополнительныеОтчетыИОбработки</CommonModule>
 			<CommonModule>док_ИнтеграцияSlack</CommonModule>
 			<CommonModule>док_ОбработкичиРегламентныхЗаданий</CommonModule>
 			<CommonModule>док_ОбщегоНазначения</CommonModule>
@@ -1000,7 +996,6 @@
 			<CommonModule>док_СтандартныеПодсистемыСервер</CommonModule>
 			<CommonModule>док_ШифрованиеДанныхКлиент</CommonModule>
 			<CommonModule>док_ШифрованиеДанныхСервер</CommonModule>
-			<CommonModule>ДополнительныеОтчетыИОбработки</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработкиВБезопасномРежимеСлужебный</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработкиВызовСервера</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработкиКлиент</CommonModule>
@@ -1038,7 +1033,6 @@
 			<CommonModule>НапоминанияПользователяВызовСервера</CommonModule>
 			<CommonModule>НапоминанияПользователяГлобальный</CommonModule>
 			<CommonModule>НапоминанияПользователяКлиент</CommonModule>
-			<CommonModule>НапоминанияПользователяКлиентПовтИсп</CommonModule>
 			<CommonModule>НапоминанияПользователяКлиентСервер</CommonModule>
 			<CommonModule>НапоминанияПользователяПереопределяемый</CommonModule>
 			<CommonModule>НапоминанияПользователяСлужебный</CommonModule>
@@ -1063,8 +1057,8 @@
 			<CommonModule>ОбновлениеИнформационнойБазыБСП</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыВызовСервера</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыГлобальный</CommonModule>
-			<CommonModule>ОбновлениеИнформационнойБазыДокументация</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыКлиент</CommonModule>
+			<CommonModule>ОбновлениеИнформационнойБазыДокументация</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыКлиентПереопределяемый</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыПереопределяемый</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебный</CommonModule>
@@ -1217,6 +1211,7 @@
 			<CommonModule>УправлениеКонтактнойИнформацией</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформациейКлиент</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформациейКлиентСервер</CommonModule>
+			<CommonModule>АдминистрированиеКластераCOMКлиентСервер</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформациейПереопределяемый</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформациейСлужебный</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформациейСлужебныйВызовСервера</CommonModule>
@@ -1243,12 +1238,13 @@
 			<CommonModule>ФайловаяСистемаСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ФизическиеЛицаКлиентСервер</CommonModule>
 			<CommonModule>ЯндексДискОбменДанными</CommonModule>
+			<CommonModule>УправлениеКонтактнойИнформациейЛокализация</CommonModule>
 			<ExchangePlan>ОбновлениеИнформационнойБазы</ExchangePlan>
 			<XDTOPackage>ApplicationExtensionsManifest_1_0_0_1</XDTOPackage>
 			<XDTOPackage>ApplicationExtensionsPermissions_1_0_0_1</XDTOPackage>
-			<XDTOPackage>ApplicationPermissions_1_0_0_1</XDTOPackage>
 			<XDTOPackage>ApplicationPermissions_1_0_0_2</XDTOPackage>
 			<XDTOPackage>EnterpriseData_1_10_8</XDTOPackage>
+			<XDTOPackage>ApplicationPermissions_1_0_0_1</XDTOPackage>
 			<XDTOPackage>EnterpriseData_1_2_3</XDTOPackage>
 			<XDTOPackage>EnterpriseData_1_3_20</XDTOPackage>
 			<XDTOPackage>EnterpriseData_1_4_20</XDTOPackage>
@@ -1261,6 +1257,7 @@
 			<XDTOPackage>Адрес</XDTOPackage>
 			<XDTOPackage>АдресныйКлассификатор</XDTOPackage>
 			<XDTOPackage>КонтактнаяИнформация</XDTOPackage>
+			<XDTOPackage>EnterpriseData_1_11_5</XDTOPackage>
 			<WebService>EnterpriseDataExchange_1_0_1_1</WebService>
 			<WebService>EnterpriseDataUpload_1_0_1_1</WebService>
 			<WebService>Exchange</WebService>
@@ -1268,13 +1265,9 @@
 			<WebService>Exchange_3_0_1_1</WebService>
 			<WebService>InterfaceVersion</WebService>
 			<EventSubscription>ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</EventSubscription>
-			<EventSubscription>ВариантыОтчетовПриУдаленииПользователя</EventSubscription>
-			<EventSubscription>ВключитьИспользованиеПланаОбмена</EventSubscription>
-			<EventSubscription>ВключитьРегламентноеЗаданиеПриИзмененииФункциональнойОпции</EventSubscription>
 			<EventSubscription>ВыполнитьДействияПередЗаписьюПрисоединенногоФайла</EventSubscription>
-			<EventSubscription>ВыполнитьДействияПередУдалениемПрисоединенногоФайла</EventSubscription>
 			<EventSubscription>ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</EventSubscription>
-			<EventSubscription>ВыполнитьДействияПриЗаписиПрисоединенногоФайла</EventSubscription>
+			<EventSubscription>ВключитьИспользованиеПланаОбмена</EventSubscription>
 			<EventSubscription>ДополнительныеОтчетыИОбработкиПередУдалениемИдентификатораОбъектаМетаданных</EventSubscription>
 			<EventSubscription>ДополнительныеРеквизитыОбработкаПроверкиЗаполнения</EventSubscription>
 			<EventSubscription>ЗаписатьВерсиюОбъекта</EventSubscription>
@@ -1283,6 +1276,7 @@
 			<EventSubscription>ЗаполнитьЗначениеРеквизитаУпорядочивания</EventSubscription>
 			<EventSubscription>ЗаполнитьКонтактнуюИнформацию</EventSubscription>
 			<EventSubscription>ЗаполнитьНаборыЗначенийДоступаТабличныхЧастей</EventSubscription>
+			<EventSubscription>ВключитьРегламентноеЗаданиеПриИзмененииФункциональнойОпции</EventSubscription>
 			<EventSubscription>ЗапретитьИспользованиеУдаляемыхОбъектовВДокументах</EventSubscription>
 			<EventSubscription>ЗапретитьИспользованиеУдаляемыхОбъектовВКонстантах</EventSubscription>
 			<EventSubscription>ЗапретитьИспользованиеУдаляемыхОбъектовВНаборахЗаписей</EventSubscription>
@@ -1300,10 +1294,10 @@
 			<EventSubscription>ОбновитьКонтактнуюИнформацию</EventSubscription>
 			<EventSubscription>ОбновлениеВерсииИБПередУдалениемСсылочногоОбъекта</EventSubscription>
 			<EventSubscription>ОбработкаПроверкиЗаполненияПрисоединенногоФайла</EventSubscription>
-			<EventSubscription>ОпределитьФормуПрисоединенногоФайла</EventSubscription>
 			<EventSubscription>ОтключитьАвтоматическуюСинхронизациюДанных</EventSubscription>
 			<EventSubscription>ОтключитьИспользованиеПланаОбмена</EventSubscription>
 			<EventSubscription>ОтключитьРассылкиПередУдалениемТипаПолучателейРассылки</EventSubscription>
+			<EventSubscription>ОпределитьФормуПрисоединенногоФайла</EventSubscription>
 			<EventSubscription>ОтменитьОтправкуДанныхУзлаВРаспределеннойИнформационнойБазе</EventSubscription>
 			<EventSubscription>ОчиститьИнформациюОбАвтореВерсии</EventSubscription>
 			<EventSubscription>ОчиститьСсылкиНаУзелИнформационнойБазы</EventSubscription>
@@ -1314,10 +1308,13 @@
 			<EventSubscription>ПриПолученииДанныхОтПодчиненного</EventSubscription>
 			<EventSubscription>ПроверитьВозможностьИзмененияНастроекОбменаДанными</EventSubscription>
 			<EventSubscription>ПроверитьДоступПередЗаписью</EventSubscription>
+			<EventSubscription>ВариантыОтчетовПриУдаленииПользователя</EventSubscription>
 			<EventSubscription>ПроверитьДоступПередЗаписьюНабораЗаписей</EventSubscription>
 			<EventSubscription>ПроверитьДоступПередЗаписьюНабораЗаписейРегистраРасчета</EventSubscription>
 			<EventSubscription>ПроверитьДоступПередУдалением</EventSubscription>
+			<EventSubscription>ВыполнитьДействияПередУдалениемПрисоединенногоФайла</EventSubscription>
 			<EventSubscription>ПроверитьДоступПриЗаписи</EventSubscription>
+			<EventSubscription>ВыполнитьДействияПриЗаписиПрисоединенногоФайла</EventSubscription>
 			<EventSubscription>ПроверитьДоступПриЗаписиНабораЗаписей</EventSubscription>
 			<EventSubscription>ПроверитьДоступПриЗаписиНабораЗаписейРегистраРасчета</EventSubscription>
 			<EventSubscription>ПроверитьИзменениеФильтровОграниченияМиграцииДанных</EventSubscription>
@@ -1393,10 +1390,10 @@
 			<FunctionalOptionsParameter>ТипВерсионируемогоОбъекта</FunctionalOptionsParameter>
 			<DefinedType>БезопасныйРежим</DefinedType>
 			<DefinedType>ВерсионируемыеДанные</DefinedType>
-			<DefinedType>ВерсионируемыеДанныеОбъект</DefinedType>
 			<DefinedType>ВладелецВнешнихЗначенийВНаборахЗначенийДоступаОбъект</DefinedType>
 			<DefinedType>ВладелецДополнительныхСведений</DefinedType>
 			<DefinedType>ВладелецЗначенийКлючейДоступа</DefinedType>
+			<DefinedType>ВладелецЗначенийКлючейДоступаДокумент</DefinedType>
 			<DefinedType>ВладелецЗначенийКлючейДоступаНаборЗаписей</DefinedType>
 			<DefinedType>ВладелецЗначенийКлючейДоступаНаборЗаписейРегистраРасчета</DefinedType>
 			<DefinedType>ВладелецЗначенийКлючейДоступаОбъект</DefinedType>
@@ -1406,6 +1403,7 @@
 			<DefinedType>ВладелецНастроекПравОбъект</DefinedType>
 			<DefinedType>ВладелецПрисоединенныхФайлов</DefinedType>
 			<DefinedType>ВладелецПрисоединенныхФайловОбъект</DefinedType>
+			<DefinedType>ВерсионируемыеДанныеОбъект</DefinedType>
 			<DefinedType>ВладелецСОграничениемПоНаборамЗначенийДоступаОбъект</DefinedType>
 			<DefinedType>ВладелецФайлов</DefinedType>
 			<DefinedType>ВнешнийПользователь</DefinedType>
@@ -1428,7 +1426,7 @@
 			<DefinedType>ПрисоединенныйФайл</DefinedType>
 			<DefinedType>ПрисоединенныйФайлОбъект</DefinedType>
 			<DefinedType>ФизическоеЛицо</DefinedType>
-			<DefinedType>ВладелецЗначенийКлючейДоступаДокумент</DefinedType>
+			<DefinedType>ВладелецСОграничениемПоНаборамЗначенийДоступаДокумент</DefinedType>
 			<CommonCommand>ВремяТекущегоСеанса</CommonCommand>
 			<CommonCommand>ВсеФайлы</CommonCommand>
 			<CommonCommand>ДополнительныеОбработкиАдминистрирование</CommonCommand>
@@ -1475,9 +1473,9 @@
 			<CommonCommand>СоздатьЗаметкуПоПредмету</CommonCommand>
 			<CommonCommand>СоставОтправляемыхДанных</CommonCommand>
 			<CommonCommand>СценарииСинхронизации</CommonCommand>
-			<CommonCommand>УдалитьНастройкуСинхронизации</CommonCommand>
 			<CommonCommand>УстановитьРасширениеДляРаботыС1СПредприятием</CommonCommand>
 			<CommonCommand>ФайлыВТоме</CommonCommand>
+			<CommonCommand>УдалитьНастройкуСинхронизации</CommonCommand>
 			<CommonCommand>док_СменитьСтиль</CommonCommand>
 			<CommandGroup>Информация</CommandGroup>
 			<CommandGroup>Органайзер</CommandGroup>
@@ -1486,11 +1484,11 @@
 			<CommandGroup>СинхронизацияДанных</CommandGroup>
 			<Constant>АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</Constant>
 			<Constant>АдресПубликацииИнформационнойБазыВИнтернете</Constant>
-			<Constant>АдресПубликацииИнформационнойБазыВЛокальнойСети</Constant>
 			<Constant>ГлавныйУзел</Constant>
 			<Constant>ДанныеДляОтложенногоОбновления</Constant>
 			<Constant>ДатаОбновленияПовторноИспользуемыхЗначенийМРО</Constant>
 			<Constant>ДетализироватьОбновлениеИБВЖурналеРегистрации</Constant>
+			<Constant>АдресПубликацииИнформационнойБазыВЛокальнойСети</Constant>
 			<Constant>док_ИспользоватьОграничениеRLS_ПоКлиентам</Constant>
 			<Constant>док_ПаролиЗашифрованы</Constant>
 			<Constant>док_РезервноеКопированиеНаЯндексДиск</Constant>
@@ -1567,16 +1565,17 @@
 			<Constant>СписокРасширенийФайловOpenDocumentОбластиДанных</Constant>
 			<Constant>СпособХраненияФайлов</Constant>
 			<Constant>СтандартныеПодсистемыВАвтономномРежиме</Constant>
-			<Constant>УдалитьЛогинДоступаКСервисуMorpher</Constant>
-			<Constant>УдалитьНастройкиВходаПользователей</Constant>
 			<Constant>УчетнаяЗаписьДляВосстановленияПароля</Constant>
 			<Constant>ХранитьФайлыВТомахНаДиске</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
+			<Constant>УдалитьЛогинДоступаКСервисуMorpher</Constant>
+			<Constant>УдалитьНастройкиВходаПользователей</Constant>
 			<Constant>ЯД_ID_Приложения</Constant>
 			<Constant>ЯД_КодАвторизации</Constant>
 			<Constant>ЯД_ПарольПриложения</Constant>
 			<Constant>ЯД_СрокДействияТокена</Constant>
 			<Constant>ЯД_Токен</Constant>
+			<Constant>ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</Constant>
 			<CommonForm>БлокировкаРаботыСВнешнимиРесурсами</CommonForm>
 			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
 			<CommonForm>Вопрос</CommonForm>
@@ -1953,12 +1952,12 @@
 			<InformationRegister>СостоянияУспешныхОбменовДанными</InformationRegister>
 			<InformationRegister>СтатусыСинхронизацииФайловСОблачнымСервисом</InformationRegister>
 			<InformationRegister>ТаблицыГруппДоступа</InformationRegister>
-			<InformationRegister>УдалитьНастройкиТранспортаОбмена</InformationRegister>
-			<InformationRegister>УдалитьРезультатыОбменаДанными</InformationRegister>
-			<InformationRegister>УдалитьХранимыеФайлыВерсий</InformationRegister>
 			<InformationRegister>УдаляемыеОбъекты</InformationRegister>
 			<InformationRegister>УровниСокращенийАдресныхСведений</InformationRegister>
 			<InformationRegister>ФайлыВРабочемКаталоге</InformationRegister>
+			<InformationRegister>УдалитьНастройкиТранспортаОбмена</InformationRegister>
+			<InformationRegister>УдалитьРезультатыОбменаДанными</InformationRegister>
+			<InformationRegister>УдалитьХранимыеФайлыВерсий</InformationRegister>
 			<ChartOfCharacteristicTypes>док_ПраваИНастройки</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>док_СправочникиДляШифрования</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>

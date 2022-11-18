@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<CommandSet>
 		<ExcludedCommand>Write</ExcludedCommand>
@@ -358,13 +358,6 @@
 											</Button>
 										</ChildItems>
 									</ButtonGroup>
-									<Button name="ОтчетыУдалить" id="1002">
-										<Type>CommandBarButton</Type>
-										<Representation>Picture</Representation>
-										<CommandName>Form.Item.Отчеты.StandardCommand.Delete</CommandName>
-										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="ОтчетыУдалитьРасширеннаяПодсказка" id="1003"/>
-									</Button>
 									<ButtonGroup name="КомандыПеремещения" id="1004">
 										<Title>
 											<v8:item>
@@ -372,6 +365,7 @@
 												<v8:content>Команды перемещения</v8:content>
 											</v8:item>
 										</Title>
+										<Representation>Compact</Representation>
 										<ExtendedTooltip name="КомандыПеремещенияРасширеннаяПодсказка" id="1005"/>
 										<ChildItems>
 											<Button name="ОтчетыПереместитьВверх" id="998">
@@ -394,6 +388,12 @@
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ПредварительныйПросмотрОтчета</CommandName>
 										<ExtendedTooltip name="ОтчетыСформироватьОтчетExtendedTooltip" id="717"/>
+									</Button>
+									<Button name="ОтчетыУдалить" id="1002">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Item.Отчеты.StandardCommand.Delete</CommandName>
+										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+										<ExtendedTooltip name="ОтчетыУдалитьРасширеннаяПодсказка" id="1003"/>
 									</Button>
 									<ButtonGroup name="КоманднаяПанельОтчеты" id="354">
 										<Title>

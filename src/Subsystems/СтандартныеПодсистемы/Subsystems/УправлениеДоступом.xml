@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Subsystem uuid="1514eaff-faea-4d82-9465-d0d5292bb31d">
 		<Properties>
 			<Name>УправлениеДоступом</Name>
@@ -90,10 +90,13 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КлючиДоступаГруппДоступа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВладелецЗначенийКлючейДоступа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.СпискиСОграничениемЧерезКлючиДоступаГруппДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">6da15c1d-e144-472e-9a3a-2797c7df16e4</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.НаборыГруппДоступа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПроверитьДоступПередЗаписьюНабораЗаписейРегистраРасчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">122a94c7-bb89-4f11-b583-b56808c1df47</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПроверитьДоступПриЗаписиНабораЗаписейРегистраРасчета</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВладелецЗначенийКлючейДоступаОбъект</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВладелецЗначенийКлючейДоступаДокумент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВладелецЗначенийКлючейДоступаНаборЗаписей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВладелецЗначенийКлючейДоступаНаборЗаписейРегистраРасчета</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.КоличествоПотоковОбновленияДоступа</xr:Item>
@@ -111,6 +114,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ОтключениеОбновленияКлючейДоступа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КлючиДоступаНаборовГруппДоступа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОжидаемаяДлительнаяОперация16</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">a5dd4200-0f25-452d-9014-3b1506c31557</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПроверитьДоступПередУдалением</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПервоеОбновлениеДоступаЗавершилось</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбновитьЗначенияГруппДоступа</xr:Item>
@@ -122,6 +126,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ПравоРедактированияФон</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ПравоСозданияФон</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ПравоНедействительногоПользователяФон</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВладелецСОграничениемПоНаборамЗначенийДоступаДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">57069b56-f732-41c0-9a75-cbdb1e88556c</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИспользуемыеВидыДоступаПоТаблицам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИспользуемыеВидыДоступа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.НаследованиеВключено</xr:Item>
@@ -140,7 +146,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ВычисленноеПравоДоступаЦвет</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.НеназначенноеПравоДоступаЦвет</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.РазрешенноеПравоДоступаЦвет</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВладелецЗначенийКлючейДоступаДокумент</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
