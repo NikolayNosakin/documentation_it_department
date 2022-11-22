@@ -4,7 +4,11 @@
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
 		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -153,6 +157,9 @@
 		<Pages name="Группа1" id="41">
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="42"/>
+			<Events>
+				<Event name="OnCurrentPageChange">Группа1ПриСменеСтраницы</Event>
+			</Events>
 			<ChildItems>
 				<Page name="Группа2" id="43">
 					<Title>
@@ -576,6 +583,15 @@
 							</ChildItems>
 						</Table>
 					</ChildItems>
+				</Page>
+				<Page name="СтраницаДополнительныеРеквизиты" id="189">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные реквизиты</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаДополнительныеРеквизитыРасширеннаяПодсказка" id="190"/>
 				</Page>
 				<Page name="Группа3" id="45">
 					<Title>
