@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.1.2.5</Version>
+			<Version>1.1.2.7</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_documentation_it_department/releases/latest</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -715,6 +715,8 @@
 			<CommonPicture>ЭлектронноеПисьмо</CommonPicture>
 			<CommonPicture>ЯндексКарты</CommonPicture>
 			<CommonPicture>УдалитьИнформация</CommonPicture>
+			<CommonPicture>док_QR_Код</CommonPicture>
+			<CommonPicture>док_штрихкод</CommonPicture>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
 			<SessionParameter>ВерсияРасширений</SessionParameter>
@@ -1685,6 +1687,7 @@
 			<Catalog>док_СерверыVPN</Catalog>
 			<Catalog>док_СерверыVPNПрисоединенныеФайлы</Catalog>
 			<Catalog>док_СерверыПрисоединенныеФайлы</Catalog>
+			<Catalog>док_СерверыХранилищаКонфигураций</Catalog>
 			<Catalog>док_Сервисы</Catalog>
 			<Catalog>док_СетевоеОборудование</Catalog>
 			<Catalog>док_СетевоеОборудованиеПрисоединенныеФайлы</Catalog>
@@ -1697,6 +1700,7 @@
 			<Catalog>док_УстройстваСУдаленнымУправлением</Catalog>
 			<Catalog>док_УчетныеДанныеСервисов</Catalog>
 			<Catalog>док_УчетныеДанныеСервисовПрисоединенныеФайлы</Catalog>
+			<Catalog>док_ХранилищаКонфигураций</Catalog>
 			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
 			<Catalog>Заметки</Catalog>
 			<Catalog>ЗаметкиПрисоединенныеФайлы</Catalog>
@@ -1858,6 +1862,8 @@
 			<DataProcessor>ТранспортСообщенийОбменаFTP</DataProcessor>
 			<DataProcessor>УдалениеПомеченныхОбъектов</DataProcessor>
 			<DataProcessor>УниверсальныйОбменДаннымиXML</DataProcessor>
+			<DataProcessor>док_ГенерацияШтрихкодовУстройств</DataProcessor>
+			<DataProcessor>док_СканированиеШтрихкодов</DataProcessor>
 			<InformationRegister>АдресныеОбъекты</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>

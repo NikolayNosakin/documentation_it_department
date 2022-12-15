@@ -35,6 +35,17 @@
 				<Event name="OnClick">ПолеHTMLПриНажатии</Event>
 			</Events>
 		</HTMLDocumentField>
+		<Button name="Сканировать_Штрихкод" id="4">
+			<Type>UsualButton</Type>
+			<Width>20</Width>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MaxWidth>20</MaxWidth>
+			<Height>1</Height>
+			<AutoMaxHeight>false</AutoMaxHeight>
+			<MaxHeight>2</MaxHeight>
+			<CommandName>Form.Command.Сканировать_Штрихкод</CommandName>
+			<ExtendedTooltip name="Сканировать_ШтрихкодРасширеннаяПодсказка" id="5"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="ПолеHTML" id="2">
@@ -53,4 +64,26 @@
 			</Type>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="Сканировать_Штрихкод" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сканировать штрихкод</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сканировать штрихкод</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.док_штрихкод</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Сканировать_Штрихкод</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
 </Form>

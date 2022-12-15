@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="47">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="48"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Каталог" id="7">
+			<DataPath>Объект.Каталог</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КаталогКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="КаталогРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Сервер" id="13">
+			<DataPath>Объект.Сервер</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СерверКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<UsualGroup name="Группа2" id="49">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="50"/>
+			<ChildItems>
+				<InputField name="СерверХранилища" id="10">
+					<DataPath>Объект.СерверХранилища</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СерверХранилищаКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="СерверХранилищаРасширеннаяПодсказка" id="12"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Пользователи" id="19">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Пользователи</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ПользователиКонтекстноеМеню" id="20"/>
+			<AutoCommandBar name="ПользователиКоманднаяПанель" id="21"/>
+			<ExtendedTooltip name="ПользователиРасширеннаяПодсказка" id="22"/>
+			<SearchStringAddition name="ПользователиСтрокаПоиска" id="23">
+				<AdditionSource>
+					<Item>Пользователи</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПользователиСтрокаПоискаКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ПользователиСтрокаПоискаРасширеннаяПодсказка" id="25"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПользователиСостояниеПросмотра" id="26">
+				<AdditionSource>
+					<Item>Пользователи</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПользователиСостояниеПросмотраКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="ПользователиСостояниеПросмотраРасширеннаяПодсказка" id="28"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПользователиУправлениеПоиском" id="29">
+				<AdditionSource>
+					<Item>Пользователи</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПользователиУправлениеПоискомКонтекстноеМеню" id="30"/>
+				<ExtendedTooltip name="ПользователиУправлениеПоискомРасширеннаяПодсказка" id="31"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ПользователиНомерСтроки" id="32">
+					<DataPath>Объект.Пользователи.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПользователиНомерСтрокиКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ПользователиНомерСтрокиРасширеннаяПодсказка" id="34"/>
+				</LabelField>
+				<InputField name="ПользователиИБ" id="35">
+					<DataPath>Объект.Пользователи.ИБ</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПользователиИБКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ПользователиИБРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ПользователиПользователь" id="38">
+					<DataPath>Объект.Пользователи.Пользователь</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПользователиПользовательКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ПользователиПользовательРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="ПользователиПароль" id="41">
+					<DataPath>Объект.Пользователи.Пароль</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПользователиПарольКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ПользователиПарольРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="ПользователиОписание" id="44">
+					<DataPath>Объект.Пользователи.Описание</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПользователиОписаниеКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ПользователиОписаниеРасширеннаяПодсказка" id="46"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.док_ХранилищаКонфигураций</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

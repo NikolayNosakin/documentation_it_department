@@ -166,21 +166,10 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="99"/>
 			<ChildItems>
-				<CheckBoxField name="ИспользуетсяХранилищеКонфигурации" id="31">
-					<DataPath>Объект.ИспользуетсяХранилище</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ИспользуетсяХранилищеКонфигурацииКонтекстноеМеню" id="32"/>
-					<ExtendedTooltip name="ИспользуетсяХранилищеКонфигурацииРасширеннаяПодсказка" id="33"/>
-					<Events>
-						<Event name="OnChange">ИспользуетсяХранилищеКонфигурацииПриИзменении</Event>
-					</Events>
-				</CheckBoxField>
-				<InputField name="ПутьКХранилищу" id="34">
-					<DataPath>Объект.ПутьКХранилищу</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ПутьКХранилищуКонтекстноеМеню" id="35"/>
-					<ExtendedTooltip name="ПутьКХранилищуРасширеннаяПодсказка" id="36"/>
+				<InputField name="ХранилищеКонфигурации" id="145">
+					<DataPath>Объект.ХранилищеКонфигурации</DataPath>
+					<ContextMenu name="ХранилищеКонфигурацииКонтекстноеМеню" id="146"/>
+					<ExtendedTooltip name="ХранилищеКонфигурацииРасширеннаяПодсказка" id="147"/>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
@@ -300,79 +289,6 @@
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ПользователиБДОписаниеКонтекстноеМеню" id="67"/>
 									<ExtendedTooltip name="ПользователиБДОписаниеРасширеннаяПодсказка" id="68"/>
-								</InputField>
-							</ChildItems>
-						</Table>
-					</ChildItems>
-				</Page>
-				<Page name="ГруппаПользователиХранилища" id="69">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Пользователи хранилища</v8:content>
-						</v8:item>
-					</Title>
-					<ExtendedTooltip name="ГруппаПользователиХранилищаРасширеннаяПодсказка" id="70"/>
-					<ChildItems>
-						<Table name="ПользователиХранилища" id="71">
-							<Representation>List</Representation>
-							<HeightControlVariant>UseContentHeight</HeightControlVariant>
-							<AutoInsertNewRow>true</AutoInsertNewRow>
-							<EnableStartDrag>true</EnableStartDrag>
-							<EnableDrag>true</EnableDrag>
-							<DataPath>Объект.ПользователиХранилища</DataPath>
-							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="ПользователиХранилищаКонтекстноеМеню" id="72"/>
-							<AutoCommandBar name="ПользователиХранилищаКоманднаяПанель" id="73"/>
-							<ExtendedTooltip name="ПользователиХранилищаРасширеннаяПодсказка" id="74"/>
-							<SearchStringAddition name="ПользователиХранилищаСтрокаПоиска" id="75">
-								<AdditionSource>
-									<Item>ПользователиХранилища</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ПользователиХранилищаСтрокаПоискаКонтекстноеМеню" id="76"/>
-								<ExtendedTooltip name="ПользователиХранилищаСтрокаПоискаРасширеннаяПодсказка" id="77"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="ПользователиХранилищаСостояниеПросмотра" id="78">
-								<AdditionSource>
-									<Item>ПользователиХранилища</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ПользователиХранилищаСостояниеПросмотраКонтекстноеМеню" id="79"/>
-								<ExtendedTooltip name="ПользователиХранилищаСостояниеПросмотраРасширеннаяПодсказка" id="80"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="ПользователиХранилищаУправлениеПоиском" id="81">
-								<AdditionSource>
-									<Item>ПользователиХранилища</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="ПользователиХранилищаУправлениеПоискомКонтекстноеМеню" id="82"/>
-								<ExtendedTooltip name="ПользователиХранилищаУправлениеПоискомРасширеннаяПодсказка" id="83"/>
-							</SearchControlAddition>
-							<ChildItems>
-								<LabelField name="ПользователиХранилищаНомерСтроки" id="84">
-									<DataPath>Объект.ПользователиХранилища.LineNumber</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ПользователиХранилищаНомерСтрокиКонтекстноеМеню" id="85"/>
-									<ExtendedTooltip name="ПользователиХранилищаНомерСтрокиРасширеннаяПодсказка" id="86"/>
-								</LabelField>
-								<InputField name="ПользователиХранилищаЛогин" id="87">
-									<DataPath>Объект.ПользователиХранилища.Логин</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ПользователиХранилищаЛогинКонтекстноеМеню" id="88"/>
-									<ExtendedTooltip name="ПользователиХранилищаЛогинРасширеннаяПодсказка" id="89"/>
-								</InputField>
-								<InputField name="ПользователиХранилищаПароль" id="90">
-									<DataPath>Объект.ПользователиХранилища.Пароль</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ПользователиХранилищаПарольКонтекстноеМеню" id="91"/>
-									<ExtendedTooltip name="ПользователиХранилищаПарольРасширеннаяПодсказка" id="92"/>
-								</InputField>
-								<InputField name="ПользователиХранилищаОписание" id="93">
-									<DataPath>Объект.ПользователиХранилища.Описание</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ПользователиХранилищаОписаниеКонтекстноеМеню" id="94"/>
-									<ExtendedTooltip name="ПользователиХранилищаОписаниеРасширеннаяПодсказка" id="95"/>
 								</InputField>
 							</ChildItems>
 						</Table>
