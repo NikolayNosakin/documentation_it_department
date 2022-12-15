@@ -127,13 +127,13 @@
 					<ExtendedTooltip name="ПутьК_БДРасширеннаяПодсказка" id="36"/>
 				</LabelField>
 				<CheckBoxField name="ИспользуетсяХранилище" id="40">
-					<DataPath>Список.ИспользуетсяХранилище</DataPath>
+					<DataPath>~Список.ИспользуетсяХранилище</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользуетсяХранилищеКонтекстноеМеню" id="41"/>
 					<ExtendedTooltip name="ИспользуетсяХранилищеРасширеннаяПодсказка" id="42"/>
 				</CheckBoxField>
 				<LabelField name="ПутьКХранилищу" id="43">
-					<DataPath>Список.ПутьКХранилищу</DataPath>
+					<DataPath>~Список.ПутьКХранилищу</DataPath>
 					<Visible>false</Visible>
 					<ContextMenu name="ПутьКХранилищуКонтекстноеМеню" id="44"/>
 					<ExtendedTooltip name="ПутьКХранилищуРасширеннаяПодсказка" id="45"/>
