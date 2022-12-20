@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Общие условия отбора отправляемых данных</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Common filter conditions for data to be sent</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -42,6 +46,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Период</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Period</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -55,11 +63,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>За период</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Period</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Общий отбор по периоду, применяется для всех документов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Common filter by period applied to all documents</v8:content>
 						</v8:item>
 					</ToolTip>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -86,6 +102,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Компоновщик настроек (отбор)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Setting Composer (filter)</v8:content>
+				</v8:item>
 			</Title>
 			<SearchStringLocation>None</SearchStringLocation>
 			<ViewStatusLocation>None</ViewStatusLocation>
@@ -104,6 +124,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Добавить условие</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Add criterion</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="КомпоновщикНастроекОтборДобавитьЭлементОтбораExtendedTooltip" id="22"/>
 					</Button>
@@ -112,6 +136,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Компоновщик настроек отбор группа все действия</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Settings Composer filter all actions group</v8:content>
 							</v8:item>
 						</Title>
 						<CommandSource>Item.КомпоновщикНастроекОтбор</CommandSource>
@@ -163,6 +191,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Период данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data period</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:StandardPeriod</v8:Type>
@@ -194,11 +226,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команда ОК</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK command</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаОК</Action>

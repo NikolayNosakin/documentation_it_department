@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Папки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Folders</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment>Структура папок для хранения файлов</Comment>
 			<Hierarchical>true</Hierarchical>
@@ -217,6 +221,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вышестоящая папка, включающая эту папку.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parent folder this subfolder belongs to.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -232,6 +240,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Папка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Folder</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -252,6 +264,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование папки.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The folder description.</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -283,6 +299,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код папки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The folder code.</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -371,6 +391,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Папка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Folder</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -378,6 +402,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Папки файлов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File folders</v8:content>
 				</v8:item>
 			</ExtendedListPresentation>
 			<Explanation/>
@@ -396,6 +424,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Details</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -412,6 +444,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание папки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The folder details.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -445,6 +481,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ответственный</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Person responsible</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -457,6 +497,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ответственный за папку</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The person responsible for the folder.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -490,6 +534,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата создания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Date created</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -505,6 +553,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата создания папки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The folder creation date.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -548,12 +600,20 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные реквизиты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional attributes</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные реквизиты объекта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional object attributes.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<FillChecking>DontCheck</FillChecking>
@@ -596,6 +656,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Свойство</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Property</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -608,6 +672,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительный реквизит</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>An additional attribute.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -638,6 +706,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -650,6 +722,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение дополнительного реквизита</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional attribute. value.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -686,6 +762,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Текстовая строка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Text string</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -702,6 +782,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Полный текст строкового дополнительного реквизита</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Text of the additional String attribute.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>

@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Составы групп пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User groups</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -178,6 +182,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Используется</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Valid user</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -190,6 +198,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что и группа пользователей (группа внешних пользователей) не помечена на удаление и пользователь (внешний пользователь) не помечен на удаление и действителен.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If this check box is selected, the group of users (or external users) is not marked for deletion and the user (or external user) is valid and not marked for deletion.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -222,6 +234,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа пользователей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User group</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -238,6 +254,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>1) Группа пользователей (группа внешних пользователей), в которую включен пользователь (внешний пользователь) с учетом иерархии групп.
 2) Пользователь (внешний пользователь), равный значению в поле Пользователь для упрощения запросов.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>1) A group of users (or external users) that includes the user (or external user) considering the group hierarchy.
+2) A user (or external user) that matches the value in the User field, to optimize the queries.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -273,6 +294,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -286,6 +311,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь (внешний пользователь) включенный в состав группы пользователей (группы внешних пользователей) с учетом иерархии групп.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A user (or external user) included in the group of users (or external users) considering the group hierarchy.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

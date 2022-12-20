@@ -50,6 +50,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Таблица настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings table</v8:content>
+				</v8:item>
 			</Title>
 			<ContextMenu name="КомпоновщикНастроекНастройкиКонтекстноеМеню" id="2"/>
 			<AutoCommandBar name="КомпоновщикНастроекНастройкиКоманднаяПанель" id="3"/>
@@ -89,6 +93,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings group</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыНастроекExtendedTooltip" id="131"/>
@@ -98,6 +106,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Параметры</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parameters</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -116,6 +128,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки параметров</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Parameter settings</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="КомпоновщикНастроекНастройкиПараметрыДанныхКонтекстноеМеню" id="7"/>
@@ -154,6 +170,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользовательские поля</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User-defined fields</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>StdPicture.DataCompositionUserFields</xr:Ref>
@@ -173,6 +193,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки пользовательских полей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>User-defined field settings</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="КомпоновщикНастроекНастройкиПользовательскиеПоляКонтекстноеМеню" id="11"/>
@@ -211,6 +235,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группируемые поля</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Grouped fields</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>StdPicture.DataCompositionGroupFields</xr:Ref>
@@ -224,6 +252,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы группируемых полей</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Grouped fields pages</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыПолейГруппировкиExtendedTooltip" id="137"/>
@@ -233,6 +265,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница группируемых полей</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Grouped fields page</v8:content>
 										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
@@ -254,6 +290,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Доступные поля группируемых полей</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Available fields of grouped fields</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиПоляГруппировкиДоступныеПоляПолейГруппировокКонтекстноеМеню" id="17"/>
@@ -296,6 +336,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Таблица группируемых полей</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Grouped fields table</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиПоляГруппировкиКонтекстноеМеню" id="20"/>
 											<AutoCommandBar name="КомпоновщикНастроекНастройкиПоляГруппировкиКоманднаяПанель" id="21"/>
@@ -333,6 +377,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница недоступных группируемых полей</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Unavailable grouped fields page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="НедоступныеНастройкиПолейГруппировкиExtendedTooltip" id="141"/>
 									<ChildItems>
@@ -344,6 +392,11 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Текущий элемент не может содержать поля группировки.
 Выберите в дереве структуры группировку, для которой требуется просмотреть или изменить состав полей группировки.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>The item cannot contain grouping fields.
+Browse the structure tree and select a grouping to view or edit grouping field structure.</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьНедоступныхПолейГруппировкиКонтекстноеМеню" id="24"/>
@@ -361,6 +414,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Поля</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Fields</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>StdPicture.DataCompositionSelection</xr:Ref>
@@ -374,6 +431,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Текущий элемент имеет собственные настройки выбранных полей (для детальной настройки элемента)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Assign the item with personal field settings</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
@@ -390,6 +451,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы полей</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Fields pages</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыПолейВыбораExtendedTooltip" id="145"/>
@@ -399,6 +464,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница полей</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Fields page</v8:content>
 										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
@@ -419,6 +488,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Доступные поля полей</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Available fields of fields</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиВыборДоступныеПоляВыбораКонтекстноеМеню" id="31"/>
@@ -462,6 +535,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Таблица полей</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Fields table</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиВыборКонтекстноеМеню" id="34"/>
 											<AutoCommandBar name="КомпоновщикНастроекНастройкиВыборКоманднаяПанель" id="35"/>
@@ -499,6 +576,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница отключенных полей</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Disabled fields page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ОтключенныеНастройкиВыбранныхПолейExtendedTooltip" id="149"/>
 									<ChildItems>
@@ -511,6 +592,12 @@
 Выберите в дереве структуры элемент - отчет для редактирования его выбранных полей.
 Если необходимо, чтобы текущий элемент имел выбранные поля, отличные от выбранных полей отчета, установите флажок, расположенный над этим текстом.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>The item adopts selected fields from the report.
+In the report structure tree, select the item and then select required fields.
+To add custom fields, select the check box above.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьЛокальныхВыбранныхПолейКонтекстноеМеню" id="38"/>
 											<ExtendedTooltip name="НадписьЛокальныхВыбранныхПолейExtendedTooltip" id="150"/>
@@ -521,6 +608,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Нажмите здесь для перехода к выбранным полям отчета.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>View selected report fields</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
@@ -538,6 +629,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница недоступных полей</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Unavailable fields page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="НедоступныеНастройкиВыбранныхПолейExtendedTooltip" id="152"/>
 									<ChildItems>
@@ -549,6 +644,11 @@
 													<v8:content>У текущего элемента не могут быть установлены выбранные поля.
 Выберите в дереве структуры элемент - отчет для редактирования его выбранных полей.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cannot add selected fields to the item.
+In the report structure tree, select the item and then select required fields.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьНедоступныхВыбранныхПолейКонтекстноеМеню" id="43"/>
 											<ExtendedTooltip name="НадписьНедоступныхВыбранныхПолейExtendedTooltip" id="153"/>
@@ -559,6 +659,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Нажмите здесь для перехода к выбранным полям отчета.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>View selected report fields</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
@@ -580,6 +684,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Фильтры</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filters</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>StdPicture.DataCompositionFilter</xr:Ref>
@@ -593,6 +701,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Текущий элемент имеет собственный фильтр (для фильтрации записей, выводимых в элементе)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Assign the item with personal filters to filter item records</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
@@ -609,6 +721,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы фильтры</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Filters pages</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыОтбораExtendedTooltip" id="157"/>
@@ -618,6 +734,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница полей</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Fields page</v8:content>
 										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
@@ -638,6 +758,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Доступные поля фильтров</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Available filter fields</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиОтборДоступныеПоляОтбораКонтекстноеМеню" id="52"/>
@@ -681,6 +805,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Таблица фильтров</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Filter table</v8:content>
+												</v8:item>
 											</Title>
 											<ViewMode>All</ViewMode>
 											<SettingsNamedItemDetailedRepresentation>false</SettingsNamedItemDetailedRepresentation>
@@ -720,6 +848,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница отключенного фильтра</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Disabled filter page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ОтключенныеНастройкиОтбораExtendedTooltip" id="161"/>
 									<ChildItems>
@@ -732,6 +864,12 @@
 Выберите в дереве структуры отчет для редактирования фильтра отчета в целом.
 Если необходимо, чтобы текущий элемент имел собственный фильтр, установите флажок, расположенный над этим текстом.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>No filter is assigned to the item.
+In the structure tree, select the report and edit report filters.
+To assign the item with a personal filter, select the check box above.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьЛокальногоОтбораКонтекстноеМеню" id="59"/>
 											<ExtendedTooltip name="НадписьЛокальногоОтбораExtendedTooltip" id="162"/>
@@ -742,6 +880,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Нажмите здесь для перехода к фильтру отчета.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>View report filters.</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
@@ -759,6 +901,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница недоступного фильтра</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Unavailable filter page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="НедоступныеНастройкиОтбораExtendedTooltip" id="164"/>
 									<ChildItems>
@@ -770,6 +916,11 @@
 													<v8:content>У текущего элемента не может быть установлен фильтр.
 Выберите в дереве структуры отчет для редактирования фильтра отчета в целом.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cannot assign filters to the item.
+In the structure tree, select the report and edit report filters.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьНедоступногоОтбораКонтекстноеМеню" id="64"/>
 											<ExtendedTooltip name="НадписьНедоступногоОтбораExtendedTooltip" id="165"/>
@@ -780,6 +931,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Нажмите здесь для перехода к фильтру отчета.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>View report filters.</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
@@ -801,6 +956,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сортировка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Sort</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>StdPicture.DataCompositionOrder</xr:Ref>
@@ -814,6 +973,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Текущий элемент имеет собственную сортировку (для  упорядочивания записей, выводимых в элементе)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Assign the item with personal sorts to sort item records</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
@@ -830,6 +993,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы сортировки</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Sorting pages</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыПорядкаExtendedTooltip" id="169"/>
@@ -839,6 +1006,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница сортировки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Sorting page</v8:content>
 										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
@@ -859,6 +1030,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Доступные поля сортировки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Available sort fields</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядкаКонтекстноеМеню" id="73"/>
@@ -901,6 +1076,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Таблица сортировки</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Sort table</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиПорядокКонтекстноеМеню" id="76"/>
 											<AutoCommandBar name="КомпоновщикНастроекНастройкиПорядокКоманднаяПанель" id="77"/>
@@ -938,6 +1117,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница отключенной сортировки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Disabled sort page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ОтключенныеНастройкиПорядкаExtendedTooltip" id="173"/>
 									<ChildItems>
@@ -950,6 +1133,12 @@
 Выберите в дереве структуры отчет для редактирования сортировки отчета в целом.
 Если необходимо, чтобы текущий элемент имел собственную сортировку, установите флажок, расположенный над этим текстом.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>No sort is assigned to the item.
+In the structure tree, select the report and edit report sorts.
+To assign the item with a personal sort, select the check box above.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьЛокальногоПорядкаКонтекстноеМеню" id="80"/>
 											<ExtendedTooltip name="НадписьЛокальногоПорядкаExtendedTooltip" id="174"/>
@@ -960,6 +1149,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Нажмите здесь для перехода к сортировке отчета.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>View report sorts</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
@@ -977,6 +1170,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница недоступной сортировки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Unavailable sort page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="НедоступныеНастройкиПорядкаExtendedTooltip" id="176"/>
 									<ChildItems>
@@ -988,6 +1185,11 @@
 													<v8:content>У текущего элемента не может быть установлена сортировка.
 Выберите в дереве структуры отчет для редактирования сортировки отчета в целом.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cannot assign sorts to the item.
+In the structure tree, select the report and edit report sorts.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьНедоступногоПорядкаКонтекстноеМеню" id="85"/>
 											<ExtendedTooltip name="НадписьНедоступногоПорядкаExtendedTooltip" id="177"/>
@@ -998,6 +1200,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Нажмите здесь для перехода к сортировке отчета.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>View report sorts</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
@@ -1019,6 +1225,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Условное оформление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Conditional appearance</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>StdPicture.DataCompositionConditionalAppearance</xr:Ref>
@@ -1032,6 +1242,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Текущий элемент имеет собственное условное оформление (для оформления записей, выводимых в элементе)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Assign the item with personal conditional appearance to format item records</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
@@ -1048,6 +1262,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы условного оформления</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Conditional appearance pages</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыУсловногоОформленияExtendedTooltip" id="181"/>
@@ -1057,6 +1275,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница условного оформления</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Conditional appearance page</v8:content>
 										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
@@ -1073,6 +1295,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Таблица условного оформления</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Conditional appearance table</v8:content>
 												</v8:item>
 											</Title>
 											<SettingsNamedItemDetailedRepresentation>false</SettingsNamedItemDetailedRepresentation>
@@ -1112,6 +1338,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница отключенного условного оформления</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Disabled conditional appearance page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ОтключенныеНастройкиУсловногоОформленияExtendedTooltip" id="184"/>
 									<ChildItems>
@@ -1124,6 +1354,12 @@
 Выберите в дереве структуры отчет для редактирования условного оформления отчета в целом.
 Если необходимо, чтобы текущий элемент имел собственное условное оформление, установите флажок, расположенный над этим текстом.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>No conditional appearance is assigned to the item.
+In the structure tree, select the report and edit report conditional appearance.
+To assign the item with a personal conditional appearance, select the check box above.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьЛокальногоУсловногоОформленияКонтекстноеМеню" id="98"/>
 											<ExtendedTooltip name="НадписьЛокальногоУсловногоОформленияExtendedTooltip" id="185"/>
@@ -1134,6 +1370,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Нажмите здесь для перехода к условному оформлению отчета.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>View report conditional appearance</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
@@ -1151,6 +1391,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница недоступного условного оформления</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Unavailable conditional appearance page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="НедоступныеНастройкиУсловногоОформленияExtendedTooltip" id="187"/>
 									<ChildItems>
@@ -1162,6 +1406,11 @@
 													<v8:content>У текущего элемента не может быть установлено условное оформление.
 Выберите в дереве структуры отчет для редактирования условного оформления отчета в целом.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cannot assign conditional appearance to the item.
+In the structure tree, select the report and edit report conditional appearance.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьНедоступногоУсловногоОформленияКонтекстноеМеню" id="103"/>
 											<ExtendedTooltip name="НадписьНедоступногоУсловногоОформленияExtendedTooltip" id="188"/>
@@ -1172,6 +1421,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Нажмите здесь для перехода к условному оформлению отчета.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>View report conditional appearance</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
@@ -1193,6 +1446,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные настройки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional settings</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>StdPicture.DataCompositionOutputParameters</xr:Ref>
@@ -1206,6 +1463,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Текущий элемент имеет собственные дополнительные настройки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Assign the item with personal additional settings</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
@@ -1222,6 +1483,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы дополнительных настроек</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional settings pages</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыПараметровВыводаExtendedTooltip" id="192"/>
@@ -1231,6 +1496,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница дополнительных настроек</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Additional settings page</v8:content>
 										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
@@ -1246,6 +1515,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Таблица дополнительных настроек</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Additional settings table</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиПараметрыВыводаКонтекстноеМеню" id="112"/>
@@ -1287,6 +1560,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница отключенных дополнительных настроек</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Disabled additional settings page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ОтключенныеНастройкиПараметровВыводаExtendedTooltip" id="195"/>
 									<ChildItems>
@@ -1299,6 +1576,12 @@
 Выберите в дереве структуры отчет для редактирования дополнительных настроек отчета в целом.
 Если необходимо, чтобы текущий элемент имел собственные дополнительные настройки, установите флажок, расположенный над этим текстом.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>No additional settings are assigned to the item.
+In the structure tree, select the report and edit report additional settings.
+To assign the item with personal additional settings, select the check box above.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьЛокальныхПараметровВыводаКонтекстноеМеню" id="116"/>
 											<ExtendedTooltip name="НадписьЛокальныхПараметровВыводаExtendedTooltip" id="196"/>
@@ -1309,6 +1592,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Нажмите здесь для перехода к дополнительным настройкам отчета.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>View additional report settings</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
@@ -1326,6 +1613,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница недоступных дополнительных настроек</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Unavailable additional settings page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="НедоступныеНастройкиПараметровВыводаExtendedTooltip" id="198"/>
 									<ChildItems>
@@ -1337,6 +1628,11 @@
 													<v8:content>У текущего элемента не могут быть установлены дополнительные настройки.
 Выберите в дереве структуры отчет для редактирования дополнительных настроек отчета в целом.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cannot assign additional settings to the item.
+In the structure tree, select the report and edit additional report settings.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьНедоступныхПараметровВыводаКонтекстноеМеню" id="121"/>
 											<ExtendedTooltip name="НадписьНедоступныхПараметровВыводаExtendedTooltip" id="199"/>
@@ -1347,6 +1643,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Нажмите здесь для перехода к дополнительным настройкам отчета.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>View additional report settings</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
@@ -1378,6 +1678,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Локальные выбранные поля</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Local selected fields</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1388,6 +1692,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Локальный фильтр</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Local filter</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1400,6 +1708,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Локальный порядок</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Local sort</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1411,6 +1723,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Локальное условное оформление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Local conditional appearance</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1421,6 +1737,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Локальное условное оформление</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Local conditional appearance</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1444,11 +1764,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить редактирование</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Finish editing</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить редактирование</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Finish editing.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗавершитьРедактирование</Action>

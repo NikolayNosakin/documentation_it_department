@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Загрузка адресного классификатора</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Import address classifier</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -39,6 +43,11 @@
 					<v8:content>Для автоподбора и выбора адресных сведений 
 необходимо загрузить классификатор по региону "%1".</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>To enable address auto completion,
+import the address classifier for %1.</v8:content>
+				</v8:item>
 			</Title>
 			<ContextMenu name="НадписьКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="НадписьРасширеннаяПодсказка" id="3"/>
@@ -64,6 +73,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Больше не напоминать до следующего входа в программу</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not remind until next authorization</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -77,11 +90,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Загрузить</Action>
@@ -93,11 +114,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Отмена</Action>

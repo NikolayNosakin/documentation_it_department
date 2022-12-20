@@ -18,6 +18,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Универсальный обмен данными в формате XML</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Universal data exchange in XML format</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment>АПК:700 подключение расширения для работы с файлами через ФайловаяСистемаКлиент не выполняется, т.к. обработка является автономной и не зависит от базовой функциональности БСП</Comment>
 			<UseStandardCommands>true</UseStandardCommands>
@@ -36,6 +40,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Архивировать файл</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Compress file</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -48,6 +56,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сжимать исходящий файл обмена данными</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Archive the outbound exchange file before sending.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -75,6 +87,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Аутентификация windows информационной базы для подключения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Windows authentication for infobase connection</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -87,6 +103,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Аутентификация средствами Windows</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use Windows authentication.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -114,6 +134,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Безопасная загрузка данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Safe data import</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Загрузка данных по правилам, поставляемым отдельно от данных.</Comment>
 					<Type>
@@ -126,6 +150,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Загрузка данных выполняется по правилам, указанным в реквизите "Имя файла правил".</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Run data import by the rules specified in the "Rules file" attribute.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -153,6 +181,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Безопасный режим</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Safe mode</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -165,6 +197,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Устанавливает или отключает безопасный режим исполнения алгоритма.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Toggles safe mode of algorithm execution.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -192,6 +228,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия платформы информационной базы для подключения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>1C:Enterprise version</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -208,6 +248,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия платформы 1С информационной базы для подключения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>1C:Enterprise version (for infobase connection).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -235,6 +279,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия правил обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange rules version</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -250,6 +298,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия правила обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The exchange rules version.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -277,6 +329,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вести дополнительный контроль записи в XML</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Validate XML</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -289,6 +345,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Автоматически удалять недопустимые символы из строк для записи в XML</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Automatically delete invalid characters when writing to XML.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -316,6 +376,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вывод в окно сообщений информационных сообщений</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Display the progress details</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -328,6 +392,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выводить в окно сообщений информационные сообщения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Show the progress details in a dialog box.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -355,6 +423,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вывод в протокол информационных сообщений</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Log the progress details</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -367,6 +439,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выводить в протокол информационных сообщений</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Write the progress details to the log.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -394,6 +470,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вывод в протокол сообщений об ошибках</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Log the error details</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -406,6 +486,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выводить в протокол сообщений об ошибках</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Write the error details to the log.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -433,6 +517,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выгружать только разрешенные</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export only allowed objects</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -445,6 +533,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выгружать объекты на которые есть права доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export only objects you have access rights to</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -472,6 +564,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выполнить обмен данными в оптимизированном формате</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use optimized data exchange format</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -484,6 +580,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать оптимизированный формат для обмена данными</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use optimized data exchange format.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -511,6 +611,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Данные</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type/>
@@ -521,6 +625,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Данные для обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data to exchange.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -548,6 +656,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата выгрузки данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exported on</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -563,6 +675,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата выгрузки данных обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The date the exchange data was exported.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -590,6 +706,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата начала</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Start date</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -605,6 +725,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата начала обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange start date.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -632,6 +756,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата окончания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>End date</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -647,6 +775,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата окончания обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange end date.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -674,6 +806,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дописывать данные в протокол обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Append to an existing exchange log</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -686,6 +822,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Требуется дописывать данные в протокол обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Append exchange details an existing exchange log.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -713,6 +853,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Загружать данные в режиме обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Import data in exchange mode</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -725,6 +869,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Требуется загружать данные в режиме обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Import data in the exchange mode.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -752,6 +900,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Задавать вопрос при загрузке данных при открытии обработки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Ask for confirmation when importing data</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -764,6 +916,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Требуется задавать вопрос при начале автоматической загрузки данных при открытии обработки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Ask the user to confirm data import.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -791,6 +947,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Записывать в информационную базу только измененные объекты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Save only modified objects</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -803,6 +963,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Необходимо записывать в информационную базу только измененные объекты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Only modified objects are saved to the infobase.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -830,6 +994,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Записывать регистры наборами записей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Save registers as record sets</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -842,6 +1010,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Необходимо записывать регистры наборами записей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Save registers as record sets.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -869,6 +1041,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя временного файла обработчиков событий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Event handlers temp file name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -885,6 +1061,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла для временного  хранения обработчиков событий</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name of the temporary file that stores event handlers.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -912,6 +1092,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя временного файла протокола обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange log temp file</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -928,6 +1112,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла для временного хранения протокола обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name of the temporary file that stores the exchange log.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -955,6 +1143,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя информационной базы на сервере для подключения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -971,6 +1163,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя информационной базы на сервере для обмена  для подключения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name of an infobase on the server.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -998,6 +1194,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя сервера информационной базы для подключения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Server name </v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1014,6 +1214,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя сервера 1С:Предприятия с которым будет происходить обмен</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name of a 1C:Enterprise server engaged in the data exchange.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1041,6 +1245,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла внешней обработки обработчиков событий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data processor file name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1057,6 +1265,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла обработки  обработчиков событий</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name of a data processor file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1084,6 +1296,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange file name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1100,6 +1316,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла для обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name of an exchange file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1127,6 +1347,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла обработчиков событий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Event handlers file name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1143,6 +1367,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла для обмена обработчиков событий</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name of an event handler file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1170,6 +1398,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла правил обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange rules file name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1186,6 +1418,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла с правилами обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name of an exchange rules file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1213,6 +1449,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла протокола обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange log file name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1229,6 +1469,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла содержащий протокол обмена на сервере</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name of an exchange log file on the server.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1256,6 +1500,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла протокола обмена загрузка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange log file name (import)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1272,6 +1520,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла с протоколом обмена загрузка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name of an exchange log file (import).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1299,6 +1551,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать отбор по дате для всех объектов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use filter by date for all objects</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1311,6 +1567,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Установить отбор по дате для всех объектов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filter all objects by date.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1338,6 +1598,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать транзакции</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use transactions</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1350,6 +1614,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать работу в транзакции</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use transactions.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1377,6 +1645,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать транзакции при выгрузке для планов обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use transactions during export at exchange plan nodes</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1389,6 +1661,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать технологию транзакции при выгрузке для планов обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use transactions during export at exchange plan nodes.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1416,6 +1692,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Каталог информационной базы для подключения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase directory</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1432,6 +1712,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Каталог с информационной базой для подключения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The directory of an infobase to connect.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1459,6 +1743,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество обработанных объектов для обновления статуса</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Number of objects processed before status update</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1476,6 +1764,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновлять статус при достижение указанного количество обработанных объектов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The status is updated when the specified number of objects is processed.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1503,6 +1795,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество объектов на транзакцию</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Objects per transaction</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1520,6 +1816,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество объектов в транзакции</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The number of objects in a transaction.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1547,6 +1847,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество элементов в транзакции при выгрузке для планов обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Objects per transaction at exchange plan nodes</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1564,6 +1868,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество элементов в транзакции для планов обмена при выгрузке </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The number of objects in a transaction during export at exchange plans.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1591,6 +1899,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1607,6 +1919,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Примечание</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A comment text.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1634,6 +1950,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий при выгрузке данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1650,6 +1970,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Примечание при выгрузке данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment for data export.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1677,6 +2001,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий при загрузке данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data import comment</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1693,6 +2021,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Примечание при загрузке данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment for data import.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1720,6 +2052,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка автоматической загрузки данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Automatic data import</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1737,6 +2073,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка для автоматической загрузки данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Automatic data import options.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1764,6 +2104,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Не выводить никаких информационных сообщений пользователю</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Disable progress details</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1776,6 +2120,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Скрывать информационные сообщения пользователю</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Do not display the progress details in a dialog box.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1803,6 +2151,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Не задавать вопрос при загрузке данных при открытии обработки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Do not ask for data import confirmation</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1815,6 +2167,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>При открытии обработки не задавать вопрос при загрузке данных </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Do not ask the user to confirm data import.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1842,6 +2198,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Непосредственное чтение в ИБ приемнике</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Direct reading in destination infobase.</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1854,6 +2214,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Непосредственное чтение в информационной базы приемнике</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Direct reading in destination infobase.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1881,6 +2245,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обработки настройки выгрузки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export setup data processors</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1893,6 +2261,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список обработок настройки выгрузки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>List of export setup data processors.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1920,6 +2292,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обработки настройки загрузки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Import setup data processors</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1932,6 +2308,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список обработок настройки загрузки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>List of import setup data processors.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1959,6 +2339,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обработчики событий читаем из файла правил обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Read event handlers from exchange rules file</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1971,6 +2355,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обработчики событий читать из файла правил обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Read event handlers from exchange rules file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1998,6 +2386,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обрезать строки справа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Trim trailing spaces</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>При загрузке строк обрезать пробелы справа</Comment>
 					<Type>
@@ -2010,6 +2402,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>При загрузке строк обрезать пробелы справа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Remove trailing spaces on import.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2037,6 +2433,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объекты по ссылке загружать без пометки удаления</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Remove deletion mark when importing objects by reference</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2049,6 +2449,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Необходимо объекты по ссылке загружать без пометки удаления</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Remove deletion mark when importing objects by reference.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2076,6 +2480,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Оптимизированная запись объектов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Optimized object writing</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2088,6 +2496,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Оптимизировать запись объектов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Optimize object writing to reduce infobase calls.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2115,6 +2527,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Открывать протоколы обмена после выполнения операций</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Open log after exchange finished</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2127,6 +2543,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Открыть протокол обмена после выполнения операций</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Open the data exchange log after an exchange is finished.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2154,6 +2574,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Параметры</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parameters</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type/>
@@ -2164,6 +2588,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Параметры обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data exchange parameters.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2191,6 +2619,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пароль для распаковки файла обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Archive password (extract)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2207,6 +2639,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пароль распаковки файла обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The password to extract the import file from an archive.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2234,6 +2670,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пароль для сжатия файла обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Archive password</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2250,6 +2690,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пароль для сжатия устанавливаемый на файл обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A password to the data exchange archive.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2277,6 +2721,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пароль информационной базы для подключения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase user password</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2293,6 +2741,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пароль для информационной базы при подключении</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The user password to connect the infobase.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2320,6 +2772,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь информационной базы для подключения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase username</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2336,6 +2792,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя пользователя информационной базы для подключения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The username to connect the infobase.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2363,6 +2823,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Построитель отчета</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Report builder</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2375,6 +2839,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Построитель отчета обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data exchange report builder.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2402,6 +2870,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Режим обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange mode</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2418,6 +2890,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вариант обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data exchange mode.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2445,6 +2921,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Режим отладки алгоритмов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Algorithm debug mode</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>0 - без отладки, 1 - процедурный вызов стандартный, 2 - процедурный вызов с параметрами обработчиков, 3 - непосредственная вставка кода в обработчик</Comment>
 					<Type>
@@ -2462,6 +2942,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флаг режима отладки алгоритмов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Toggle algorithm debugging.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2489,6 +2973,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сохраненные настройки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Saved settings</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type/>
@@ -2499,6 +2987,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сохраненные настройки обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Saved data exchange settings.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2526,6 +3018,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица настройки параметров</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Settings table</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2538,6 +3034,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица настройки параметров обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data exchange settings table.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2565,6 +3065,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица правил выгрузки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export rules table</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2577,6 +3081,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица правил выгрузки обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data exchange export rules table.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2604,6 +3112,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица правил конвертации</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Conversion rules table</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2616,6 +3128,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица правил конвертации при обмене</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data conversion rules table.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2643,6 +3159,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица правил очистки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Cleansing rules table</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2655,6 +3175,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица правил очистки обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data cleansing rules table.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2682,6 +3206,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип информационной базы для подключения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase type</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2694,6 +3222,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип информационной базы для подключения при обмене</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The type of the infobase to connect.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2721,6 +3253,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип удаления регистрации изменений для узлов обмена после выгрузки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Metadata object change tracking options after export</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2738,6 +3274,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вариант удаления регистрации изменений для узлов обмена после выгрузки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Metadata object change tracking options after export.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2765,6 +3305,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флаг ошибки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Error flag</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2777,6 +3321,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флаг указывающий на ошибку</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An error flag.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2804,6 +3352,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флаг режим отладки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Debug mode</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2816,6 +3368,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Режим отладки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Toggle debug mode.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2843,6 +3399,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флаг режим отладки обработчиков</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Debug export handlers</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2855,6 +3415,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Режим отладки обработчиков</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Toggle handler debugging.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2882,6 +3446,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Это интерактивный режим</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Interactive mode enabled</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -2894,6 +3462,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Включен интерактивный режим</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Interactive mode enabled.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -2920,6 +3492,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Кодировка файла протокола обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange log file encoding</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -2958,6 +3534,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Временный каталог работы с файлами</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Temporary file directory</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -3000,6 +3580,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Универсальный обмен данными</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Universal data exchange</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

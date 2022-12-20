@@ -27,6 +27,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -40,6 +44,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вид</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Type</v8:content>
 						</v8:item>
 					</Title>
 					<Width>45</Width>
@@ -61,6 +69,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -73,6 +85,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="164"/>
@@ -102,6 +118,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выбрать группу</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Select group</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ВыбратьГруппуВнешнихПользователейExtendedTooltip" id="100"/>
@@ -136,6 +156,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Командная панель внешние пользователи</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>External users command bar</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="КоманднаяПанельВнешниеПользователиExtendedTooltip" id="105"/>
 					<ChildItems>
@@ -166,6 +190,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Внешние пользователи стандартные команды</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>External user standard commands</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSource>Form</CommandSource>
@@ -208,6 +236,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Внешние пользователи поиск</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>External users search</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="ВнешниеПользователиПоискКонтекстноеМеню" id="230"/>
 					<ExtendedTooltip name="ВнешниеПользователиПоискРасширеннаяПодсказка" id="231"/>
@@ -222,6 +254,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Внешние пользователи поиск управление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>External users search management</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="ВнешниеПользователиПоискУправлениеКонтекстноеМеню" id="233"/>
 					<ExtendedTooltip name="ВнешниеПользователиПоискУправлениеРасширеннаяПодсказка" id="234"/>
@@ -233,6 +269,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Содержимое</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Content</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
@@ -247,6 +287,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группы и пользователи</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Groups and users</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -259,6 +303,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группы пользователей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>User groups</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -289,6 +337,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Группы внешних пользователей</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>External user groups</v8:content>
 										</v8:item>
 									</Title>
 									<CommandSet>
@@ -376,6 +428,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Выбрать группу</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Select group</v8:content>
+										</v8:item>
 									</Title>
 									<VerticalStretch>true</VerticalStretch>
 									<Group>Vertical</Group>
@@ -413,6 +469,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пользователи</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Users</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -440,6 +500,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Внешние пользователи список</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>External user list</v8:content>
 										</v8:item>
 									</Title>
 									<CommandSet>
@@ -490,6 +554,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Внешние пользователи список контекстное меню стандартные команды</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>External user list context menu standard commands</v8:content>
 													</v8:item>
 												</Title>
 												<CommandSource>Item.ВнешниеПользователиСписок</CommandSource>
@@ -564,6 +632,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Выбрать пользователя</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Select user</v8:content>
+										</v8:item>
 									</Title>
 									<VerticalStretch>true</VerticalStretch>
 									<Group>Vertical</Group>
@@ -605,6 +677,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выбранные пользователи и группы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Selected users and groups</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -628,6 +704,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выбранные пользователи и группы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Selected users and groups</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -695,6 +775,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать внешних пользователей дочерних групп</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show external users that belong to subgroups</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -732,6 +816,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Комментарии</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Comments</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="КомментарииРасширеннаяПодсказка" id="149"/>
@@ -742,6 +830,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий группы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group comment</v8:content>
+						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="КомментарийГруппыРасширеннаяПодсказка" id="151"/>
@@ -751,6 +843,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Комментарий</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Comment</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -777,6 +873,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий пользователя</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User comment</v8:content>
+						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="КомментарийПользователяРасширеннаяПодсказка" id="153"/>
@@ -786,6 +886,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Комментарий</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Comment</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -819,6 +923,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Внешние пользователи список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>External user list</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -913,6 +1021,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группы внешних пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>External user groups</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
@@ -969,6 +1081,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать пользователей нижестоящих групп</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show users that belong to subgroups</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -998,6 +1114,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбранные пользователи и группы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Selected users and groups</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -1011,6 +1131,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1043,6 +1167,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать недействительных пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show invalid users</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1056,6 +1184,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вид пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User type</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1077,11 +1209,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать группу внешних пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create external user group</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать группу внешних пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create external user group</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1100,11 +1240,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Назначить группы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Assign to groups</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Назначить группы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Assign to groups</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>Ctrl+Shift+M</Shortcut>
@@ -1125,11 +1273,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&gt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&gt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать группу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select group</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьГруппу</Action>
@@ -1144,11 +1300,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&gt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&gt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать пользователя команда</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command Select user</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьПользователяКоманда</Action>
@@ -1163,11 +1327,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить выбор пользователя или группы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove user or group</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОтменитьВыборПользователяИлиГруппы</Action>
@@ -1182,11 +1354,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt;&lt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt;&lt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить список выбранных пользователей и групп</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove all users and groups</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОчиститьСписокВыбранныхПользователейИГрупп</Action>
@@ -1201,11 +1381,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Apply</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить и закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗавершитьИЗакрыть</Action>
@@ -1217,11 +1405,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сведения о внешних пользователях</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>External user details</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сведения о внешних пользователях</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>External user details</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1240,11 +1436,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить выделенные...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit selected…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить выделенные объекты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit the selected items.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИзменитьВыделенные</Action>
@@ -1258,6 +1462,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить пароль...</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Set password…</v8:content>
 				</v8:item>
 			</Title>
 			<Action>УстановитьПароль</Action>

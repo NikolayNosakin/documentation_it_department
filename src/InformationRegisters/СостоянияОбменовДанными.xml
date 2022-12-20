@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Состояния обменов данными</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data exchange statuses</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -169,6 +173,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Используется для хранения информации состояния последней итерации обмена данными.</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stores the status of the latest data exchange operation for each node.</v8:content>
+				</v8:item>
 			</Explanation>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
@@ -183,6 +191,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Результат выполнения обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange result</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -195,6 +207,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Результат выполнения действия обмена данными.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The result of a data exchange operation.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -227,6 +243,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата начала</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Start date</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -242,6 +262,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата начала выполнения действия обмена данными.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The start date of a data exchange operation.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -274,6 +298,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата окончания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>End date</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -289,6 +317,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата окончания выполнения действия обмена данными.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The end date of a data exchange operation.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -321,6 +353,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Узел информационной базы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase node</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -333,6 +369,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Узел плана обмена, для которого используется информация состояния обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An exchange plan node.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -368,6 +408,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Действие при обмене</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange operation</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -380,6 +424,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Действие, для которого используется информация состояния обмена (выгрузка/загрузка данных)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An exchange operation (data export or data import).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

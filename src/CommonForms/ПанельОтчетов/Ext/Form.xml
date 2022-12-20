@@ -37,6 +37,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Верхняя панель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Upper bar</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -51,6 +55,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Поиск отчетов по наименованиям, описаниям, именам авторов, а также по наименованиям полей и другим настройкам.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Search reports by name, description, author, field name, and other parameters.</v8:content>
+						</v8:item>
 					</ToolTip>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>30</MaxWidth>
@@ -61,6 +69,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование, поле или автор отчета</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Report description, field, or author</v8:content>
 						</v8:item>
 					</InputHint>
 					<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="398"/>
@@ -80,6 +92,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Командная панель правая</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Right command bar</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalStretch>true</HorizontalStretch>
@@ -106,6 +122,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar</v8:content>
 								</v8:item>
 							</Title>
 							<Width>26</Width>
@@ -138,6 +158,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Настройки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Settings</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="НастройкиРасширеннаяПодсказка" id="419"/>
@@ -173,6 +197,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Верхняя панель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Upper bar</v8:content>
+				</v8:item>
 			</Title>
 			<ExtendedTooltip name="ВерхняяПанельМобильныйКлиентРасширеннаяПодсказка" id="446"/>
 		</CommandBar>
@@ -181,6 +209,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
 				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
@@ -192,6 +224,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ожидание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Wait</v8:content>
+						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
 					<ExtendedTooltip name="ОжиданиеРасширеннаяПодсказка" id="434"/>
@@ -201,6 +237,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка и надпись</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Picture and label</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
@@ -214,6 +254,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Длительная операция</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Long-running operation</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -234,6 +278,11 @@
 											<v8:content>Формируется список вариантов отчетов. 
 Пожалуйста, подождите...</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Generating the list of report options.
+Please wait…</v8:content>
+										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
 									<ContextMenu name="ДекорацияПоясняющийТекстДлительнойОперацииКонтекстноеМеню" id="443"/>
@@ -249,6 +298,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Основное</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОсновноеРасширеннаяПодсказка" id="436"/>
 					<ChildItems>
@@ -257,6 +310,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Колонки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Columns</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -270,6 +327,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Быстрый доступ шапка</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Quick access header</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -295,6 +356,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Быстрый доступ</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Quick access</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
 											<VerticalAlign>Center</VerticalAlign>
@@ -308,6 +373,13 @@
 Отчеты, перемещенные в быстрый доступ, будут отображаться вверху панели отчетов, выше всех остальных отчетов.
 Это персональная настройка, у каждого пользователя свой быстрый доступ.</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>To add a report to this group, right-click the report and click "Move to Quick access."
+It is recommended that you add frequently used reports to Quick access.
+Quick access reports are displayed at the top of the report panel.
+This only affects your report view and does not affect the reports of other users.</v8:content>
+													</v8:item>
 												</Title>
 											</ExtendedTooltip>
 										</LabelDecoration>
@@ -318,6 +390,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Подсказка для режима настройки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Setup mode tooltip</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -335,6 +411,11 @@
 													<v8:content>Для перемещения отчета в эту группу нажмите на отчете правой кнопкой мыши и выберите "Переместить в быстрый доступ".
 </v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>To add a report to the group, right-click the report and click "Move to Quick access."
+</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="БыстрыйДоступПодсказкаКогдаНеНастроенКонтекстноеМеню" id="370"/>
 											<ExtendedTooltip name="БыстрыйДоступПодсказкаКогдаНеНастроенРасширеннаяПодсказка" id="371"/>
@@ -346,6 +427,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Быстрый доступ</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Quick access</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -362,6 +447,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Быстрый доступ колонка 1</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Quick access column 1</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -374,6 +463,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Быстрый доступ колонка 2</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Quick access column 2</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -390,6 +483,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Быстрый доступ подвал</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Quick access footer</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -417,6 +514,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Без группы</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Without group</v8:content>
+										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
@@ -431,6 +532,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Без группы колонка 1</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Without group column 1</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -443,6 +548,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Без группы колонка 2</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Without group column 2</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -465,6 +574,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>С группой</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>With group</v8:content>
+										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
@@ -479,6 +592,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>С группой колонка 1</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>With group column 1</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -491,6 +608,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>С группой колонка 2</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>With a group column 2</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -517,6 +638,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>См. также</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>See also:</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="СмТакжеЗаголовокКонтекстноеМеню" id="429"/>
 									<ExtendedTooltip name="СмТакжеЗаголовокРасширеннаяПодсказка" id="430"/>
@@ -526,6 +651,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>См также</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>See also</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -540,6 +669,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>См также колонка 1</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>See also column 1</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -552,6 +685,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>См также колонка 2</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>See also column 2</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -576,6 +713,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отчеты, найденные в других разделах</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Reports found in other sections</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -593,6 +734,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Отчеты, найденные в других разделах:</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Reports found in other sections:</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>None</ToolTipRepresentation>
 									<VerticalAlign>Center</VerticalAlign>
@@ -604,6 +749,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Результаты поиска из других разделов</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Search results in other sections</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -623,6 +772,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подвал формы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Form footer</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
@@ -647,6 +800,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Как посмотреть отчеты на смартфоне или планшете?</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>How to view reports on a smartphone or a tablet?</v8:content>
 						</v8:item>
 					</Title>
 					<Hyperlink>true</Hyperlink>
@@ -841,6 +998,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поиск</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -962,6 +1123,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Описания отчетов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report description</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1017,11 +1182,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить видимость и быстрый доступ к отчетам этой панели</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Visibility and quick access settings.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F2</Shortcut>
@@ -1039,11 +1212,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переместить в быстрый доступ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add to Quick access</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переместить в быстрый доступ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add the report option to the "Quick access" group.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1059,11 +1240,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Убрать из быстрого доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove from Quick access</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Убрать из быстрого доступа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove the report option from the "Quick access" group.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1079,11 +1268,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть карточку варианта отчета...</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open report option card…</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1099,11 +1296,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сбросить мои настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reset my settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сбросить мои настройки видимости и быстрого доступа к отчетам данного раздела</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reset my settings of report visibility and quick access for this section.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СброситьНастройки</Action>
@@ -1116,11 +1321,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Все отчеты...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>All reports…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Все отчеты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>All reports.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВсеОтчеты</Action>
@@ -1132,11 +1345,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F5</Shortcut>
@@ -1153,11 +1374,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Найти</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Find</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Найти</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Find</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

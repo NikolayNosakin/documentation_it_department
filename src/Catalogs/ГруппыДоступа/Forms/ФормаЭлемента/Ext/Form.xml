@@ -20,6 +20,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Команды формы</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form commands</v8:content>
+					</v8:item>
 				</Title>
 				<CommandSource>Form</CommandSource>
 				<ExtendedTooltip name="КомандыФормыРасширеннаяПодсказка" id="445"/>
@@ -66,6 +70,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Профиль назначение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Profile assignment</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -90,6 +98,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователи и доступ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Users and access</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="ПользователиИДоступExtendedTooltip" id="343"/>
@@ -99,6 +111,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Участники группы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group members</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПользователиГруппыExtendedTooltip" id="344"/>
@@ -122,6 +138,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Участники</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Members</v8:content>
+								</v8:item>
 							</Title>
 							<CommandSet>
 								<ExcludedCommand>Copy</ExcludedCommand>
@@ -133,6 +153,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Допустимые участники:</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Possible members:</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -150,6 +174,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Пользователи контекстное меню стандартные команды</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Users context menu standard commands</v8:content>
 											</v8:item>
 										</Title>
 										<CommandSource>Item.Пользователи</CommandSource>
@@ -184,6 +212,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Пользователи стандартные команды</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Users standard commands</v8:content>
 											</v8:item>
 										</Title>
 										<CommandSource>Item.Пользователи</CommandSource>
@@ -252,6 +284,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ограничения доступа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access restrictions</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ДоступExtendedTooltip" id="362"/>
 					<ChildItems>
@@ -273,6 +309,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Ограничения доступа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Access restrictions</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -305,6 +345,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Виды доступа группа кнопок контекстного меню</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Access kinds button group context menu</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="ВидыДоступаГруппаКнопокКонтекстногоМенюExtendedTooltip" id="365"/>
@@ -367,6 +411,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Вид доступа изменяется только в профиле</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The access kind can be changed only in the profile.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<Width>20</Width>
 									<AutoMaxWidth>false</AutoMaxWidth>
@@ -382,6 +430,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Способ определения разрешенных значений доступа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The method used to determine allowed Access Values.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Width>30</Width>
@@ -403,6 +455,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значения доступа по виду доступа</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Access Values for access kinds</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -418,6 +474,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>В данный момент не используется, т.к. эта возможность отключена в программе.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>This feature is disabled.</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="ТекстВидДоступаНеИспользуетсяКонтекстноеМеню" id="322"/>
@@ -437,6 +497,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Значения доступа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Access Values</v8:content>
 										</v8:item>
 									</Title>
 									<CommandSet>
@@ -485,6 +549,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>N</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>N</v8:content>
+												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>3</Width>
@@ -512,6 +580,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Включая нижестоящие (с иерархией)</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Include subordinate items</v8:content>
+												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<HeaderPicture>
@@ -533,6 +605,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаКомментарийРасширеннаяПодсказка" id="408"/>
@@ -559,6 +635,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Свойства персональной группы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Personal group properties</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -571,6 +651,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Персональный доступ для:</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Personal access for:</v8:content>
 						</v8:item>
 					</Title>
 					<TitleLocation>Right</TitleLocation>
@@ -614,6 +698,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Номер картинки</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Picture index</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:decimal</v8:Type>
@@ -632,6 +720,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Вид доступа</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Access kind</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
@@ -646,6 +738,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Значения доступа</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Access Values</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -663,6 +759,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Номер строки по виду</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Line number by kind</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -716,6 +816,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использование персонального доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use personal access</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -728,6 +832,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователи группы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group users</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -739,6 +847,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -842,11 +954,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать участников группы доступа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select access group members.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Подобрать</Action>
@@ -860,11 +980,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать неиспользуемые виды доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show unused access kinds</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать неиспользуемые виды доступа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show unused access kinds</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказыватьНеиспользуемыеВидыДоступа</Action>
@@ -876,11 +1004,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать объект и закрыть форму</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаписатьИЗакрыть</Action>

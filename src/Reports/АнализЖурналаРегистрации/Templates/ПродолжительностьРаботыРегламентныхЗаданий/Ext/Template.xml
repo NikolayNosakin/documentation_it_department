@@ -53,6 +53,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Продолжительность работы регламентных заданий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Scheduled job runtime</v8:content>
+						</v8:item>
 					</tl>
 				</c>
 			</c>
@@ -159,6 +163,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>За период с [ДатаНачала] по [ДатаОкончания]</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Period: [ДатаНачала]–[ДатаОкончания]</v8:content>
+						</v8:item>
 					</tl>
 				</c>
 			</c>
@@ -193,6 +201,10 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>[РежимОтображенияИнтервалов]</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>[РежимОтображенияИнтервалов]</v8:content>
 						</v8:item>
 					</tl>
@@ -247,6 +259,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Период</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Period</v8:content>
+						</v8:item>
 					</tl>
 				</c>
 			</c>
@@ -257,6 +273,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Максимум одновременных заданий</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Maximum number of concurrent jobs</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -3091,8 +3111,8 @@
 			<type>Rows</type>
 			<beginRow>13</beginRow>
 			<endRow>21</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemDrawing">
@@ -3105,8 +3125,8 @@
 			<type>Rows</type>
 			<beginRow>4</beginRow>
 			<endRow>6</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -3115,8 +3135,8 @@
 			<type>Rows</type>
 			<beginRow>11</beginRow>
 			<endRow>12</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -3125,8 +3145,8 @@
 			<type>Rows</type>
 			<beginRow>10</beginRow>
 			<endRow>10</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -3155,8 +3175,8 @@
 			<type>Rows</type>
 			<beginRow>0</beginRow>
 			<endRow>1</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -3165,8 +3185,8 @@
 			<type>Rows</type>
 			<beginRow>8</beginRow>
 			<endRow>8</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<line width="1" gap="false">

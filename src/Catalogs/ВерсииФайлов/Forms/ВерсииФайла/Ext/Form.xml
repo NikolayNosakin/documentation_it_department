@@ -42,6 +42,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Форма стандартные команды</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form standard commands</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ФормаСтандартныеКомандыExtendedTooltip" id="80"/>
 				<ChildItems>
@@ -103,6 +107,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSet>
@@ -216,6 +224,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вертикально</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Vertical</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаВертикальноРасширеннаяПодсказка" id="115"/>
 					<ChildItems>
@@ -224,6 +236,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Основное</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Main</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -235,6 +251,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Пользователь, который добавил версию файла в список</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The user who added the file version.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
@@ -255,6 +275,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Номер версии файла</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The file version number.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>12</Width>
@@ -268,6 +292,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата добавления версии файла в список</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The date the file version was added.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
@@ -283,6 +311,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Размер версии файла в байтах</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The file version size in bytes.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="СписокРазмерКонтекстноеМеню" id="56"/>
@@ -296,6 +328,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Комментарий к версии файла</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The file version comment.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
@@ -327,13 +363,16 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>~Список.ИндексКартинкиТекущий</Field>
 				<Field>Список.Владелец</Field>
 				<Field>Список.ДатаСоздания</Field>
 				<Field>Список.ИндексКартинки</Field>
@@ -422,11 +461,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сделать активной</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Make active</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сделать активной</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Make active</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СделатьАктивнойВыполнить</Action>
@@ -438,11 +485,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пометить на удаление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Mark for deletion</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пометить текущий элемент на удаление / Снять пометку (Del)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Mark for deletion</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -458,11 +513,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть карточку</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open card</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть карточку версии</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the version card.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -478,11 +541,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать отличия</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show differences</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать отличия двух версий</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show the differences between two versions.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Сравнить</Action>
@@ -494,11 +565,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Просмотреть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>View</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть версию файла для просмотра</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the file version for viewing.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -514,11 +593,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить как...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save as…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить файл версии на диск или другое устройство</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save the file version to a hard drive or another other device.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -535,11 +622,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать помеченные файлы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show marked files</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать помеченные файлы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show marked files</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказыватьПомеченныеФайлы</Action>
@@ -550,11 +645,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить данные версии файла</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete file version data.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

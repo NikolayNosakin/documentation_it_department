@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группы доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access groups</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Hierarchical>true</Hierarchical>
@@ -217,6 +221,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа (папка), объединяющая группы доступа для удобства поиска</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group the access groups belong to.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -232,6 +240,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа (папка)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group (folder)</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -252,6 +264,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование группы доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An access group description.</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -330,6 +346,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access group</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -350,6 +370,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Профиль</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Profile</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -362,6 +386,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Профиль группы доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An access group profile.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -395,6 +423,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Только для персональных групп доступа</Comment>
 					<Type>
@@ -408,6 +440,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Владелец персональной группы доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An owner of a personal access group.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -441,6 +477,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -457,6 +497,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Произвольная строка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Free text about the item.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -490,6 +534,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ответственный</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Person responsible</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -502,6 +550,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь, которой может изменять состав участников группы доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The user that can add or remove access group members.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -535,6 +587,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Основная группа доступа поставляемого профиля</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main access group of a built-in profile</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -547,6 +603,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Определяет основную группу доступа поставляемого профиля без видов доступа для программного управления составом пользователей.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The main access group of a built-in profile without access kinds. It is intended for managing members programmatically.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -589,6 +649,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователи</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Users</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -633,6 +697,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пользователь</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>User</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -648,6 +716,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Участник группы доступа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>An access group member.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -689,6 +761,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Виды доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access kinds</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -733,6 +809,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вид доступа</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Access kind</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment>Представлен пустой ссылкой основного типа значений</Comment>
 							<Type>
@@ -747,6 +827,12 @@
 									<v8:content>Возможный "разрез" ограничения прав доступа
 в заданном списке разрешенных действий (ролей),
 указанных в профиле этой группы доступа.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Possible dimension of access rights restriction
+in the list of allowed actions (roles)
+specified in the access group profile.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -777,6 +863,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Все разрешены</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>All allowed</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -789,6 +879,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Способ определения разрешенных значений доступа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The method used to determine allowed Access Values.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -830,6 +924,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значения доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access Values</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -874,6 +972,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вид доступа</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Access kind</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment>Представлен пустой ссылкой основного типа значений</Comment>
 							<Type>
@@ -886,6 +988,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вид доступа, по которому задано значение доступа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>An access kind that affects the Access Value.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -916,6 +1022,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение доступа</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Access Value</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -928,6 +1038,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Разрешенное или запрещенное значение доступа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>An allowed or denied Access Value.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -957,6 +1071,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Включая нижестоящие</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Include subordinate items</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>

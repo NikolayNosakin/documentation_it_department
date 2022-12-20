@@ -17,6 +17,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Добавить</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Add</v8:content>
+					</v8:item>
 				</Title>
 				<Picture>
 					<xr:Ref>StdPicture.CreateListItem</xr:Ref>
@@ -42,6 +46,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Свойства группа кнопок 2</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Properties button group 2</v8:content>
 					</v8:item>
 				</Title>
 				<ExtendedTooltip name="СвойстваГруппаКнопокДействияРасширеннаяПодсказка" id="110"/>
@@ -72,6 +80,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Свойства группа кнопок порядок</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Properties button group order</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="СвойстваГруппаКнопокПорядокРасширеннаяПодсказка" id="114"/>
 				<ChildItems>
@@ -97,12 +109,12 @@
 			</Button>
 			<Button name="СписокНайти" id="36">
 				<Type>CommandBarButton</Type>
-				<CommandName>0</CommandName>
+				<CommandName>1:c0519548-2a9a-44de-a25e-faf01e089d4d</CommandName>
 				<ExtendedTooltip name="СписокНайтиExtendedTooltip" id="117"/>
 			</Button>
 			<Button name="СписокОтменитьПоиск" id="37">
 				<Type>CommandBarButton</Type>
-				<CommandName>0</CommandName>
+				<CommandName>1:44ad3ec9-f3c2-4913-9224-5f9fb6418743</CommandName>
 				<ExtendedTooltip name="СписокОтменитьПоискExtendedTooltip" id="118"/>
 			</Button>
 			<ButtonGroup name="ГруппаКнопокКопирование" id="177">
@@ -110,6 +122,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Кнопок копирование</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Copy paste buttons</v8:content>
 					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ГруппаКнопокКопированиеРасширеннаяПодсказка" id="178"/>
@@ -157,6 +173,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Дополнительные реквизиты</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Additional attributes</v8:content>
+							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:boolean">false</Value>
 					</xr:Value>
@@ -169,6 +189,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Дополнительные сведения</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Additional information records</v8:content>
 							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:boolean">true</Value>
@@ -188,6 +212,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -200,6 +228,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Свойства</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Properties</v8:content>
 				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
@@ -214,6 +246,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страницы наборы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Sets pages</v8:content>
+						</v8:item>
 					</Title>
 					<PagesRepresentation>None</PagesRepresentation>
 					<ExtendedTooltip name="СтраницыНаборыРасширеннаяПодсказка" id="189"/>
@@ -223,6 +259,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Основная</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Main</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ОсновнаяРасширеннаяПодсказка" id="191"/>
@@ -248,6 +288,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Наборы свойств</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Property sets</v8:content>
 										</v8:item>
 									</Title>
 									<CommandSet>
@@ -317,6 +361,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Набор</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Set</v8:content>
+												</v8:item>
 											</Title>
 											<Width>20</Width>
 											<Wrap>false</Wrap>
@@ -341,6 +389,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Неиспользуемые</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Unused</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="НеиспользуемыеРасширеннаяПодсказка" id="193"/>
@@ -368,6 +420,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Неиспользуемые наборы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Unused sets</v8:content>
 										</v8:item>
 									</Title>
 									<CommandSet>
@@ -423,6 +479,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Представление</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Presentation</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НеиспользуемыеНаборыПредставлениеКонтекстноеМеню" id="211"/>
 											<ExtendedTooltip name="НеиспользуемыеНаборыПредставлениеРасширеннаяПодсказка" id="212"/>
@@ -453,6 +513,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Свойства</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Properties</v8:content>
+						</v8:item>
 					</Title>
 					<CommandSet>
 						<ExcludedCommand>CancelSearch</ExcludedCommand>
@@ -470,6 +534,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Добавить</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Add</v8:content>
 									</v8:item>
 								</Title>
 								<Picture>
@@ -495,6 +563,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Свойства контекстное меню группа кнопок 2</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Properties context menu button group 2</v8:content>
 									</v8:item>
 								</Title>
 								<ExtendedTooltip name="СвойстваКонтекстноеМенюГруппаКнопок2ExtendedTooltip" id="129"/>
@@ -573,6 +645,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Имя</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Name</v8:content>
+								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="СвойстваЗаголовокКонтекстноеМеню" id="42"/>
@@ -584,6 +660,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Типы значения, которое можно ввести при заполнении реквизита.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Available attribute value types.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
@@ -600,6 +680,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройка проверки заполненности дополнительного реквизита.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Shows whether the additional attribute is required or not.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
@@ -618,6 +702,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Реквизит использует список значений реквизита-образца.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The attribute inherits the master attribute's list of values.</v8:content>
+								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -634,6 +722,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Реквизит может быть в нескольких разных наборах.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Shows whether the attribute can be included in multiple attribute sets.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
@@ -671,6 +763,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Наборы свойств</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Property sets</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -745,6 +841,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Свойства</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Properties</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -755,6 +855,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Реквизит</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Attribute</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -771,6 +875,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Общий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Shared</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -786,6 +894,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ссылка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reference</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -823,6 +935,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип значения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Value type</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -838,6 +954,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обязательный</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Required</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -848,6 +968,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>По образцу</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>From master</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -861,6 +985,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -914,6 +1042,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать неиспользуемые реквизиты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show unused attributes</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -924,6 +1056,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Неиспользуемые наборы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unused sets</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -965,11 +1101,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переместить вверх</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move up</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переместить текущий реквизит вверх</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move the attribute up the list.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -985,11 +1129,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переместить вниз</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move down</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переместить текущий реквизит вниз</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move the attribute down the list.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1005,11 +1157,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать новый реквизит копированием текущего</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create an attribute by copying the selected attribute.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F9</Shortcut>
@@ -1026,11 +1186,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить (или открыть) текущий реквизит</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the selected attribute for edit.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F2</Shortcut>
@@ -1048,11 +1216,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пометить на удаление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Mark for deletion</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пометить текущий элемент на удаление / Снять пометку (Del)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Toggle deletion mark</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1069,11 +1245,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Новый (Ins)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>New (Ins)</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать уникальный реквизит</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create a unique attribute.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Создать</Action>
@@ -1086,11 +1270,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Из другого набора...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add from another set…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить из набора</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add an attribute that belongs to another set.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьИзНабора</Action>
@@ -1102,11 +1294,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поиск и удаление дублей...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cleaning up duplicates…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поиск и удаление дублей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Duplicate cleaner</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоискИУдалениеДублей</Action>
@@ -1118,11 +1318,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Копировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Копирует выделенный дополнительный реквизит</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy the selected additional attribute to the clipboard.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СкопироватьВыделенныйРеквизит</Action>
@@ -1134,11 +1342,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вставить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Insert</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавляет скопированный дополнительный реквизит в текущий набор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Insert the attribute from the clipboard to the current set.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВставитьРеквизит</Action>

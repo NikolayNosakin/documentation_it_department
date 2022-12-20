@@ -21,6 +21,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Отмена</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cancel</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="62"/>
 			</Button>
@@ -38,6 +42,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перенести файлы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move files</v8:content>
+				</v8:item>
 			</Title>
 			<TitleLocation>Top</TitleLocation>
 			<RadioButtonType>RadioButtons</RadioButtonType>
@@ -52,6 +60,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Между томами на диске</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Between volumes on hard drive</v8:content>
+							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:string">ПеренестиМеждуТомами</Value>
 					</xr:Value>
@@ -65,6 +77,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Из информационной базы в тома на диске</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>From infobase to volumes on hard drive</v8:content>
+							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:string">ПеренестиВТома</Value>
 					</xr:Value>
@@ -77,6 +93,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Из томов на диске в информационную базу</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>From volumes on hard drive to infobase</v8:content>
 							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:string">ПеренестиВБазу</Value>
@@ -95,6 +115,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -105,6 +129,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки приемника</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Destination settings</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -119,6 +147,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>В указанный том:</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>To volume:</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
@@ -145,6 +177,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки источника</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Source settings</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -158,6 +194,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Из указанного тома:</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>From volume:</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
@@ -184,6 +224,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки владельца</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Owner settings</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -197,6 +241,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Файлы указанного владельца:</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Files attached to:</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
@@ -224,6 +272,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки даты создания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Creation date settings</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -238,6 +290,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Созданные:</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Created:</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -249,6 +305,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки уточнения даты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Date details</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -302,6 +362,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки расширений</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Extension settings</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -315,6 +379,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>С указанным расширением:</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>With extension:</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
@@ -343,6 +411,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки дополнительных правил</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional rule settings</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -356,6 +428,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>По дополнительным условиям:</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional filter:</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
@@ -390,6 +466,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Действие</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Action</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -405,6 +485,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переносить в том</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move to volume</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -415,6 +499,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Том хранения приемник</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Storage volume destination</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -427,6 +515,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переносить из тома</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move from volume</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -437,6 +529,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Том хранения источник</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Storage volume source</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -449,6 +545,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переносить файлы владельца</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move owner files</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -459,6 +559,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Владелец файлов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File location</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -475,6 +579,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переносить по дате создания</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move by creation date</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -485,6 +593,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дата создания</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Date created</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -499,6 +611,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Уточнение даты создания</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Before or after</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -515,6 +631,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переносить по расширению</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move by extension</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -525,6 +645,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Расширения файлов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File extensions</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -540,6 +664,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переносить по условию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move by condition</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -584,11 +712,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перенести</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить перенос файлов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move the files.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыполнитьПеренос</Action>

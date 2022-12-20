@@ -66,6 +66,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Основная группа тела письма</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Message body main group</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -85,6 +89,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Почтовые адреса получателей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Recipient addresses</v8:content>
 						</v8:item>
 					</Title>
 					<RowFilter xsi:nil="true"/>
@@ -143,6 +151,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Кому:</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>To:</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">Кому</Value>
 									</xr:Value>
@@ -156,6 +168,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Копия:</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Cc:</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">Копия</Value>
 									</xr:Value>
@@ -168,6 +184,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Скрытая копия:</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Bcc:</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">СкрытаяКопия</Value>
@@ -197,6 +217,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тема отправляемого сообщения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The outgoing message subject.</v8:content>
+						</v8:item>
 					</ToolTip>
 					<Width>60</Width>
 					<Wrap>false</Wrap>
@@ -212,6 +236,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Командная панель форматирование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Formatting command bar</v8:content>
+						</v8:item>
 					</Title>
 					<CommandSource>Item.ТелоПисьма</CommandSource>
 					<ExtendedTooltip name="КоманднаяПанельФорматированиеРасширеннаяПодсказка" id="80"/>
@@ -223,6 +251,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тело сообщения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Message body</v8:content>
 						</v8:item>
 					</ToolTip>
 					<AutoMaxHeight>false</AutoMaxHeight>
@@ -237,6 +269,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вложения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Attachments</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -262,6 +298,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вложить</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Attach</v8:content>
+								</v8:item>
 							</Title>
 							<CommandSet>
 								<ExcludedCommand>Copy</ExcludedCommand>
@@ -279,6 +319,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Приложить файл</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Attach file</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="ГруппаПриложитьФайлExtendedTooltip" id="56"/>
@@ -379,6 +423,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Введите адрес электронной почты на который вы хотите получить ответ на это письмо</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A reply-to email address.</v8:content>
+						</v8:item>
 					</ToolTip>
 					<Wrap>false</Wrap>
 					<ContextMenu name="АдресОтветаКонтекстноеМеню" id="48"/>
@@ -414,6 +462,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тема</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Subject</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -435,6 +487,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>От</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>From</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.УчетныеЗаписиЭлектроннойПочты</v8:Type>
@@ -445,6 +501,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адрес ответа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reply-to address</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -466,6 +526,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление вложений</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Attachments presentation</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -476,6 +540,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вложение1</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Attachment1</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -491,6 +559,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вложение2</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Attachment2</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -582,6 +654,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Почтовые адреса получателей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Recipient addresses</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -593,6 +669,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вариант отправки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Recipient type</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -608,6 +688,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -651,11 +735,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отправить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Send</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отправить письмо</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Send</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОтправитьПисьмо</Action>
@@ -667,11 +759,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Приложить файл...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Attach file…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Приложить файл к письму</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Attach file…</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -688,11 +788,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть файл</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open file</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть файл</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open file</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -708,11 +816,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сформировать по шаблону</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create from template</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сформировать по шаблону</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create from template</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СформироватьПоШаблону</Action>
@@ -724,11 +840,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить как шаблон...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save as template…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить как шаблон</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save the message as a mail template.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьКакШаблон</Action>

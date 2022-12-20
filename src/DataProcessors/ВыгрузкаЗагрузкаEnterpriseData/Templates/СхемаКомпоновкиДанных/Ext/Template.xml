@@ -14,6 +14,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Объект тип</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object type</v8:content>
+				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -23,6 +27,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Объект ссылка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object link</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -36,6 +44,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Объект тип</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Object type</v8:content>
+					</v8:item>
 				</title>
 			</field>
 			<field xsi:type="DataSetFieldField">
@@ -45,6 +57,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Объект ссылка</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Object link</v8:content>
 					</v8:item>
 				</title>
 			</field>
@@ -65,6 +81,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Всего объектов в базе</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Total object number in the infobase</v8:content>
 				</v8:item>
 			</title>
 			<useRestriction>
@@ -113,6 +133,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Дата формирования</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Generation date</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:dateTime</v8:Type>
@@ -130,6 +154,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Представление списка</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>List presentation</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -150,6 +178,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Пользовательские данные</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Custom data</v8:content>
+			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
@@ -165,6 +197,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состав данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data content</v8:content>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>

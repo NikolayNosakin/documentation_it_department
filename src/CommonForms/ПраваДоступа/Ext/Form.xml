@@ -46,6 +46,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Панель формы</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form panel</v8:content>
+					</v8:item>
 				</Title>
 				<CommandSource>Form</CommandSource>
 				<ExtendedTooltip name="ПанельФормыExtendedTooltip" id="113"/>
@@ -72,6 +76,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Недостаточно прав на просмотр</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Insufficient access rights.</v8:content>
+				</v8:item>
 			</Title>
 			<ContextMenu name="НедостаточноПравНаПросмотрКонтекстноеМеню" id="62"/>
 			<ExtendedTooltip name="НедостаточноПравНаПросмотрExtendedTooltip" id="116"/>
@@ -82,6 +90,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группы доступа и роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access groups and roles</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="ГруппыДоступаИРолиExtendedTooltip" id="117"/>
@@ -91,6 +103,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группы доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access groups</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппыДоступаПользователяExtendedTooltip" id="118"/>
@@ -110,6 +126,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группы доступа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Access groups</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -141,6 +161,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Группы доступа контекстное авто меню</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Access groups auto context menu</v8:content>
 											</v8:item>
 										</Title>
 										<CommandSource>Item.ГруппыДоступа</CommandSource>
@@ -227,6 +251,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Описание выбранной группы доступа</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The description of the selected access group.</v8:content>
+								</v8:item>
 							</ToolTip>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<Height>2</Height>
@@ -240,6 +268,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Предупреждение есть скрытые группы доступа</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Warning hidden access groups available</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -251,6 +283,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Есть запрещенные группы картинка</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Denied groups available picture</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -270,6 +306,12 @@
 которые недоступны для просмотра,
 так как недостаточно прав доступа.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Some of the access groups are hidden
+due to insufficient access rights.
+</v8:content>
+										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
 									<ContextMenu name="ЕстьЗапрещенныеГруппыТекстКонтекстноеМеню" id="65"/>
@@ -284,6 +326,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разрешенные действия (роли)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allowed actions (roles)</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОтображениеРолейExtendedTooltip" id="132"/>
@@ -310,6 +356,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Роли</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Roles</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -372,6 +422,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Роли колонок</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Role columns</v8:content>
+										</v8:item>
 									</Title>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="РолиКолонокExtendedTooltip" id="135"/>
@@ -413,6 +467,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группы доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access groups</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -423,6 +481,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -444,6 +506,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Профиль</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Profile</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -459,6 +525,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -473,6 +543,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ответственный</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Person responsible</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -510,6 +584,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Roles</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -521,6 +599,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пометка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check box</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -531,6 +613,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разрешенное действие (роль)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allowed action (role)</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -599,11 +685,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить в группу</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add to group</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить в группу доступа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add to access group.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВГруппу</Action>
@@ -615,11 +709,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Исключить из группы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove from group</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Исключить из группы доступа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove from access group.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИсключитьИзГруппы</Action>
@@ -631,11 +733,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить группу</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit group</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить группу доступа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit access group.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F2</Shortcut>
@@ -653,6 +763,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
+				</v8:item>
 			</Title>
 			<Shortcut>F5</Shortcut>
 			<Picture>
@@ -667,6 +781,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отчет по правам доступа (старый)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access rights report (the old one)</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -683,11 +801,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>По подсистемам</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group by subsystems</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группировать список ролей по подсистемам</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group roles by subsystems.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -703,6 +829,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отчет Права пользователя</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User rights report</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>

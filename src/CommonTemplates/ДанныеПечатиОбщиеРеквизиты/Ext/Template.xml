@@ -14,6 +14,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Текущая дата</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Current date</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:dateTime</v8:Type>
@@ -30,6 +34,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Текущий пользователь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Current user</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Пользователи</v8:Type>
@@ -43,6 +51,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Основная организация</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main company</v8:content>
+				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -52,6 +64,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обратный адрес</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Return address</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -70,6 +86,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заголовок системы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>System title</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -86,6 +106,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адрес базы в локальной сети</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Infobase LAN address</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -104,6 +128,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адрес базы в интернете</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Infobase Internet address</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -121,6 +149,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Штамп электронной подписи</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Digital signature stamp</v8:content>
+				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldFolder">
@@ -129,6 +161,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Общие реквизиты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Common attributes</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -140,6 +176,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ссылка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reference</v8:content>
+				</v8:item>
 			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
@@ -147,7 +187,16 @@
 	</dataSet>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
-		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Main</v8:content>
+			</v8:item>
+		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
 	</settingsVariant>
 </DataCompositionSchema>

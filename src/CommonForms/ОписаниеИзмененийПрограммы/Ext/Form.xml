@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Что нового в конфигурации</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>What's new</v8:content>
+		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>Top</CommandBarLocation>
@@ -19,6 +23,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Найти...</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Find…</v8:content>
 					</v8:item>
 				</Title>
 				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
@@ -41,6 +49,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Описание обновлений группа</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Update details group</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ОписаниеОбновленийГруппаРасширеннаяПодсказка" id="52"/>
 				<ChildItems>
@@ -51,6 +63,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Сохранить как...</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Save as…</v8:content>
 							</v8:item>
 						</Title>
 						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
@@ -102,6 +118,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отложенное обновление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Deferred update</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -122,6 +142,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выполняются дополнительные процедуры обработки данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional data processing procedures are running</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 					<ExtendedTooltip name="ОтложенноеОбновлениеДанныхExtendedTooltip" id="29">
@@ -130,6 +154,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Работа в программе временно ограничена, так как еще не завершен переход на новую версию.</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Some operations are temporarily unavailable as the migration to the new version is not completed yet.</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
@@ -141,6 +169,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отключены регламентные задания</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Scheduled jobs disabled</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
@@ -165,6 +197,11 @@
 							<v8:content>При выполнения обновления была установлена блокировка выполнения регламентных заданий.
 Для разблокировки требуется &lt;link перезапустить&gt;перезапустить&lt;/&gt; программу.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A scheduled job lock was applied during the update.
+To release the lock,&lt;link перезапустить&gt;restart&lt;/&gt; the application.</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="ОтключеныРегламентныеЗаданияКонтекстноеМеню" id="56"/>
 					<ExtendedTooltip name="ОтключеныРегламентныеЗаданияРасширеннаяПодсказка" id="57"/>
@@ -181,6 +218,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Описание обновлений</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update details</v8:content>
 				</v8:item>
 			</Title>
 			<TitleLocation>None</TitleLocation>
@@ -203,6 +244,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -218,6 +263,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание изменений также можно открыть из группы "Информация" раздела "Главное".</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>You can also view the change log from section "Quick menu" — "Information".</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalAlign>Top</VerticalAlign>
 					<ContextMenu name="АдресФормыВПрограммеКонтекстноеМеню" id="12"/>
@@ -228,6 +277,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Техническая информация и закрыть</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Technical details and close</v8:content>
 						</v8:item>
 					</Title>
 					<VerticalStretch>false</VerticalStretch>
@@ -246,6 +299,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Техническая информация об обновлении</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>View event log records related to the update</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
@@ -258,6 +315,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Техническая информация из журнала регистрации для обращения в службу технической поддержки.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Technical details from the event log to provide to technical support.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 							<Events>
@@ -269,6 +330,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель формы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Form command bar</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -295,6 +360,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Описание обновлений</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update details</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -329,6 +398,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполняются дополнительные процедуры обработки данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional data processing procedures are running</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ОтложенноеОбновлениеДанных</Action>

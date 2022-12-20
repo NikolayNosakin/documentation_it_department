@@ -18,6 +18,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выгрузка загрузка EnterpriseData</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import/export EnterpriseData</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
@@ -28,6 +32,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выгрузка загрузка данных EnterpriseData</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import/export data in EnterpriseData format</v8:content>
 				</v8:item>
 			</ExtendedPresentation>
 			<Explanation/>
@@ -40,6 +48,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Путь к менеджеру обмена выгрузки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Path to export manager</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -57,6 +69,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Путь к внешнему менеджеру обмена для выгрузки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Path to external export manager</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -84,6 +100,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Путь к менеджеру обмена загрузки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Path to import manager</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -100,6 +120,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Путь к внешнему менеджеру обмена для загрузки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Path to external import manager</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -127,6 +151,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Результат выгрузки XDTO</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>XDTO export result</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -143,6 +171,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Результат выгрузки при выгрузке в текст</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export result in text format.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -170,6 +202,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия формата</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Format version</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -186,6 +222,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия формата для выгрузки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Format version for exporting.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -213,6 +253,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Узел обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange node</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -225,6 +269,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>При указании узла будут выгружены зарегистрированные на узле изменения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If you specify a node, the changes registered in the node will be exported.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -252,6 +300,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Период отбора всех документов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filter period for all documents</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -264,6 +316,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Указанный отбор по периоду будет применен ко всем выбранным документам.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The filter by period that is applied to all selected documents.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -291,6 +347,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес компоновщика всех документов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Composer address for all documents</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -307,6 +367,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес компоновщика всех документов (служебный)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The composer address for all documents (an internal attribute).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -334,6 +398,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Компоновщик отбора всех документов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filter composer for all documents</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -346,6 +414,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Компоновщик отбора всех документов (служебный)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The filter composer for all documents (an internal attribute).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -373,6 +445,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес хранилища формы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>From storage address</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -389,6 +465,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес хранилища формы (служебный)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Form storage address (an internal attribute).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -416,6 +496,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительная регистрация</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional registration</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Таблица дополнительной регистрации</Comment>
 					<Type>
@@ -428,6 +512,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица объектов подлежащих дополнительной регистрации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The table of objects that are subject to additional registration.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -455,6 +543,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список дополнение к выгрузке</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export addition list</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -467,6 +559,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список объектов подлежащих выгрузке</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The list of objects that are subject to export.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -494,6 +590,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица правил выгрузки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export rules table</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -506,6 +606,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перечень доступных для выгрузки объектов метаданных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The list of metadata objects available for export.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -533,6 +637,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Источник выгрузки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export source</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -549,6 +657,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Источник выгрузки (текст либо файл)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export source (text or file).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -575,6 +687,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расширение формата</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Format extension</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -616,6 +732,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Загрузка данных EnterpriseData</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Import EnterpriseData data</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

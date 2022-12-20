@@ -34,6 +34,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сообщение пользователю</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Message to user</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -45,6 +49,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинка сообщения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Message picture</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -63,6 +71,12 @@
 
 Если печатные формы открываются некорректно, то рекомендуется использовать стандартный макет.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>It is recommended that you ensure that edited print form templates comply with the application version.
+
+If edited print forms are malformed, switch to the standard template.</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="ТекстСообщенияКонтекстноеМеню" id="13"/>
 					<ExtendedTooltip name="ТекстСообщенияРасширеннаяПодсказка" id="14"/>
@@ -78,11 +92,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверено</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Templates checked</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не выводить больше это сообщение до следующего обновления программы.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not show this message until the next application update.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Проверено</Action>
@@ -94,6 +116,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти к списку</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to list</v8:content>
+				</v8:item>
 			</Title>
 			<Action>ПерейтиКСписку</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -103,6 +129,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ЗакрытьФорму</Action>

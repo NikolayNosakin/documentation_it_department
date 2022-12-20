@@ -35,6 +35,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предмет</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Subject</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -47,6 +51,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Предмет:</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Subject:</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="НадписьПредметКонтекстноеМеню" id="132"/>
 					<ExtendedTooltip name="НадписьПредметРасширеннаяПодсказка" id="133"/>
@@ -57,6 +65,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Предмет напоминания</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reminder subject</v8:content>
 						</v8:item>
 					</Title>
 					<Hyperlink>true</Hyperlink>
@@ -76,6 +88,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тема</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Text</v8:content>
+				</v8:item>
 			</Title>
 			<TitleLocation>None</TitleLocation>
 			<Width>30</Width>
@@ -90,6 +106,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройка времени</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Time settings</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -103,12 +123,20 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Напомнить</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Remind</v8:content>
+						</v8:item>
 					</Title>
 					<TitleLocation>Left</TitleLocation>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Время, через которое нужно напомнить, или способ установки времени напоминания</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The reminder interval or the reminder time setup method.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Width>20</Width>
@@ -127,6 +155,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Панель детальных настроек</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Detailed settings panel</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalStretch>false</VerticalStretch>
 					<PagesRepresentation>None</PagesRepresentation>
@@ -137,6 +169,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Без детализации</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>No details</v8:content>
 								</v8:item>
 							</Title>
 							<Group>HorizontalIfPossible</Group>
@@ -151,11 +187,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>00:00</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>00:00</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Расчетное время</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The estimated time.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<TitleHeight>1</TitleHeight>
@@ -170,6 +214,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дата время</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Date time</v8:content>
+								</v8:item>
 							</Title>
 							<Group>HorizontalIfPossible</Group>
 							<ShowTitle>false</ShowTitle>
@@ -183,6 +231,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата напоминания</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The reminder date.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<HorizontalAlign>Left</HorizontalAlign>
 									<Width>12</Width>
@@ -191,6 +243,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>ДЛФ=D</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>DLF=D</v8:content>
 										</v8:item>
 									</EditFormat>
 									<EditTextUpdate>OnValueChange</EditTextUpdate>
@@ -208,6 +264,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Время напоминания</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The reminder time.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<HorizontalAlign>Left</HorizontalAlign>
 									<Width>7</Width>
@@ -220,6 +280,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>ДФ=ЧЧ:мм</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>DF=hh:mm tt</v8:content>
 										</v8:item>
 									</EditFormat>
 									<ChooseType>false</ChooseType>
@@ -240,6 +304,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройка источника</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Source settings</v8:content>
+								</v8:item>
 							</Title>
 							<Group>HorizontalIfPossible</Group>
 							<ShowTitle>false</ShowTitle>
@@ -250,6 +318,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Интервал времени относительно источника</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Time interval relative to the source</v8:content>
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
@@ -265,6 +337,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>за</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>when</v8:content>
+												</v8:item>
 											</Title>
 											<HorizontalAlign>Right</HorizontalAlign>
 											<ContextMenu name="НадписьЗаКонтекстноеМеню" id="58"/>
@@ -277,6 +353,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Время, за которое необходимо напомнить до даты в реквизите предмета</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>The reminder interval.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
@@ -295,6 +375,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>5 минут</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>5 minutes</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">5м</Value>
 													</xr:Value>
@@ -307,6 +391,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>10 минут</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>10 minutes</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">10м</Value>
@@ -321,6 +409,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>15 минут</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>15 minutes</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">15м</Value>
 													</xr:Value>
@@ -333,6 +425,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>30 минут</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>30 minutes</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">30м</Value>
@@ -347,6 +443,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>1 час</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>1 hour</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">1ч</Value>
 													</xr:Value>
@@ -359,6 +459,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>2 часа</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>2 hours</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">2ч</Value>
@@ -373,6 +477,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>4 часа</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>4 hours</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">4ч</Value>
 													</xr:Value>
@@ -385,6 +493,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>8 часов</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>8 hours</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">8ч</Value>
@@ -399,6 +511,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>1 день</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>1 day</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">1д</Value>
 													</xr:Value>
@@ -411,6 +527,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>2 дня</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>2 days</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">2д</Value>
@@ -425,6 +545,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>3 дня</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>3 days</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">3д</Value>
 													</xr:Value>
@@ -438,6 +562,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>1 неделю</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>1 week</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">1н</Value>
 													</xr:Value>
@@ -450,6 +578,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>2 недели</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>2 weeks</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">2н</Value>
@@ -470,6 +602,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Имя реквизита источника</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Source attribute name</v8:content>
+										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
 									<Behavior>Usual</Behavior>
@@ -484,6 +620,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>до</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>before</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьДоКонтекстноеМеню" id="34"/>
 											<ExtendedTooltip name="НадписьДоExtendedTooltip" id="124"/>
@@ -495,6 +635,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Имя реквизита предмета, относительно которого устанавливается время напоминания</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>The name of the subject attribute that stores the target date.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Width>20</Width>
@@ -516,6 +660,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройка периодичности</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Frequency settings</v8:content>
 								</v8:item>
 							</Title>
 							<Group>HorizontalIfPossible</Group>
@@ -541,6 +689,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>каждый час</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>hourly</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">1ч</Value>
 											</xr:Value>
@@ -553,6 +705,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>ежедневно</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>daily</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">1д</Value>
@@ -567,6 +723,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>еженедельно</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>weekly</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">1н</Value>
 											</xr:Value>
@@ -579,6 +739,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>другое...</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>custom…</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string"/>
@@ -619,6 +783,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Интервал времени строкой</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Time interval as a string</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -635,6 +803,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Способ установки времени напоминания</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reminder time setup method</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -650,6 +822,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вариант периодичности</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Frequency option</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -678,11 +854,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить напоминание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete the reminder.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

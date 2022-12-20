@@ -15,6 +15,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Применить и закрыть</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Apply and close</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="OKExtendedTooltip" id="236"/>
 			</Button>
@@ -29,6 +33,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Отмена</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cancel</v8:content>
 					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ОтменитьExtendedTooltip" id="237"/>
@@ -46,6 +54,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Даты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Dates</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -59,6 +71,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Левая колонка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Left column</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -71,6 +87,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Интервал с</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Period from</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Left</TitleLocation>
@@ -90,6 +110,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>по</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>to</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Left</TitleLocation>
@@ -117,6 +141,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Правая колонка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Right column</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -131,6 +159,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Основное</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -142,6 +174,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Важность</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Importance</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -159,6 +195,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -172,6 +212,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Важность:</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Severity:</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="ДекорацияЗаголовокКонтекстноеМеню" id="316"/>
 									<ExtendedTooltip name="ДекорацияЗаголовокРасширеннаяПодсказка" id="317"/>
@@ -181,6 +225,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Командная панель важность</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Command bar severity</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalLocation>Right</HorizontalLocation>
@@ -221,6 +269,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Важность</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Severity</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ВажностьКонтекстноеМеню" id="42"/>
 							<AutoCommandBar name="ВажностьКоманднаяПанель" id="143">
@@ -259,6 +311,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Важность и значение</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Severity and value</v8:content>
+										</v8:item>
 									</Title>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="ВажностьИЗначениеРасширеннаяПодсказка" id="264"/>
@@ -269,6 +325,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Пометка</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Mark</v8:content>
 												</v8:item>
 											</Title>
 											<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -283,6 +343,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Значение</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Value</v8:content>
 												</v8:item>
 											</Title>
 											<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -302,6 +366,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Основные отборы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main filters</v8:content>
 						</v8:item>
 					</Title>
 					<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -364,6 +432,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Номера сеансов задаются через ;</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Separate session numbers with semicolons (;).</v8:content>
+								</v8:item>
 							</ToolTip>
 							<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 							<Wrap>false</Wrap>
@@ -382,6 +454,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Данные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
@@ -398,11 +474,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Данные свойства</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data properties</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Данные</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Group>Vertical</Group>
@@ -452,6 +536,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Транзакции</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Transactions</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
@@ -466,6 +554,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Левая колонка 4</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Left column 4</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -482,6 +574,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель транзакция</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar transaction</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -495,6 +591,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Статус транзакции:</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Transaction status:</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация1КонтекстноеМеню" id="327"/>
 									<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="328"/>
@@ -504,6 +604,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Командная панель транзакция</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Command bar transaction</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalLocation>Right</HorizontalLocation>
@@ -546,6 +650,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Статус</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Status</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="СтатусТранзакцииКонтекстноеМеню" id="75"/>
 							<AutoCommandBar name="СтатусТранзакцииКоманднаяПанель" id="145">
@@ -584,6 +692,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Пометка и значение</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Check mark and value</v8:content>
+										</v8:item>
 									</Title>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="ГруппаПометкаИЗначениеРасширеннаяПодсказка" id="266"/>
@@ -594,6 +706,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Пометка</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Mark</v8:content>
 												</v8:item>
 											</Title>
 											<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -608,6 +724,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Значение</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Value</v8:content>
 												</v8:item>
 											</Title>
 											<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -629,6 +749,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Идентификатор</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>ID</v8:content>
+						</v8:item>
 					</Title>
 					<TitleLocation>Left</TitleLocation>
 					<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -645,6 +769,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Прочее</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Other properties</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -724,6 +852,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователи</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Users</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
@@ -753,6 +885,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Компьютеры</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Computers</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
@@ -776,6 +912,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Приложения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Applications</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
@@ -797,6 +937,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Важность</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Severity</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -820,6 +964,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Комментарий</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Comment</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -834,6 +982,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Метаданные</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Metadata</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -858,6 +1010,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Данные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
@@ -868,6 +1024,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data presentation</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -883,6 +1043,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Статус транзакции</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Transaction status</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -907,6 +1071,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Транзакция</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Transaction</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -921,6 +1089,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сеансы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sessions</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -950,6 +1122,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рабочие серверы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Working servers</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
@@ -972,6 +1148,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Основные IP порты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Primary IP ports</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -996,6 +1176,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вспомогательные IP порты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Secondary IP ports</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1044,6 +1228,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Интервал отбора дата начала</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filter period start date</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:dateTime</v8:Type>
@@ -1058,6 +1246,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Интервал отбора дата окончания</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filter period end date</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:dateTime</v8:Type>
@@ -1071,6 +1263,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>События</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Events</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1099,6 +1295,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разделение данных сеанса</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Session data separation</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
@@ -1113,11 +1313,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить отбор и закрыть форму</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Apply the filter and close the window.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УстановитьОтборИЗакрытьФорму</Action>
@@ -1129,11 +1337,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить флажки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить флажки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1150,11 +1366,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять флажки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять флажки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1171,11 +1395,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить флажки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить флажки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1191,11 +1423,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять флажки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять флажки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1211,11 +1451,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>...</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать период</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select period</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИнтервалОтбораПриИзменении</Action>

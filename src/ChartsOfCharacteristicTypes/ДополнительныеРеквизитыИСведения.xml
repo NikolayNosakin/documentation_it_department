@@ -34,6 +34,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительные реквизиты и сведения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional attributes and information records</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
@@ -108,6 +112,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Типы значения, которое можно ввести при заполнении свойства.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Valid value types the property supports.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -138,6 +146,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование свойства</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Property description</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -347,6 +359,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительный реквизит / сведение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional attribute or information record</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -365,6 +381,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Виден</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Visible</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -377,6 +397,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка видимости дополнительного реквизита</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Defines whether the additional attribute is visible.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -410,6 +434,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Владелец дополнительных значений</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Master of additional values</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -422,6 +450,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Свойство-образец, с которым у этого свойства одинаковый список дополнительных значений</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Master property, the current property inherits the list of additional values from.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -455,6 +487,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выводить в виде гиперссылки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Display as a hyperlink</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -467,6 +503,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что дополнительный реквизит выводится в виде ссылки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Defines whether the additional attribute is displayed as a clickable hyperlink.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -500,6 +540,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные значения используются</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use additional values</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -512,6 +556,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип значения включает дополнительные значения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Defines whether the value type might include additional values.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -545,6 +593,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значения дополнительно характеризуются весовым коэффициентом</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use weighting factors</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -557,6 +609,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Для дополнительных значений можно указать весовой коэффициент</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Defines whether additional values might be assigned with weighting factors.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -590,6 +646,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Доступен</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Available</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -602,6 +662,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка доступности дополнительного реквизита</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Defines whether additional attributes are available.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -635,6 +699,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -652,6 +720,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Краткое представление свойства, которое
 выводится в формах редактирования его значения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Brief property description.
+Displayed in value edit forms.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -685,6 +758,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заголовок формы выбора значения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Value choice form title</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -701,6 +778,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Используется в заголовке формы выбора дополнительного значения свойства</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Displayed in additional value choice forms of a property.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -734,6 +815,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заголовок формы выбора значения язык (дополнительный язык)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Title of the value choice form language (additional language)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -750,6 +835,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Используется в заголовке формы выбора дополнительного значения свойства</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Displayed in additional value choice forms of a property.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -783,6 +872,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заголовок формы выбора значения язык (дополнительный язык 2)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Title of the value choice form language (additional language 2)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -799,6 +892,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Используется в заголовке формы выбора дополнительного значения свойства</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Used in the title of the form for selecting an additional property value</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -832,6 +929,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заголовок формы значения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Title for value form</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -848,6 +949,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Используется в заголовке формы дополнительного значения свойства</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Displayed in the additional property value form.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -881,6 +986,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заголовок формы значения язык (дополнительный язык)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Title of the value form language (additional language)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -897,6 +1006,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Используется в заголовке формы дополнительного значения свойства</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Displayed in the additional property value form.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -930,6 +1043,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заголовок формы значения язык (дополнительный язык 2)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Title of the value form language (additional language 2)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -946,6 +1063,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Используется в заголовке формы дополнительного значения свойства</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Displayed in the additional property value form.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -979,6 +1100,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование  (дополнительный язык)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name (additional language)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -996,6 +1121,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Краткое представление свойства, которое
 выводится в формах редактирования его значения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Brief property description.
+Displayed in value edit forms.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1029,6 +1159,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование (дополнительный язык 2)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name (additional language 2)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1046,6 +1180,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Краткое представление свойства, которое
 выводится в формах редактирования его значения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Brief property description.
+Displayed in value edit forms.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1079,6 +1218,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заполнять обязательно</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Required</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1091,6 +1234,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка проверки заполненности дополнительного реквизита</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Defines whether the additional attribute is required.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1123,6 +1270,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Идентификатор для формул</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>ID for formulas</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1168,6 +1319,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1184,6 +1339,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Требуется для программного обращения к дополнительным реквизитам и сведениям. Аналог имени обычного реквизита.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name is required to address the additional attributes or information record from the code. Used similar to name of common attribute.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1217,6 +1376,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1233,6 +1396,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Поясняет назначение свойства</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment to property.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1266,6 +1433,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Многострочное поле ввода</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Multiple-line input field</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1283,6 +1454,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Число строк в многострочном поле ввода</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Number of lines in a multiple-line input field.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1316,6 +1491,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Набор свойств</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Property set</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1328,6 +1507,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Набор свойств, в котором было изначально создано свойство. При включении свойства в несколько наборов значение не меняется.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A property set where the property was initially created. If the property is included in several sets, its value does not change.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1361,6 +1544,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подсказка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Tooltip</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1377,6 +1564,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Показывается пользователю при редактировании свойства в форме объекта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The text displayed to a user that edits properties.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1410,6 +1601,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подсказка язык (дополнительный язык)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Tooltip language (additional language)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1426,6 +1621,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Показывается пользователю при редактировании свойства в форме объекта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Displayed to a user that edits properties.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1459,6 +1658,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подсказка язык (дополнительный язык 2)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Tooltip language (additional language 2)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1475,6 +1678,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Показывается пользователю при редактировании свойства в форме объекта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Displayed to a user that edits properties.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1508,6 +1715,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Формат свойства</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Property format</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1524,6 +1735,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хранит формат свойства для удобства представления</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Stores the format required for the property presentation.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1557,6 +1772,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Это дополнительное сведение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Is additional information record</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1569,6 +1788,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Свойство является дополнительным сведением, а не дополнительным реквизитом</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Defines wither the property is an additional information record, not an additional attribute.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1611,6 +1834,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Зависимости дополнительных реквизитов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional attributes dependencies</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1655,6 +1882,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Зависимое свойство</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Dependent property</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1671,6 +1902,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Имя свойства дополнительного реквизита, для которого настроена зависимость.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The name of a dependent property.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1700,6 +1935,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Набор свойств</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Property set</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -1738,6 +1977,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Реквизит</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Attribute</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1755,6 +1998,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Имя реквизита формы или ссылка на дополнительный реквизит, от которого зависит текущий дополнительный реквизит.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The name of a form attribute or reference to an additional attribute the current attribute depends on.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1785,6 +2032,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Условие</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Criteria</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1801,6 +2052,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вид зависимости. "Равно", "Не равно", "Заполнено" или "Не заполнено".</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Dependence criteria: Equal, Not equal, Filled, or Blank.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1831,6 +2086,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1859,6 +2118,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение реквизита в условии.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The value of the attribute used in criteria.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1900,6 +2163,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представления</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentations</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1944,6 +2211,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Код языка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Language code</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1984,6 +2255,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Заголовок</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Title</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -2026,6 +2301,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подсказка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Tooltip</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -2067,6 +2346,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Заголовок формы значения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value form title</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -2107,6 +2390,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Заголовок формы выбора значения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value choice form title</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>

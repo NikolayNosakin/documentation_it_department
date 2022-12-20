@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Напоминания</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Reminders</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -46,6 +50,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель кнопок</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Buttons panel</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -69,11 +77,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Напомнить через</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Remind me in</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Время, через которое нужно напомнить</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The snooze interval.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Width>15</Width>
@@ -223,6 +239,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Напоминания</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reminders</v8:content>
+				</v8:item>
 			</Title>
 			<CommandSet>
 				<ExcludedCommand>Add</ExcludedCommand>
@@ -242,6 +262,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список наступивших напоминаний</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>The list of due reminders.</v8:content>
+				</v8:item>
 			</ToolTip>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="НапоминанияКонтекстноеМеню" id="2">
@@ -259,6 +283,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Открыть предмет напоминания</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Open reminder subject.</v8:content>
+									</v8:item>
 								</Title>
 								<ExtendedTooltip name="НапоминанияКонтекстноеМенюОткрытьExtendedTooltip" id="37"/>
 							</Button>
@@ -269,6 +297,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Изменить напоминание...</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Change reminder…</v8:content>
 									</v8:item>
 								</Title>
 								<ExtendedTooltip name="НапоминанияКонтекстноеМенюИзменитьExtendedTooltip" id="38"/>
@@ -354,6 +386,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Напоминания</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reminders</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -364,6 +400,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Время события</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Event time</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -400,6 +440,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Текст оповещения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Notification text</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -451,6 +495,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Срок повторного оповещения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Repeat interval</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -468,11 +516,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отложить все</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Snooze all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отложить все напоминания</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Snooze all reminders.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Отложить</Action>
@@ -484,11 +540,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Прекратить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Dismiss</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Прекратить напоминание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Dismiss the reminder.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Прекратить</Action>
@@ -500,11 +564,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть предмет напоминания</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open reminder subject.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаОткрыть</Action>
@@ -516,11 +588,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F2</Shortcut>

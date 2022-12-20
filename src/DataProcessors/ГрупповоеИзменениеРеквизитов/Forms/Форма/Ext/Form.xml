@@ -17,6 +17,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыExtendedTooltip" id="74"/>
@@ -27,6 +31,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка изменений</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Edit settings</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="НастройкаИзмененийExtendedTooltip" id="75"/>
 					<ChildItems>
@@ -35,6 +43,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выбор элементов для изменения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Select items to edit</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -52,6 +64,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Введите первые буквы справочника или документа</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Enter first letters of the catalog or document</v8:content>
+										</v8:item>
 									</InputHint>
 									<ContextMenu name="ПредставлениеИзменяемыхОбъектовКонтекстноеМеню" id="168"/>
 									<ExtendedTooltip name="ПредставлениеИзменяемыхОбъектовРасширеннаяПодсказка" id="169"/>
@@ -66,6 +82,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Все элементы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>All items</v8:content>
 										</v8:item>
 									</Title>
 									<Hyperlink>true</Hyperlink>
@@ -91,6 +111,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Ввести новые значения</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Manually</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">ВвестиЗначения</Value>
 									</xr:Value>
@@ -103,6 +127,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Выполнить произвольный алгоритм</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Custom algorithm</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">ВыполнитьАлгоритм</Value>
@@ -121,6 +149,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы вид операции</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Operation kind pages</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыВидОперацииРасширеннаяПодсказка" id="272"/>
@@ -131,6 +163,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Изменяемые реквизиты</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Editable attributes</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ИзменяемыеРеквизитыРасширеннаяПодсказка" id="184"/>
 									<ChildItems>
@@ -139,6 +175,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Состав объекта</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Object content</v8:content>
 												</v8:item>
 											</Title>
 											<PagesRepresentation>TabsOnTop</PagesRepresentation>
@@ -149,6 +189,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Реквизиты</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Attributes</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="РеквизитыРасширеннаяПодсказка" id="115"/>
@@ -172,6 +216,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Реквизиты</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Attributes</v8:content>
 																</v8:item>
 															</Title>
 															<RowFilter xsi:nil="true"/>
@@ -218,6 +266,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Реквизит</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Attribute</v8:content>
+																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ContextMenu name="РеквизитыОбъектаПредставлениеКонтекстноеМеню" id="127"/>
@@ -257,6 +309,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Нет реквизитов</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>No attributes</v8:content>
+																</v8:item>
 															</Title>
 															<Behavior>Usual</Behavior>
 															<Representation>NormalSeparation</Representation>
@@ -280,6 +336,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>У выбранных объектов нет общих реквизитов.</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Selected objects have no common attributes.</v8:content>
+																		</v8:item>
 																	</Title>
 																	<VerticalAlign>Center</VerticalAlign>
 																	<ContextMenu name="Декорация1КонтекстноеМеню" id="259"/>
@@ -299,6 +359,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Произвольный алгоритм</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Custom algorithm</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ПроизвольныйАлгоритмРасширеннаяПодсказка" id="274"/>
 									<ChildItems>
@@ -307,6 +371,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Произвольный алгоритм</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Custom algorithm</v8:content>
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
@@ -321,6 +389,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Алгоритм</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Algorithm</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Usual</Behavior>
@@ -334,6 +406,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Наименование алгоритма</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Algorithm name</v8:content>
 																</v8:item>
 															</InputHint>
 															<ContextMenu name="АлгоритмКонтекстноеМеню" id="279"/>
@@ -355,6 +431,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Реквизиты для алгоритма</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Algorithm attributes</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Usual</Behavior>
@@ -368,6 +448,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страницы для выравнивания</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Align left pages</v8:content>
+																</v8:item>
 															</Title>
 															<PagesRepresentation>None</PagesRepresentation>
 															<ExtendedTooltip name="ГруппаСтраницыДляВыравниванияРасширеннаяПодсказка" id="310"/>
@@ -377,6 +461,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Реквизиты:</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Attributes:</v8:content>
 																		</v8:item>
 																	</Title>
 																	<VerticalStretch>true</VerticalStretch>
@@ -389,6 +477,10 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Реквизиты:</v8:content>
 																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Attributes:</v8:content>
+																				</v8:item>
 																			</Title>
 																			<ContextMenu name="НадписьРеквизитыКонтекстноеМеню" id="304"/>
 																			<ExtendedTooltip name="НадписьРеквизитыРасширеннаяПодсказка" id="305"/>
@@ -400,6 +492,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Страница невидимая</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Invisible page</v8:content>
 																		</v8:item>
 																	</Title>
 																	<ExtendedTooltip name="СтраницаНевидимаяРасширеннаяПодсказка" id="314"/>
@@ -434,6 +530,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Реквизиты объекта алгоритм</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Algorithm object attributes</v8:content>
 																</v8:item>
 															</Title>
 															<RowFilter xsi:nil="true"/>
@@ -488,6 +588,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Параметры выполнения алгоритма</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Algorithm parameters</v8:content>
+												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
 											<Behavior>Usual</Behavior>
@@ -502,6 +606,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Объект записывается</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Save object</v8:content>
 														</v8:item>
 													</Title>
 													<TitleHeight>1</TitleHeight>
@@ -518,6 +626,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Автоматически</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Automatically</v8:content>
+																	</v8:item>
 																</Presentation>
 																<Value xsi:type="xs:string">Записывать</Value>
 															</xr:Value>
@@ -530,6 +642,10 @@
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>В коде алгоритма</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>In algorithm code</v8:content>
 																	</v8:item>
 																</Presentation>
 																<Value xsi:type="xs:string">НеЗаписывать</Value>
@@ -544,6 +660,12 @@
 																<v8:content>Определяется вариант записи объекта:
 • Автоматически - объект будет всегда записан после выполнения алгоритма
 • В код алгоритма - " необходимость записи определяется в коде алгоритма.</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Define object save mode:
+• If Automatically, object is saved after algorithm has been executed.
+• If In algorithm code, developer specifies when to save object.</v8:content>
 															</v8:item>
 														</Title>
 													</ExtendedTooltip>
@@ -563,6 +685,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Безопасный</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Safe</v8:content>
+																	</v8:item>
 																</Presentation>
 																<Value xsi:type="xs:decimal">0</Value>
 															</xr:Value>
@@ -576,6 +702,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Небезопасный</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Unsafe</v8:content>
+																	</v8:item>
 																</Presentation>
 																<Value xsi:type="xs:decimal">1</Value>
 															</xr:Value>
@@ -587,6 +717,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Устанавливает или отключает безопасный режим исполнения алгоритма. Рекомендуется выполнять код в безопасном режиме. Более подробно о безопасном режиме см. документацию к платформе 1С:Предприятие.</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Define safety mode. It is recommended that you run algorithms in safe mode. For more information, see 1C:Enterprise documentation.</v8:content>
 															</v8:item>
 														</Title>
 													</ExtendedTooltip>
@@ -603,6 +737,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Панель настроек</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Setting panel</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПанельНастроекРасширеннаяПодсказка" id="188"/>
 							<ChildItems>
@@ -612,6 +750,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Алгоритмы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Algorithms</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="АлгоритмыРасширеннаяПодсказка" id="338"/>
@@ -629,6 +771,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Ранее измененные реквизиты</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Change history</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="РанееИзмененныеРеквизитыРасширеннаяПодсказка" id="190"/>
@@ -650,6 +796,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дополнительные параметры...</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Additional parameters…</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="НастроитьПараметрыИзмененийExtendedTooltip" id="79"/>
 								</Button>
@@ -663,6 +813,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Изменить реквизит Номенклатура табличной части Товары в тех строках выбранных элементов, которые удовлетворяют условиям отбора.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Edit attribute Products in Goods tabular section for the lines that meet the filter criteria.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ПояснениеОНастроенныхИзмененияхКонтекстноеМеню" id="197"/>
@@ -679,6 +833,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Изменение объектов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Edit objects</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ИзменениеОбъектовExtendedTooltip" id="86"/>
 					<ChildItems>
@@ -690,6 +848,11 @@
 									<v8:content>Изменено: 0
 Не удалось изменить: 0</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Edited: 0
+Edit failed: 0</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="НадписьРезультатыОбработкиКонтекстноеМеню" id="140"/>
 							<ExtendedTooltip name="НадписьРезультатыОбработкиРасширеннаяПодсказка" id="141"/>
@@ -699,6 +862,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Объекты которые не удалось изменить</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Objects that were not edited</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -723,6 +890,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Элементы, которые не удалось изменить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Items that were not edited</v8:content>
 										</v8:item>
 									</Title>
 									<CommandSet>
@@ -749,6 +920,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Открыть</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Open</v8:content>
 													</v8:item>
 												</Title>
 												<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
@@ -793,6 +968,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Элемент</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Item</v8:content>
+												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ОбъектыКоторыеНеУдалосьИзменитьОбъектКонтекстноеМеню" id="156"/>
@@ -831,6 +1010,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ожидание обработки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Processing</v8:content>
+						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
 					<ExtendedTooltip name="ОжиданиеОбработкиExtendedTooltip" id="101"/>
@@ -840,6 +1023,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Длительная операция картинка и текст</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Long-running operation picture and text</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
@@ -853,6 +1040,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Длительная операция</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Long-running operation</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -870,6 +1061,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Выполняется изменение элементов...</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Edition in progress…</v8:content>
+										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
 									<ContextMenu name="ДекорацияПоясняющийТекстДлительнойОперацииКонтекстноеМеню" id="68"/>
@@ -885,6 +1080,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Все готово</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data processor completed</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ВсеГотовоРасширеннаяПодсказка" id="216"/>
 					<ChildItems>
@@ -893,6 +1092,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Успешно завершено</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Completed successfully</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
@@ -918,6 +1121,11 @@
 											<v8:content>Реквизиты выбранных элементов были изменены.
 Всего изменено элементов: %1</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Attributes of selected items edited.
+Total items edited: %1.</v8:content>
+										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
 									<ContextMenu name="НадписьУспешноЗавершеноКонтекстноеМеню" id="223"/>
@@ -935,6 +1143,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -946,6 +1158,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Кнопки слева</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Left-side buttons</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="КнопкиСлеваРасширеннаяПодсказка" id="210"/>
@@ -963,6 +1179,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Кнопки справа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Right-side buttons</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalLocation>Right</HorizontalLocation>
 					<ExtendedTooltip name="КнопкиСправаРасширеннаяПодсказка" id="212"/>
@@ -975,6 +1195,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Изменить реквизиты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Edit attributes</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ФормаИзменитьExtendedTooltip" id="71"/>
@@ -1116,6 +1340,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Реквизиты объекта</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object attributes</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -1139,6 +1367,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Изменять</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Edit</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -1149,6 +1381,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1164,6 +1400,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Новое значение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>New value</v8:content>
 						</v8:item>
 					</Title>
 					<Type/>
@@ -1248,6 +1488,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Причина</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reason</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1263,6 +1507,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Объекты которые не удалось изменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Failed to edit the following objects</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -1273,6 +1521,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1290,6 +1542,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Причина</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reason</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1306,6 +1562,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменять</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1405,6 +1665,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Алгоритм</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Algorithm</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1419,6 +1683,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Код алгоритма</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Algorithm code</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1443,11 +1711,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt; Назад</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt; Back</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Назад</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Back</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Назад</Action>
@@ -1459,11 +1735,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Изменить</Action>
@@ -1475,11 +1759,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить параметры изменения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure edit parameters</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастроитьПараметрыИзменения</Action>
@@ -1491,11 +1783,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt;Нет&gt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt;No&gt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заглушка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stub</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -1506,11 +1806,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt;Нет&gt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt;No&gt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заглушка алгоритмы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Algorithms stub</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>

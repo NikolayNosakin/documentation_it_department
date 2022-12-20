@@ -25,6 +25,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Задания</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Jobs</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="ЗаданияExtendedTooltip" id="176"/>
@@ -38,6 +42,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Регламентные задания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Scheduled jobs</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>StdPicture.ScheduledJobs</xr:Ref>
@@ -50,6 +58,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Блокировка работы с внешними ресурсами</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Lock operations with external resources</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -73,6 +85,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Работа со всеми внешними ресурсами (синхронизация данных, отправка почты и т.п.), выполняемая по расписанию, заблокирована для предотвращения конфликтов с основной информационной базой. &lt;link Разблокировать&gt;Разблокировать&lt;/&gt;.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Scheduled online activities such as data synchronization and emailing are disabled to prevent conflicts with the main infobase. &lt;link Разблокировать&gt;Enable&lt;/&gt;.</v8:content>
+										</v8:item>
 									</Title>
 									<TitleHeight>2</TitleHeight>
 									<ContextMenu name="ПояснениеБлокировкаРаботыСВнешнимиРесурсамиКонтекстноеМеню" id="286"/>
@@ -89,6 +105,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы отложенная загрузка регламентных заданий</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Scheduled jobs deferred load page</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыОтложеннаяЗагрузкаРегламентныхЗаданийРасширеннаяПодсказка" id="292"/>
@@ -98,6 +118,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница загрузка регламентных заданий</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Scheduled jobs load page</v8:content>
 										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
@@ -119,6 +143,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Выполняется формирование списка регламентных заданий...</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Generating a list of scheduled jobs…</v8:content>
+												</v8:item>
 											</Title>
 											<GroupVerticalAlign>Center</GroupVerticalAlign>
 											<ContextMenu name="ДекорацияОписаниеКонтекстноеМеню" id="301"/>
@@ -131,6 +159,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница регламентные задания</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Page scheduled jobs</v8:content>
 										</v8:item>
 									</Title>
 									<ShowTitle>false</ShowTitle>
@@ -147,6 +179,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Таблица регламентные задания</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Scheduled jobs table</v8:content>
 												</v8:item>
 											</Title>
 											<CommandSet>
@@ -261,6 +297,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Выполнение</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Execution</v8:content>
+															</v8:item>
 														</Title>
 														<ExtendedTooltip name="ТаблицаРегламентныеЗаданияВыполнениеРасширеннаяПодсказка" id="315"/>
 														<ChildItems>
@@ -349,12 +389,20 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Вкл.</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Enabled</v8:content>
+														</v8:item>
 													</Title>
 													<TitleLocation>None</TitleLocation>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Включено - выполнять задание.</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>If a job is enabled, it is executed according to the schedule.</v8:content>
 														</v8:item>
 													</ToolTip>
 													<HeaderPicture>
@@ -372,6 +420,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Наименование</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Description</v8:content>
+														</v8:item>
 													</Title>
 													<Wrap>false</Wrap>
 													<ContextMenu name="НаименованиеКонтекстноеМеню" id="41"/>
@@ -384,11 +436,19 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Состояние</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Status</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Состояние фонового задания</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Status of the background job.</v8:content>
 														</v8:item>
 													</ToolTip>
 													<ContextMenu name="СостояниеВыполненияКонтекстноеМеню" id="62"/>
@@ -410,6 +470,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Дата и время окончания последнего завершенного фонового задания</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Date and time when the last background job was completed.</v8:content>
+														</v8:item>
 													</ToolTip>
 													<Wrap>false</Wrap>
 													<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="53"/>
@@ -424,6 +488,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Имя пользователя для запуска фонового задания</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>The user on whose behalf the background job will run.</v8:content>
 														</v8:item>
 													</ToolTip>
 													<Wrap>false</Wrap>
@@ -450,11 +518,19 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Предопределенное</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Is predefined</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Предопределенное задание поставляется в составе программы, и его нельзя удалить</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>A predefined job is a part of the application and cannot be deleted.</v8:content>
 														</v8:item>
 													</ToolTip>
 													<CheckBoxType>Auto</CheckBoxType>
@@ -475,6 +551,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Фоновые задания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Background jobs</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ФоновыеЗаданияExtendedTooltip" id="202"/>
 					<ChildItems>
@@ -483,6 +563,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Быстрые отборы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Quick filters</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -497,6 +581,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Состояние</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Status</v8:content>
+										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
@@ -510,6 +598,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Состояние:</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Status:</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ДекорацияСостояниеКонтекстноеМеню" id="239"/>
 											<ExtendedTooltip name="ДекорацияСостояниеРасширеннаяПодсказка" id="240"/>
@@ -521,6 +613,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Показывать выполненные фоновые задания</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Show completed background jobs.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<CheckBoxType>Auto</CheckBoxType>
@@ -535,6 +631,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Показывать фоновые задания завершенные с ошибкой</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Show background jobs completed with errors.</v8:content>
+												</v8:item>
 											</ToolTip>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтборПоСостояниюЗавершеноАварийноКонтекстноеМеню" id="103"/>
@@ -547,6 +647,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Показывать фоновые задания отмененные пользователем</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Show background jobs canceled by users.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<CheckBoxType>Auto</CheckBoxType>
@@ -561,6 +665,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Показывать фоновые задания, которые сейчас выполняются</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Show background jobs that are running now.</v8:content>
+												</v8:item>
 											</ToolTip>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтборПоСостояниюАктивноКонтекстноеМеню" id="99"/>
@@ -574,6 +682,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>По периоду</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>By period</v8:content>
+										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
@@ -586,6 +698,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>За период:</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Period:</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ДекорацияЗаПериодКонтекстноеМеню" id="242"/>
@@ -605,6 +721,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Все время</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>All time</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:decimal">0</Value>
 													</xr:Value>
@@ -617,6 +737,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Прошлая ночь</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Last night</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:decimal">1</Value>
@@ -631,6 +755,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Вчера</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Yesterday</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:decimal">2</Value>
 													</xr:Value>
@@ -644,6 +772,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Сегодня</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Today</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:decimal">3</Value>
 													</xr:Value>
@@ -656,6 +788,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Произвольный</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Custom period</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:decimal">4</Value>
@@ -674,6 +810,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Установка произвольного периода</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Custom period</v8:content>
 												</v8:item>
 											</Title>
 											<Behavior>Usual</Behavior>
@@ -703,6 +843,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>По регламентному заданию</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>By scheduled job</v8:content>
+										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
@@ -716,6 +860,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Включить отбор по регламентному заданию</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Filter by a scheduled job.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<CheckBoxType>Auto</CheckBoxType>
@@ -733,6 +881,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Регламентное задание для отбора</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Scheduled job to be filtered by.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Wrap>false</Wrap>
@@ -756,6 +908,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы отложенная загрузка фоновых заданий</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Background jobs deferred load page</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыОтложеннаяЗагрузкаФоновыхЗаданийРасширеннаяПодсказка" id="265"/>
@@ -765,6 +921,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница фоновые задания</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Background jobs page</v8:content>
 										</v8:item>
 									</Title>
 									<ShowTitle>false</ShowTitle>
@@ -782,6 +942,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Таблица фоновые задания</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Background jobs table</v8:content>
 												</v8:item>
 											</Title>
 											<CommandSet>
@@ -828,6 +992,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Отменить</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Cancel</v8:content>
 															</v8:item>
 														</Title>
 														<ExtendedTooltip name="ТаблицаФоновыеЗаданияОтменитьExtendedTooltip" id="224"/>
@@ -904,6 +1072,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Окончание</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>End</v8:content>
+														</v8:item>
 													</Title>
 													<Width>15</Width>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -917,6 +1089,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Регламентное задание</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Scheduled job</v8:content>
 														</v8:item>
 													</Title>
 													<Wrap>false</Wrap>
@@ -932,6 +1108,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница длительная операция</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Long-running operation page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаДлительнаяОперацияРасширеннаяПодсказка" id="269"/>
@@ -951,6 +1131,11 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Формируется список фоновых заданий.
 Пожалуйста, подождите...</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Generating a list of background jobs.
+Please wait…</v8:content>
 													</v8:item>
 												</Title>
 												<VerticalAlign>Center</VerticalAlign>
@@ -972,6 +1157,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Таблица регламентные задания</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Scheduled jobs table</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -991,6 +1180,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Предопределенное</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Predefined</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1012,6 +1205,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1027,6 +1224,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Usage</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -1037,6 +1238,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расписание</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Schedule</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1082,6 +1287,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состояние выполнения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Run status</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1097,6 +1306,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата окончания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>End date</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1111,6 +1324,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя пользователя</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Username</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1141,6 +1358,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата начала</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Start date</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1157,6 +1378,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Таблица фоновые задания</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Background jobs table</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1187,6 +1412,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1211,6 +1440,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состояние</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Status</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1226,6 +1459,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Начало</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Start</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1240,6 +1477,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Конец</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>End</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1282,6 +1523,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование регламентного задания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Scheduled job description</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1299,6 +1544,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отбирать по регламентному заданию:</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filter by scheduled job:</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1312,6 +1561,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполняется</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Running</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1327,6 +1580,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнено</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Completed</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1340,6 +1597,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершено с ошибками</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Completed with errors</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1355,6 +1616,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменено</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Canceled</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1368,6 +1633,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вид отбора по периоду</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filter by period</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1388,6 +1657,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>с</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>from</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:dateTime</v8:Type>
@@ -1404,6 +1677,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>по</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>to</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1451,6 +1728,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Регламентное задание для отбора идентификатор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Scheduled job ID</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1528,11 +1809,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть фоновое задание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open a background job.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1549,11 +1838,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить фоновое задание</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel background job</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить фоновое задание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel a background job.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1570,11 +1867,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить расписание...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure schedule…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить расписание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure schedule</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1591,11 +1896,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить сейчас</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run now</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить процедуру регламентного задания либо в этом сеансе (для файловой ИБ), либо в фоновом задании на сервере (для серверной ИБ)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run the scheduled job in this session (for file infobases) or as a background job (for server infobases).</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1612,11 +1925,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить регламентное задание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable the scheduled job.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьРегламентноеЗадание</Action>
@@ -1628,11 +1949,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выключить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Disable</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выключить регламентное задание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Disable the scheduled job.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыключитьРегламентноеЗадание</Action>
@@ -1644,11 +1973,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить список заданий</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh the list of scheduled jobs.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F5</Shortcut>
@@ -1666,11 +2003,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать все задания</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать все задания</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show all scheduled jobs.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказатьВсеЗадания</Action>
@@ -1682,11 +2027,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить не в фоне</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Don't run in the background</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вызывает регламентное задание напрямую, для целей отладки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Users will see the scheduled job progress. Used for debugging.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыполнитьНеВФоне</Action>
@@ -1698,11 +2051,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>События журнала регистрации</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Event Log records</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать события журнала регистрации для выбранного задания</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show event log records for the selected scheduled job.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1716,37 +2077,37 @@
 	<CommandInterface>
 		<NavigationPanel>
 			<Item>
-				<Command>0</Command>
+				<Command>0:f7ccc574-d6c3-495a-86b4-7e24e75502d9</Command>
 				<Type>Auto</Type>
 				<CommandGroup>FormNavigationPanelImportant</CommandGroup>
 				<Index>2</Index>
 			</Item>
 			<Item>
-				<Command>0</Command>
+				<Command>0:49440928-bbd6-4c6a-bf40-af70a34d7372</Command>
 				<Type>Auto</Type>
 				<CommandGroup>FormNavigationPanelImportant</CommandGroup>
 			</Item>
 			<Item>
-				<Command>0</Command>
+				<Command>0:721481be-40e4-45b6-9530-ad7fb0c60429</Command>
 				<Type>Auto</Type>
 				<CommandGroup>FormNavigationPanelImportant</CommandGroup>
 				<Index>1</Index>
 			</Item>
 			<Item>
-				<Command>0</Command>
+				<Command>0:f7ccc574-d6c3-495a-86b4-7e24e75502d9</Command>
 				<Type>Added</Type>
 				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
 				<Index>1</Index>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>
 			<Item>
-				<Command>0</Command>
+				<Command>0:49440928-bbd6-4c6a-bf40-af70a34d7372</Command>
 				<Type>Added</Type>
 				<CommandGroup>FormNavigationPanelImportant</CommandGroup>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>
 			<Item>
-				<Command>0</Command>
+				<Command>0:721481be-40e4-45b6-9530-ad7fb0c60429</Command>
 				<Type>Added</Type>
 				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
 				<DefaultVisible>false</DefaultVisible>

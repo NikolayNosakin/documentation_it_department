@@ -12,6 +12,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Кнопки пояснения</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Note buttons</v8:content>
+					</v8:item>
 				</Title>
 				<GroupVerticalAlign>Bottom</GroupVerticalAlign>
 				<ExtendedTooltip name="КнопкиПоясненияExtendedTooltip" id="35"/>
@@ -26,6 +30,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>ОК</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>OK</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ОКExtendedTooltip" id="36"/>
 					</Button>
@@ -36,6 +44,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Кнопки предупреждения</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Warning buttons</v8:content>
 					</v8:item>
 				</Title>
 				<GroupVerticalAlign>Bottom</GroupVerticalAlign>
@@ -67,6 +79,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Диалоги пользователя</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User dialog boxes</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ДиалогиПользователяExtendedTooltip" id="28"/>
@@ -76,6 +92,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект не используется</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object not used</v8:content>
 						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
@@ -87,6 +107,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пояснения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Notes</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ПоясненияExtendedTooltip" id="30"/>
@@ -96,6 +120,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Пояснение дополнительного реквизита</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Note to additional attribute</v8:content>
 										</v8:item>
 									</Title>
 									<ShowTitle>false</ShowTitle>
@@ -112,6 +140,12 @@
 
 Тип значения и имя дополнительного реквизита можно изменять.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>The additional attribute is not used in the application.
+
+You can edit its name and value type.</v8:content>
+												</v8:item>
 											</Title>
 											<VerticalAlign>Top</VerticalAlign>
 											<ContextMenu name="ТекстПоясненияДополнительногоРеквизитаКонтекстноеМеню" id="24"/>
@@ -124,6 +158,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Пояснение дополнительного сведения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Note to additional information record</v8:content>
 										</v8:item>
 									</Title>
 									<ShowTitle>false</ShowTitle>
@@ -139,6 +177,12 @@
 													<v8:content>Дополнительное сведение не используется в информационной базе.
 
 Тип значения и имя дополнительного сведения можно изменять.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>The additional information record is not used in the application.
+
+You can edit its name and value type.</v8:content>
 												</v8:item>
 											</Title>
 											<VerticalAlign>Top</VerticalAlign>
@@ -157,6 +201,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект используется</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object is used</v8:content>
+						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ОбъектИспользуетсяExtendedTooltip" id="37"/>
@@ -167,6 +215,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Предупреждения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Warnings</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ПредупрежденияExtendedTooltip" id="38"/>
@@ -176,6 +228,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Предупреждение дополнительного реквизита</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Additional attribute warning</v8:content>
 										</v8:item>
 									</Title>
 									<ShowTitle>false</ShowTitle>
@@ -192,6 +248,12 @@
 
 Изменение типа значения дополнительного реквизита может привести к потере ранее установленных значений его текущего типа.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Warning. Additional attribute is used in the application.
+
+If you edit its value type, some of the current values might be lost.</v8:content>
+												</v8:item>
 											</Title>
 											<VerticalAlign>Top</VerticalAlign>
 											<ContextMenu name="ТекстПредупрежденияДополнительногоРеквизитаКонтекстноеМеню" id="7"/>
@@ -204,6 +266,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Предупреждение дополнительного сведения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Additional information record warning</v8:content>
 										</v8:item>
 									</Title>
 									<ShowTitle>false</ShowTitle>
@@ -219,6 +285,12 @@
 													<v8:content>Внимание! Дополнительное сведение уже используется в информационной базе.
 
 Изменение типа значения дополнительного сведения может привести к потере ранее установленных значений его текущего типа.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Warning. Additional information record is used in the application.
+
+If you edit its value type, some of the current values might be lost.</v8:content>
 												</v8:item>
 											</Title>
 											<VerticalAlign>Top</VerticalAlign>
@@ -242,11 +314,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разрешить редактирование</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow edit</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разрешить редактирование</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow edit</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>РазрешитьРедактирование</Action>

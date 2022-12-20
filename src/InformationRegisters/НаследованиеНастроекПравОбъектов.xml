@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Наследование настроек прав объектов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object access rights settings inheritance</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -178,6 +182,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наследовать</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Inherit</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -190,6 +198,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение настройки наследования (когда Объект = Родитель).</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Inherit the setting value if Object = Parent.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -222,6 +234,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уровень использования</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Usage level</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -241,6 +257,12 @@
 							<v8:content>Вспомогательный реквизит, используемый в шаблонах ограничения доступа к данным.
 0 - использовать всегда,
 1 - наследовать.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An additional attribute used in data access restriction templates.
+0 - always use,
+1 - inherit.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -273,6 +295,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -285,6 +311,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект для которого настраивается наследование прав.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An object.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -320,6 +350,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Родитель</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parent</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -332,6 +366,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Родитель объекта или сам объект.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An object's parent or the object itself.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

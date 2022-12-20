@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Выбрать дом, строение</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Select house or building</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -21,6 +25,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
 			<Behavior>Usual</Behavior>
@@ -33,6 +41,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Кнопка выбрать</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Select button</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаКнопкаВыбратьРасширеннаяПодсказка" id="62"/>
@@ -51,6 +63,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список домов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>House list</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -65,6 +81,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Поиск по номеру дома или номеру строения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Search by number of house or building</v8:content>
+								</v8:item>
 							</ToolTip>
 							<ClearButton>true</ClearButton>
 							<EditTextUpdate>DontUse</EditTextUpdate>
@@ -72,6 +92,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Номер дома, корпуса</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>House or unit number</v8:content>
 								</v8:item>
 							</InputHint>
 							<ContextMenu name="НайтиКонтекстноеМеню" id="55"/>
@@ -100,6 +124,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дом, Владение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>House, Estate</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSet>
@@ -151,6 +179,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дом, Владение, Домовладение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>House, Estate, Household</v8:content>
+						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="СписокДомовДомКонтекстноеМеню" id="17"/>
@@ -171,6 +203,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список адресных объектов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Address object list</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -223,6 +259,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -242,6 +282,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Найти</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Find</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -283,11 +327,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Выбрать</Action>
@@ -299,11 +351,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Найти</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Find</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Найти</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Find</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -314,11 +374,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить поиск</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel search</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить поиск</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel search</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

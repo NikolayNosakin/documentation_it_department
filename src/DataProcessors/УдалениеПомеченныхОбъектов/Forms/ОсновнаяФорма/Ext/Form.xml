@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Удаление помеченных объектов</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Marked objects deletion</v8:content>
+		</v8:item>
 	</Title>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
@@ -46,6 +50,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки отбора поиска</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search filter settings</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -57,6 +65,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Показывать:</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Show:</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="Декорация2КонтекстноеМеню" id="526"/>
@@ -74,6 +86,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Все помеченные на удаление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>All objects marked for deletion</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="НастроитьОтборРасширеннаяПодсказка" id="522"/>
 				</Button>
@@ -84,6 +100,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель формы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Form command bar</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSource>Form</CommandSource>
@@ -97,6 +117,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Удалить</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Delete</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка7" id="563"/>
@@ -212,6 +236,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Действия</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Actions</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="Группа1РасширеннаяПодсказка18" id="640"/>
 									<ChildItems>
@@ -250,6 +278,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы отображение состояния</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>State display pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка19" id="646"/>
@@ -259,6 +291,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состояние выполняется</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>In progress state</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -271,6 +307,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Декорация значок длительной операции</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Long-running operation icon decoration</v8:content>
 								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -287,6 +327,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пояснение к длительной операции</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Note to long-running operation</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -301,6 +345,11 @@
 											<v8:content>Выполняется удаление всех помеченных на удаление.
 Поиск помеченных</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Deleting all objects marked for deletion.
+Searching for marked objects</v8:content>
+										</v8:item>
 									</Title>
 									<GroupVerticalAlign>Center</GroupVerticalAlign>
 									<ContextMenu name="Декорация3КонтекстноеМеню" id="583"/>
@@ -312,6 +361,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Представление прогресса</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Progress presentation</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация1КонтекстноеМеню" id="709"/>
@@ -333,6 +386,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состояние выполнено</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Completed state</v8:content>
+						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
 					<ShowTitle>false</ShowTitle>
@@ -343,6 +400,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка успешно завершено с ошибками</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Picture successfully completed with errors</v8:content>
 								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -360,6 +421,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Удаление успешно завершено.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Deleted successfully.</v8:content>
+								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
 							<ContextMenu name="Декорация3КонтекстноеМеню1" id="703"/>
@@ -373,6 +438,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состояние выполнено с ошибками</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Completed with errors state</v8:content>
+						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
 					<ShowTitle>false</ShowTitle>
@@ -383,6 +452,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка успешно завершено с ошибками</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Picture successfully completed with errors</v8:content>
 								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -400,6 +473,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Произошла ошибка.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>An error occurred.</v8:content>
+								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
 							<ContextMenu name="Декорация3КонтекстноеМеню2" id="677"/>
@@ -411,6 +488,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подробнее</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Details</v8:content>
 								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -429,6 +510,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состояние удаление не требуется</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Deletion is not required state</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -451,6 +536,11 @@
 									<v8:content>Удаление не требуется.
 Нет объектов, помеченных на удаление.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>There are no objects marked for deletion.
+</v8:content>
+								</v8:item>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
 							<ContextMenu name="НадписьУдалениеНеТребуетсяКонтекстноеМеню" id="182"/>
@@ -464,6 +554,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состояние удаление не требуется</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Deletion is not required state</v8:content>
+						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
 					<ExtendedTooltip name="Группа1РасширеннаяПодсказка9" id="720"/>
@@ -473,6 +567,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка состояние частичное удаление</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Picture state partial deletion</v8:content>
 								</v8:item>
 							</Title>
 							<Picture>
@@ -490,6 +588,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Объекты удалены частично</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Objects are deleted partially</v8:content>
+								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
 							<VerticalAlign>Center</VerticalAlign>
@@ -506,6 +608,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы информация</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Information pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка4" id="537"/>
@@ -515,6 +621,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница выбор обрабатываемых объектов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Select objects to process page</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="Группа1РасширеннаяПодсказка6" id="541"/>
@@ -539,6 +649,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дерево помеченных на удаление</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Tree of objects marked for deletion</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -641,6 +755,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Строка списка помеченных</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>List of objects marked for deletion line</v8:content>
+										</v8:item>
 									</Title>
 									<Width>20</Width>
 									<Group>InCell</Group>
@@ -680,6 +798,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница причины невозможности удаления</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Deletion failure reasons page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаПричиныНевозможностиУдаленияРасширеннаяПодсказка" id="101"/>
 					<ChildItems>
@@ -688,6 +810,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Не удаленные</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Skipped objects</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -701,6 +827,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Не удаленные таблица</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Skipped objects table</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -717,6 +847,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Надпись итоги частичного удаления</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Partial deletion results label</v8:content>
 												</v8:item>
 											</Title>
 											<VerticalAlign>Center</VerticalAlign>
@@ -748,6 +882,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Не удаленные</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Skipped objects</v8:content>
 												</v8:item>
 											</Title>
 											<CommandSet>
@@ -844,6 +982,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Причины</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Reasons</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -872,6 +1014,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Страницы вариантов отображения причин</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Deletion failure reasons pages</v8:content>
+												</v8:item>
 											</Title>
 											<PagesRepresentation>None</PagesRepresentation>
 											<ExtendedTooltip name="СтраницыВариантовОтображенияПричинРасширеннаяПодсказка" id="256"/>
@@ -881,6 +1027,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страница причины не удаления</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Deletion failure reasons page</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="СтраницаПричиныНеУдаленияРасширеннаяПодсказка" id="258"/>
@@ -905,6 +1055,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Места использования неудаленных</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Skipped objects usage locations</v8:content>
 																</v8:item>
 															</Title>
 															<CommandSet>
@@ -987,6 +1141,10 @@
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Пометить на удаление и удалить</v8:content>
 																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Mark for deletion and delete</v8:content>
+																					</v8:item>
 																				</Presentation>
 																				<Value xsi:type="xs:string">ПометитьНаУдаление</Value>
 																			</xr:Value>
@@ -999,6 +1157,10 @@
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Заменить ссылку</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Replace reference</v8:content>
 																					</v8:item>
 																				</Presentation>
 																				<Value xsi:type="xs:string">ЗаменитьСсылку</Value>
@@ -1022,6 +1184,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страница текст ошибки</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Error text page</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="СтраницаТекстОшибкиРасширеннаяПодсказка" id="260"/>
 													<ChildItems>
@@ -1030,6 +1196,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Текст ошибки</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Error text</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
@@ -1044,6 +1214,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Текст ошибки</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Error text</v8:content>
+																		</v8:item>
 																	</Title>
 																	<ContextMenu name="Декорация2КонтекстноеМеню1" id="637"/>
 																	<ExtendedTooltip name="Декорация2РасширеннаяПодсказка1" id="638"/>
@@ -1054,6 +1228,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Подробнее</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Details</v8:content>
 																		</v8:item>
 																	</Title>
 																	<GroupHorizontalAlign>Left</GroupHorizontalAlign>
@@ -1086,6 +1264,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Картинок</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pictures</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -1117,6 +1299,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Информация32</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Information32</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>CommonPicture.Информация32</xr:Ref>
@@ -1132,6 +1318,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Внимание16</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Attention16</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
@@ -1146,6 +1336,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Информация16</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Information16</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -1172,6 +1366,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список помеченных на удаление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List of objects marked for deletion</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -1182,6 +1380,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пометка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Mark</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1201,6 +1403,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1248,6 +1454,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не удаленные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Skipped objects</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -1281,6 +1491,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1379,6 +1593,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не удаленные подсказка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Skipped objects tooltip</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1457,6 +1675,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Связи не удаленных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Dependencies of skipped objects</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -1483,6 +1705,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1537,6 +1763,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Действие представление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Action presentation</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1709,11 +1939,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить все флажки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить все флажки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1729,11 +1967,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять все флажки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять все флажки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1749,11 +1995,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить список помеченных на удаление</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh the list of objects marked for deletion.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F5</Shortcut>
@@ -1771,11 +2025,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дерево помеченных на удаление изменить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Tree of objects marked for deletion edit</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F2</Shortcut>
@@ -1792,6 +2054,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить выбранные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete selected objects</v8:content>
+				</v8:item>
 			</Title>
 			<Action>УдалитьВыбранные</Action>
 		</Command>
@@ -1800,6 +2066,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить отбор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure filter</v8:content>
 				</v8:item>
 			</Title>
 			<Action>НастроитьОтбор</Action>
@@ -1810,6 +2080,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure…</v8:content>
+				</v8:item>
 			</Title>
 			<Action>Настроить</Action>
 		</Command>
@@ -1818,6 +2092,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update</v8:content>
 				</v8:item>
 			</Title>
 			<Shortcut>F5</Shortcut>
@@ -1834,6 +2112,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
+				</v8:item>
 			</Title>
 			<Action>ОтменитьОперацию</Action>
 		</Command>
@@ -1843,11 +2125,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>К списку помеченных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to objects marked for deletion</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вернуться к выбору объектов для удаления</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to objects marked for deletion</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КВыборуОбъектов</Action>
@@ -1858,6 +2148,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Повторить удаление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Retry deletion</v8:content>
+				</v8:item>
 			</Title>
 			<Action>ВыполнитьДействияИУдалить</Action>
 		</Command>
@@ -1866,6 +2160,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -1881,6 +2179,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete</v8:content>
+				</v8:item>
 			</Title>
 			<Action>УстановитьУдалить</Action>
 		</Command>
@@ -1890,6 +2192,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заменить на...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Replace with...</v8:content>
+				</v8:item>
 			</Title>
 			<Action>УстановитьЗаменитьНа</Action>
 		</Command>
@@ -1898,6 +2204,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Свернуть строки дерева выбора помеченных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Collapse rows of marked object tree</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -1912,6 +2222,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Развернуть строки дерева помеченных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Expand rows of marked object tree</v8:content>
+				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>StdPicture.ExpandAll</xr:Ref>
@@ -1925,11 +2239,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить / снять пометку удаления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Toggle deletion mark</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить снять пометку удаления</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Toggle deletion mark</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

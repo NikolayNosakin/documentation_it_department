@@ -28,6 +28,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заголовок</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -41,6 +45,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка печатных форм, вариантов отчетов, рассылок отчетов, дополнительных отчетов и обработок.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configure print forms, report options, report distribution, and additional reports and data processors.</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalAlign>Top</VerticalAlign>
 					<ContextMenu name="ОписаниеРазделаКонтекстноеМеню" id="1582"/>
@@ -51,6 +59,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Справка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Help</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаСправкаExtendedTooltip" id="1603"/>
@@ -70,6 +82,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Колонки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Columns</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -83,6 +99,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Печать</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Print</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
@@ -95,6 +115,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Макеты печатных форм</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Print form templates</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -115,6 +139,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Настройка макетов печатных форм документов.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Configure templates of document print forms.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -128,6 +156,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Настройка списка языков, на которых доступен вывод печатных форм.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Select the languages you want to translate print forms to.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -138,6 +170,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю печать</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Submenu print</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -156,6 +192,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Подменю "Печать"</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>"Print" menu</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="1683">
@@ -165,6 +205,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Настройка видимости команд печати в формах.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Configure visibility of print commands in forms.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -173,6 +217,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Автоматический перевод</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Automatic translation</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -186,6 +234,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Предлагать автоматический перевод текста при редактировании макетов печатных форм и вводе реквизитов на выбранных языках.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Suggest machine translation when users edit print forms or enter attribute values in the selected languages.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 									<ChildItems>
@@ -194,6 +246,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Перевод текста</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Translator</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>None</TitleLocation>
@@ -209,6 +265,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Перевод текста с помощью онлайн-переводчика</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Translate text with online service</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="НастройкаСервисаПереводаТекстаКонтекстноеМеню" id="1723"/>
@@ -229,6 +289,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Варианты рассылки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Options distribution</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
@@ -241,6 +305,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отчеты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Reports</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -260,6 +328,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Администрирование списка всех вариантов отчетов, назначение ответственных и настройка видимости.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Administer report options, assign people responsible to reports, and configure report visibility.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -270,6 +342,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Рассылки отчетов</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report distribution</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -289,6 +365,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Настройка списка рассылок отчетов, отправка по требованию или автоматически по расписанию.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Configure report distribution and send reports on demand or on schedule.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -302,6 +382,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Универсальный отчет расширения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Universal report extensions</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
@@ -314,6 +398,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Универсальный отчет</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Universal report</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -334,6 +422,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Просмотр произвольных справочников, документов, регистров и т.д.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>View any catalogs, documents, registers, and other objects.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -344,6 +436,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройка колонтитулов</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Header and footer settings</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -359,6 +455,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Настройка колонтитулов</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Configure headers and footers</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="НастройкаКолонтитуловРасширеннаяПодсказка" id="1695">
@@ -366,6 +466,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Установка номеров страниц, даты и других полей в колонтитулах отчетов при печати.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Add page numbers, dates, and other fields to report headers or footers when printing.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -380,6 +484,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расширения и внешние компоненты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Extensions and add-ins</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
@@ -392,6 +500,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Расширения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Extensions</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -411,6 +523,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Установка расширений: разделов, отчетов и обработок в дополнение к предусмотренным в программе.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Install extensions that add application sections, reports, or data processors.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -421,6 +537,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Внешние компоненты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Add-ins</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -440,6 +560,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Подключение внешних компонент сторонних поставщиков к программе.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Attach third-party add-ins to the application.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -453,6 +577,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные отчеты и обработки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional reports and data processors</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
@@ -465,6 +593,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительные отчеты и обработки использование</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Use additional reports and data processors</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -481,12 +613,20 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дополнительные отчеты и обработки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Additional reports and data processors</v8:content>
+										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Использование внешних печатных форм, отчетов и обработок в дополнение к предусмотренным в программе.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Use external print forms, reports, and data processors.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -504,6 +644,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительные отчеты и обработки настройка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure additional reports and data processors</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -524,6 +668,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Подключение внешних печатных форм, отчетов и обработок в дополнение к предусмотренным в программе.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Attach external print forms, reports, and data processors.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -539,6 +687,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Состояние оригиналов первичных документов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Source document originals state</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalStretch>false</HorizontalStretch>
 			<Behavior>Usual</Behavior>
@@ -551,6 +703,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состояние оригиналов первичных документов использование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Source document original states usage</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -565,6 +721,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отслеживание состояний напечатанных документов</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Track states of printed documents</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -575,6 +735,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Фиксирование наличия подписанных оригиналов первичных документов.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Record availability of signed source document originals.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -589,6 +753,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состояние оригиналов первичных документов настройка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Source document original states setting</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -605,6 +773,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Состояния оригиналов первичных документов</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Source document original states</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОткрытьСостоянияОригиналовПервичныхДокументовРасширеннаяПодсказка" id="1706">
@@ -612,6 +784,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Настройка состояний, которые будут использоваться при отслеживании оригиналов первичных документов.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Configure states that will be used upon tracking source document originals.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -641,6 +817,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительные отчеты и обработки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional reports and data processors</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ДополнительныеОтчетыИОбработки</Action>

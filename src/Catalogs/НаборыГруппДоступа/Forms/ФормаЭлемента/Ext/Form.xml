@@ -28,6 +28,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Горизонтальная группа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Horizontal group</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -55,6 +59,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тип элементов набора и хеш</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Type of set items and hash</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
@@ -89,6 +97,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Реквизиты наборов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Set attributes</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="РеквизитыНаборовРасширеннаяПодсказка" id="35"/>
@@ -98,6 +110,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Реквизиты набора групп</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group set attributes</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="РеквизитыНабораГруппРасширеннаяПодсказка" id="37"/>
@@ -113,6 +129,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Groups</v8:content>
 								</v8:item>
 							</Title>
 							<RowFilter xsi:nil="true"/>
@@ -166,6 +186,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Реквизиты набора из одного пользователя</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Single-user set attributes</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalSpacing>Double</VerticalSpacing>
 					<ExtendedTooltip name="РеквизитыНабораИзОдногоПользователяРасширеннаяПодсказка" id="39"/>
@@ -184,6 +208,11 @@
 									<v8:content>Разрешенный набор
 групп доступа</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Allowed access
+group set</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="РазрешенныйНаборГруппДоступаКонтекстноеМеню" id="41"/>
 							<ExtendedTooltip name="РазрешенныйНаборГруппДоступаРасширеннаяПодсказка" id="42"/>
@@ -195,6 +224,11 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Разрешенный набор
 групп пользователей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Allowed user
+group set</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="РазрешенныйНаборГруппПользователейКонтекстноеМеню" id="44"/>
@@ -208,6 +242,11 @@
 									<v8:content>Новый набор
 групп доступа</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>New access
+group set</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="НовыйНаборГруппДоступаКонтекстноеМеню" id="47"/>
 							<ExtendedTooltip name="НовыйНаборГруппДоступаРасширеннаяПодсказка" id="48"/>
@@ -219,6 +258,11 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Новый набор
 групп пользователей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>New user
+group set</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="НовыйНаборГруппПользователейКонтекстноеМеню" id="50"/>
@@ -245,11 +289,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования только для целей поиска неисправности (требуется углубленное понимание работы механизма)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing for troubleshooting purposes. Recommended for advanced users only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>

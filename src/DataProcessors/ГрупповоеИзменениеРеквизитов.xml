@@ -18,6 +18,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Групповое изменение реквизитов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Bulk attribute editing</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -36,6 +40,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Изменять в транзакции</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Edit in transaction</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -48,6 +56,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>При невозможности изменения элементов в транзакции, все изменения будут отменены.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If edit in transaction fails, all changes are discarded.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -75,6 +87,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Прерывать при ошибке</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Abort on error</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -87,6 +103,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Предупреждать, если во время изменения элементов возникнут ошибки.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Notify when edit errors occur.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -114,6 +134,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Используются доп реквизиты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Have additional attributes</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -126,6 +150,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>У изменяемых объектов есть дополнительные реквизиты.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Objects that are subject to bulk modification have additional attributes.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -153,6 +181,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Используются доп сведения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Have additional information</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -165,6 +197,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>У изменяемых объектов есть дополнительные сведения.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Objects that are subject to bulk modification have additional information records.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -192,6 +228,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Показывать служебные реквизиты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Show service attributes</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -204,6 +244,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отображать служебные реквизиты в общем списке реквизитов.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Show service attributes in the list of common attributes.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -231,6 +275,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Режим разработчика</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Developer mode</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -243,6 +291,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выполнять запись объектов в режиме ОбменДанными.Загрузка = Истина.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Write objects with DataExchange.Import = True.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -270,6 +322,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип операции</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Operation type</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -286,6 +342,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Способ обработки выбранных элементов.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The method of processing selected items.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -313,6 +373,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Режим выполнения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Edit mode</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -330,6 +394,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Определяет вариант изменения реквизитов  замена значений или произвольным алгоритмом.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Attribute edit mode: manually or custom algorithm.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -357,6 +425,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вариант записи объекта</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object saving option</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -373,6 +445,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект может быть записан автоматически после выполнения алгоритма или необходимость записи определяется в коде.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Sets when the object is written: after algorithm is executed or specified by developer in the algorithm code.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -405,6 +481,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Групповое изменение реквизитов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Bulk edit</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Group>ActionsPanelTools</Group>
@@ -416,6 +496,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Групповое изменение реквизитов и табличных частей произвольных объектов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Bulk edit of attributes and tabular sections.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture/>

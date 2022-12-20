@@ -20,6 +20,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Основная информация</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main information</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -32,6 +36,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип и настройки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Type and settings</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -84,6 +92,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тип контактной информации</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Contact information type</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -95,6 +107,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип общие для всех</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Settings common to all types</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -117,6 +133,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Редактировать</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Edit</v8:content>
+								</v8:item>
 							</Title>
 							<Width>15</Width>
 							<ListChoiceMode>true</ListChoiceMode>
@@ -132,6 +152,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>В диалоге</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>In dialog box</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">Диалог</Value>
 									</xr:Value>
@@ -145,6 +169,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>В поле ввода</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>In input field</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">ПолеВвода</Value>
 									</xr:Value>
@@ -157,6 +185,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>В диалоге и поле ввода</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>In dialog box and input field</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">ПолеВводаИДиалог</Value>
@@ -174,6 +206,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Хранить историю изменений</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Store change history</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -194,6 +230,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Поле контактной информации хранит не только текущее значение, но и его историю изменений на указанную дату. Для просмотра истории выберите в контекстном меню пункт "История изменений".</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The contact information field stores not only the current value but also its change history for the specified date. To view the history, select "Change history" in the context menu.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
 									<CheckBoxType>Auto</CheckBoxType>
@@ -213,6 +253,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Разрешить ввод нескольких значений одного вида</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Allow users to enter multiple values of the same contact information type.</v8:content>
+								</v8:item>
 							</ToolTip>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РазрешитьВводНесколькихЗначенийКонтекстноеМеню" id="81"/>
@@ -229,6 +273,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование настройки по типам</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Type-specific settings</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -242,6 +290,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Проверки</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Validation</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ПроверкиExtendedTooltip" id="99"/>
@@ -251,6 +303,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Адрес</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Address</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="АдресExtendedTooltip" id="100"/>
@@ -285,6 +341,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Адрес электронной почты</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Email address</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="АдресЭлектроннойПочтыExtendedTooltip" id="108"/>
 									<ChildItems>
@@ -294,6 +354,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Запрещать ввод некорректных адресов</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Forbid invalid address entries</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
@@ -308,6 +372,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Телефон</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Phone</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="133"/>
@@ -326,6 +394,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Запрещать ввод некорректных номеров</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Prevent entry of invalid phone numbers</v8:content>
+												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<CheckBoxType>Auto</CheckBoxType>
@@ -339,6 +411,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Вводить номер по маске:</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Enter number by mask:</v8:content>
+												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<CheckBoxType>Auto</CheckBoxType>
@@ -350,6 +426,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Маска телефона</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Phone mask</v8:content>
 												</v8:item>
 											</Title>
 											<Behavior>Usual</Behavior>
@@ -374,22 +454,39 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>+9 (999) 999-99-99</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>+9 (999) 999-99-99</v8:content>
+														</v8:item>
 													</InputHint>
 													<ContextMenu name="ШаблонМаскиНомераТелефонаКонтекстноеМеню" id="182"/>
 													<ExtendedTooltip name="ШаблонМаскиНомераТелефонаРасширеннаяПодсказка" id="183">
 														<Title formatted="true">
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;В строке маски допустимо использование следующих специальных символов:&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;! - любой введенный символ преобразуется в верхний регистр;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;9 - допустимо ввести произвольный символ цифры;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;# - допустимо ввести произвольный символ цифры или - (знак минус) или + (знак плюс) или пробел;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;N - допустимо ввести любые алфавитно-цифровые символы (буквы или цифры);&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;U - допустимо ввести любые алфавитно-цифровые символы (буквы или цифры) и любой введенный символ преобразуется в верхний регистр;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;X (латинского алфавита) - допустимо ввести произвольный символ;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;^ - недопустимо вводить этот символ интерактивно пользователем, он может устанавливаться только из языка;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;@ – допустимо ввести любые алфавитно-цифровые символы (буквы или цифры) в верхнем регистре или пробел.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-</v8:content>
+																<v8:content>&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;В строке маски допустимо использование следующих специальных символов:&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;! - любой введенный символ преобразуется в верхний регистр;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;9 - допустимо ввести произвольный символ цифры;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;# - допустимо ввести произвольный символ цифры или - (знак минус) или + (знак плюс) или пробел;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;N - допустимо ввести любые алфавитно-цифровые символы (буквы или цифры);&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;U - допустимо ввести любые алфавитно-цифровые символы (буквы или цифры) и любой введенный символ преобразуется в верхний регистр;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;X (латинского алфавита) - допустимо ввести произвольный символ;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;^ - недопустимо вводить этот символ интерактивно пользователем, он может устанавливаться только из языка;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;@ – допустимо ввести любые алфавитно-цифровые символы (буквы или цифры) в верхнем регистре или пробел.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;In a mask string, you can use the following special characters:&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;! - any entered character is converted to uppercase.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;9 - you can enter an arbitrary digit.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;# - you can enter an arbitrary digit, the minus sign, the plus sign, or space.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;N - you can enter any alphanumeric characters (letters and digits).&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;U - you can enter any alphanumeric characters (letters and digits), and any entered character is converted to uppercase.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;X - you can enter any arbitrary character.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;^ - you cannot enter this character manually, it can be set only from 1C:Enterprise language.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;@ - you can enter any alphanumeric characters (letters and digits) in uppercase or space.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
 															</v8:item>
 														</Title>
 													</ExtendedTooltip>
@@ -402,6 +499,10 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>Skype</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>Skype</v8:content>
 										</v8:item>
 									</Title>
@@ -419,6 +520,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Другое</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Other</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ДругоеExtendedTooltip" id="110"/>
 									<ChildItems>
@@ -428,6 +533,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Вид поля</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Field kind</v8:content>
 												</v8:item>
 											</Title>
 											<RadioButtonType>Auto</RadioButtonType>
@@ -442,6 +551,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Многострочное широкое</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Multiline wide</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">МногострочноеШирокое</Value>
 													</xr:Value>
@@ -455,6 +568,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Однострочное широкое</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Single line wide</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">ОднострочноеШирокое</Value>
 													</xr:Value>
@@ -467,6 +584,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Однострочное узкое</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Single line narrow</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">ОднострочноеУзкое</Value>
@@ -483,6 +604,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Прочие</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Other</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ПрочиеРасширеннаяПодсказка" id="141"/>
@@ -504,6 +629,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Идентификатор для формул</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>ID for formulas</v8:content>
 				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
@@ -562,11 +691,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительные настройки адреса</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Advanced address settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительные настройки адреса</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Advanced address settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДополнительныеНастройкиАдреса</Action>
@@ -578,11 +715,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заполнить идентификатор для формул</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill in ID for formulas</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заполнить идентификатор для формул</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill in ID for formulas</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

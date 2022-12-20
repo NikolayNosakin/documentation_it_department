@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Зависимости прав доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access rights dependencies</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -178,6 +182,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подчиненная таблица</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Subordinate table</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Полное имя подчиненной таблицы</Comment>
 					<Type>
@@ -191,6 +199,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>При проверке права на элемент данных подчиненной таблицы проверяется право и
 ограничение права на объект ведущей таблицы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Checking an access right for a data item of a subordinate table includes checking an access right
+and an access right restriction for the main table object.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -226,6 +239,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип ведущей таблицы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main table type</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>АПК:1330 - №728.2.1 Допустимо использование универсального ссылочного типа, так как это универсальный механизм и только для RLS в формате БСП 2.х (устарел)</Comment>
 					<Type>
@@ -246,6 +263,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>При проверке права на элемент данных подчиненной таблицы проверяется право и
 ограничение права на объект ведущей таблицы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Checking an access right for a data item of a subordinate table includes checking an access right
+and an access right restriction for the main table object.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

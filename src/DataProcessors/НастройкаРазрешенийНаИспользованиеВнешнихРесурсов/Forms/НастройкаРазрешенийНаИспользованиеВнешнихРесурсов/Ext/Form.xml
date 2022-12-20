@@ -19,6 +19,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы глобальный</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages global</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыГлобальныйРасширеннаяПодсказка" id="206"/>
@@ -29,6 +33,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница действия</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Actions page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаДействияРасширеннаяПодсказка" id="210"/>
 					<ChildItems>
@@ -37,6 +45,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Pages</v8:content>
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
@@ -48,6 +60,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница разрешения</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Permissions page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаРазрешенияРасширеннаяПодсказка" id="64"/>
 									<ChildItems>
@@ -56,6 +72,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Шапка</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Header</v8:content>
 												</v8:item>
 											</Title>
 											<Behavior>Usual</Behavior>
@@ -69,6 +89,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страницы шапка</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Pages header</v8:content>
+														</v8:item>
 													</Title>
 													<Height>4</Height>
 													<PagesRepresentation>None</PagesRepresentation>
@@ -80,6 +104,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница шапка при включении будут установлены следующие настройки в кластере</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Settings in cluster to set on enable header page</v8:content>
+																</v8:item>
 															</Title>
 															<Group>HorizontalIfPossible</Group>
 															<ExtendedTooltip name="СтраницаШапкаПриВключенииБудутУстановленыСледующиеНастройкиВКластереРасширеннаяПодсказка" id="253"/>
@@ -89,6 +117,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Информация при включении будут установлены следующие настройки в кластере</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Settings in cluster to set on enable header information</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Picture>
@@ -106,6 +138,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>При включении использования профилей безопасности в кластере серверов 1С:Предприятия для текущей информационной базы будут предоставлены следующие разрешения: </v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>The following permissions will be supplied for the current infobase on enabling security profile usage in 1C:Enterprise server cluster:</v8:content>
+																		</v8:item>
 																	</Title>
 																	<ContextMenu name="ШапкаПриВключенииБудутУстановленыСледующиеНастройкиВКластереКонтекстноеМеню" id="255"/>
 																	<ExtendedTooltip name="ШапкаПриВключенииБудутУстановленыСледующиеНастройкиВКластереРасширеннаяПодсказка" id="256"/>
@@ -118,6 +154,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница шапка требуется внести изменения в кластере</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Changes in cluster required header page</v8:content>
+																</v8:item>
 															</Title>
 															<Group>HorizontalIfPossible</Group>
 															<ExtendedTooltip name="СтраницаШапкаТребуетсяВнестиИзмененияВКластереРасширеннаяПодсказка" id="247"/>
@@ -127,6 +167,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Предупреждение требуется внести изменения в кластере</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Changes in cluster required warning</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Picture>
@@ -147,6 +191,13 @@
 Для продолжения выполняемого действия требуется внести изменения в состав разрешений в профиле безопасности:
 </v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>The security profiles limiting the access to external resources are set up for this infobase in the cluster of 1C:Enterprise servers. 
+
+Make changes to the permissions in the security profile to continue:
+</v8:content>
+																		</v8:item>
 																	</Title>
 																	<ContextMenu name="ШапкаТребуетсяВнестиИзмененияВКластереКонтекстноеМеню" id="75"/>
 																	<ExtendedTooltip name="ШапкаТребуетсяВнестиИзмененияВКластереРасширеннаяПодсказка" id="76"/>
@@ -159,6 +210,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница шапка при восстановлении будут установлены следующие настройки в кластере</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Settings in cluster to set on recovery header page</v8:content>
+																</v8:item>
 															</Title>
 															<Group>HorizontalIfPossible</Group>
 															<ExtendedTooltip name="СтраницаШапкаПриВосстановленииБудутУстановленыСледующиеНастройкиВКластереРасширеннаяПодсказка" id="249"/>
@@ -168,6 +223,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Информация при включении будут установлены следующие настройки в кластере</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Settings in cluster to set on enable header information</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Picture>
@@ -185,6 +244,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>При восстановлении профилей безопасности в кластере серверов 1С:Предприятия для текущей информационной базы будут предоставлены следующие разрешения: </v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>The following permissions will be supplied for the current infobase on restoring security profiles in 1C:Enterprise server cluster:</v8:content>
+																		</v8:item>
 																	</Title>
 																	<ContextMenu name="ШапкаПриВосстановленииБудутУстановленыСледующиеНастройкиВКластереКонтекстноеМеню" id="234"/>
 																	<ExtendedTooltip name="ШапкаПриВосстановленииБудутУстановленыСледующиеНастройкиВКластереРасширеннаяПодсказка" id="235"/>
@@ -197,6 +260,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница шапка требуется отменить неактуальные разрешения в кластере</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Obsolete permission cancellation required in cluster header page</v8:content>
+																</v8:item>
 															</Title>
 															<Group>HorizontalIfPossible</Group>
 															<ExtendedTooltip name="СтраницаШапкаТребуетсяОтменитьНеактуальныеРазрешенияВКластереРасширеннаяПодсказка" id="251"/>
@@ -206,6 +273,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Предупреждение требуется внести изменения в кластере</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Changes in cluster required warning</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Picture>
@@ -223,6 +294,11 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>В кластере серверов 1С:Предприятия для данной информационной базы настроены профили безопасности, ограничивающие доступ к внешним ресурсам.
 Требуется актуализировать настройки разрешений в профилях безопасности в кластере серверов, т.к. при использовании программы были изменены некоторые ее настройки (влияющие на использование программой внешних ресурсов):</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>The security profiles limiting the access to external resources are set up for this infobase in the cluster of 1C:Enterprise servers. 
+Update the settings of permissions in the security profiles in the server cluster as some of the application settings have been changed during its use (impacting the use of external resources by the application):</v8:content>
 																		</v8:item>
 																	</Title>
 																	<ContextMenu name="ШапкаТребуетсяОтменитьНеактуальныеРазрешенияВКластереКонтекстноеМеню" id="242"/>
@@ -252,6 +328,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница подключение</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Connection page</v8:content>
+										</v8:item>
 									</Title>
 									<Shortcut>Ctrl+S</Shortcut>
 									<ExtendedTooltip name="СтраницаПодключениеРасширеннаяПодсказка" id="66"/>
@@ -261,6 +341,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Ошибка</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Error</v8:content>
 												</v8:item>
 											</Title>
 											<Behavior>Usual</Behavior>
@@ -273,6 +357,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Декорация ошибка</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Error decoration</v8:content>
 														</v8:item>
 													</Title>
 													<Picture>
@@ -289,6 +377,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Описание ошибки</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Error details</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Usual</Behavior>
@@ -302,6 +394,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Не удалось настроить разрешения в профиле безопасности:</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Cannot set up permissions in the security profile:</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ОшибкаКонтекстноеМеню" id="86"/>
@@ -323,6 +419,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Ошибка версии COM соединителя</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>COM connector version error</v8:content>
+																</v8:item>
 															</Title>
 															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
@@ -336,6 +436,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>При ошибке версии компоненты "comcntr", требуется выполнить ее регистрацию (потребуется перезапуск сеанса).</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>In case of the version error of the "comcntr" component, it must be registered (session restart required).</v8:content>
+																		</v8:item>
 																	</Title>
 																	<ContextMenu name="ДекорацияОшибкаВерсииCOMСоединителяКонтекстноеМеню" id="193"/>
 																	<ExtendedTooltip name="ДекорацияОшибкаВерсииCOMСоединителяРасширеннаяПодсказка" id="194"/>
@@ -347,6 +451,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Зарегистрировать</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Register</v8:content>
 																		</v8:item>
 																	</Title>
 																	<ExtendedTooltip name="ПеререгистрироватьCOMСоединительРасширеннаяПодсказка" id="196"/>
@@ -363,6 +471,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Параметры подключения к кластеру</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cluster connection parameters</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -378,6 +490,11 @@
 															<v8:content>Для настройки разрешений в профиле безопасности укажите параметры подключения к кластеру серверов,
 в котором развернута информационная база:</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>To set up permissions in the security profile, specify the connection settings for the server cluster 
+where the infobase is deployed:</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="ПояснениеКонтекстноеМеню" id="92"/>
 													<ExtendedTooltip name="ПояснениеРасширеннаяПодсказка" id="93"/>
@@ -387,6 +504,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Основные параметры</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Main parameters</v8:content>
 														</v8:item>
 													</Title>
 													<Behavior>Usual</Behavior>
@@ -411,6 +532,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>COM-соединение с агентом сервера</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>COM connection to server agent</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">COM</Value>
 																	</xr:Value>
@@ -423,6 +548,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Подключение через сервер администрирования (ras)</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Connection through administration server (ras)</v8:content>
 																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">RAS</Value>
@@ -450,6 +579,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страницы параметры подключения к кластеру по протоколам</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Parameters for connecting to cluster through protocols pages</v8:content>
+														</v8:item>
 													</Title>
 													<PagesRepresentation>None</PagesRepresentation>
 													<ExtendedTooltip name="СтраницыПараметрыПодключенияККластеруПоПротоколамРасширеннаяПодсказка" id="132"/>
@@ -460,6 +593,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница параметры подключения к кластеру COM</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>COM cluster connection parameters page</v8:content>
+																</v8:item>
 															</Title>
 															<ExtendedTooltip name="СтраницаПараметрыПодключенияККластеруCOMРасширеннаяПодсказка" id="134"/>
 															<ChildItems>
@@ -468,6 +605,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Параметры подключения к кластеру COM</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>COM cluster connection parameters</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Behavior>Usual</Behavior>
@@ -482,6 +623,10 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Адрес агента сервера</v8:content>
 																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Server agent address</v8:content>
+																				</v8:item>
 																			</Title>
 																			<Width>30</Width>
 																			<HorizontalStretch>false</HorizontalStretch>
@@ -489,6 +634,10 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Имя или IP-адрес сервера</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Server IP address or name</v8:content>
 																				</v8:item>
 																			</InputHint>
 																			<ContextMenu name="АдресАгентаСервераКонтекстноеМеню" id="138"/>
@@ -500,6 +649,10 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Порт</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Port</v8:content>
 																				</v8:item>
 																			</Title>
 																			<ContextMenu name="ПортАгентаСервераКонтекстноеМеню" id="141"/>
@@ -515,6 +668,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница параметры подключения к кластеру RAS</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>RAS cluster connection parameters page</v8:content>
+																</v8:item>
 															</Title>
 															<ExtendedTooltip name="СтраницаПараметрыПодключенияККластеруRASРасширеннаяПодсказка" id="136"/>
 															<ChildItems>
@@ -523,6 +680,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Параметры подключения к кластеру RAS</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>RAS cluster connection parameters</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Shortcut>Ctrl+S</Shortcut>
@@ -538,6 +699,10 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Адрес сервера администрирования</v8:content>
 																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Administration server address</v8:content>
+																				</v8:item>
 																			</Title>
 																			<Width>30</Width>
 																			<HorizontalStretch>false</HorizontalStretch>
@@ -545,6 +710,10 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Имя или IP-адрес сервера</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Server IP address or name</v8:content>
 																				</v8:item>
 																			</InputHint>
 																			<ContextMenu name="АдресСервераАдминистрированияКонтекстноеМеню" id="144"/>
@@ -556,6 +725,10 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Порт</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Port</v8:content>
 																				</v8:item>
 																			</Title>
 																			<ContextMenu name="ПортСервераАдминистрированияКонтекстноеМеню" id="147"/>
@@ -575,6 +748,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Авторизация</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Authorization</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -587,6 +764,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Администратор кластера серверов 1С:Предприятие</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>1C:Enterprise server cluster administrator</v8:content>
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
@@ -603,6 +784,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Имя</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Name</v8:content>
+																</v8:item>
 															</Title>
 															<Width>35</Width>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -616,6 +801,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Пароль</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Password</v8:content>
 																</v8:item>
 															</Title>
 															<Width>35</Width>
@@ -633,6 +822,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Администратор информационной базы:</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Infobase administrator:</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Usual</Behavior>
@@ -648,11 +841,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Имя</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Name</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Администратор информационной базы, от имени которого выполняется настройка</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Infobase administrator who runs the configuration</v8:content>
 																</v8:item>
 															</ToolTip>
 															<Width>35</Width>
@@ -670,11 +871,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Пароль</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Password</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Пароль администратора информационной базы, от имени которого выполняется принудительное отключение сеансов</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>The infobase administrator password.</v8:content>
 																</v8:item>
 															</ToolTip>
 															<Width>35</Width>
@@ -694,6 +903,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Предупреждение о необходимости перезапуска</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Restart required warning</v8:content>
+												</v8:item>
 											</Title>
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
@@ -705,6 +918,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Декорация предупреждение о необходимости перезапуска картинка</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Restart required warning decoration picture</v8:content>
 														</v8:item>
 													</Title>
 													<Picture>
@@ -722,6 +939,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>После внесения изменений в настройки профилей безопасности в кластере серверов программа будет автоматически перезапущена.</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Once the security profile settings in the server cluster are changed, the application is restarted automatically.</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="ДекорацияПредупреждениеОНеобходимостиПерезапускаНадписьКонтекстноеМеню" id="203"/>
 													<ExtendedTooltip name="ДекорацияПредупреждениеОНеобходимостиПерезапускаНадписьРасширеннаяПодсказка" id="204"/>
@@ -738,6 +959,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -749,6 +974,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Командная панель слева</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Left command bar</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="КоманднаяПанельСлеваРасширеннаяПодсказка" id="111"/>
@@ -766,6 +995,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Командная панель справа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Right command bar</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalLocation>Right</HorizontalLocation>
@@ -804,6 +1037,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница операция не поддерживается в веб клиенте</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Operation not supported in web client page</v8:content>
+						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
 					<ExtendedTooltip name="СтраницаОперацияНеПоддерживаетсяВВебКлиентеРасширеннаяПодсказка" id="267"/>
@@ -813,6 +1050,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Операция не поддерживается в веб клиенте</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Operation is not supported in web client</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -825,6 +1066,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Декорация операция не поддерживается в веб клиенте</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Operation not supported in web client decoration</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -841,6 +1086,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Операция не поддерживается в веб клиенте подробности</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Operation is not supported in web client details</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -856,6 +1105,12 @@
 													<v8:content>В кластере серверов 1С:Предприятия для данной информационной базы настроены профили безопасности, ограничивающие доступ к внешним ресурсам.
 
 Для продолжения выполняемого действия требуется внести следующие изменения в настройки профилей безопасности в кластере серверов:</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>The security profiles limiting the access to external resources are set up for this infobase in the cluster of 1C:Enterprise servers. 
+
+To continue, make the following changes to the settings of security profiles in the server cluster:</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ЗаголовокОперацияНеПоддерживаетсяВВебКлиентеКонтекстноеМеню" id="272"/>
@@ -878,6 +1133,12 @@
 
 Для выполнения запрошенной операции требуется подключиться к программе с использованием тонкого клиента и повторить выполняемую операцию.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>You can not change the settings of security profiles in the server cluster when you access the application via web client.
+
+To execute the requested operation connect to the application via thin client and repeat the operation.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ЗаголовокОперацияНеПоддерживаетсяВВебКлиентеПродолжениеКонтекстноеМеню" id="280"/>
 											<ExtendedTooltip name="ЗаголовокОперацияНеПоддерживаетсяВВебКлиентеПродолжениеРасширеннаяПодсказка" id="281"/>
@@ -887,6 +1148,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Команды операция не поддерживается в веб клиенте</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Operation not supported in web client commands</v8:content>
 												</v8:item>
 											</Title>
 											<HorizontalLocation>Right</HorizontalLocation>
@@ -925,6 +1190,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя администратора кластера</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cluster administrator name</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -940,6 +1209,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль администратора кластера</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cluster administrator password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -954,6 +1227,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Порт агента сервера</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Server agent port</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -971,6 +1248,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Порт кластера серверов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Server cluster port</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -987,6 +1268,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Администратор ИБ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Infobase administrator</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
@@ -997,6 +1282,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль администратора ИБ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Infobase administrator password</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1013,6 +1302,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Текст ошибки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Error text</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1027,6 +1320,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление разрешений</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Permission presentation</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1045,6 +1342,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тип подключения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Connection type</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1059,6 +1360,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адрес агента сервера</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Server agent address</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1075,6 +1380,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адрес сервера администрирования</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Administration server address</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1089,6 +1398,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Порт сервера администрирования</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Administration server port</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1153,11 +1466,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Применить изменения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Apply the changes</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разрешить или запретить доступ к внешним ресурсам</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow or deny accessing external resources</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Далее</Action>
@@ -1169,11 +1490,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt; Назад</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt; Back</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Назад</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Back</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Назад</Action>
@@ -1185,11 +1514,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Зарегистрировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Register</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Зарегистрировать компоненту и перезапустить программу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Register component and restart application</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПеререгистрироватьCOMСоединитель</Action>

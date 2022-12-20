@@ -29,6 +29,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заголовок</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -42,6 +46,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Изменение заголовка программы, дополнительных реквизитов и других общих настроек.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Change the application name, additional attributes, and other general settings.</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalAlign>Top</VerticalAlign>
 					<ContextMenu name="ОписаниеРазделаКонтекстноеМеню" id="1764"/>
@@ -52,6 +60,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Справка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Help</v8:content>
 						</v8:item>
 					</Title>
 					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
@@ -72,6 +84,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки программы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Application settings</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -85,6 +101,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заголовок программы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Application name</v8:content>
 						</v8:item>
 					</Title>
 					<TitleLocation>Left</TitleLocation>
@@ -107,6 +127,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Публикация информационной базы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Infobase publishing</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
@@ -123,6 +147,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адреса публикации предназначены для формирования ссылок на объекты информационной базы для пользователей, имеющих доступ к базе через публикацию в сети Интернет, либо в локальной сети.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use these addresses to generate references to infobase objects for users of infobases that are published in the Internet or in the local network.</v8:content>
+						</v8:item>
 					</Title>
 					<TitleHeight>2</TitleHeight>
 					<ContextMenu name="ПояснениеПоПубликацииКонтекстноеМеню" id="2041"/>
@@ -135,11 +163,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес в Интернете</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Internet address</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Используется для формирования ссылок на объекты информационной базы, доступных через публикацию в сети Интернет.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use this address to generate references for infobases that are published in the Internet.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ChoiceButton>true</ChoiceButton>
@@ -151,6 +187,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Например: http://myserver.com</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Example: http://myserver.com</v8:content>
 						</v8:item>
 					</InputHint>
 					<ContextMenu name="АдресПубликацииИнформационнойБазыВИнтернетеКонтекстноеМеню" id="2044"/>
@@ -167,11 +207,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Локальный адрес</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Local address</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Используется для формирования ссылок на объекты информационной базы, доступных через публикацию в локальной сети.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use this address to generate references for infobases that are published in the local network.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ChoiceButton>true</ChoiceButton>
@@ -183,6 +231,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Например: http://localnet/mydatabase</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Example: http://localnet/mydatabase</v8:content>
 						</v8:item>
 					</InputHint>
 					<ContextMenu name="АдресПубликацииИнформационнойБазыВЛокальнойСетиКонтекстноеМеню" id="2047"/>
@@ -200,6 +252,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры серверной информационной базы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Server infobase parameters</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
@@ -215,6 +271,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подгруппа параметры клиент серверной ИБ</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Subgroup parameters server infobase client</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -226,6 +286,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Открыть параметры прокси сервера</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Open proxy server parameters</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -244,6 +308,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Параметры доступа в Интернет</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Internet access parameters</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьПараметрыПроксиСервераExtendedTooltip" id="1870">
@@ -252,6 +320,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Настройки параметров прокси-сервера на сервере 1С:Предприятие.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Configure proxy server parameters on the 1C:Enterprise server.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -264,11 +336,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройка использования профилей безопасности</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure security profiles</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группа открыть параметры прокси сервера</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Open proxy server parameters group</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Width>43</Width>
@@ -287,6 +367,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Использование профилей безопасности</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Security profiles</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьНастройкиИспользованияПрофилейБезопасностиРасширеннаяПодсказка" id="1937">
@@ -303,6 +387,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка прокси сервера на сервере недоступна при использовании профилей безопасности</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Cannot configure proxy server on the server when using security profiles</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
@@ -314,6 +402,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Декорация настройка прокси сервера на сервере недоступна при использовании профилей безопасности</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Cannot configure proxy server on the server when using security profiles decoration</v8:content>
 								</v8:item>
 							</Title>
 							<Picture>
@@ -332,6 +424,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройка параметров доступа в Интернет на сервере 1С:Предприятия недоступна, т.к. для информационной базы включено использование профилей безопасности. При включенных профилях безопасности настройка параметров доступа в Интернет на сервере 1С:Предприятия может быть выполнена только путем редактирования служебного файла inetcfg.xml (подробнее см. в руководстве администратора платформы 1С:Предприятие).</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Cannot configure Internet access parameters on the 1C:Enterprise server as the infobase uses security profiles. With security profiles enabled, you can configure Internet access parameters on the 1C:Enterprise server only by editing the inetcfg.xml file (for more information, see 1C:Enterprise Administrator Guide).</v8:content>
+								</v8:item>
 							</Title>
 							<TitleHeight>4</TitleHeight>
 							<ContextMenu name="ПояснениеНастройкаПроксиСервераНаСервереНедоступнаПриИспользованииПрофилейБезопасностиКонтекстноеМеню" id="1947"/>
@@ -346,6 +442,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Контактная информация</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Contact information</v8:content>
 				</v8:item>
 			</Title>
 			<Width>43</Width>
@@ -367,6 +467,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Классификация адресов, телефонов и другой контактной информации у введенных в программе объектов, например, партнеров, контрагентов, сотрудников и т.д.</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Classify addresses, phones, and other contact information of application objects, such as partners, counterparties, employees, and so on.</v8:content>
+							</v8:item>
 						</Title>
 					</ExtendedTooltip>
 				</Button>
@@ -377,6 +481,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительные реквизиты и сведения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional attributes and information</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Collapsible</Behavior>
@@ -391,6 +499,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать дополнительные реквизиты и сведения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use additional attributes and information</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -408,12 +520,20 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительные реквизиты и сведения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional attributes and information</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Добавление реквизитов и сведений к объектам программы.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Add custom attributes and information to application objects.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -432,6 +552,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные реквизиты или сведения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional attributes or information</v8:content>
+						</v8:item>
 					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -447,6 +571,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительные реквизиты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional attributes</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -467,6 +595,11 @@
 												<v8:content>Создание реквизитов, их изменение, описание свойств.
 Эти реквизиты отображаются в формах.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Create and change attributes and their properties.
+These attributes are displayed in forms.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -477,6 +610,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительные сведения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional information</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -497,6 +634,11 @@
 												<v8:content>Создание сведений, их изменение, описание свойств.
 Эти сведения отображаются в отдельной форме, которая открывается специальной командой.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Create and change information items and their properties.
+These information items are displayed in new forms.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -512,6 +654,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>История изменений</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change history</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
@@ -526,11 +672,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать версионирование объектов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use object versioning</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хранение и просмотр версий документов и справочников программы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Store and view document and catalog versions.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -567,6 +721,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поиск данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalStretch>false</HorizontalStretch>
 			<Behavior>Collapsible</Behavior>
@@ -581,11 +739,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полнотекстовый поиск</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Full-text search</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Управление поиском в документах, файлах, отчетах.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configure search in documents, files, and reports.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -619,6 +785,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Электронная подпись и шифрование</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Digital signature and encryption</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
@@ -634,6 +804,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Электронная подпись</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Digital signature</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>AlwaysHorizontal</Group>
@@ -647,6 +821,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Горизонтальная группа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Horizontal group</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -662,6 +840,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Разрешает подписание данных для гарантии их неизменности и шифрование данных для надежного ограничения доступа.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Allows digital signatures to guarantee that data remains unmodified and data encryption to secure access restrictions.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 							<ChildItems>
@@ -670,6 +852,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Электронная подпись</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Digital signature</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
@@ -685,6 +871,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Шифрование</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Encryption</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
@@ -705,6 +895,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сертификаты и программы электронной подписи и шифрования</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Certificates and digital signature and encryption applications</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="НастройкиЭлектроннойПодписиИШифрованияРасширеннаяПодсказка" id="2050">
@@ -713,6 +907,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Настройка сертификатов и программ, используемых для подписания и шифрования.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Configure certificates and applications used for signing and encryption.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -730,6 +928,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Усовершенствованная подпись</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Improved signature</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -743,6 +945,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Усовершенствованная подпись горизонтальная</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Improved signature horizontal</v8:content>
+								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
 							<Behavior>Usual</Behavior>
@@ -754,6 +960,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Настройки подписи</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Signature settings</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -776,7 +986,14 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>В приложении в Интернете типы подписи с метками времени можно выбрать при подписании сертификатом, установленным на компьютер при установленой программе электронной подписи.</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>In the web application, you can select types of signatures with timestamps when signing by a certificate installed on the computer that also has a digital signature application installed.</v8:content>
+													</v8:item>
 												</Title>
+												<Events>
+													<Event name="URLProcessing">ТипПодписиКриптографииПоУмолчанию1РасширеннаяПодсказкаОбработкаНавигационнойСсылки</Event>
+												</Events>
 											</ExtendedTooltip>
 										</LabelField>
 										<RadioButtonField name="ТипПодписиКриптографииПоУмолчанию" id="2175">
@@ -796,6 +1013,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Базовая подпись (CAdES-BES)</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Basic signature (CAdES-BES)</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">102412a6-a3fb-47f1-840c-c7c3b4ad1d4d.d0d90cbf-21fc-47cb-8e1c-549e67a1bf0c</Value>
 													</xr:Value>
@@ -808,6 +1029,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Подпись с меткой доверенного времени (CAdES-T)</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Electronic signature with time (CAdES-T)</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">102412a6-a3fb-47f1-840c-c7c3b4ad1d4d.cf48ae02-ecb0-4db9-92da-585f89cddb70</Value>
@@ -822,6 +1047,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Архивная подпись (CAdES-A)</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Archival electronic signature (CAdES-A)</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">102412a6-a3fb-47f1-840c-c7c3b4ad1d4d.8bf95fa7-1067-45b3-82ea-286192f97e06</Value>
 													</xr:Value>
@@ -833,6 +1062,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>В модели сервиса архивная подпись по умолчанию недоступна, этот тип подписи можно выбрать при подписании сертификатом, установленным на компьютер при установленой программе электронной подписи.</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>In SaaS mode, the archival timestamp is unavailable by default. You can select this signature type when signing by a certificate installed on the computer that also has a digital signature application installed.</v8:content>
 													</v8:item>
 												</Title>
 												<Events>
@@ -850,6 +1083,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Адреса серверов</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Server addresses</v8:content>
 										</v8:item>
 									</Title>
 									<Width>43</Width>
@@ -873,6 +1110,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Для создания подписей с метками доверенного времени укажите адреса серверов меток времени (с новой строки). Адреса может предоставить поставщик услуг, например, сертифицированный удостоверяющий центр.</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>To create electronic signatures with time, specify timestamp server addresses (on a new line). The addresses can be provided by a service provider, for example, a certificate authority.</v8:content>
+													</v8:item>
 												</Title>
 											</ExtendedTooltip>
 											<Events>
@@ -888,6 +1129,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Поддержание достоверности подписей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Maintain signature verification</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -905,6 +1150,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Для того чтобы достоверность подписей поддерживалась автоматически регламентным заданием, на каждый компьютер, где работает сервер 1С:Предприятия или веб-сервер, подключенный к файловой информационной базе, должна быть установлена &lt;link Программы&gt;программа электронной подписи&lt;/&gt;.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>To ensure that signature validity is maintained automatically using a scheduled job, &lt;link Программы&gt;digital signature application&lt;/&gt; must be installed on every computer that has 1C:Enterprise server or a web server attached to a file infobase.</v8:content>
+									</v8:item>
 								</Title>
 								<Events>
 									<Event name="URLProcessing">ГруппаАвтоматическаяОбработкаПодписейРасширеннаяПодсказкаОбработкаНавигационнойСсылки</Event>
@@ -917,6 +1166,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Автоматическая обработка подписей настройка</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Automatic signature processing setup</v8:content>
+										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
 									<Behavior>Usual</Behavior>
@@ -928,6 +1181,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Усовершенствовать подписи</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Improve signatures</v8:content>
 												</v8:item>
 											</Title>
 											<Width>43</Width>
@@ -942,6 +1199,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Усовершенствовать подписи</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Improve signatures</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 													<ContextMenu name="ДекорацияУсовершенствованиеКонтекстноеМеню" id="2224"/>
@@ -951,6 +1212,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Усовершенствовать подписи до выбранного типа</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Improve signature to the selected type</v8:content>
+															</v8:item>
 														</Title>
 													</ExtendedTooltip>
 												</LabelDecoration>
@@ -959,6 +1224,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Усовершенствовать подписи автоматически</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Improve signatures automatically</v8:content>
 														</v8:item>
 													</Title>
 													<Behavior>Usual</Behavior>
@@ -977,6 +1246,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Автоматически усовершенствовать подписи</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Improve signatures automatically</v8:content>
+																</v8:item>
 															</Title>
 															<TitleLocation>None</TitleLocation>
 															<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -991,6 +1264,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Не усовершенствовать</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Do not improve</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:decimal">0</Value>
 																	</xr:Value>
@@ -1003,6 +1280,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Автоматически (регламентным заданием)</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Automatically (using a scheduled job)</v8:content>
 																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:decimal">1</Value>
@@ -1017,6 +1298,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>В интерфейсе администратора *</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>In administrator interface *</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:decimal">2</Value>
 																	</xr:Value>
@@ -1028,6 +1313,10 @@
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>* С помощью команд в &lt;link ОтчетОПродленииПодписей&gt;отчете&lt;/&gt; и панели текущих дел.</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>* Using commands in &lt;link ОтчетОПродленииПодписей&gt;report&lt;/&gt; and in the "To-do list" panel.</v8:content>
 																	</v8:item>
 																</Title>
 																<Events>
@@ -1045,6 +1334,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Усовершенствовать подписи с даты</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Improve signatures from the date</v8:content>
 														</v8:item>
 													</Title>
 													<Behavior>Usual</Behavior>
@@ -1074,6 +1367,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Добавлять автоматически</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Add automatically</v8:content>
+												</v8:item>
 											</Title>
 											<Width>43</Width>
 											<Behavior>Usual</Behavior>
@@ -1087,6 +1384,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Автоматически продлевать архивные подписи</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Renew archival signature automatically</v8:content>
+														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -1097,6 +1398,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>В архивные подписи (CAdES-A) за месяц до окончания действия сертификата подписи метки времени будут добавляться новые метки времени.</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>New timestamps will be added to archival electronic signatures (CAdES-A) a month before timestamp signature certificate expires.</v8:content>
 															</v8:item>
 														</Title>
 													</ExtendedTooltip>
@@ -1118,6 +1423,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Проверять подписи на сервере</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check signatures on server</v8:content>
+						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
 					<Behavior>Usual</Behavior>
@@ -1137,6 +1446,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Позволяет не устанавливать программу электронной подписи на компьютер пользователя для проверки электронных подписей и сертификатов.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Allows verifying digital signatures and certificates without installing a digital signature application on the user computer.</v8:content>
 									</v8:item>
 								</Title>
 								<Events>
@@ -1160,6 +1473,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Позволяет не устанавливать программу электронной подписи и сертификат на компьютер пользователя для подписания, шифрования и расшифровки.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Allows signing, encryption, and decryption without installing a digital signature application and a certificate on the user computer.</v8:content>
+									</v8:item>
 								</Title>
 								<Events>
 									<Event name="URLProcessing">СоздаватьЭлектронныеПодписиНаСервереРасширеннаяПодсказкаОбработкаНавигационнойСсылки</Event>
@@ -1177,6 +1494,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подпись сервиса DSS</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>DSS service signature</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -1190,6 +1511,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сервис подписи DSS</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>DSS signature service</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -1200,6 +1525,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Разрешает использовать для подписания сервисы подписи DSS.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Allows using DSS signature services for signing.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -1212,6 +1541,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сервис DSS настройки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>DSS service settings</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -1234,6 +1567,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Настройка серверов DSS, используемых для подключения.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Configure DSS servers used to establish connection.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -1246,6 +1583,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Настройка учетных записей, используемых для подключения к DSS и выполнения операций.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Configure accounts used to connect to DSS and to perform operations.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -1262,6 +1603,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удаление помеченных объектов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Deletion of marked objects</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
@@ -1273,6 +1618,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подгруппа удаление помеченных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Subgroup delete marked objects</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -1288,6 +1637,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Регламентное удаление помеченных</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Scheduled deletion of marked objects</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<Behavior>Usual</Behavior>
@@ -1299,6 +1652,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Выполнять удаление помеченных объектов по расписанию</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Delete marked objects on schedule</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 							<ChildItems>
@@ -1308,6 +1665,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Автоматически удалять помеченные</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Automatically delete marked objects</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
@@ -1333,11 +1694,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Просмотр помеченных на удаление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Viewing notes marked for deletion</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Открыть рабочее место для удаления помеченных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Open workplace for deleting marked objects</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -1355,6 +1724,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Посмотреть помеченные на удаление</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>View objects marked for deletion</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПосмотретьРасширеннаяПодсказка" id="2106"/>
 						</Button>
@@ -1367,6 +1740,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Производительность</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Performance</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -1382,6 +1759,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа1</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group1</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -1393,6 +1774,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группа2</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group2</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -1406,6 +1791,13 @@
 										<v8:content>Чем больше значение, тем быстрее выполняются длительные операции. Например, загрузка адресного классификатора. Значение по умолчанию равно 4.
 
 См. также &lt;link http://1c.ru/news/info.jsp?id=25491&gt;ограничение 12 ядер на  сервер для версии ПРОФ платформы 1С:Предприятие&lt;/&gt; и "&lt;link https://v8.1c.ru/priobretenie-i-vnedrenie/otvety-na-tipovye-voprosy-po-litsenzirovaniyu-1s-predpriyatiya-8&gt;Какие  ядра процессора следует считать — реальные или виртуальные?&lt;/&gt;".
+</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>The greater the value is, the faster long-running operations (such as address classifier import) are executed. The default value is 4.
+
+See also &lt;link http://1c.ru/news/info.jsp?id=25491&gt;restriction of 12 cores per server for 1C:Enterprise PROF version (in Russian)&lt;/&gt; and "&lt;link https://v8.1c.ru/priobretenie-i-vnedrenie/otvety-na-tipovye-voprosy-po-litsenzirovaniyu-1s-predpriyatiya-8&gt;Which processor cores to count — real or virtual? (in Russian)&lt;/&gt;".
 </v8:content>
 									</v8:item>
 								</Title>
@@ -1428,6 +1820,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группа3</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group3</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<GroupVerticalAlign>Bottom</GroupVerticalAlign>
@@ -1441,6 +1837,14 @@
 										<v8:content>Рекомендуемое значение:
 • для штатной работы до 50-75% от количества ядер, доступных кластеру серверов; 
 • для форсированного выполнения в период минимальной активности пользователей - столько ядер, сколько доступно кластеру серверов.
+
+</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Recommended value:
+• For regular operations, up to 50-75% of the number of cores available to the server cluster. 
+• For forced execution within a period of minimum user activity, as many cores as available to the server cluster.
 
 </v8:content>
 									</v8:item>
@@ -1464,6 +1868,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Каталог временных файлов кластера серверов 1С:Предприятие</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Temporary files directory of 1C:Enterprise server cluster</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 			<Behavior>Usual</Behavior>
@@ -1480,6 +1888,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пути временных каталогов кластера серверов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Paths of temporary server cluster directories</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 					<Group>Vertical</Group>
@@ -1493,6 +1905,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Для многопоточных длительных операций путь к единому сетевому каталогу общих временных файлов серверов 1С:Предприятие, работающих в одном кластере.</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>For multithreaded long-running operations, a path to a single network directory for common temporary files of 1C:Enterprise servers running in the same cluster.</v8:content>
+							</v8:item>
 						</Title>
 					</ExtendedTooltip>
 					<ChildItems>
@@ -1502,6 +1918,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Под управлением ОС Windows</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Managed by Windows OS</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="КаталогВременныхФайловДляWindowsКонтекстноеМеню" id="2132"/>
@@ -1516,6 +1936,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Под управлением ОС Linux</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Managed by Linux OS</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="КаталогВременныхФайловДляLinuxКонтекстноеМеню" id="2140"/>
@@ -1547,6 +1971,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Полнотекстовый поиск данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Full-text search</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -1563,6 +1991,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Хранить историю изменений</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Store change history</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1573,6 +2005,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удаление помеченных использование</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete marked objects usage</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1590,6 +2026,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тип подписи для документов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Signature type for documents</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1605,6 +2045,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адреса серверов меток времени</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Timestamp server addresses</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1619,6 +2063,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Усовершенствовать подписи автоматически</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Improve signatures automatically</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1636,6 +2084,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавлять метки времени автоматически</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add timestamps automatically</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1646,6 +2098,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверять электронные подписи на сервере</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check digital signatures on server</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1658,6 +2114,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создавать электронные подписи на сервере</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create digital signatures on server</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1668,6 +2128,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Начиная с даты создания подписи</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Starting from the signature creation date</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1685,11 +2149,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использование профилей безопасности</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use security profiles</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использование профилей безопасности для контроля за использованием программой внешних (относительно кластера серверов 1С:Предприятия) ресурсов.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use security profiles to manage the use of resources that are external to the application (relative to the 1C:Enterprise server cluster).</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИспользованиеПрофилейБезопасности</Action>
@@ -1701,6 +2173,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure</v8:content>
+				</v8:item>
 			</Title>
 			<Action>НастроитьПолнотекстовыйПоиск</Action>
 		</Command>
@@ -1710,11 +2186,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить хранение истории изменений</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure change history storage options.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастроитьХранениеИсторииИзменений</Action>
@@ -1725,11 +2209,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Региональные настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Regional settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Региональные настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Regional settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>РегиональныеНастройки</Action>
@@ -1740,11 +2232,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительные реквизиты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional attributes</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительные реквизиты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional attributes</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДополнительныеРеквизиты</Action>
@@ -1755,11 +2255,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительные сведения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional information records</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительные сведения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional information records</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДополнительныеСведения</Action>
@@ -1770,6 +2278,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить расписание</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure schedule</v8:content>
+				</v8:item>
 			</Title>
 			<Action>НастроитьРасписание</Action>
 		</Command>
@@ -1778,6 +2290,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Посмотреть помеченные на удаление</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>View objects marked for deletion</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ПосмотретьПомеченныеНаУдаление</Action>

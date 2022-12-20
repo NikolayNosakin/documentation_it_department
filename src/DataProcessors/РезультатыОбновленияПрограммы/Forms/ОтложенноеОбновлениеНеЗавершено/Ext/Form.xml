@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Не выполнены дополнительные процедуры обработки данных</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Additional data processing procedures pending</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockWholeInterface</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -37,6 +41,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Картинка и текст</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Picture and text</v8:content>
+				</v8:item>
 			</Title>
 			<Height>5</Height>
 			<Behavior>Usual</Behavior>
@@ -51,6 +59,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Picture</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -71,6 +83,12 @@
 Рекомендуется выполнить восстановление из резервной копии и дождаться их выполнения,
 в противном случае это может привести к ошибкам при обновлении или неработоспособности программы.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional data processing procedures for the previous version are not completed.
+It is recommended that you restore the application from a backup and wait for the procedures to complete.
+Otherwise, the update might fail or the application might malfunction.</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="СообщениеКонтекстноеМеню" id="7"/>
 					<ExtendedTooltip name="СообщениеРасширеннаяПодсказка" id="8"/>
@@ -82,6 +100,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пояснение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Note</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
@@ -99,6 +121,11 @@
 							<v8:content>Посмотреть статус выполнения дополнительных процедур обработки данных
 можно в разделе &lt;b&gt;Администрирование &lt;/&gt;- &lt;b&gt;Обслуживание&lt;/&gt;.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>To view the progress of additional data processing procedures,
+go to &lt;b&gt;Administration&lt;/&gt; — &lt;b&gt;Service&lt;/&gt;.</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="ПодсказкаКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="ПодсказкаРасширеннаяПодсказка" id="15"/>
@@ -108,6 +135,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Командная панель</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Command bar</v8:content>
 						</v8:item>
 					</Title>
 					<GroupVerticalAlign>Bottom</GroupVerticalAlign>
@@ -150,11 +181,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить работу</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exit</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exit</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Завершить</Action>
@@ -166,11 +205,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить обновление</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue update.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПродолжитьОбновление</Action>

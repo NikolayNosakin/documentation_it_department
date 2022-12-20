@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Запись узла</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Save node</v8:content>
+		</v8:item>
 	</Title>
 	<Width>40</Width>
 	<AutoTitle>false</AutoTitle>
@@ -22,6 +26,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель основная</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main panel</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ПанельОсновнаяРасширеннаяПодсказка" id="2"/>
@@ -32,6 +40,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ожидание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Wait page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОжиданиеРасширеннаяПодсказка" id="4"/>
 					<ChildItems>
@@ -40,6 +52,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Ожидание</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Wait</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -63,6 +79,11 @@
 											<v8:content>Выполняется запись узла синхронизации.
 Пожалуйста, подождите...</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Saving the synchronization node.
+Please wait…</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация2КонтекстноеМеню" id="23"/>
 									<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="24"/>
@@ -77,6 +98,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница окончание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Completion page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОкончаниеРасширеннаяПодсказка" id="6"/>
 					<ChildItems>
@@ -85,6 +110,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Окончание</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>End</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -109,6 +138,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Запись узла синхронизации выполнена</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Synchronization node is saved</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="ДекорацияУзелЗаписанКонтекстноеМеню" id="15"/>
 									<ExtendedTooltip name="ДекорацияУзелЗаписанРасширеннаяПодсказка" id="16"/>
@@ -120,6 +153,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель готово</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Finish command bar</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -134,6 +171,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Готово</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Finish</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="КомандаГотовоРасширеннаяПодсказка" id="8"/>
 								</Button>
@@ -147,6 +188,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница окончание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Completion page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОшибкаРасширеннаяПодсказка" id="39"/>
 					<ChildItems>
@@ -155,6 +200,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Ошибка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Error</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -179,6 +228,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Ошибка при записи узла синхронизации</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>An error occurred when saving a synchronization node</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="ДекорацияОшибкаЗаписиКонтекстноеМеню" id="46"/>
 									<ExtendedTooltip name="ДекорацияОшибкаЗаписиРасширеннаяПодсказка" id="47"/>
@@ -190,6 +243,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель ошибка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar error</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -241,11 +298,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команда готово</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Finish command</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команда готово</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Finish command</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаГотово</Action>
@@ -256,11 +321,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команда закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Close command</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаЗакрыть</Action>

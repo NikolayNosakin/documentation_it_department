@@ -28,6 +28,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Действие</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Action</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ГруппаДействиеРасширеннаяПодсказка" id="137"/>
 				<ChildItems>
@@ -54,6 +58,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Форма стандартные команды</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form standard commands</v8:content>
 					</v8:item>
 				</Title>
 				<CommandSource>Form</CommandSource>
@@ -82,6 +90,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Информация</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Information</v8:content>
+				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
@@ -94,6 +106,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Информация картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Information picture</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -121,6 +137,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Шапка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
 			</Title>
 			<Width>60</Width>
 			<VerticalStretch>false</VerticalStretch>
@@ -135,6 +155,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Идентификатор версия</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>ID version</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -169,6 +193,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -182,6 +210,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Наименование</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Description</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<WarningOnEditRepresentation>Show</WarningOnEditRepresentation>
@@ -193,6 +225,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Имя внешней компоненты для отображения пользователям.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Add-in name to display to users.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</InputField>
@@ -203,6 +239,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использование обновлять с Портала 1С:ИТС</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use update from 1C:ITS Portal</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -217,6 +257,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>В режиме отладки доступна только полноправному пользователю</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>In debug mode, it is available only to full-access users.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<RadioButtonType>Tumbler</RadioButtonType>
@@ -251,6 +295,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Доступно только для используемой компоненты последней версии.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>It is available only for the latest version of the add-in.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -311,11 +359,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить из файла...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update from file…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить из файла на диске...</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update from file on disk…</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -332,6 +388,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить с Портала 1С:ИТС</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update from 1C:ITS Portal</v8:content>
+				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>CommonPicture.ОбновлениеВнешнихКомпонентССайта</xr:Ref>
@@ -347,6 +407,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить как...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save as…</v8:content>
+				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>CommonPicture.СохранитьФайлКак</xr:Ref>
@@ -360,6 +424,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поддерживаемые клиентские приложения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Supported client applications</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ПоддерживаемыеКлиентскиеПриложения</Action>

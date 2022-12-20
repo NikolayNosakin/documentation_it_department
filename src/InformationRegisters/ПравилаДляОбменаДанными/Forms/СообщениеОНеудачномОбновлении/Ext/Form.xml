@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Не удалось выполнить обновление</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Update failed</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -21,6 +25,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Неудачная загрузка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import failed</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -32,6 +40,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значок</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Icon</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -48,6 +60,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Неудачная загрузка текст</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Import failed text</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -63,6 +79,13 @@
 									<v8:content>При выполнении правил регистрации для программы
 &lt;b&gt;%1&lt;/b&gt;
 возникла ошибка:
+%2</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>An error occurred while executing registration rules for
+&lt;b&gt;%1&lt;/b&gt;
+application:
 %2</v8:content>
 								</v8:item>
 							</Title>
@@ -84,6 +107,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузки правил</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Load rules</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -99,6 +126,12 @@
 							<v8:content>Для программы "%1"
 используются устаревшие правила %2, загруженные из файла. Рекомендуется
 использовать правила из конфигурации или загрузить новые правила из файла.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>%1 uses obsolete rules %2.
+Update the rules from a file,
+or use application rules.</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="ТекстПравилаИзФайлаКонтекстноеМеню" id="42"/>
@@ -120,6 +153,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
@@ -193,11 +230,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перезапустить и продолжить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restart and continue</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перезапустить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restart</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Перезапустить</Action>
@@ -209,11 +254,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить работу</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exit</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить работу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exit</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗавершитьРаботу</Action>
@@ -225,11 +278,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Техническая информация об ошибке</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>View error details</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти в журнал регистрации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the event log.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПерейтиВЖурналРегистрации</Action>
@@ -241,11 +302,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить новые правила</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Load new rules</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить комплект правил</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Load a rule set.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗагрузитьКомплектПравил</Action>

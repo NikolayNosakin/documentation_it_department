@@ -17,6 +17,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="4"/>
@@ -26,6 +30,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Требуется создать администратора</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Create an administrator</v8:content>
 						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
@@ -50,6 +58,12 @@
 
 &lt;link e1cib/list/Справочник.Пользователи&gt;Перейти к списку пользователей&lt;/&gt;</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>To enable conversations, create an application administrator account.
+
+&lt;link e1cib/list/Справочник.Пользователи&gt;Go to the list of users&lt;/&gt;</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ТребуетсяСоздатьАдминистратораПояснениеКонтекстноеМеню" id="45"/>
 							<ExtendedTooltip name="ТребуетсяСоздатьАдминистратораПояснениеРасширеннаяПодсказка" id="46"/>
@@ -65,6 +79,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Требуется разблокировать</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>It is required to unlock</v8:content>
+						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
 					<ExtendedTooltip name="ТребуетсяРазблокироватьРасширеннаяПодсказка" id="88"/>
@@ -74,6 +92,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Требуется разблокировать картинка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Unlock picture</v8:content>
 								</v8:item>
 							</Title>
 							<Picture>
@@ -93,6 +115,11 @@
 									<v8:content>Работа с внешними ресурсами заблокирована.
 Параметры подключения к серверу взаимодействия будут восстановлены после разблокировки внешних ресурсов.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Online activities are disabled.
+Parameters of connection to the interaction server will be restored after unlocking external resources.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ТребуетсяРазблокироватьПояснениеКонтекстноеМеню" id="93"/>
 							<ExtendedTooltip name="ТребуетсяРазблокироватьПояснениеРасширеннаяПодсказка" id="94"/>
@@ -107,6 +134,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Предложение регистрации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Registration offer</v8:content>
 						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
@@ -127,6 +158,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пояснение регистрации</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Registration explanation</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -143,6 +178,11 @@
 											<v8:content>Подключите обсуждения, и пользователи этой программы смогут общаться друг с другом в режиме реального времени, создавать тематические обсуждения и вести переписку по конкретным документам, например: заказам, реализациям или контрагентам.
 </v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Enable conversations so that users of this application can communicate with each other online, create topic conversations, and correspond on specific documents, for example, orders, sales, or counterparties.
+</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="ПредложениеРегистрацииПояснениеКонтекстноеМеню" id="18"/>
 									<ExtendedTooltip name="ПредложениеРегистрацииПояснениеРасширеннаяПодсказка" id="19"/>
@@ -155,6 +195,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>На этот адрес электронной почты будут приходить коды активации.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Activation codes will be sent to this email address.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<AutoMaxWidth>false</AutoMaxWidth>
@@ -162,6 +206,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Адрес электронной почты</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Email address</v8:content>
 										</v8:item>
 									</InputHint>
 									<ContextMenu name="АдресЭлектроннойПочтыКонтекстноеМеню" id="8"/>
@@ -172,6 +220,11 @@
 												<v8:content>На этот адрес электронной почты будут приходить коды активации.
 </v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Activation codes will be sent to this email address.
+</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</InputField>
@@ -180,6 +233,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Подключаться к 1С:Диалог</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Connect to 1C:Dialog</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -202,6 +259,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>1С:Диалог (рекомендуемый вариант)</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>1C:Dialog (recommended option)</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:decimal">0</Value>
@@ -229,6 +290,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Локальный сервер системы взаимодействия</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Local collaboration system server</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:decimal">1</Value>
 													</xr:Value>
@@ -241,6 +306,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>1С:Сервер взаимодействия - это программа, реализующая серверную часть системы взаимодействия. Сервер взаимодействия может быть развернут в Интернете или в локальной сети предприятия. &lt;link https://its.1c.ru/db/cs20doc&gt;Подробнее&lt;/&gt;.</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>1C:Collaboration server is an application that implements the collaboration system server. You can deploy the collaboration server online or in the enterprise local network. &lt;link https://its.1c.ru/db/cs20doc&gt;More&lt;/&gt; (in Russian).</v8:content>
+													</v8:item>
 												</Title>
 											</ExtendedTooltip>
 											<Events>
@@ -252,6 +321,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Локальный сервер взаимодействия</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Local collaboration server</v8:content>
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
@@ -271,6 +344,10 @@
 													<InputHint>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
+															<v8:content>ws://localhost</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
 															<v8:content>ws://localhost</v8:content>
 														</v8:item>
 													</InputHint>
@@ -294,6 +371,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ввод кода регистрации</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Enter registration code</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ВводКодаРегистрацииРасширеннаяПодсказка" id="11"/>
 					<ChildItems>
@@ -303,6 +384,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Код регистрации отправлен на указанный адрес электронной почты.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Registration code was sent to the specified email address.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ПояснениеКодРегистрацииКонтекстноеМеню" id="33"/>
@@ -317,6 +402,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Код регистрации</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Registration code</v8:content>
+								</v8:item>
 							</InputHint>
 							<ContextMenu name="КодРегистрацииКонтекстноеМеню" id="13"/>
 							<ExtendedTooltip name="КодРегистрацииРасширеннаяПодсказка" id="14"/>
@@ -329,6 +418,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Регистрация завершена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Registration complete</v8:content>
+						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
 					<ExtendedTooltip name="РегистрацияЗавершенаРасширеннаяПодсказка" id="72"/>
@@ -338,6 +431,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Регистрация завершена картинка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Registration completed picture</v8:content>
 								</v8:item>
 							</Title>
 							<Picture>
@@ -356,6 +453,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>К программе подключены обсуждения, и пользователи этой программы теперь могут общаться между собой.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Conversations are enabled in the application, and now users of this application can communicate with each other.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="РегистрацияЗавершенаПояснениеКонтекстноеМеню" id="77"/>
 							<ExtendedTooltip name="РегистрацияЗавершенаПояснениеРасширеннаяПодсказка" id="78"/>
@@ -371,6 +472,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Длительная операция</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Long-running operation</v8:content>
+						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
 					<ExtendedTooltip name="ДлительнаяОперацияРасширеннаяПодсказка" id="53"/>
@@ -380,6 +485,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Длительная операция картинка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Long-running operation picture</v8:content>
 								</v8:item>
 							</Title>
 							<Picture>
@@ -397,6 +506,11 @@
 									<v8:content>
 Пожалуйста подождите...</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>
+Please wait…</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ПожалуйстаПодождитеКонтекстноеМеню" id="55"/>
 							<ExtendedTooltip name="ПожалуйстаПодождитеРасширеннаяПодсказка" id="56"/>
@@ -411,6 +525,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командные панели</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bars</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -422,6 +540,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Левая командная панель</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Left command bar</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ЛеваяКоманднаяПанельРасширеннаяПодсказка" id="82"/>
@@ -440,6 +562,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Правая командная панель</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Right command bar</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalLocation>Right</HorizontalLocation>
 					<ExtendedTooltip name="ПраваяКоманднаяПанельРасширеннаяПодсказка" id="84"/>
@@ -457,6 +583,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Закрыть</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Close</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="48"/>
@@ -485,6 +615,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адрес электронной почты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Email address</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -499,6 +633,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Код регистрации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Registration code</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -545,6 +683,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбор сервера взаимодействия</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select collaboration server</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -560,6 +702,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адрес сервера взаимодействия</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Collaboration server URL</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -587,6 +733,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Зарегистрироваться &gt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Register &gt;</v8:content>
+				</v8:item>
 			</Title>
 			<Action>Зарегистрироваться</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -597,11 +747,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt; Назад</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt; Back</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Назад</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Back</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Назад</Action>

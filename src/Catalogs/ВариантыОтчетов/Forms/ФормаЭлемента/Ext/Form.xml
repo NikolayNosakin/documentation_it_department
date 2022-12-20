@@ -37,6 +37,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Сброс настроек</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Reset settings</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="СбросНастроекExtendedTooltip" id="154"/>
 				<ChildItems>
@@ -125,6 +129,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="270"/>
@@ -135,6 +143,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователи</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Users</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПользователиРасширеннаяПодсказка" id="272"/>
 					<ChildItems>
@@ -143,6 +155,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пользователи - опции</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Users - options</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -165,6 +181,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Только автору</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Author only</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">ТолькоДляАвтора</Value>
 											</xr:Value>
@@ -177,6 +197,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Указанным пользователям</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Specified users</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">УказаннымПользователям</Value>
@@ -205,6 +229,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пользователи варианта</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report option users</v8:content>
+								</v8:item>
 							</Title>
 							<CommandSet>
 								<ExcludedCommand>Add</ExcludedCommand>
@@ -224,6 +252,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Подобрать</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Select</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="ПользователиВариантаГруппаПодобратьРасширеннаяПодсказка" id="295"/>
 										<ChildItems>
@@ -235,6 +267,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Пользователей (группы)</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Users or groups</v8:content>
+													</v8:item>
 												</Title>
 												<ExtendedTooltip name="ПользователиВариантаПодобратьПользователейГруппыРасширеннаяПодсказка" id="297"/>
 											</Button>
@@ -245,6 +281,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Группы внешних пользователей</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>External user groups</v8:content>
 													</v8:item>
 												</Title>
 												<ExtendedTooltip name="ПользователиВариантаПодобратьГруппыВнешнихПользователейРасширеннаяПодсказка" id="299"/>
@@ -258,6 +298,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Подобрать</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Select</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="ПользователиВариантаПодобратьПользователейРасширеннаяПодсказка" id="301"/>
@@ -309,6 +353,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Пометка</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Mark</v8:content>
+										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<CheckBoxType>Auto</CheckBoxType>
@@ -326,6 +374,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Значение</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Value</v8:content>
+										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ПользователиВариантаЗначениеКонтекстноеМеню" id="289"/>
@@ -341,6 +393,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выбранным пользователям в чат будет выведено уведомление о том, что этот вариант отобразится на их панели отчетов.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The selected users will be notified in the chat that this option will be displayed on their report panel.</v8:content>
+								</v8:item>
 							</ToolTip>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УведомитьПользователейКонтекстноеМеню" id="305"/>
@@ -353,6 +409,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разделы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Sections</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="РазделыРасширеннаяПодсказка" id="274"/>
@@ -369,6 +429,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дерево подсистем</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Subsystem tree</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -419,6 +483,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Колонок</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Columns</v8:content>
 										</v8:item>
 									</Title>
 									<Group>InCell</Group>
@@ -486,6 +554,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Техническая информация</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Technical details</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
@@ -523,6 +595,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Данные по размещению (без учета настроек предопределенного варианта)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Layout data (without predefined option settings)</v8:content>
 						</v8:item>
 					</Title>
 					<CommandSet>
@@ -605,6 +681,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименования полей и параметров</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Field and parameter names</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -641,6 +721,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представления</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentations</v8:content>
 						</v8:item>
 					</Title>
 					<RowFilter xsi:nil="true"/>
@@ -727,6 +811,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Размещение в панелях отчетов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add options to report panels</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -744,6 +832,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Раздел, Группа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Section, Group</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -787,6 +879,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Usage</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -802,6 +898,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Важность</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Importance</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -839,6 +939,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Доступен</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Available to</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -868,6 +972,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователи варианта</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report option users</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
@@ -895,6 +1003,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Уведомить в чате об этом варианте отчета</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Notify about this report option in the chat</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -913,6 +1025,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать группы внешних пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select external user groups</v8:content>
+				</v8:item>
 			</Title>
 			<Action>ПодобратьГруппыВнешнихПользователей</Action>
 		</Command>
@@ -921,6 +1037,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select users</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ПодобратьПользователей</Action>

@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="20"/>
@@ -40,6 +44,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница главное</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Page main</v8:content>
+						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="СтраницаГлавноеРасширеннаяПодсказка" id="22"/>
@@ -49,6 +57,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Шапка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Header</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -71,6 +83,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Информация</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Information</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -90,6 +106,14 @@
  • не требуется завершать работу пользователей в программе, а по завершении регистрации отложенное обновление будет запущено автоматически;
  • все незавершенные отложенные обработчики будут перезапущены автоматически. Дополнительно можно выбрать другие обработчики для перезапуска:</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>You need to restart deferred update if the deferred handler was completed with an error whose fixing required to register the data for the update again.
+
+During this operation:
+ • it is not required to end user sessions in the application; once the registration is completed, the deferred update will be started automatically;
+ • all unfinished deferred handlers will be restarted automatically. You can also select other handlers to restart:</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьИнформацияКонтекстноеМеню" id="4"/>
 											<ExtendedTooltip name="НадписьИнформацияРасширеннаяПодсказка" id="5"/>
@@ -99,6 +123,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Выбрать обработчики</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Select handlers</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
@@ -121,6 +149,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница длительная операция</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Long-running operation page</v8:content>
+						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
 					<ExtendedTooltip name="СтраницаДлительнаяОперацияРасширеннаяПодсказка" id="24"/>
@@ -130,6 +162,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка длительная операция</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Long-running operation picture</v8:content>
 								</v8:item>
 							</Title>
 							<Picture>
@@ -144,6 +180,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выполняется регистрация данных для отложенного обновления.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Registering data for a deferred update.</v8:content>
 								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -170,11 +210,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перезапустить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restart</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перезапустить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restart</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Перезапустить</Action>

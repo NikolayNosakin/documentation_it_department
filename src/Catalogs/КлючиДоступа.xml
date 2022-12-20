@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ключи доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access keys</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Hierarchical>false</Hierarchical>
@@ -320,6 +324,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ключ доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access key</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -328,6 +336,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа однотипных объектов или записей регистра с одинаковым доступом. Ключ доступа содержит проверяемые значения (организацию, группу доступа контрагентов, … произвольное значение), полученные через поля доступа.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>A group of similar objects or register records sharing the same access level. An access key contains values to be validated (such as company or counterparty access group) received using access fields.</v8:content>
 				</v8:item>
 			</Explanation>
 			<CreateOnInput>DontUse</CreateOnInput>
@@ -345,6 +357,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>List</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -358,6 +374,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список элементов справочников, документов, регистров и др., для которого используется ключ доступа.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A list of catalog items, documents, registers, and other objects that use the access key.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -391,6 +411,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Для внешних пользователей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>For external users</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -403,6 +427,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ключ доступа для внешних пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An external user access key.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -436,6 +464,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хеш</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Hash</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -453,6 +485,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хеш-сумма содержимого ключа, позволяющая сделать быстрый поиск по индексу</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A hash of key components used for quick search by index.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -486,6 +522,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состав полей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Fields</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -504,6 +544,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество полей в шапке и табличных частях, которые задействованы в ключе доступа (количество закодировано в группах по 4 бита, начиная с младших).
 Используется при поиске объектов и записей регистров с устаревшими ключами доступа.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The number of fields in the header and tabular sections, which are used in an access key (the number is encrypted in 4-bit groups, starting with low-order ones).
+ It is used to search for objects and register records with obsolete access keys.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -537,6 +582,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение 1</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Value 1</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -549,6 +598,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение доступа, группа значений доступа, ключ доступа, идентификатор списка или значение для условия, которое извлекается через поле доступа (непосредственно или как группа значения доступа или через "точку" или через соединение)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An Access Value, Access Value Group, access key, list ID, or a value for a condition that is extracted using an access field (directly, or as an Access Value Group, or using dot syntax, or using a join clause).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -582,6 +635,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение 2</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Value 2</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -594,6 +651,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тоже, что реквизит Значение 1</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>See the description of Value 1.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -627,6 +688,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение 3</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Value 3</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -639,6 +704,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тоже, что реквизит Значение 1</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>See the description of Value 1.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -672,6 +741,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение 4</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Value 4</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -684,6 +757,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тоже, что реквизит Значение 1</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>See the description of Value 1.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -717,6 +794,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение 5</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Value 5</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -729,6 +810,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тоже, что реквизит Значение 1</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>See the description of Value 1.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -762,6 +847,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Не используется с</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Obsolete since</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -779,6 +868,12 @@
 							<v8:content>Когда заполнено, тогда ключ доступа не используется
 ни одним элементом данных. Через некоторое время
 неиспользуемый ключ доступа удаляется.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If this attribute is filled in, the access key is not used
+by any data item. Unused keys are deleted
+after some time.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -821,6 +916,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Шапка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Header</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -865,6 +964,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 6</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 6</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -877,6 +980,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -907,6 +1014,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 7</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 7</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -919,6 +1030,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -949,6 +1064,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 8</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 8</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -961,6 +1080,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -991,6 +1114,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 9</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 9</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1003,6 +1130,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1033,6 +1164,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 10</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 10</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1045,6 +1180,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1086,6 +1225,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Табличная часть 1</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Tabular section 1</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1130,6 +1273,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 1</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 1</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1142,6 +1289,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1172,6 +1323,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 2</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 2</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1184,6 +1339,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1214,6 +1373,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 3</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 3</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1226,6 +1389,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1256,6 +1423,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 4</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 4</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1268,6 +1439,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1298,6 +1473,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 5</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 5</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1310,6 +1489,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1351,6 +1534,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Табличная часть 2</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Tabular section 2</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1395,6 +1582,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 1</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 1</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1407,6 +1598,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1437,6 +1632,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 2</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 2</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1449,6 +1648,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1479,6 +1682,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 3</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 3</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1491,6 +1698,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1521,6 +1732,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 4</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 4</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1533,6 +1748,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1563,6 +1782,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 5</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 5</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1575,6 +1798,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1616,6 +1843,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Табличная часть 3</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Tabular section 3</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1660,6 +1891,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 1</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 1</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1672,6 +1907,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1702,6 +1941,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 2</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 2</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1714,6 +1957,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1744,6 +1991,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 3</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 3</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1756,6 +2007,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1786,6 +2041,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 4</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 4</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1798,6 +2057,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1828,6 +2091,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 5</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 5</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1840,6 +2107,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1881,6 +2152,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Табличная часть 4</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Tabular section 4</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1925,6 +2200,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 1</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 1</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1937,6 +2216,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1967,6 +2250,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 2</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 2</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1979,6 +2266,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -2009,6 +2300,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 3</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 3</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -2021,6 +2316,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -2051,6 +2350,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 4</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 4</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -2063,6 +2366,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -2093,6 +2400,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение 5</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value 5</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -2105,6 +2416,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тоже, что реквизит Значение 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See the description of Value 1.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>

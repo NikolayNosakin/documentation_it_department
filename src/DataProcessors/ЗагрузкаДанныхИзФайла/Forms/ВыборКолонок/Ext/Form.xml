@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Колонки для сопоставления</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Select columns to map</v8:content>
+		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -29,6 +33,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Колонок</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Columns</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSet>
@@ -103,6 +111,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Колонок группа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Columns group</v8:content>
+						</v8:item>
 					</Title>
 					<Group>InCell</Group>
 					<ExtendedTooltip name="СписокКолонокГруппаРасширеннаяПодсказка" id="18"/>
@@ -113,6 +125,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пометка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Mark</v8:content>
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
@@ -127,6 +143,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value</v8:content>
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
@@ -151,6 +171,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список колонок</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Column list</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
@@ -171,11 +195,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сопоставить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Map</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать колонки для сопоставления</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Map</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Выбор</Action>

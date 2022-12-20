@@ -34,6 +34,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнение обмена данными</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run data exchange</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ВыполнениеОбменаДаннымиExtendedTooltip" id="88"/>
@@ -43,6 +47,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Синхронизация данных недоступна</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data synchronization is not available</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаСинхронизацияДанныхНедоступнаРасширеннаяПодсказка" id="203"/>
@@ -58,6 +66,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Синхронизация данных недоступна</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data synchronization is not available</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -78,6 +90,12 @@
 Невозможно запустить синхронизацию данных.
 Повторите попытку позже или &lt;link ОжидатьВозможностьСинхронизации&gt;ожидайте&lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt; &lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt;такую&lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt; &lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt;возможность...&lt;/&gt;</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>
+Cannot start data synchronization.
+Try again later or &lt;link ОжидатьВозможностьСинхронизации&gt;wait for&lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt; &lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt;&gt;this&lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt; &lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt;opportunity…&lt;/&gt;</v8:content>
+										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
 									<ContextMenu name="СтатусНедоступностьСинхронизацииКонтекстноеМеню" id="210"/>
@@ -96,6 +114,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ожидание запуска синхронизации</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Waiting for synchronization to start</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОжиданиеЗапускаСинхронизацииРасширеннаяПодсказка" id="193"/>
 					<ChildItems>
@@ -110,6 +132,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Длительная операция</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Long-running operation</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -129,6 +155,11 @@
 											<v8:content>Ожидается возможность запуска синхронизации данных.
 Пожалуйста, подождите...</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Waiting for data synchronization to start.
+Please wait…</v8:content>
+										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
 									<ContextMenu name="СтатусОжиданияЗапускаСинхронизацииКонтекстноеМеню" id="198"/>
@@ -144,11 +175,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Запрос пароля пользователя</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User password request</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Загрузка данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Import data</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="ЗапросПароляПользователяExtendedTooltip" id="89"/>
@@ -158,6 +197,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Запроса пароля</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Password request</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -173,6 +216,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Введите пароль для входа в приложение в Интернете</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Enter the password to sign in to the web application.</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация2КонтекстноеМеню" id="64"/>
 									<ExtendedTooltip name="Декорация2ExtendedTooltip" id="90"/>
@@ -182,6 +229,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Ввода пароля</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Enter password</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -213,6 +264,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Предупреждения долгой синхронизации</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Long-running synchronization warning</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -225,11 +280,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Декорация предупреждение</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Warning decoration</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Декорация предупреждения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Warning decoration</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
@@ -255,11 +318,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Текст предупреждение</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Warning text</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Текст предупреждения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Warning text</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
@@ -277,6 +348,13 @@
  - медленный канал связи;
  - большой объем данных;
  - доступно обновление приложения в Интернете.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>In some cases data synchronization may take a long time:
+ - Slow connection
+ - Big data volume
+ - Application update is available online</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="Декорация1КонтекстноеМеню" id="134"/>
@@ -304,11 +382,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель выполнения обмена</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Run exchange command bar</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель закрыть</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Close command bar</v8:content>
 								</v8:item>
 							</ToolTip>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -337,6 +423,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ожидание синхронизации данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Waiting for data synchronization</v8:content>
+						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
 					<ExtendedTooltip name="ОжиданиеСинхронизацииДанныхExtendedTooltip" id="97"/>
@@ -346,6 +436,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Длительная операция</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Long-running operation</v8:content>
 								</v8:item>
 							</Title>
 							<Picture>
@@ -365,6 +459,11 @@
 									<v8:content>Выполняется синхронизация данных.
 Пожалуйста, подождите...</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Synchronizing data.
+Please wait…</v8:content>
+								</v8:item>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
 							<ContextMenu name="СтатусЗагрузкиДанныхКонтекстноеМеню" id="7"/>
@@ -378,6 +477,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ожидание синхронизации данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Waiting for data synchronization</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОжиданиеСинхронизацииДанныхПрогрессБарЗагрузкаРасширеннаяПодсказка" id="171"/>
 					<ChildItems>
@@ -387,6 +490,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Шаг 1 из 2. Загрузка данных</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Step 1 out of 2. Importing data.</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
@@ -415,6 +522,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ожидание синхронизации данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Waiting for data synchronization</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОжиданиеСинхронизацииДанныхПрогрессБарВыгрузкаРасширеннаяПодсказка" id="182"/>
 					<ChildItems>
@@ -424,6 +535,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Шаг 2 из 2. Выгрузка данных</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Step 2 out of 2. Exporting data.</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
@@ -452,6 +567,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Завершение обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange completion</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ЗавершениеОбменаExtendedTooltip" id="100"/>
 					<ChildItems>
@@ -460,6 +579,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Статус завершения обмена</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Exchange completion status</v8:content>
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
@@ -471,6 +594,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Обмен завершен успешно</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Exchange completed successfully</v8:content>
+										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
 									<ExtendedTooltip name="ОбменЗавершенУспешноExtendedTooltip" id="102"/>
@@ -480,6 +607,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Картинка обмен завершен успешно</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Exchange completed successfully picture</v8:content>
 												</v8:item>
 											</Title>
 											<Picture>
@@ -498,6 +629,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Синхронизация данных завершена.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>The synchronization is completed.</v8:content>
+												</v8:item>
 											</Title>
 											<VerticalAlign>Center</VerticalAlign>
 											<ContextMenu name="СтатусОбменЗавершенУспешноКонтекстноеМеню" id="16"/>
@@ -511,6 +646,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Обмен завершен с ошибкой</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Exchange completed with error</v8:content>
+										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
 									<ExtendedTooltip name="ОбменЗавершенСОшибкойExtendedTooltip" id="105"/>
@@ -520,6 +659,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Картинка обмен завершен с ошибкой</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Exchange completed with error picture</v8:content>
 												</v8:item>
 											</Title>
 											<Picture>
@@ -538,6 +681,11 @@
 													<v8:content>Не удалось синхронизировать данные.
 Обратитесь к администратору.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cannot synchronize data.
+Please contact the administrator.</v8:content>
+												</v8:item>
 											</Title>
 											<VerticalAlign>Center</VerticalAlign>
 											<ContextMenu name="СтатусОбменЗавершенСОшибкойКонтекстноеМеню" id="23"/>
@@ -551,6 +699,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Обмен завершен с ошибкой</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Exchange completed with error</v8:content>
+										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
 									<ExtendedTooltip name="ОбменЗавершенСОшибкойДляАдминистратораExtendedTooltip" id="108"/>
@@ -560,6 +712,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Картинка обмен завершен с ошибкой</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Exchange completed with error picture</v8:content>
 												</v8:item>
 											</Title>
 											<Picture>
@@ -576,6 +732,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Статусное сообщение</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Status message</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -589,6 +749,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Не удалось синхронизировать данные.</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Cannot synchronize data.</v8:content>
 														</v8:item>
 													</Title>
 													<VerticalAlign>Bottom</VerticalAlign>
@@ -610,11 +774,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Обмен завершен с ошибкой подключения</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Exchange completed with connection error</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Обмен завершен с ошибкой</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Exchange completed with error</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Group>HorizontalIfPossible</Group>
@@ -625,6 +797,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Картинка обмен завершен с ошибкой</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Exchange completed with error picture</v8:content>
 												</v8:item>
 											</Title>
 											<Picture>
@@ -652,6 +828,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Обмен завершен с ошибкой требуется обновление</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Exchange completed with update required error</v8:content>
+										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
 									<ExtendedTooltip name="ОбменЗавершенСОшибкойТребуетсяОбновлениеРасширеннаяПодсказка" id="116"/>
@@ -661,6 +841,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Картинка требуется обновление</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Update required picture</v8:content>
 												</v8:item>
 											</Title>
 											<Picture>
@@ -677,6 +861,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Панель требуется обновление</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Update required panel</v8:content>
+												</v8:item>
 											</Title>
 											<PagesRepresentation>None</PagesRepresentation>
 											<ExtendedTooltip name="ПанельТребуетсяОбновлениеExtendedTooltip" id="118"/>
@@ -687,6 +875,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Требуется обновление ограниченные права</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Update required user has no rights</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ТребуетсяОбновлениеОграниченныеПраваExtendedTooltip" id="119"/>
 													<ChildItems>
@@ -696,6 +888,11 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Получено обновление программы из "%1". 
 Необходимо установить обновление программы, после чего синхронизация данных будет продолжена. Обратитесь к администратору.</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>An application update is received from "%1". 
+The data synchronization will continue after the update installation. Please contact the administrator.</v8:content>
 																</v8:item>
 															</Title>
 															<VerticalAlign>Center</VerticalAlign>
@@ -710,6 +907,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Требуется обновление полные права</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Update required user has rights</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ТребуетсяОбновлениеПолныеПраваExtendedTooltip" id="121"/>
 													<ChildItems>
@@ -719,6 +920,11 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Получено обновление программы из "%1".
 Необходимо установить обновление программы, после чего синхронизация данных будет продолжена.</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>An application update is received from "%1." 
+Please install the update, then the data synchronization will continue.</v8:content>
 																</v8:item>
 															</Title>
 															<VerticalAlign>Center</VerticalAlign>
@@ -736,6 +942,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Ошибка расхождения версий</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Version conflict error</v8:content>
 										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
@@ -763,6 +973,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Ошибка назначение идентификатора для узла</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Error assigning ID to a node</v8:content>
+										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
 									<ExtendedTooltip name="ОшибкаНазначениеИдентификатораДляУзлаРасширеннаяПодсказка" id="213"/>
@@ -772,6 +986,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Картинка ошибка назначение идентификатора для узла</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Picture error assigning ID to a node</v8:content>
 												</v8:item>
 											</Title>
 											<Picture>
@@ -792,6 +1010,13 @@
 Способ исправления приведен в &lt;link 1&gt;инструкции&lt;/&gt;
 </v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Duplicate data synchronization settings are detected.
+
+For a correction method, see the &lt;link 1&gt;instruction&lt;/&gt;
+</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ДекорацияОшибкаНазначениеИдентификатораДляУзлаКонтекстноеМеню" id="218"/>
 											<ExtendedTooltip name="ДекорацияОшибкаНазначениеИдентификатораДляУзлаРасширеннаяПодсказка" id="219"/>
@@ -809,6 +1034,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Панель действий</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Actions panel</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ПанельДействийExtendedTooltip" id="123"/>
@@ -819,6 +1048,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Действия закрыть</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Actions close</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ДействияЗакрытьExtendedTooltip" id="124"/>
 									<ChildItems>
@@ -827,6 +1060,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Командная панель закрыть</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Close command bar</v8:content>
 												</v8:item>
 											</Title>
 											<HorizontalLocation>Right</HorizontalLocation>
@@ -848,6 +1085,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Действия установить закрыть</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Actions install close</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ДействияУстановитьЗакрытьExtendedTooltip" id="127"/>
 									<ChildItems>
@@ -856,6 +1097,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Командная панель установить закрыть</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Command bar set close</v8:content>
 												</v8:item>
 											</Title>
 											<HorizontalLocation>Right</HorizontalLocation>
@@ -882,6 +1127,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Действия продолжить отмена</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Actions continue cancel</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ДействияПродолжитьОтменаРасширеннаяПодсказка" id="163"/>
 									<ChildItems>
@@ -890,6 +1139,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Командная панель продолжить отмена</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Continue cancel command bar</v8:content>
 												</v8:item>
 											</Title>
 											<HorizontalLocation>Right</HorizontalLocation>
@@ -908,6 +1161,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Отмена</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Cancel</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="167"/>
@@ -1048,6 +1305,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1150,6 +1411,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Больше не напоминать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not remind again</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1168,6 +1433,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Процент выполнения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Progress percentage</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1196,6 +1465,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Доп информация выполнение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional information running</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1315,11 +1588,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти в журнал регистрации</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to event log</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти в журнал регистрации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to event log</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПерейтиВЖурналРегистрации</Action>
@@ -1331,11 +1612,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить обновление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Install update</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить обновление</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Install the update.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УстановитьОбновление</Action>
@@ -1347,11 +1636,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Забыли пароль?</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Forgot your password?</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Забыли пароль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Forgot your password?</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗабылиПароль</Action>
@@ -1363,11 +1660,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronize</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить обмен</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run data exchange.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыполнитьОбмен</Action>
@@ -1379,11 +1684,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить выполнение синхронизации данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue data synchronization.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПродолжитьСинхронизацию</Action>

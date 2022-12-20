@@ -42,6 +42,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Стандартные значения доступа</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Regular Access Values</v8:content>
+							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:decimal">0</Value>
 					</xr:Value>
@@ -54,6 +58,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Обычные/внешние пользователи</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Regular or external users</v8:content>
 							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:decimal">1</Value>
@@ -68,6 +76,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Обычные/внешние группы пользователей</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Regular or external user groups</v8:content>
+							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:decimal">2</Value>
 					</xr:Value>
@@ -81,6 +93,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Группы исполнителей</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Assignee groups</v8:content>
+							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:decimal">3</Value>
 					</xr:Value>
@@ -93,6 +109,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Объекты авторизации</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Authorization objects</v8:content>
 							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:decimal">4</Value>
@@ -119,11 +139,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования только для целей поиска неисправности (требуется углубленное понимание работы механизма)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing for troubleshooting purposes. Recommended for advanced users only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>

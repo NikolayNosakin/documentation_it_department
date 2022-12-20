@@ -16,6 +16,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель основная</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main panel</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ПанельОсновнаяРасширеннаяПодсказка" id="29"/>
@@ -26,6 +30,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница способ настройки подключения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Connection setup method page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаСпособНастройкиПодключенияРасширеннаяПодсказка" id="733"/>
 					<ChildItems>
@@ -34,6 +42,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Варианты настройки подключения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Connection setup options</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -54,6 +66,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Выбрать приложение из списка</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Select application</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">ПриложениеИзСписка</Value>
 											</xr:Value>
@@ -66,6 +82,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Настроить подключение вручную</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Configure connection manually</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">НастроитьВручную</Value>
@@ -84,6 +104,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Панель способы настройки подключения</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Connection setup methods panel</v8:content>
+										</v8:item>
 									</Title>
 									<PagesRepresentation>None</PagesRepresentation>
 									<ExtendedTooltip name="ПанельСпособыНастройкиПодключенияРасширеннаяПодсказка" id="735"/>
@@ -94,6 +118,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Страница мои приложения</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>My applications page</v8:content>
+												</v8:item>
 											</Title>
 											<ExtendedTooltip name="СтраницаМоиПриложенияРасширеннаяПодсказка" id="729"/>
 											<ChildItems>
@@ -102,6 +130,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Мои приложения</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>My applications</v8:content>
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
@@ -116,6 +148,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Командная панель список приложений</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Applications command bar</v8:content>
+																</v8:item>
 															</Title>
 															<Group>AlwaysHorizontal</Group>
 															<VerticalAlign>Center</VerticalAlign>
@@ -129,6 +165,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Командная панель список приложений слева</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Applications left command bar</v8:content>
 																		</v8:item>
 																	</Title>
 																	<HorizontalStretch>false</HorizontalStretch>
@@ -147,6 +187,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Панель приложения в сервисе</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Cloud applications panel</v8:content>
+																		</v8:item>
 																	</Title>
 																	<PagesRepresentation>None</PagesRepresentation>
 																	<ExtendedTooltip name="ПанельПриложенияВСервисеРасширеннаяПодсказка" id="86"/>
@@ -157,6 +201,10 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Страница приложения в сервисе ожидание</v8:content>
 																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Cloud applications waiting page</v8:content>
+																				</v8:item>
 																			</Title>
 																			<Group>AlwaysHorizontal</Group>
 																			<ExtendedTooltip name="СтраницаПриложенияВСервисеОжиданиеРасширеннаяПодсказка" id="88"/>
@@ -166,6 +214,10 @@
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
 																							<v8:content>Декорация приложения ожидание картинка</v8:content>
+																						</v8:item>
+																						<v8:item>
+																							<v8:lang>en</v8:lang>
+																							<v8:content>Applications waiting decoration picture</v8:content>
 																						</v8:item>
 																					</Title>
 																					<Picture>
@@ -183,6 +235,10 @@
 																							<v8:lang>ru</v8:lang>
 																							<v8:content>Выполняется получение списка доступных программ...</v8:content>
 																						</v8:item>
+																						<v8:item>
+																							<v8:lang>en</v8:lang>
+																							<v8:content>Retrieving the list of available applications…</v8:content>
+																						</v8:item>
 																					</Title>
 																					<ContextMenu name="ДекорацияПриложенияОжиданиеНадписьКонтекстноеМеню" id="97"/>
 																					<ExtendedTooltip name="ДекорацияПриложенияОжиданиеНадписьРасширеннаяПодсказка" id="98"/>
@@ -195,6 +251,10 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Страница приложения в сервисе ошибка</v8:content>
 																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Cloud applications error page</v8:content>
+																				</v8:item>
 																			</Title>
 																			<Group>AlwaysHorizontal</Group>
 																			<ExtendedTooltip name="СтраницаПриложенияВСервисеОшибкаРасширеннаяПодсказка" id="126"/>
@@ -204,6 +264,10 @@
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
 																							<v8:content>Декорация приложения ошибка картинка</v8:content>
+																						</v8:item>
+																						<v8:item>
+																							<v8:lang>en</v8:lang>
+																							<v8:content>Applications error decoration picture</v8:content>
 																						</v8:item>
 																					</Title>
 																					<Picture>
@@ -219,6 +283,10 @@
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
 																							<v8:content>Не удалось получить список доступных программ.</v8:content>
+																						</v8:item>
+																						<v8:item>
+																							<v8:lang>en</v8:lang>
+																							<v8:content>Cannot retrieve the list of cloud applications.</v8:content>
 																						</v8:item>
 																					</Title>
 																					<ContextMenu name="ДекорацияПриложенияОшибкаНадписьКонтекстноеМеню" id="131"/>
@@ -249,6 +317,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Приложения в сервисе</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Cloud applications</v8:content>
 																</v8:item>
 															</Title>
 															<CommandSet>
@@ -328,6 +400,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Страница виды подключения</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Connection types page</v8:content>
+												</v8:item>
 											</Title>
 											<ExtendedTooltip name="СтраницаВидыПодключенияРасширеннаяПодсказка" id="33"/>
 											<ChildItems>
@@ -336,6 +412,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Виды подключения</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Connection types</v8:content>
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
@@ -359,6 +439,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Подключение к другой программе на этом компьютере или по локальной сети</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Connect to another application on this computer or in the local network</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">ВнешнееСоединение</Value>
 																	</xr:Value>
@@ -373,6 +457,11 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Данный вариант подключения рекомендуется в том случае, если другая программа находится на том же компьютере,
 что и эта программа, или обе программы расположены в одной локальной сети (в одном офисе).</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>This option is recommended if both applications are located
+on the same computer or in the local network (in the same office).</v8:content>
 																	</v8:item>
 																</Title>
 															</ExtendedTooltip>
@@ -395,6 +484,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Подключение к другой программе через Интернет</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Connect to another application over the Internet</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">Интернет</Value>
 																	</xr:Value>
@@ -408,6 +501,11 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Этот вариант подключения рекомендуется выбрать, если программа находится в другой сети (офисе)
 и при этом доступна для подключения через Интернет.</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>This option is recommended if the other application is located in another network (in another office)
+and Internet connection can be established.</v8:content>
 																	</v8:item>
 																</Title>
 															</ExtendedTooltip>
@@ -430,6 +528,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Подключение выполняется из другой программы через Интернет (пассивный режим)</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Connect from another application over the Internet (passive mode)</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">ПассивныйРежим</Value>
 																	</xr:Value>
@@ -444,6 +546,11 @@
 																		<v8:content>При таком варианте подключения эта программа отправляет и принимает данные через Интернет
 только по запросу от программы-корреспондента.</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>With this connection option, this application sends and receives data over the Internet only upon request 
+from the peer application.</v8:content>
+																	</v8:item>
 																</Title>
 															</ExtendedTooltip>
 															<Events>
@@ -455,6 +562,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Файл настройки пассивный режим</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Settings file passive mode</v8:content>
 																</v8:item>
 															</Title>
 															<Group>AlwaysHorizontal</Group>
@@ -476,6 +587,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Группа1</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Group1</v8:content>
+																		</v8:item>
 																	</Title>
 																	<Group>Vertical</Group>
 																	<Behavior>Usual</Behavior>
@@ -489,6 +604,10 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Файл с настройками EnterpriseData</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>File with EnterpriseData settings</v8:content>
 																				</v8:item>
 																			</Title>
 																			<AutoMaxWidth>false</AutoMaxWidth>
@@ -508,6 +627,11 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Для продолжения настройки требуется конфигурационный файл с настройками синхронизации данных
 через EnterpriseData из программы-корреспондента.</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>To continue the setup, provide a configuration file with EnterpriseData synchronization settings
+created in the peer application.</v8:content>
 																				</v8:item>
 																			</Title>
 																			<VerticalAlign>Top</VerticalAlign>
@@ -533,6 +657,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Синхронизация данных через файл, без подключения к другой программе</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Synchronize data using a file, without connecting to the other application</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">ОбычныеКаналыСвязи</Value>
 																	</xr:Value>
@@ -550,6 +678,14 @@
 Такой вариант подходит не только для синхронизации данных с программами, расположенными в других сетях (офисах),
 но и для программ в одной сети.</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>If LAN or Internet connection to the other application cannot be established,
+it is recommended that you use other communication channels: a network directory, an FTP resource, or email.
+The peer applications can run the synchronization autonomously at different times.
+This option is suitable for data synchronization with applications located both in other networks (offices)
+and in the same network.</v8:content>
+																	</v8:item>
 																</Title>
 															</ExtendedTooltip>
 															<Events>
@@ -561,6 +697,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Файл настройки обычные каналы связи</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Settings file regular communication channels</v8:content>
 																</v8:item>
 															</Title>
 															<Group>AlwaysHorizontal</Group>
@@ -582,6 +722,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Группа2</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Group2</v8:content>
+																		</v8:item>
 																	</Title>
 																	<Group>Vertical</Group>
 																	<Behavior>Usual</Behavior>
@@ -594,6 +738,10 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Файл настройки обычные каналы связи</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Settings file regular communication channels</v8:content>
 																				</v8:item>
 																			</Title>
 																			<Group>AlwaysHorizontal</Group>
@@ -630,6 +778,14 @@
  - выбрать требуемую синхронизацию данных и открыть ее параметры 
  - в командной панели формы следует выбрать пункт меню: "Все действия" –&gt; "Получить настройки синхронизации данных для другой программы..."</v8:content>
 																							</v8:item>
+																							<v8:item>
+																								<v8:lang>en</v8:lang>
+																								<v8:content>If a file with connection parameters is lost, generate a new file:
+ 1. Open the other application.
+ 2. Open the data synchronization window.
+ 3. Select the required data synchronization and open its parameters.
+ 4. In the command bar of the form, click "All actions", and then click "Get data synchronization settings for another application".</v8:content>
+																							</v8:item>
 																						</Title>
 																					</ExtendedTooltip>
 																					<Events>
@@ -646,6 +802,11 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Можно загрузить параметры подключения из файла, созданного в программе-корреспонденте
 при настройке синхронизации данных.</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>You can import connection parameters from the file that was generated in the peer application 
+during data synchronization setup.</v8:content>
 																				</v8:item>
 																			</Title>
 																			<VerticalAlign>Top</VerticalAlign>
@@ -672,6 +833,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница параметры подключения интернет</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Connection parameters Internet page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаПараметрыПодключенияИнтернетРасширеннаяПодсказка" id="146"/>
 					<ChildItems>
@@ -680,6 +845,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Параметры подключения через Интернет</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Connection over the Internet</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -695,6 +864,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Параметры интернет</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Internet parameters</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -717,6 +890,12 @@
 Например, https://site.domain/database/123
 </v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>The application URL (as in a web browser).
+Example: https://website.domain/database/123.
+</v8:content>
+													</v8:item>
 												</Title>
 											</ExtendedTooltip>
 										</InputField>
@@ -733,6 +912,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Интернет пароль</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Internet password</v8:content>
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
@@ -776,6 +959,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница параметры подключения внешнее соединение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Connection parameters external connection page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаПараметрыПодключенияВнешнееСоединениеРасширеннаяПодсказка" id="144"/>
 					<ChildItems>
@@ -784,6 +971,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Параметры прямого подключения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Direct connection parameters</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -800,6 +991,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Параметры внешнее соединение</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>External connection parameters</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -812,6 +1007,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Расположение программы</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Application location</v8:content>
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
@@ -829,6 +1028,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Параметры расположение</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Location parameters</v8:content>
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
@@ -850,6 +1053,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>На данном компьютере или на компьютере в локальной сети</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>On this computer or LAN computer</v8:content>
 																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">Файловый</Value>
@@ -886,6 +1093,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>На сервере 1С:Предприятия</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>On 1C:Enterprise server</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">КлиентСерверный</Value>
 																	</xr:Value>
@@ -919,6 +1130,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Параметры входа в программу</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Authorization parameters</v8:content>
+												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
 											<Behavior>Usual</Behavior>
@@ -935,6 +1150,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Параметры аутентификация</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Authentication parameters</v8:content>
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
@@ -956,6 +1175,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Использовать учетную запись операционной системы</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Use operating system account</v8:content>
 																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">ОперационнаяСистема</Value>
@@ -981,6 +1204,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Использовать указанные имя пользователя и пароль</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Use the username and password</v8:content>
 																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">1СПредприятие</Value>
@@ -1026,6 +1253,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница параметры подключения обычные каналы связи</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Connection parameters regular communication channels</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаПараметрыПодключенияОбычныеКаналыСвязиРасширеннаяПодсказка" id="199"/>
 					<ChildItems>
@@ -1034,6 +1265,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Синхронизация данных через локальный или сетевой каталог</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Synchronize data using a local or network directory</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -1056,6 +1291,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Обычные каналы связи FILE использование</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Regular communication channels FILE</v8:content>
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
@@ -1084,6 +1323,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Синхронизация данных через каталог на FTP-сервере</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Synchronize data using an FTP server directory</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
@@ -1107,6 +1350,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Обычные каналы связи FTP использование</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Regular communication channels FTP</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -1119,6 +1366,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Синхронизация через FTP каталог</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Synchronization using FTP directory </v8:content>
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
@@ -1145,6 +1396,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Синхронизация через FTP аутентификация</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Synchronization using FTP directory authentication</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -1177,6 +1432,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Ограничение размера файла FTP</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>File size limit FTP</v8:content>
+												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
 											<Behavior>Usual</Behavior>
@@ -1208,6 +1467,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>КБ</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>KB</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="Декорация5КонтекстноеМеню" id="351"/>
 													<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="352"/>
@@ -1236,6 +1499,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Синхронизация данных через электронную почту</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Synchronize data using email</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
@@ -1259,6 +1526,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Обычные каналы связи EMAIL использование</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Regular communication channels EMAIL</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -1277,6 +1548,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Ограничение размера вложения EMAIL</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Attachment size limit EMAIL</v8:content>
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
@@ -1308,6 +1583,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>КБ</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>KB</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="Декорация4КонтекстноеМеню" id="340"/>
 													<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="341"/>
@@ -1323,6 +1602,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительные настройки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Advanced settings</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -1343,6 +1626,11 @@
 												<v8:content>Рекомендуется применять в случае, если при обмене возникают ошибки, связанные с  различными кодировками файлов.
 Настройку не следует использовать, в случае, если такая же настройка не поддерживается на стороне корреспондента.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>It is recommended that you select the check box if errors occur during the exchange due to different file encodings.
+If you select the check box, also select it in the peer application.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</CheckBoxField>
@@ -1361,6 +1649,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Обычные каналы связи пароль архива</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Regular communication channels archive password</v8:content>
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
@@ -1406,6 +1698,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница проверка подключения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Connection check page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаПроверкаПодключенияРасширеннаяПодсказка" id="356"/>
 					<ChildItems>
@@ -1414,6 +1710,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Панель проверка подключения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Connection check panel</v8:content>
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
@@ -1425,6 +1725,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница проверка подключения online</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Connection check online page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаПроверкаПодключенияOnlineРасширеннаяПодсказка" id="590"/>
 									<ChildItems>
@@ -1433,6 +1737,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Проверка параметров подключения</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Checking connection parameters</v8:content>
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
@@ -1444,6 +1752,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Декорация проверка подключения online ожидание картинка</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Connection check online waiting decoration picture</v8:content>
 														</v8:item>
 													</Title>
 													<Picture>
@@ -1462,6 +1774,11 @@
 															<v8:content>Выполняется подключение к программе-корреспонденту.
 Пожалуйста, подождите...</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Connecting to the peer application.
+Please wait…</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="ДекорацияПроверкаПодключенияOnlineОжиданиеНадписьКонтекстноеМеню" id="377"/>
 													<ExtendedTooltip name="ДекорацияПроверкаПодключенияOnlineОжиданиеНадписьРасширеннаяПодсказка" id="378"/>
@@ -1476,6 +1793,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница проверка подключения offline</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Connection check offline page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаПроверкаПодключенияOfflineРасширеннаяПодсказка" id="592"/>
 									<ChildItems>
@@ -1484,6 +1805,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Проверка параметров передачи данных</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Checking data transfer parameters</v8:content>
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
@@ -1495,6 +1820,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Декорация проверка подключения offline ожидание картинка</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Connection check offline waiting decoration picture</v8:content>
 														</v8:item>
 													</Title>
 													<Picture>
@@ -1512,6 +1841,11 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Выполняется проверка параметров передачи данных.
 Пожалуйста, подождите...</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Checking data transfer parameters.
+Please wait…</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="ДекорацияПроверкаПодключенияOfflineОжиданиеНадписьКонтекстноеМеню" id="627"/>
@@ -1531,6 +1865,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница общие настройки синхронизации</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>General synchronization settings page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОбщиеНастройкиСинхронизацииРасширеннаяПодсказка" id="475"/>
 					<ChildItems>
@@ -1539,6 +1877,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Параметры синхронизации данных</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data synchronization parameters</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -1551,6 +1893,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Представление этой программы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Presentation of this application</v8:content>
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
@@ -1583,6 +1929,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Представление программы-корреспондента</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Presentation of peer application</v8:content>
+										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
 									<Behavior>Usual</Behavior>
@@ -1613,6 +1963,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Прочее</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Other</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -1649,6 +2003,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дублирование настроек синхронизации</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Duplicate synchronization settings</v8:content>
+										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
 									<Behavior>Usual</Behavior>
@@ -1660,6 +2018,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Группа4</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Group4</v8:content>
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
@@ -1681,6 +2043,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Группа5</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Group5</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Usual</Behavior>
@@ -1695,6 +2061,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Уже существует настроенная синхронизация между информационными базами.</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Configured synchronization between infobases already exists.</v8:content>
+																</v8:item>
 															</Title>
 															<ContextMenu name="Декорация3КонтекстноеМеню" id="781"/>
 															<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="782"/>
@@ -1705,6 +2075,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Исправить</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Correct</v8:content>
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
@@ -1733,6 +2107,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Пояснение</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Note</v8:content>
+																		</v8:item>
 																	</Title>
 																	<ContextMenu name="ДекорацияПояснениеКИсправитьКонтекстноеМеню" id="832"/>
 																	<ExtendedTooltip name="ДекорацияПояснениеКИсправитьРасширеннаяПодсказка" id="833"/>
@@ -1750,6 +2128,14 @@
 
 Не рекомендуется применять для работающих синхронизаций.</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>&lt;color #FF0000&gt;Warning!
+&lt;/&gt;
+This operation cannot be undone and is intended only to resolve a synchronization error associated with duplicate exchange settings in infobases that were obtained by copying.
+
+This operation is not recommended for running synchronizations.</v8:content>
+																</v8:item>
 															</Title>
 															<ContextMenu name="Декорация18КонтекстноеМеню" id="799"/>
 															<ExtendedTooltip name="Декорация18РасширеннаяПодсказка" id="800"/>
@@ -1765,6 +2151,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Восстановление настроек</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Restore settings.</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -1792,6 +2182,11 @@
 															<v8:content>&lt;colorstyle -16&gt;Внимание!&lt;/&gt;
 Продолжение настройки приведет к изменению кода узла обмена для этой информационной базы. Если в базе уже существуют настроенные обмены, то это может привезти к их неработоспособности.</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>&lt;colorstyle -16&gt;Внимание!&lt;/&gt;
+Продолжение настройки приведет к изменению кода узла обмена для этой информационной базы. Если в базе уже существуют настроенные обмены, то это может привезти к их неработоспособности.</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="Декорация12КонтекстноеМеню" id="842"/>
 													<ExtendedTooltip name="Декорация12РасширеннаяПодсказка" id="843"/>
@@ -1810,6 +2205,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница сохранение настроек подключения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Save connection settings page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаСохранениеНастроекПодключенияРасширеннаяПодсказка" id="401"/>
 					<ChildItems>
@@ -1818,6 +2217,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сохранение настроек</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Save settings</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -1841,6 +2244,11 @@
 											<v8:content>Выполняется сохранение настроек подключения.
 Пожалуйста, подождите...</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Saving connection settings.
+Please wait…</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация9КонтекстноеМеню" id="408"/>
 									<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="409"/>
@@ -1855,6 +2263,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница окончание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Completion page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОкончаниеРасширеннаяПодсказка" id="358"/>
 					<ChildItems>
@@ -1863,6 +2275,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройка подключения завершена</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Connection setup completed</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -1874,6 +2290,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Параметры синхронизации данных в этой программе</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data synchronization parameters in this application</v8:content>
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
@@ -1899,6 +2319,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Настройки подключения в этой программе успешно сохранены.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>The connection settings are successfully saved.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="Декорация7КонтекстноеМеню" id="367"/>
 											<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="368"/>
@@ -1917,6 +2341,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель навигации</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Navigation panel</v8:content>
+				</v8:item>
 			</Title>
 			<GroupVerticalAlign>Bottom</GroupVerticalAlign>
 			<PagesRepresentation>None</PagesRepresentation>
@@ -1928,6 +2356,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница навигация начало</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Navigation start page</v8:content>
+						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
 					<ExtendedTooltip name="СтраницаНавигацияНачалоРасширеннаяПодсказка" id="35"/>
@@ -1938,6 +2370,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель навигация начало слева</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar navigation start left</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="КоманднаяПанельНавигацияНачалоСлеваРасширеннаяПодсказка" id="41"/>
 						</CommandBar>
@@ -1946,6 +2382,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель навигация начало справа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar navigation start right</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -1972,6 +2412,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница навигация продолжение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Page navigation continue</v8:content>
+						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
 					<ExtendedTooltip name="СтраницаНавигацияПродолжениеРасширеннаяПодсказка" id="37"/>
@@ -1981,6 +2425,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель навигация продолжение слева</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar navigation continue left</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="КоманднаяПанельНавигацияПродолжениеСлеваРасширеннаяПодсказка" id="49"/>
@@ -1997,6 +2445,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель навигация продолжение справа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar navigation continue right</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -2022,6 +2474,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница навигация окончание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Navigation completion page</v8:content>
+						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
 					<ExtendedTooltip name="СтраницаНавигацияОкончаниеРасширеннаяПодсказка" id="39"/>
@@ -2031,6 +2487,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель навигация окончание слева</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar navigation waiting left</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="КоманднаяПанельНавигацияОкончаниеСлеваРасширеннаяПодсказка" id="59"/>
@@ -2047,6 +2507,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель навигация окончание справа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar navigation waiting right</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -2071,6 +2535,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Приложения в сервисе</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cloud applications</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -2081,6 +2549,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2096,6 +2568,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Префикс</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Prefix</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2147,6 +2623,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Область данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data area</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2302,6 +2782,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вид подключения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Connection type</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2321,6 +2805,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя файла настроек подключения для загрузки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Name of connection settings file for import</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2347,6 +2835,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вариант работы информационной базы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Infobase run mode</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2361,6 +2853,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Каталог</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Directory</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2377,6 +2873,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сервер</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Server</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2391,6 +2891,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя базы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Base name</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2407,6 +2911,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вид аутентификации</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Authentication type</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2421,6 +2929,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователь</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2437,6 +2949,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2451,6 +2967,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адрес программы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Application URL</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2467,6 +2987,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2481,6 +3005,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Password</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2497,6 +3025,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Запомнить пароль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remember password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2507,6 +3039,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Каталог</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Directory</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2523,6 +3059,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Архивировать файлы обмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Archive exchange files</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2534,6 +3074,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Транслитерировать имена файлов обмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Transliterate exchange file names</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2544,6 +3088,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль архива</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Archive password</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2570,6 +3118,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адрес каталога</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Directory</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2584,6 +3136,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Порт</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Port</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2601,6 +3157,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2615,6 +3175,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Password</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2631,6 +3195,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль архива</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Archive password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2642,6 +3210,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использовать локальный или сетевой каталог для синхронизации данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use local or network directory to synchronize data</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2652,6 +3224,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использовать каталог на FTP-сервере для синхронизации данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use FTP server directory to synchronize data</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2669,6 +3245,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использовать электронную почту для синхронизации данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use email to synchronize data</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2680,6 +3260,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Учетная запись</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Account</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.УчетныеЗаписиЭлектроннойПочты</v8:Type>
@@ -2690,6 +3274,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Максимальный допустимый размер вложения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Attachment size limit</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2707,6 +3295,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ограничение размера вложения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Attachment size limit</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2718,6 +3310,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пассивный режим</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Passive mode</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2728,6 +3324,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Максимальный допустимый размер файла</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File size limit</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2744,6 +3344,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ограничение размера файла</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File size limit</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2815,6 +3419,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Наименование</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Description</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2829,6 +3437,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Префикс</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Prefix</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2845,6 +3457,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Наименование</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Description</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2859,6 +3475,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Префикс</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Prefix</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2908,6 +3528,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя файла настроек подключения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Connection settings file name</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2950,6 +3574,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вид подключения по умолчанию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Default connection type</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3063,6 +3691,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить параметры подключения из файла</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import connection parameters from file</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3098,6 +3730,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Способ настройки подключения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Connection setup method</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -3112,6 +3748,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя файла настроек XDTOКорреспондента</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Peer XDTO settings file name</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3160,6 +3800,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Исправить дублирование настроек синхронизации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fix duplicate synchronization settings</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3217,11 +3861,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt; Назад</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt; Back</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команда назад</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Back command</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаНазад</Action>
@@ -3232,11 +3884,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Далее &gt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Next &gt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команда далее</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Next command</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаДалее</Action>
@@ -3247,11 +3907,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Готово</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Finish</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команда готово</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Done command</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаГотово</Action>
@@ -3262,11 +3930,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команда отмена</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel command</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаОтмена</Action>
@@ -3277,11 +3953,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Справка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Help</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Справка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Help</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3297,11 +3981,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить список доступных приложений</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh the list of available applications.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3317,11 +4009,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры доступа в интернет</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Internet access parameters</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры доступа в интернет</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Internet access parameters</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПараметрыДоступаВИнтернет</Action>
@@ -3332,11 +4032,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подробное описание</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Detailed description</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подробное описание синхронизации данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Detailed data synchronization description</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3351,11 +4059,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить файл настроек подключения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save connection settings to a file.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

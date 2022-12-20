@@ -36,6 +36,11 @@
 					<v8:content>Сбросить пользовательские настройки быстрого доступа и видимости 
 выбранных вариантов отчетов?</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do you want to reset quick access and visibility settings
+for the selected report options?</v8:content>
+				</v8:item>
 			</Title>
 			<ContextMenu name="Надпись2КонтекстноеМеню" id="12"/>
 			<ExtendedTooltip name="Надпись2РасширеннаяПодсказка" id="13"/>
@@ -46,6 +51,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Внимание, операция "&lt;b&gt;Сбросить настройки пользователей&lt;/&gt;" необратима.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Warning. The &lt;b&gt;Reset custom settings&lt;/&gt; command cannot be undone.</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="Надпись1КонтекстноеМеню" id="2"/>
@@ -77,6 +86,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сбросить пользовательские настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reset custom settings</v8:content>
 				</v8:item>
 			</Title>
 			<Action>КомандаСбросить</Action>

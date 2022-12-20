@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Очистка настроек пользователей</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Clear user settings</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -54,6 +58,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить настройки:</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear settings for:</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -65,6 +73,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Кому скопировать</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Users</v8:content>
 						</v8:item>
 					</Title>
 					<TitleLocation>None</TitleLocation>
@@ -80,6 +92,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>У выбранных пользователей:</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Selected users:</v8:content>
+									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">ВыбраннымПользователям</Value>
 							</xr:Value>
@@ -92,6 +108,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>У всех пользователей</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>All users</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">ВсемПользователям</Value>
@@ -115,6 +135,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выбрать</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Select users.</v8:content>
+						</v8:item>
 					</Title>
 					<Hyperlink>true</Hyperlink>
 					<ContextMenu name="ВыбратьПользователейКонтекстноеМеню" id="59"/>
@@ -131,6 +155,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Что очистить:</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear:</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
@@ -152,6 +180,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Все настройки</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>All settings</v8:content>
+									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">ОчиститьВсе</Value>
 							</xr:Value>
@@ -165,6 +197,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Устаревшие настройки</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Obsolete settings</v8:content>
+									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">УстаревшиеНастройки</Value>
 							</xr:Value>
@@ -177,6 +213,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Отдельные настройки:</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Some settings:</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">ОтдельныеНастройки</Value>
@@ -201,6 +241,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выбрать</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Select</v8:content>
 						</v8:item>
 					</Title>
 					<GroupVerticalAlign>Bottom</GroupVerticalAlign>
@@ -227,6 +271,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переключатель кому очищать настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>All users or selected users</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -274,6 +322,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переключатель очищаемые настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>All settings or selected settings</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -305,11 +357,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear the settings.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Очистить</Action>
@@ -321,11 +381,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить и закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear the settings and close the form.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОчиститьИЗакрыть</Action>

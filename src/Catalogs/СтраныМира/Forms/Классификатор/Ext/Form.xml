@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Классификатор стран мира (ОКСМ)</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Country classifier</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -33,6 +37,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Классификатор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Classifier</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSet>
@@ -83,7 +91,7 @@
 					</Button>
 					<Button name="КлассификаторКонтекстноеМенюВыделитьВсе" id="42">
 						<Type>CommandBarButton</Type>
-						<CommandName>0</CommandName>
+						<CommandName>17:51c99108-107c-43e1-8918-e48835bf2495</CommandName>
 						<ExtendedTooltip name="КлассификаторКонтекстноеМенюВыделитьВсеExtendedTooltip" id="55"/>
 					</Button>
 				</ChildItems>
@@ -101,6 +109,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Классификатор группа вывести список</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Classifier display list group</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="КлассификаторГруппаВывестиСписокРасширеннаяПодсказка" id="83"/>
 						<ChildItems>
@@ -116,6 +128,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Классификатор группа поиск</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Classifier search group</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="КлассификаторГруппаПоискExtendedTooltip" id="56"/>
@@ -242,6 +258,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Классификатор</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Classifier</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -255,6 +275,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Code</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -271,6 +295,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -285,6 +313,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование полное</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Full description</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -301,6 +333,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код альфа 2</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Alpha-2 code</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -315,6 +351,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код альфа 3</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Alpha-3 code</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -340,6 +380,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Участник ЕАЭС</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>EEU member</v8:content>
 						</v8:item>
 					</Title>
 					<Type>

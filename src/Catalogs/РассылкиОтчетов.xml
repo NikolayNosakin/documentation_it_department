@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассылки отчетов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report distribution rules</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Hierarchical>true</Hierarchical>
@@ -217,6 +221,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Родитель рассылки отчетов или группы рассылок отчетов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group the item belongs to.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -232,6 +240,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -254,6 +266,11 @@
 							<v8:content>Краткое представление рассылки отчетов.
 Может использоваться в теме или тексте письма при доставке по почте.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Short presentation of report distribution.
+It can be mentioned in email subject or body.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -269,6 +286,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -338,6 +359,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассылка отчетов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report distribution</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -358,6 +383,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Каталог</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Directory</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -374,6 +403,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Каталог на FTP сервере, в который публикуются отчеты. </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Directory on the FTP server, to which reports are published.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -407,6 +440,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Логин</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Username</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -423,6 +460,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя пользователя FTP сервера.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name of FTP server user.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -456,6 +497,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пассивное соединение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Passive connection</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -468,6 +513,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Если флажок установлен то при соединении по FTP сервер открывает порт и ожидает подключения клиента. Рекомендуется включать если клиент не может принять входящее TCP-соединение (например, если входящие соединения блокируются сетевым экраном).</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If the check box is selected and you use the FTP connection, the server opens a port and waits for client connection. It is recommended that you enable it if the client cannot receive incoming TCP connection (for example, when incoming connections are blocked by firewall).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -501,6 +550,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Порт</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Port</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -518,6 +571,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Порт FTP сервера может быть задан в диапазоне от 0 до 65535.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Specify the FTP server port in the range between 0 and 65535.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -551,6 +608,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сервер</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Server</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -567,6 +628,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>FTP Сервер.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>FTP server.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -600,6 +665,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ответственный</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Person responsible</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -612,6 +681,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>При выполнении по расписанию отчеты формируются с правами ответственного за рассылку</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Scheduled reports are generated with the rights of the user responsible for the report distribution.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -645,6 +718,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес ответа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reply-to address</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -661,6 +738,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>E-mail адрес, на который будут приходить ответы на рассылку</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Email address responses will be sent to.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -694,6 +775,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Архивировать</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Archive</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -706,6 +791,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Архивировать файлы в ZIP при доставке</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Archive files to ZIP on delivery</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -739,6 +828,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Почтовый адрес</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Address type</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -751,6 +844,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вид почтового адреса получателей рассылки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Report recipients email type.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -784,6 +881,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выполнять по расписанию</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Schedule</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -796,6 +897,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Рассылка будет выполняться автоматически по заданному расписанию</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Select this option to automatically distribute reports on schedule.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -829,6 +934,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя архива</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Archive name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -845,6 +954,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя ZIP архива</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>ZIP archive name</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -878,6 +991,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать FTP ресурс</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use FTP resource</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -890,6 +1007,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флажок доставки на FTP ресурс</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check box of delivery to an FTP resource</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -923,6 +1044,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать папку</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use folder</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -935,6 +1060,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флажок доставки в папку программы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check box of delivery to an application folder</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -968,6 +1097,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать сетевой каталог</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use network directory</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -980,6 +1113,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флажок доставки в сетевой каталог</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check box of delivery to a network folder</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1013,6 +1150,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отправлять по электронной почте:</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Send by email:</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1025,6 +1166,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флажок доставки по электронной почте</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check box of delivery by email</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1058,6 +1203,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинки письма в формате HTML</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Mail images in HTML format</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1070,6 +1219,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Структура картинок, которые выводятся в теле письма.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Structure of pictures displayed in the email text.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1103,6 +1256,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Личная</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Personal</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1115,6 +1272,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Если флажок установлен, то рассылка отчетов доступна только автору и администратору программы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If the option is selected, the report distribution is available only to its author and the administrator.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1148,6 +1309,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Папка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Folder</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1160,6 +1325,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Папка программы для доставки отчетов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Application folder for delivering reports</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1193,6 +1362,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Периодичность расписания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Repeated distribution</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1205,6 +1378,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Периодичность, с которой требуется выполнять рассылку по расписанию</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Defines how often report distribution will be repeated.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1238,6 +1415,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Персонализирована</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Personalized</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1250,6 +1431,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Если флажок установлен, то рассылка работает в режиме "Свой отчет для каждого получателя".</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If the option is selected, each recipient will receive personalized reports.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1283,6 +1468,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Письмо в формате HTML</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>HTML mail</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1295,6 +1484,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Если флажок установлен, то в теле письма можно использовать оформление текста и картинки.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If the check box is selected, you can use text decorations and pictures in the email text.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1328,6 +1521,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подготовлена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Is prepared</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1340,6 +1537,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Готовность рассылки к выполнению</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Defines if the distribution is ready to be sent out.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1373,6 +1574,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Регламентное задание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Scheduled job</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1385,6 +1590,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Идентификатор регламентного задания, которое будет запускать эту рассылку отчетов.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The ID of a scheduled job that starts this report distribution.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1418,6 +1627,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сетевой каталог linux</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Linux network directory </v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1434,6 +1647,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сетевой каталог для доставки отчетов (используется серверами кластера под управлением ОС Linux).</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Network directory for delivering reports (for cluster servers running OS Linux).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1467,6 +1684,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сетевой каталог windows</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Windows network directory</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1483,6 +1704,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сетевой каталог для доставки отчетов (используется серверами кластера под управлением ОС Windows).</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Network directory for delivering reports (for cluster servers running OS Windows).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1516,6 +1741,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отправлять письма через скрытые копии</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Send emails using BCC</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1528,6 +1757,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Если флажок установлен, то получатели не увидят других получателей письма (увидят только себя).</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If the check box is selected, recipients will not see other email recipients (only themselves).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1561,6 +1794,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Текст письма</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Email text</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1577,6 +1814,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Текст письма рассылки отчетов.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Email body.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1610,6 +1851,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Текст письма в формате HTML</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>HTML mail</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1626,6 +1871,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тело письма рассылки отчетов с возможностью форматирования текста и вставки картинок.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Mail format that supports text formatting and embedded pictures.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1659,6 +1908,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тема</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Subject</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1675,6 +1928,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тема письма рассылки отчетов.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Subject</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1708,6 +1965,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Кому</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>To</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1721,6 +1982,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип получателей рассылки отчетов.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Type of report recipients.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1754,6 +2019,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отправлять только уведомления</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Send notifications only</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1767,6 +2036,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Если флажок установлен, то отчеты будут опубликованы, а в письмах будет указан только адрес их публикации.
 Если флажок снят, то отчеты будут присоединены к письмам как вложения.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If the check box is selected, reports will be published and only their publication addresses will be specified in emails.
+If the check box is cleared, the reports will be attached to emails.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1800,6 +2074,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Транслитерировать имена файлов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Transliterate file names</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1812,6 +2090,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сохраненные файлы будут иметь имена, содержащие только латинские буквы и цифры, для возможности переноса между различными операционными системами. Например, файл "Отчет.mxl" будет сохранен с именем "Otchet.mxl".</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>File names will contain only Latin letters and digits to ensure compatibility with different operating systems.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1845,6 +2127,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>От</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>From</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1857,6 +2143,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Учетная запись отправителя</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Sender's email account.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1894,6 +2184,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Включать дату в имя файла</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Include date in file name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1906,6 +2200,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак добавления к имени файла отчета даты рассылки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Select the option to add the distribution date to the file name.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1948,6 +2246,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отчеты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reports</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1992,6 +2294,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отчет</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -2005,6 +2311,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отчет, который будет сформирован при рассылке</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report that will be generated for distribution.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -2035,6 +2345,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отправлять пустой</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Send blank reports</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -2047,6 +2361,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отправлять отчет даже если он не содержит данных.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Send a report even if it does not contain data.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -2077,6 +2395,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Settings</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment>ПользовательскиеНастройкиКомпоновкиДанных или ТаблицаЗначений</Comment>
 							<Type>
@@ -2089,6 +2411,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пользовательские настройки, с которыми будет сформирован отчет</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>User settings, with which the report will be generated</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -2130,6 +2456,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Форматы отчетов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Report formats</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -2174,6 +2504,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отчет</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -2187,6 +2521,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отчет, который будет сформирован при рассылке</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report that will be generated for distribution.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -2217,6 +2555,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Формат</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Format</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -2229,6 +2571,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Формат, в котором будет сохранен отчет при рассылке</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report format.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -2270,6 +2616,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Получатели</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Recipients</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -2314,6 +2664,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Получатель</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Recipient</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -2328,6 +2682,12 @@
 									<v8:content>В зависимости от значения флажка "Исключен":
 Когда Исключен = "Да" выбранный пользователь включается в список получателей рассылки.
 Когда Исключен = "Нет" выбранный пользователь исключается из списка получателей рассылки даже если он включен.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>If "Yes", the user is included in the distribution list.
+If set to "No", report will not be sent to the user
+even if user is listed for distribution.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -2358,6 +2718,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Исключен</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Excluded</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -2370,6 +2734,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Исключенные получатели не участвуют в рассылке.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Excluded recipients do not receive reports.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -2409,6 +2777,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выполнить сейчас</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Run now</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Group>FormCommandBarImportant</Group>
@@ -2435,6 +2807,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>События рассылки...</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Report distribution events…</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Group>FormCommandBarImportant</Group>
@@ -2448,6 +2824,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перейти в журнал регистрации с отбором по рассылке</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Go to the event log and set filter by the distribution.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>

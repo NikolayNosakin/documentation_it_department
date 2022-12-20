@@ -24,6 +24,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Стандартные команды</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Standard commands</v8:content>
+					</v8:item>
 				</Title>
 				<CommandSource>Form</CommandSource>
 				<ExtendedTooltip name="СтандартныеКомандыРасширеннаяПодсказка" id="39"/>
@@ -60,6 +64,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Код и наименование</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Code and description</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -87,6 +95,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Свойства</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Properties</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СвойстваРасширеннаяПодсказка" id="43"/>
@@ -97,6 +109,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Главное</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СвойстваГлавноеРасширеннаяПодсказка" id="45"/>
 					<ChildItems>
@@ -105,6 +121,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пути</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Paths</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -120,6 +140,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Полный путь к общей папке на компьютере под управлением Microsoft Windows</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Full path to the shared folder on a computer running Microsoft Windows</v8:content>
+										</v8:item>
 									</Title>
 									<TitleLocation>Top</TitleLocation>
 									<WarningOnEdit>
@@ -127,12 +151,20 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Меняя путь тома, вы потеряете возможность доступа к уже созданным на этом томе файлам</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>If you change the volume path, you will lose access to the files created on this volume.</v8:content>
+										</v8:item>
 									</WarningOnEdit>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>60</Width>
 									<InputHint>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>\\computername\foldername</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>\\computername\foldername</v8:content>
 										</v8:item>
 									</InputHint>
@@ -148,6 +180,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Полный путь к общей папке на компьютере под управлением Linux</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Full path to the shared folder on a computer running Linux</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Top</TitleLocation>
@@ -173,6 +209,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Максимальный размер</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Size limit</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -193,6 +233,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Текущий размер всех файлов в томе в мегабайтах.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The total size of the files in the volume in MB.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<ContextMenu name="ТекущийРазмерКонтекстноеМеню" id="21"/>
 									<ExtendedTooltip name="ТекущийРазмерExtendedTooltip" id="34"/>
@@ -206,6 +250,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СвойстваКомментарийРасширеннаяПодсказка" id="47"/>
@@ -238,6 +286,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Текущий размер, МБ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Current size (MB)</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -266,11 +318,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаписатьИЗакрыть</Action>
@@ -282,11 +342,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить целостность</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check integrity</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить целостность тома</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check volume integrity.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверитьЦелостностьТома</Action>
@@ -299,11 +367,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить лишние файлы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete extraneous files</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить лишние файлы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete extraneous files</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьЛишниеФайлы</Action>
@@ -313,7 +389,7 @@
 	<CommandInterface>
 		<NavigationPanel>
 			<Item>
-				<Command>0</Command>
+				<Command>0:ebab97cf-5335-4648-9845-8ca41f79fb49</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>

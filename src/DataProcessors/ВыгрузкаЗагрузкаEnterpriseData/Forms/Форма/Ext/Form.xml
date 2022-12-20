@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Выгрузка и загрузка данных EnterpriseData</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Export and import EnterpriseData data</v8:content>
+		</v8:item>
 	</Title>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
@@ -34,6 +38,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Прервать выполнение операции</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cancel operation</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ФормаПрерватьРасширеннаяПодсказка" id="248"/>
 			</Button>
@@ -57,6 +65,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Верхняя</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Top group</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
 			<Behavior>Usual</Behavior>
@@ -71,6 +83,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Операция</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Operation</v8:content>
+						</v8:item>
 					</Title>
 					<RadioButtonType>Tumbler</RadioButtonType>
 					<ChoiceList>
@@ -82,6 +98,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Загрузка</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Import</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">Загрузка</Value>
@@ -95,6 +115,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Выгрузка</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Export</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">Выгрузка</Value>
@@ -115,6 +139,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выгрузка загрузка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Export import</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ВыгрузкаЗагрузкаРасширеннаяПодсказка" id="16"/>
@@ -124,6 +152,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Загрузка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Import</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ЗагрузкаРасширеннаяПодсказка" id="20"/>
@@ -136,6 +168,11 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Будет произведена загрузка данных, представленных в формате EnterpriseData.
 Для загрузки необходимо указать предварительно подготовленный файл с данными.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>To import data in EnterpriseData format,
+select the file that contains the data.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="НадписьЗагрузкаВстроеннойОбработкойКонтекстноеМеню" id="245"/>
@@ -154,6 +191,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Файл</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>File</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">0</Value>
 									</xr:Value>
@@ -166,6 +207,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Текстовое поле</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Text field</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">1</Value>
@@ -195,11 +240,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Менеджер загрузки</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Import manager</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Для использования внешнего модуля менеджера обмена через универсальный формат.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>You can select an external manager for exchange in universal format.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -208,6 +261,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сейчас используется встроенный менеджер</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Using the built-in manager</v8:content>
 								</v8:item>
 							</InputHint>
 							<ContextMenu name="ПутьКМенеджеруОбменаЗагрузкиКонтекстноеМеню" id="22"/>
@@ -231,6 +288,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Версия формата группа загрузка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Format version group import</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -262,6 +323,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Данные для загрузки</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data to import</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
 							<Behavior>Usual</Behavior>
@@ -276,6 +341,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные для загрузки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data to import</v8:content>
+										</v8:item>
 									</Title>
 									<TitleLocation>None</TitleLocation>
 									<ContextMenu name="ДанныеДляЗагрузкиXDTOКонтекстноеМеню" id="149"/>
@@ -286,6 +355,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Команды загрузки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Import commands</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -311,6 +384,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выгрузка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ВыгрузкаРасширеннаяПодсказка" id="18"/>
 					<ChildItems>
@@ -327,6 +404,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Файл</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>File</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">0</Value>
 									</xr:Value>
@@ -339,6 +420,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Текстовое поле</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Text field</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">1</Value>
@@ -356,6 +441,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Версия формата группа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Format version group</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -381,6 +470,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Расширение формата</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Format extension</v8:content>
+										</v8:item>
 									</Title>
 									<ListChoiceMode>true</ListChoiceMode>
 									<ContextMenu name="РасширениеФорматаКонтекстноеМеню" id="260"/>
@@ -394,6 +487,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Файл выгрузки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Export file</v8:content>
 								</v8:item>
 							</Title>
 							<ChoiceButton>true</ChoiceButton>
@@ -409,6 +506,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выгрузка дополнительно разработчик</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Export addition developer</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -423,11 +524,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Менеджер выгрузки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Export manager</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Для использования внешнего модуля менеджера обмена через универсальный формат.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>You can select an external manager for exchange in universal format.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -437,6 +546,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Сейчас используется встроенный менеджер</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Using the built-in manager</v8:content>
 										</v8:item>
 									</InputHint>
 									<ContextMenu name="ПутьКМенеджеруОбменаВыгрузкиКонтекстноеМеню" id="2"/>
@@ -453,6 +566,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные для выгрузки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data to export</v8:content>
+										</v8:item>
 									</Title>
 									<RadioButtonType>Tumbler</RadioButtonType>
 									<ChoiceList>
@@ -464,6 +581,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Произвольный отбор</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Custom filter</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">Отбор</Value>
@@ -477,6 +598,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Узел плана обмена</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Exchange plan node</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">Узел</Value>
@@ -496,6 +621,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Для выгрузки изменений, зарегистрированных на указанном узле</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Export changes registered on this node.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 									<ContextMenu name="УзелОбменаКонтекстноеМеню" id="50"/>
@@ -509,6 +638,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выгрузка основное</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Export main</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>TabsOnTop</PagesRepresentation>
 							<ExtendedTooltip name="ВыгрузкаОсновноеРасширеннаяПодсказка" id="169"/>
@@ -519,6 +652,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Выгружаемые данные</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data to export</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ВыгружаемыеДанныеРасширеннаяПодсказка" id="171"/>
 									<ChildItems>
@@ -527,6 +664,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Настройки отборов</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Filter settings</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
@@ -569,6 +710,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Таблица правил выгрузки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Export rules table</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ТаблицаПравилВыгрузкиКонтекстноеМеню" id="116"/>
@@ -646,6 +791,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Результат выгрузки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Export result</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="РезультатВыгрузкиРасширеннаяПодсказка" id="173"/>
 									<ChildItems>
@@ -654,6 +803,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Данные выгрузки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Data to export</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
@@ -669,6 +822,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Файл данных</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Data file</v8:content>
+														</v8:item>
 													</Title>
 													<TitleLocation>None</TitleLocation>
 													<ContextMenu name="РезультатВыгрузкиXDTOКонтекстноеМеню" id="11"/>
@@ -679,6 +836,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Команды XML</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>XML-related commands</v8:content>
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
@@ -709,6 +870,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ожидание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Wait</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОжиданиеРасширеннаяПодсказка" id="250"/>
 					<ChildItems>
@@ -717,6 +882,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Длительная операция картинка и текст</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Long-running operation picture and text</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -731,6 +900,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Длительная операция</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Long-running operation</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -747,6 +920,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Выполняется выгрузка загрузка данных...</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data import or export is in progress…</v8:content>
 										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
@@ -782,6 +959,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Полное имя метаданных</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Full metadata name</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
@@ -797,6 +978,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Отбор</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Filter</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>dcsset:Filter</v8:Type>
@@ -807,6 +992,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Период</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Period</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -819,6 +1008,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Выбор периода</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Select period</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -829,6 +1022,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Представление</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Presentation</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -845,6 +1042,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Отбор строкой</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Filter as string</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
@@ -859,6 +1060,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Количество</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Count</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -877,6 +1082,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Наименование</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Description</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
@@ -892,6 +1101,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Включить</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Enable</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -903,6 +1116,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Это группа</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>This is a group</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -913,6 +1130,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Представление отбора</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Filter presentation</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -929,6 +1150,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Полное имя метаданных</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Full metadata name</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
@@ -944,6 +1169,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Представление</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Presentation</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
@@ -958,6 +1187,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Отбор по периоду</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Filter by period</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -981,6 +1214,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Строка поддерживаемые версии формата</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Supported format versions line</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1017,6 +1254,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Источник загрузки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import from</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -1035,6 +1276,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Место выгрузки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Export to</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1055,6 +1300,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Данные для загрузки XDTO</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>XDTO data to import</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1069,6 +1318,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Путь к файлу загрузки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Path to import file</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1085,6 +1338,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Путь к файлу выгрузки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Path to export file</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1099,6 +1356,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вид операции</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Operation type</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1183,11 +1444,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить XML</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save XML file</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить XML</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save XML file</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1204,11 +1473,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть XML</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open XML file</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть XML</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open XML file</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1225,11 +1502,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1246,11 +1531,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Восстановить настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restore settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Восстановить настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restore settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1267,11 +1560,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Режим разработчика</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Developer mode</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить режим разработчика</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable developer mode.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьРежимРазработчика</Action>
@@ -1283,11 +1584,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить операцию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Start</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить операцию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Start</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1304,11 +1613,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Прервать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Прервать выгрузку / загрузку данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel data import or export.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПрерватьВыгрузкуЗагрузку</Action>
@@ -1319,6 +1636,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использовать внутренний каталог сообщений</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use internal message directory</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ИспользоватьВнутреннийКаталогСообщений</Action>

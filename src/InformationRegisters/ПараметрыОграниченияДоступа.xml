@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры ограничения доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access restriction parameters</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
@@ -178,6 +182,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хеш сумма</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Hash</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -194,6 +202,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хеш-сумма версии параметров ограничения доступа для отслеживания изменений в информационной базе по сравнению с версией в оперативной памяти</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The hash of the access restriction parameters version for tracking changes made to the infobase (compared to the version stored in the memory).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -226,6 +238,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хеш сумма постоянных параметров</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Persistent parameter hash</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -243,6 +259,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хеш-сумма версии постоянных параметров ограничения доступа,
 которые зависят от метаданных и используемых видов доступа.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Hash of the version of persistent access restriction parameters
+that depend on metadata and used access kinds.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -275,6 +296,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Для записи объектов и проверки прав</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>For saving objects and checking rights</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -287,6 +312,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Параметров ограничения доступа, используемые перед записью объекта, при программной проверке прав, при обновлении ключей доступа к данным, ключей доступа пользователей и ключей доступа групп доступа.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access restriction parameters used before saving an object, upon a programmatic check of rights, upon a data access key update, upon a user access key update, and upon an update of access group access keys.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -319,6 +348,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Для отчета по правам доступа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>For access rights report</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -331,6 +364,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Параметры ограничения доступа, используемые для отчета о правах доступа.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access restriction parameters used in the access rights report.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -363,6 +400,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хеш сумма параметров шаблонов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Template parameter hash</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -380,6 +421,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хеш-сумма текущих параметров для шаблонов в сеансах пользователей и внешних пользователей
 (параметры шаблонов могут меняться до первого полного завершения обновления доступа после записи новой версии).</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Hash of the current parameters for templates in user and external user sessions
+(template parameters can be changed before the first access update completion after saving a new version).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -412,6 +458,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Для шаблонов в сеансах пользователей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>For templates in user sessions</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -424,6 +474,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Параметры ограничения доступа, используемые только для установки параметров сеанса для шаблонов, используемых при ограничении доступа пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access restriction parameters used only for setting session parameters in templates that are used for user access restriction.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -456,6 +510,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Для шаблонов в сеансах внешних пользователей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>For templates in external user sessions</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -468,6 +526,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Параметры ограничения доступа, используемые только для установки параметров сеанса для шаблонов, используемых при ограничении доступа внешних пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access restriction parameters used only for setting session parameters in templates that are used for external user access restriction.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -500,6 +562,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версии параметров шаблонов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Template parameter versions</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -512,6 +578,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версии параметров для шаблонов в сеансах пользователей и внешних пользователей, требуемые для переходного процесса обновления доступа к регистрам.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parameter versions for templates in user and external user sessions required for the transition process of register access update.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -544,6 +614,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата создания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Date created</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -559,6 +633,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата создания версии параметров ограничения доступа.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>When the version of the access restriction parameters was created.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -591,6 +669,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Version</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -610,6 +692,12 @@
 							<v8:content>Порядковый номер версии, добавляемый при записи новой версии.
 Требуется для устранения задержек на блокировках при обновлении кэша.
 Версии старее двух суток удаляются и остается только одна версия.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A sequence version number assigned to a new version.
+It is required to eliminate lock delays while updating cache.
+Versions older than two days are deleted and only one version is left.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

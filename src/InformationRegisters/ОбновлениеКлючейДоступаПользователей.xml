@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновление ключей доступа пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User access keys update</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -165,6 +169,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновление ключей доступа пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User access keys update</v8:content>
+				</v8:item>
 			</RecordPresentation>
 			<ExtendedRecordPresentation/>
 			<ListPresentation/>
@@ -173,6 +181,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновление ключей доступа пользователей, внешних пользователей и групп доступа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update of access keys of users, external users, and access groups.</v8:content>
 				</v8:item>
 			</Explanation>
 			<DataHistory>DontUse</DataHistory>
@@ -188,6 +200,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Точечное задание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Atomic job</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -201,6 +217,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Точечное задание содержит ссылку на ведущий ключ доступа для обновления
 только тех ключей доступа, которые ссылаются на этот ведущий ключ доступа.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An atomic job refers to the main access key for updating
+only the access keys that refer to this main access key.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -233,6 +254,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Параметры задания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Job parameters</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -247,6 +272,12 @@
 							<v8:content>Содержит структуру со ссылкой на последний ключ доступа
 (когда ключ уникальности не заполнен),
 а также ссылки на ведущие ключи доступа точечных заданий.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Stores a structure with a link to the last access key
+(only when the unique key is empty),
+as well as links to main access keys of atomic jobs.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -279,6 +310,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размер задания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Job size</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -298,6 +333,12 @@
 							<v8:content>1 - точечное задание,
 2 - обновление устаревших,
 3 - обновление с начала.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>1 - atomic job.
+2 - update of obsolete items.
+3 - update from the beginning.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -330,6 +371,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата изменения записи регистра</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Register record modification date</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -346,6 +391,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата изменения записи регистра.
 Используется для выбора записей, измененных после предыдущего выбора.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A register record modification date.
+It is used to select records modified after a previous selection.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -378,6 +428,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>List</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -391,6 +445,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список элементов справочников, документов, регистров и др., для которого используется ключ доступа.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A list of catalog items, documents, registers, and other objects that use the access key.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -426,6 +484,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Для внешних пользователей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>For external users</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -438,6 +500,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление ключей доступа для внешних пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Update access keys for external users</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -473,6 +539,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ключ уникальности</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Unique key</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -485,6 +555,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Произвольный уникальный идентификатор для распараллеливания записи из сеансов, регистрирующих необходимость обновления.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A UUID required for parallel creation of access update jobs from multiple sessions.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

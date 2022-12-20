@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Настройка подменю "Печать"</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Print submenu settings</v8:content>
+		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<CommandSet>
@@ -48,6 +52,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Форма группа 1</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form group 1</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ФормаГруппа1РасширеннаяПодсказка" id="40"/>
 				<ChildItems>
@@ -58,6 +66,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Перечитать</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Refresh</v8:content>
 							</v8:item>
 						</Title>
 						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
@@ -86,6 +98,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команды печати</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Form's print commands.</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="КомандыПечатиКонтекстноеМеню" id="2"/>
@@ -127,6 +143,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Команда Печати</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Print command</v8:content>
+						</v8:item>
 					</Title>
 					<Group>InCell</Group>
 					<ExtendedTooltip name="КомандыПечатиГруппа1РасширеннаяПодсказка" id="33"/>
@@ -137,6 +157,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Использование</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Usage</v8:content>
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
@@ -156,6 +180,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Команда печати</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Print command</v8:content>
+								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<OpenButton>true</OpenButton>
@@ -170,6 +198,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Команды печати группа 2</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Print commands group 2</v8:content>
+						</v8:item>
 					</Title>
 					<Group>InCell</Group>
 					<ExtendedTooltip name="КомандыПечатиГруппа2РасширеннаяПодсказка" id="45"/>
@@ -181,6 +213,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Внешняя печатная форма</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>External print form</v8:content>
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
@@ -200,6 +236,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команды печати</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Form's print commands.</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -217,6 +257,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -231,6 +275,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Видимость</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Visibility</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -271,6 +319,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -310,11 +362,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить флажки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить флажки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -330,11 +390,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять флажки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять флажки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -350,11 +418,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить настройки по умолчанию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reset to default settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перечитать настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -370,11 +446,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаписатьИЗакрыть</Action>
@@ -386,11 +470,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти в список</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to list</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать в списке</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show in list</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказатьВСписке</Action>

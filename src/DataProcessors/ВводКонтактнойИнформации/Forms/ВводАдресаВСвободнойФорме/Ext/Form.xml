@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Адрес</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Address</v8:content>
+		</v8:item>
 	</Title>
 	<Width>60</Width>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
@@ -35,6 +39,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель команд</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
 			<Behavior>Usual</Behavior>
@@ -49,6 +57,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Проверить заполнения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Validate address</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаПроверитьЗаполненияРасширеннаяПодсказка" id="137"/>
 					<ChildItems>
@@ -57,6 +69,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Добавить</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Add</v8:content>
 								</v8:item>
 							</Title>
 							<Picture>
@@ -70,6 +86,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Группа добавление комментария</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Add comment group</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ГруппаГруппаДобавлениеКомментарияРасширеннаяПодсказка" id="407"/>
@@ -91,6 +111,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Панель команд формы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Form command bar</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalLocation>Right</HorizontalLocation>
 					<ExtendedTooltip name="ПанельКомандФормыExtendedTooltip" id="139"/>
@@ -100,6 +124,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Форма ввод адреса показать</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Address input form show</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ФормаВводАдресаПоказатьРасширеннаяПодсказка" id="144"/>
@@ -118,6 +146,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Форма все действия изменения адреса</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Form all address change actions</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ФормаВсеДействияИзмененияАдресаРасширеннаяПодсказка" id="153"/>
 							<ChildItems>
@@ -126,6 +158,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Действия с адресом</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Address actions</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ГруппаДействияСАдресомРасширеннаяПодсказка" id="459"/>
@@ -162,6 +198,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дата действия адреса</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Address valid date</v8:content>
+				</v8:item>
 			</Title>
 			<Height>2</Height>
 			<Group>Horizontal</Group>
@@ -175,6 +215,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес на</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Address registered on</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="ТекстАдресНаДатуКонтекстноеМеню" id="361"/>
@@ -197,6 +241,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>действует по настоящее время.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>and still valid.</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="ТекстПроДатуДействияКонтекстноеМеню" id="367"/>
 					<ExtendedTooltip name="ТекстПроДатуДействияРасширеннаяПодсказка" id="368"/>
@@ -210,6 +258,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>История изменений</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Change history</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ИсторияИзмененийГиперссылкаРасширеннаяПодсказка" id="370"/>
 				</Button>
@@ -221,6 +273,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Основные страницы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="ОсновныеСтраницыРасширеннаяПодсказка" id="483"/>
@@ -231,6 +287,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Address</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаАдресРасширеннаяПодсказка" id="485"/>
 					<ChildItems>
@@ -239,6 +299,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Адрес представление комментарий</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Address presentation and comment</v8:content>
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
@@ -250,6 +314,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>В свободной форме</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Free-text address</v8:content>
+										</v8:item>
 									</Title>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ВСвободнойФормеРасширеннаяПодсказка" id="131"/>
@@ -259,6 +327,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Страна свободная форма</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Free-text country name</v8:content>
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
@@ -274,6 +346,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страна свободная форма значение</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Free-text country name value</v8:content>
+														</v8:item>
 													</Title>
 													<Group>AlwaysHorizontal</Group>
 													<Behavior>Usual</Behavior>
@@ -288,11 +364,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страна</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Country</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страна адреса</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Country</v8:content>
 																</v8:item>
 															</ToolTip>
 															<HorizontalAlign>Left</HorizontalAlign>
@@ -324,6 +408,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Введите первые буквы названия страны</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Enter the first letters of the country name</v8:content>
 																</v8:item>
 															</InputHint>
 															<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
@@ -364,6 +452,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Title>
 					<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 					<ExtendedTooltip name="СтраницаКомментарийРасширеннаяПодсказка" id="415"/>
@@ -390,6 +482,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель низ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Bottom panel</v8:content>
+				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
@@ -415,6 +511,13 @@
   • по муниципальному делению с учетом требований Федерального закона от 06.10.1999 № 131-ФЗ "Об общих принципах организации местного самоуправления в Российской Федерации".
 </v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Addresses support the following formats:
+  • Administrative and territorial division
+  • Municipal division
+</v8:content>
+							</v8:item>
 						</Title>
 					</ExtendedTooltip>
 				</LabelField>
@@ -423,6 +526,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>ОК отмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OK and Cancel</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalLocation>Right</HorizontalLocation>
@@ -451,6 +558,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Комментарий</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Comment</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -467,6 +578,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление адреса</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Address presentation</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -482,6 +597,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страна</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Country</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -898,6 +1017,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адрес на дату</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Address registration date</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:dateTime</v8:Type>
@@ -930,6 +1053,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Формат адреса</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Address format</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -947,11 +1074,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подтвердить изменения и закрыть форму</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Apply changes and close the form.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаОК</Action>
@@ -963,11 +1098,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить адрес</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear address</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить адрес</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear address</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -984,11 +1127,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить изменения и закрыть форму</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Discard changes and close the form.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаОтмена</Action>
@@ -1000,6 +1151,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>История изменений...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change history…</v8:content>
+				</v8:item>
 			</Title>
 			<Action>ИсторияИзменений</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -1010,11 +1165,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Комментарий</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Comment</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить комментарий</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add comment</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьКомментарий</Action>

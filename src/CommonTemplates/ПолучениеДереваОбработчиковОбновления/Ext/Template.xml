@@ -14,6 +14,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Версия</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Version</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -31,6 +35,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Процедура</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Procedure</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -47,6 +55,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Приоритет</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Priority</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -66,6 +78,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Общие данные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Shared data</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:boolean</v8:Type>
@@ -78,6 +94,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Управление обработчиками</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Handlers management</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -92,6 +112,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнять в группе обязательных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Execute in mandatory group</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:boolean</v8:Type>
@@ -104,6 +128,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Номер по порядку</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Serial number</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -123,6 +151,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Монопольный режим</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exclusive mode</v8:content>
+				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -132,6 +164,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Начальное заполнение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Initial filling</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -145,6 +181,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Режим выполнения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Execution mode</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -172,6 +212,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Комментарий</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Comment</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -189,6 +233,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Это новая подсистема</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>This is a new subsystem</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:boolean</v8:Type>
@@ -202,6 +250,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Идентификатор</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>ID</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>v8:UUID</v8:Type>
@@ -214,6 +266,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Процедура заполнения данных обновления</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update data filling procedure</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -231,6 +287,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очередь отложенной обработки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Deferred processing queue</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -250,6 +310,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Процедура проверки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check procedure</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -267,6 +331,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Блокируемые объекты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Objects to lock</v8:content>
+				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -276,6 +344,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Запускать только в главном узле</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run in master node only</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -290,6 +362,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Запускать и в подчиненном узле РИБ с фильтрами</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run also in a subordinate DIB node with filters</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:boolean</v8:Type>
@@ -303,6 +379,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Многопоточный</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Multi-threaded</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:boolean</v8:Type>
@@ -315,6 +395,31 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменяемые объекты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Objects to change</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЧитаемыеОбъекты</dataPath>
+			<field>ЧитаемыеОбъекты</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЧитаемыеОбъекты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>ЧитаемыеОбъекты</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -339,6 +444,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Вес версии</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Version weight</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:decimal</v8:Type>
@@ -359,6 +468,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Группа версии</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Version group</v8:content>
 			</v8:item>
 		</title>
 		<orderExpression>
@@ -385,6 +498,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Выбирать разделенные обработчики</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Select separated handlers</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:boolean</v8:Type>
@@ -400,6 +517,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Выбирать неразделенные обработчики</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Select shared handlers</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:boolean</v8:Type>
@@ -414,6 +535,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Версия от</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Version from</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -435,6 +560,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Версия до</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Version to</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:string</v8:Type>
@@ -454,6 +583,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Вес версии от</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Version weight from</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -476,6 +609,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Вес версии до</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Version weight to</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:decimal</v8:Type>
@@ -497,6 +634,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Оперативное обновление</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Real-time update</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:boolean</v8:Type>
@@ -511,6 +652,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Отложенное обновление</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Deferred update</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -527,6 +672,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Первый обмен ВРИБ</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>First exchange In a DIB</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:boolean</v8:Type>
@@ -540,6 +689,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Ложь</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>False</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -555,6 +708,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Это РИБСФильтром</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>This is a DIB with a filter</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:boolean</v8:Type>
@@ -564,7 +721,16 @@
 	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
-		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Main</v8:content>
+			</v8:item>
+		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -627,6 +793,9 @@
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Многопоточный</dcsset:field>
 				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЧитаемыеОбъекты</dcsset:field>
+				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:filter>
 				<dcsset:item xsi:type="dcsset:FilterItemGroup">
@@ -649,6 +818,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>// Разделенные</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>// Separated items</v8:content>
+							</v8:item>
 						</dcsset:presentation>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:FilterItemGroup">
@@ -669,12 +842,20 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>// Неразделенные</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>// Shared items</v8:content>
+							</v8:item>
 						</dcsset:presentation>
 					</dcsset:item>
 					<dcsset:presentation xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>// Признак разделенности</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>// Separation flag</v8:content>
 						</v8:item>
 					</dcsset:presentation>
 				</dcsset:item>
@@ -689,6 +870,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>// Обязательные (*)</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>// Required items (*)</v8:content>
+							</v8:item>
 						</dcsset:presentation>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:FilterItemComparison">
@@ -699,6 +884,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>// Версия еще не известна, вызываются при каждом обновлении</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>// The version is not yet known; called on every update</v8:content>
 							</v8:item>
 						</dcsset:presentation>
 					</dcsset:item>
@@ -726,6 +915,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>// Начальное заполнение</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>// Initial filling</v8:content>
 							</v8:item>
 						</dcsset:presentation>
 					</dcsset:item>
@@ -756,12 +949,20 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>// Обновление (версии в интервале)</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>// Update (versions in range)</v8:content>
+							</v8:item>
 						</dcsset:presentation>
 					</dcsset:item>
 					<dcsset:presentation xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>// Версии</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>// Versions</v8:content>
 						</v8:item>
 					</dcsset:presentation>
 				</dcsset:item>
@@ -778,6 +979,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>// Не оперативное обновление - выбираем все</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>// Deferred update, select all</v8:content>
+								</v8:item>
 							</dcsset:presentation>
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:FilterItemComparison">
@@ -788,6 +993,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>// Не оперативное обновление - выбираем все</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>// Deferred update, select all</v8:content>
 								</v8:item>
 							</dcsset:presentation>
 						</dcsset:item>
@@ -808,6 +1017,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>// Не оперативное обновление - выбираем все</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>// Deferred update, select all</v8:content>
+								</v8:item>
 							</dcsset:presentation>
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:FilterItemGroup">
@@ -820,6 +1033,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>// При проверке оперативного - только требующие монопольного режима</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>// When checking seamless update, include only items that require exclusive mode</v8:content>
 									</v8:item>
 								</dcsset:presentation>
 							</dcsset:item>
@@ -834,6 +1051,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>// При проверке оперативного - только требующие монопольного режима</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>// When checking seamless update, include only items that require exclusive mode</v8:content>
+										</v8:item>
 									</dcsset:presentation>
 								</dcsset:item>
 								<dcsset:item xsi:type="dcsset:FilterItemComparison">
@@ -844,12 +1065,20 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>// При проверке оперативного - только требующие монопольного режима</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>// When checking seamless update, include only items that require exclusive mode</v8:content>
+										</v8:item>
 									</dcsset:presentation>
 								</dcsset:item>
 								<dcsset:presentation xsi:type="v8:LocalStringType">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>// Для обратной совместимости</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>// For backward compatibility</v8:content>
 									</v8:item>
 								</dcsset:presentation>
 							</dcsset:item>
@@ -872,12 +1101,20 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>// Выбор только отложенных обработчиков</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>// Select deferred handlers only</v8:content>
+							</v8:item>
 						</dcsset:presentation>
 					</dcsset:item>
 					<dcsset:presentation xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>// Проверка оперативного обновления</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>// Check seamless update</v8:content>
 						</v8:item>
 					</dcsset:presentation>
 				</dcsset:item>
@@ -916,6 +1153,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>// Первый обмен в РИБ</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>// The first exchange in a DIB</v8:content>
 						</v8:item>
 					</dcsset:presentation>
 				</dcsset:item>

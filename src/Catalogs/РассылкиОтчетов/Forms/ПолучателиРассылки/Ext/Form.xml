@@ -76,6 +76,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Получатели</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Recipients</v8:content>
+				</v8:item>
 			</Title>
 			<CommandSet>
 				<ExcludedCommand>Change</ExcludedCommand>
@@ -102,6 +106,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Получатели группа пометки</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Recipients group: marks</v8:content>
 							</v8:item>
 						</Title>
 						<Representation>Compact</Representation>
@@ -131,6 +139,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Командная панель получатели</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Command bar: recipients</v8:content>
+							</v8:item>
 						</Title>
 						<CommandSource>Item.Получатели</CommandSource>
 						<ExtendedTooltip name="ГруппаКоманднаяПанельПолучателиРасширеннаяПодсказка" id="100"/>
@@ -141,11 +153,19 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Командная панель формы</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Form command bar</v8:content>
+							</v8:item>
 						</Title>
 						<ToolTip>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Группа командная панель получатели</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Command bar recipients group</v8:content>
 							</v8:item>
 						</ToolTip>
 						<CommandSource>Form</CommandSource>
@@ -189,6 +209,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Получатель наименование и почта</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Recipient: description and email</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>InCell</Group>
@@ -226,6 +250,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
 			<ExtendedTooltip name="ГруппаКоманднаяПанельРасширеннаяПодсказка" id="48"/>
@@ -245,6 +273,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Cancel</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="40"/>
 				</Button>
@@ -257,6 +289,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Электронная почта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Email</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -283,6 +319,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Получатели</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Recipients</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -293,6 +333,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Получатель</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Recipient</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -305,6 +349,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Исключен</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Excluded</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -315,6 +363,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Email</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -353,11 +405,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПолучателиПодобрать</Action>
@@ -369,11 +429,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОК</Action>
@@ -385,11 +453,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вставить из буфера обмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Paste from clipboard</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вставить из буфера обмена</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Paste from clipboard</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -405,11 +481,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить пометки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить пометки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -425,11 +509,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять пометки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять пометки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

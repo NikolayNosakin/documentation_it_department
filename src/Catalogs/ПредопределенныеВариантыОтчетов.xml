@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предопределенные варианты отчетов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Predefined report options</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment>Предопределенные варианты отчетов конфигурации</Comment>
 			<Hierarchical>true</Hierarchical>
@@ -217,6 +221,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отчет, который содержит этот вариант отчета</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The master report this report option belongs to.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -232,6 +240,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отчет</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Report</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -251,6 +263,10 @@
 					<xr:ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content> </v8:content>
 						</v8:item>
 					</xr:ToolTip>
@@ -330,6 +346,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предопределенный вариант отчета</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Predefined report option</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -350,6 +370,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Видимость по умолчанию</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Default visibility</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -361,6 +385,10 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content> </v8:content>
 						</v8:item>
 					</ToolTip>
@@ -395,6 +423,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Включен</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Added</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -406,6 +438,10 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content> </v8:content>
 						</v8:item>
 					</ToolTip>
@@ -439,6 +475,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группировать по отчету</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group by report</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -480,6 +520,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ключ варианта</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Option key</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -495,6 +539,10 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content> </v8:content>
 						</v8:item>
 					</ToolTip>
@@ -529,6 +577,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ключевые слова</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Keywords</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -546,6 +598,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительная терминология (в т.ч. специализированная или устаревшая).
 Используется при поиске.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Specific and obsolete terminology.
+Looked up during the search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -579,6 +636,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ключевые слова (дополнительный язык)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Keywords (additional language)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -596,6 +657,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительная терминология (в т.ч. специализированная или устаревшая).
 Используется при поиске.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional terminology (including specific or obsolete terminology).
+Used during the search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -629,6 +695,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ключевые слова (дополнительный язык 2)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Keywords (additional language 2)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -646,6 +716,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительная терминология (в т.ч. специализированная или устаревшая).
 Используется при поиске.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional terminology (including specific or obsolete terminology).
+Used during the search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -678,6 +753,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ключ замеров</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Measurement key</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -723,6 +802,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименования параметров и отборов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parameter and filter names</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -740,6 +823,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименования параметров и отборов отчета.
 Используется при поиске.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Names of report filters and parameters.
+Looked up during the search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -773,6 +861,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименования параметров и отборов (дополнительный язык)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Descriptions of parameters and filters (additional language)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -790,6 +882,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименования параметров и отборов отчета.
 Используется при поиске.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Descriptions of parameters and report filters.
+Used during the search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -823,6 +920,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименования параметров и отборов (дополнительный язык)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Descriptions of parameters and filters (additional language)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -840,6 +941,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименования параметров и отборов отчета.
 Используется при поиске.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Descriptions of parameters and report filters.
+Used during the search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -873,6 +979,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименования полей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Field names</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -890,6 +1000,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименования полей, выведенных в отчете.
 Используется при поиске.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Report field names.
+Looked up during the search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -923,6 +1038,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименования полей (дополнительный язык)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Descriptions of fields (additional language)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -940,6 +1059,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименования полей, выведенных в отчете.
 Используется при поиске.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Descriptions of fields displayed in the report.
+Used during the search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -973,6 +1097,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименования полей (дополнительный язык 2)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Descriptions of fields (additional language 2)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -990,6 +1118,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименования полей, выведенных в отчете.
 Используется при поиске.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Descriptions of fields displayed in the report.
+Used during the search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1023,6 +1156,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Details</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1038,6 +1175,10 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content> </v8:content>
 						</v8:item>
 					</ToolTip>
@@ -1072,6 +1213,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание (дополнительный язык)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Details (additional language)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1087,6 +1232,10 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content> </v8:content>
 						</v8:item>
 					</ToolTip>
@@ -1121,6 +1270,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание (дополнительный язык 2)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Details (additional language 2)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1136,6 +1289,10 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content> </v8:content>
 						</v8:item>
 					</ToolTip>
@@ -1170,6 +1327,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отчет</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Report</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1181,6 +1342,10 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content> </v8:content>
 						</v8:item>
 					</ToolTip>
@@ -1215,6 +1380,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хеш настроек</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Settings hash</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1231,6 +1400,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Используется при обновлении программы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Used during application update.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1273,6 +1446,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размещение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Layout</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1317,6 +1494,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подсистема</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Subsystem</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1329,6 +1510,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Раздел или группа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Section or group</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1359,6 +1544,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Важный</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Important</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1370,6 +1559,10 @@
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content> </v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content> </v8:content>
 								</v8:item>
 							</ToolTip>
@@ -1401,6 +1594,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>См также</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>See also</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment>Вариант находится в группе "См. также"</Comment>
 							<Type>
@@ -1412,6 +1609,10 @@
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content> </v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content> </v8:content>
 								</v8:item>
 							</ToolTip>
@@ -1454,6 +1655,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представления</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentations</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1498,6 +1703,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Код языка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Language code</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1539,6 +1748,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Наименование</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Description</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1555,6 +1768,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Наименование варианта отчета</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report option name</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1584,6 +1801,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Описание</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Details</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -1626,6 +1847,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Наименования полей</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Field names</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1643,6 +1868,11 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Наименования полей, выведенных в отчете.
 Используется при поиске.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report field names.
+Looked up during the search.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1673,6 +1903,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Наименования параметров и отборов</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Parameter and filter names</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1690,6 +1924,11 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Наименования параметров и отборов отчета.
 Используется при поиске.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Names of report filters and parameters.
+Looked up during the search.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1720,6 +1959,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Ключевые слова</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Keywords</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1737,6 +1980,11 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительная терминология (в т.ч. специализированная или устаревшая).
 Используется при поиске.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Specific and obsolete terminology.
+Looked up during the search.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>

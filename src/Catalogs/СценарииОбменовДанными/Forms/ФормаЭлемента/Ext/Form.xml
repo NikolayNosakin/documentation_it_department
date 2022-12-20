@@ -24,6 +24,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Код наименование</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Code description</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -49,6 +53,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обмен по расписанию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Scheduled exchange</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -61,6 +69,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Автоматически по расписанию:</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Scheduled synchronization:</v8:content>
 						</v8:item>
 					</Title>
 					<TitleLocation>Right</TitleLocation>
@@ -85,6 +97,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Состав настройки обмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exchange setting content</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -103,6 +119,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состав расписания</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Schedule content</v8:content>
 						</v8:item>
 					</Title>
 					<RowFilter xsi:nil="true"/>
@@ -164,6 +184,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Колонки узла информационной базы</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Infobase node columns</v8:content>
+								</v8:item>
 							</Title>
 							<Group>InCell</Group>
 							<ExtendedTooltip name="КолонкиУзлаИнформационнойБазыExtendedTooltip" id="139"/>
@@ -218,6 +242,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительно</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>More</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -254,6 +282,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Результат выполнения обмена</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Exchange result</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:decimal</v8:Type>
@@ -284,11 +316,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Расписание синхронизации</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure schedule</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить расписание регламентного задания</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure schedule</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -304,11 +344,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры подключения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Connection parameters</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть параметры подключения для текущей строки настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open connection parameters for the selected line.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -325,11 +373,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить сценарий</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run scenario</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить сценарий</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run scenario</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -346,11 +402,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>События обмена данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data exchange events</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти в журнал регистрации событий обмена данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to data exchange event log.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Создание начального образа информационной базы</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Create initial infobase image</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -30,6 +34,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Закрыть</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Close</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ЗакрытьExtendedTooltip" id="49"/>
 			</Button>
@@ -52,6 +60,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы формы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Form pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыФормыРасширеннаяПодсказка" id="80"/>
@@ -61,6 +73,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Исходные данные</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Source data</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ИсходныеДанныеРасширеннаяПодсказка" id="82"/>
@@ -80,6 +96,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>На данном компьютере или на компьютере в локальной сети</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>On this computer or on a computer in the local network</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">0</Value>
 									</xr:Value>
@@ -92,6 +112,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>На сервере 1С:Предприятия</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>On 1C:Enterprise server</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">1</Value>
@@ -110,6 +134,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Параметры информационной базы</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Infobase parameters</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -121,6 +149,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страницы</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Pages</v8:content>
+										</v8:item>
 									</Title>
 									<PagesRepresentation>None</PagesRepresentation>
 									<ExtendedTooltip name="СтраницыExtendedTooltip" id="53"/>
@@ -130,6 +162,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Заполнить параметры файловой базы</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Fill file infobase parameters</v8:content>
 												</v8:item>
 											</Title>
 											<ExtendedTooltip name="ЗаполнитьПараметрыФайловойБазыExtendedTooltip" id="54"/>
@@ -148,6 +184,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Полное имя файловой базы</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Full file infobase name</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Usual</Behavior>
@@ -159,6 +199,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Для сервера 1С:Предприятия под управлением Microsoft Windows</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>For 1C:Enterprise server on Microsoft Windows</v8:content>
 																</v8:item>
 															</Title>
 															<TitleLocation>Top</TitleLocation>
@@ -180,6 +224,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Для сервера 1С:Предприятия под управлением Linux</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>For 1C:Enterprise server on Linux</v8:content>
+																</v8:item>
 															</Title>
 															<TitleLocation>Top</TitleLocation>
 															<AutoMaxWidth>false</AutoMaxWidth>
@@ -197,6 +245,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Заполнить параметры серверной базы</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Fill client/server infobase parameters</v8:content>
+												</v8:item>
 											</Title>
 											<Group>HorizontalIfPossible</Group>
 											<ExtendedTooltip name="ЗаполнитьПараметрыСервернойБазыExtendedTooltip" id="59"/>
@@ -206,6 +258,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Вертикальная группа 1</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Vertical group 1</v8:content>
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
@@ -240,6 +296,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Выключено</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Disable</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:decimal">0</Value>
 																	</xr:Value>
@@ -253,6 +313,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Установка соединения</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Authentication only</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:decimal">1</Value>
 																	</xr:Value>
@@ -265,6 +329,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Постоянно</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Always</v8:content>
 																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:decimal">2</Value>
@@ -297,6 +365,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Вертикальная группа 2</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Vertical group 2</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Usual</Behavior>
@@ -320,6 +392,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Microsoft SQL Server</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Microsoft SQL Server</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">MSSQLServer</Value>
 																	</xr:Value>
@@ -331,6 +407,10 @@
 																		<Presentation>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
+																				<v8:content>PostgreSQL</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
 																				<v8:content>PostgreSQL</v8:content>
 																			</v8:item>
 																		</Presentation>
@@ -346,6 +426,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>IBM DB2</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>IBM DB2</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">IBMDB2</Value>
 																	</xr:Value>
@@ -357,6 +441,10 @@
 																		<Presentation>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
+																				<v8:content>Oracle Database</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
 																				<v8:content>Oracle Database</v8:content>
 																			</v8:item>
 																		</Presentation>
@@ -407,6 +495,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>0</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>0</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:decimal">0</Value>
 																	</xr:Value>
@@ -418,6 +510,10 @@
 																		<Presentation>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
+																				<v8:content>2000</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
 																				<v8:content>2000</v8:content>
 																			</v8:item>
 																		</Presentation>
@@ -442,6 +538,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Полное имя архива с файлами томов</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Full name of archive with volume files</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -453,6 +553,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Для сервера 1С:Предприятия под управлением Microsoft Windows</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>For 1C:Enterprise server on Microsoft Windows</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Top</TitleLocation>
@@ -472,6 +576,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Для сервера 1С:Предприятия под управлением Linux</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>For 1C:Enterprise server on Linux</v8:content>
+										</v8:item>
 									</Title>
 									<TitleLocation>Top</TitleLocation>
 									<AutoMaxWidth>false</AutoMaxWidth>
@@ -487,6 +595,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Панель действий</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Actions panel</v8:content>
+								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
 							<ExtendedTooltip name="ПанельДействийExtendedTooltip" id="74"/>
@@ -499,6 +611,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ожидание синхронизации данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data synchronization in progress</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОжиданиеСозданияНачальногоОбразаРасширеннаяПодсказка" id="84"/>
 					<ChildItems>
@@ -508,6 +624,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создание начального образа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Creating initial image…</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
@@ -535,6 +655,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Результат</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Result</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="95"/>
 					<ChildItems>
@@ -544,6 +668,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создание начального образа успешно завершено</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The initial image is created.</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
@@ -562,6 +690,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вариант информационной базы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Infobase mode</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -578,6 +710,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Язык (Страна)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Language (Country)</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -592,6 +728,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Кластер серверов 1С:Предприятия</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>1C:Enterprise server cluster</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -608,6 +748,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя информационной базы в кластере</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Infobase name in the cluster</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -622,6 +766,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Защищенное соединение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Secure connection</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -639,6 +787,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тип СУБД</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>DBMS type</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -653,6 +805,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сервер базы данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Database server</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -669,6 +825,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя базы данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Database name</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -683,6 +843,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователь базы данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Database user</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -699,6 +863,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль пользователя</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -713,6 +881,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Смещение дат</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Dates offset</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -740,6 +912,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Полное имя архива с файлами томов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Full name of archive with volume files</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -754,6 +930,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Полное имя файловой базы windows</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Full name of file infobase on Windows</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -770,6 +950,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Полное имя файловой базы linux</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Full name of file infobase on Linux</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -784,6 +968,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Полное имя архива с файлами томов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Full name of archive with volume files</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -800,6 +988,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить блокировку регламентных заданий</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Lock scheduled jobs</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -810,6 +1002,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Доп информация выполнение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional progress details</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -825,6 +1021,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Процент выполнения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Progress percentage</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -853,11 +1053,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать начальный образ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create initial image</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполняет создание начального образа ИБ с указанными параметрами</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Creates an initial infobase image with the specified parameters.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьНачальныйОбраз</Action>

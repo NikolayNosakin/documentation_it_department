@@ -8,14 +8,35 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляОбъекта("")
+#Иначе
+ГДЕ Автор = &amp;ТекущийПользователь
+#КонецЕсли</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляОбъекта("")
+#Иначе
+ГДЕ Автор = &amp;ТекущийПользователь
+#КонецЕсли</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Update</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляОбъекта("")
+#Иначе
+ГДЕ Автор = &amp;ТекущийПользователь
+#КонецЕсли</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>View</name>
@@ -39,14 +60,6 @@
 		</right>
 		<right>
 			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
 			<value>true</value>
 		</right>
 	</object>

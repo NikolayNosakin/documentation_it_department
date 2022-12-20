@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Выбор объектов отбором</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Select objects (apply filter)</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -19,6 +23,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Элементы отбора</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filter items</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -39,6 +47,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отбор</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filter</v8:content>
 						</v8:item>
 					</Title>
 					<CommandSet>
@@ -83,6 +95,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Действия отбора</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Filter actions</v8:content>
+									</v8:item>
 								</Title>
 								<CommandSource>Item.Отбор</CommandSource>
 								<ExtendedTooltip name="ОтборГруппа1ExtendedTooltip" id="46"/>
@@ -92,6 +108,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Действия формы</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Form actions</v8:content>
 									</v8:item>
 								</Title>
 								<CommandSource>Form</CommandSource>
@@ -136,6 +156,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -158,6 +182,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data</v8:content>
 				</v8:item>
 			</Title>
 			<AutoRefresh>false</AutoRefresh>
@@ -190,6 +218,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Выбрать все отобранные</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Select items that match the filter</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СписокДанныхКонтекстноеМенюВыбратьОтобранныеЗначенияExtendedTooltip" id="49"/>
 					</Button>
@@ -202,6 +234,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Выбрать текущие данные</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Select current data</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СписокДанныхКонтекстноеМенюВыбратьТекущуюСтрокуExtendedTooltip" id="50"/>
 					</Button>
@@ -210,6 +246,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Данных контекстное меню группа 2</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Data context menu group 2</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СписокДанныхКонтекстноеМенюГруппа2ExtendedTooltip" id="51"/>
@@ -226,6 +266,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Открыть форму текущего объекта</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Open current object's form</v8:content>
+									</v8:item>
 								</Title>
 								<ExtendedTooltip name="СписокДанныхКонтекстноеМенюОткрытьТекущийОбъектExtendedTooltip" id="52"/>
 							</Button>
@@ -236,6 +280,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Данных контекстное меню группа 1</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Data context menu group 1</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СписокДанныхКонтекстноеМенюГруппа1ExtendedTooltip" id="53"/>
@@ -287,6 +335,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Выбрать все</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Select all</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СписокДанныхВыбратьОтобранныеЗначенияExtendedTooltip" id="59"/>
 					</Button>
@@ -303,6 +355,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Выбрать</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Select</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СписокДанныхВыбратьТекущуюСтрокуExtendedTooltip" id="60"/>
 					</Button>
@@ -314,6 +370,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Закрыть</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Close</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СписокДанныхЗакрытьExtendedTooltip" id="61"/>
@@ -363,6 +423,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data list</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
@@ -403,11 +467,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать отобранные значения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select values that match the filter.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьОтобранныеЗначения</Action>
@@ -419,11 +491,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать текущую строку</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select the current line.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьТекущуюСтроку</Action>
@@ -435,11 +515,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть текущий объект</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the selected object.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьТекущийОбъект</Action>

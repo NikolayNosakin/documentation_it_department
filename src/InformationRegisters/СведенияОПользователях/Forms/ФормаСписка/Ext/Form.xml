@@ -13,6 +13,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -24,6 +28,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSource>Form</CommandSource>
@@ -52,6 +60,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
 				</v8:item>
 			</Title>
 			<AutoRefresh>false</AutoRefresh>
@@ -114,6 +126,12 @@
 смену пароля
 при входе</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Require
+password change
+upon authorization</v8:content>
+						</v8:item>
 					</Title>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПотребоватьСменуПароляПриВходеКонтекстноеМеню" id="33"/>
@@ -127,6 +145,12 @@
 							<v8:content>Срок
 действия
 не ограничен</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>
+Validity period
+is not limited</v8:content>
 						</v8:item>
 					</Title>
 					<CheckBoxType>Auto</CheckBoxType>
@@ -147,6 +171,12 @@
 программе до
 запрещения входа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Inactivity period
+before denying
+authorization</v8:content>
+						</v8:item>
 					</Title>
 					<Width>15</Width>
 					<ContextMenu name="ПросрочкаРаботыВПрограммеДоЗапрещенияВходаКонтекстноеМеню" id="39"/>
@@ -161,6 +191,12 @@
 разрешения входа
 в программу</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Authorization
+allowed on
+</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="ДатаРазрешенияВходаВПрограммуКонтекстноеМеню" id="48"/>
 					<ExtendedTooltip name="ДатаРазрешенияВходаВПрограммуРасширеннаяПодсказка" id="49"/>
@@ -174,6 +210,12 @@
 							<v8:content>Дата
 последней
 активности</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Last
+active on
+</v8:content>
 						</v8:item>
 					</Title>
 					<Width>10</Width>
@@ -190,6 +232,12 @@
 автоматического
 запрещения входа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Authorization
+automatically
+denied on</v8:content>
+						</v8:item>
 					</Title>
 					<Width>14</Width>
 					<ContextMenu name="ДатаАвтоматическогоЗапрещенияВходаКонтекстноеМеню" id="23"/>
@@ -203,6 +251,12 @@
 							<v8:content>Дата начала
 использования
 пароля</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Password
+activated
+on</v8:content>
 						</v8:item>
 					</Title>
 					<Width>12</Width>
@@ -254,11 +308,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования только для целей поиска неисправности (требуется углубленное понимание работы механизма)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing for troubleshooting purposes. Recommended for advanced users only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>

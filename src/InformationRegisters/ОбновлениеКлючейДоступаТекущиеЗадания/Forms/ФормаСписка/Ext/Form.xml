@@ -13,6 +13,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
 			</Title>
 			<VerticalStretch>false</VerticalStretch>
 			<Group>Vertical</Group>
@@ -25,6 +29,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSource>Form</CommandSource>
@@ -57,6 +65,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
 				</v8:item>
 			</Title>
 			<AutoRefresh>false</AutoRefresh>
@@ -172,11 +184,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования только для целей поиска неисправности (требуется углубленное понимание работы механизма)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing for troubleshooting. The feature is for advanced users only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>
@@ -188,6 +208,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить фоновое задание</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel background job</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
@@ -195,6 +219,12 @@
 					<v8:content>Отменить фоновое задание потока обновления доступа прямо сейчас.
 Через 15 минут зависшие фоновые задания отменяются автоматически.
 Недостающее фоновое задание будет запущено автоматически.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel the background job of the access update thread immediately.
+In 15 minutes, background jobs that are not responding are canceled automatically.
+The missing background job will be started automatically.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОтменитьФоновоеЗадание</Action>

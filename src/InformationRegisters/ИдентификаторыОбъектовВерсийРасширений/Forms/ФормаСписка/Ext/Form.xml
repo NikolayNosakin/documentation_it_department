@@ -20,6 +20,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -40,6 +44,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
 				</v8:item>
 			</Title>
 			<AutoRefresh>false</AutoRefresh>
@@ -100,6 +108,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя расширения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Extension name</v8:content>
+						</v8:item>
 					</Title>
 					<Width>17</Width>
 					<ContextMenu name="ИмяРасширенияКонтекстноеМеню" id="34"/>
@@ -128,6 +140,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание расширений версии</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Version extensions details</v8:content>
 						</v8:item>
 					</Title>
 					<AutoCellHeight>true</AutoCellHeight>
@@ -189,11 +205,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования только для целей поиска неисправности (требуется углубленное понимание работы механизма)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing for troubleshooting purposes. Recommended for advanced users only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>

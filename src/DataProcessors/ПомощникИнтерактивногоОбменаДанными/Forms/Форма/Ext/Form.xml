@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Синхронизация данных с "%1"</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Synchronize data with %1</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -40,6 +44,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель основная</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main panel</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ПанельОсновнаяExtendedTooltip" id="728"/>
@@ -50,6 +58,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница начала</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Start page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаНачалаExtendedTooltip" id="729"/>
 					<ChildItems>
@@ -58,6 +70,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выбор варианта подключения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Select connection option</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -70,6 +86,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Выбор вида транспорта из доступных</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Select from available transport kinds</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -85,6 +105,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Использовать вариант подключения:</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Use connection option:</v8:content>
+												</v8:item>
 											</Title>
 											<HorizontalAlign>Right</HorizontalAlign>
 											<ContextMenu name="Декорация24КонтекстноеМеню" id="607"/>
@@ -96,11 +120,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Вариант подключения</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Connection option</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Используемый вариант подключения</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>The connection option.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -116,6 +148,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Вид транспорта сообщения обмена строкой</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Exchange message transport type as string</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="ВидТранспортаСообщенияОбменаСтрокойКонтекстноеМеню" id="610"/>
@@ -146,6 +182,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Настроить...</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Configure…</v8:content>
+												</v8:item>
 											</Title>
 											<ExtendedTooltip name="НастроитьПараметрыТранспортаСообщенийОбменаExtendedTooltip" id="737"/>
 										</Button>
@@ -158,11 +198,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Параметры транспорта</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Transport parameters</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Параметры транспорта общая группа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Transport parameters common group</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Behavior>Usual</Behavior>
@@ -177,6 +225,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Пароль:</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Password:</v8:content>
+												</v8:item>
 											</Title>
 											<HorizontalAlign>Right</HorizontalAlign>
 											<ContextMenu name="НадписьWSПарольКонтекстноеМеню" id="539"/>
@@ -187,6 +239,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Параметры транспорта вертикальная</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Transport parameters vertical</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -214,6 +270,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Запомнить</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Remember password</v8:content>
+														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
 													<TitleHeight>1</TitleHeight>
@@ -227,6 +287,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Каталог обмена информацией</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Data exchange directory</v8:content>
 														</v8:item>
 													</Title>
 													<Hyperlink>true</Hyperlink>
@@ -251,6 +315,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Нажмите кнопку "Далее" для выполнения анализа данных.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Click "Next" to analyze the data.</v8:content>
+								</v8:item>
 							</Title>
 							<VerticalAlign>Bottom</VerticalAlign>
 							<ContextMenu name="Декорация8КонтекстноеМеню" id="318"/>
@@ -264,6 +332,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница получение сообщения обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Receiving exchange message page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаПолучениеСообщенияОбменаРасширеннаяПодсказка" id="997"/>
 					<ChildItems>
@@ -272,6 +344,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Получение данных</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Get data</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -286,6 +362,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Декорация получение сообщения обмена картинка</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Receiving exchange message decoration picture</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -304,6 +384,11 @@
 											<v8:content>Выполняется получение данных.
 Пожалуйста, подождите...</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Receiving data. Please wait…
+</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="ДекорацияПолучениеСообщенияОбменаНадписьКонтекстноеМеню" id="1004"/>
 									<ExtendedTooltip name="ДекорацияПолучениеСообщенияОбменаНадписьРасширеннаяПодсказка" id="1005"/>
@@ -318,11 +403,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ожидания анализа данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Waiting for data analysis page</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ожидания</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Waiting page</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="СтраницаОжиданияАнализаДанныхExtendedTooltip" id="872"/>
@@ -332,6 +425,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Анализ данных</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Analyzing data</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -344,6 +441,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинки 2</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Pictures 2</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -372,6 +473,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Сообщения 2</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Messages 2</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -387,6 +492,11 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Выполняется анализ полученных данных. Это может занять несколько минут.
 Пожалуйста, подождите...</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Analyzing received data. This might take a few minutes.
+Please wait…</v8:content>
 												</v8:item>
 											</Title>
 											<VerticalAlign>Center</VerticalAlign>
@@ -405,6 +515,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница информации статистики</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Statistics page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаИнформацииСтатистикиExtendedTooltip" id="749"/>
 					<ChildItems>
@@ -413,6 +527,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сопоставление данных</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data mapping</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -425,6 +543,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страницы статуса сопоставления данных</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data mapping status pages</v8:content>
+										</v8:item>
 									</Title>
 									<PagesRepresentation>None</PagesRepresentation>
 									<ExtendedTooltip name="СтраницыСтатусаСопоставленияДанныхРасширеннаяПодсказка" id="751"/>
@@ -434,6 +556,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Статус сопоставления есть несопоставленные данные</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Mapping status has unmapped data</v8:content>
 												</v8:item>
 											</Title>
 											<ExtendedTooltip name="СтатусСопоставленияЕстьНесопоставленныеДанныеExtendedTooltip" id="752"/>
@@ -450,6 +576,13 @@
 были введены в обеих программах, например, с одинаковыми наименованиями.
 С помощью сопоставления можно указать, какие данные являются одинаковыми в двух программах.</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Since new accounting records appear in both applications, it is recommended that you map the data.
+It will help you avoid duplication of catalog items recorded independently in both applications, 
+for example, items with the same name.
+Use the mapping to identify duplicate data.</v8:content>
+														</v8:item>
 													</Title>
 													<VerticalAlign>Top</VerticalAlign>
 													<ContextMenu name="ПояснениеОНаличииНесопоставленныхОбъектов1КонтекстноеМеню" id="719"/>
@@ -462,6 +595,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Статус сопоставления все данные сопоставлены</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Mapping status all data mapped</v8:content>
 												</v8:item>
 											</Title>
 											<Group>HorizontalIfPossible</Group>
@@ -486,6 +623,11 @@
 															<v8:content>Все данные сопоставлены. 
 Убедитесь, что автоматическое сопоставление данных выполнено правильно.</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>All data is mapped. Ensure that the automatic 
+data mapping was performed correctly.</v8:content>
+														</v8:item>
 													</Title>
 													<VerticalAlign>Center</VerticalAlign>
 													<ContextMenu name="ПояснениеПриСопоставленииВсехДанныхКонтекстноеМеню" id="724"/>
@@ -502,6 +644,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель таблицы статистики</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Statistics table command bar</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="КоманднаяПанельТаблицыСтатистикиExtendedTooltip" id="757"/>
@@ -568,6 +714,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дерево информации статистики</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Statistics tree</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -657,6 +807,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дерево информации статистики группа</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Statistics tree group</v8:content>
+										</v8:item>
 									</Title>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="ДеревоИнформацииСтатистикиГруппаExtendedTooltip" id="773"/>
@@ -691,6 +845,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Признак наличия несопоставленных данных</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Indicates whether unmapped data is found.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
 									<HeaderPicture>
@@ -712,11 +870,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дерево информации статистики группа число сопоставленных</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Statistics tree number of mapped objects group</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Число сопоставленных</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The number of mapped objects.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -729,6 +895,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>В этой программе</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>In this application</v8:content>
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
@@ -744,6 +914,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Осталось</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Unmapped</v8:content>
+												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>8</Width>
@@ -758,6 +932,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>%</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>%</v8:content>
+												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>4</Width>
@@ -767,11 +945,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>ЧН=</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>NZ=</v8:content>
+												</v8:item>
 											</Format>
 											<EditFormat>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>ЧН=</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>NZ=</v8:content>
 												</v8:item>
 											</EditFormat>
 											<ContextMenu name="ДеревоИнформацииСтатистикиПроцентСопоставленияОбъектовКонтекстноеМеню" id="411"/>
@@ -786,6 +972,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Завершение сопоставления</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Complete mapping</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -826,6 +1016,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Нажмите кнопку "Далее" для синхронизации данных.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Click "Next" to synchronize data.</v8:content>
+								</v8:item>
 							</Title>
 							<VerticalAlign>Top</VerticalAlign>
 							<ContextMenu name="ДекорацияПодсказкаПереходаИнформацииСтатистикиКонтекстноеМеню" id="316"/>
@@ -839,6 +1033,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница вопрос о составе выгрузки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data to export question page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаВопросОСоставеВыгрузкиExtendedTooltip" id="820"/>
 					<ChildItems>
@@ -847,6 +1045,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Данные для отправки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data to send</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -858,6 +1060,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Варианты дополнения выгрузки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Export addition options</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -871,6 +1077,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Типовой вариант дополнения нет</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Standard addition option none</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -895,6 +1105,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Не добавлять</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Do not add</v8:content>
+																	</v8:item>
 																</Presentation>
 																<Value xsi:type="xs:decimal">0</Value>
 															</xr:Value>
@@ -912,11 +1126,19 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Типовой вариант дополнения нет горизонтальный</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Standard addition option none horizontal</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Типовой вариант дополнения нет </v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Standard addition option none</v8:content>
 														</v8:item>
 													</ToolTip>
 													<Behavior>Usual</Behavior>
@@ -937,6 +1159,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Типовой вариант дополнения нет пояснение</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Standard addition variant none note</v8:content>
+																</v8:item>
 															</Title>
 															<ContextMenu name="ТиповойВариантДополненияНетПояснениеКонтекстноеМеню" id="661"/>
 															<ExtendedTooltip name="ТиповойВариантДополненияНетПояснениеExtendedTooltip" id="827"/>
@@ -950,6 +1176,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Типовой вариант дополнения документы</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Standard addition option documents</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -974,6 +1204,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Добавить документы:</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Add documents:</v8:content>
+																	</v8:item>
 																</Presentation>
 																<Value xsi:type="xs:decimal">1</Value>
 															</xr:Value>
@@ -990,6 +1224,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Отбор все документы</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>All documents filter</v8:content>
 														</v8:item>
 													</Title>
 													<Behavior>Usual</Behavior>
@@ -1008,6 +1246,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Отбор все документы вертикальная</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>All documents filter vertical</v8:content>
+																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
 															<Behavior>Usual</Behavior>
@@ -1023,6 +1265,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Типовой вариант дополнения документы пояснение</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Standard addition option documents note</v8:content>
+																		</v8:item>
 																	</Title>
 																	<ContextMenu name="ТиповойВариантДополненияДокументыПояснениеКонтекстноеМеню" id="666"/>
 																	<ExtendedTooltip name="ТиповойВариантДополненияДокументыПояснениеExtendedTooltip" id="833"/>
@@ -1033,6 +1279,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>За период</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Period</v8:content>
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Left</TitleLocation>
@@ -1051,6 +1301,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Отбор все документы горизонтальная</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>All documents filter horizontal</v8:content>
+																		</v8:item>
 																	</Title>
 																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
@@ -1064,6 +1318,10 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>С отбором:</v8:content>
 																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Filter:</v8:content>
+																				</v8:item>
 																			</Title>
 																			<ContextMenu name="Декорация13КонтекстноеМеню" id="554"/>
 																			<ExtendedTooltip name="Декорация13ExtendedTooltip" id="838"/>
@@ -1075,6 +1333,10 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Все документы</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>All documents</v8:content>
 																				</v8:item>
 																			</Title>
 																			<ExtendedTooltip name="ДополнениеВыгрузкиОбщийОтборДокументовExtendedTooltip" id="839"/>
@@ -1101,6 +1363,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Типовой вариант дополнения произвольный</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Standard addition option custom</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -1124,6 +1390,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Добавить данные:</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Add data:</v8:content>
+																	</v8:item>
 																</Presentation>
 																<Value xsi:type="xs:decimal">2</Value>
 															</xr:Value>
@@ -1140,6 +1410,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Произвольный вариант горизонтальный</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Custom option horizontal</v8:content>
 														</v8:item>
 													</Title>
 													<Behavior>Usual</Behavior>
@@ -1160,6 +1434,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Типовой вариант дополнения произвольный пояснение</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Standard addition option custom note</v8:content>
+																</v8:item>
 															</Title>
 															<ContextMenu name="ТиповойВариантДополненияПроизвольныйПояснениеКонтекстноеМеню" id="668"/>
 															<ExtendedTooltip name="ТиповойВариантДополненияПроизвольныйПояснениеExtendedTooltip" id="845"/>
@@ -1171,6 +1449,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Отбор детальный</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Detailed filter</v8:content>
 														</v8:item>
 													</Title>
 													<Behavior>Usual</Behavior>
@@ -1190,6 +1472,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>С отбором:</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Filter:</v8:content>
+																</v8:item>
 															</Title>
 															<ContextMenu name="Декорация23КонтекстноеМеню" id="597"/>
 															<ExtendedTooltip name="Декорация23ExtendedTooltip" id="848"/>
@@ -1199,6 +1485,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Команды произвольного отбора</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Custom filter commands</v8:content>
 																</v8:item>
 															</Title>
 															<Behavior>Usual</Behavior>
@@ -1232,6 +1522,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Настраиваемый вариант дополнения</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Custom addition option</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -1254,6 +1548,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Данные по настройкам узла:</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Node settings data:</v8:content>
+																	</v8:item>
 																</Presentation>
 																<Value xsi:type="xs:decimal">3</Value>
 															</xr:Value>
@@ -1273,6 +1571,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Дополнение выгрузки вариант выгрузки узел строкой</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Export addition export option node as string</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="ДополнениеВыгрузкиВариантВыгрузкиУзелСтрокойКонтекстноеМеню" id="654"/>
 													<ExtendedTooltip name="ДополнениеВыгрузкиВариантВыгрузкиУзелСтрокойExtendedTooltip" id="854"/>
@@ -1282,6 +1584,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Отбор настраиваемый</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Custom filter</v8:content>
 														</v8:item>
 													</Title>
 													<Behavior>Usual</Behavior>
@@ -1300,6 +1606,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Отбор настраиваемый вертикальный</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Custom filter vertical</v8:content>
+																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
 															<Behavior>Usual</Behavior>
@@ -1315,6 +1625,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Настраиваемый вариант дополнения пояснение</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Custom addition option note</v8:content>
+																		</v8:item>
 																	</Title>
 																	<ContextMenu name="НастраиваемыйВариантДополненияПояснениеКонтекстноеМеню" id="676"/>
 																	<ExtendedTooltip name="НастраиваемыйВариантДополненияПояснениеExtendedTooltip" id="858"/>
@@ -1324,6 +1638,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Период выгрузки сценарий узла</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Export period node scenario</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Group>Vertical</Group>
@@ -1338,6 +1656,10 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>За период</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Period</v8:content>
 																				</v8:item>
 																			</Title>
 																			<TitleLocation>Left</TitleLocation>
@@ -1386,6 +1708,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Загрузка типовых вариантов настроек</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Load standard settings options</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -1402,6 +1728,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Отчет о составе отправляемых данных</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>View data to be sent</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ДополнениеВыгрузкиСоставВыгрузкиExtendedTooltip" id="867"/>
 								</Button>
@@ -1410,6 +1740,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Загрузка типовых вариантов настроек горизонтальная</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Load standard settings options horizontal</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -1430,6 +1764,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Сохранить настройки или выбрать ранее сохраненный вариант.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Save the settings or select previously saved settings.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="Декорация2КонтекстноеМеню" id="569"/>
 											<ExtendedTooltip name="Декорация2ExtendedTooltip" id="870"/>
@@ -1447,6 +1785,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Нажмите кнопку "Далее" для синхронизации данных.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Click "Next" to synchronize data.</v8:content>
+								</v8:item>
 							</Title>
 							<VerticalAlign>Bottom</VerticalAlign>
 							<ContextMenu name="ДополнениеВыгрузкиНадписьДалееКонтекстноеМеню" id="573"/>
@@ -1460,6 +1802,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница регистрация данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data registration page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаРегистрацияДанныхРасширеннаяПодсказка" id="969"/>
 					<ChildItems>
@@ -1468,6 +1814,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Регистрация данных</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data registration</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -1494,6 +1844,11 @@
 											<v8:content>Выполняется регистрация данных для выгрузки.
 Пожалуйста, подождите...</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Registering data for export.
+Please wait…</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация3КонтекстноеМеню" id="976"/>
 									<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="977"/>
@@ -1508,11 +1863,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ожидания синхронизации данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data synchronization waiting page</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ожидания выгрузки данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data export waiting page</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="СтраницаОжиданияСинхронизацииДанныхExtendedTooltip" id="879"/>
@@ -1523,11 +1886,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Синхронизация данных</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Synchronizing data</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группировка сообщения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Message grouping</v8:content>
 								</v8:item>
 							</ToolTip>
 							<VerticalAlign>Center</VerticalAlign>
@@ -1539,6 +1910,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинки 3</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Pictures 3</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -1567,6 +1942,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Сообщения 3</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Messages 3</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -1582,6 +1961,11 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Выполняется синхронизация данных. Это может занять некоторое время.
 Пожалуйста, подождите...</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Synchronizing data. This might take some time.
+Please wait…</v8:content>
 												</v8:item>
 											</Title>
 											<VerticalAlign>Center</VerticalAlign>
@@ -1600,11 +1984,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ожидания синхронизации данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data synchronization waiting page</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ожидания выгрузки данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data export waiting page</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="СтраницаОжиданияСинхронизацииДанныхПрогрессБарЗагрузкаРасширеннаяПодсказка" id="943"/>
@@ -1615,11 +2007,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Синхронизация данных</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Synchronizing data</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группировка сообщения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Message grouping</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
@@ -1633,6 +2033,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Загрузка данных.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Importing data.</v8:content>
 										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
@@ -1663,11 +2067,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ожидания синхронизации данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data synchronization waiting page</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ожидания выгрузки данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data export waiting page</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="СтраницаОжиданияСинхронизацииДанныхПрогрессБарВыгрузкаРасширеннаяПодсказка" id="956"/>
@@ -1678,11 +2090,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Синхронизация данных</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Synchronizing data</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группировка сообщения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Message grouping</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
@@ -1696,6 +2116,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Выгрузка данных.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Exporting data.</v8:content>
 										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
@@ -1726,6 +2150,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ошибка расхождения версий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Version difference error page</v8:content>
+						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
 					<ExtendedTooltip name="СтраницаОшибкаРасхожденияВерсийРасширеннаяПодсказка" id="918"/>
@@ -1752,6 +2180,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница окончания сопоставления</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Mapping completion page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОкончанияСопоставленияExtendedTooltip" id="783"/>
 					<ChildItems>
@@ -1760,6 +2192,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Синхронизация завершена</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Synchronization completed</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -1771,6 +2207,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Результата выполнения обмена данными</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data exchange result</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -1785,6 +2225,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Загрузки данных</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Data import</v8:content>
+												</v8:item>
 											</Title>
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
@@ -1797,6 +2241,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страницы статуса загрузки данных</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Data import status pages</v8:content>
+														</v8:item>
 													</Title>
 													<PagesRepresentation>None</PagesRepresentation>
 													<ExtendedTooltip name="СтраницыСтатусаЗагрузкиДанныхExtendedTooltip" id="788"/>
@@ -1806,6 +2254,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Статус загрузки неопределено</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Import status undefined</v8:content>
 																</v8:item>
 															</Title>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -1821,6 +2273,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Картинка неопределено</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Undefined picture</v8:content>
+																		</v8:item>
 																	</Title>
 																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="КартинкаНеопределеноКонтекстноеМеню" id="379"/>
@@ -1834,11 +2290,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Статус загрузки успех</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Import status success</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Статус загрузки неопределено</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Import status undefined</v8:content>
 																</v8:item>
 															</ToolTip>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -1854,6 +2318,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Картинка успех</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Success picture</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Picture>
@@ -1872,11 +2340,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Статус загрузки ошибка</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Import status error</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Статус загрузки неопределено</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Import status undefined</v8:content>
 																</v8:item>
 															</ToolTip>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -1890,6 +2366,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Картинка ошибка</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Error picture</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Picture>
@@ -1908,11 +2388,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Статус загрузки предупреждение</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Import status warning</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Статус загрузки неопределено</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Import status undefined</v8:content>
 																</v8:item>
 															</ToolTip>
 															<Width>2</Width>
@@ -1927,6 +2415,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Картинка ошибка</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Error picture</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Picture>
@@ -1949,6 +2441,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Описание получения данных</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Data receipt log</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="ПерейтиВЖурналРегистрацииСобытийЗагрузкиДанныхКонтекстноеМеню" id="578"/>
 													<ExtendedTooltip name="ПерейтиВЖурналРегистрацииСобытийЗагрузкиДанныхExtendedTooltip" id="797"/>
@@ -1963,6 +2459,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Подробно...</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Details…</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ПерейтиВЖурналРегистрацииСобытийЗагрузкиДанныхПодробноExtendedTooltip" id="810"/>
 												</Button>
@@ -1974,11 +2474,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Выгрузки данных</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Data export</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Группа загрузки данных</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Data import group</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Behavior>Usual</Behavior>
@@ -1992,6 +2500,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страницы статуса выгрузки данных</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Data export status pages</v8:content>
+														</v8:item>
 													</Title>
 													<PagesRepresentation>None</PagesRepresentation>
 													<ExtendedTooltip name="СтраницыСтатусаВыгрузкиДанныхExtendedTooltip" id="799"/>
@@ -2002,11 +2514,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Статус выгрузки неопределено</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Export status undefined</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Статус загрузки неопределено</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Import status undefined</v8:content>
 																</v8:item>
 															</ToolTip>
 															<ExtendedTooltip name="СтатусВыгрузкиНеопределеноExtendedTooltip" id="800"/>
@@ -2019,6 +2539,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Картинка неопределено</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Undefined picture</v8:content>
 																		</v8:item>
 																	</Title>
 																	<FileDragMode>AsFile</FileDragMode>
@@ -2033,6 +2557,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Статус выгрузки успех</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Export status success</v8:content>
+																</v8:item>
 															</Title>
 															<ExtendedTooltip name="СтатусВыгрузкиУспехExtendedTooltip" id="802"/>
 															<ChildItems>
@@ -2046,6 +2574,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Картинка успех</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Success picture</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Picture>
@@ -2064,11 +2596,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Статус выгрузки ошибка</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Export status error</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Статус загрузки неопределено</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Import status undefined</v8:content>
 																</v8:item>
 															</ToolTip>
 															<ExtendedTooltip name="СтатусВыгрузкиОшибкаExtendedTooltip" id="804"/>
@@ -2081,6 +2621,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Картинка ошибка</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Error picture</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Picture>
@@ -2099,11 +2643,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Статус выгрузки предупреждение</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Export status warning</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Статус загрузки неопределено</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Import status undefined</v8:content>
 																</v8:item>
 															</ToolTip>
 															<ExtendedTooltip name="СтатусВыгрузкиПредупреждениеExtendedTooltip" id="806"/>
@@ -2116,6 +2668,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Картинка ошибка</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Error picture</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Picture>
@@ -2136,6 +2692,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Описание отправки данных</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Data sending log</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="ПерейтиВЖурналРегистрацииСобытийВыгрузкиДанныхКонтекстноеМеню" id="582"/>
 													<ExtendedTooltip name="ПерейтиВЖурналРегистрацииСобытийВыгрузкиДанныхExtendedTooltip" id="808"/>
@@ -2148,6 +2708,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Подробно...</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Details…</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ПерейтиВЖурналРегистрацииСобытийВыгрузкиДанныхПодробноExtendedTooltip" id="811"/>
@@ -2163,6 +2727,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Ошибка загрузки сообщения для сопоставления</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Error of importing message for mapping</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -2197,6 +2765,12 @@
 Рекомендуется повторно выгрузить данные из приложения "%1" и запустить синхронизацию в этой программе.
 Также, можно удалить сообщение для сопоставления. В этом случае синхронизация будет работать в обычном режиме.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>An error occurred while importing a message for mapping.
+It is recommended that you export data from application "%1" again and start synchronization in this application.
+You can also delete the message for mapping. In this case, synchronization runs in normal mode.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ДекорацияУдалитьСообщениеДляСопоставленияКонтекстноеМеню" id="1012"/>
 											<ExtendedTooltip name="ДекорацияУдалитьСообщениеДляСопоставленияРасширеннаяПодсказка" id="1013"/>
@@ -2218,11 +2792,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Информационная надпись настройки расписания</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Schedule settings label</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группировка сообщения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Message grouping</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
@@ -2237,6 +2819,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Группировка</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Grouping</v8:content>
+										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
@@ -2249,11 +2835,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Картинка настройки расписания</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Schedule settings picture</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Картинка настройка расписания</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Schedule settings picture</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
@@ -2280,11 +2874,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Текст настройки расписания</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Schedule settings text</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Текст настройка расписания</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Schedule settings text</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
@@ -2304,6 +2906,11 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>При необходимости можно настроить расписание
 для синхронизации данных в автоматическом режиме.</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>You can set a schedule for automatic
+data synchronization.</v8:content>
 														</v8:item>
 													</Title>
 													<VerticalAlign>Center</VerticalAlign>
@@ -2332,6 +2939,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Нажмите кнопку "Готово" для завершения работы с помощником.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Click "Finish" to complete the wizard.</v8:content>
+								</v8:item>
 							</Title>
 							<VerticalAlign>Bottom</VerticalAlign>
 							<ContextMenu name="Декорация10КонтекстноеМеню" id="322"/>
@@ -2347,6 +2958,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Кнопок мастера</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Wizard buttons</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -2360,6 +2975,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Панель навигации</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Navigation panel</v8:content>
+						</v8:item>
 					</Title>
 					<PagesRepresentation>None</PagesRepresentation>
 					<ExtendedTooltip name="ПанельНавигацииExtendedTooltip" id="887"/>
@@ -2369,6 +2988,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страница навигации начало</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Navigation start page</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -2380,6 +3003,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Командная панель 1</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Command bar 1</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalLocation>Right</HorizontalLocation>
@@ -2412,6 +3039,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страница навигации продолжение</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Navigation page continued</v8:content>
+								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
 							<ExtendedTooltip name="СтраницаНавигацииПродолжениеExtendedTooltip" id="893"/>
@@ -2422,6 +3053,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Командная панель 2</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Command bar 2</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalLocation>Right</HorizontalLocation>
@@ -2453,6 +3088,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страница навигации окончание</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>End navigation page</v8:content>
+								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
 							<ExtendedTooltip name="СтраницаНавигацииОкончаниеExtendedTooltip" id="898"/>
@@ -2463,6 +3102,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Командная панель 3</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Command bar 3</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalLocation>Right</HorizontalLocation>
@@ -2488,6 +3131,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страница навигации ожидание</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Navigation page wait</v8:content>
+								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
 							<ExtendedTooltip name="СтраницаНавигацииОжиданиеExtendedTooltip" id="902"/>
@@ -2498,6 +3145,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Командная панель 4</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Command bar 4</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalLocation>Right</HorizontalLocation>
@@ -2525,6 +3176,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страница навигации ошибка расхождения версий</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Navigation page version mismatch error</v8:content>
+								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
 							<ExtendedTooltip name="СтраницаНавигацииОшибкаРасхожденияВерсийРасширеннаяПодсказка" id="926"/>
@@ -2534,6 +3189,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Командная панель 5</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Command bar 5</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalLocation>Right</HorizontalLocation>
@@ -2559,6 +3218,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страница навигации информации статистики</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Navigation page statistics</v8:content>
+								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
 							<ExtendedTooltip name="СтраницаНавигацииИнформацииСтатистикиРасширеннаяПодсказка" id="979"/>
@@ -2568,6 +3231,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Командная панель 6</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Command bar 6</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalLocation>Right</HorizontalLocation>
@@ -2580,6 +3247,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Сохранить и закрыть</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Save and close</v8:content>
 												</v8:item>
 											</Title>
 											<ExtendedTooltip name="КомандаГотовоРасширеннаяПодсказка" id="987"/>
@@ -2642,6 +3313,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дерево информации статистики</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Statistics tree</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -2652,6 +3327,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Данные</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2667,6 +3346,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сопоставление, %</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Mapped, %</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2684,6 +3367,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Picture</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>v8ui:Picture</v8:Type>
@@ -2694,6 +3381,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Всего принято, шт</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Objects received</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2711,6 +3402,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>В этой программе, шт</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Objects in this application</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -2726,6 +3421,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Осталось сопоставить, шт</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Objects unmapped</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2942,6 +3641,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2982,6 +3685,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Запомнить пароль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remember password</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3086,6 +3793,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Доп информация выполнение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional information running</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -3100,6 +3811,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Процент выполнения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Progress percentage</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3193,6 +3908,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Закончить сопоставление данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Mapping completed</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3203,6 +3922,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить сообщение обмена</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import exchange message</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3234,6 +3957,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить сообщение для сопоставления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete message for mapping</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3262,11 +3989,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить информацию статистики сопоставления</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh mapping statistics</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F5</Shortcut>
@@ -3283,11 +4018,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сопоставить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Map data</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть форму сопоставления объектов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the object mapping window.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F2</Shortcut>
@@ -3305,11 +4048,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Получить данные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Receive data</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Получить данные в информационную базу для выделенной строки (строк)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import data to the infobase for the selected line(s).</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3326,11 +4077,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть каталог</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open directory</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть каталог обмена информацией</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open data exchange directory.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьКаталогОбменаИнформацией</Action>
@@ -3342,11 +4101,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить настройки обмена данными</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit data exchange settings.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастроитьПараметрыТранспортаСообщенийОбмена</Action>
@@ -3358,11 +4125,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти в журнал регистрации</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to event log</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти в журнал регистрации событий загрузки данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to data import event log.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПерейтиВЖурналРегистрацииСобытийЗагрузкиДанных</Action>
@@ -3374,11 +4149,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти в журнал регистрации событий выгрузки данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to data export event log</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти в журнал регистрации событий выгрузки данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to data export event log.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПерейтиВЖурналРегистрацииСобытийВыгрузкиДанных</Action>
@@ -3390,6 +4173,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Готово</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Finish</v8:content>
+				</v8:item>
 			</Title>
 			<Action>КомандаГотово</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -3399,6 +4186,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Далее &gt;</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Next &gt;</v8:content>
 				</v8:item>
 			</Title>
 			<Action>КомандаДалее</Action>
@@ -3410,6 +4201,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
+				</v8:item>
 			</Title>
 			<Action>КомандаОтмена</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -3420,11 +4215,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнение выгрузки детальный отбор</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Export addition detailed filter</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнение выгрузки детальный отбор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Export addition detailed filter</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДополнениеВыгрузкиДетальныйОтбор</Action>
@@ -3436,11 +4239,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ранее сохраненные варианты выгрузки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Previously saved export options.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3456,11 +4267,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Общий отбор документов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Common document filter</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Общий отбор документов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Common document filter</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДополнениеВыгрузкиОбщийОтборДокументов</Action>
@@ -3472,11 +4291,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистка детального отбора</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear detailed filter</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистка детального отбора.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear the detailed filter.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3492,11 +4319,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить общий отбор</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear common filter</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить общий отбор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear the common filter.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3512,11 +4347,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Состав выгрузки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>View data to export</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть отчет по составу выгружаемых данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>View data to be exported.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3532,11 +4375,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure schedule…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть настройку расписания</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the schedule settings.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3552,11 +4403,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить параметры отбора</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change filter parameters</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить параметры отбора</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change filter parameters</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДополнениеВыгрузкиОтборПоСценариюУзла</Action>
@@ -3568,11 +4427,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить синхронизацию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue the synchronization.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПродолжитьСинхронизацию</Action>

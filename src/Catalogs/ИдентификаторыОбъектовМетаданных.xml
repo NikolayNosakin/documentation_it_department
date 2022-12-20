@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Идентификаторы объектов метаданных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Metadata object IDs</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment>АПК:304 - №697.1.2 Обновление предопределенных данных вместо Авто требуется установить Не обновлять автоматически, так как предопределенные элементы сопоставляются с данными программно</Comment>
 			<Hierarchical>true</Hierarchical>
@@ -112,6 +116,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ссылка на объект метаданных в информационной базе</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A reference to a metadata object in the infobase.</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -222,6 +230,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа объектов метаданных.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group the item belongs to.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -237,6 +249,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа объектов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object group</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -258,6 +274,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сохраняемое представление идентификатора объекта метаданных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A stored presentation of a metadata object ID.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -273,6 +293,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -340,6 +364,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Идентификатор объекта метаданных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Metadata object ID</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -348,6 +376,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Идентификаторы объектов метаданных для использования в информационной базе.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Metadata object IDs used in the infobase.</v8:content>
 				</v8:item>
 			</Explanation>
 			<CreateOnInput>Use</CreateOnInput>
@@ -364,6 +396,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Порядок коллекции</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Collection order</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -385,6 +421,13 @@
 используемый для сортировки в отчетах,
 например, коллекция "Справочники"
 перед коллекцией "Документы"</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The order of metadata object collection
+that defines its place in reports.
+For example, the "Catalogs" collection 
+precedes the "Documents" collection.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -418,6 +461,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Например, "ОбъектыАдресацииЗадач"</Comment>
 					<Type>
@@ -434,6 +481,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя объекта метаданных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The metadata object name.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -467,6 +518,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Синоним</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Synonym</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -484,6 +539,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Синоним объекта метаданных,
 например, "Объекты адресации задач"</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The metadata object synonym.
+For example, "Task addressing objects."</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -517,6 +577,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полное имя</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Full name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Например, "ПланВидовХарактеристик.ОбъектыАдресацииЗадач"</Comment>
 					<Type>
@@ -533,6 +597,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полное имя объекта метаданных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The full name of the metadata object.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -566,6 +634,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полный синоним</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Full synonym</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -583,6 +655,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полный синоним объекта метаданных,
 например, "Планы видов характеристик. Объекты адресации задач"</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The full metadata object synonym.
+For example, "Chart of characteristic types. Task addressing objects."</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -616,6 +693,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Без данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>No data</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -628,6 +709,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект метаданных не имеет таблиц данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The metadata object has no data tables.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -661,6 +746,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение пустой ссылки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Empty reference value</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>АПК:1330 - №728.2.1 Допустимо использование универсального ссылочного типа, так как это универсальный механизм и мало данных</Comment>
 					<Type>
@@ -684,6 +773,14 @@
 для остальных - Неопределено
 (в форме показано представление
 типа значения пустой ссылки)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>For a metadata object of reference type,
+contains an empty reference of its type;
+otherwise, contains Undefined
+(the form displays the presentation
+of the value type of an empty reference).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -717,6 +814,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ключ объекта метаданных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Metadata object key</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -729,6 +830,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хранилище ключа по которому определяется объект метаданных без использования полного имени</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The key that uniquely identifies the metadata object (without using its full name).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -762,6 +867,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Новая ссылка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>New reference</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -774,6 +883,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Используется при обработке дублей идентификаторов подчиненного узла распределенной информационной базы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>It is used for processing duplicate IDs in a subordinate node of a distributed infobase.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

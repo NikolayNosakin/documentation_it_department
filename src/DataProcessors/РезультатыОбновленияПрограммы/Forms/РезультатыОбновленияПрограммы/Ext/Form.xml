@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Результаты обновления программы</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Application update result</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -36,6 +40,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Закрыть</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Close</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ФормаЗакрытьExtendedTooltip" id="127"/>
 			</Button>
@@ -58,6 +66,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Информация об удалении патчей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Patch deletion information</v8:content>
 				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
@@ -88,6 +100,15 @@
 
 Подобные действия могут приводить к различным ошибкам при работе программы и при ее обновлении на новую версию. Рекомендуется использовать штатные средства для обновления.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Obsolete patches were not deleted regularly when upgrading to a new version, so they were deleted the first time the administrator entered the application. 
+Possible reasons:
+• The update was performed by non-recommended third-party tools.
+• a patch that does not suit this application version was manually installed, for example, using Designer.
+
+Such actions can lead to various errors when the application is running and when updating it to a new version. It is recommended that you use regular tools for updating.</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="УдалениеПатчейНадписьКонтекстноеМеню" id="261"/>
 					<ExtendedTooltip name="УдалениеПатчейНадписьРасширеннаяПодсказка" id="262"/>
@@ -107,6 +128,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Результаты обновления</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Update results</v8:content>
+						</v8:item>
 					</Title>
 					<PagesRepresentation>None</PagesRepresentation>
 					<ExtendedTooltip name="ГруппаРезультатыОбновленияРасширеннаяПодсказка" id="185"/>
@@ -116,6 +141,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Обновление завершено</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Update completed</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalStretch>false</VerticalStretch>
@@ -128,6 +157,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинка информация</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Information picture</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -147,6 +180,11 @@
 											<v8:content>Версия программы успешно обновлена на версию %1
 %2 в %3 за %4.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The application was updated to version %1
+on %2 at %3 (update duration: %4).</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="ИнформацияОбновлениеЗавершеноКонтекстноеМеню" id="87"/>
 									<ExtendedTooltip name="ИнформацияОбновлениеЗавершеноExtendedTooltip" id="131"/>
@@ -159,6 +197,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Ошибка обновления</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Update error</v8:content>
+								</v8:item>
 							</Title>
 							<Group>HorizontalIfPossible</Group>
 							<ExtendedTooltip name="ГруппаОшибкаОбновленияРасширеннаяПодсказка" id="187"/>
@@ -169,6 +211,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинка ошибка</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Error picture</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -185,6 +231,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Информация об ошибке</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Error details</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -198,6 +248,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Во время обновления программы возникли некоторые проблемы. Информация о них сохранена в &lt;link ЖурналРегистрации&gt;журнал регистрации&lt;/&gt;.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cannot update the application. See the error details in the &lt;link ЖурналРегистрации&gt;event log&lt;/&gt;.</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ИнформацияОшибкаОбновленияКонтекстноеМеню" id="200"/>
@@ -223,6 +277,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Установленные исправления</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Installed patches</v8:content>
+						</v8:item>
 					</Title>
 					<PagesRepresentation>None</PagesRepresentation>
 					<ExtendedTooltip name="ГруппаУстановленныеИсправленияРасширеннаяПодсказка" id="203"/>
@@ -232,6 +290,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Исправления установлены</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Patches installed</v8:content>
 								</v8:item>
 							</Title>
 							<Group>HorizontalIfPossible</Group>
@@ -248,6 +310,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Исправления установлены компоновка</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Patches installed composition</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -260,6 +326,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>&lt;link 123&gt;Исправления (патчи)&lt;/&gt; успешно установлены (%1)</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>&lt;link 123&gt;Patches&lt;/&gt; are installed(%1)</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ИнформацияИсправленияУстановленыКонтекстноеМеню" id="212"/>
@@ -278,6 +348,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Ошибка установки исправлений</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Patch installation error</v8:content>
+								</v8:item>
 							</Title>
 							<Group>HorizontalIfPossible</Group>
 							<ExtendedTooltip name="ГруппаОшибкаУстановкиИсправленийРасширеннаяПодсказка" id="218"/>
@@ -293,6 +367,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Ошибка установки исправлений компоновка</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Patch installation error composition</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -305,6 +383,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Не удалось установить &lt;link 123&gt;исправления (%1 из %2)&lt;/&gt;</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cannot install &lt;link 123&gt;patches (%1 out of %2)&lt;/&gt;</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ИнформацияОшибкаИсправленийКонтекстноеМеню" id="225"/>
@@ -327,6 +409,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Статус обновления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update status</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<PagesRepresentation>None</PagesRepresentation>
@@ -338,6 +424,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление в файловой базе</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Update in file database</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОбновлениеВФайловойБазеExtendedTooltip" id="134"/>
 					<ChildItems>
@@ -346,6 +436,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Шапка файловая база</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Header file infobase</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -359,6 +453,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинка действие выполняется</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Action in progress picture</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -377,6 +475,11 @@
 											<v8:content>Необходимо выполнить дополнительные процедуры обработки данных.
 Работа с этими данными в программе временно ограничена.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Pending additional data processing procedures.
+Access to this data is temporarily restricted.</v8:content>
+										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
 									<ContextMenu name="ЗаголовокИнформацииФайловаяБазаКонтекстноеМеню" id="36"/>
@@ -390,6 +493,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Информация файловая база</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Information file infobase</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -402,6 +509,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Запустить отложенное обновление</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Start deferred update</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -417,6 +528,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Список процедур обработки данных</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Data processing procedures</v8:content>
 												</v8:item>
 											</Title>
 											<ExtendedTooltip name="ОткрытьСписокОтложенныхОбработчиков1ExtendedTooltip" id="140"/>
@@ -436,6 +551,13 @@
 Во время обработки может наблюдаться существенное замедление работы пользователей.
 Рекомендуется выполнять обработку в период наименьшей активности пользователей.</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Data processing can take a long time
+(from 1 minute to several hours, depending on the data size).
+Applications users might experience lags during the data processing.
+Therefore, it is recommended that you schedule it to the lowest user activity periods.</v8:content>
+													</v8:item>
 												</Title>
 											</ExtendedTooltip>
 										</Button>
@@ -451,6 +573,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Статус обновления для пользователя</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Update status for user</v8:content>
+						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="СтатусОбновленияДляПользователяExtendedTooltip" id="145"/>
@@ -460,6 +586,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Шапка модель сервиса</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Header SaaS mode</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -473,6 +603,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинка действие выполняется</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Action in progress picture</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -492,6 +626,12 @@
 Работа с этими данными в программе временно ограничена, необходимо дождаться
 окончания их обработки.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Pending additional data processing procedures.
+Access to this data is temporary restricted.
+Please wait till the processing is completed.</v8:content>
+										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
 									<ContextMenu name="ЗаголовокИнформацииДляПользователяКонтекстноеМеню" id="125"/>
@@ -507,6 +647,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Список процедур обработки данных</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data processing procedures</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ОткрытьСписокОтложенныхОбработчиков2ExtendedTooltip" id="149"/>
 						</Button>
@@ -518,6 +662,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление выполняется</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Updating</v8:content>
+						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ОбновлениеВыполняетсяExtendedTooltip" id="150"/>
@@ -527,6 +675,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Ход обновления</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Update progress</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -541,6 +693,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Шапка клиент сервер</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Header client server</v8:content>
+										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
@@ -552,6 +708,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Картинка действие выполняется</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Action in progress picture</v8:content>
 												</v8:item>
 											</Title>
 											<Picture>
@@ -570,6 +730,11 @@
 													<v8:content>Выполняются дополнительные процедуры обработки данных на версию xx.yy.zz
 Работа с этими данными временно ограничена.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Additional data processing procedures required for update to version xx.yy.zz are in progress.
+Access to this data is temporary restricted.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ЗаголовокИнформацииКонтекстноеМеню" id="8"/>
 											<ExtendedTooltip name="ЗаголовокИнформацииExtendedTooltip" id="154"/>
@@ -582,6 +747,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Шапка обновление не выполняется</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Header update is not in progress</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -606,6 +775,11 @@
 													<v8:content>Дополнительные процедуры обработки данных не выполняются, т.к. отключено регламентное задание "Отложенное обновление".
 &lt;link Включить&gt;Включить&lt;/&gt;</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Additional procedures of data processing are not executed as the "Deferred update" scheduled job is disabled.
+&lt;link Включить&gt;Enable&lt;/&gt;</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ПояснениеОбновлениеНеВыполняетсяКонтекстноеМеню" id="284"/>
 											<ExtendedTooltip name="ПояснениеОбновлениеНеВыполняетсяРасширеннаяПодсказка" id="285"/>
@@ -621,6 +795,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Информация о прогрессе</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Progress details</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -633,6 +811,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Прогресс и ошибки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Progress and errors</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -647,6 +829,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Отступ и прогресс</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Indent and progress</v8:content>
+														</v8:item>
 													</Title>
 													<Group>AlwaysHorizontal</Group>
 													<Behavior>Usual</Behavior>
@@ -659,6 +845,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Выравнивание</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Alignment</v8:content>
 																</v8:item>
 															</Title>
 															<Behavior>Usual</Behavior>
@@ -679,6 +869,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Прогресс и проблемы</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Progress and issues</v8:content>
+																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
 															<Behavior>Usual</Behavior>
@@ -692,6 +886,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Прогресс</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Progress</v8:content>
+																		</v8:item>
 																	</Title>
 																	<Group>Vertical</Group>
 																	<Behavior>Usual</Behavior>
@@ -704,6 +902,10 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Индикация проблем с обработчиками</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Handler issues indication</v8:content>
 																				</v8:item>
 																			</Title>
 																			<Behavior>Usual</Behavior>
@@ -726,6 +928,10 @@
 																							<v8:lang>ru</v8:lang>
 																							<v8:content>Проблемные ситуации</v8:content>
 																						</v8:item>
+																						<v8:item>
+																							<v8:lang>en</v8:lang>
+																							<v8:content>Issues</v8:content>
+																						</v8:item>
 																					</Title>
 																					<ContextMenu name="ПроблемныеСитуацииКонтекстноеМеню" id="328"/>
 																					<ExtendedTooltip name="ПроблемныеСитуацииРасширеннаяПодсказка" id="329"/>
@@ -741,6 +947,10 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Индикация проблем с данными</v8:content>
 																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Data issues indication</v8:content>
+																				</v8:item>
 																			</Title>
 																			<Group>AlwaysHorizontal</Group>
 																			<Behavior>Usual</Behavior>
@@ -753,6 +963,10 @@
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
 																							<v8:content>Декорация индикация проблем с данными</v8:content>
+																						</v8:item>
+																						<v8:item>
+																							<v8:lang>en</v8:lang>
+																							<v8:content>Decoration data issues indication</v8:content>
 																						</v8:item>
 																					</Title>
 																					<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -768,6 +982,10 @@
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
 																							<v8:content>Проблемы с данными</v8:content>
+																						</v8:item>
+																						<v8:item>
+																							<v8:lang>en</v8:lang>
+																							<v8:content>Data issues</v8:content>
 																						</v8:item>
 																					</Title>
 																					<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -785,6 +1003,10 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Выполнено: %1 из %2</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Completed: %1 out of %2.</v8:content>
 																				</v8:item>
 																			</Title>
 																			<Hyperlink>true</Hyperlink>
@@ -807,6 +1029,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Зацикливание</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Loop</v8:content>
+																		</v8:item>
 																	</Title>
 																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
@@ -821,6 +1047,10 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>За последний час не было обработано ни одного объекта, возможно произошло зацикливание обработки данных</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>No object has been processed for the last hour. Probably data processing went into an endless loop</v8:content>
 																				</v8:item>
 																			</Title>
 																			<BackColor>style:ЦветФонаВнимание</BackColor>
@@ -841,6 +1071,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Отступ</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Indent</v8:content>
+												</v8:item>
 											</Title>
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
@@ -858,6 +1092,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Приоритет</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Priority</v8:content>
 												</v8:item>
 											</Title>
 											<Behavior>Usual</Behavior>
@@ -879,6 +1117,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Работа пользователей</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>User experience</v8:content>
+																	</v8:item>
 																</Presentation>
 																<Value xsi:type="xs:string">РаботаПользователей</Value>
 															</xr:Value>
@@ -891,6 +1133,10 @@
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Обработка данных</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Data processing</v8:content>
 																	</v8:item>
 																</Presentation>
 																<Value xsi:type="xs:string">ОбработкаДанных</Value>
@@ -905,6 +1151,11 @@
 																<v8:content>&lt;b&gt;• &lt;/&gt;&lt;b&gt;Работа пользователей&lt;/&gt; - данные обрабатываются медленнее, но меньше нагрузка на сервер и влияние на работу пользователей в программе. 
 &lt;b&gt;• &lt;/&gt;&lt;b&gt;Обработка данных&lt;/&gt; - выше скорость обработки данных, но выше нагрузка на сервер, а так же существенное замедление работы пользователей в программе. Рекомендуется использовать в тех случаях, когда необходимо быстрее получить доступ к обрабатываемым данным.</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>&lt;b&gt;• &lt;/&gt;&lt;b&gt;User experience&lt;/&gt;. Data processing takes longer, but server load and user experience degradation are less significant. 
+&lt;b&gt;• &lt;/&gt;&lt;b&gt;Data processing&lt;/&gt;. Data processing takes less time, but server load is higher and user experience degradation is significant. It is recommended that you use this mode when availability of the processed data is critical.</v8:content>
+															</v8:item>
 														</Title>
 													</ExtendedTooltip>
 													<Events>
@@ -917,6 +1168,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Потоков</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Number of threads</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Left</TitleLocation>
@@ -933,6 +1188,16 @@
 &lt;b&gt;    •&lt;/&gt; для штатного обновления до 50-75% от количества ядер, доступных кластеру  серверов; 
 &lt;b&gt;    •&lt;/&gt; для форсированного обновления в период минимальной активности пользователей - столько ядер, сколько доступно кластеру серверов.
 См. также &lt;link http://1c.ru/news/info.jsp?id=25491&gt;ограничение 12 ядер на  сервер для версии ПРОФ платформы 1С:Предприятие&lt;/&gt; и "&lt;link https://v8.1c.ru/priobretenie-i-vnedrenie/otvety-na-tipovye-voprosy-po-litsenzirovaniyu-1s-predpriyatiya-8/&gt;Какие  ядра процессора следует считать — реальные или виртуальные?&lt;/&gt;".
+</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>&lt;b&gt;● &lt;/&gt;&lt;b&gt;User sessions&lt;/&gt;: data is processed more slowly but server load and impact on user activities in the application is lower.
+&lt;b&gt;● &lt;/&gt;&lt;b&gt;Data processing&lt;/&gt;: data processing speed is faster but server load is higher as well as user activities are slower in the application. It is recommended that you use it when you need a faster access to data being processed.
+&lt;b&gt;● &lt;/&gt;&lt;b&gt;&lt;fontsize 8&gt;Number&lt;/&gt;&lt;/&gt;&lt;b&gt; of threads&lt;/&gt;: number of update handlers executed simultaneously. The default value is 8. Recommended value:
+&lt;b&gt;    &lt;/&gt;up to 50-75% of the number of server cluster processor cores. 
+&lt;b&gt;    •&lt;/&gt;For the forced update within a period of minimum activity, the recommended value is as many cores as available for the server cluster.
+See also &lt;link http://1c.ru/news/info.jsp?id=25491&gt;restriction of 12 cores per server for 1C:Enterprise PROF version (in Russian)&lt;/&gt; and &lt;link https://v8.1c.ru/priobretenie-i-vnedrenie/otvety-na-tipovye-voprosy-po-litsenzirovaniyu-1s-predpriyatiya-8/&gt;Which processor cores to count - real or virtual? (in Russian)&lt;/&gt;
 </v8:content>
 															</v8:item>
 														</Title>
@@ -954,6 +1219,12 @@
 (от нескольких минут до нескольких часов в зависимости от объема введенных данных).
 Во время обработки может наблюдаться существенное замедление работы пользователей.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Data processing can take a long time
+(from 1 minute to several hours, depending on the data size).
+Applications users might experience lags during the data processing.</v8:content>
+												</v8:item>
 											</Title>
 											<TitleHeight>3</TitleHeight>
 											<ContextMenu name="ИнформацияПодсказкаФайловаяБаза2КонтекстноеМеню" id="115"/>
@@ -964,6 +1235,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Подсказка про период наименьшей активности пользователей</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Hint about the period with least user activity</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -981,6 +1256,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Поэтому рекомендуется настроить расписание так, чтобы выполнять обработку в период наименьшей активности пользователей.</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>It is recommended that you schedule the data processing to run during the period of minimum user activity.</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="ПодсказкаПроПериодНаименьшейАктивностиПользователейКонтекстноеМеню" id="101"/>
 													<ExtendedTooltip name="ПодсказкаПроПериодНаименьшейАктивностиПользователейExtendedTooltip" id="158"/>
@@ -990,6 +1269,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Настройка расписания</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Schedule settings</v8:content>
 														</v8:item>
 													</Title>
 													<Behavior>Usual</Behavior>
@@ -1004,6 +1287,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Настроить расписание</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Configure schedule</v8:content>
 																</v8:item>
 															</Title>
 															<ExtendedTooltip name="ИзменитьРасписаниеExtendedTooltip" id="159"/>
@@ -1024,6 +1311,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление завершено</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Update completed</v8:content>
+						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ОбновлениеЗавершеноExtendedTooltip" id="163"/>
@@ -1033,6 +1324,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отложенное обновление завершено</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Deferred update completed</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -1046,6 +1341,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Шапка завершено</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Header completed</v8:content>
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
@@ -1072,6 +1371,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Дополнительные процедуры обработки данных не предусмотрены.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>No additional data processing required.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ИнформацияОтложенныеОбработчикиОтсутствуютКонтекстноеМеню" id="119"/>
 											<ExtendedTooltip name="ИнформацияОтложенныеОбработчикиОтсутствуютExtendedTooltip" id="167"/>
@@ -1084,6 +1387,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Дополнительные процедуры обработки данных не выполнялись</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Some additional data processing procedures have not been completed.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ИнформацияОтложенноеОбновлениеЗавершеноКонтекстноеМеню" id="51"/>
 											<ExtendedTooltip name="ИнформацияОтложенноеОбновлениеЗавершеноРасширеннаяПодсказка" id="169"/>
@@ -1095,6 +1402,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Переход к списку отложенных обработчиков</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Go to the deferred handler list</v8:content>
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
@@ -1129,6 +1440,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Переход к списку и проблемы</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Go to the list and issues</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Usual</Behavior>
@@ -1142,6 +1457,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Группа индикация проблем с обработчиками</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Group handler issues indication</v8:content>
+																</v8:item>
 															</Title>
 															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
@@ -1153,6 +1472,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Декорация индикация проблем завершено</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Decoration issues indication completed</v8:content>
 																		</v8:item>
 																	</Title>
 																	<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -1169,6 +1492,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Проблемные ситуации</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Issues</v8:content>
+																		</v8:item>
 																	</Title>
 																	<ContextMenu name="ПроблемныеСитуацииЗавершеноКонтекстноеМеню" id="356"/>
 																	<ExtendedTooltip name="ПроблемныеСитуацииЗавершеноРасширеннаяПодсказка" id="357"/>
@@ -1184,6 +1511,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Группа индикация проблем с данными</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Group data issues indication</v8:content>
+																</v8:item>
 															</Title>
 															<Group>AlwaysHorizontal</Group>
 															<Behavior>Usual</Behavior>
@@ -1196,6 +1527,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Декорация индикация проблем с данными завершено</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Decoration data issues indication completed</v8:content>
 																		</v8:item>
 																	</Title>
 																	<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -1211,6 +1546,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Проблемы с данными</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Data issues</v8:content>
 																		</v8:item>
 																	</Title>
 																	<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -1230,6 +1569,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Необходимо выполнить процедуры обработки данных</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Required data processing procedures.</v8:content>
+																</v8:item>
 															</Title>
 															<ExtendedTooltip name="ОткрытьСписокОтложенныхОбработчиковExtendedTooltip" id="170"/>
 														</Button>
@@ -1242,6 +1585,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Техническая информация о результатах обновления</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Update technical details</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
 													<Hyperlink>true</Hyperlink>
@@ -1251,6 +1598,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Техническая информация из журнала регистрации для обращения в службу технической поддержки.</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Technical details from the event log to provide to technical support.</v8:content>
 															</v8:item>
 														</Title>
 													</ExtendedTooltip>
@@ -1277,6 +1628,11 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сведения о результатах обновления версии программы можно также открыть
 из раздела &lt;b&gt;Администрирование &lt;/&gt;- &lt;b&gt;Обслуживание&lt;/&gt;.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>To view the application update report
+go to &lt;b&gt;Administration&lt;/&gt; — &lt;b&gt;Service&lt;/&gt;.</v8:content>
 				</v8:item>
 			</Title>
 			<TitleHeight>2</TitleHeight>
@@ -1339,6 +1695,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Приоритет</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Priority</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1372,6 +1732,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Количество потоков обновления информационной базы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Number of infobase update threads</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -1400,11 +1764,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить процедуры обработки данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run data processing procedures</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить дополнительные процедуры обработки данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run additional data processing procedures.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1420,11 +1792,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть список дополнительных процедур обработки данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open list of additional data processing procedures</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть список дополнительных процедур обработки данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open list of additional data processing procedures.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьСписокОтложенныхОбработчиков</Action>
@@ -1435,6 +1815,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить расписание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change schedule</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -1450,11 +1834,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Информация для технической поддержки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Information for technical support</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Информация для технической поддержки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Information for technical support</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИнформацияДляТехническойПоддержки</Action>
@@ -1465,11 +1857,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перезапустить отложенное обновление...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restart deferred update…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перезапустить отложенное обновление</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restart deferred update</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПерезапуститьОтложенноеОбновление</Action>

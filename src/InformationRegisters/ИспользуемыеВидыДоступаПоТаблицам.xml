@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Используемые виды доступа по таблицам</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Used access kinds by tables</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -178,6 +182,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Table</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -191,6 +199,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Идентификатор объекта метаданных для которого в одной из ролей профиля заданы права доступа с ограничением на уровне записей.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The ID of the metadata object for which access rights with a record-level restriction are set in one of the profile roles.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -226,6 +238,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип значений доступа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access Value type</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -239,6 +255,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип значений доступа (пустая ссылка), который соответствует виду доступа в группе доступа.
 Возможный используемый "разрез" ограничения прав доступа для таблицы, вычисленный по настройкам видов доступа в профилях и группах доступа.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The access value type (empty reference) that matches the access kind in the access group.
+The possible used dimension of access rights restriction for the table calculated from access kind settings in profiles and access groups.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

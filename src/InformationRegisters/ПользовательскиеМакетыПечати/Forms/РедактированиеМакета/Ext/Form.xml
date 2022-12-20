@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Изменение макета печатной формы</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Edit print form template</v8:content>
+		</v8:item>
 	</Title>
 	<Width>55</Width>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
@@ -45,6 +49,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Диалог</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Dialog</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ДиалогExtendedTooltip" id="63"/>
@@ -54,6 +62,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница загрузка на компьютер веб клиент</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Page download to computer web client</v8:content>
 						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
@@ -68,6 +80,12 @@
 
 Если программа для редактирования еще не установлена, рекомендуется установить "%2".</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Template file %1 is prepared for copying to computer and %3 using another application.
+
+If the editor is not installed yet, it is recommended that you install %2.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="НадписьПередЗагрузкойМакетаПрограммаВебКлиентКонтекстноеМеню" id="43"/>
 							<ExtendedTooltip name="НадписьПередЗагрузкойМакетаПрограммаВебКлиентExtendedTooltip" id="65"/>
@@ -78,6 +96,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Перейти на страницу программы "%2" для установки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Open %2 installation page</v8:content>
 								</v8:item>
 							</Title>
 							<Hyperlink>true</Hyperlink>
@@ -94,6 +116,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Нажмите на кнопку "Продолжить", чтобы начать загрузку.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Click Continue to start the download.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="НадписьПередЗагрузкойМакетаИнструкцияВебКлиентКонтекстноеМеню" id="34"/>
 							<ExtendedTooltip name="НадписьПередЗагрузкойМакетаИнструкцияВебКлиентExtendedTooltip" id="67"/>
@@ -106,6 +132,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница загрузка на компьютер не веб клиент</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Page download to computer not web client</v8:content>
+						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="СтраницаЗагрузкаНаКомпьютерНеВебКлиентExtendedTooltip" id="68"/>
@@ -117,6 +147,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Файл макета "%1" подготовлен для внесения изменений с помощью другой программы. Если программа для редактирования еще не установлена, рекомендуется установить "%2".</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Template file %1 is prepared for editing using another application. If the editor is not installed yet, it is recommended that you install %2.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="НадписьПередЗагрузкойМакетаПрограммаНеВебКлиентКонтекстноеМеню" id="41"/>
 							<ExtendedTooltip name="НадписьПередЗагрузкойМакетаПрограммаНеВебКлиентExtendedTooltip" id="69"/>
@@ -127,6 +161,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Перейти на страницу программы "%2" для установки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Open %2 installation page</v8:content>
 								</v8:item>
 							</Title>
 							<Hyperlink>true</Hyperlink>
@@ -143,6 +181,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Нажмите на кнопку "Продолжить" для открытия макета в другой программе. Внесите в макет изменения, закройте его и следуйте дальнейшим инструкциям.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Click Continue to open the template in external application. Modify the template, close it, and follow further instructions.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="НадписьПередЗагрузкойМакетаИнструкцияНеВебКлиентКонтекстноеМеню" id="39"/>
 							<ExtendedTooltip name="НадписьПередЗагрузкойМакетаИнструкцияНеВебКлиентExtendedTooltip" id="71"/>
@@ -154,6 +196,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница загрузка в информационную базу веб клиент</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Page import to infobase web client</v8:content>
 						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
@@ -170,6 +216,14 @@
 
 Если программа для редактирования еще не установлена, рекомендуется установить "%2".</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Please wait until the template file is imported, then open and edit it.
+
+Once the editing is completed, confirm the changes and close the template file. Then click "Apply changes" and select this file in the next dialog box. 
+
+If the editor is not installed yet, it is recommended that you install %2.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="НадписьЗавершениеИзмененияВебКлиентКонтекстноеМеню" id="13"/>
 							<ExtendedTooltip name="НадписьЗавершениеИзмененияВебКлиентExtendedTooltip" id="73"/>
@@ -180,6 +234,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Перейти на страницу программы "%2" для установки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Open %2 installation page</v8:content>
 								</v8:item>
 							</Title>
 							<Hyperlink>true</Hyperlink>
@@ -197,6 +255,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница загрузка в информационную базу не веб клиент</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Page import to infobase not web client</v8:content>
+						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="СтраницаЗагрузкаВИнформационнуюБазуНеВебКлиентExtendedTooltip" id="75"/>
@@ -212,6 +274,14 @@
 
 Если программа для редактирования еще не установлена, рекомендуется установить "%2".</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Please wait until the template is opened in the editor.
+
+Once the editing is completed, confirm the changes and close the template. Then click "Apply changes".
+
+If the editor is not installed yet, it is recommended that you install %2.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="НадписьЗавершениеИзмененияНеВебКлиентКонтекстноеМеню" id="46"/>
 							<ExtendedTooltip name="НадписьЗавершениеИзмененияНеВебКлиентExtendedTooltip" id="76"/>
@@ -222,6 +292,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Перейти на страницу программы "%2" для установки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Open %2 installation page</v8:content>
 								</v8:item>
 							</Title>
 							<Hyperlink>true</Hyperlink>
@@ -241,6 +315,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
+				</v8:item>
 			</Title>
 			<VerticalStretch>true</VerticalStretch>
 			<VerticalAlign>Bottom</VerticalAlign>
@@ -255,6 +333,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Командная панель</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Command bar</v8:content>
+						</v8:item>
 					</Title>
 					<PagesRepresentation>None</PagesRepresentation>
 					<ExtendedTooltip name="КоманднаяПанельExtendedTooltip" id="78"/>
@@ -265,6 +347,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Панель загрузка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Panel import</v8:content>
+								</v8:item>
 							</Title>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ПанельЗагрузкаExtendedTooltip" id="79"/>
@@ -274,6 +360,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Кнопок загрузка</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Buttons import</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalLocation>Right</HorizontalLocation>
@@ -304,6 +394,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Панель завершение изменения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Panel completion changes</v8:content>
+								</v8:item>
 							</Title>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ПанельЗавершениеИзмененияExtendedTooltip" id="84"/>
@@ -313,6 +407,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Кнопок завершение изменения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Buttons completion changes</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalLocation>Right</HorizontalLocation>
@@ -461,11 +559,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить изменение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Apply changes</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить изменение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Apply changes</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗавершитьИзменение</Action>
@@ -477,11 +583,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Изменить</Action>
@@ -493,11 +607,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Отмена</Action>

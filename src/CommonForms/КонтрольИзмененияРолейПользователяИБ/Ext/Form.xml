@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Права доступа обновлены</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Access rights are updated</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -33,6 +37,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Картинка и надпись</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Picture and label</v8:content>
+				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<VerticalAlign>Center</VerticalAlign>
@@ -56,6 +64,11 @@
 							<v8:content>Администратор изменил права доступа.
 Перезапустите программу, чтобы они вступили в силу.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Administrator changed access rights.
+Restart the application so that they come into force.</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
 					<ContextMenu name="НадписьКонтекстноеМеню" id="7"/>
@@ -72,11 +85,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перезапустить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restart</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перезапустить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restart</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Перезапустить</Action>
@@ -87,11 +108,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Напомнить завтра</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remind me tomorrow</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Напомнить завтра</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remind me tomorrow</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НапомнитьЗавтра</Action>

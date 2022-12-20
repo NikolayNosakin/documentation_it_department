@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Копирование настроек пользователей</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Copy user settings</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -56,6 +60,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователь, настройки которого требуется скопировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>The source user.</v8:content>
+				</v8:item>
 			</ToolTip>
 			<Width>35</Width>
 			<HorizontalStretch>false</HorizontalStretch>
@@ -74,6 +82,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Кому копировать:</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy to:</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -84,6 +96,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выбрать пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Select users</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -97,6 +113,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Кому скопировать</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Copy to</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>None</TitleLocation>
@@ -112,6 +132,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Выбранным пользователям:</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Selected users:</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">ВыбраннымПользователям</Value>
 									</xr:Value>
@@ -124,6 +148,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Всем пользователям</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>All users</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">ВсемПользователям</Value>
@@ -147,6 +175,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выбрать</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Select</v8:content>
+								</v8:item>
 							</Title>
 							<Hyperlink>true</Hyperlink>
 							<ContextMenu name="ВыбратьПользователейКонтекстноеМеню" id="59"/>
@@ -165,6 +197,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Что копировать:</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy:</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -175,6 +211,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выбрать</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Select</v8:content>
 						</v8:item>
 					</Title>
 					<VerticalStretch>true</VerticalStretch>
@@ -198,6 +238,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Все настройки</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>All settings</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">СкопироватьВсе</Value>
 									</xr:Value>
@@ -210,6 +254,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Отдельные настройки:</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Some settings:</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">СкопироватьОтдельные</Value>
@@ -233,6 +281,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выбрать</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Select</v8:content>
 								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Bottom</GroupVerticalAlign>
@@ -261,6 +313,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать настройки от пользователя</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy settings from</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.ВнешниеПользователи</v8:Type>
@@ -272,6 +328,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переключатель кому копировать настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>All users or selected users</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -323,6 +383,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Копируемые настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings to copy</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -379,11 +443,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy the settings.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Скопировать</Action>
@@ -395,11 +467,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать и закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy the settings and close the form.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Скопировать</Action>

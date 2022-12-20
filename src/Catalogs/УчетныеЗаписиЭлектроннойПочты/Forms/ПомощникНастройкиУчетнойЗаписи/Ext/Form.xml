@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="2"/>
@@ -39,6 +43,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка учетной записи</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Account settings</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="НастройкаУчетнойЗаписиРасширеннаяПодсказка" id="33"/>
@@ -51,6 +59,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Введите настройки почты</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Enter email settings</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="НастройкаУчетнойЗаписиЗаголовокКонтекстноеМеню" id="208"/>
 							<ExtendedTooltip name="НастройкаУчетнойЗаписиЗаголовокРасширеннаяПодсказка" id="209"/>
@@ -60,6 +72,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Не удалось подключиться картинка и надпись</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Cannot connect picture and label</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -73,6 +89,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинка вопрос</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Question picture</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -88,6 +108,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Сообщения об ошибках</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Error messages</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -120,6 +144,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Нужна помощь?</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Need help?</v8:content>
+												</v8:item>
 											</Title>
 											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
 											<Hyperlink>true</Hyperlink>
@@ -139,6 +167,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Аутентификация</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Authentication</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -153,6 +185,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Адрес почты</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Email</v8:content>
 										</v8:item>
 									</Title>
 									<Width>25</Width>
@@ -181,6 +217,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Авторизоваться на почтовом сервисе</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Authorize in the email service</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">OAuth</Value>
 											</xr:Value>
@@ -193,6 +233,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Ввести пароль</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Enter password</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">Пароль</Value>
@@ -207,6 +251,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Способ аутентификации пароль</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Authentication method password</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -229,6 +277,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Ввести пароль:</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Enter password:</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">Пароль</Value>
 													</xr:Value>
@@ -246,6 +298,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Пароль</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Password</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>None</TitleLocation>
@@ -285,6 +341,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Авторизоваться на почтовом сервисе</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Authorize in the email service</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">OAuth</Value>
 											</xr:Value>
@@ -304,6 +364,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Почта будет использоваться</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Use this account to</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
@@ -315,6 +379,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Для отправки писем</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Send mail</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
@@ -329,6 +397,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Для получения писем</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Receive mail</v8:content>
+										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
@@ -342,6 +414,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Для кого учетная запись</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Who will use the email account</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -364,6 +440,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Всеми пользователями (общая почта)</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>All users</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">Общая</Value>
 											</xr:Value>
@@ -376,6 +456,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Только мной</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Me only</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">Персональная</Value>
@@ -393,6 +477,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Имя отправителя</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Sender's name</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -407,6 +495,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Имя отправителя</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Sender's name</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<Width>25</Width>
@@ -418,6 +510,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Например, Ваше имя или название организации.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>The display name that email recipients will see.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -434,6 +530,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Например, Ваше имя или название организации.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The display name that email recipients will see.</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="ПояснениеКИмениКонтекстноеМеню" id="205"/>
 									<ExtendedTooltip name="ПояснениеКИмениРасширеннаяПодсказка" id="206"/>
@@ -448,6 +548,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка сервера исходящей почты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Outgoing mail server setup</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="НастройкаСервераИсходящейПочтыРасширеннаяПодсказка" id="39"/>
 					<ChildItems>
@@ -457,6 +561,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тип учетной записи</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Protocol</v8:content>
 								</v8:item>
 							</Title>
 							<Width>8</Width>
@@ -494,6 +602,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Протокол и порт сервера входящей почты</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Protocol and port of the incoming mail server</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -506,6 +618,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Сервер IMAP</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>IMAP server</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Top</TitleLocation>
@@ -521,6 +637,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Порт</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Port</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Top</TitleLocation>
@@ -542,6 +662,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>STARTTLS</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>STARTTLS</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">Авто</Value>
 											</xr:Value>
@@ -553,6 +677,10 @@
 												<Presentation>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
+														<v8:content>SSL</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
 														<v8:content>SSL</v8:content>
 													</v8:item>
 												</Presentation>
@@ -574,6 +702,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки сервера исходящей почты</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Outgoing mail server settings</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -586,6 +718,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Сервер SMTP</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>SMTP server</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Top</TitleLocation>
@@ -601,6 +737,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Порт</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Port</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Top</TitleLocation>
@@ -622,6 +762,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>STARTTLS</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>STARTTLS</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">Авто</Value>
 											</xr:Value>
@@ -633,6 +777,10 @@
 												<Presentation>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
+														<v8:content>SSL</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
 														<v8:content>SSL</v8:content>
 													</v8:item>
 												</Presentation>
@@ -654,6 +802,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Оставлять письма на сервере</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Leave messages on the server</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -667,6 +819,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Оставлять копии писем на сервере</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Leave a copy of mails on the server</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
@@ -682,6 +838,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Настройка удаления писем</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Set up email deletion</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -715,6 +875,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>дней</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>days</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьДнейКонтекстноеМеню" id="146"/>
 											<ExtendedTooltip name="НадписьДнейРасширеннаяПодсказка" id="147"/>
@@ -731,6 +895,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа2</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group2</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="НастройкиАвторизацииПриложенияРасширеннаяПодсказка" id="311"/>
 					<ChildItems>
@@ -741,6 +909,11 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Для авторизации средствами почтового сервиса необходимо зарегистрировать это приложение в почтовом сервисе.
+</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>To authorize using an email service, register the application in the email service.
 </v8:content>
 								</v8:item>
 							</Title>
@@ -758,6 +931,12 @@
 Из настроек регистрации приложения заполните следующие поля:
 </v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>
+Fill in the following fields from the application registration settings:
+</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ПояснениеПоАдресуПеренаправленияКонтекстноеМеню" id="313"/>
 							<ExtendedTooltip name="ПояснениеПоАдресуПеренаправленияРасширеннаяПодсказка" id="314"/>
@@ -768,6 +947,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Адрес перенаправления (redirect_uri)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Redirection address (redirect_uri)</v8:content>
 								</v8:item>
 							</Title>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -789,6 +972,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Идентификатор приложения (client_id)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Application ID (client_id)</v8:content>
+								</v8:item>
 							</Title>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="ИдентификаторПриложенияКонтекстноеМеню" id="316"/>
@@ -809,6 +996,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пароль приложения (client_secret)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Application password (client_secret)</v8:content>
+								</v8:item>
 							</Title>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="ПарольПриложенияКонтекстноеМеню" id="319"/>
@@ -822,6 +1013,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа2</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group2</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="АвторизацияРасширеннаяПодсказка" id="309"/>
 					<ChildItems>
@@ -830,6 +1025,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Варианты авторизации</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Authorization options</v8:content>
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
@@ -840,6 +1039,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Встроенный браузер</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Built-in browser</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ВстроенныйБраузерРасширеннаяПодсказка" id="353"/>
@@ -861,6 +1064,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Браузер операционной системы</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Operating system browser</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="БраузерОперационнойСистемыРасширеннаяПодсказка" id="355"/>
 									<ChildItems>
@@ -869,6 +1076,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Авторизуйтесь на странице почтового сервиса и введите полученный код в поле ниже:</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Authorize on the email service page and enter the received code in the field below:</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ПояснениеПоКодуПодтвержденияКонтекстноеМеню" id="360"/>
@@ -891,6 +1102,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Проверка настроек учетной записи</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Account settings test</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПроверкаНастроекУчетнойЗаписиРасширеннаяПодсказка" id="35"/>
 					<ChildItems>
@@ -899,6 +1114,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Проверка настроек учетной записи картинка и надпись</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Account settings test picture and label</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -923,6 +1142,11 @@
 											<v8:content>Выполняется проверка настроек почты.
 Это может занять несколько минут.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Testing email server settings…
+This might take a while.</v8:content>
+										</v8:item>
 									</Title>
 									<GroupVerticalAlign>Center</GroupVerticalAlign>
 									<ContextMenu name="НадписьПроверкаНастроекУчетнойЗаписиКонтекстноеМеню" id="59"/>
@@ -938,6 +1162,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Технические подробности ошибки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Technical error details</v8:content>
+						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
 					<ExtendedTooltip name="ТехническиеПодробностиОшибкиРасширеннаяПодсказка" id="276"/>
@@ -947,6 +1175,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка вопрос</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Picture question</v8:content>
 								</v8:item>
 							</Title>
 							<Picture>
@@ -962,6 +1194,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>При проверке обнаружены ошибки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Errors found</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -995,6 +1231,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Нужна помощь?</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Need help?</v8:content>
+										</v8:item>
 									</Title>
 									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
 									<Hyperlink>true</Hyperlink>
@@ -1014,6 +1254,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Учетная запись успешно настроена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Email account setup completed</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="УчетнаяЗаписьУспешноНастроенаРасширеннаяПодсказка" id="37"/>
 					<ChildItems>
@@ -1026,6 +1270,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Почта успешно настроена</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Email account setup completed</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="УчетнаяЗаписьУспешноНастроенаЗаголовокКонтекстноеМеню" id="236"/>
 							<ExtendedTooltip name="УчетнаяЗаписьУспешноНастроенаЗаголовокРасширеннаяПодсказка" id="237"/>
@@ -1035,6 +1283,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Учетная запись успешно настроена картинка и надпись</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Email account setup completed picture and label</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -1047,6 +1299,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинка успешно</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Success picture</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -1066,6 +1322,11 @@
 											<v8:content>Настройка параметров почты
 vasyapupkin@example.com завершена.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Setup of email account
+jdoe@example.com is completed.</v8:content>
+										</v8:item>
 									</Title>
 									<GroupVerticalAlign>Center</GroupVerticalAlign>
 									<ContextMenu name="НадписьУчетнаяЗаписьУспешноНастроенаКонтекстноеМеню" id="70"/>
@@ -1081,6 +1342,10 @@ vasyapupkin@example.com завершена.</v8:content>
 							<v8:lang>ru</v8:lang>
 							<v8:content>При проверке обнаружены ошибки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Test failed</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПриПроверкеОбнаруженыОшибкиРасширеннаяПодсказка" id="394"/>
 					<ChildItems>
@@ -1089,6 +1354,10 @@ vasyapupkin@example.com завершена.</v8:content>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Описание ошибки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Error details</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -1102,6 +1371,10 @@ vasyapupkin@example.com завершена.</v8:content>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинка при проверке обнаружены ошибки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Picture errors found</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -1136,6 +1409,10 @@ vasyapupkin@example.com завершена.</v8:content>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Возможные причины</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Possible reasons</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -1149,6 +1426,10 @@ vasyapupkin@example.com завершена.</v8:content>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Декорация возможные причины</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Decoration possible reasons</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="ДекорацияВозможныеПричиныКонтекстноеМеню" id="408"/>
 									<ExtendedTooltip name="ДекорацияВозможныеПричиныРасширеннаяПодсказка" id="409"/>
@@ -1160,6 +1441,10 @@ vasyapupkin@example.com завершена.</v8:content>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Способы устранения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Methods to fix the error</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -1174,6 +1459,10 @@ vasyapupkin@example.com завершена.</v8:content>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Декорация способы устранения</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Decoration methods to fix the error</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="ДекорацияСпособыУстраненияКонтекстноеМеню" id="413"/>
 									<ExtendedTooltip name="ДекорацияСпособыУстраненияРасширеннаяПодсказка" id="414"/>
@@ -1185,6 +1474,10 @@ vasyapupkin@example.com завершена.</v8:content>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительные ссылки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional references</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalStretch>true</VerticalStretch>
@@ -1199,6 +1492,10 @@ vasyapupkin@example.com завершена.</v8:content>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Рекомендации по решению типовых проблем</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Recommendations on how to resolve standard issues</v8:content>
 										</v8:item>
 									</Title>
 									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
@@ -1221,6 +1518,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
+				</v8:item>
 			</Title>
 			<VerticalStretch>true</VerticalStretch>
 			<VerticalAlign>Bottom</VerticalAlign>
@@ -1235,6 +1536,10 @@ vasyapupkin@example.com завершена.</v8:content>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Командная панель левая часть</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Command bar left part</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="КоманднаяПанельЛеваяЧастьРасширеннаяПодсказка" id="12"/>
 					<ChildItems>
@@ -1246,7 +1551,7 @@ vasyapupkin@example.com завершена.</v8:content>
 						<Button name="ФормаИзменитьФорму" id="171">
 							<Type>CommandBarButton</Type>
 							<Visible>false</Visible>
-							<CommandName>0</CommandName>
+							<CommandName>0:198ea630-fda2-4cda-8a23-f999f4c67ee6</CommandName>
 							<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 							<ExtendedTooltip name="ФормаИзменитьФормуРасширеннаяПодсказка" id="172"/>
 						</Button>
@@ -1257,6 +1562,10 @@ vasyapupkin@example.com завершена.</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Командная панель правая часть</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Command bar right part</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalLocation>Right</HorizontalLocation>
@@ -1289,6 +1598,10 @@ vasyapupkin@example.com завершена.</v8:content>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адрес электронной почты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Email</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1337,6 +1650,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сервер исходящей почты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Outgoing mail server</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1351,6 +1668,10 @@ vasyapupkin@example.com завершена.</v8:content>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Порт сервера исходящей почты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Outgoing port</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1382,6 +1703,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль для получения писем</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Email account password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1396,6 +1721,10 @@ vasyapupkin@example.com завершена.</v8:content>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сервер входящей почты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Incoming mail server</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1412,6 +1741,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Протокол</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Protocol</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1426,6 +1759,10 @@ vasyapupkin@example.com завершена.</v8:content>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Порт сервера входящей почты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Incoming port</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1458,6 +1795,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Оставлять копии писем на сервере</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Leave a copy of mail on the server</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1477,6 +1818,10 @@ vasyapupkin@example.com завершена.</v8:content>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя отправителя писем</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sender's name</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1523,6 +1868,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Для отправки почты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Send mail</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1533,6 +1882,10 @@ vasyapupkin@example.com завершена.</v8:content>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Для получения почты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Receive mail</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1549,6 +1902,10 @@ vasyapupkin@example.com завершена.</v8:content>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сообщения об ошибках</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Error messages</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1586,6 +1943,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Период хранения сообщений на сервере</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Mail retention period</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -1602,6 +1963,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалять письма с сервера через:</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete mails from server after:</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1617,6 +1982,10 @@ vasyapupkin@example.com завершена.</v8:content>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вид учетной записи</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Account type</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1638,6 +2007,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Шифрование</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Encryption</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1652,6 +2025,10 @@ vasyapupkin@example.com завершена.</v8:content>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Шифрование</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Encryption</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1678,6 +2055,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Способ аутентификации</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Authentication method</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1692,6 +2073,10 @@ vasyapupkin@example.com завершена.</v8:content>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Идентификатор приложения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Application ID</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1708,6 +2093,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ключ доступа приложения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Application access key</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1723,6 +2112,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адрес перенаправления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Redirection address</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1737,6 +2130,10 @@ vasyapupkin@example.com завершена.</v8:content>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Веб страница</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Web page</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1809,6 +2206,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Код подтверждения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Confirmation code</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1848,6 +2249,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt; Назад</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt; Back</v8:content>
+				</v8:item>
 			</Title>
 			<Action>Назад</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -1857,6 +2262,10 @@ vasyapupkin@example.com завершена.</v8:content>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Далее &gt;</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Next &gt;</v8:content>
 				</v8:item>
 			</Title>
 			<Action>Далее</Action>
@@ -1868,6 +2277,10 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти к настройкам</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings</v8:content>
+				</v8:item>
 			</Title>
 			<Action>ПерейтиКНастройкам</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -1878,11 +2291,19 @@ vasyapupkin@example.com завершена.</v8:content>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Отмена</Action>

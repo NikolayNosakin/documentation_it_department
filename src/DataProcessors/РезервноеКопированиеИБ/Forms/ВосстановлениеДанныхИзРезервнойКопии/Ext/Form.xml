@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Восстановление данных из резервной копии</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Restore data</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -23,6 +27,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Восстановить данные</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Restore data</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ГотовоExtendedTooltip" id="93"/>
 			</Button>
@@ -34,6 +42,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Отмена</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cancel</v8:content>
 					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ЗакрытьExtendedTooltip" id="94"/>
@@ -59,6 +71,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы загрузки данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data import pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыЗагрузкиДанныхExtendedTooltip" id="95"/>
@@ -69,6 +85,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница настройки загрузки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Import setup page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаНастройкиЗагрузкиExtendedTooltip" id="96"/>
 					<ChildItems>
@@ -78,6 +98,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Укажите путь к файлу с резервной копией</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Specify path to backup file</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Top</TitleLocation>
@@ -97,6 +121,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Авторизации</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Authorization</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -111,6 +139,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Имя администратора</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Administrator</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -132,6 +164,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы статуса восстановления</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Status restore pages</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыСтатусаВосстановленияРасширеннаяПодсказка" id="156"/>
@@ -141,6 +177,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница пустая</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Blank page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаПустаяРасширеннаяПодсказка" id="167"/>
@@ -157,6 +197,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница активные пользователи</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Active users page</v8:content>
+										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
 									<ExtendedTooltip name="СтраницаАктивныеПользователиРасширеннаяПодсказка" id="160"/>
@@ -166,6 +210,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Картинки 1</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Pictures 1</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -179,6 +227,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Картинка предупреждение</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Warning picture</v8:content>
 														</v8:item>
 													</Title>
 													<Picture>
@@ -197,6 +249,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Надписей 1</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Labels 1</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -213,6 +269,11 @@
 															<v8:content>В данный момент с программой работают другие пользователи.
 Их работа будет завершена автоматически.</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>There are other active users in the application.
+Their sessions will be terminated automatically.</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="Надпись44КонтекстноеМеню" id="18"/>
 													<ExtendedTooltip name="Надпись44ExtendedTooltip" id="112"/>
@@ -224,6 +285,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Посмотреть список активных сеансов</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>View list of active sessions</v8:content>
 														</v8:item>
 													</Title>
 													<Hyperlink>true</Hyperlink>
@@ -242,6 +307,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница ошибка подключения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Connection error page</v8:content>
 										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
@@ -263,6 +332,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Ошибки</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Errors</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -277,6 +350,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Ошибка проверки подключения</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Connection check error</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>None</TitleLocation>
@@ -298,6 +375,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Comcntr файловый режим</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Comcntr file mode</v8:content>
+														</v8:item>
 													</Title>
 													<Behavior>Usual</Behavior>
 													<Representation>NormalSeparation</Representation>
@@ -313,11 +394,20 @@
 																	<v8:content>При ошибке версии компоненты "comcntr", рекомендуется выполнить
 ее &lt;link Перерегистрация&gt;перерегистрацию&lt;/&gt; (потребуется перезапуск сеанса).</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>On comcntr version error, &lt;link Перерегистрация&gt;register&lt;/&gt; the component again.
+It will require session restart.</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Возможно необходимо обновить версию компоненты "comcntr". При этом потребуется перезапустить сеанс 1С. Для этого нажмите здесь</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Click here to update the comcntr component and restart the session.</v8:content>
 																</v8:item>
 															</ToolTip>
 															<ContextMenu name="НадписьОбновитьВерсиюКомпонентыКонтекстноеМеню" id="58"/>
@@ -342,6 +432,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница информации и выполнения резервного копирования</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Information and back up page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаИнформацииИВыполненияРезервногоКопированияExtendedTooltip" id="116"/>
 					<ChildItems>
@@ -351,6 +445,11 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подготовка к восстановлению данных.
 Пожалуйста, не выключайте компьютер.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Preparing to restore data…
+Don’t turn off your computer.</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -363,6 +462,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинки активных пользователей</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Active user pictures</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -398,6 +501,11 @@
 													<v8:content>Производится отключение сеансов других пользователей,
 работающих в программе...</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Terminating other user sessions…
+Please wait.</v8:content>
+												</v8:item>
 											</Title>
 											<VerticalAlign>Bottom</VerticalAlign>
 											<ContextMenu name="НадписьОтключениеПользователейКонтекстноеМеню" id="45"/>
@@ -408,6 +516,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Надписи активных пользователей</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Active users label</v8:content>
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
@@ -422,6 +534,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Активные сеансы:</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Active sessions:</v8:content>
 														</v8:item>
 													</Title>
 													<Hyperlink>true</Hyperlink>
@@ -444,6 +560,12 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Имеются активные сеансы работы с программой,
 которые не могут быть завершены принудительно:
+</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>There are active sessions
+that cannot be closed:
 </v8:content>
 												</v8:item>
 											</Title>
@@ -473,6 +595,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ошибок при копировании</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Restore error page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОшибокПриКопированииExtendedTooltip" id="172"/>
 					<ChildItems>
@@ -481,6 +607,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Неуспешного копирования</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Restore failed</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -497,6 +627,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Восстановление данных из резервной копии не выполнено</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Cannot restore data from the backup</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="НадписьНеуспешногоКопированияКонтекстноеМеню" id="176"/>
 									<ExtendedTooltip name="НадписьНеуспешногоКопированияРасширеннаяПодсказка" id="177"/>
@@ -508,6 +642,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Не удалось</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Failed</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -531,6 +669,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Текст ошибки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Error text</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="НадписьНеУдалосьКонтекстноеМеню" id="186"/>
@@ -556,6 +698,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Name</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -571,6 +717,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обнаруженная ошибка подключения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reported connection error </v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -585,6 +735,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Password</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -614,6 +768,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Далее &gt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Next &gt;</v8:content>
+				</v8:item>
 			</Title>
 			<Action>Готово</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -623,6 +781,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ФормаОтмена</Action>
@@ -634,11 +796,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Техническая информация об ошибке</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>View error details</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти в журнал регистрации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to event log</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПерейтиВЖурналРегистрации</Action>
@@ -649,6 +819,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не дожидаться завершения сеансов (режим отладки)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not wait for sessions to end (debug mode)</v8:content>
 				</v8:item>
 			</Title>
 			<Action>НеДожидатьсяЗавершенияСеансов</Action>

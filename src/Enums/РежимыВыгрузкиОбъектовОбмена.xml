@@ -22,6 +22,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Режимы выгрузки объектов обмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exchange object export modes</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -100,6 +104,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выгружать всегда</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Always export</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Выгрузка без использования фильтров</Comment>
 				</Properties>
@@ -111,6 +119,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выгружать по условию</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export by condition</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>Выгрузка с использованием фильтров</Comment>
@@ -124,6 +136,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выгружать при необходимости</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export when needed</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Выгрузка без использования фильтров, но с контролем ссылочной целостности выгружаемых данных</Comment>
 				</Properties>
@@ -136,6 +152,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выгружать вручную</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export manually</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>В этом режиме изменения объектов не регистрируются автоматически (через подписки на события); объекты регистрируются к выгрузке вручную пользователем и выгружаются только, если соответствуют фильтру, установленному на узле, для которого выполняется выгруз</Comment>
 				</Properties>
@@ -147,6 +167,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Не выгружать</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Do not export</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>В этом режиме изменения объектов не регистрируются автоматически (через подписки на события) и не выгружаются, даже если изменения объектов были зарегистрированы вручную пользователем.</Comment>

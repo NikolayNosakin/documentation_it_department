@@ -20,6 +20,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Шапка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -43,6 +47,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>В группе</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>In group</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="РодительКонтекстноеМеню" id="41"/>
 					<ExtendedTooltip name="РодительExtendedTooltip" id="184"/>
@@ -59,6 +67,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Состав и роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Content and roles</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СоставИРолиExtendedTooltip" id="154"/>
@@ -69,6 +81,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Участники группы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group members</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ВнешниеПользователиГруппыExtendedTooltip" id="155"/>
 					<ChildItems>
@@ -77,6 +93,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тип пользователей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>User type</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -90,6 +110,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>В группу включены</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group members</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>None</TitleLocation>
@@ -107,6 +131,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Выбранные пользователи указанных видов</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Selected users of the specified types</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">ВыбранныеПользователиУказанныхВидов</Value>
 											</xr:Value>
@@ -119,6 +147,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Все пользователи указанных видов</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>All users of the specified types</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">ВсеПользователиУказанныхВидов</Value>
@@ -138,6 +170,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Назначение</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Assignment</v8:content>
+										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
@@ -150,6 +186,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Вид:</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Type:</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ЗаголовокНазначениеКонтекстноеМеню" id="237"/>
@@ -180,6 +220,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Участники</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Members</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -213,7 +257,7 @@
 									<Button name="СоставКонтекстноеМенюСкопировать" id="50">
 										<Type>CommandBarButton</Type>
 										<SkipOnInput>false</SkipOnInput>
-										<CommandName>0</CommandName>
+										<CommandName>10:0ae4bea5-23be-42a7-b69e-97b11b29c453</CommandName>
 										<ExtendedTooltip name="СоставКонтекстноеМенюСкопироватьРасширеннаяПодсказка" id="161"/>
 									</Button>
 									<Button name="СоставКонтекстноеМенюУдалить" id="46">
@@ -237,6 +281,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Состав контекстное меню стандартные команды</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Content context menu standard commands</v8:content>
 											</v8:item>
 										</Title>
 										<CommandSource>Item.Состав</CommandSource>
@@ -268,7 +316,7 @@
 									<Button name="СоставСкопировать" id="49">
 										<Type>CommandBarButton</Type>
 										<SkipOnInput>false</SkipOnInput>
-										<CommandName>0</CommandName>
+										<CommandName>10:0ae4bea5-23be-42a7-b69e-97b11b29c453</CommandName>
 										<ExtendedTooltip name="СоставСкопироватьExtendedTooltip" id="165"/>
 									</Button>
 									<Button name="СоставУдалить" id="33">
@@ -305,6 +353,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Состав стандартные команды</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Content standard commands</v8:content>
 											</v8:item>
 										</Title>
 										<CommandSource>Item.Состав</CommandSource>
@@ -378,6 +430,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разрешенные действия (роли)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allowed actions (roles)</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="РолиГруппыExtendedTooltip" id="174"/>
 					<ChildItems>
@@ -386,6 +442,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отображение ролей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Roles</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -416,6 +476,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Роли</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Roles</v8:content>
 										</v8:item>
 									</Title>
 									<CommandSet>
@@ -467,6 +531,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Роли стандартные команды</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Roles standard commands</v8:content>
+													</v8:item>
 												</Title>
 												<CommandSource>Item.Роли</CommandSource>
 												<ExtendedTooltip name="РолиСтандартныеКомандыРасширеннаяПодсказка" id="211"/>
@@ -505,6 +573,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Роли колонок</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Role columns</v8:content>
+												</v8:item>
 											</Title>
 											<Group>InCell</Group>
 											<ExtendedTooltip name="РолиКолонокExtendedTooltip" id="181"/>
@@ -541,6 +613,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="197"/>
 					<ChildItems>
@@ -571,6 +647,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Недействителен</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Invalid</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -595,6 +675,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Roles</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -607,6 +691,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пометка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check box</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -617,6 +705,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разрешенное действие (роль)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allowed action (role)</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -693,6 +785,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Участники группы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group members</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -715,11 +811,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подбор пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select users</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПодобратьВнешнихПользователей</Action>
@@ -732,11 +836,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Только выбранные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Selected roles only</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать только выбранные роли</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show selected roles only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -753,11 +865,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Исключить роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove roles</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Исключить роли</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove roles</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -774,11 +894,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add roles</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить роли</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add roles</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -795,11 +923,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>По подсистемам</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group by subsystems</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группировать список ролей по подсистемам</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group roles by subsystems.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -816,11 +952,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать недействительных пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show invalid users</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать недействительных пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show invalid users.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказыватьНедействительныхПользователей</Action>
@@ -832,11 +976,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сортировать по возрастанию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sort ascending</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Упорядочить список по возрастанию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sort the list in ascending order.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -854,11 +1006,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сортировать по убыванию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sort descending</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Упорядочить список по убыванию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sort the list in descending order.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -876,6 +1036,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переместить вниз</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move down</v8:content>
+				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>StdPicture.MoveDown</xr:Ref>
@@ -891,6 +1055,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переместить вверх</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move up</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -908,11 +1076,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt;Не указан&gt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt;Not specified&gt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Виды пользователей группы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group users types</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьНазначение</Action>

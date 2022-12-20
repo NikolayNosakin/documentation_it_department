@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы формы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Form pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыФормыРасширеннаяПодсказка" id="27"/>
@@ -40,6 +44,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отборы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filters</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОтборыРасширеннаяПодсказка" id="2"/>
 					<ChildItems>
@@ -48,6 +56,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Декорация информация</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Decoration information</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
@@ -64,6 +76,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Операция позволяет почистить  предупреждения синхронизации данных, которые потеряли свою актуальность. Это важная операция, потому что избыточное количество предупреждений замедляет работу списка. Но следует учитывать, что во время удаления предупреждений нужно приостановить работу всех синхронизаций данных, в том числе и тех, которые настроены на работу по расписанию.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>The operation allows you to clear data synchronization warnings that are no longer relevant. This is an important operation as an excessive number of warnings slows down the list operation. Keep in mind though that before deleting warnings, you will need to stop all data synchronizations including those executed on schedule.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</PictureDecoration>
@@ -72,6 +88,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группа 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group 1</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -86,6 +106,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Если период не указан будут удаляться записи за весь период. Отбор предупреждений за период значительно увеличивает время обработки.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>If you do not specify a period, all records will be deleted. Filtering warnings by period significantly increases the processing time.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -107,6 +131,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Если настройка не заполнена, то будут удаляться предупреждения любой синхронизации данных.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>If the setting is not filled in, warnings of any data synchronization will be deleted.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
 									<ChoiceButton>true</ChoiceButton>
@@ -124,6 +152,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Если отбор не установлен, то будут удаляться записи с любым типом предупреждения.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>If no filter is assigned, records with any warning type will be deleted.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -146,6 +178,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Очистить только скрытые предупреждения по указанным условиям. Установка опции значительно увеличивает время работы.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Clear only hidden warnings for the specified criteria. Setting this option significantly increases the runtime.</v8:content>
+								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -160,6 +196,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Длительная операция</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Long-running operation</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаДлительнаяОперацияРасширеннаяПодсказка" id="29"/>
 					<ChildItems>
@@ -168,6 +208,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Длительная операция</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Long-running operation</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
@@ -182,6 +226,11 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Подождите, пожалуйста,
 производится удаление устаревших записей…</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Please wait.
+Deleting obsolete records…</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -206,6 +255,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ошибка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Error</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОшибкаРасширеннаяПодсказка" id="48"/>
 					<ChildItems>
@@ -214,6 +267,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Длительная операция</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Long-running operation</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
@@ -228,6 +285,11 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>В процессе работы произошла ошибка...
 Для устранения ошибки скопируйте приведенный ниже текст и передайте его администратору.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>An error occurred during operation…
+To resolve the error, copy the text below and send it to your administrator.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -249,11 +311,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Готово</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Finish</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ошибка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Page error</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="СтраницаГотовоРасширеннаяПодсказка" id="53"/>
@@ -263,6 +333,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Длительная операция</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Long-running operation</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
@@ -278,6 +352,11 @@
 										<v8:content>Очистка завершена,
 устаревшие предупреждения удалены.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Cleared.
+Obsolete warnings are deleted.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</PictureDecoration>
@@ -292,6 +371,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Период</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Period</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -311,6 +394,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тип</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Type</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -325,6 +412,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronization</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -344,6 +435,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Только скрытые записи, которые удовлетворяют условиям выше</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Only hidden records that meet the conditions above</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -354,6 +449,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Индикация</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Indication</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -374,6 +473,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ошибка (описание для администратора)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Error (details for the administrator)</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -391,11 +494,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить предупреждения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete warnings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить предупреждения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete warnings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьПредупреждения</Action>

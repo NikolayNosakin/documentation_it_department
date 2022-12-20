@@ -36,6 +36,11 @@
 					<v8:content>Сбросить настройки размещения, видимости и доступности
 выбранных предопределенных вариантов отчетов программы?</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do you want to reset layout, visibility, and availability settings
+for the selected predefined report options?</v8:content>
+				</v8:item>
 			</Title>
 			<ContextMenu name="Надпись2КонтекстноеМеню" id="12"/>
 			<ExtendedTooltip name="Надпись2РасширеннаяПодсказка" id="13"/>
@@ -46,6 +51,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Внимание, операция "&lt;b&gt;Сбросить настройки размещения&lt;/&gt;" необратима.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Warning. The &lt;b&gt;Reset layout settings&lt;/&gt; command cannot be undone.</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="Надпись1КонтекстноеМеню" id="2"/>
@@ -77,6 +86,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сбросить настройки размещения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reset layout settings</v8:content>
 				</v8:item>
 			</Title>
 			<Action>КомандаСбросить</Action>

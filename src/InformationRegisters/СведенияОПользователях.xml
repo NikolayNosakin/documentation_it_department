@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сведения о пользователях</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User details</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -178,6 +182,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Потребовать смену пароля при входе</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Require password change upon authorization</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -194,6 +202,14 @@
 
 Устанавливается в карточке пользователя.
 Сбрасывается при смене пароля при входе.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The user must change their password
+when they sign in.
+
+You can change this option in the user card.
+When the user changes the password, this setting is cleared.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -226,6 +242,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Срок действия не ограничен</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Password never expires</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -238,6 +258,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отменяет все ограничения по срокам действия.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Password never expires.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -270,6 +294,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Срок действия</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Expires on</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -286,6 +314,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Срок, начиная с которого, пользователю
 будет запрещен вход в программу.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The date user authorization
+will be denied.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -318,6 +351,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Просрочка работы в программе до запрещения входа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Inactivity period before denying authorization</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -339,6 +376,14 @@
 
 Когда указан, используется вместо аналогичного параметра,
 указанного для всех пользователей (внешних пользователей).</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The period since the latest activity of the user,
+after which the user will be denied authorization.
+
+When it is set, it supersedes the equivalent parameter
+applied to all users (or external users).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -371,6 +416,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата разрешения входа в программу</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Authorization allowed on</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -387,6 +436,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата последней установки флажка
 Вход в программу разрешен.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The latest date when 
+the "Can sign in" option was set.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -419,6 +473,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата последней активности</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Last active on</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -437,6 +495,13 @@
 пользователя в программе.
 
 Обновляется при входе и затем каждые 20 минут, если изменилась.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The date of the latest activity
+of the user in the application.
+
+It is updated when the user signs in, and then every 20 minutes.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -469,6 +534,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата автоматического запрещения входа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Authorization automatically denied on</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -489,6 +558,15 @@
 
 Устанавливается при запрещении входа.
 Сбрасывается при разрешении входа и при входе.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The date when authorization was automatically denied
+due to expired password or user inactivity.
+
+It is set when authorization is denied.
+
+It is updated when authorization is allowed, and then when the user signs in.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -521,6 +599,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата начала использования пароля</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Password activated on</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -539,6 +621,13 @@
 
 Устанавливается при входе, если пустая.
 Сбрасывается при смене пароля.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The date when the user first signed in with a new password.
+
+It is set when the user signs in, if blank.
+It is updated when the password is changed.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -571,6 +660,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использованные пароли</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Previous passwords</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -583,6 +676,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хеши паролей, которые пользователь использовал ранее</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Hashes of the user previous passwords.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -615,6 +712,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Последний используемый клиент</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Last used client</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -631,6 +732,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Программа, которая использовалась пользователем для работы в информационной базе в последнем сеансе работы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The application the user was authorized in to access the infobase in the latest session.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -663,6 +768,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -676,6 +785,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь или внешний пользователь</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A user or an external user.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

@@ -8,10 +8,14 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить статус изменения пометки удаления пользователя</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Set user deletion mark change status</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Source>
-				<v8:TypeSet>cfg:DefinedType.ПредметЗаметокОбъект</v8:TypeSet>
+				<v8:Type>cfg:CatalogObject.Пользователи</v8:Type>
 			</Source>
 			<Event>BeforeWrite</Event>
 			<Handler>CommonModule.ЗаметкиПользователя.УстановитьСтатусИзмененияПометкиУдаленияОбъекта</Handler>

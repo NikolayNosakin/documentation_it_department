@@ -26,6 +26,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Версия</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Version</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -53,6 +57,21 @@
 &lt;b&gt;1.6.4.7&lt;/&gt; – 7-я сборка, 4-й версии, редакции 1.6
 
 Подробнее см. &lt;link http://its.1c.ru/db/v8std#content:2149184132:hdoc&gt;Нумерация редакций и версий&lt;/&gt;</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>&lt;b&gt;{R|RR}.{S|SS}.{V|VV}.{B|BB}  &lt;/&gt;
+
+where:
+&lt;b&gt;R&lt;/&gt; is the revision number (1 or more digits) 
+&lt;b&gt;S&lt;/&gt; is the subrevision number (1 or more digits) 
+&lt;b&gt;V&lt;/&gt; is the version number (1 or more digits) 
+&lt;b&gt;B&lt;/&gt; is the build number (1 or more digits)  
+
+Example:
+&lt;b&gt;1.6.4.7&lt;/&gt; stands for revision 1.6, version 4, build 7.
+
+For more details, see &lt;link https://1c-dn.com/library/version_and_revision_numbering/&gt;Version and revision numbering&lt;/&gt;.</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
@@ -90,11 +109,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Только для целей поиска неисправности (требуется углубленное понимание работы механизма)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing for troubleshooting. The feature is for advanced users only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>

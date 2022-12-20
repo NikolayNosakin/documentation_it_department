@@ -18,11 +18,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Включить/Отключить</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Enable/Disable</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Включить или отключить загрузку и выгрузку данных</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Enable or disable data import and export.</v8:content>
 					</v8:item>
 				</ToolTip>
 				<ExtendedTooltip name="ВключитьОтключитьВыгрузкуЗагрузкуExtendedTooltip" id="36"/>
@@ -35,6 +43,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Загрузка и выгрузка</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Import and export</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ФормаВключитьОтключитьЗагрузкуВыгрузкуExtendedTooltip" id="37"/>
 					</Button>
@@ -46,6 +58,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Загрузка</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Import</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ФормаВключитьОтключитьЗагрузкуExtendedTooltip" id="38"/>
 					</Button>
@@ -56,6 +72,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Выгрузка</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Export</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ФормаВключитьОтключитьВыгрузку1ExtendedTooltip" id="39"/>
@@ -77,6 +97,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Кнопок</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Buttons</v8:content>
 					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ГруппаКнопокExtendedTooltip" id="42"/>
@@ -117,6 +141,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
+				</v8:item>
 			</Title>
 			<AutoRefresh>false</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
@@ -140,6 +168,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Кнопок включения загрузки выгрузки данных</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Buttons for enabling data import and export </v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ГруппаКнопокВключенияЗагрузкиВыгрузкиДанныхExtendedTooltip" id="45"/>
 						<ChildItems>
@@ -160,6 +192,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Контекстное меню группа кнопок</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Context menu column group</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СписокКонтекстноеМенюГруппаКнопокExtendedTooltip" id="48"/>
@@ -222,12 +258,20 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выполняется получение данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Import data</v8:content>
+						</v8:item>
 					</Title>
 					<TitleLocation>None</TitleLocation>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Загрузка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Import</v8:content>
 						</v8:item>
 					</ToolTip>
 					<HeaderPicture>
@@ -245,12 +289,20 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выполняется отправка данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export data</v8:content>
+						</v8:item>
 					</Title>
 					<TitleLocation>None</TitleLocation>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выгрузка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export</v8:content>
 						</v8:item>
 					</ToolTip>
 					<HeaderPicture>
@@ -397,11 +449,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать новое расписание синхронизации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add synchronization schedule.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -418,11 +478,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить расписание синхронизации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change synchronization schedule</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -438,11 +506,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить/отключить расписание</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable/disable schedule</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить/отключить расписание синхронизации данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable/disable data synchronization schedule</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -458,11 +534,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить/отключить отправку данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable/disable data sending</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить/отключить отправку данных в другую базу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable/disable sending data to another infobase.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьОтключитьВыгрузку</Action>
@@ -474,11 +558,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить/отключить получение данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable/disable data receiving</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить/отключить получение данных из другой базы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable/disable receiving data from another infobase.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьОтключитьЗагрузку</Action>
@@ -490,11 +582,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить или отключить получение и отправку данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable or disable data sending and receiving</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить или отключить получение и отправку данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable or disable sending and receiving data.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьОтключитьЗагрузкуВыгрузку</Action>
@@ -506,11 +606,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить сценарий</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run scenario</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить синхронизацию данных по сценарию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run data synchronization scenario.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

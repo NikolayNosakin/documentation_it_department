@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Актуализация адресного классификатора</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Upgrade address classifier</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -27,6 +31,14 @@
 
 Выберите один из вариантов:</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>The address classifier was changed to comply with &lt;link https://its.1c.ru/db/garant#content:71612934:1&gt;Order No. MMV-7-17/535@ of FTS of the Russian Federation dated 07/06/2017 "On confirmation of Standard of document forms used by the tax authorities while exercising their powers …"
+&lt;/&gt;
+The previously imported classifier is now unavailable. Import of new address data to the application takes a long time and more disk space, so it is recommended that you use the web service instead. The service eliminates the need to import the classifier and check whether it is still relevant. 
+
+ Select one of the following:</v8:content>
+				</v8:item>
 			</Title>
 			<TitleHeight>6</TitleHeight>
 			<ContextMenu name="НадписьЗаголовкаКонтекстноеМеню" id="34"/>
@@ -47,6 +59,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Переключиться на веб-сервис фирмы "1С" для ввода и проверки адресов (рекомендуется)</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Switch to 1C web service to enter and check addresses (recommended)</v8:content>
+							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:decimal">0</Value>
 					</xr:Value>
@@ -59,6 +75,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Загрузить классификатор в программу</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Import classifier to the application</v8:content>
 							</v8:item>
 						</Presentation>
 						<Value xsi:type="xs:decimal">1</Value>
@@ -73,6 +93,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
@@ -98,6 +122,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Необходимо актуализировать адресный классификатор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Address classifier upgrade required</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -127,11 +155,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОК</Action>

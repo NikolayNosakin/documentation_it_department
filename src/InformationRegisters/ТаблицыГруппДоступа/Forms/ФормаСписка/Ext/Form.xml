@@ -16,6 +16,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -27,6 +31,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSource>Form</CommandSource>
@@ -61,6 +69,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSet>
@@ -129,6 +141,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право чтение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Read" right</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаПравоЧтениеРасширеннаяПодсказка" id="62"/>
 					<ChildItems>
@@ -139,11 +155,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Право чтение</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>"Read" right</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Флажок, установленный истина, показывает наличие права добавления в заданной таблице для заданного пользователя в пределах заданной группы доступа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>To grant the right to add items to the table to the selected user included in the access group, select the check box.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -157,6 +181,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Без ограничения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Unrestricted</v8:content>
+								</v8:item>
 							</Title>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПравоЧтениеБезОграниченияКонтекстноеМеню" id="50"/>
@@ -169,6 +197,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право изменение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Update" right</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаПравоИзменениеРасширеннаяПодсказка" id="64"/>
@@ -187,6 +219,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Без ограничения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Unrestricted</v8:content>
+								</v8:item>
 							</Title>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПравоИзменениеБезОграниченияКонтекстноеМеню" id="53"/>
@@ -199,6 +235,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право добавление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Add" right</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаПравоДобавлениеРасширеннаяПодсказка" id="66"/>
@@ -215,6 +255,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Без ограничения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Unrestricted</v8:content>
 								</v8:item>
 							</Title>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -280,11 +324,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования только для целей поиска неисправности (требуется углубленное понимание работы механизма)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing for troubleshooting. The feature is for advanced users only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>
@@ -296,11 +348,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить данные регистра</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update register data</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить данные регистра</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update register data</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОбновитьДанныеРегистра</Action>

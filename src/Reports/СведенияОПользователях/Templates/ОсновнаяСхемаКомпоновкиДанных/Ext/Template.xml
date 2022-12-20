@@ -14,6 +14,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Уникальный идентификатор</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>UUID</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>v8:UUID</v8:Type>
@@ -26,6 +30,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя (для входа)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Username</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -44,6 +52,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вход в программу разрешен</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow authorization</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:boolean</v8:Type>
@@ -55,7 +67,16 @@
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">БЛ=; БИ=Да</dcscor:value>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=; БИ=Да</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=; BT=Yes</v8:content>
+						</v8:item>
+					</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</field>
@@ -67,28 +88,9 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать в списке выбора</v8:content>
 				</v8:item>
-			</title>
-			<valueType>
-				<v8:Type>xs:boolean</v8:Type>
-			</valueType>
-			<appearance>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
-					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">БЛ=; БИ=Да</dcscor:value>
-				</dcscor:item>
-			</appearance>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЗапрещеноИзменятьПароль</dataPath>
-			<field>ЗапрещеноИзменятьПароль</field>
-			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Запрещено изменять пароль</v8:content>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show in list</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -101,7 +103,52 @@
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">БЛ=; БИ=Да</dcscor:value>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=; БИ=Да</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=; BT=Yes</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗапрещеноИзменятьПароль</dataPath>
+			<field>ЗапрещеноИзменятьПароль</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запрещено изменять пароль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cannot change password</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=; БИ=Да</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=; BT=Yes</v8:content>
+						</v8:item>
+					</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</field>
@@ -112,6 +159,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователь ОС</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OS user</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -130,6 +181,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Язык</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Language</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -146,6 +201,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Режим запуска</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run mode</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -164,6 +223,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Аутентификация стандартная</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Standard authentication</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:boolean</v8:Type>
@@ -175,7 +238,16 @@
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">БЛ=; БИ=Да</dcscor:value>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=; БИ=Да</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=; BT=Yes</v8:content>
+						</v8:item>
+					</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</field>
@@ -187,28 +259,9 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Аутентификация ОС</v8:content>
 				</v8:item>
-			</title>
-			<valueType>
-				<v8:Type>xs:boolean</v8:Type>
-			</valueType>
-			<appearance>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
-					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">БЛ=; БИ=Да</dcscor:value>
-				</dcscor:item>
-			</appearance>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>АутентификацияOpenID</dataPath>
-			<field>АутентификацияOpenID</field>
-			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Аутентификация open ID</v8:content>
+					<v8:lang>en</v8:lang>
+					<v8:content>OS authentication</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -221,7 +274,52 @@
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">БЛ=; БИ=Да</dcscor:value>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=; БИ=Да</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=; BT=Yes</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АутентификацияOpenID</dataPath>
+			<field>АутентификацияOpenID</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аутентификация open ID</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OpenID authentication</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=; БИ=Да</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=; BT=Yes</v8:content>
+						</v8:item>
+					</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</field>
@@ -243,7 +341,16 @@
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">БЛ=; БИ=Да</dcscor:value>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=; БИ=Да</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=; BT=Yes</v8:content>
+						</v8:item>
+					</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</field>
@@ -271,7 +378,16 @@
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">БЛ=; БИ=Да</dcscor:value>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=; БИ=Да</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=; BT=Yes</v8:content>
+						</v8:item>
+					</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</field>
@@ -282,6 +398,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Полное имя</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Full name</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -313,7 +433,16 @@
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">БЛ=; БИ=Да</dcscor:value>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=; БИ=Да</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=; BT=Yes</v8:content>
+						</v8:item>
+					</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</field>
@@ -332,28 +461,9 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Это внешний пользователь</v8:content>
 				</v8:item>
-			</title>
-			<valueType>
-				<v8:Type>xs:boolean</v8:Type>
-			</valueType>
-			<appearance>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
-					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">БЛ=; БИ=Да</dcscor:value>
-				</dcscor:item>
-			</appearance>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>БезПользователяИнформационнойБазы</dataPath>
-			<field>БезПользователяИнформационнойБазы</field>
-			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Без пользователя информационной базы</v8:content>
+					<v8:lang>en</v8:lang>
+					<v8:content>External user</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -366,7 +476,52 @@
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">БЛ=; БИ=Да</dcscor:value>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=; БИ=Да</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=; BT=Yes</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БезПользователяИнформационнойБазы</dataPath>
+			<field>БезПользователяИнформационнойБазы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Без пользователя информационной базы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>No matching infobase user</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=; БИ=Да</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=; BT=Yes</v8:content>
+						</v8:item>
+					</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</field>
@@ -377,6 +532,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Срок действия</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Expires on</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -394,6 +553,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Потребовать смену пароля при входе</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Require password change upon authorization</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:boolean</v8:Type>
@@ -405,7 +568,16 @@
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">БЛ=; БИ=Да</dcscor:value>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=; БИ=Да</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=; BT=Yes</v8:content>
+						</v8:item>
+					</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</field>
@@ -469,6 +641,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Полное имя</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Full name</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ВнешниеПользователи</v8:Type>
@@ -482,6 +658,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Телефон</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Phone</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -499,6 +679,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Электронный адрес</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Email</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -531,6 +715,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Внешние пользователи</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>External users</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:boolean</v8:Type>
@@ -546,6 +734,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Пользователи</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Users</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -563,6 +755,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Идентификаторы несуществующих пользователей ИБ</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>IDs of users that do not exist in the infobase</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>v8:UUID</v8:Type>
@@ -578,6 +774,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Сведения о пользователях и внешних пользователях</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>User and external user details</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
@@ -667,6 +867,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Недействительные</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Invalid</v8:content>
+						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>2fc6f1d8-ce85-45c1-8fc8-29b3e299b5f7</dcsset:userSettingID>
@@ -680,6 +884,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Помеченные на удаление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Marked for deletion</v8:content>
 						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
@@ -695,6 +903,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Без пользователя информационной базы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>No matching infobase user</v8:content>
+						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>cb47e2ce-6928-43e4-b904-cbe4b2952e49</dcsset:userSettingID>
@@ -708,6 +920,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вход в программу разрешен</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Can sign in</v8:content>
 						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
@@ -723,6 +939,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Аутентификация стандартная</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Standard authentication</v8:content>
+						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>6590234e-cc10-4899-9e2d-f86867903a54</dcsset:userSettingID>
@@ -737,6 +957,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Аутентификация ОС</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OS authentication</v8:content>
+						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>19e3a1bb-4c84-420b-8a05-d3f78014fc1c</dcsset:userSettingID>
@@ -750,6 +974,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Аутентификация OpenID</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OpenID authentication</v8:content>
 						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
@@ -856,6 +1084,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сведения о пользователях и внешних пользователях</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User and external user details</v8:content>
+						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -880,6 +1112,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Сведения о пользователях</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>User details</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
@@ -966,6 +1202,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Недействительные</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Invalid</v8:content>
+						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>2fc6f1d8-ce85-45c1-8fc8-29b3e299b5f7</dcsset:userSettingID>
@@ -979,6 +1219,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Помеченные на удаление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Marked for deletion</v8:content>
 						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
@@ -994,6 +1238,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Без пользователя информационной базы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>No matching infobase user</v8:content>
+						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>cb47e2ce-6928-43e4-b904-cbe4b2952e49</dcsset:userSettingID>
@@ -1007,6 +1255,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вход в программу разрешен</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Can sign in</v8:content>
 						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
@@ -1022,6 +1274,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Аутентификация стандартная</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Standard authentication</v8:content>
+						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>6590234e-cc10-4899-9e2d-f86867903a54</dcsset:userSettingID>
@@ -1036,6 +1292,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Аутентификация ОС</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OS authentication</v8:content>
+						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>19e3a1bb-4c84-420b-8a05-d3f78014fc1c</dcsset:userSettingID>
@@ -1049,6 +1309,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Аутентификация OpenID</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OpenID authentication</v8:content>
 						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
@@ -1155,6 +1419,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сведения о пользователях</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User details</v8:content>
+						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -1179,6 +1447,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Сведения о внешних пользователях</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>External user details</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
@@ -1244,6 +1516,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Недействительные</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Invalid</v8:content>
+						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>2fc6f1d8-ce85-45c1-8fc8-29b3e299b5f7</dcsset:userSettingID>
@@ -1257,6 +1533,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Помеченные на удаление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Marked for deletion</v8:content>
 						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
@@ -1272,6 +1552,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Без пользователя информационной базы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>No matching infobase user</v8:content>
+						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>cb47e2ce-6928-43e4-b904-cbe4b2952e49</dcsset:userSettingID>
@@ -1285,6 +1569,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вход в программу разрешен</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Can sign in</v8:content>
 						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
@@ -1300,6 +1588,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Аутентификация стандартная</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Standard authentication</v8:content>
+						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>6590234e-cc10-4899-9e2d-f86867903a54</dcsset:userSettingID>
@@ -1313,6 +1605,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Аутентификация OpenID</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OpenID authentication</v8:content>
 						</v8:item>
 					</dcsset:presentation>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
@@ -1404,6 +1700,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сведения о внешних пользователях</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>External user details</v8:content>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>

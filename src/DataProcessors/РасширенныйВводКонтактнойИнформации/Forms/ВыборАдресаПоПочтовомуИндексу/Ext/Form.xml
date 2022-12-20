@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Выберите улицу, населенный пункт</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Street, locality entry form</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -28,6 +32,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -39,6 +47,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выбрать</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Select</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаВыбратьРасширеннаяПодсказка" id="70"/>
@@ -57,6 +69,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Найти</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Find</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -74,6 +90,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Введите первые буквы названия улицы</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Enter the first letters of street name</v8:content>
+								</v8:item>
 							</InputHint>
 							<ContextMenu name="НайтиКонтекстноеМеню" id="65"/>
 							<ExtendedTooltip name="НайтиРасширеннаяПодсказка" id="66"/>
@@ -90,6 +110,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Еще</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>More</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаЕщеРасширеннаяПодсказка" id="74"/>
 					<ChildItems>
@@ -98,6 +122,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Варианты адреса группа кнопок поиска</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Address options search button group</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ВариантыАдресаГруппаКнопокПоискаРасширеннаяПодсказка" id="38"/>
@@ -165,6 +193,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Варианты адреса</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Address options</v8:content>
+				</v8:item>
 			</Title>
 			<CommandSet>
 				<ExcludedCommand>Change</ExcludedCommand>
@@ -183,6 +215,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Варианты адреса контекстное меню группа найти</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Address options context menu group find</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ВариантыАдресаКонтекстноеМенюГруппаНайтиРасширеннаяПодсказка" id="50"/>
@@ -265,6 +301,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Варианты адреса</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Address options</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -280,6 +320,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -340,6 +384,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Найти</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Find</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -357,11 +405,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F5</Shortcut>
@@ -377,11 +433,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Выбрать</Action>

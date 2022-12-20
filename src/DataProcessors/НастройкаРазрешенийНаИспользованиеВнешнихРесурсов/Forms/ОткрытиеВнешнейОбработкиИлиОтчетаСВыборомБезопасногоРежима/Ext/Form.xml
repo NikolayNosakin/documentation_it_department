@@ -24,6 +24,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Отмена</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cancel</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="12"/>
 			</Button>
@@ -60,6 +64,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Внешний отчет или обработка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>External report or data processor</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -85,6 +93,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Безопасный режим для подключения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Safe mode for connection</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:TypeSet>cfg:DefinedType.БезопасныйРежим</v8:TypeSet>
@@ -101,11 +113,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подключить и открыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Attach and open</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подключить и открыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Attach and open</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПодключитьИОткрыть</Action>

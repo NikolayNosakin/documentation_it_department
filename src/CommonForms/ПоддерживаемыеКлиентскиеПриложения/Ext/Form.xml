@@ -17,6 +17,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Внешняя компонента платформозависима и сможет работать только в определенных операционных системах или браузерах:</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>The add-in is platform-specific and can run only on certain operating systems or in certain browsers:</v8:content>
+				</v8:item>
 			</Title>
 			<ContextMenu name="ПояснениеКонтекстноеМеню" id="156"/>
 			<ExtendedTooltip name="ПояснениеРасширеннаяПодсказка" id="157"/>
@@ -26,6 +30,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подсказка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Tooltip</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
@@ -40,6 +48,10 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Windows</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Windows</v8:content>
 						</v8:item>
 					</Title>
@@ -57,6 +69,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Windows</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Windows</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -70,6 +86,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>1С:Предприятие</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>1C:Enterprise</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="Windows1СПредприятиеКонтекстноеМеню" id="10"/>
 									<ExtendedTooltip name="Windows1СПредприятиеРасширеннаяПодсказка" id="11"/>
@@ -79,6 +99,10 @@
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>Chrome</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>Chrome</v8:content>
 										</v8:item>
 									</Title>
@@ -92,6 +116,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Firefox</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Firefox</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="WindowsFirefoxКонтекстноеМеню" id="29"/>
 									<ExtendedTooltip name="WindowsFirefoxРасширеннаяПодсказка" id="30"/>
@@ -101,6 +129,10 @@
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>Internet Explorer</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>Internet Explorer</v8:content>
 										</v8:item>
 									</Title>
@@ -114,6 +146,10 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>x86</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>x86</v8:content>
 								</v8:item>
 							</Title>
@@ -164,6 +200,10 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>x86-64</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>x86-64</v8:content>
 								</v8:item>
 							</Title>
@@ -219,6 +259,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Linux</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Linux</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalStretch>true</VerticalStretch>
 					<Group>AlwaysHorizontal</Group>
@@ -231,6 +275,10 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Linux</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Linux</v8:content>
 								</v8:item>
 							</Title>
@@ -246,6 +294,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>1С:Предприятие</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>1C:Enterprise</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="Linux1СПредприятиеКонтекстноеМеню" id="50"/>
 									<ExtendedTooltip name="Linux1СПредприятиеРасширеннаяПодсказка" id="51"/>
@@ -255,6 +307,10 @@
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>Chrome</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>Chrome</v8:content>
 										</v8:item>
 									</Title>
@@ -268,6 +324,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Firefox</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Firefox</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="LinuxFirefoxКонтекстноеМеню" id="72"/>
 									<ExtendedTooltip name="LinuxFirefoxРасширеннаяПодсказка" id="73"/>
@@ -278,6 +338,10 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>x86</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>x86</v8:content>
 								</v8:item>
 							</Title>
@@ -319,6 +383,10 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>x86-64</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>x86-64</v8:content>
 								</v8:item>
 							</Title>
@@ -365,6 +433,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Mac OS</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Mac OS</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalStretch>true</VerticalStretch>
 					<Group>AlwaysHorizontal</Group>
@@ -377,6 +449,10 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>macOS</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>macOS</v8:content>
 								</v8:item>
 							</Title>
@@ -392,6 +468,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>1С:Предприятие</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>1C:Enterprise</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="MacOS1СПредприятиеКонтекстноеМеню" id="162"/>
 									<ExtendedTooltip name="MacOS1СПредприятиеРасширеннаяПодсказка" id="163"/>
@@ -400,6 +480,10 @@
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>Chrome</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>Chrome</v8:content>
 										</v8:item>
 									</Title>
@@ -412,6 +496,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Firefox</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Firefox</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="MacOSFirefoxКонтекстноеМеню" id="173"/>
 									<ExtendedTooltip name="MacOSFirefoxРасширеннаяПодсказка" id="174"/>
@@ -420,6 +508,10 @@
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>Safari</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>Safari</v8:content>
 										</v8:item>
 									</Title>
@@ -432,6 +524,10 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>x86-64</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>x86-64</v8:content>
 								</v8:item>
 							</Title>
@@ -488,6 +584,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt;link https://its.1c.ru/db/v83doc#bookmark:adm:TI000000069&gt;Как запустить определенное клиентское приложение?&lt;/&gt;</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt;link https://1c-dn.com/library/administrator_guide_full/&gt;How do I start a specific client application?&lt;/&gt;</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="КакЗапуститьКлиентскоеПриложениеКонтекстноеМеню" id="159"/>

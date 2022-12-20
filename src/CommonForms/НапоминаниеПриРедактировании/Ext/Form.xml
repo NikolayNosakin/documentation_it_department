@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Получение файла для просмотра или редактирования</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Get file to view or edit</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -46,6 +50,18 @@
 3. Для редактирования файла перейдите в выбранный ранее каталог,
    найдите там сохраненный файл и откройте его.</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>You will be prompted to open or save the file.
+
+1. Click "Save".
+
+2. Select a directory to save the file and remember its name 
+   (you will need it to edit and put the file back to the storage).
+
+3. To edit the file, open the previously selected directory,
+   find the saved file, and open it.</v8:content>
+				</v8:item>
 			</Title>
 			<ContextMenu name="ТекстНапоминанияКонтекстноеМеню" id="10"/>
 			<ExtendedTooltip name="ТекстНапоминанияExtendedTooltip" id="20"/>
@@ -56,6 +72,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additions</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ДополненияExtendedTooltip" id="21"/>
@@ -64,6 +84,10 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Mozilla fire fox</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Mozilla fire fox</v8:content>
 						</v8:item>
 					</Title>
@@ -76,6 +100,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>(По умолчанию браузер Mozilla Firefox автоматически сохраняет файлы в каталоге ""Мои документы"")</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>(By default Mozilla Firefox saves files to "My Documents" directory.)</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ДополнениеMozillaFireFoxКонтекстноеМеню" id="15"/>
 							<ExtendedTooltip name="ДополнениеMozillaFireFoxExtendedTooltip" id="25"/>
@@ -87,6 +115,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пустая</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Blank</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПустаяExtendedTooltip" id="22"/>
@@ -104,6 +136,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отступ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Indent</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -130,6 +166,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Больше не показывать это сообщение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not show this message again</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -152,11 +192,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПродолжитьВыполнить</Action>

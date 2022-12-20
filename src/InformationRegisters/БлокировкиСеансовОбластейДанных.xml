@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Блокировки сеансов областей данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data area session locks</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -165,6 +169,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Блокировка сеансов приложения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Application session lock</v8:content>
+				</v8:item>
 			</RecordPresentation>
 			<ExtendedRecordPresentation/>
 			<ListPresentation/>
@@ -183,6 +191,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Начало блокировки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Lock start time</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -198,6 +210,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Время начала действия блокировки работы пользователей области данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The time when a data area lock takes effect.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -230,6 +246,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Конец блокировки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Lock end time</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -245,6 +265,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Время окончания действия блокировки работы пользователей области данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The time when a data area lock ends.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -277,6 +301,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сообщение блокировки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Lock message</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -293,6 +321,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Причина блокировки для вывода пользователю, который пытается войти в заблокированную область данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The lock reason displayed to a user who is attempting to sign in to a locked data area.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -325,6 +357,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Эксклюзивная</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exclusive</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -337,6 +373,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Эксклюзивная блокировка сеансов области данных не может быть отменена администратором приложения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An exclusive data area session lock cannot be canceled by the application administrator.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

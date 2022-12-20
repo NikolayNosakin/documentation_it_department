@@ -29,6 +29,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заголовок</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -43,6 +47,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Администрирование пользователей, настройка групп доступа, предоставление доступа для внешних пользователей, управление пользовательскими настройками.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Manage users, configure access groups, grant access to external users, and manage user settings.</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalAlign>Top</VerticalAlign>
 					<ContextMenu name="ОписаниеРазделаКонтекстноеМеню" id="2024"/>
@@ -53,6 +61,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Справка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Help</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаСправкаExtendedTooltip" id="2040"/>
@@ -72,6 +84,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователи</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Users</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Collapsible</Behavior>
 			<ControlRepresentation>Picture</ControlRepresentation>
@@ -84,6 +100,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователи и группы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Users and groups</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -104,6 +124,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Ведение списка пользователей, которые работают с программой.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Manage the list of application users.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -114,12 +138,20 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группы пользователей</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>User groups</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Объединение пользователей в группы.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Combine users into groups.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -138,6 +170,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки входа и отчет по правам</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Sign-in settings and rights report</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -155,6 +191,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Помощь при входе, восстановление паролей пользователей</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Sign-in help and user password recovery</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -163,6 +203,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки входа пользователей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Users authorization settings</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -181,6 +225,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Настройки входа</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Authorization settings</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="НастройкиВходаРасширеннаяПодсказка" id="2197">
@@ -188,6 +236,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Сложность и смена паролей, ограничение работы неактивных пользователей.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Set passwords, configure password complexity, and deny access for inactive users.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -204,6 +256,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Показывает текущие настройки прав доступа пользователей к таблицам информационной базы.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Shows current settings of user access rights to infobase tables.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -216,6 +272,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Внешние пользователи</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>External users</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -230,6 +290,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать внешних пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use external users</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -247,12 +311,20 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Разрешить доступ внешним пользователям</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Allow external user access</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Предоставление удаленного доступа партнерам к программе.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Provide partners with remote access to the application.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -271,6 +343,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Внешние пользователи и настройки входа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>External users and authorization settings</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Behavior>Usual</Behavior>
@@ -286,6 +362,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Горизонтальный отступ</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Horizontal indent</v8:content>
+								</v8:item>
 							</Title>
 							<FileDragMode>AsFile</FileDragMode>
 							<ContextMenu name="ГруппаСписокВнешнихПользователейОтступКонтекстноеМеню" id="2159"/>
@@ -296,6 +376,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Список внешних пользователей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>External user list</v8:content>
 								</v8:item>
 							</Title>
 							<Width>41</Width>
@@ -316,6 +400,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Ведение списка внешних пользователей, которым предоставлен удаленный доступ к программе.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Manage the list of external users that are granted remote access to the application.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -326,6 +414,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки входа внешних пользователей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>External user authorization settings</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -344,6 +436,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Настройки входа</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Authorization settings</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="НастройкиВходаВнешнихПользователейРасширеннаяПодсказка" id="2150">
@@ -351,6 +447,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Сложность и смена паролей, ограничение работы неактивных внешних пользователей.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Set passwords, configure password complexity, and deny access for inactive external users.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -367,6 +467,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группы доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access groups</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
@@ -380,6 +484,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группы доступа профили и ограничение на уровне записей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access groups, profiles, and record-level restrictions</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -392,6 +500,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группы доступа и ограничение на уровне записей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Access groups and record-level restrictions</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -412,6 +524,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Групповая настройка прав доступа.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Configure access rights for groups.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -422,6 +538,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Расширенная настройка, позволяющая максимально гибко настраивать права доступа к справочникам, документам и другим данным программы в предусмотренных разрезах.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Fine-tune access rights to catalogs, documents, and other application data.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -443,6 +563,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Профили групп доступа</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Access group profiles</v8:content>
+								</v8:item>
 							</Title>
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -462,6 +586,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Шаблоны настроек прав доступа пользователей.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>User access rights templates.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -471,6 +599,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Вариант работы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Operation mode</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -487,6 +619,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Стандартный</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Regular</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:boolean">false</Value>
 											</xr:Value>
@@ -499,6 +635,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Производительный</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>High performance</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:boolean">true</Value>
@@ -519,6 +659,18 @@
 При этом если в файловой базе работает один пользователь, либо данные вводятся несколькими пользователями
 не интенсивно, то производительный вариант не накладывает каких-либо дополнительных ограничений и
 ускорит просмотр списков и формирование отчетов по сравнению со стандартным вариантом.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Performance mode is recommended for the client/server infobase,
+where it is much more efficient than the standard mode. 
+
+In a multiuser file infobase, it might restrict the performance
+of concurrent users, so the standard mode might be required.
+
+In this case, if there is only one user in the file infobase or data is entered by multiple users
+not intensively, the performance mode imposes no further restrictions and
+will speed up viewing of lists and generating reports in comparison with the standard mode.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -544,6 +696,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Персональные настройки пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Personal user settings</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
@@ -558,6 +714,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Работа с настройками пользователей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Manage user settings</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -570,6 +730,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Копирование настроек пользователей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Copy user settings</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -591,6 +755,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Копирование пользовательских настроек между учетными записями.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Copy settings between user accounts.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -601,6 +769,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки пользователей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>User settings</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -622,6 +794,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Управление пользовательскими настройками отчетов, внешнего вида программы и прочими настройками.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Manage user settings for reports, user interface, and other features.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -634,6 +810,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Очистка настроек пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Clear user settings</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -655,6 +835,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Удаление настроек у всех или выбранных пользователей.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Clear settings for all users or for selected users.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -667,6 +851,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Даты запрета изменения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Period-end closing dates</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalStretch>false</HorizontalStretch>
@@ -682,11 +870,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Даты запрета изменения использование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use period-end closing dates</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Запрет изменения данных прошлых периодов.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Period-end closing for previous periods.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -703,12 +899,20 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Даты запрета изменения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Period-end closing dates</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Запрет изменения данных прошлых периодов.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Period-end closing for previous periods.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>None</ToolTipRepresentation>
@@ -727,12 +931,20 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настроить</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="НастроитьДатыЗапретаИзмененияРасширеннаяПодсказка" id="2208">
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Настроить даты запрета изменения</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Configure period-end closing dates.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -746,6 +958,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Защита персональных данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Personal data protection</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Collapsible</Behavior>
@@ -761,6 +977,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки защиты персональных данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Personal data protection settings</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -772,6 +992,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Открыть настройки регистрации событий доступа к персональным данным</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Open settings for registering events of access to personal data</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -793,6 +1017,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Регистрация событий доступа в соответствии с требованиями Федерального закона от 27.07.2006 N152-ФЗ "О персональных данных".</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Registration of access events according to the Federal Law No. 152-FZ "On personal data" issued on July 27, 2006.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -803,6 +1031,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Скрытие персональных данных использование</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Hide personal data</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -817,11 +1049,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дней до скрытия</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Days before hiding</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Причиной скрытия данных может быть истечение срока действия согласия субъекта или его отсутствие.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Possible reasons to hide data: subject's consent period expired or the consent is missing.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -839,6 +1079,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Скрывать персональные данные через</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Hide personal data in</v8:content>
+												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -854,6 +1098,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>дней</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>days</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
@@ -871,6 +1119,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Декорация ожидание изменения использования скрытия ПДн</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Wait for personal data usage option change decoration</v8:content>
 												</v8:item>
 											</Title>
 											<Picture>
@@ -893,6 +1145,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обработка защита персональных данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Personal data protection data processor</v8:content>
+						</v8:item>
 					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -912,6 +1168,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Просмотр обращений к персональным данным выбранных объектов программы.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>View events of access to personal data by application objects.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -957,11 +1217,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Внешние пользователи</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>External users</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Внешние пользователи</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>External users</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СправочникВнешниеПользователи</Action>
@@ -973,6 +1241,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки входа внешних пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>External user authorization settings</v8:content>
+				</v8:item>
 			</Title>
 			<Action>НастройкиВходаВнешнихПользователей</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -983,6 +1255,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновление доступа на уровне записей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>View record-level access update progress</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
@@ -990,6 +1266,12 @@
 					<v8:content>Для отслеживания хода обновления прав доступа. Также для нештатных случаев позволяет:
 - обновить доступ отдельного объекта,
 - запланировать обновление доступа к требуемым спискам.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>View the access rights update progress. If any issues occur, you can perform the following actions manually:
+- Update access rights for a single object.
+- Schedule access rights update for specific lists.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОбновлениеДоступаНаУровнеЗаписей</Action>
@@ -1000,11 +1282,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить даты запрета изменения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure period-end closing dates.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастроитьДатыЗапретаИзменения</Action>

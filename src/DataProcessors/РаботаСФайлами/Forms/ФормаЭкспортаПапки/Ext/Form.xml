@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Сохранение папки</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Save to folder</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -30,6 +34,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Укажите папку, в которую будет производиться сохранение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select destination folder</v8:content>
+				</v8:item>
 			</Title>
 			<TitleLocation>Top</TitleLocation>
 			<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -53,12 +61,20 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Транслитерировать имена папок и файлов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Transliterate file and folder names</v8:content>
+				</v8:item>
 			</Title>
 			<TitleLocation>Right</TitleLocation>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохраненные файлы и папки будут иметь имена, содержащие только латинские буквы и цифры, для возможности переноса между различными операционными системами. Например, файл "Документ.txt" будет сохранен с именем "Dokument.txt".</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File and folder names will contain only Latin letters and digits to ensure compatibility with different operating systems.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -71,6 +87,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
@@ -172,6 +192,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Папка для экспорта</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Export directory</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -210,6 +234,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Транслитерировать имена папок и файлов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Transliterate file and folder names</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -232,11 +260,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить папку</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save folder</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить папку с файлами на компьютер</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save the file folder to the computer</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьПапку</Action>

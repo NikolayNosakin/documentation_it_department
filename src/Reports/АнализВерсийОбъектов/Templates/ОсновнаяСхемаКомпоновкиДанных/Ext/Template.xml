@@ -14,6 +14,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Количество</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Quantity</v8:content>
+				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -24,11 +28,24 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Размер данных (Мб)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data size (MB)</v8:content>
+				</v8:item>
 			</title>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">ЧДЦ=2</dcscor:value>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>NFD=2</v8:content>
+						</v8:item>
+					</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</field>
@@ -39,6 +56,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тип объекта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object type</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -73,6 +94,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Количество и объем хранимых версий объектов</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Number and size of stored object versions</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
@@ -132,6 +157,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Объем хранимых версий по типам объектов</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Size of stored versions, by object types</v8:content>
+							</v8:item>
 						</dcscor:value>
 					</dcscor:item>
 				</dcsset:outputParameters>
@@ -174,6 +203,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Количество хранимых версий по типам объектов</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Number of stored versions, by object types</v8:content>
+							</v8:item>
 						</dcscor:value>
 					</dcscor:item>
 				</dcsset:outputParameters>
@@ -189,6 +222,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Количество и объем хранимых версий объектов</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Number and size of stored object versions</v8:content>
 							</v8:item>
 						</dcscor:value>
 					</dcscor:item>

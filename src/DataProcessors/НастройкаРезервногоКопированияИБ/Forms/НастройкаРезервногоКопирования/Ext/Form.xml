@@ -20,6 +20,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы помощника</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Wizard pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыПомощникаExtendedTooltip" id="268"/>
@@ -30,6 +34,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница настройки параметров резервного копирования</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Backup parameters setup page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаНастройкиПараметровРезервногоКопированияExtendedTooltip" id="283"/>
 					<ChildItems>
@@ -38,6 +46,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Режимы работы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Modes</v8:content>
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
@@ -48,6 +60,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Обычный</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Normal</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ОбычныйРасширеннаяПодсказка" id="437"/>
@@ -65,6 +81,11 @@
 														<v8:content>Рекомендуется отключать выполнение резервного копирования только
 в том случае, если оно выполняется сторонними средствами.</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>It is recommended that you disable backup
+only if you use third-party backup tools.</v8:content>
+													</v8:item>
 												</Title>
 											</ExtendedTooltip>
 											<Events>
@@ -76,6 +97,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Выбор варианта автоматического резервного копирования</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Automatic backup options</v8:content>
 												</v8:item>
 											</Title>
 											<Behavior>Usual</Behavior>
@@ -116,6 +141,10 @@
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Регулярно по расписанию:</v8:content>
 																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Scheduled:</v8:content>
+																					</v8:item>
 																				</Presentation>
 																				<Value xsi:type="xs:string">ПоРасписанию</Value>
 																			</xr:Value>
@@ -135,6 +164,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Не задано</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Schedule not set</v8:content>
+																		</v8:item>
 																	</Title>
 																	<ExtendedTooltip name="ИзменитьРасписаниеExtendedTooltip" id="289"/>
 																</Button>
@@ -149,6 +182,12 @@
 																	<v8:content>При составлении расписания необходимо учитывать, что если к моменту запуска резервного
 копирования программа не будет работать, то резервное копирование не выполнится. При выполнении
 резервного копирования работа всех пользователей в программе будет завершена.</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>When you schedule a backup, ensure that the application will be running at the backup
+start. Otherwise, the backup fails. All user sessions are terminated during
+backup.</v8:content>
 																</v8:item>
 															</Title>
 															<TitleHeight>3</TitleHeight>
@@ -170,6 +209,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>При завершении работы</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>On exit</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">ПриЗавершенииРаботы</Value>
 																	</xr:Value>
@@ -189,6 +232,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>При каждом выходе из программы администратору предлагается выполнить резервное копирование. При выполнении резервного копирования работа всех пользователей в программе будет завершена.</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>On exit, the administrator is prompted to back up data.All user sessions are terminated during backup.</v8:content>
+																</v8:item>
 															</Title>
 															<TitleHeight>2</TitleHeight>
 															<ContextMenu name="ДекорацияВариантПриЗавершенииРаботыКонтекстноеМеню" id="430"/>
@@ -206,6 +253,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Базовый</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Basic</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="БазовыйРасширеннаяПодсказка" id="439"/>
 									<ChildItems>
@@ -215,6 +266,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Предлагать резервное копирование при завершении работы</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Prompt for backup on exit</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
@@ -228,6 +283,11 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Рекомендуется отключать выполнение резервного копирования только
 в том случае, если оно выполняется сторонними средствами.</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>It is recommended that you disable backup
+only if you use third-party backup tools.</v8:content>
 													</v8:item>
 												</Title>
 											</ExtendedTooltip>
@@ -245,6 +305,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Параметры</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Parameters</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -257,6 +321,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Заведения пути копирования</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Create copy path</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -272,6 +340,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Папка для сохранения резервных копий</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Folder to store backups</v8:content>
+												</v8:item>
 											</Title>
 											<TitleLocation>Top</TitleLocation>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -284,6 +356,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Рекомендуется выполнять резервное копирование на другой компьютер или внешний носитель.</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>It is recommended that you back up to another computer or an external storage media.</v8:content>
 													</v8:item>
 												</Title>
 											</ExtendedTooltip>
@@ -298,6 +374,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Авторизации</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Authorization</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -336,6 +416,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Хранить резервные копии:</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Store backups:</v8:content>
+										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
@@ -368,6 +452,10 @@
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Все</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>All</v8:content>
 																	</v8:item>
 																</Presentation>
 																<Value xsi:type="xs:string">ХранитьВсе</Value>
@@ -403,6 +491,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>За последние</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>For the last</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">ПоПериоду</Value>
 																	</xr:Value>
@@ -420,6 +512,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Хранить последние за период</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Store backups for the period</v8:content>
+																</v8:item>
 															</Title>
 															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
@@ -432,6 +528,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Хранить резервные копии за последние</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Store backups for the period</v8:content>
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>None</TitleLocation>
@@ -459,6 +559,10 @@
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>дн.</v8:content>
 																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>days</v8:content>
+																					</v8:item>
 																				</Presentation>
 																				<Value xsi:type="xs:string">День</Value>
 																			</xr:Value>
@@ -471,6 +575,10 @@
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>нед.</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>weeks</v8:content>
 																					</v8:item>
 																				</Presentation>
 																				<Value xsi:type="xs:string">Неделя</Value>
@@ -485,6 +593,10 @@
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>мес.</v8:content>
 																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>months</v8:content>
+																					</v8:item>
 																				</Presentation>
 																				<Value xsi:type="xs:string">Месяц</Value>
 																			</xr:Value>
@@ -497,6 +609,10 @@
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>лет</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>years</v8:content>
 																					</v8:item>
 																				</Presentation>
 																				<Value xsi:type="xs:string">Год</Value>
@@ -537,6 +653,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Последние</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Recent</v8:content>
+																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:string">ПоКоличеству</Value>
 																	</xr:Value>
@@ -554,6 +674,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Количество копий в каталоге</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Backups in the directory</v8:content>
+																</v8:item>
 															</Title>
 															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
@@ -566,6 +690,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Максимальное количество копий (шт.)</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Max number of backups</v8:content>
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>None</TitleLocation>
@@ -581,6 +709,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>шт.</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>backups</v8:content>
 																		</v8:item>
 																	</Title>
 																	<ContextMenu name="ДекорацияШтукКонтекстноеМеню" id="354"/>
@@ -604,6 +736,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные настройки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Advanced settings</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ДополнительныеНастройкиExtendedTooltip" id="330"/>
 					<ChildItems>
@@ -612,6 +748,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Горизонтальная группа ошибка подключения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Connection error horizontal group</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -635,6 +775,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Ошибки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Errors</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -649,6 +793,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Ошибка проверки подключения</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Connection check error</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>None</TitleLocation>
@@ -669,6 +817,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Техническая информация об ошибке</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>View error details</v8:content>
+												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
 											<ContextMenu name="НадписьПерейтиВЖурналРегистрацииКонтекстноеМеню" id="235"/>
@@ -684,6 +836,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>При ошибках версии компоненты comcntr, "не найдена указанная процедура", "класс не зарегистрирован" и аналогичных, рекомендуется выполнить &lt;link Перерегистрация&gt;регистрацию компоненты comcntr&lt;/&gt; (потребуется перезапуск сеанса).</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>If you get comcntr version errors, such as "the procedure is not found" or "the class is not registered," &lt;link Перерегистрация&gt;register the comcntr component&lt;/&gt; again and then restart the session.</v8:content>
 												</v8:item>
 											</Title>
 											<TitleHeight>2</TitleHeight>
@@ -703,6 +859,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Если задан неправильный пароль администратора, введите его еще раз</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Wrong administrator password. Reenter the password.</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -717,6 +877,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Имя</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Name</v8:content>
+										</v8:item>
 									</Title>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="АдминистраторИБКонтекстноеМеню" id="251"/>
@@ -728,6 +892,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Пароль</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Password</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -747,6 +915,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
 			<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="371"/>
@@ -759,6 +931,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Готово</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Finish</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ДалееExtendedTooltip" id="266"/>
@@ -789,6 +965,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя администратора</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Administrator</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -804,6 +984,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обнаруженная ошибка подключения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reported connection error</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -818,6 +1002,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Password</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -845,11 +1033,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Готово</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Finish</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Далее</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Next</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Готово</Action>
@@ -860,6 +1056,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ИзменитьРасписание</Action>

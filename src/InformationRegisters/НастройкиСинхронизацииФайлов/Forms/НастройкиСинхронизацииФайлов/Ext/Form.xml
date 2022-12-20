@@ -8,6 +8,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Панель редактирование</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Editing panel</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ФормаГруппаРедактированиеРасширеннаяПодсказка" id="109"/>
 				<ChildItems>
@@ -23,6 +27,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Настроить синхронизацию файлов</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Configure file synchronization</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ФормаДобавитьСинхронизациюФайловРасширеннаяПодсказка" id="79"/>
@@ -47,6 +55,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Настроить синхронизацию файлов</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Configure file synchronization</v8:content>
+					</v8:item>
 				</Title>
 				<Picture>
 					<xr:Ref>StdPicture.CreateListItem</xr:Ref>
@@ -68,6 +80,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Установить учетную запись</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Set account</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="НастройкиУчетнойЗаписиГруппаРасширеннаяПодсказка" id="73"/>
 				<ChildItems>
@@ -76,6 +92,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Доступные учетные записи</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Available accounts</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ДоступныеУчетныеЗаписиРасширеннаяПодсказка" id="77"/>
@@ -87,6 +107,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Форма группа синхронизация</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form synchronization group</v8:content>
 					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ФормаГруппаСинхронизацияРасширеннаяПодсказка" id="113"/>
@@ -109,6 +133,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дерево объектов метаданных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Metadata object tree</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSet>
@@ -152,6 +180,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Удалить настройку</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Delete rule</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ДеревоОбъектовМетаданныхКонтекстноеМенюУдалитьРасширеннаяПодсказка" id="101"/>
@@ -199,6 +231,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект с файлами</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object with files</v8:content>
+						</v8:item>
 					</Title>
 					<Group>InCell</Group>
 					<ExtendedTooltip name="ДеревоОбъектовМетаданныхГруппаРасширеннаяПодсказка" id="118"/>
@@ -221,6 +257,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Объект с файлами</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Object with files</v8:content>
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
@@ -268,6 +308,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизация по расписанию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronization schedule</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -279,6 +323,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки синхронизации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Synchronization settings</v8:content>
 						</v8:item>
 					</Title>
 					<VerticalAlign>Center</VerticalAlign>
@@ -308,6 +356,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Синхронизация файлов</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>File synchronization</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СинхронизацияФайловРасширеннаяПодсказка" id="89"/>
@@ -317,6 +369,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Синхронизация</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Synchronization</v8:content>
 										</v8:item>
 									</Title>
 									<VerticalStretch>true</VerticalStretch>
@@ -330,6 +386,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Синхронизировать</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Synchronize</v8:content>
+												</v8:item>
 											</Title>
 											<ExtendedTooltip name="СинхронизироватьРасширеннаяПодсказка" id="81"/>
 										</Button>
@@ -340,6 +400,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Статус фонового задания</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Background job status</v8:content>
 										</v8:item>
 									</Title>
 									<VerticalStretch>true</VerticalStretch>
@@ -362,6 +426,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Выполняется синхронизация файлов...</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Synchronizing files…</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ИнформацияОФоновомЗаданииКонтекстноеМеню" id="95"/>
 											<ExtendedTooltip name="ИнформацияОФоновомЗаданииРасширеннаяПодсказка" id="96"/>
@@ -380,6 +448,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>каждый день, по дням недели [суббота, воскресенье ]; с 1:00:00 один раз в день, завершать после 7:00:00</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>every day, on weekdays [Saturday, Sunday], daily from 1:00 AM, stop after 7:00 AM</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalAlign>Top</VerticalAlign>
 					<ContextMenu name="РасписаниеКонтекстноеМеню" id="11"/>
@@ -394,6 +466,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Автоматически синхронизировать файлы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronize files automatically</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -420,6 +496,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дерево объектов метаданных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Metadata object tree</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -436,6 +516,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Владелец файла</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>File location</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -450,6 +534,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Правило</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Rule</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -471,6 +559,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Справочник файлов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>File catalog</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
@@ -487,6 +579,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Синхронизировать</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Synchronize</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -497,6 +593,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Учетная запись</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Account</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -569,11 +669,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить расписание</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure schedule</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить расписание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure schedule</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастроитьРасписание</Action>
@@ -585,11 +693,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизация элемента справочника</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronize catalog item</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизация элемента</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronize item</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СинхронизацияЭлемента</Action>
@@ -601,11 +717,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronize</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизировать файлы с облаком сейчас</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronize files with the cloud.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -621,11 +745,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить синхронизацию файлов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure file synchronization</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать синхронизацию файлов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create a file synchronization rule.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьСинхронизациюФайлов</Action>
@@ -637,11 +769,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить настройку синхронизации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change synchronization rule</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F2</Shortcut>

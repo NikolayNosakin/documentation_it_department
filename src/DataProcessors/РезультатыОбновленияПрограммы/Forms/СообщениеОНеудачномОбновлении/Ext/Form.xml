@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Не удалось выполнить обновление</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Update failed</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockWholeInterface</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -46,6 +50,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сообщение об ошибке</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Error message</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -57,6 +65,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинка ошибки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Error picture</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -73,6 +85,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>%Текст сообщения об ошибке%</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>%Error text%</v8:content>
 						</v8:item>
 					</Title>
 					<VerticalAlign>Top</VerticalAlign>
@@ -92,6 +108,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Техническая информация о результатах обновления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update technical details</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -105,6 +125,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Техническая информация</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Technical details</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
 					<Hyperlink>true</Hyperlink>
@@ -114,6 +138,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Техническая информация из журнала регистрации для обращения в службу технической поддержки.</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Technical details from the event log to provide to technical support.</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
@@ -170,11 +198,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить работу</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exit</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить работу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exit</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗавершитьРаботу</Action>
@@ -186,11 +222,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перезапустить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restart</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перезапустить программу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restart application.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПерезагрузитьПрограмму</Action>
@@ -202,6 +246,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть внешнюю обработку...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open external data processor…</v8:content>
+				</v8:item>
 			</Title>
 			<Action>ОткрытьВнешнююОбработку</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -211,6 +259,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить наличие исправлений</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check patches</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ПроверитьНаличиеИсправлений</Action>

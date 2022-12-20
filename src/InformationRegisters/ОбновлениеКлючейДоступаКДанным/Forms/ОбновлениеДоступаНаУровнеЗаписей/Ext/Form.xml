@@ -21,6 +21,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа предупреждение (производительный вариант отключен)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>High-performance mode disabled warning group</v8:content>
+				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<VerticalAlign>Center</VerticalAlign>
@@ -46,6 +50,11 @@
 							<v8:content>Производительный вариант работы отключен - используется стандартный вариант
 (см. вариант работы ограничения доступа в панели "Настройки пользователей и прав")</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>High-performance mode is disabled. Regular mode is used instead.
+See the access restriction mode in the "Users and rights settings" panel.</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="ПредупреждениеУниверсальноеОграничениеОтключеноНадписьКонтекстноеМеню" id="205"/>
 					<ExtendedTooltip name="ПредупреждениеУниверсальноеОграничениеОтключеноНадписьРасширеннаяПодсказка" id="206"/>
@@ -58,6 +67,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа предупреждение (первое обновление доступа завершилось)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>First access update completed warning group</v8:content>
 				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
@@ -85,6 +98,12 @@
 (см. константу Первое обновление доступа завершилось)
 </v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Regular access restriction mode is enabled until the first update is completed.
+See the "First access update completed" constant).
+</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="ПредупреждениеПервоеОбновлениеДоступаЕщеНеЗавершилосьНадписьКонтекстноеМеню" id="213"/>
 					<ExtendedTooltip name="ПредупреждениеПервоеОбновлениеДоступаЕщеНеЗавершилосьНадписьРасширеннаяПодсказка" id="214"/>
@@ -96,6 +115,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Верхняя панель формы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Top form panel</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
@@ -110,6 +133,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление доступа не выполняется</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access update not running</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
@@ -126,11 +153,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Обновление доступа не выполняется (Картинка)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Access update not running picture</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Регламентное или фоновое задание</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Scheduled or background job</v8:content>
 								</v8:item>
 							</ToolTip>
 							<PictureSize>AutoSize</PictureSize>
@@ -148,6 +183,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>1 поток</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>1 thread</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>PopUp</Behavior>
@@ -159,6 +198,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Количество потоков обновления доступа подсказка 1</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Number of access update threads tooltip1</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -192,6 +235,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Балансировка нагрузки на диск подсказка 1</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Hard drive load balancing tooltip 1</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<Behavior>Usual</Behavior>
@@ -216,6 +263,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Быстрый диск</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Fast hard drive</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:boolean">false</Value>
 													</xr:Value>
@@ -228,6 +279,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Медленный диск</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Slow hard drive</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:boolean">true</Value>
@@ -250,11 +305,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Не выполняется</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Not running</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пауза между запусками или выполнено 100% обновления</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>A pause between job runs, or 100% updated.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ContextMenu name="ОбновлениеДоступаНеВыполняетсяНадписьКонтекстноеМеню" id="224"/>
@@ -268,6 +331,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Запустить сейчас</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Run now</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ЗапуститьОбновлениеДоступаСейчасРасширеннаяПодсказка" id="145"/>
 						</Button>
@@ -276,6 +343,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>(завершено в &lt;b&gt;09:05:03&lt;/&gt; за 1 мин 5 сек)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>(completed at &lt;b&gt;09:05:03&lt;/&gt;, 1 min 5 sec total)</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ПоследнееЗавершениеОбновленияДоступаКонтекстноеМеню" id="261"/>
@@ -293,6 +364,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление доступа выполняется</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access update running</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
 					<Behavior>Usual</Behavior>
@@ -308,11 +383,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка фоновое задание выполняется</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Background job running picture</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Обновление доступа выполняется</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Access update running</v8:content>
 								</v8:item>
 							</ToolTip>
 							<PictureSize>AutoSize</PictureSize>
@@ -333,12 +416,21 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка фоновое задание ожидает выполнения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Background job awaits execution picture</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Обновление доступа ожидает в очереди, а не выполняется
 (так происходит, когда очередь фоновых заданий слишком большая)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The access update is queued
+(there are other background jobs in the queue).</v8:content>
 								</v8:item>
 							</ToolTip>
 							<PictureSize>AutoSize</PictureSize>
@@ -356,6 +448,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>1 поток</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>1 thread</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>PopUp</Behavior>
@@ -367,6 +463,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Количество потоков обновления доступа подсказка 2</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Number of access update threads tooltip 2</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -400,6 +500,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Балансировка нагрузки на диск подсказка 2</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Hard drive load balancing tooltip 2</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<Behavior>Usual</Behavior>
@@ -424,6 +528,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Быстрый диск</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Fast hard drive</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:boolean">false</Value>
 													</xr:Value>
@@ -436,6 +544,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Медленный диск</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Slow hard drive</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:boolean">true</Value>
@@ -458,6 +570,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выполняется 2 мин 22 сек</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Running for 2 min 22 sec</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ВремяВыполненияФоновогоЗадания1КонтекстноеМеню" id="227"/>
 							<ExtendedTooltip name="ВремяВыполненияФоновогоЗадания1РасширеннаяПодсказка" id="228"/>
@@ -468,6 +584,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выполняется 3 мин 33 сек</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Running for 3 min 33 sec</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ВремяВыполненияФоновогоЗадания2КонтекстноеМеню" id="191"/>
@@ -481,6 +601,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отменить</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Cancel</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ОстановитьИЗапретитьОбновлениеДоступаРасширеннаяПодсказка" id="196"/>
 						</Button>
@@ -492,6 +616,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление доступа запрещено</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access update denied</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
@@ -512,12 +640,21 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Обновление доступа запрещено (Картинка)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Access update denied picture</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Запрещено обновление доступа и отключено
 регламентное задание "Обновление доступа на уровне записей"</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The access update is denied.
+The "Access update at record level" scheduled job is disabled.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Picture>
@@ -534,12 +671,21 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Обновление запрещено</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Update denied</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Запрещено обновление доступа и отключено
 регламентное задание "Обновление доступа на уровне записей"</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The access update is denied.
+The "Access update at record level" scheduled job is disabled.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ContextMenu name="ОбновлениеДоступаЗапрещеноНадписьКонтекстноеМеню" id="241"/>
@@ -553,6 +699,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Разрешить</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Allow</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="РазрешитьОбновлениеДоступаРасширеннаяПодсказка" id="244"/>
 						</Button>
@@ -564,6 +714,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Регламентное задание отключено</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Scheduled job disabled</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
@@ -584,12 +738,21 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Регламентное задание отключено (Картинка)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Scheduled job disabled picture</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отключено регламентное задание
 "Обновление доступа на уровне записей"</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The "Access update at record level"
+scheduled job is disabled.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Picture>
@@ -606,12 +769,21 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Задание отключено</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Scheduled job disabled</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отключено регламентное задание
 "Обновление доступа на уровне записей"</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The "Access update at record level"
+scheduled job is disabled.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ContextMenu name="РегламентноеЗаданиеОтключеноНадписьКонтекстноеМеню" id="113"/>
@@ -625,6 +797,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Включить</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Enable</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ВключитьРегламентноеЗаданиеРасширеннаяПодсказка" id="119"/>
 						</Button>
@@ -635,6 +811,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Команды формы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Form commands</v8:content>
 						</v8:item>
 					</Title>
 					<CommandSource>Form</CommandSource>
@@ -668,6 +848,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Общий индикатор прогресса обновления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update progress indicator</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
 			<VerticalAlign>Center</VerticalAlign>
@@ -683,12 +867,20 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление доступа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access update</v8:content>
+						</v8:item>
 					</Title>
 					<TitleLocation>None</TitleLocation>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Прогресс обновления доступа ко всем спискам</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The progress of access update for all lists.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Width>1</Width>
@@ -702,6 +894,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление прогресса</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Progress bar update</v8:content>
+						</v8:item>
 					</Title>
 					<PagesRepresentation>None</PagesRepresentation>
 					<ExtendedTooltip name="ОбновлениеПрогрессаРасширеннаяПодсказка" id="62"/>
@@ -711,6 +907,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Обновление прогресса завершено</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Progress bar update completed</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -731,6 +931,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Обновление прогресса выполняется</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Updating progress bar</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
 							<ExtendedTooltip name="ОбновлениеПрогрессаВыполняетсяРасширеннаяПодсказка" id="66"/>
@@ -743,11 +947,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинка обновление прогресса</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Progress bar update picture</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Обновление прогресса выполняется</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Updating progress bar</v8:content>
 										</v8:item>
 									</ToolTip>
 									<PictureSize>AutoSize</PictureSize>
@@ -768,12 +980,21 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинка обновление прогресса</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Progress bar update picture</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Обновление прогресса ожидает в очереди, а не выполняется
 (так происходит, когда очередь фоновых заданий слишком большая)</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The progress bar update is queued
+(there are other background jobs in the queue).</v8:content>
 										</v8:item>
 									</ToolTip>
 									<PictureSize>AutoSize</PictureSize>
@@ -795,6 +1016,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Отменить</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Cancel</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ОтменитьОбновлениеПрогрессаРасширеннаяПодсказка" id="87"/>
 								</Button>
@@ -807,6 +1032,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Автообновление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Update automatically</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
@@ -822,6 +1051,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Автообновление</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Update automatically</v8:content>
+								</v8:item>
 							</Title>
 							<TitleFont ref="style:SmallTextFont" kind="StyleItem"/>
 							<TitleLocation>Right</TitleLocation>
@@ -830,6 +1063,11 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Автообновление прогресса
 обновления доступа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Update the progress bar
+automatically.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -845,6 +1083,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>сек</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>sec</v8:content>
 								</v8:item>
 							</Title>
 							<TitleFont ref="style:SmallTextFont" kind="StyleItem"/>
@@ -865,6 +1107,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Кратко</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Details</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
@@ -872,6 +1118,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подробно</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Details</v8:content>
 				</v8:item>
 			</CollapsedRepresentationTitle>
 			<Collapsed>true</Collapsed>
@@ -885,6 +1135,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расчет прогресса по количеству данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Calculate progress by amount of data</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -900,6 +1154,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Рассчитывать прогресс по количеству данных</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Calculate progress by amount of data</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTip>
@@ -910,6 +1168,14 @@
 
 Когда отключено, тогда прогресс рассчитывается
 только по количеству обработанных списков.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>To calculate progress by the number of
+data items and access keys (low performance), select the check box.
+
+To calculate progress by the number of processed lists,
+clear the check box.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -926,11 +1192,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки отображения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Customize progress view</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки отображения прогресса по отдельным спискам</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Customize progress view for individual lists.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
@@ -1005,6 +1279,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Списки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Lists</v8:content>
 						</v8:item>
 					</Title>
 					<CommandSet>
@@ -1090,11 +1368,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Список элементов данных</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data items list</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Имя списка документов, элементов справочников, записей регистров и др.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>A name of a list of documents, catalog items, register records, or similar items.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
@@ -1112,12 +1398,23 @@
 элементов
 данных, %</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data
+items
+processed, %</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Проверка и обновление ключей доступа к
 объектам и группам записей регистров</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Validation and update of access keys to
+objects and register record groups.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<HorizontalAlign>Right</HorizontalAlign>
@@ -1128,11 +1425,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>ЧН=0</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>NZ=0</v8:content>
+								</v8:item>
 							</Format>
 							<EditFormat>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>ЧН=0</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>NZ=0</v8:content>
 								</v8:item>
 							</EditFormat>
 							<ContextMenu name="СпискиОбработаноЭлементовКонтекстноеМеню" id="28"/>
@@ -1148,12 +1453,23 @@
 ключей
 доступа, %</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Access
+keys
+processed, %</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Проверка и обновление разрешенности ключей доступа
 пользователям, внешним пользователям и группам доступа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Validation and update of "allowed" property of access keys
+for users, external users, and access groups.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<HorizontalAlign>Right</HorizontalAlign>
@@ -1164,11 +1480,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>ЧН=0</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>NZ=0</v8:content>
+								</v8:item>
 							</Format>
 							<EditFormat>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>ЧН=0</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>NZ=0</v8:content>
 								</v8:item>
 							</EditFormat>
 							<ContextMenu name="СпискиОбработаноКлючейДоступаКонтекстноеМеню" id="31"/>
@@ -1184,12 +1508,22 @@
 									<v8:content>Количество
 элементов</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Total
+items</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Количество объектов или
 групп записей регистров</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The total number of objects
+or register record groups.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
@@ -1208,12 +1542,23 @@
 обработанных
 элементов</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Processed
+items
+</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Количество обработанных объектов или
 групп записей регистров</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The number of processed objects
+or register record groups.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
@@ -1232,6 +1577,12 @@
 ключей
 доступа</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Total
+access
+keys</v8:content>
+								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<Width>8</Width>
@@ -1249,6 +1600,12 @@
 обработанных
 ключей доступа</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Processed
+access
+keys</v8:content>
+								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<Width>8</Width>
@@ -1265,12 +1622,23 @@
 обработки
 списка, сек</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>List
+processing
+delay, sec</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Количество секунд, которое прошло с момента завершения
 последнего задания обновления доступа для списка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The time elapsed since the completion
+of the last access update job for the list.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
@@ -1286,6 +1654,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Имя таблицы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Table name</v8:content>
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
@@ -1304,6 +1676,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Списки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Lists</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -1321,6 +1697,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя таблицы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Table name</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1335,6 +1715,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обработано элементов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data items processed</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1352,6 +1736,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обработано ключей доступа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access keys processed</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -1367,6 +1755,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество элементов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Total items</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1384,6 +1776,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество обработанных элементов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Processed items</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -1400,6 +1796,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество ключей доступа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Total access keys</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -1415,6 +1815,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество обработанных ключей доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Processed access keys</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1438,6 +1842,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список представление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>List presentation</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1452,6 +1860,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Задержка обработки списка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>List processing delay</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1487,6 +1899,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Период обновления прогресса, сек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Progress update period, sec</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -1503,6 +1919,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать обработанные списки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show processed lists</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1516,6 +1936,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Автообновление прогресса</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update progress bar automatically</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1533,6 +1957,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Всего обновлено</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Total items updated</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -1548,6 +1976,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассчитывать по количеству данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Calculate by amount of data</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1588,6 +2020,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать количество элементов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show number of items</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1601,6 +2037,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать количество ключей доступа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show number of access keys</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1616,6 +2056,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать имя таблицы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show table name</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1629,6 +2073,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Количество потоков обновления доступа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Number of access update threads</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1645,6 +2093,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать задержку обработки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show processing delay</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1679,6 +2131,11 @@
 					<v8:content>Оптимизировать для базы данных
 размещенной на диске</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Optimize for a database stored
+on a hard drive</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1692,11 +2149,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ручное управление ...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure access manually…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить объект или запланировать обновление доступа к указанным спискам</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update an object or schedule update of access to the selected lists.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>РучноеУправление</Action>
@@ -1708,12 +2173,21 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить прогресс</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh progress bar</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить прогресс
 обновления доступа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh the progress bar
+of the access update.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F5</Shortcut>
@@ -1726,11 +2200,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить обновление прогресса</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel refreshing progress bar</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить обновление прогресса</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel refreshing progress bar</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОтменитьОбновлениеПрогресса</Action>
@@ -1741,6 +2223,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сортировать список по возрастанию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sort list in ascending order</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -1756,6 +2242,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сортировать список по убыванию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sort list in ascending order</v8:content>
+				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>StdPicture.SortListDesc</xr:Ref>
@@ -1770,12 +2260,21 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить регламентное задание</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable scheduled job</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить регламентное задание
 "Обновление доступа на уровне записей"</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable the "Access update at record level"
+scheduled job.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьОбновлениеДоступа</Action>
@@ -1787,12 +2286,21 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Запустить обновление доступа сейчас</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run access update now</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Запустить обновление доступа сейчас и
 выполнять до полного завершения или отмены</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run the access update now and
+proceed until it is completed or canceled.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗапуститьОбновлениеДоступаСейчас</Action>
@@ -1804,12 +2312,21 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Остановить и запретить обновление доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stop and deny access update</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Остановить и запретить обновление доступа и отключить
 регламентное задание "Обновление доступа на уровне записей"</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stop and deny access update, and disable
+the "Access update at record level" scheduled job.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОстановитьИЗапретитьОбновлениеДоступа</Action>
@@ -1821,12 +2338,21 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разрешить обновление доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow access update</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разрешить обновление доступа и включить
 регламентное задание "Обновление доступа на уровне записей"</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow access update and enable
+the "Access update at record level" scheduled job.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьОбновлениеДоступа</Action>

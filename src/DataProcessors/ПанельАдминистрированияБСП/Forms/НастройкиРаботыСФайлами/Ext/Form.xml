@@ -28,6 +28,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заголовок</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -41,6 +45,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка параметров загрузки, хранения и обработки файлов.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configure file import, storage, and processing parameters.</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="ОписаниеРазделаКонтекстноеМеню" id="2017"/>
 					<ExtendedTooltip name="ОписаниеРазделаExtendedTooltip" id="2045"/>
@@ -50,6 +58,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Справка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Help</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаСправкаExtendedTooltip" id="2047"/>
@@ -69,6 +81,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Управление хранением файлов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Manage file storage</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -81,6 +97,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Способ хранения файлов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>File storage method</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -98,6 +118,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Хранить файлы</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>File storage</v8:content>
+								</v8:item>
 							</Title>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>30</MaxWidth>
@@ -113,6 +137,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>в информационной базе</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Infobase</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">ВИнформационнойБазе</Value>
 									</xr:Value>
@@ -126,6 +154,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>в томах на диске</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Disk</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">ВТомахНаДиске</Value>
 									</xr:Value>
@@ -138,6 +170,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>в информационной базе и томах на диске</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Infobase and disk</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">ВИнформационнойБазеИТомахНаДиске</Value>
@@ -158,6 +194,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перенос файлов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Move files</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -181,6 +221,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Управление томами файлов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File volume management</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -198,6 +242,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Справочник тома хранения файлов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>File storage volumes catalog</v8:content>
 						</v8:item>
 					</Title>
 					<Width>40</Width>
@@ -217,6 +265,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Настройка подключения к томам (папкам) хранения файлов на файловом сервере.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Configure data storage volumes on the file server.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -227,6 +279,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хранить файлы в томах в разрезе владельца</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Store files in volumes broken down by the owner</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -242,6 +298,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создавать подкаталоги с именами справочников-владельцев файлов</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create subfolders with names of location objects</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
@@ -263,6 +323,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Управление расширениями файлов ВИБ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Manage file extensions in the infobase</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -282,6 +346,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Оставлять в информационной базе следующие файлы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>File types to store in the infobase</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 					<Behavior>Usual</Behavior>
@@ -294,6 +362,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Файлы с указанными расширениями хранятся в информационной базе, а не в томах. Расширения указываются через "пробел".</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Specify a list of space-delimited file extension types. Files of these types will be stored in the infobase.</v8:content>
+							</v8:item>
 						</Title>
 					</ExtendedTooltip>
 					<ChildItems>
@@ -304,6 +376,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Расширения файлов, хранящихся в информационной базе</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>File types to store in the infobase</v8:content>
+								</v8:item>
 							</Title>
 							<TitleHeight>2</TitleHeight>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -311,6 +387,10 @@
 							<InputHint>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>DOC DOCX XLS XLSX</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>DOC DOCX XLS XLSX</v8:content>
 								</v8:item>
 							</InputHint>
@@ -331,6 +411,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Управление размером файлов ВИБ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Manage file size in the infobase</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -350,6 +434,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размер файлов ВИБ</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>File size in infobase</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 					<Group>AlwaysHorizontal</Group>
@@ -365,6 +453,11 @@
 								<v8:content>Файлы, размер которых не превышает указанного значения, хранятся в информационной базе, а не в томах. 
 Эта настройка имеет приоритет над списком расширений.</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>All files smaller than the specified size will be stored in the infobase.
+This setting overrides the list of file types to be stored in the infobase.</v8:content>
+							</v8:item>
 						</Title>
 					</ExtendedTooltip>
 					<ChildItems>
@@ -374,6 +467,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Размер файла не превышает</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Size limit</v8:content>
 								</v8:item>
 							</Title>
 							<TitleHeight>1</TitleHeight>
@@ -392,6 +489,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Мбайт</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>MB</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ДекорацияМб2КонтекстноеМеню" id="2191"/>
 							<ExtendedTooltip name="ДекорацияМб2РасширеннаяПодсказка" id="2192"/>
@@ -405,6 +506,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Управление загрузкой файлов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Manage file upload</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -423,6 +528,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расширение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Extension</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 					<Behavior>Usual</Behavior>
@@ -437,6 +546,12 @@
 компьютеру и данным в программе. Указываются через "пробел".
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней  обработке.&lt;/&gt;</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Specify a blacklist of space-delimited file extension types.
+Users will not be able to import these files into the application.
+See also: &lt;link http://1c.ru/news/info.jsp?id=21537/&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+							</v8:item>
 						</Title>
 					</ExtendedTooltip>
 					<ChildItems>
@@ -446,6 +561,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Запретить загрузку файлов с расширениями:</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>File extension blacklist:</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
@@ -481,6 +600,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Управление файлами</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File management</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalStretch>false</HorizontalStretch>
 			<Behavior>Usual</Behavior>
@@ -493,6 +616,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Максимальный размер файла области данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data area file size limit</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -508,6 +635,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Размер</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Size</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<Group>AlwaysHorizontal</Group>
@@ -520,6 +651,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Запрещать загружать файлы, превышающие указанный размер.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Deny uploading files that exceed the size limit.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -545,6 +680,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Мбайт</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>MB</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="ДекорацияМбКонтекстноеМеню" id="717"/>
 									<ExtendedTooltip name="ДекорацияМбExtendedTooltip" id="2064"/>
@@ -558,6 +697,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка очистки файлов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configure file cleanup</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -574,6 +717,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройка очистки файлов</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>File cleanup settings</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="НастройкаОчисткиФайловРасширеннаяПодсказка" id="2134">
@@ -581,6 +728,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Очистка ненужных файлов по дате редактирования, видам владельцев файлов и другим произвольным условиям.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Delete unnecessary files by editing date, file owner type, and other criteria.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -595,6 +746,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список расширений файлов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File extensions</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -607,6 +762,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список расширений файлов open document области данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OpenDocument file extensions in data area</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -623,6 +782,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Расширения файлов ODF</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>ODF file types</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -643,6 +806,11 @@
 									<v8:content>Расширения файлов открытого формата документов (ODF) офисных приложений для возможности поиска текста в них.
 Указываются через "пробел".</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Specify a list of space-delimited Open Document Format extension types.
+You will be able to search for text within such files.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ПояснениеСписокРасширенийФайловOpenDocumentОбластиДанныхКонтекстноеМеню" id="1418"/>
 							<ExtendedTooltip name="ПояснениеСписокРасширенийФайловOpenDocumentОбластиДанныхExtendedTooltip" id="2068"/>
@@ -654,6 +822,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список расширений текстовых файлов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Text file extensions</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -669,6 +841,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Расширения текстовых файлов</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Text file types</v8:content>
 								</v8:item>
 							</Title>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -688,6 +864,11 @@
 									<v8:content>Расширения файлов, содержащих текстовые данные, для автоопределения их кодировки.
 Указываются через "пробел".</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Specify a list of space-delimited text file extension types.
+The application will try to autodetect encoding for such files.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ПояснениеСписокРасширенийТекстовыхФайловКонтекстноеМеню" id="1977"/>
 							<ExtendedTooltip name="ПояснениеСписокРасширенийТекстовыхФайловExtendedTooltip" id="2071"/>
@@ -702,6 +883,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизация файлов с облачными сервисами</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File synchronization with cloud services</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalStretch>false</HorizontalStretch>
 			<Behavior>Usual</Behavior>
@@ -714,6 +899,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Синхронизация файлов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>File synchronization</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -735,6 +924,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Синхронизация с Яндекс.Диск, Box и т.д. для упрощения редактирования файлов.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Sync your files with Yandex.Disk, Dropbox, and others.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 							<Events>
@@ -748,6 +941,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки синхронизации файлов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>File synchronization settings</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -764,6 +961,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки синхронизации</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Sync settings</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="НастройкиСинхронизацииФайловРасширеннаяПодсказка" id="2120">
@@ -771,6 +972,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Синхронизация файлов с облачными сервисами в разрезе видов владельцев файлов и по различным критериям.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Sync files with cloud storages by file owner types and other criteria.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -785,6 +990,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отступ 1</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Indent 1</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -797,6 +1006,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Общие параметры для всех областей данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parameters common for all data areas</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -811,6 +1024,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Ограничения, которое применяются для всех областей данных и имеют приоритет над настройками администраторов.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>These restrictions apply to all data areas and override administrator settings.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ПояснениеОбщиеПараметрыДляВсехОбластейДанныхКонтекстноеМеню" id="2021"/>
 							<ExtendedTooltip name="ПояснениеОбщиеПараметрыДляВсехОбластейДанныхExtendedTooltip" id="2084"/>
@@ -820,6 +1037,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Максимальный размер файла</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>File size limit</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -834,6 +1055,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Размер 1</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Size 1</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<Behavior>Usual</Behavior>
@@ -845,6 +1070,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Ограничение загрузки файлов, превышающих указанный размер.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Deny uploading files that exceed the size limit.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -869,6 +1098,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Мбайт</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>MB</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ДекорацияМб1КонтекстноеМеню" id="2038"/>
 											<ExtendedTooltip name="ДекорацияМб1ExtendedTooltip" id="2088"/>
@@ -883,6 +1116,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Список расширений</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Extensions</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -895,6 +1132,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Список запрещенных расширений</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Prohibited file extensions</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -911,6 +1152,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Расширения, запрещенные для загрузки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>File type blacklist</v8:content>
 												</v8:item>
 											</Title>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -930,6 +1175,11 @@
 													<v8:content>Расширения файлов, для которых будет запрещена загрузка в папки программы.
 Указываются через "пробел".</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Specify a blacklist of space-delimited file extension types.
+Users will not be able to import these files into the application.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ПояснениеЗапретЗагрузкиФайловПоРасширению2КонтекстноеМеню" id="2027"/>
 											<ExtendedTooltip name="ПояснениеЗапретЗагрузкиФайловПоРасширению2ExtendedTooltip" id="2092"/>
@@ -941,6 +1191,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Список расширений файлов open document</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>OpenDocument file extensions</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -956,6 +1210,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Расширения файлов ODF</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>ODF file types</v8:content>
 												</v8:item>
 											</Title>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -973,6 +1231,11 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Расширения файлов открытого формата документов для офисных приложений.
 Указываются через "пробел".</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Specify a list of space-delimited Open Document Format extension types.
+You will be able to search for text within such files.</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ПояснениеСписокРасширенийФайловOpenDocumentКонтекстноеМеню" id="2031"/>
@@ -1021,6 +1284,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Максимальный размер файла</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File size limit</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -1038,6 +1305,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Максимальный размер файла</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File size limit</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -1054,6 +1325,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Запрещать загрузку файлов по расширению</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Is extension blacklist enabled</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1075,6 +1350,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Расширения файлов в ИБ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File extensions in infobase</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1089,6 +1368,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Максимальный размер файла в ИБ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File size limit in infobase</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1108,11 +1391,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тома хранения файлов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Storage volumes</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Справочник тома хранения файлов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Storage volumes</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СправочникТомаХраненияФайлов</Action>
@@ -1124,11 +1415,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройка синхронизации файлов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File sync settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройка очистки файлов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cleanup settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастройкаСинхронизацииФайлов</Action>
@@ -1139,6 +1438,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перенос файлов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move files</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ПереносФайлов</Action>

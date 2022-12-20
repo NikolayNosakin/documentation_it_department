@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Выбор периода</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Select period</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -21,6 +25,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбор года</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select year</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>Horizontal</Group>
@@ -36,6 +44,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перейти на год назад (варианты)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Go back one year (options)</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -71,6 +83,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>ДФ='yyyy "год"'</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>DF='yyyy ""'</v8:content>
+						</v8:item>
 					</Format>
 					<ContextMenu name="ДатаНачалаГодаКонтекстноеМеню" id="93"/>
 					<ExtendedTooltip name="ДатаНачалаГодаРасширеннаяПодсказка" id="94"/>
@@ -91,6 +107,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбор периода</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select period</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
 			<Behavior>Usual</Behavior>
@@ -103,6 +123,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Месяцы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Months</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -117,6 +141,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Квартал 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Quarter 1</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -155,6 +183,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Квартал 2</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Quarter 2</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
 							<Behavior>Usual</Behavior>
@@ -192,6 +224,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Квартал 3</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Quarter 3</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
 							<Behavior>Usual</Behavior>
@@ -228,6 +264,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Квартал 4</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Quarter 4</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -267,6 +307,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Кварталы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Quarters</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -316,6 +360,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Нарастающим итогом</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Running total</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
@@ -339,6 +387,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>полугодие</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>half year</v8:content>
 								</v8:item>
 							</Title>
 							<ShapeRepresentation>WhenActive</ShapeRepresentation>
@@ -367,6 +419,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить период</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear period</v8:content>
 				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
@@ -413,6 +469,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дата начала года</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Year start date</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -466,11 +526,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти на год назад</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go back one year</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПерейтиНаГодНазад</Action>
@@ -482,11 +550,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&gt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&gt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти на год вперед</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go forward one year</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПерейтиНаГодВперед</Action>
@@ -498,11 +574,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>январь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>January</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать январь</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select January</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьМесяц1</Action>
@@ -514,11 +598,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>февраль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>February</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать февраль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select February</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьМесяц2</Action>
@@ -530,11 +622,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>март</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>March</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать март</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select March</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьМесяц3</Action>
@@ -546,11 +646,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>апрель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>April</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать апрель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select April</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьМесяц4</Action>
@@ -562,11 +670,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>май</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>May</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать май</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select May</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьМесяц5</Action>
@@ -578,11 +694,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>июнь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>June</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать июнь</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select June</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьМесяц6</Action>
@@ -594,11 +718,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>июль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>July</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать июль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select July</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьМесяц7</Action>
@@ -610,11 +742,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>август</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>August</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать август</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select August</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьМесяц8</Action>
@@ -626,11 +766,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>сентябрь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>September</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать сентябрь</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select September</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьМесяц9</Action>
@@ -642,11 +790,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>октябрь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>October</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать октябрь</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select October</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьМесяц10</Action>
@@ -658,11 +814,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>ноябрь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>November</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать ноябрь</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select November</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьМесяц11</Action>
@@ -674,11 +838,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>декабрь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>December</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать декабрь</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select December</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьМесяц12</Action>
@@ -690,11 +862,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>1 квартал</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Quarter 1</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать 1 квартал</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select Quarter 1</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьКвартал1</Action>
@@ -706,11 +886,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>2 квартал</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Quarter 2</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать 2 квартал</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select Quarter 2</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьКвартал2</Action>
@@ -722,11 +910,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>3 квартал</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Quarter 3</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать 3 квартал</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select Quarter 3</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьКвартал3</Action>
@@ -738,11 +934,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>4 квартал</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Quarter 4</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать 4 квартал</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select Quarter 4</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьКвартал4</Action>
@@ -754,11 +958,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>полугодие</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>half year</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать полугодие</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select half year</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьПолугодие</Action>
@@ -770,11 +982,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>9 месяцев</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>9 months</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать 9 месяцев</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select 9 months</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Выбрать9Месяцев</Action>
@@ -786,11 +1006,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>год</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>year</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать год</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select year</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьГод</Action>
@@ -802,11 +1030,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>день...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>day…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать день</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select day</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьДень</Action>
@@ -818,11 +1054,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>за все время</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>all time</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить период</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear period</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОчиститьПериод</Action>
@@ -833,11 +1077,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Стандартный вариант</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Standard option</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти к стандартному варианту периода</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to standard period option</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПерейтиКСтандартномуВариантуПериода</Action>

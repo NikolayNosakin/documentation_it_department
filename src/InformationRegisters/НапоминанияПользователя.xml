@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Напоминания пользователя</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User reminders</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -165,6 +169,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Напоминание</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reminder</v8:content>
+				</v8:item>
 			</RecordPresentation>
 			<ExtendedRecordPresentation/>
 			<ListPresentation/>
@@ -183,6 +191,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Срок напоминания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reminder time</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -198,6 +210,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Время, когда необходимо напомнить.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The time when a reminder pops up.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -230,6 +246,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Details</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -246,6 +266,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Текст напоминания</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The reminder text.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -278,6 +302,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Способ установки времени напоминания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reminder time setup method</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -290,6 +318,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Способ указания желаемого времени напоминания.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The reminder time setup method.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -322,6 +354,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интервал времени напоминания</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reminder interval</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -339,6 +375,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интервал времени в секундах. Имеет смысл только для относительного способа указания времени напоминания.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A time interval in seconds. It makes sense only for relative time setup methods.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -371,6 +411,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя реквизита источника</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Source attribute name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -387,6 +431,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя реквизита источника, содержащего дату, относительно которой устанавливается время напоминания.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name of the source attribute that stores the date that defines the reminder time.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -419,6 +467,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расписание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Schedule</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -431,6 +483,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расписание показа напоминания. Используется для периодического напоминания.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The reminder schedule. It is applicable to periodic reminders.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -463,6 +519,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление источника</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Source presentation</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Представление источника</Comment>
 					<Type>
@@ -479,6 +539,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Текстовое представление объекта напоминания (для списков).</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The text presentation of the reminder subject (for lists).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -511,6 +575,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Идентификатор</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>ID</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -527,6 +595,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уточняет предмет напоминания, например, "ДеньРождения".</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Describes a reminder subject. Example: "Birthday".</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -559,6 +631,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -571,6 +647,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Владелец напоминания.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The reminder owner.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -606,6 +686,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Время события</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Event time</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -621,6 +705,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Время, относительно которого производится оценка времени просрочки напоминания.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The time of the reminder subject.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -656,6 +744,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Источник</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Source</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -668,6 +760,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект, относительно которого установлено время напоминания.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The reminder subject.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -706,6 +802,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Напоминания пользователей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User reminders</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Group>NavigationPanelOrdinary</Group>
@@ -726,6 +826,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Мои напоминания</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>My reminders</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

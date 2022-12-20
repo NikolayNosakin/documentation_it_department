@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Обновление версии программы</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Application update</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockWholeInterface</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -34,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Режим запуска</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run mode</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="РежимЗапускаExtendedTooltip" id="12"/>
@@ -43,6 +51,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление версии программы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Application update</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTipRepresentation>None</ToolTipRepresentation>
@@ -56,6 +68,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выполняется обновление на версию %1</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Updating to version %1.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ТекстСообщенияОбновляемаяКонфигурацияКонтекстноеМеню" id="2"/>
 							<ExtendedTooltip name="ТекстСообщенияОбновляемаяКонфигурацияExtendedTooltip" id="14"/>
@@ -67,6 +83,11 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Это может занять длительное время (от одной минуты до нескольких часов в зависимости от объема данных).
 Пожалуйста, подождите...</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>This may take a long time (from one minute to several hours, depending on the data size).
+Please wait…</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ТекстПоясненияКонтекстноеМеню" id="4"/>
@@ -80,6 +101,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Начальное заполнение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Initial filling</v8:content>
+						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="НачальноеЗаполнениеExtendedTooltip" id="16"/>
@@ -91,6 +116,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выполняется подготовка к запуску программы.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Preparing to start the application.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ТекстПодготовкаКЗапускуКонтекстноеМеню" id="9"/>
 							<ExtendedTooltip name="ТекстПодготовкаКЗапускуExtendedTooltip" id="17"/>
@@ -101,6 +130,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пожалуйста, подождите...</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Please wait…</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ТекстПоясненияПодготовкаКЗапускуКонтекстноеМеню" id="11"/>
@@ -114,6 +147,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Переход с другой программы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Migration from another application</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTipRepresentation>None</ToolTipRepresentation>
 					<ExtendedTooltip name="ПереходСДругойПрограммыРасширеннаяПодсказка" id="31"/>
@@ -124,6 +161,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выполняется переход на %1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Migrating to %1.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ТекстСообщенияПереходСДругойПрограммыКонтекстноеМеню" id="33"/>
@@ -137,6 +178,11 @@
 									<v8:content>Это может занять длительное время (от одной минуты до нескольких часов в зависимости от объема данных).
 Пожалуйста, подождите...</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>This may take a long time (from one minute to several hours, depending on the data size).
+Please wait…</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ТекстПоясненияПереходСДругойПрограммыКонтекстноеМеню" id="36"/>
 							<ExtendedTooltip name="ТекстПоясненияПереходСДругойПрограммыРасширеннаяПодсказка" id="37"/>
@@ -149,6 +195,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление параметров работы программы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Application parameters update</v8:content>
+						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ОбновлениеПараметровРаботыПрограммыРасширеннаяПодсказка" id="39"/>
@@ -160,6 +210,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выполняется подготовка к запуску программы.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Preparing to start the application.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ТекстПодготовкаКЗапуску2КонтекстноеМеню" id="41"/>
 							<ExtendedTooltip name="ТекстПодготовкаКЗапуску2РасширеннаяПодсказка" id="42"/>
@@ -170,6 +224,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пожалуйста, подождите...</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Please wait…</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ТекстПоясненияПодготовкаКЗапуску2КонтекстноеМеню" id="44"/>
@@ -193,11 +251,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Техническая информация о ходе обновления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Technical details about the update progress</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Техническая информация из журнала регистрации для обращения в службу технической поддержки.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Technical details from the event log to provide to technical support.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -238,6 +304,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Прогресс выполнения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update progress</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

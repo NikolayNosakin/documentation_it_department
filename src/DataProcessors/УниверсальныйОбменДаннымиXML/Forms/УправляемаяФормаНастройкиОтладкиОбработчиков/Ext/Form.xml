@@ -16,6 +16,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>1. Выберите режим отладки кода алгоритмов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>1. Choose a debug mode</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -26,6 +30,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отладки алгоритмов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Algorithms debugging</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -47,6 +55,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Без отладки алгоритмов</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>No debugging</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">0</Value>
 									</xr:Value>
@@ -60,6 +72,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Вызывать алгоритмы как процедуры</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Call algorithms as procedures</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">1</Value>
 									</xr:Value>
@@ -72,6 +88,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Подставлять код алгоритмов по месту вызова</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Insert algorithm code where it is called</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">2</Value>
@@ -90,6 +110,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подсказка отладка алгоритмов</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Algorithm debugging tooltip</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ПодсказкаОтладкаАлгоритмовExtendedTooltip" id="32"/>
@@ -98,6 +122,10 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>0</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>0</v8:content>
 										</v8:item>
 									</Title>
@@ -111,6 +139,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Алгоритмы не выгружаются. Режим удобно использовать, когда производить отладку алгоритмов не требуется. Алгоритмы будут выполняться, но их код недоступен для отладки.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Do not export algorithms. Use this mode when algorithm debugging is not required. In this mode algorithms are executed but their code is unavailable for debugging.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ДекорацияБезОтладкиКонтекстноеМеню" id="9"/>
 											<ExtendedTooltip name="ДекорацияБезОтладкиExtendedTooltip" id="34"/>
@@ -121,6 +153,10 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>1</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>1</v8:content>
 										</v8:item>
 									</Title>
@@ -134,6 +170,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Алгоритмы выгружаются как отдельные процедуры. При вызове алгоритма происходит обращение к соответствующей процедуре обработки. Ограничения использования режима см. справку.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Export algorithms as separate procedures. Calling an algorithm runs the related data processor procedure. For more details about the mode restrictions, see the built-in help.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ДекорацияКакПроцедурыКонтекстноеМеню" id="25"/>
 											<ExtendedTooltip name="ДекорацияКакПроцедурыExtendedTooltip" id="36"/>
@@ -146,6 +186,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>2</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>2</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="Группа_2ExtendedTooltip" id="37"/>
 									<ChildItems>
@@ -156,6 +200,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Алгоритмы выгружаются как интегрированный код в обработчиках, т.е. взамен строки вызова алгоритма вставляется полный код алгоритма с учетом вложенных алгоритмов. Ограничения использования режима см. справку.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Integrate algorithms' code into handlers. The line that calls an algorithm is replaced with the entire algorithm's code (including the nested algorithms). For more details about the mode restrictions, see the built-in help.</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ДекорацияПоМестуВызоваКонтекстноеМеню" id="27"/>
@@ -175,6 +223,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>2. Выгрузите код обработчиков</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>2. Export handler code</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -185,6 +237,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выгрузки обработчиков</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Handlers export</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -199,6 +255,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сформировать модуль отладки выгрузки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Generate export debugging module</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ВыгрузитьКодОбработчиковExtendedTooltip" id="41"/>
@@ -219,6 +279,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>3. Пояснения к созданию файла внешней обработки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>3. How to create an external data processor file</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -235,6 +299,13 @@
 3. На завершающем четвертом шаге указать вновь созданную обработку как обработку с экспортными процедурами обработчиков.
 </v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>1. After the debugging module is generated, copy the handlers' code.
+2. Open Designer and create an external data processor. Paste the code to the data processor module. Save the data processor.
+3. In the last step, select the created data processor.
+</v8:content>
+						</v8:item>
 					</Title>
 					<TitleHeight>6</TitleHeight>
 					<ContextMenu name="ПояснениеДекорацияКонтекстноеМеню" id="14"/>
@@ -248,6 +319,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>4. Создайте (обновите) файл внешней обработки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>4. Create or update an external data processor file</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -259,6 +334,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страницы шаг 4</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Step 4 pages</v8:content>
+						</v8:item>
 					</Title>
 					<PagesRepresentation>None</PagesRepresentation>
 					<ExtendedTooltip name="СтраницыШаг4РасширеннаяПодсказка" id="51"/>
@@ -269,6 +348,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страница зеленый</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Green page</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="СтраницаЗеленыйРасширеннаяПодсказка" id="53"/>
 							<ChildItems>
@@ -277,6 +360,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Имя файла внешней обработки с модулем отладки на сервере</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>An external data processor file with the debugging module (on the server):</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация1КонтекстноеМеню" id="57"/>
@@ -290,6 +377,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страница красный</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Red page</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="СтраницаКрасныйРасширеннаяПодсказка" id="55"/>
 							<ChildItems>
@@ -300,6 +391,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Имя файла внешней обработки с модулем отладки на сервере</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>An external data processor file with the debugging module (on the server):</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация2КонтекстноеМеню" id="60"/>
@@ -315,6 +410,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла внешней обработки с модулем отладки на сервере</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An external data processor file with the debugging module (on the server):</v8:content>
 						</v8:item>
 					</Title>
 					<TitleLocation>None</TitleLocation>
@@ -334,6 +433,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Нижняя командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Lower command bar</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalLocation>Center</HorizontalLocation>
@@ -374,11 +477,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выгрузить код обработчиков</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Export handlers code</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выгрузить код обработчиков</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Export exchange handlers code.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыгрузитьКодОбработчиков</Action>
@@ -390,11 +501,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть файл</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open file</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть файл</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open a file.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -411,11 +530,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Готово</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Finish</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Готово</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Finish configuring and close the form.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Готово</Action>

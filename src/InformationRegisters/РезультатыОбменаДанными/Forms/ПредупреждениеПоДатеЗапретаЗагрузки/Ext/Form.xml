@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Декорация картинка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Decoration picture</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 			<Picture>
@@ -44,6 +48,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>При синхронизации были получены данные, которые были отклонены из-за установленного запрета на загрузку данных, в результате чего появилась непринятая версия документа. Для того чтобы принять версию несмотря на запрет, используйте команду "Принять версию". Если предупреждение потеряло свою актуальность воспользуйтесь командой "Скрыть из списка"</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>When synchronizing data, some received data was rejected as the data import restriction is enabled. Non-received document version was created. To accept the version regardless of the restriction, click "Accept version". If the warning is no longer relevant, click "Hide from list"</v8:content>
+					</v8:item>
 				</Title>
 			</ExtendedTooltip>
 		</PictureDecoration>
@@ -54,6 +62,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>ДЛФ=DDT</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>DLF=DDT</v8:content>
 				</v8:item>
 			</Format>
 			<ContextMenu name="ДатаВозникновенияКонтекстноеМеню" id="36"/>
@@ -70,6 +82,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проблемный объект</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object with issues</v8:content>
 				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
@@ -95,6 +111,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команды исправления</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fix commands</v8:content>
 				</v8:item>
 			</Title>
 			<ExtendedTooltip name="ГруппаКомандыИсправленияРасширеннаяПодсказка" id="23"/>
@@ -147,6 +167,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скрыть предупреждение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Hide warning</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<HorizontalAlign>Right</HorizontalAlign>
@@ -166,6 +190,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Пользователь может самостоятельно определить, является ли текущее предупреждение проблемой. Если предупреждение более неактуально, можно выполнить команду "Скрыть из списка". После нажатия и сохранения предупреждение будет скрыто из общего списка.</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>The user can determine whether the current warning is an issue. If the warning is no longer relevant, click "Hide from list". After clicking and saving, the warning will be hidden from the general list.</v8:content>
+							</v8:item>
 						</Title>
 					</ExtendedTooltip>
 					<Events>
@@ -182,6 +210,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Описание</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Details</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -197,6 +229,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скрыть предупреждение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Hide warning</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -207,6 +243,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Объект</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -219,6 +259,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизация</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronization</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -262,6 +306,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Комментарий администратора к предупреждению синхронизации</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Administrator comment on synchronization warning</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -282,6 +330,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дата возникновения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Issue date</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:dateTime</v8:Type>
@@ -298,11 +350,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОК</Action>
@@ -313,11 +373,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать непринятую версию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show rejected version</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть непринятую версию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the rejected version.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -334,11 +402,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать версию этой программы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show version from this application</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть версию этой программы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open version from this application</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьВерсиюВЭтойПрограмме</Action>
@@ -350,11 +426,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать отличия</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show differences</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать отличия в виде отчета</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show the differences report.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -371,11 +455,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Принять отклоненную версию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Accept rejected version</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Принять версию несмотря на установленный запрет загрузки данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Accept the version regardless of the data import restriction.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

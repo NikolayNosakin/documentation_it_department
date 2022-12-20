@@ -16,6 +16,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Наименование группы (папки)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>A group (folder) description.</v8:content>
+				</v8:item>
 			</ToolTip>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
@@ -28,12 +32,20 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вышестоящая группа (папка)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Parent group (folder)</v8:content>
+				</v8:item>
 			</Title>
 			<TitleHeight>2</TitleHeight>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вышестоящая группа (папка), объединяющая группы (папки) для удобства поиска</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>A parent group (folder), which combines groups (folders) to facilitate navigation.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<EditMode>EnterOnInput</EditMode>

@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Адресные объекты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Address objects</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
@@ -178,6 +182,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Родительский идентификатор</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parent ID</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -190,6 +198,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Идентификатор родительского объекта (региона, района, города, населенного пункта) используется для связи с вышестоящими административно-территориальными адресными объектами.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The ID of parent object (state, district, city, or locality) used for linking to superior administrative and territorial address objects.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -222,6 +234,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Муниципальный родительский идентификатор</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Municipal parent ID</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -234,6 +250,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Идентификатор родительского объекта (региона, района, города, населенного пункта) используется для связи с вышестоящими муниципальными адресными объектами.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The ID of parent object (state, district, city, or locality) used for linking to superior municipal address objects.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -266,6 +286,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -282,6 +306,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя объекта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object name</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -314,6 +342,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сокращение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Short form</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -330,6 +362,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сокращение объекта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A short form of the object.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -362,6 +398,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код КЛАДР</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>ARCA code</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -379,6 +419,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код адресного объекта в КЛАДР</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Address object code in ARCA</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -411,6 +455,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные адресные сведения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional address information</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Служебный идентификатор комбинации кодов ОКАТО и т.п.</Comment>
 					<Type>
@@ -423,6 +471,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Служебный идентификатор комбинации кодов ОКАТО, ОКТМО и т.п.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Internal ID of combinations of RNCPS, RNCMT, and other codes.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -455,6 +507,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уровень</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Level</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -472,6 +528,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уровень объекта в адресном классификаторе </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object level in the address classifier </v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -504,6 +564,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Идентификатор</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>ID</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Глобальный уникальный идентификатор адресного объекта ФНС</Comment>
 					<Type>
@@ -516,6 +580,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Глобальный уникальный идентификатор адресного объекта ФНС в адресном классификаторе</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Global unique ID of FTS address object in the address classifier</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -551,6 +619,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код субъекта РФ</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Region code</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -568,6 +640,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код субъекта РФ в адресном классификаторе</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>RF territorial entity code in the address classifier</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -609,6 +685,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Загрузить адресный классификатор</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Import address classifier</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Group>NavigationPanelOrdinary</Group>
@@ -630,6 +710,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подключить интернет-поддержку</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Enable online support</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Group>NavigationPanelOrdinary</Group>
@@ -650,6 +734,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Очистить адресный классификатор</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Clear address classifier</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

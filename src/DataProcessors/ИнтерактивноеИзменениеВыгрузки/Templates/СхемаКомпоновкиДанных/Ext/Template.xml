@@ -14,6 +14,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Все документы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>All documents</v8:content>
+				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -24,6 +28,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тип данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data type</v8:content>
+				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -33,6 +41,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Причина регистрации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Registration reason</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -70,6 +82,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Presentation</v8:content>
+				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -79,6 +95,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тип</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Type</v8:content>
 				</v8:item>
 			</title>
 			<useRestriction>
@@ -96,6 +116,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Полное имя метаданных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Full metadata name</v8:content>
+				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -106,6 +130,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Данные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data</v8:content>
+				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -115,6 +143,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Периодический</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Periodic</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -130,6 +162,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Всего объектов в базе</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Total object number in the infobase</v8:content>
 				</v8:item>
 			</title>
 			<useRestriction>
@@ -185,6 +221,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Автоматически</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Automatically</v8:content>
+			</v8:item>
 		</title>
 		<useRestriction>
 			<condition>true</condition>
@@ -207,6 +247,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>По ссылке</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>By reference</v8:content>
 			</v8:item>
 		</title>
 		<useRestriction>
@@ -231,6 +275,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Дополнительно</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Additional registration</v8:content>
+			</v8:item>
 		</title>
 		<useRestriction>
 			<condition>true</condition>
@@ -254,6 +302,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Удовлетворяет общим правилам</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>It matches general rules</v8:content>
+			</v8:item>
 		</title>
 		<useRestriction>
 			<condition>true</condition>
@@ -271,6 +323,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Количество по общим правилам</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Number by general rules</v8:content>
 			</v8:item>
 		</title>
 		<useRestriction>
@@ -295,6 +351,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Не будет отправлено</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Data item not to be exported</v8:content>
+			</v8:item>
 		</title>
 		<useRestriction>
 			<condition>true</condition>
@@ -318,6 +378,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Количество для выгрузки</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Data item number to export</v8:content>
+			</v8:item>
 		</title>
 		<useRestriction>
 			<condition>true</condition>
@@ -340,6 +404,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Упрощенный режим</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Simplified mode</v8:content>
 			</v8:item>
 		</title>
 		<useRestriction>
@@ -426,6 +494,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Узел информационной базы</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Infobase node</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ExchangePlanRef</v8:TypeSet>
@@ -440,6 +512,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Причина регистрации автоматически</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Registration reason automatically</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -460,6 +536,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Причина регистрации дополнительно</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Registration reason advanced</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:string</v8:Type>
@@ -478,6 +558,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Причина регистрации по ссылке</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Reason for registration by reference</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -498,6 +582,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Дата формирования</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Generation date</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:dateTime</v8:Type>
@@ -515,6 +603,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Представление списка</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>List presentation</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -535,6 +627,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Текст общих параметров синхронизации</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Text of general synchronization parameters</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:string</v8:Type>
@@ -554,6 +650,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Текст дополнительных параметров</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Additional parameters text</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:string</v8:Type>
@@ -572,6 +672,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Упрощенный режим</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Simplified mode</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -606,6 +710,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>* В состав отправляемых данных могут быть включены дополнительные объекты для обеспечения целостности данных</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>* Additional objects may be included in the contents of data sent to preserve data integrity</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -644,6 +752,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Правила синхронизации данных</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Data synchronization rules</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -705,6 +817,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Добавленные дополнительно данные</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Additionally added data</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -768,6 +884,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>, на </v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>, for</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:item xsi:type="dcsat:Field">
@@ -822,6 +942,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>* В состав отправляемых данных могут быть включены дополнительные объекты для обеспечения целостности данных</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>* Additional objects may be included in the contents of data sent to preserve data integrity</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -859,6 +983,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Правила синхронизации данных</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Data synchronization rules</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -920,6 +1048,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Добавленные дополнительно данные</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Additionally added data</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -983,6 +1115,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>, </v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>, </v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:item xsi:type="dcsat:Field">
@@ -993,6 +1129,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>, на </v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>, for</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -1041,6 +1181,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>* В состав отправляемых данных могут быть включены дополнительные объекты для обеспечения целостности данных</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>* Additional objects may be included in the contents of data sent to preserve data integrity</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 				</dcsat:tableCell>
@@ -1079,6 +1223,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Технические данные</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Technical data</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
@@ -1140,6 +1288,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Состав выгружаемых данных</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Content of data to export</v8:content>
+							</v8:item>
 						</dcscor:value>
 					</dcscor:item>
 				</dcsset:outputParameters>
@@ -1190,6 +1342,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Пользовательские данные</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Custom data</v8:content>
+			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
@@ -1202,6 +1358,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состав отправляемых данных*</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Content of data to send*</v8:content>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
@@ -1270,6 +1430,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Выбрано</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Selected</v8:content>
+							</v8:item>
 						</dcsset:lwsTitle>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
 							<dcsset:field>КоличествоПоОбщимПравилам</dcsset:field>
@@ -1277,6 +1441,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>По общим правилам</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>By common rules</v8:content>
 								</v8:item>
 							</dcsset:lwsTitle>
 						</dcsset:item>
@@ -1286,6 +1454,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительно</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional registration</v8:content>
 								</v8:item>
 							</dcsset:lwsTitle>
 						</dcsset:item>
@@ -1303,6 +1475,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Будет отправлено</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Objects to send</v8:content>
 							</v8:item>
 						</dcsset:lwsTitle>
 					</dcsset:item>
@@ -1340,6 +1516,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>ЧН=-</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>NZ=-</v8:content>
 									</v8:item>
 								</dcscor:value>
 							</dcscor:item>
@@ -1401,6 +1581,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Расшифровка по виду данных</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Details by data kind</v8:content>
+			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
@@ -1413,6 +1597,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состав отправляемых данных*</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Content of data to send*</v8:content>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
@@ -1472,6 +1660,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Данные</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Data</v8:content>
+							</v8:item>
 						</dcsset:lwsTitle>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -1483,6 +1675,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Выбрано</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Selected</v8:content>
+							</v8:item>
 						</dcsset:lwsTitle>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
 							<dcsset:field>КоличествоПоОбщимПравилам</dcsset:field>
@@ -1490,6 +1686,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>По общим правилам</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>By common rules</v8:content>
 								</v8:item>
 							</dcsset:lwsTitle>
 						</dcsset:item>
@@ -1499,6 +1699,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительно</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional registration</v8:content>
 								</v8:item>
 							</dcsset:lwsTitle>
 						</dcsset:item>
@@ -1510,6 +1714,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Будет отправлено</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Objects to send</v8:content>
 							</v8:item>
 						</dcsset:lwsTitle>
 					</dcsset:item>
@@ -1547,6 +1755,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>ЧН=-</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>NZ=-</v8:content>
 									</v8:item>
 								</dcscor:value>
 							</dcscor:item>

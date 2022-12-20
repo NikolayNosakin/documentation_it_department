@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Состояния рассылок отчетов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report distribution states</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -178,6 +182,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Последний запуск (начало)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Last start (beginning)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -193,6 +201,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата начала последнего запуска рассылки отчетов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The date when the last report distribution starts.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -225,6 +237,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Последний запуск (завершение)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Last start (end)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -240,6 +256,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата завершения последнего запуска рассылки отчетов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The date when the last report distribution ends.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -272,6 +292,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Успешный запуск</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Successful start</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -287,6 +311,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Начало последнего успешного запуска рассылки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Date of the last successful report distribution.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -319,6 +347,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выполнена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Completed</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -331,6 +363,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что рассылка завершена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether the distribution has been completed.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -363,6 +399,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>С ошибками</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>With errors</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -375,6 +415,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что рассылка завершена с ошибками</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether the report distribution has failed.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -407,6 +451,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Номер сеанса</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Session ID</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Используется для отбора журнала регистрации по номеру сеанса рассылки отчетов. Подробнее см. НомерСеансаИнформационнойБазы в синтакс-помощнике.</Comment>
 					<Type>
@@ -424,6 +472,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Номер сеанса, в котором выполнялся запуск рассылки (для отбора событий в журнале регистрации)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The ID of the session associated with the distribution. Used to filter events in the Event Log.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -456,6 +508,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Рассылка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Report distribution</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -467,6 +523,10 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content> </v8:content>
 						</v8:item>
 					</ToolTip>

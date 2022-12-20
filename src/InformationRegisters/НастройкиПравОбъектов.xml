@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки прав объектов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object access rights</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -178,6 +182,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право запрещено</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Deny access right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -190,6 +198,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флажок, показывающий, что настроено запрещение права.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether the right is denied.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -222,6 +234,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наследование разрешено</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allow inheritance</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -235,6 +251,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флажок, показывающий, что разрешено наследование
 настройки права нижестоящими объектами.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether subordinate objects
+inherit the access right settings.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -267,6 +288,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Порядок настройки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Settings order</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -285,6 +310,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Порядок настройки, используемых при получении
 списка настроек для формы настройки прав.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The order that applies when getting the list of settings.
+</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -317,6 +347,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уровень разрешения права</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Permission level</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -338,6 +372,14 @@
 0 - не разрешено,
 1 - разрешено без возможности наследования,
 2 - разрешено с возможностью наследования.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An additional attribute used in data access restriction templates.
+Available levels:
+0 - not allowed.
+1 - allowed, not inherited.
+2 - allowed, inherited.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -370,6 +412,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уровень запрещения права</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Restriction level</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -391,6 +437,14 @@
 0 - не разрешено,
 1 - разрешено без возможности наследования,
 2 - разрешено с возможностью наследования.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An additional attribute used in data access restriction templates.
+Available levels:
+0 - not allowed.
+1 - allowed, not inherited.
+2 - allowed, inherited.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -423,6 +477,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уровень разрешения чтения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Read" permission level</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -444,6 +502,14 @@
 0 - не разрешено,
 1 - разрешено без возможности наследования,
 2 - разрешено с возможностью наследования.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An additional attribute used in data access restriction templates.
+Available levels:
+0 - not allowed.
+1 - allowed, not inherited.
+2 - allowed, inherited.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -476,6 +542,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уровень запрещения чтения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Read" restriction level</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -497,6 +567,14 @@
 0 - не разрешено,
 1 - разрешено без возможности наследования,
 2 - разрешено с возможностью наследования.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An additional attribute used in data access restriction templates.
+Available levels:
+0 - not allowed.
+1 - allowed, not inherited.
+2 - allowed, inherited.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -529,6 +607,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уровень разрешения изменения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Edit" permission level</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -550,6 +632,14 @@
 0 - не разрешено,
 1 - разрешено без возможности наследования,
 2 - разрешено с возможностью наследования.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An additional attribute used in data access restriction templates.
+Available levels:
+0 - not allowed.
+1 - allowed, not inherited.
+2 - allowed, inherited.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -582,6 +672,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уровень запрещения изменения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Edit" restriction level</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -603,6 +697,14 @@
 0 - не разрешено,
 1 - разрешено без возможности наследования,
 2 - разрешено с возможностью наследования.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An additional attribute used in access restriction templates.
+Valid values:
+ 0 — Not allowed
+ 1 — Allowed, cannot inherit
+ 2 — Allowed, can inherit</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -635,6 +737,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -648,6 +754,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект - владелец настроек прав для себя и для подчиненных объектов
 (например, папка может хранить настройки прав для себя и для файлов).</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The object that owns the access rights applied to the object itself and its subordinate objects.
+For example, a folder can define the access rights to itself and to the files stored in it.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -683,6 +794,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -698,6 +813,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь для которого настраивается право на объекты.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A user.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -733,6 +852,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -749,6 +872,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя права, которое настраивается.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An access right.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -784,6 +911,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Table</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -798,6 +929,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вспомогательное измерение, используемое в шаблонах ограничения доступа к данным.
 Идентификатор таблицы, к которой относится настройка права.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An additional dimension used in data access restriction templates.
+The ID of the table affected by the access right.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

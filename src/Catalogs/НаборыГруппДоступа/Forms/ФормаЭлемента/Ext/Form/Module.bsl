@@ -48,7 +48,10 @@
 	ПоказатьПредупреждение(,
 		НСтр("ru = 'Набор групп доступа не следует изменять, так как он сопоставлен с разными ключами доступа.
 		           |Чтобы исправить нестандартную проблему следует удалить набор групп доступа или
-		           |связь с ним в регистрах и выполнить процедуру обновления доступа.'"));
+		           |связь с ним в регистрах и выполнить процедуру обновления доступа.';
+		           |en = 'It is recommended that you do not change the access group set as it is mapped to different access keys.
+		           |To resolve the issue, delete the access group set or
+		           |delete the mapping between the set and the access keys in the registers, and then run the access update.'"));
 	
 КонецПроцедуры
 

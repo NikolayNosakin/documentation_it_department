@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заголовок</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -43,6 +47,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интернет-сервисы и поддержка. Обновление версии программы. Загрузка классификаторов.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configure online support and services. Manage application updates. Import classifiers.</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalAlign>Top</VerticalAlign>
 					<ContextMenu name="ОписаниеРазделаКонтекстноеМеню" id="1582"/>
@@ -53,6 +61,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Справка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Help</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаСправкаExtendedTooltip" id="1603"/>
@@ -72,6 +84,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки Интернет-поддержки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Online support settings</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
@@ -87,11 +103,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подключение ИПП</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Enable online support</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подключение к Интернет-поддержке пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Enable online user support.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<HorizontalStretch>true</HorizontalStretch>
@@ -110,6 +134,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>&lt;Логин ИПП&gt;</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>&lt;Online support username&gt;</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ДекорацияЛогинИППКонтекстноеМеню" id="1727"/>
@@ -131,6 +159,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>При отключении Интернет-поддержки логин и пароль для подключения к сервисам Интернет-поддержки будут удалены из программы.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>If you disable online support, the application will forget the support username and password.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -141,6 +173,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки ИПП колонки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Online support settings columns</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -153,6 +189,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки ИПП левая колонка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Online support settings left column</v8:content>
 								</v8:item>
 							</Title>
 							<Width>44</Width>
@@ -183,6 +223,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки ИПП правая колонка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Online support settings right column</v8:content>
+								</v8:item>
 							</Title>
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -211,6 +255,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Классификаторы и курсы валют</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Classifiers and exchange rates</v8:content>
+				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Collapsible</Behavior>
@@ -225,6 +273,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление классификаторов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Classifier update</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -246,6 +298,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Обновление классификаторов</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Classifier update</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="БИПОбновлениеКлассификаторовРасширеннаяПодсказка" id="1901">
@@ -253,6 +309,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Обновление классификаторов из файла на локальном диске, в сетевом каталоге или загрузка с Портала 1С:ИТС.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Update classifiers from a file on a hard drive, from a network directory, or import them from 1C:ITS Portal.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -262,6 +322,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройка обновления</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Update settings</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -277,6 +341,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Автоматическое обновление классификаторов</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Automatic classifier update</v8:content>
+										</v8:item>
 									</Title>
 									<TitleLocation>Top</TitleLocation>
 									<RadioButtonType>Auto</RadioButtonType>
@@ -291,6 +359,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Отключено</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Disabled</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:decimal">0</Value>
 											</xr:Value>
@@ -304,6 +376,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>По расписанию через Интернет</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>On schedule online</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:decimal">1</Value>
 											</xr:Value>
@@ -316,6 +392,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>По расписанию из файла</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>On schedule from file</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:decimal">2</Value>
@@ -334,6 +414,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Классификаторы предупреждения</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Notification classifiers</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -351,6 +435,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>&lt;link ываывавыа&gt;Подключите &lt;/&gt;Интернет-поддержку пользователей</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>&lt;link ываывавыа&gt;Connect &lt;/&gt; Online user support</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="БИПДекорацияОбновлениеКлассификаторовНеВыполняетсяКонтекстноеМеню" id="1913"/>
@@ -383,6 +471,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настроить расписание</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure schedule</v8:content>
+								</v8:item>
 							</Title>
 							<Hyperlink>true</Hyperlink>
 							<VerticalAlign>Top</VerticalAlign>
@@ -400,6 +492,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Классификаторы БСП</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>SSL classifiers</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -412,6 +508,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Адресный классификатор настройки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Address classifier settings</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -430,6 +530,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Загрузка адресного классификатора</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Import address classifier</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="РегистрСведенийАдресныеОбъектыЗагрузитьАдресныйКлассификаторРасширеннаяПодсказка" id="1877">
@@ -438,6 +542,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Для экономии трафика при автоподборе и проверке адресов, а также при работе без доступа к Интернету возможно загружать и обновлять адресные сведения в программу. Требуется до 2 Гб места на диске.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>It is recommended that you import the address classifier and keep it up-to-date to save bandwidth during auto completion and auto verification of addresses. You will need up to 2 GB on the hard drive.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -450,6 +558,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Очистка адресных сведений</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Clear address information</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="РегистрСведенийАдресныеОбъектыОчиститьАдресныйКлассификаторРасширеннаяПодсказка" id="1879">
@@ -458,6 +570,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Очистка адресного классификатора.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Clear address classifier.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -469,6 +585,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Обработка загрузка курсов валют</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Import exchange rates</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -490,6 +610,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Загрузка курсов выбранных валют за указанный период с Портала 1С:ИТС.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Import exchange rates of the selected currencies for the specified period from 1C:ITS Portal.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -505,6 +629,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Новости</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>News</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
@@ -522,6 +650,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Включение новостей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Enable news</v8:content>
+						</v8:item>
 					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -538,12 +670,20 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Включить работу с новостями</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Receive 1C Company news</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настоятельно рекомендуется включить общую опцию получения новостей от фирмы 1С, что позволит оперативно получать важную информацию от службы поддержки.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>It is strongly recommended that you select this check box to receive news from 1C Company. This ensures that you get important information from the technical support on a timely basis.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -563,6 +703,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки новостей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>News settings</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -589,6 +733,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновление версии программы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Application update</v8:content>
+				</v8:item>
 			</Title>
 			<Width>86</Width>
 			<HorizontalStretch>false</HorizontalStretch>
@@ -606,6 +754,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление колонки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Update columns</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
@@ -617,6 +769,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Обновление левая колонка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Update left column</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -641,6 +797,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Обновление правая колонка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Update right column</v8:content>
+								</v8:item>
 							</Title>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
@@ -654,6 +814,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Открыть описание изменений системы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Open change log</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -675,6 +839,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>История изменений по версиям программы.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Open the application change log.</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ПояснениеОткрытьОписаниеИзмененийСистемыКонтекстноеМеню" id="1770"/>
 											<ExtendedTooltip name="ПояснениеОткрытьОписаниеИзмененийСистемыExtendedTooltip" id="1771"/>
@@ -691,6 +859,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление программы настройки с подсказкой</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Application update settings with a tooltip</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -704,6 +876,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Обновление программы настройки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Application update settings</v8:content>
 								</v8:item>
 							</Title>
 							<TitleTextColor>style:FormTextColor</TitleTextColor>
@@ -732,6 +908,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Отключена</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Never</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:decimal">0</Value>
 											</xr:Value>
@@ -745,6 +925,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>При запуске программы</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>At startup</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:decimal">1</Value>
 											</xr:Value>
@@ -757,6 +941,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>По заданному расписанию</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>On schedule</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:decimal">2</Value>
@@ -774,6 +962,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Расписание проверки обновлений</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Update check schedule</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalStretch>true</HorizontalStretch>
@@ -799,6 +991,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Настроить расписание</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Configure schedule</v8:content>
+												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
 											<VerticalAlign>Top</VerticalAlign>
@@ -821,6 +1017,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройка автоматической проверки обновления выполняется для каждого пользователя.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Automatic update check is configured for each user.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ДекорацияПодсказкаАвтоматическойПроверкиОбновленийКонтекстноеМеню" id="1989"/>
 							<ExtendedTooltip name="ДекорацияПодсказкаАвтоматическойПроверкиОбновленийРасширеннаяПодсказка" id="1990"/>
@@ -833,6 +1033,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление программы исправления</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Application update (patches)</v8:content>
 						</v8:item>
 					</Title>
 					<TitleTextColor>style:FormTextColor</TitleTextColor>
@@ -852,6 +1056,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройка исправления патчи</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure patch settings</v8:content>
+								</v8:item>
 							</Title>
 							<Width>43</Width>
 							<Group>Vertical</Group>
@@ -867,6 +1075,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Получение информации, загрузка и установка доступных исправлений (патчей) конфигурации в "тихом режиме" без участия пользователя.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Receive patch data, download patches and install them in quiet mode (no manual actions required).</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -888,6 +1100,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настроить расписание</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure schedule</v8:content>
+								</v8:item>
 							</Title>
 							<Hyperlink>true</Hyperlink>
 							<VerticalAlign>Top</VerticalAlign>
@@ -905,6 +1121,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновление и описание изменений вторая строка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Update and detailed changes (line 2)</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -916,6 +1136,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отложенная обработка данных</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Deferred data processing</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -936,6 +1160,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Сведения о ходе обновления версии программы, отложенное выполнение дополнительных процедур обработки данных.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Update progress and deferred execution of additional data processing procedures.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -946,6 +1174,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Детализировать обновление ИБВ журнале регистрации</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Log details of infobase update.</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -962,6 +1194,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Детализировать ход обновления в журнале регистрации</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Log update details</v8:content>
+										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -972,6 +1208,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Записывать в журнал регистрации подробную информацию о ходе выполнения обновления.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Log details on the update progress.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -1003,6 +1243,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверка контрагентов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Counterparty validation</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
@@ -1016,6 +1260,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Левая колонка первой группы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Left column of the first group</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -1033,6 +1281,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Автоматически проверять контрагентов по ЕГРН</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Automatically check counterparties against USRT</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -1045,6 +1297,11 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>&lt;color #807A59&gt;Включение автоматической проверки может замедлить открытие документов на медленных компьютерах. Для таких компьютеров рекомендуется использовать &lt;/&gt;&lt;color #807A59&gt;ручную&lt;/&gt;&lt;color #807A59&gt; проверку&lt;/&gt;&lt;color #807A59&gt; по кнопке в подменю "Еще".&lt;/&gt;
 &lt;link e1cib/app/Обработка.ИнструкцияПоИспользованиюПроверкиКонтрагента&gt;Подробнее о сервисе&lt;/&gt;</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>&lt;color #807A59&gt;If you enable automatic validation, it might slow down document opening on slow computers. It is recommended that you use &lt;/&gt;&lt;color #807A59&gt;manual&lt;/&gt;&lt;color #807A59&gt; validation&lt;/&gt;&lt;color #807A59&gt; using the button in the "More actions" menu.&lt;/&gt;
+&lt;link e1cib/app/Обработка.ИнструкцияПоИспользованиюПроверкиКонтрагента&gt;More about the service&lt;/&gt;</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -1059,6 +1316,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Правая колонка первой группы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Right column of the first group</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -1077,6 +1338,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Проверить доступ к веб-сервису</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Check web service connection</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПроверитьДоступКСервисуРасширеннаяПодсказка" id="1814"/>
 						</Button>
@@ -1086,6 +1351,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>&lt;Предупреждение про тестовый режим работы сервиса&gt;</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>&lt;Notification on service running in test mode&gt;</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ПредупреждениеПроТестовыйРежимПроверкиКонтрагентаКонтекстноеМеню" id="1816"/>
@@ -1100,6 +1369,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>1СПАРК Риски</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>1CPARK Risks</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
@@ -1117,6 +1390,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сервис 1СПАРК Риски</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>1CPARK Risks service</v8:content>
+						</v8:item>
 					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -1129,6 +1406,11 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Оценка надежности и мониторинг контрагентов в программах 1С для принятия взвешенных решений о сотрудничестве и минимизации налоговых рисков.
 &lt;link https://portal.1c.ru/app/1spark-risks/&gt;Подробнее о сервисе&lt;/&gt;</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Evaluate counterparty reliability before you make decisions and minimize your tax exposure.
+&lt;link https://portal.1c.ru/app/1spark-risks/&gt;More about the service&lt;/&gt;</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
@@ -1144,6 +1426,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обсуждения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Conversations</v8:content>
+				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Collapsible</Behavior>
@@ -1157,6 +1443,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подключение обсуждений</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Enable conversations</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -1174,6 +1464,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>&lt;Состояние подключения обсуждений&gt;</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>&lt;Conversations enabled/disabled state&gt;</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="СостояниеПодключенияОбсужденийКонтекстноеМеню" id="1823"/>
 							<ExtendedTooltip name="СостояниеПодключенияОбсужденийРасширеннаяПодсказка" id="1824"/>
@@ -1186,6 +1480,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подключить</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Enable</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодключитьОтключитьОбсужденияРасширеннаяПодсказка" id="1826"/>
 						</Button>
@@ -1195,6 +1493,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Общение пользователей друг с другом в режиме реального времени.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Users' communication in real time</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ПояснениеПодключениеОбсужденийКонтекстноеМеню" id="1830"/>
@@ -1213,6 +1515,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Получать и отправлять сообщения в мессенджеры. Например в Telegram, VK.</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Receive and send messages to texting apps, for example, Telegram or VK.</v8:content>
+							</v8:item>
 						</Title>
 					</ExtendedTooltip>
 				</Button>
@@ -1223,6 +1529,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Онлайн-поддержка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Online support</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Collapsible</Behavior>
@@ -1237,6 +1547,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разрешение на вызов онлайн поддержки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allow online support</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -1253,6 +1567,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Онлайн-поддержка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Online support</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -1264,6 +1582,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Разрешить запуск приложения для соединения со специалистом онлайн-поддержки.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Allow starting the application to communicate with an online support specialist.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -1278,6 +1600,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка онлайн поддержки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configure online support</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -1299,6 +1625,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Настройка запуска приложения на этом компьютере.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Configure application startup settings on this computer.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -1311,6 +1641,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Склонения представлений объектов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object presentation declensions</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Collapsible</Behavior>
@@ -1325,6 +1659,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разрешение склонения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allow declension</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -1342,6 +1680,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Использовать альтернативный сервис склонения Морфер</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Decline with Morpher service</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -1354,6 +1696,11 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Разрешить использование внешнего сервиса &lt;link http://www.morpher.ru&gt;Морфер&lt;/&gt; для получения альтернативного варианта склонения представлений объектов в падежах (требуется подключение к Интернет).
 Если внешний сервис не используется, склонение представлений выполняется с применением встроенных возможностей программы.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Allow usage of &lt;link http://www.morpher.ru&gt;Morpher&lt;/&gt; declension service to get an alternative object presentation declension in grammar cases (Internet connection is required).
+If the external service is not used, presentation declension is carried out using the built-in application functionality.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -1368,6 +1715,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка склонения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configure declension</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -1389,6 +1740,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Ввод параметров авторизации на сервере склонения.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Enter declension server authorization parameters.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -1402,11 +1757,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Центр мониторинга</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Monitoring center</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа оценка производительности</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Performance monitor group</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
@@ -1422,6 +1785,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разрешить отправлять данные</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allow sending data</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -1440,6 +1807,12 @@
 Собранные сведения являются обезличенными и содержат только статистические показатели. Подготовка
 и отправка отчетов не замедлит работу программы.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Reports on application usage help us to determine what should be improved first.
+The collected data does not contain any personal information; it only contains statistics. Collecting and sending data will not slow down the application.
+</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ДекорацияПояснениеКонтекстноеМеню" id="1668"/>
 							<ExtendedTooltip name="ДекорацияПояснениеРасширеннаяПодсказка" id="1669"/>
@@ -1449,6 +1822,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Переключатель</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Radio button</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -1476,6 +1853,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Разрешить автоматическую отправку сведений об использовании программы в фирму "1С"</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Allow automatic sending of application usage data to 1C Company</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:decimal">0</Value>
 											</xr:Value>
@@ -1494,6 +1875,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки отправки отчетов об ошибках</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Settings of error report sending</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -1515,6 +1900,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Настройки центра мониторинга</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Monitoring center settings</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ЦентрМониторингаНастройкиРасширеннаяПодсказка" id="1841"/>
 								</Button>
@@ -1525,6 +1914,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отправить контактную информацию</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Send contact information</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -1545,6 +1938,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Сообщить о проблемах производительности</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Inform of performance issues</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ЦентрМониторингаОтправитьКонтактнуюИнформациюРасширеннаяПодсказка" id="1853"/>
 								</Button>
@@ -1557,6 +1954,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Стороннему</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Third-party</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -1585,6 +1986,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Разрешить отправку сведений стороннему разработчику</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Allow sending data to a third-party</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">1</Value>
 									</xr:Value>
@@ -1604,6 +2009,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отправки данных настройка ресурса общая</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configure resource for sending data</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -1622,6 +2031,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Адрес сервиса</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Service address</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ЦентрМониторингаАдресСервисаКонтекстноеМеню" id="1684"/>
 							<ExtendedTooltip name="ЦентрМониторингаАдресСервисаРасширеннаяПодсказка" id="1685"/>
@@ -1636,6 +2049,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Запретить отправлять данные</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Deny sending data</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -1662,6 +2079,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Запретить отправку сведений</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Deny sending data</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">2</Value>
 									</xr:Value>
@@ -1683,6 +2104,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Внешние компоненты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add-ins</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
@@ -1695,6 +2120,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Управление внешними компонентами</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Manage add-ins</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -1713,6 +2142,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройка внешних компонент</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure add-ins</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОбработкаУправлениеВнешнимиКомпонентамиРасширеннаяПодсказка" id="1721">
@@ -1720,6 +2153,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Настройка автообновления внешних компонент сторонних поставщиков, подключенных к программе.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Configure auto update of third-party add-ins attached to the application.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -1733,6 +2170,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Система быстрых платежей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Instant payments</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
@@ -1749,6 +2190,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>БИП группа интеграция с платежными системами лево</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OSL group integration with payment systems left</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -1761,6 +2206,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки интеграции</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Integration settings</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
@@ -1777,6 +2226,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Настройки подключения</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Connection settings</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="БИПНастройкаИнтеграцииСПлатежнымиСистемамиРасширеннаяПодсказка" id="1924">
@@ -1784,6 +2237,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Настройка подключения и обмена данными с Системой быстрых платежей</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Set up connection and data exchange with Instant payments</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -1795,6 +2252,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группа настройка шаблонов СБП</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group set up FPS templates</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -1813,6 +2274,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Шаблоны необходимы для отправки писем и SMS со счетами на оплату через СБП.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Templates are required to send mails and text messages with invoices to be paid via Faster Payments System.</v8:content>
+											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
@@ -1826,6 +2291,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>БИП группа интеграция с платежными системами право</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OSL group integration with payment systems right</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -1838,6 +2307,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Длительность операции</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Operation duration</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -1854,6 +2327,11 @@
 											<v8:content>Длительность
 операции</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Operation
+duration</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
 									<ContextMenu name="БИПДлительностьОперацииПлатежнойСистемыКонтекстноеМеню" id="1946"/>
@@ -1868,12 +2346,21 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>секунд</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>In seconds.</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Длительность ожидания подтверждения
 оплаты покупателем.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Payment confirmation
+timeout.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -1892,6 +2379,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>1С-Коннект</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>1C-Connect</v8:content>
+				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Collapsible</Behavior>
@@ -1905,6 +2396,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>БИП группа сервис коннект</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OSL group connect service</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -1925,6 +2420,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Корпоративный чат с возможностью звонить, передавать файлы и удаленно подключаться к компьютеру. Оперативная поддержка пользователей программ 1С.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Corporate chat with the ability to make calls, transfer files and remotely connect to a computer. First line support of 1C application users.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 							<Events>
@@ -1938,6 +2437,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>БИП группа настройка коннект</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>ISL group configuration connect</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -1953,6 +2456,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройка интеграции</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure integration</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="БИПНастройкаИнтеграцииСКоннектРасширеннаяПодсказка" id="1935">
@@ -1960,6 +2467,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Настройка запуска приложения на этом компьютере.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Configure application startup settings on this computer.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -1973,6 +2484,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>ЮKassa</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>YooMoney</v8:content>
 				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
@@ -1988,6 +2503,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>БИП онлайн оплаты лево</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OSL online payments left</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -2002,12 +2521,20 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выставлять счета и принимать платежи</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Issue invoices and accept payments</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Позволяет выставлять счета для оплаты через ЮKassa и получать информацию о платежах.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Allows you to issue invoices to be paid via YooMoney and to receive information about payments.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -2024,6 +2551,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Получение уведомлений</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Receive notifications</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -2036,6 +2567,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Автоматическое получение уведомлений от сервиса</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Automatic receipt of service notifications</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
@@ -2051,6 +2586,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Настроить расписание</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Configure schedule</v8:content>
 										</v8:item>
 									</Title>
 									<Hyperlink>true</Hyperlink>
@@ -2070,6 +2609,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа онлайн оплаты право</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group online payments right</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -2082,6 +2625,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группа открыть профили ЮKassa</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group open YooMoney profiles</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -2098,6 +2645,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Настройки ЮКаssа</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>YooMoney settings</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="БИПОткрытьНастройкиОнлайнОплатРасширеннаяПодсказка" id="1978">
@@ -2105,6 +2656,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Настройки выставления счетов и получения информации об оплатах через ЮKassa.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Settings of issuing invoices and receiving information about payments via YooMoney.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -2114,6 +2669,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Настройка шаблонов онлайн оплат</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Online payment template setup</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -2131,6 +2690,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Шаблоны необходимы для отправки писем со счетами на оплату через ЮKassa.</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Templates are required to send messages with invoices to be paid via YooMoney.</v8:content>
 													</v8:item>
 												</Title>
 											</ExtendedTooltip>
@@ -2157,6 +2720,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Центр мониторинга адрес сервиса</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Monitoring center: service address</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2171,6 +2738,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Центр мониторинга разрешить отправлять данные</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Monitoring center: allow sending data</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2188,6 +2759,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Автоматическая проверка обновлений</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check for updates</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -2204,6 +2779,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить работу с новостями</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Receive 1Ci newsletters</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2218,6 +2797,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сервис 1СПАРК Риски</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>1CPARK Risks service</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2228,6 +2811,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Последний полученный дистрибутив платформы сохранен в каталог</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>The most recent platform distribution package is saved to the directory</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2243,6 +2830,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использовать проверку контрагентов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check counterparties</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2279,6 +2870,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загружать и устанавливать исправления (патчи) автоматически</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Download and install patches automatically</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2289,6 +2884,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>БИП Файл классификаторов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OSL Classifier file</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2304,6 +2903,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>БИП Вариант обновления классификаторов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OSL Classifier update option</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2331,6 +2934,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сервис 1С-Коннект</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>1C Connect service</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2346,6 +2953,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Длительность операции</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Operation duration</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2363,6 +2974,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>БИПОнлайн оплаты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OSLOnline payments</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2373,6 +2988,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>БИПИспользовать автоматическое получение уведомления от онлайн оплат</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OSLUse automatic notification receipt from online payments</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2387,6 +3006,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подключить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable</v8:content>
+				</v8:item>
 			</Title>
 			<Action>БИПВойтиИлиВыйти</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -2397,11 +3020,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Монитор Портала 1С:ИТС</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>1C:ITS Portal Dashboard</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Информация о поддержке программного продукта и др.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Technical support and other services.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>БИПМониторИнтернетПоддержки</Action>
@@ -2413,11 +3044,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновление программы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Application update</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Получение информации об обновлениях программы и автоматическая установка обновлений.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check for and install updates automatically.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>БИПОбновлениеПрограммы</Action>
@@ -2429,11 +3068,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сообщение в службу технической поддержки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Contact technical support</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отправка сообщения в службу технической поддержки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Send a message to technical support.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>БИПСообщениеВСлужбуТехническойПоддержки</Action>
@@ -2445,11 +3092,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Управление новостями</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>News management</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Управление настройками новостей, а также ручное обновление классификаторов и списка новостей.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Manage news settings; manually update classifiers and the news list.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>БИПУправлениеНовостями</Action>
@@ -2461,11 +3116,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Результаты обновления и дополнительная обработка данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update results and additional data processing</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Результаты обновления и дополнительная обработка данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update results and additional data processing</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОтложеннаяОбработкаДанных</Action>
@@ -2477,6 +3140,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить доступ к веб-сервису</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check web service connection</v8:content>
+				</v8:item>
 			</Title>
 			<Action>БИППроверкаКонтрагентовПроверитьДоступКВебСервису</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -2486,6 +3153,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подключить/Отключить обсуждения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable/disable conversations</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ПодключитьОтключитьОбсуждения</Action>
@@ -2497,6 +3168,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновление классификаторов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Classifier update</v8:content>
+				</v8:item>
 			</Title>
 			<Action>БИПОбновлениеКлассификаторов</Action>
 		</Command>
@@ -2505,6 +3180,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройка интеграции</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure integration</v8:content>
 				</v8:item>
 			</Title>
 			<Action>БИПНастройкаИнтеграцииСПлатежнымиСистемами</Action>
@@ -2515,6 +3194,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройка онлайн-поддержки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure online support</v8:content>
+				</v8:item>
 			</Title>
 			<Action>НастройкаОнлайнПоддержки</Action>
 		</Command>
@@ -2524,11 +3207,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройка интеграции с 1С-Коннект</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure integration with 1C Connect</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройка интеграции с 1С-Коннект</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure integration with 1C-Connect</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>БИПНастройкаИнтеграцииСКоннект</Action>
@@ -2539,11 +3230,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сообщения из других программ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Messages from other applications</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить получение и отправку сообщений в другие мессенджеры. Например в Telegram, VK</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure receiving and sending of messages to other texting apps, for example, Telegram or VK.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОбсужденияНастроитьИнтеграциюСВнешнимиСистемами</Action>
@@ -2555,6 +3254,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>БИПОткрыть настройки онлайн оплат</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OSLOpen online payment settings</v8:content>
+				</v8:item>
 			</Title>
 			<Action>БИПОткрытьНастройкиОнлайнОплат</Action>
 		</Command>
@@ -2563,6 +3266,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Шаблоны сообщений</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Message templates</v8:content>
 				</v8:item>
 			</Title>
 			<Action>БИПОткрытьШаблоныСообщенийОнлайнОплат</Action>
@@ -2573,11 +3280,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Информационно-технологическое сопровождение (1С:ИТС)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Information and Technology Support (1C:ITS)</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переход на портал информационно-технологического сопровождения 1С:ИТС.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Navigating to 1C:ITS portal.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>БИПИнформационноТехнологическоеСопровождение</Action>
@@ -2587,6 +3302,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Шаблоны сообщений</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Message templates</v8:content>
 				</v8:item>
 			</Title>
 			<Action>БИПОткрытьШаблоныСообщенийСБП</Action>

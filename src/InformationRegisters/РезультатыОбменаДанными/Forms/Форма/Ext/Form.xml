@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Предупреждения при синхронизации данных</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Data synchronization warnings</v8:content>
+		</v8:item>
 	</Title>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
@@ -24,6 +28,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отборов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filters</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
@@ -67,6 +75,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Причина</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reason</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ClearButton>true</ClearButton>
@@ -88,6 +100,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать информацию для технических специалистов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>View related event log records</v8:content>
+				</v8:item>
 			</Title>
 			<ExtendedTooltip name="ПоказатьИнформациюДляТехническихСпециалистовРасширеннаяПодсказка" id="822"/>
 		</Button>
@@ -96,6 +112,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Результаты обмена данными</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data exchange result</v8:content>
 				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
@@ -110,11 +130,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Проблемы при отправке</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Sending issues</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список объектов зарегистрированных к отправке в другую программу, но имеют проблемы из-за которых не могут быть выгружены.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The list of objects that are registered for sending to another application but cannot be exported due to some issues.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>
@@ -130,6 +158,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>При отправке данных в другую программу обнаружены объекты информационной базы, которые зарегистрированы к обмену, но не могут быть выгружены по различным причинам. Необходимо открыть проблемный объект и устранить причины, мешающие его отправке в другую программу. При последующей отправке в другую программу список проблем будет актуализирован.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>When sending data to another application, some of the infobase objects were found that are registered in the data exchange but cannot be exported due to some issues. To fix this, open each object and eliminate the issues. This list will be updated at the next attempt to send the objects to another application.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ДекорацияОшибкиXDTOКонтекстноеМеню" id="597"/>
@@ -147,6 +179,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Незаполненные реквизиты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Blank attributes</v8:content>
 								</v8:item>
 							</Title>
 							<CurrentRowUse>SelectionPresentation</CurrentRowUse>
@@ -182,6 +218,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Незаполненные реквизиты контекстное меню группа игнорирования</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Blank attributes context menu ignore group</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="ОшибкиОбъектаXDTOКонтекстноеМенюГруппаИгнорированияРасширеннаяПодсказка" id="710"/>
@@ -224,6 +264,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Игнорирования ошибок XDTO</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Ignore XDTO errors </v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="ГруппаИгнорированияОшибокXDTOРасширеннаяПодсказка" id="722"/>
@@ -322,6 +366,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Незаполненные реквизиты группа картинки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Blank attributes picture group</v8:content>
+										</v8:item>
 									</Title>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="ОшибкиОбъектаXDTOГруппаКартинкиРасширеннаяПодсказка" id="686"/>
@@ -332,6 +380,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Картинка</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Picture</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>None</TitleLocation>
@@ -349,6 +401,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Вид данных</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Data kind</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ОшибкиОбъектаXDTOПредставлениеОбъектаКонтекстноеМеню" id="747"/>
 											<ExtendedTooltip name="ОшибкиОбъектаXDTOПредставлениеОбъектаРасширеннаяПодсказка" id="748"/>
@@ -361,6 +417,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="ОшибкиОбъектаXDTOСсылкаКонтекстноеМеню" id="750"/>
@@ -386,6 +446,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Непроведенные документы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Unposted documents</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>StdPicture.Document</xr:Ref>
@@ -402,6 +466,11 @@
 									<v8:content>Документы, полученные при синхронизации данных с другой программой, не удалось провести автоматически.
 Рекомендуется открыть документ и устранить проблемы, мешающие его проведению.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Some of the documents received during data synchronization with the other application could not be posted automatically.
+It is recommended that you open each document and eliminate the issues preventing its posting.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ДекорацияДокументыКонтекстноеМеню" id="58"/>
 							<ExtendedTooltip name="ДекорацияДокументыExtendedTooltip" id="370"/>
@@ -416,6 +485,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Непроведенные документы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Unposted documents</v8:content>
 								</v8:item>
 							</Title>
 							<CurrentRowUse>SelectionPresentation</CurrentRowUse>
@@ -456,6 +529,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Непроведенные документы контекстное меню группа игнорирования</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Unposted documents context menu ignore group</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="НепроведенныеДокументыКонтекстноеМенюГруппаИгнорированияExtendedTooltip" id="374"/>
@@ -503,6 +580,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Игнорирования документов</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Ignore documents</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="ГруппаИгнорированияДокументовExtendedTooltip" id="381"/>
@@ -605,11 +686,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Ссылка на документ</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>A reference to a document.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="НепроведенныеДокументыСсылкаКонтекстноеМеню" id="256"/>
@@ -621,6 +710,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Непроведенные документы группа картинки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Unposted documents picture group</v8:content>
+										</v8:item>
 									</Title>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="НепроведенныеДокументыГруппаКартинкиExtendedTooltip" id="393"/>
@@ -631,6 +724,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Пометка удаления</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Deletion mark</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>None</TitleLocation>
@@ -650,11 +747,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Вид документа</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Document type</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Тип документа</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Document type</v8:content>
 												</v8:item>
 											</ToolTip>
 											<ContextMenu name="НепроведенныеДокументыТипСтрокойКонтекстноеМеню" id="20"/>
@@ -669,11 +774,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Номер</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Number</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Номер документа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The document number.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Width>14</Width>
@@ -687,11 +800,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Date</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата документа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The document date.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Width>9</Width>
@@ -705,6 +826,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Причина, по которой не провелся документ</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The reason why the document could not be posted.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<Width>10</Width>
 									<ContextMenu name="НепроведенныеДокументыПричинаКонтекстноеМеню" id="16"/>
@@ -717,11 +842,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата получения</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Received on</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата получения непроведенного документа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The date when the document was received.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Width>15</Width>
@@ -735,11 +868,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Отправитель</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Sender</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Информационная база или приложение из которого получен документ</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The source infobase or application.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Width>15</Width>
@@ -755,6 +896,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Незаполненные реквизиты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Blank attributes</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -772,6 +917,11 @@
 									<v8:content>При синхронизации с другой программой были получены данные, которые не удалось корректно записать, т.к. один или несколько
 реквизитов не были корректно заполнены. Рекомендуется открыть элемент справочника и заполнить эти реквизиты.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Some of the data received during the synchronization could not be saved correctly because one or several attributes were blank.
+It is recommended that you open the catalog item and fill in the attributes.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ДекорацияОбъектыКонтекстноеМеню" id="60"/>
 							<ExtendedTooltip name="ДекорацияОбъектыExtendedTooltip" id="404"/>
@@ -787,6 +937,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Незаполненные реквизиты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Blank attributes</v8:content>
 								</v8:item>
 							</Title>
 							<CurrentRowUse>SelectionPresentation</CurrentRowUse>
@@ -822,6 +976,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Незаполненные реквизиты контекстное меню группа игнорирования</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Blank attributes context menu ignore group</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="НезаполненныеРеквизитыКонтекстноеМенюГруппаИгнорированияExtendedTooltip" id="407"/>
@@ -864,6 +1022,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Игнорирования объектов</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Ignore objects</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="ГруппаИгнорированияОбъектовExtendedTooltip" id="413"/>
@@ -962,6 +1124,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Незаполненные реквизиты группа картинки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Blank attributes picture group</v8:content>
+										</v8:item>
 									</Title>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="НезаполненныеРеквизитыГруппаКартинкиExtendedTooltip" id="425"/>
@@ -973,12 +1139,20 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Пометка удаления</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Deletion mark</v8:content>
+												</v8:item>
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Тип данных</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Data type</v8:content>
 												</v8:item>
 											</ToolTip>
 											<ValuesPicture>
@@ -996,6 +1170,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Вид данных</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Data kind</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="НезаполненныеРеквизитыТипСтрокойКонтекстноеМеню" id="83"/>
 											<ExtendedTooltip name="НезаполненныеРеквизитыТипСтрокойExtendedTooltip" id="427"/>
@@ -1009,11 +1187,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные с незаполненными реквизитами</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data items with blank attributes.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="НезаполненныеРеквизитыСсылкаКонтекстноеМеню" id="85"/>
@@ -1026,11 +1212,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Date</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата получения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Received on</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="НезаполненныеРеквизитыДатаВозникновенияКонтекстноеМеню" id="77"/>
@@ -1043,6 +1237,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Причина, по которой данные не удалось корректно записать</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The reason why the data could not be saved correctly.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<ContextMenu name="НезаполненныеРеквизитыПричинаКонтекстноеМеню" id="79"/>
 									<ExtendedTooltip name="НезаполненныеРеквизитыПричинаExtendedTooltip" id="430"/>
@@ -1054,11 +1252,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Отправитель</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Sender</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Информационная база или приложение из которого получены данные</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The source infobase or application.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="НезаполненныеРеквизитыУзелИнформационнойБазыКонтекстноеМеню" id="75"/>
@@ -1073,6 +1279,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Конфликты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Conflicts</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -1090,6 +1300,11 @@
 									<v8:content>Данные были одновременно изменены в этой и в другой программе, в результате чего появилось две версии
 одного элемента справочника (документа) и возник конфликт, который был разрешен автоматически.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Some data was changed both in this application and in the other application.
+This caused synchronization conflicts, which were resolved automatically.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ДекорацияКоллизииКонтекстноеМеню" id="177"/>
 							<ExtendedTooltip name="ДекорацияКоллизииExtendedTooltip" id="434"/>
@@ -1105,6 +1320,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Коллизии</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Conflicts</v8:content>
 								</v8:item>
 							</Title>
 							<CurrentRowUse>SelectionPresentation</CurrentRowUse>
@@ -1151,6 +1370,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Коллизии контекстное меню группа разделитель</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Collisions context menu separator group</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КоллизииКонтекстноеМенюГруппаРазделительРасширеннаяПодсказка" id="439"/>
 										<ChildItems>
@@ -1196,6 +1419,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Изменить данные</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit data</v8:content>
+											</v8:item>
 										</Title>
 										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="КоллизииИзменитьExtendedTooltip" id="445"/>
@@ -1205,6 +1432,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Коллизии группа игнорирования</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Conflicts ignore group</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КоллизииГруппаИгнорированияExtendedTooltip" id="446"/>
@@ -1235,6 +1466,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Пересмотреть</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Revise</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КоллизииИзменитьРезультатКонфликтаExtendedTooltip" id="449"/>
 									</Button>
@@ -1249,6 +1484,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Коллизии группа служебные</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Conflicts service group</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КоллизииГруппаСлужебныеExtendedTooltip" id="451"/>
@@ -1332,11 +1571,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата конфликта</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Conflict date</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата возникновения конфликта</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The conflict date.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="КоллизииДатаКонтекстноеМеню" id="333"/>
@@ -1349,11 +1596,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Элемент справочника (документа) для которого возник конфликт</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The catalog item or a document where a conflict occurred.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="КоллизииСсылкаКонтекстноеМеню" id="331"/>
@@ -1366,11 +1621,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Вид данных</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data type</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Вид справочника (документа)</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The catalog or document type.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="КоллизииТипСтрокойКонтекстноеМеню" id="302"/>
@@ -1383,11 +1646,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные получены из программы</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data received from</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Информационная база или приложение из которого получена версия</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The source infobase or application.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="КоллизииАвторДругойВерсииКонтекстноеМеню" id="292"/>
@@ -1400,17 +1671,29 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Статус полученной версии</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Received version status</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Статус версии, полученной из другой программы</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The status of the version that was received from the other application.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>БЛ=Отклонена; БИ=Принята</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>BF=Rejected; BT=Accepted</v8:content>
 										</v8:item>
 									</Format>
 									<ContextMenu name="КоллизииДругаяВерсияПринятаКонтекстноеМеню" id="300"/>
@@ -1426,6 +1709,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Непринятые по дате запрета</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Items rejected due to restriction date</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>CommonPicture.СинхронизацияДанныхНепринятыеПоДате</xr:Ref>
@@ -1440,6 +1727,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>При синхронизации были получены данные, которые были отклонены из-за установленного запрета на загрузку данных, в результате чего появилась непринятая версия документа. Для того чтобы принять версию несмотря на запрет, используйте команду "Принять версию".</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>When synchronizing data, some received data was rejected as the data import restriction is enabled. Non-received document version was created. To accept the version regardless of the restriction, click "Accept version."</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ДекорацияНепринятыеКонтекстноеМеню" id="179"/>
@@ -1457,6 +1748,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Непринятые по дате</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data rejected by date</v8:content>
 								</v8:item>
 							</Title>
 							<CurrentRowUse>SelectionPresentation</CurrentRowUse>
@@ -1507,6 +1802,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Непринятые по дате контекстное меню группа игнорирования</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Data rejected by date context menu ignore group</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="НепринятыеПоДатеКонтекстноеМенюГруппаИгнорированияExtendedTooltip" id="473"/>
@@ -1562,6 +1861,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Непринятые по дате группа игнорирования</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Rejected by date ignore group</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="НепринятыеПоДатеГруппаИгнорированияExtendedTooltip" id="481"/>
 										<ChildItems>
@@ -1589,6 +1892,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Непринятые по дате группа служебные</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Declined by date service group</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="НепринятыеПоДатеГруппаСлужебныеExtendedTooltip" id="485"/>
@@ -1670,6 +1977,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дата</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Date</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="НепринятыеПоДатеДатаКонтекстноеМеню" id="335"/>
 									<ExtendedTooltip name="НепринятыеПоДатеДатаРасширеннаяПодсказка" id="494"/>
@@ -1681,11 +1992,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Непринятые по дате запрета данные</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Items rejected due to a data import restriction.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="НепринятыеПоДатеСсылкаКонтекстноеМеню" id="221"/>
@@ -1698,11 +2017,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Вид данных</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data type</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Тип данных</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data type</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="НепринятыеПоДатеТипСтрокойКонтекстноеМеню" id="304"/>
@@ -1715,11 +2042,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные получены из программы</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data received from</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Информационная база или приложение из которого получена версия</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The source infobase or application.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="НепринятыеПоДатеАвторДругойВерсииКонтекстноеМеню" id="248"/>
@@ -1734,6 +2069,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ошибки кода обработчиков при отправке</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data sending handler errors</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -1750,6 +2089,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>При отправке данных в другую программу обнаружены ошибки в коде правил конвертации объектов. Необходимо обновится на актуальную версию программы, либо связаться с обслуживающей организацией.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>When sending data to another application, errors were found in the code of object conversion rules. Please either update the application to the latest version or contact the service provider.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ДекорацияОшибкиОтправкиКонтекстноеМеню" id="762"/>
 							<ExtendedTooltip name="ДекорацияОшибкиОтправкиРасширеннаяПодсказка" id="763"/>
@@ -1763,6 +2106,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Ошибки при выполнении кода обработчиков отправки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Runtime errors in data sending handlers</v8:content>
 								</v8:item>
 							</Title>
 							<AutoRefresh>false</AutoRefresh>
@@ -1840,6 +2187,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="ОшибкиПриВыполненииКодаОбработчиковОтправкиСсылкаКонтекстноеМеню" id="789"/>
 									<ExtendedTooltip name="ОшибкиПриВыполненииКодаОбработчиковОтправкиСсылкаРасширеннаяПодсказка" id="790"/>
@@ -1864,6 +2215,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ошибки кода обработчиков при получении</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data receiving handler errors</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
@@ -1879,6 +2234,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>При получении данных из другой программы обнаружены ошибки в коде правил конвертации объектов. Необходимо обновится на актуальную версию программы, или связаться с обслуживающей организацией.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>When receiving data from another application, errors were found in the code of object conversion rules. Please either update the application to the latest version or contact the service provider.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ДекорацияОшибкиПолученияКонтекстноеМеню" id="765"/>
 							<ExtendedTooltip name="ДекорацияОшибкиПолученияРасширеннаяПодсказка" id="766"/>
@@ -1892,6 +2251,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Ошибки при выполнении кода обработчиков получения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Runtime errors in data receiving handlers</v8:content>
 								</v8:item>
 							</Title>
 							<AutoRefresh>false</AutoRefresh>
@@ -1969,6 +2332,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="ОшибкиПриВыполненииКодаОбработчиковПолученияСсылкаКонтекстноеМеню" id="813"/>
 									<ExtendedTooltip name="ОшибкиПриВыполненииКодаОбработчиковПолученияСсылкаРасширеннаяПодсказка" id="814"/>
@@ -1995,6 +2362,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель подробное описание</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Detailed description panel</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ПанельПодробноеОписаниеРасширеннаяПодсказка" id="824"/>
@@ -2004,6 +2375,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ошибки XDTO подробное описание</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>XDTO page detailed error message</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОшибкиXDTOПодробноеОписаниеРасширеннаяПодсказка" id="826"/>
@@ -2015,6 +2390,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Данные не удалось отправить по причине</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Could not send the data for the following reason</v8:content>
 								</v8:item>
 							</Title>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -2030,6 +2409,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница непроведенные документы подробное описание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Unposted documents page detailed description</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаНепроведенныеДокументыПодробноеОписаниеРасширеннаяПодсказка" id="828"/>
 					<ChildItems>
@@ -2040,6 +2423,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Документ не удалось провести автоматически по причине</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Could not post the document for the following reason</v8:content>
 								</v8:item>
 							</Title>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -2055,6 +2442,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница незаполненные реквизиты подробное описание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Blank attributes page detailed description</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаНезаполненныеРеквизитыПодробноеОписаниеРасширеннаяПодсказка" id="830"/>
 					<ChildItems>
@@ -2065,6 +2456,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Данные не удалось записать по причине</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Failed to save data due to:</v8:content>
 								</v8:item>
 							</Title>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -2079,6 +2474,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница коллизии подробное описание</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Conflicts page detailed description</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаКоллизииПодробноеОписаниеРасширеннаяПодсказка" id="832"/>
@@ -2100,6 +2499,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница непринятые по дате запрета подробное описание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Items rejected due to restriction date page detailed description</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаНепринятыеПоДатеЗапретаПодробноеОписаниеРасширеннаяПодсказка" id="834"/>
 					<ChildItems>
@@ -2110,6 +2513,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Данные были отклонены из-за запрета</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The data was rejected due to a data import restriction</v8:content>
 								</v8:item>
 							</Title>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -2125,6 +2532,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ошибки при выполнении кода обработчиков отправки подробное описание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Error page executing send handlers code detailed message</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОшибкиПриВыполненииКодаОбработчиковОтправкиПодробноеОписаниеРасширеннаяПодсказка" id="836"/>
 					<ChildItems>
@@ -2135,6 +2546,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Данные не удалось отправить по причине</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Could not send the data for the following reason</v8:content>
 								</v8:item>
 							</Title>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -2150,6 +2565,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ошибки при выполнении кода обработчиков получения подробное описание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Error page executing receive handlers code detailed message</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОшибкиПриВыполненииКодаОбработчиковПолученияПодробноеОписаниеРасширеннаяПодсказка" id="838"/>
 					<ChildItems>
@@ -2160,6 +2579,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Данные не удалось получить по причине</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Could not receive the data for the following reason</v8:content>
 								</v8:item>
 							</Title>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -2178,6 +2601,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Непроведенные документы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unposted documents</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2240,6 +2667,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Период</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Period</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:StandardPeriod</v8:Type>
@@ -2254,6 +2685,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отправитель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sender</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:TypeSet>cfg:ExchangePlanRef</v8:TypeSet>
@@ -2267,6 +2702,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Строка поиска</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search bar</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2285,6 +2724,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Незаполненные реквизиты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Blank attributes</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2343,6 +2786,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Коллизии</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Conflicts</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
@@ -2396,6 +2843,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Непринятые по дате</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data rejected by date</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2477,6 +2928,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Результат разрешения конфликта</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Conflict resolution result</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2497,6 +2952,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ошибки при выполнении кода обработчиков отправки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Runtime errors in data sending handlers</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2555,6 +3014,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ошибки при выполнении кода обработчиков получения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Runtime errors in data receiving handlers</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
@@ -2611,6 +3074,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ошибки объекта XDTO</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>XDTO object errors</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2698,11 +3165,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Игнорировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Ignore</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Игнорировать документ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Ignore the document.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИгнорироватьДокумент</Action>
@@ -2714,11 +3189,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не игнорировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not ignore</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить игнорирование документа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel ignoring the document.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НеИгнорироватьДокумент</Action>
@@ -2730,11 +3213,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить выделенные...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit selected…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить выделенные документы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change the selected documents.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИзменитьВыделенныеДокументы</Action>
@@ -2747,11 +3238,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F5</Shortcut>
@@ -2768,11 +3267,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Провести</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Post</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Провести документ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Post the document.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2789,11 +3296,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Игнорировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Ignore</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Игнорировать незаполненные реквизиты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Ignore blank attributes.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИгнорироватьОбъект</Action>
@@ -2805,11 +3320,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить выделенные...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit selected…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить выделенные данные</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change the selected data.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИзменитьВыделенныеОбъекты</Action>
@@ -2822,11 +3345,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не игнорировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not ignore</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить игнорирование незаполненных реквизитов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel ignoring blank attributes.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НеИгнорироватьОбъект</Action>
@@ -2838,11 +3369,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать непринятую версию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show rejected version</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть непринятую версию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the rejected version.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьВерсиюНепринятые</Action>
@@ -2854,11 +3393,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать отличия</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show differences</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать отличия в виде отчета</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show the differences report.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2875,11 +3422,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать версию, созданную в этой информационной базе</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show version created in this infobase</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть версию, созданную в этой информационной базе</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the version created in this infobase.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьВерсиюДоКонфликта</Action>
@@ -2891,11 +3446,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать отличия</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show differences</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать отличия между версиями в этой и в другой программе</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show differences between the versions in this application and the other application.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2912,11 +3475,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить (или открыть) текущий элемент</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit (or open) the current item.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F2</Shortcut>
@@ -2934,11 +3505,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подтвердить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Confirm</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассмотреть и подтвердить результат автоматического разрешения конфликта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Review and confirm the result of automatic conflict resolution.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2955,11 +3534,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Игнорировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Ignore</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Игнорировать непринятые по дате запрета данные</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Ignore data that is rejected due to a data import restriction.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИгнорироватьНепринятый</Action>
@@ -2971,11 +3558,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять признак "Рассмотрено"</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove "Resolved" attribute</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять с конфликта признак его рассмотрения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove the mark that indicates that the conflict is resolved.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НеИгнорироватьКонфликт</Action>
@@ -2987,11 +3582,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не игнорировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not ignore</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить игнорирование непринятых по дате запрета данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel ignoring data that is rejected due to a data import restriction.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НеИгнорироватьНепринятый</Action>
@@ -3003,11 +3606,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Принять версию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Accept version</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Принять версию несмотря на установленный запрет загрузки данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Accept the version regardless of the data import restriction.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПринятьВерсиюНепринятые</Action>
@@ -3019,11 +3630,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать версию, полученную из другой информационной базы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show version received from the other infobase</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть версию, полученную из другой информационной базы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the version received from the other infobase.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьВерсиюКонфликта</Action>
@@ -3035,11 +3654,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать версию в этой программе</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show version from this application.</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть версию в этой программе</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the version stored in this application.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьВерсиюНепринятыеВЭтойПрограмме</Action>
@@ -3051,11 +3678,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать проигнорированные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show ignored items</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать проигнорированные документы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show ignored documents.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказыватьПроигнорированныеНепроведенные</Action>
@@ -3067,11 +3702,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать проигнорированные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show ignored items</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать проигнорированные</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show ignored items</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказыватьПроигнорированныеНезаполненные</Action>
@@ -3083,11 +3726,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать рассмотренные конфликты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show resolved conflicts</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать рассмотренные конфликты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show resolved conflicts</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказыватьПроигнорированныеКонфликты</Action>
@@ -3099,11 +3750,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать проигнорированные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show ignored items</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать проигнорированные</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show ignored items</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказыватьПроигнорированныеНепринятые</Action>
@@ -3115,11 +3774,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассмотреть и изменить результат разрешения конфликта на противоположный</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Review and change the conflict resolution result to the opposite one.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИзменитьРезультатКонфликта</Action>
@@ -3131,11 +3798,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить выделенные объекты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change selected objects</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить выделенные ошибки XTDO</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change the selected XTDO errors.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИзменитьВыделенныеОшибкиПроверки</Action>
@@ -3146,11 +3821,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Игнорировать ошибку</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Ignore error</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Игнорировать ошибку</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Ignore error</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИгнорироватьОшибку</Action>
@@ -3161,11 +3844,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не игнорировать ошибку</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not ignore error</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не игнорировать ошибку</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not ignore error</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НеИгнорироватьОшибку</Action>
@@ -3176,11 +3867,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать проигнорированные ошибки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show ignored errors</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать проигнорированные ошибки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show ignored errors</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказыватьПроигнорированныеОшибки</Action>
@@ -3191,11 +3890,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать информацию для технических специалистов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>View related event log records</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать информацию для технических специалистов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>View related event log records</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказатьИнформациюДляТехническихСпециалистов</Action>

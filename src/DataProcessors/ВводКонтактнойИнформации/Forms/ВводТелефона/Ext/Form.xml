@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Номер телефона, факса</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Phone/fax number</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -32,6 +36,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сведения о телефоне</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Phone information</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -44,6 +52,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Телефона</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Phone</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -58,6 +70,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Код страны в телефонном номере</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Country calling code</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Width>6</Width>
@@ -75,6 +91,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Код города в телефонном номере</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Area calling code</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Width>6</Width>
@@ -94,6 +114,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Номер телефона в телефонном номере</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Phone number</v8:content>
+								</v8:item>
 							</ToolTip>
 							<Width>13</Width>
 							<HorizontalStretch>true</HorizontalStretch>
@@ -110,6 +134,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Добавочный номер</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Extension</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Width>8</Width>
@@ -129,6 +157,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительный комментарий, не попадающий в представление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment to the phone number.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<HorizontalStretch>true</HorizontalStretch>
@@ -152,6 +184,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель команд</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
@@ -202,6 +238,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Код страны</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Country code</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -220,6 +260,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Код города</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Area code</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -240,6 +284,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Номер</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Number</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -255,6 +303,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавочный</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Extension</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -272,6 +324,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Комментарий</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Comment</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -287,6 +343,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Presentation</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -428,11 +488,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команда ОК</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK Command</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаОК</Action>
@@ -444,11 +512,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить номер телефона</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear phone number</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить телефон</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear phone number</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -464,11 +540,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команда отмена</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel command</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаОтмена</Action>

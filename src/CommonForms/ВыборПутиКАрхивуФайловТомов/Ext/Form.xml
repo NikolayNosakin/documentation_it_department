@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Размещение файлов</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Store files</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -32,6 +36,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Путь к архиву с файлами начального образа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Path to the archive with the initial image files</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -43,6 +51,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Для сервера 1С:Предприятия под управлением Microsoft Windows, (вида "\\servername\resource\files.zip")</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>For 1C:Enterprise server on Microsoft Windows (example: \\servername\resource\files.zip)</v8:content>
 						</v8:item>
 					</Title>
 					<TitleLocation>Top</TitleLocation>
@@ -62,6 +74,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Для сервера 1С:Предприятия под управлением Linux</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>For 1C:Enterprise server on Linux</v8:content>
+						</v8:item>
 					</Title>
 					<TitleLocation>Top</TitleLocation>
 					<AutoMaxWidth>false</AutoMaxWidth>
@@ -79,6 +95,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Путь к архиву windows</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Path to Windows archive</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -93,6 +113,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Путь к архиву linux</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Path to Linux archive</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -111,11 +135,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разместить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Store files</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разместить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Store files</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Разместить</Action>

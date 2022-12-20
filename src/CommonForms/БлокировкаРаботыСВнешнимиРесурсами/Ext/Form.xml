@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Информационная база была перемещена или восстановлена из резервной копии</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Transferred or restored infobase</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockWholeInterface</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -24,6 +28,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры формы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Form parameters</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ГруппаПараметрыФормыРасширеннаяПодсказка" id="19"/>
@@ -33,6 +41,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Принятие решения о блокировке</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Decide whether to lock</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаПринятиеРешенияОБлокировкеРасширеннаяПодсказка" id="21"/>
@@ -61,6 +73,27 @@
 
 Блокировку также можно снять позднее в разделе &lt;b&gt;Администрирование&lt;/&gt;&lt;b&gt; - &lt;/&gt;&lt;b&gt;Обслуживание&lt;/&gt;.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Scheduled online activities such as data synchronization and emailing are disabled
+to prevent conflicts with the main infobase.
+
+The &lt;b&gt;Text messaging&lt;/&gt; scheduled job is locked on server &lt;b&gt;Server-1C2&lt;/&gt; on &lt;b&gt;01/10/2019 3:00 PM&lt;/&gt;.
+
+The infobase location has been changed. Old location:
+&lt;b&gt;C:\1c\db\&lt;/&gt;&lt;b&gt;
+&lt;/&gt;New location:
+&lt;b&gt;Srvr="server-1c.local";Ref="db";&lt;/&gt;
+
+&lt;link ЖурналРегистрации&gt;Technical information&lt;/&gt;
+
+ • If you will use the infobase for accounting, select &lt;b&gt;Transferred infobase&lt;/&gt;.
+ • If this is an infobase copy, select &lt;b&gt;Infobase copy&lt;/&gt;&lt;b&gt;.&lt;/&gt;
+ • For scalable clusters, to prevent false starts due to change of hosting machines
+, disable the machine name check, select &lt;b&gt;More — Check server name&lt;/&gt;.
+
+Also, you can release the lock in &lt;b&gt;Administration&lt;/&gt;&lt;b&gt; — &lt;/&gt;&lt;b&gt;Service&lt;/&gt;.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="НадписьПредупреждениеКонтекстноеМеню" id="2"/>
 							<ExtendedTooltip name="НадписьПредупреждениеРасширеннаяПодсказка" id="3"/>
@@ -73,6 +106,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Center</HorizontalLocation>
@@ -95,6 +132,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Еще</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>More</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ФормаГруппаЕщеРасширеннаяПодсказка" id="15"/>
@@ -129,6 +170,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Параметры блокировки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Lock parameters</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаПараметрыБлокировкиРасширеннаяПодсказка" id="23"/>
 					<ChildItems>
@@ -137,6 +182,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель параметры</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar parameters</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ГруппаКоманднаяПанельПараметрыРасширеннаяПодсказка" id="33"/>
@@ -168,6 +217,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверять имя сервера</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check server name</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -190,11 +243,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Информационная база перемещена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Transferred infobase</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Информационная база перемещена</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>The infobase was transferred from online to desktop, or vice versa.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИнформационнаяБазаПеремещена</Action>
@@ -206,11 +267,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Это копия информационной базы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Infobase copy</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Это копия информационной базы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Infobase copy</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЭтоКопияИнформационнойБазы</Action>
@@ -222,11 +291,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверять имя сервера</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check server name</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверять имя сервера</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check server name.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверятьИмяСервера</Action>
@@ -238,11 +315,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаписатьИЗакрыть</Action>

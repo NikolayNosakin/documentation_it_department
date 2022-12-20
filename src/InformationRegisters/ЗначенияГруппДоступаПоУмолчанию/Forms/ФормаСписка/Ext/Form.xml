@@ -16,6 +16,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -27,6 +31,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSource>Form</CommandSource>
@@ -61,6 +69,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSet>
@@ -125,12 +137,21 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип значений доступа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access Value type</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип значений доступа (пустая ссылка),
 который соответствует виду доступа в группе доступа.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An Access Value type (an empty reference of this type).
+It is based on the access kind in the access group.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Width>20</Width>
@@ -145,6 +166,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>БЛ=Нет; БИ=Да</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=No; BT=Yes</v8:content>
+						</v8:item>
 					</Format>
 					<ContextMenu name="СписокВсеРазрешеныКонтекстноеМеню" id="22"/>
 					<ExtendedTooltip name="СписокВсеРазрешеныРасширеннаяПодсказка" id="23"/>
@@ -156,6 +181,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Все разрешены
 без исключений</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>All allowed,
+no exceptions</v8:content>
 						</v8:item>
 					</Title>
 					<Width>13</Width>
@@ -169,6 +199,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>БЛ=Нет; БИ=Да</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=No; BT=Yes</v8:content>
 						</v8:item>
 					</Format>
 					<ContextMenu name="СписокБезНастройкиКонтекстноеМеню" id="25"/>
@@ -221,11 +255,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования только для целей поиска неисправности (требуется углубленное понимание работы механизма)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing for troubleshooting purposes. Recommended for advanced users only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>
@@ -237,11 +279,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить данные регистра</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update register data</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить данные регистра</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update register data</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОбновитьДанныеРегистра</Action>

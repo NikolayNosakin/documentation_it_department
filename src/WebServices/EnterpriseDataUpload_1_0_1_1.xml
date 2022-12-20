@@ -8,6 +8,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Enterprise Data Upload 1.0.1.1</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enterprise Data Upload 1.0.1.1</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Namespace>http://www.1c.ru/SSL/EnterpriseDataUpload_1_0_1_1</Namespace>
@@ -31,6 +35,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ping</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Ping</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Проверка соединения с информационной базой</Comment>
 					<XDTOReturningValueType>xs:string</XDTOReturningValueType>
@@ -47,6 +55,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Test connection</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Test connection</v8:content>
 						</v8:item>
 					</Synonym>
@@ -66,6 +78,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Error message</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Error message</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<XDTOValueType>xs:string</XDTOValueType>
@@ -81,6 +97,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Put file part</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>Put file part</v8:content>
 						</v8:item>
 					</Synonym>
@@ -100,6 +120,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>File ID</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>File ID</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<XDTOValueType>xs:string</XDTOValueType>
@@ -113,6 +137,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Part number</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Part number</v8:content>
 								</v8:item>
 							</Synonym>
@@ -130,6 +158,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Part data</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Part data</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<XDTOValueType>xs:base64Binary</XDTOValueType>
@@ -143,6 +175,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Error message</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Error message</v8:content>
 								</v8:item>
 							</Synonym>
@@ -162,6 +198,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Put data</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Put data</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Поместить данные в информационную базу без использования узла плана обмена</Comment>
 					<XDTOReturningValueType>xs:string</XDTOReturningValueType>
@@ -179,6 +219,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>File ID</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>File ID</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<XDTOValueType>xs:string</XDTOValueType>
@@ -194,6 +238,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Operation ID</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Operation ID</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<XDTOValueType>xs:string</XDTOValueType>
@@ -207,6 +255,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Error message</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Error message</v8:content>
 								</v8:item>
 							</Synonym>
@@ -226,6 +278,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Put data action result</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Put data action result</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Получить результат выполнения операции помещения данных в информационную базу</Comment>
 					<XDTOReturningValueType>xs:string</XDTOReturningValueType>
@@ -243,6 +299,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Operation ID</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Operation ID</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<XDTOValueType>xs:string</XDTOValueType>
@@ -256,6 +316,10 @@
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>Error message</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>Error message</v8:content>
 								</v8:item>
 							</Synonym>

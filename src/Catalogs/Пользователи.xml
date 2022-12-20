@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователи</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Users</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment>АПК:413 - №744.2.1.1 Допустимо не отключать историю выбора, так как она используется, а переопределение отбора фиксированное, то есть служебные и недействительные пользователи в нее не попадут, но если как-то попали, то это не является проблемой</Comment>
 			<Hierarchical>false</Hierarchical>
@@ -217,6 +221,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа, которой принадлежит пользователь</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group the item belongs to.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -232,6 +240,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>В группе</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parent group</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -254,6 +266,11 @@
 							<v8:content>Представление пользователя в интерфейсе,
 обычно: Фамилия Имя Отчество</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The user presentation in the interface.
+Usually, first name + last name.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -269,6 +286,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полное имя</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Full name</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -290,6 +311,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя учетной записи пользователя информационной базы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The infobase user account name.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -305,6 +330,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -398,6 +427,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -418,6 +451,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Недействителен</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Invalid</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -432,6 +469,12 @@
 							<v8:content>Пользователь больше не работает в программе, но сведения о нем сохранены.
 Недействительные пользователи скрываются из всех списков
 при выборе или подборе в документах и других местах программы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The user does not have access to the application but their data is still stored.
+Invalid users are hidden from the user lists.
+</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -465,6 +508,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подразделение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Department</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -477,6 +524,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подразделение, в котором работает пользователь</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The user's department.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -510,6 +561,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Физическое лицо</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Individual</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -522,6 +577,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Физическое лицо, с которым связан пользователь</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The individual that owns the user account.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -555,6 +614,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -571,6 +634,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Произвольная строка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Free text about the item.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -604,6 +671,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Служебный</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Is internal</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -616,6 +687,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Неразделенный или разделенный служебный пользователь, права к которому устанавливаются непосредственно и программно.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A shared or separated internal user with the rights specified explicitly using 1C:Enterprise script.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -649,6 +724,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подготовлен</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Requires approval</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -661,6 +740,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь подготовлен ответственным за список пользователей.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The user has been submitted for authorization.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -694,6 +777,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Идентификатор пользователя ИБ</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase user ID</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -706,6 +793,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уникальный идентификатор пользователя информационной базы, с которым сопоставлен этот элемент справочника.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The infobase user UUID that is used to map the catalog item to the infobase user.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -739,6 +830,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Идентификатор пользователя сервиса</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Service user ID</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -751,6 +846,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уникальный идентификатор пользователя сервиса, с которым сопоставлен этот элемент справочника.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The service user UUID that is used to map the catalog item to the service user.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -784,6 +883,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Свойства пользователя ИБ</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase user properties</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -796,6 +899,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Служебное хранилище некоторых свойств пользователя ИБ</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The internal storage of some infobase user properties.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -828,6 +935,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Фотография</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Photo</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -879,12 +990,20 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные реквизиты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional attributes</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные реквизиты объекта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional object attributes.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<FillChecking>DontCheck</FillChecking>
@@ -927,6 +1046,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Свойство</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Property</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -939,6 +1062,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительный реквизит</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>An additional attribute.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -969,6 +1096,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -981,6 +1112,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение дополнительного реквизита</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional attribute's value.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1017,6 +1152,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Текстовая строка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Text string</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1033,6 +1172,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Полный текст строкового дополнительного реквизита</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Text of the additional String attribute.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1075,12 +1218,20 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Контактная информация</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Contact information</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хранение контактной информации (адреса, веб-страницы, номера телефонов и др.)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Contact information (such as addresses, web pages, or phone numbers).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<FillChecking>DontCheck</FillChecking>
@@ -1123,6 +1274,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тип</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Type</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1135,6 +1290,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тип контактной информации (телефон, адрес и т.п.)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The contact information type (such as address or phone).</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1165,6 +1324,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вид</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Kind</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1177,6 +1340,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вид контактной информации</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Contact information type</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1207,6 +1374,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Представление</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Presentation</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1223,6 +1394,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Представление контактной информации для отображения в формах</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Contact information presentation to display in forms.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1253,6 +1428,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значения полей</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Field values</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1269,6 +1448,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Служебное поле, для хранения контактной информации</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Contact details. An internal field.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1299,6 +1482,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страна</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Country</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1315,6 +1502,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страна (заполняется для адреса)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The country is required for the address.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1345,6 +1536,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Регион</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>State</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1361,6 +1556,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Регион (заполняется для адреса)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The state is required for the address.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1391,6 +1590,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Город</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>City</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1407,6 +1610,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Город (заполняется для адреса)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The city is required for the address.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1437,6 +1644,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Адрес ЭП</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Email address</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1453,6 +1664,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Адрес электронной почты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Email address</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1483,6 +1698,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Доменное имя сервера</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Server domain name</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1499,6 +1718,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Доменное имя сервера электронной почты или веб-страницы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The domain of an email server or a web page.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1529,6 +1752,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Номер телефона</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Phone number</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1545,6 +1772,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Полный номер телефона</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Full phone number</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1575,6 +1806,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Номер телефона без кодов</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Phone number without area codes</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1591,6 +1826,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Номер телефона без кодов и добавочного номера</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Phone number without area codes and extension</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1621,6 +1860,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вид для списка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Kind (for the list)</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1633,6 +1876,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вид контактной информации для списка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The contact information type to display in the list.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1663,6 +1910,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значение</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1679,6 +1930,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Служебное поле, для хранения контактной информации</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Contact details. An internal field.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1718,6 +1973,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователи информационной базы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase users</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Group>FormCommandBarImportant</Group>
@@ -1729,6 +1988,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователи информационной базы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase users</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture/>

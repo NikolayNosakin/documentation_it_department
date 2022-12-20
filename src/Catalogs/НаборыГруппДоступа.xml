@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Наборы групп доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access group sets</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Hierarchical>false</Hierarchical>
@@ -319,6 +323,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Набор групп доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access group set</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -329,6 +337,12 @@
 					<v8:content>Технологический справочник, который используется для объединения 2 вариантов по 3 группы элементов:
 а) наборы групп доступа, наборы групп пользователей, пользователи;
 б) наборы групп доступа, наборы групп внешних пользователей, внешние пользователи.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>A technological catalog used to unite 2 options, each having 3 item groups:
+a) Access group sets, user group sets, and users.
+b) Access group sets, external user group sets, and external users.</v8:content>
 				</v8:item>
 			</Explanation>
 			<CreateOnInput>DontUse</CreateOnInput>
@@ -346,6 +360,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Для внешних пользователей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>For external users</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -358,6 +376,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Набор для внешних пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A set for external users.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -391,6 +413,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип элементов набора</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Type of set items</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -407,6 +433,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип элементов набора (представлен пустой ссылкой справочников Группы доступа, Группы пользователей, Группы внешних пользователей, Пользователи, Внешние пользователи)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Types of set items (by default, contains blank references to the following catalogs: Access groups, User groups, External user groups, Users, and External users).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -440,6 +470,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хеш</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Hash</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -458,6 +492,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хеш-сумма состава групп, позволяющая
 сделать быстрый поиск по индексу</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A hash of groups used for
+quick search by index.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -491,6 +530,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Не используется с</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Obsolete since</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -508,6 +551,12 @@
 							<v8:content>Когда заполнено, тогда набор не используется ни одним из пользователей
 по текущим настройкам, но еще может использоваться в параметрах сеансов.
 Через некоторое время неиспользуемый набор удаляется.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If this attribute is filled in, the set is not used by any user
+according to the current settings, but it can still be used in session parameters.
+Unused sets are deleted after some time.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -541,6 +590,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -554,6 +607,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь или внешний пользователь набора из одного элемента (устранение составного типа в измерении регистра)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A user or an external user of a single-item set (elimination of a composite type in the register dimension).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -596,6 +653,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разрешенный набор групп доступа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allowed access group set</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -608,6 +669,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Когда свойство Пользователь заполнено означает разрешенный набор групп доступа этого пользователя</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If the User property is filled, stores the access group set allowed for this user.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -651,6 +716,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разрешенный набор групп пользователей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allowed user group set</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -663,6 +732,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Когда свойство Пользователь заполнено означает разрешенный набор групп пользователей этого пользователя</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If the User property is filled, stores the user group set allowed for this user.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -709,6 +782,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Новый набор групп доступа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>New access group set</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -721,6 +798,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Когда свойство Пользователь заполнено означает новый набор групп доступа, который станет разрешенным набором этого пользователя после обновления регистров</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If the User property is filled, stores a new access group set that will become an allowed set for this user after registers are updated.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -764,6 +845,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Новый набор групп пользователей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>New user group set</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -776,6 +861,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Когда свойство Пользователь заполнено означает новый набор групп пользователей, который станет разрешенным набором этого пользователя после обновления регистров</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If the User property is filled, stores a new user group set that will become an allowed set for this user after registers are updated.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -832,6 +921,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Groups</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip/>
@@ -875,6 +968,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группа</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -889,6 +986,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группа доступа или группа пользователей или группа внешних пользователей, входящая в состав набора</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>An access group, user group, or external user group that belongs to the set.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>

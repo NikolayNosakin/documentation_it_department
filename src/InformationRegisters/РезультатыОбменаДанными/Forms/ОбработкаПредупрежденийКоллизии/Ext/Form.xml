@@ -21,6 +21,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Таблица объектов исправления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fix object table</v8:content>
+				</v8:item>
 			</Title>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ТаблицаОбъектовИсправленияКонтекстноеМеню" id="2">
@@ -67,6 +71,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Команда выделения</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Selection command</v8:content>
 							</v8:item>
 						</Title>
 						<Representation>Compact</Representation>
@@ -185,6 +193,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Объекты исправления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fix objects</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -194,6 +206,10 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>...</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>...</v8:content>
 						</v8:item>
 					</Title>
@@ -206,6 +222,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Проблемный объект</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object with issues</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -224,6 +244,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание ошибки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Error details</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -239,6 +263,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Неудачная попытка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Failed attempt</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -249,6 +277,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия из другой программы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Version from another application</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -265,6 +297,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия этой программы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Version of this application</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -286,11 +322,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отметить все</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отметить все</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -305,11 +349,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять выделение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Deselect</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять выделение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Deselect</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -324,11 +376,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать отличия</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show differences</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать отличия между версиями в этой и в другой программе</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show differences between the versions in this application and the other application.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -345,11 +405,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пересмотреть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Revise</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассмотреть и изменить результат разрешения конфликта на противоположный</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Review and change the conflict resolution result to the opposite one.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -366,11 +434,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать версию, созданную в этой информационной базе</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show version created in this infobase</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть версию, созданную в этой информационной базе</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the version created in this infobase</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьВерсиюЭтойПрограммы</Action>
@@ -382,11 +458,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать версию, полученную из другой информационной базы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show version received from the other infobase</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть версию, полученную из другой информационной базы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the version received from the other infobase.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьВерсиюДругойПрограммы</Action>

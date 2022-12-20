@@ -22,6 +22,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Наименование и настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Description and settings</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -37,6 +41,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Синхронизация файлов с облачным сервисом</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Synchronize files with cloud service</v8:content>
+						</v8:item>
 					</InputHint>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
@@ -49,6 +57,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Settings</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -65,6 +77,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сервис</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Service</v8:content>
+								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<DropListButton>true</DropListButton>
@@ -80,6 +96,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Яндекс.Диск</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Yandex.Disk</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">Яндекс.Диск</Value>
 									</xr:Value>
@@ -91,6 +111,10 @@
 										<Presentation>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
+												<v8:content>4shared.com</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
 												<v8:content>4shared.com</v8:content>
 											</v8:item>
 										</Presentation>
@@ -106,6 +130,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Box</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Box</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">Box</Value>
 									</xr:Value>
@@ -118,6 +146,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>DropBox (через dropdav.com)</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>DropBox (via dropdav.com)</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">Dropbox</Value>
@@ -137,6 +169,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Имя папки, в которой хранятся синхронизированные файлы. Должна быть создана в облаке до выполнения синхронизации.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The name of the folder that stores synchronized files. Create the folder in the cloud prior to synchronization.</v8:content>
+								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<ContextMenu name="КорневаяПапкаКонтекстноеМеню" id="38"/>
@@ -147,6 +183,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Логин, пароль</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Username, password</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -182,6 +222,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Автор новых и отредактированных файлов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Author of new and edited files</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -196,6 +240,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Автор новых и отредактированных файлов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Author of new and edited files</v8:content>
+						</v8:item>
 					</Title>
 					<TitleLocation>Top</TitleLocation>
 					<RadioButtonType>Auto</RadioButtonType>
@@ -209,6 +257,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Эта учетная запись</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>This account</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">ПланОбмена</Value>
@@ -227,6 +279,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Автор пользователь</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Author user</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -239,6 +295,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выбранный пользователь</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Selected user</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>None</TitleLocation>
@@ -253,6 +313,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Пользователь:</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>User:</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">Пользователь</Value>
@@ -272,6 +336,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Если файлы в облаке редактирует только один пользователь, то рекомендуется указать его в качестве автора новых и измененных файлов.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>If a single user edits all files in the cloud, it is recommended that you specify them as the author of new and changed files.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -298,6 +366,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Логин</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Username</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -314,6 +386,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Password</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -332,6 +408,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>В качестве автора файлов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>As file author</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -347,6 +427,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сервис</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Service</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -377,11 +461,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Validate settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Validate settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверитьНастройки</Action>

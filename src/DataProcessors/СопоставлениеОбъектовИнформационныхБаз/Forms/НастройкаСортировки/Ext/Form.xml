@@ -22,6 +22,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Таблица сортировки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sorting table</v8:content>
+				</v8:item>
 			</Title>
 			<CommandSet>
 				<ExcludedCommand>Add</ExcludedCommand>
@@ -88,6 +92,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сортировка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Sorting</v8:content>
+						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<DropListButton>true</DropListButton>
@@ -98,11 +106,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>БЛ='По убыванию'; БИ='По возрастанию'</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF='Descending'; BT='Ascending'</v8:content>
+						</v8:item>
 					</Format>
 					<EditFormat>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>БЛ='По убыванию'; БИ='По возрастанию'</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF='Descending'; BT='Ascending'</v8:content>
 						</v8:item>
 					</EditFormat>
 					<ChooseType>false</ChooseType>
@@ -117,6 +133,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>По возрастанию</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Ascending</v8:content>
+									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:boolean">true</Value>
 							</xr:Value>
@@ -129,6 +149,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>По убыванию</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Descending</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:boolean">false</Value>
@@ -146,6 +170,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель кнопок</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Buttons panel</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
@@ -174,6 +202,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Таблица сортировки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sorting table</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -184,6 +216,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя поля</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Field name</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -200,6 +236,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -210,6 +250,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Направление сортировки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Sort direction</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -226,11 +270,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Применить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Apply</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Применить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Apply</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Применить</Action>
@@ -242,11 +294,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Отменить</Action>

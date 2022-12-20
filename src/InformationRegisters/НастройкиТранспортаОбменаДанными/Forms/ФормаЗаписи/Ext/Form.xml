@@ -42,6 +42,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подключение по умолчанию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Default connection</v8:content>
+				</v8:item>
 			</Title>
 			<Width>50</Width>
 			<HorizontalStretch>false</HorizontalStretch>
@@ -55,6 +59,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы видов транспорта</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Transport types pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnLeftHorizontal</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыВидовТранспортаExtendedTooltip" id="122"/>
@@ -64,6 +72,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Прямое подключение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Direct connection</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="НастройкиТранспортаCOMExtendedTooltip" id="123"/>
@@ -83,6 +95,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Файловая база-корреспондент</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Peer infobase in file mode</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">0</Value>
 									</xr:Value>
@@ -95,6 +111,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Клиент-серверная база-корреспондент</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Peer infobase in client/server mode</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">1</Value>
@@ -113,6 +133,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Варианты работы информационной базы</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Infobase run modes</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ВариантыРаботыИнформационнойБазыExtendedTooltip" id="125"/>
@@ -122,6 +146,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница вариант работы файловый</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>File mode page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаВариантРаботыФайловыйExtendedTooltip" id="126"/>
@@ -146,6 +174,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница вариант работы клиент серверный</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Client/server mode page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаВариантРаботыКлиентСерверныйExtendedTooltip" id="128"/>
 									<ChildItems>
@@ -155,6 +187,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Имя сервера</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Server name</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="COMИмяСервера1СПредприятияКонтекстноеМеню" id="56"/>
@@ -166,6 +202,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Имя информационной базы на сервере</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Infobase name on the server</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="COMИмяИнформационнойБазыНаСервере1СПредприятияКонтекстноеМеню" id="52"/>
@@ -191,6 +231,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>COM группа пользователь пароль</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>COM user password group</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -208,6 +252,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Пароль</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Password</v8:content>
 										</v8:item>
 									</Title>
 									<PasswordMode>true</PasswordMode>
@@ -232,6 +280,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интернет</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Internet</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="НастройкиТранспортаWSExtendedTooltip" id="138"/>
 					<ChildItems>
@@ -246,6 +298,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пользователь и пароль WS</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>WS user and password</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -266,6 +322,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Пароль WS</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>WS password</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -303,6 +363,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Рекомендуется использовать в тех случаях, если в синхронизации участвует более одного объекта (справочника, документа).</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>It is recommended that you use it if there is more than one object (catalog, document) in synchronization.</v8:content>
+								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -327,6 +391,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сетевой каталог</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Network folder</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="НастройкиТранспортаFILEExtendedTooltip" id="148"/>
 					<ChildItems>
@@ -347,6 +415,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Архив file</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Archive file</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -388,6 +460,11 @@
 										<v8:content>Рекомендуется применять в случае, если при обмене возникают ошибки, связанные с  различными кодировками файлов.
 Настройку не следует использовать, в случае, если такая же настройка не поддерживается на стороне корреспондента.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>It is recommended that you select the check box if errors occur during the exchange due to different file encodings.
+If you select the check box, also select it in the peer application.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</CheckBoxField>
@@ -405,11 +482,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>FTP-ресурс</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>FTP resource</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки транспорта FILE</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>FILE transport settings</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="НастройкиТранспортаFTPExtendedTooltip" id="154"/>
@@ -419,6 +504,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сервер порт</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Server port</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -439,6 +528,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>ЧГ=0</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>NG=0</v8:content>
+										</v8:item>
 									</EditFormat>
 									<ContextMenu name="FTPСоединениеПортКонтекстноеМеню" id="17"/>
 									<ExtendedTooltip name="FTPСоединениеПортExtendedTooltip" id="157"/>
@@ -450,6 +543,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пользователь пароль</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>User password</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -479,6 +576,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>FTP размер файла</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>FTP file size</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -497,6 +598,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>КБ  (0 – нет ограничений)</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>KB (type 0 to remove the size restriction)</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация1КонтекстноеМеню" id="115"/>
@@ -521,6 +626,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>FTP архив</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>FTP archive</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -562,6 +671,11 @@
 										<v8:content>Рекомендуется применять в случае, если при обмене возникают ошибки, связанные с  различными кодировками файлов.
 Настройку не следует использовать, в случае, если такая же настройка не поддерживается на стороне корреспондента.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>It is recommended that you select the check box if errors occur during the exchange due to different file encodings.
+If you select the check box, also select it in the peer application.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</CheckBoxField>
@@ -580,11 +694,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Почтовые сообщения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Mail messages</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки транспорта FILE</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>FILE transport settings</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="НастройкиТранспортаEMAILExtendedTooltip" id="170"/>
@@ -599,6 +721,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>EMAIL размер файла</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>EMAIL file size</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -619,6 +745,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>КБ (0 – нет ограничений)</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>KB (type 0 to remove the size restriction)</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация2КонтекстноеМеню" id="118"/>
 									<ExtendedTooltip name="Декорация2ExtendedTooltip" id="174"/>
@@ -630,6 +760,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>EMAIL архив</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>EMAIL archive</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -671,6 +805,11 @@
 										<v8:content>Рекомендуется применять в случае, если при обмене возникают ошибки, связанные с  различными кодировками файлов.
 Настройку не следует использовать, в случае, если такая же настройка не поддерживается на стороне корреспондента.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>It is recommended that you select the check box if errors occur during the exchange due to different file encodings.
+If you select the check box, also select it in the peer application.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</CheckBoxField>
@@ -688,6 +827,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интернет (пассивный режим)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Internet (passive mode)</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="НастройкиТранспортаWSПассивныйРежимРасширеннаяПодсказка" id="200"/>
 					<ChildItems>
@@ -697,6 +840,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Для данного вида подключения настроек в этой программе не требуется.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>This connection type has no settings.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="Декорация3КонтекстноеМеню" id="202"/>
@@ -730,6 +877,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль пользователя</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -744,6 +895,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Password</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -760,6 +915,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -774,6 +933,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль архива</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Archive password</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -833,11 +996,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить подключение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Test connection</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить подключение через FTP ресурс</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Test connection using FTP resource</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверитьПодключениеFTP</Action>
@@ -849,11 +1020,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить подключение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check connection</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить подключение по сетевому каталогу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Test connection over a network directory.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверитьПодключениеFILE</Action>
@@ -865,11 +1044,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить подключение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Test connection</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить подключение по электронной почте</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Test connection over email.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверитьПодключениеEMAIL</Action>
@@ -881,11 +1068,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить подключение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Test connection</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить подключение к информационной базе-корреспонденту</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Test connection to the peer infobase.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверитьПодключениеCOM</Action>
@@ -897,11 +1092,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить подключение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check connection</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить подключение к информационной базе-корреспонденту</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Test connection to the peer infobase.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверитьПодключениеWS</Action>
@@ -913,11 +1116,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры доступа в Интернет</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Internet access parameters</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры доступа в Интернет</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Internet access parameters</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПараметрыДоступаВИнтернет</Action>
@@ -929,11 +1140,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

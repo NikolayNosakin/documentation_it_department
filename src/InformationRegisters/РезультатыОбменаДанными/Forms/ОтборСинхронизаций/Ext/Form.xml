@@ -34,6 +34,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа1</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group1</v8:content>
+				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
@@ -55,6 +59,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Синхронизаций</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Synchronizations</v8:content>
 						</v8:item>
 					</Title>
 					<RowFilter xsi:nil="true"/>
@@ -117,6 +125,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список синхронизаций</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronization list</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -128,6 +140,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Синхронизация</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Synchronization</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:TypeSet>cfg:ExchangePlanRef</v8:TypeSet>
@@ -137,6 +153,10 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>...</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
 							<v8:content>...</v8:content>
 						</v8:item>
 					</Title>
@@ -154,11 +174,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОК</Action>
@@ -169,11 +197,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сбросить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reset</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сбросить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reset</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Сбросить</Action>

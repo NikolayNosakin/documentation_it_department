@@ -15,6 +15,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Шапка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -47,6 +51,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы участники группы комментарий</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group members comment pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыУчастникиГруппыКомментарийРасширеннаяПодсказка" id="79"/>
@@ -56,6 +64,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Участники группы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group members</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="УчастникиГруппыРасширеннаяПодсказка" id="81"/>
@@ -76,6 +88,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Состав</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Composition</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -110,7 +126,7 @@
 									<Button name="СоставКонтекстноеМенюСкопировать" id="50">
 										<Type>CommandBarButton</Type>
 										<SkipOnInput>false</SkipOnInput>
-										<CommandName>0</CommandName>
+										<CommandName>10:0ae4bea5-23be-42a7-b69e-97b11b29c453</CommandName>
 										<ExtendedTooltip name="СоставКонтекстноеМенюСкопироватьРасширеннаяПодсказка" id="58"/>
 									</Button>
 									<Button name="СоставКонтекстноеМенюУдалить" id="46">
@@ -134,6 +150,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Состав контекстное меню стандартные команды</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Content context menu standard commands</v8:content>
 											</v8:item>
 										</Title>
 										<CommandSource>Item.Состав</CommandSource>
@@ -165,7 +185,7 @@
 									<Button name="СоставСкопировать" id="49">
 										<Type>CommandBarButton</Type>
 										<SkipOnInput>false</SkipOnInput>
-										<CommandName>0</CommandName>
+										<CommandName>10:0ae4bea5-23be-42a7-b69e-97b11b29c453</CommandName>
 										<ExtendedTooltip name="СоставСкопироватьExtendedTooltip" id="62"/>
 									</Button>
 									<Button name="СоставУдалить" id="33">
@@ -208,6 +228,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Состав стандартные команды</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Content standard commands</v8:content>
 											</v8:item>
 										</Title>
 										<CommandSource>Item.Состав</CommandSource>
@@ -272,6 +296,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="83"/>
 					<ChildItems>
@@ -302,6 +330,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Недействителен</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Invalid</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -318,11 +350,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подбор пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select users</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПодобратьПользователей</Action>
@@ -335,11 +375,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать недействительных пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show invalid users</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать недействительных пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show invalid users.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказыватьНедействительныхПользователей</Action>
@@ -351,11 +399,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сортировать по возрастанию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sort ascending</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Упорядочить список по возрастанию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sort the list in ascending order.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -373,11 +429,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сортировать по убыванию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sort descending</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Упорядочить список по убыванию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sort the list in descending order.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -395,6 +459,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переместить вверх</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move up</v8:content>
+				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>StdPicture.MoveUp</xr:Ref>
@@ -410,6 +478,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переместить вниз</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move down</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>

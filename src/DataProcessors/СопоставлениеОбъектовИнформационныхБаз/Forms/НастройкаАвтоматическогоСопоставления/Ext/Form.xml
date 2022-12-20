@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Автоматическое сопоставление</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Automatic mapping</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -43,6 +47,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Полей сопоставления</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Mapping fields</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSet>
@@ -97,6 +105,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пометка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Mark</v8:content>
+						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
@@ -111,6 +123,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
+						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="СписокПолейСопоставленияПредставлениеКонтекстноеМеню" id="15"/>
@@ -124,6 +140,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель кнопок</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Buttons panel</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
@@ -152,6 +172,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список полей сопоставления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Mapping fields</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
@@ -163,6 +187,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поясняющая надпись</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Note label</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -181,11 +209,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить сопоставление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Map infobase objects</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить сопоставление</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Map infobase objects</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыполнитьСопоставление</Action>
@@ -197,11 +233,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Отмена</Action>

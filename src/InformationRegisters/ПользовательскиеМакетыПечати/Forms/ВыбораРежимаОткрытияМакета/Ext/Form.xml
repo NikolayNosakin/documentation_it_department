@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Как открыть макет?</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Template open mode</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -64,6 +68,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выберите режим открытия макета</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Choose template open mode</v8:content>
+						</v8:item>
 					</Title>
 					<TitleLocation>None</TitleLocation>
 					<RadioButtonType>Auto</RadioButtonType>
@@ -78,6 +86,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Только для просмотра</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Read-only</v8:content>
+									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:decimal">0</Value>
 							</xr:Value>
@@ -90,6 +102,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Для просмотра и редактирования</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>View and edit</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:decimal">1</Value>
@@ -116,6 +132,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Как открывать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open mode</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -132,6 +152,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Больше не спрашивать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not ask again</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -145,11 +169,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОК</Action>

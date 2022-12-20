@@ -18,6 +18,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Резервное копирование ИБ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Infobase backup</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
@@ -36,6 +40,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вариант расписания резервного копирования</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Backup schedule option</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -52,6 +60,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Варианты расписания резервного копирования</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Backup schedule options</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -79,6 +91,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выполнить резервное копирование сейчас</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Back up now</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -91,6 +107,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Запустить выполнение резервного копирования сейчас</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Start backing up right away.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -118,6 +138,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Каталог с резервными копиями</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Backup storage directory</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -134,6 +158,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выберите каталог для сохранения резервной копии</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Choose a directory to save the backup.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -161,6 +189,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код типа резервного копирования</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Code of backup type</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -178,6 +210,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Внутренний код типа резервного копирования</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Internal code of backup type.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -205,6 +241,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Проводить резервное копирование при восстановлении данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Back up data before data recovery</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -217,6 +257,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Требуется проводить резервное копирование при восстановлении данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Back up the current state of the infobase when backup recovery is started.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -244,6 +288,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Файл загрузки резервной копии</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Backup import file</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -260,6 +308,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файл загрузки резервной копии</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name of backup import file</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -287,6 +339,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пароль администратора</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Administrator password</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -303,6 +359,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пароль администратора для копирования</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Administrator password</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -336,6 +396,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выполнить восстановление данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Restore data</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

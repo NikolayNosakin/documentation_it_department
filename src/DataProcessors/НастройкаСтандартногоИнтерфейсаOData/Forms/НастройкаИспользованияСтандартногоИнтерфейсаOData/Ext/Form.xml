@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Настройка автоматического REST-сервиса</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Automatic REST-service setup</v8:content>
+		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -34,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
 			<HorizontalStretch>true</HorizontalStretch>
@@ -47,6 +55,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Автоматический REST-сервис предназначен для взаимодействия прикладных решений на платформе 1С:Предприятие и сторонних систем (например, для интеграции с Интернет-магазином, корпоративными информационными системами или пакетной загрузки данных в приложение). REST-сервис позволяет получать данные, изменять их, создавать новые объекты (например, справочники и документы) и удалять существующие. </v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Automatic REST service is designed for the interaction of applications on the 1C:Enterprise platform and third-party systems (for example, for integration with an online store, corporate information systems or batch data import to an application). REST service allows you to get data, modify it, create new objects (for example, catalogs and documents) and delete existing ones.</v8:content>
+					</v8:item>
 				</Title>
 			</ExtendedTooltip>
 			<ChildItems>
@@ -55,6 +67,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страницы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Pages</v8:content>
 						</v8:item>
 					</Title>
 					<PagesRepresentation>TabsOnTop</PagesRepresentation>
@@ -66,6 +82,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Авторизация</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Authorization</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="АвторизацияРасширеннаяПодсказка" id="107">
 								<HorizontalStretch>true</HorizontalStretch>
@@ -76,6 +96,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Использование</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Usage</v8:content>
 										</v8:item>
 									</Title>
 									<HorizontalStretch>true</HorizontalStretch>
@@ -101,6 +125,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>При использовании REST-сервиса и настройке интеграции не рекомендуется передавать учетные данные пользователя с правами доступа для работы в приложении. Рекомендуется создать отдельного пользователя (с отдельным паролем). Такой пользователь не будет иметь возможности работать с приложением (или изменять настройки).</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>When using REST service and setting up integration, it is not recommended to transfer user login information with access rights to work in the application. It is recommended to create a separate user (with a separate password). Such a user will not be able to work with the application (or change settings).</v8:content>
+													</v8:item>
 												</Title>
 												<VerticalAlign>Top</VerticalAlign>
 											</ExtendedTooltip>
@@ -116,6 +144,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Имя пользователя и пароль</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Username and password</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<Group>Vertical</Group>
@@ -129,6 +161,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>В целях безопасности при использовании автоматического REST-сервиса, не передавайте имя и пароль этого пользователя третьим лицам без необходимости, так как использование REST-сервиса позволяет выполнять чтение и изменение данных приложения. Сообщайте их только надежным лицам и используйте в сторонних программах, которым доверяете.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>For security reasons, when using the automatic REST service, do not pass this username and password to third parties unless it is necessary, since using the REST service allows you to read and modify application data. Pass them only to trusted individuals and use them only in third-party programs that you trust.</v8:content>
 											</v8:item>
 										</Title>
 										<VerticalAlign>Top</VerticalAlign>
@@ -145,6 +181,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Пароль и подтверждение</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Password and confirmation</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
@@ -179,6 +219,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Состав</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Components</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
 							<ExtendedTooltip name="СоставРасширеннаяПодсказка" id="109">
@@ -189,6 +233,11 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>В списке перечислены объекты, доступ к которым может быть предоставлен через автоматический REST-сервис.
 Требуемый состав объектов можно уточнить у разработчика сторонней программы, которая будет подключаться к приложению через автоматический REST-сервис.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>The list contains objects that can be accessed through the automatic REST service.
+ The required composition of objects can be checked with the developer of a third-party program that will connect to the application through the automatic REST service.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -212,6 +261,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Объекты метаданных</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Metadata objects</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -239,6 +292,14 @@
 · Доступен только для чтения - данные объекта могут быть только прочитаны через REST-сервис.
 
 В списке отображаются только объекты, доступные при текущих настройках программы.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Legend for the Note column:
+· Subordinate objects. Users can manage such objects indirectly while working with other objects. Access to such objects is a common scenario.
+· Read-only objects. They can only be read through the REST service.
+
+The list contains only objects available under the current application settings.</v8:content>
 											</v8:item>
 										</Title>
 										<VerticalAlign>Top</VerticalAlign>
@@ -275,6 +336,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Объект метаданных</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Metadata object</v8:content>
+												</v8:item>
 											</Title>
 											<HorizontalStretch>false</HorizontalStretch>
 											<Group>InCell</Group>
@@ -308,6 +373,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Объект</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Object</v8:content>
+														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="ОбъектыМетаданныхПредставлениеКонтекстноеМеню" id="24"/>
@@ -322,6 +391,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Примечание</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Note</v8:content>
+												</v8:item>
 											</Title>
 											<HorizontalStretch>true</HorizontalStretch>
 											<Group>InCell</Group>
@@ -335,12 +408,20 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Примечание</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Note</v8:content>
+														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<Format>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>БЛ=; БИ='Подчиненный объект'</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>BF=; BT='Subordinate object'</v8:content>
 														</v8:item>
 													</Format>
 													<ContextMenu name="ОбъектыМетаданныхПодчиненныйКонтекстноеМеню" id="96"/>
@@ -355,6 +436,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>БЛ=; БИ='Доступен только для чтения'</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>BF=; BT='Read only'</v8:content>
 														</v8:item>
 													</Format>
 													<ContextMenu name="ОбъектыМетаданныхТолькоЧтениеКонтекстноеМеню" id="102"/>
@@ -374,6 +459,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Информация для разработчиков</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Information for developers</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalStretch>true</HorizontalStretch>
 					<Group>Horizontal</Group>
@@ -388,6 +477,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>&lt;link Ссылка&gt;Документация по использованию автоматического REST-сервиса&lt;/&gt;</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>&lt;link Ссылка&gt;Automatic REST service documentation&lt;/&gt;</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ДекорацияДокументацияКонтекстноеМеню" id="68"/>
@@ -404,6 +497,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Объекты метаданных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Metadata objects</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -426,6 +523,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -441,6 +542,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Picture</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>v8ui:Picture</v8:Type>
@@ -451,6 +556,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Usage</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -463,6 +572,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подчиненный</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Subordinate</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -473,6 +586,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Только чтение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Read only</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -502,6 +619,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать для использования автоматического REST-сервиса отдельные имя пользователя и пароль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create another username and password for the automatic REST service</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -513,6 +634,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя пользователя</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Username</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -530,6 +655,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -545,6 +674,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подтверждение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Confirm password</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -643,11 +776,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить и закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьИЗакрыть</Action>
@@ -659,11 +800,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Сохранить</Action>
@@ -675,11 +824,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить метаданные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import metadata</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать список объектов для настройки доступа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show the list of objects for setting up access</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗагрузитьМетаданные</Action>

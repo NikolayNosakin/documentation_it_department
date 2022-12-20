@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Наборы значений доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access value sets</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -178,6 +182,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Чтение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Read</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -192,6 +200,12 @@
 							<v8:content>При проверке права чтения объекта
 использовать набор с заданным номером
 (флажок устанавливается только для одной строки набора)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>When verifying the right to read the object,
+select a set with the specified number.
+Only one set line can be selected.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -224,6 +238,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Изменение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Update</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -238,6 +256,12 @@
 							<v8:content>При проверке права изменения объекта
 использовать набор с заданным номером
 (флажок устанавливается только для одной строки набора)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>When verifying the right to modify the object,
+select a set with the specified number.
+Only one set line can be selected.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -270,6 +294,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Стандартное значение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Regular value</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -283,6 +311,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Кэш-реквизит, используемый в шаблонах ограничения доступа к данным.
 Указывает выполнять обычную проверку значения доступа в списке разрешенных.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A cache attribute used in data access restriction templates. 
+If True, check whether an Access Value is in the list of allowed ones.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -315,6 +348,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение без групп</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Value without groups</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -328,6 +365,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Кэш-реквизит, используемый в шаблонах ограничения доступа к данным.
 Указывает выполнять проверку значения доступа в списке разрешенных без учета групп значений.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A cache attribute used in data access restriction templates.
+If True, check whether an Access Value is in the list of allowed ones (excluding Access Value Groups).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -360,6 +402,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>АПК:1330 - №728.2.1 Допустимо использование универсального ссылочного типа, так как это универсальный механизм и только для RLS в формате БСП 2.х (устарел)</Comment>
 					<Type>
@@ -379,6 +425,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ссылка на объект - владелец наборов значений доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A reference to an object that owns Access value sets.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -414,6 +464,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Номер набора</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Set number</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -433,6 +487,12 @@
 							<v8:content>Число, объединяющие несколько строк в один набор.
 Результаты проверок строк в наборе объединяется по логическому "И",
 а результаты проверок наборов объекта по логическому "ИЛИ"</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A number that corresponds to a set of rows in an Access Rights table.
+When verifying rows in the set, the lines are joined with logical AND.
+When verifying object's sets, the results are joined with logical OR.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -468,6 +528,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение доступа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access Value</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>АПК:1330 - №728.2.1 Допустимо использование универсального ссылочного типа, так как это универсальный механизм и только для RLS в формате БСП 2.х (устарел)</Comment>
 					<Type>
@@ -485,6 +549,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ссылка на значение, например, на организацию, контрагента, ...</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A reference to a company, counterparty, etc.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -520,6 +588,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уточнение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Refinement</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -535,6 +607,13 @@
 - если идентификатор объекта метаданных, тогда уточняет проверку права
 (пустая ссылка - Чтение, иначе Изменение);
 - если владелец настроек прав, тогда уточняет таблицу для выбора настроек прав.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Complements an Access Value:
+ • For a metadata object ID, it specifies the verification:
+If null reference, "Change"; otherwise, "Read".
+ • For a rights owner, it specifies the table to select rights from.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

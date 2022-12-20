@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Настройка сканирования</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Scanner settings</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -44,6 +48,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -55,6 +63,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Основное</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -81,6 +93,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Поворот изображения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Picture rotation</v8:content>
 								</v8:item>
 							</Title>
 							<Width>13</Width>
@@ -117,6 +133,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные настройки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Advanced settings</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -130,6 +150,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Для одностраничных изображений</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Single-page images</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -140,6 +164,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Формата хранения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Storage format</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -165,6 +193,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>(для хранения)</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>(for storage)</v8:content>
+												</v8:item>
 											</Title>
 											<ContextMenu name="ДекорацияФорматХраненияОдностраничныйКонтекстноеМеню" id="35"/>
 											<ExtendedTooltip name="ДекорацияФорматХраненияОдностраничныйExtendedTooltip" id="54"/>
@@ -176,6 +208,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Формата сканирования</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Scanning format</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -200,6 +236,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>(для сканирования)</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>(for scanning)</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ДекорацияФорматСканированногоИзображенияКонтекстноеМеню" id="40"/>
@@ -230,6 +270,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Для многостраничных изображений</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Multipage images</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -257,6 +301,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать диалог сканера</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show scanner dialog box</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -267,6 +315,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разрешение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Resolution</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -280,6 +332,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Цветность</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Color scale</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:EnumRef.ЦветностиИзображения</v8:Type>
@@ -291,6 +347,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поворот</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Rotation</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:EnumRef.СпособыПоворотаИзображения</v8:Type>
@@ -301,6 +361,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Размер бумаги</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Paper size</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -318,6 +382,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Двустороннее сканирование</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Scan both sides</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -328,6 +396,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Качество</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Quality</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -344,6 +416,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сжатие</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Compression</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -365,6 +441,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тип</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Type</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -402,6 +482,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Формат</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Format</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:EnumRef.ФорматыХраненияМногостраничныхФайлов</v8:Type>
@@ -412,6 +496,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Формат</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Format</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -431,11 +519,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОК</Action>

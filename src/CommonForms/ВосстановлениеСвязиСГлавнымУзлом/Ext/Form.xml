@@ -14,6 +14,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предупреждение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Warning</v8:content>
+				</v8:item>
 			</Title>
 			<Height>2</Height>
 			<Behavior>Usual</Behavior>
@@ -26,6 +30,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значок предупреждения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Warning icon</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -44,6 +52,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Была отменена связь с главным узлом "%1" распределенной информационной базы.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The infobase is detached from master node "%1" of the distributed infobase.</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
 					<ContextMenu name="ТекстПредупрежденияКонтекстноеМеню" id="7"/>
@@ -60,6 +72,12 @@
 - Для того чтобы подтвердить отмену связи и начать работу в программе как с самостоятельной информационной базой, нажмите "Отключить".
 </v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>- To attach the infobase back to the master node, click "Attach".
+- To confirm the detachment and run the application as a standalone infobase, click "Detach".
+</v8:content>
+				</v8:item>
 			</Title>
 			<ContextMenu name="ПояснениеКонтекстноеМеню" id="31"/>
 			<ExtendedTooltip name="ПояснениеРасширеннаяПодсказка" id="32"/>
@@ -69,6 +87,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команды</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Commands</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
@@ -112,6 +134,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Восстановить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reconnect</v8:content>
+				</v8:item>
 			</Title>
 			<Action>Восстановить</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -121,6 +147,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отключить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Disable</v8:content>
 				</v8:item>
 			</Title>
 			<Action>Отключить</Action>
@@ -132,11 +162,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить работу</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exit</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить работу и принять решение позже.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exit the application and decide later.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗавершитьРаботу</Action>

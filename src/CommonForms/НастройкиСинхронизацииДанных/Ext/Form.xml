@@ -17,6 +17,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизация не настроена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronization not configured</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
 			<Behavior>Usual</Behavior>
@@ -29,6 +33,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Декорация информация</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Decoration information</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -45,6 +53,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Информационная надпись синхронизация не настроена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Note synchronization not configured</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -58,6 +70,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Информационная надпись</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Note</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ИнформационнаяНадписьРасширеннаяПодсказка" id="623"/>
@@ -67,6 +83,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Есть права на синхронизацию</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>User has rights to synchronize</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ЕстьПраваНаСинхронизациюРасширеннаяПодсказка" id="625"/>
@@ -78,6 +98,11 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Если для работы в этой программе необходимо синхронизировать данные с другими программами или требуется настроить распределенную информационную базу, то нажмите на кнопку "Новая синхронизация данных".
 Данные могут синхронизироваться автоматически по расписанию или по требованию в любой момент времени.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>If you want to synchronize data with other applications or configure a distributed infobase, click "New data synchronization".
+You can configure scheduled synchronization or synchronize data manually at any time.</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ИнформацияОСинхронизацииЕстьПраваКонтекстноеМеню" id="627"/>
@@ -91,6 +116,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Нет прав на синхронизацию</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>User does not have rights to synchronize</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="НетПравНаСинхронизациюРасширеннаяПодсказка" id="630"/>
 									<ChildItems>
@@ -101,6 +130,11 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Если для работы в этой программе необходимо синхронизировать данные с другими программами или требуется настроить распределенную информационную базу, то обратитесь к администратору информационной базы.
 Данные могут синхронизироваться автоматически по расписанию или по требованию в любой момент времени.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>If you want to synchronize data with other applications or configure a distributed infobase, contact the infobase administrator.
+They can configure scheduled synchronization or synchronize data manually at any time.</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ИнформацияОСинхронизацииНетПравКонтекстноеМеню" id="632"/>
@@ -120,6 +154,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Информационная панель требуется обновление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update required information panel</v8:content>
+				</v8:item>
 			</Title>
 			<Width>45</Width>
 			<Group>Horizontal</Group>
@@ -134,6 +172,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинка предупреждение обновление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Warning update picture</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -150,6 +192,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право обновления страницы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Right to update pages</v8:content>
+						</v8:item>
 					</Title>
 					<PagesRepresentation>None</PagesRepresentation>
 					<ExtendedTooltip name="ПравоОбновленияСтраницыExtendedTooltip" id="746"/>
@@ -160,6 +206,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Информация обмен данными приостановлен есть право обновления</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Synchronization paused, user has right to update</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ИнформацияОбменДаннымиПриостановленЕстьПравоОбновленияРасширеннаяПодсказка" id="748"/>
 							<ChildItems>
@@ -169,6 +219,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Необходимо установить обновление программы, после чего синхронизация данных будет продолжена.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>To continue with data synchronization, please update the application.</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="НадписьОбменДаннымиПриостановленЕстьПравоОбновленияКонтекстноеМеню" id="750"/>
@@ -187,6 +241,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Информация обмен данными приостановлен нет права обновления</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Synchronization paused, user has no right to update</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ИнформацияОбменДаннымиПриостановленНетПраваОбновленияРасширеннаяПодсказка" id="755"/>
 							<ChildItems>
@@ -197,6 +255,11 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Синхронизация данных приостановлена в связи с необходимостью установки полученного обновления.
 Обратитесь к администратору.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data synchronization is paused because an update is pending.
+Please contact the administrator.</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="НадписьОбменДаннымиПриостановленНетПраваОбновленияКонтекстноеМеню" id="757"/>
@@ -214,6 +277,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предупреждение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Warning</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -226,6 +293,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Предупреждение о перезагрузке картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Restart warning picture</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -243,6 +314,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Изменены расширения конфигурации. Чтобы продолжить работу с учетом сделанных изменений, необходимо &lt;link 1&gt;перезапустить&lt;/&gt; программу.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configuration extensions are changed. To continue with the changes made, &lt;link 1&gt;restart&lt;/&gt; the application.</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="ПредупреждениеОПерезагрузкеОписаниеКонтекстноеМеню" id="765"/>
 					<ExtendedTooltip name="ПредупреждениеОПерезагрузкеОписаниеРасширеннаяПодсказка" id="766"/>
@@ -258,6 +333,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель список приложений</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Application list panel</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ПанельСписокПриложенийРасширеннаяПодсказка" id="702"/>
@@ -268,6 +347,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница список приложений</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Application list page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаСписокПриложенийРасширеннаяПодсказка" id="704"/>
 					<ChildItems>
@@ -276,6 +359,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSource>Item.СписокПриложений</CommandSource>
@@ -286,6 +373,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Приложений группа выполнения обмена данными</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Applications data exchange group</v8:content>
 										</v8:item>
 									</Title>
 									<Representation>Compact</Representation>
@@ -317,6 +408,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Приложений группа управление</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Applications group management</v8:content>
 										</v8:item>
 									</Title>
 									<Representation>Compact</Representation>
@@ -365,6 +460,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Приложений группа события</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Applications group events</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СписокПриложенийГруппаСобытияРасширеннаяПодсказка" id="472"/>
 									<ChildItems>
@@ -393,6 +492,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Приложений группа типовые</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Applications group standard</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СписокПриложенийГруппаТиповыеРасширеннаяПодсказка" id="476"/>
@@ -423,6 +526,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Новый код предопределенного узла...</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>New predefined node code…</v8:content>
 										</v8:item>
 									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
@@ -461,6 +568,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Приложений</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Applications</v8:content>
+								</v8:item>
 							</Title>
 							<CommandSet>
 								<ExcludedCommand>Add</ExcludedCommand>
@@ -483,6 +594,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Приложений контекстное меню группа выполнения обмена данными</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Applications context menu data exchange group</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="СписокПриложенийКонтекстноеМенюГруппаВыполненияОбменаДаннымиРасширеннаяПодсказка" id="696"/>
 										<ChildItems>
@@ -498,6 +613,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Приложений контекстное меню группа управление</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Applications context menu group management</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="СписокПриложенийКонтекстноеМенюГруппаУправлениеРасширеннаяПодсказка" id="698"/>
@@ -524,6 +643,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Приложений контекстное меню группа события</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Applications context menu group events</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="СписокПриложенийКонтекстноеМенюГруппаСобытияРасширеннаяПодсказка" id="690"/>
@@ -596,6 +719,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Приложений группа состояние</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Applications group state</v8:content>
+										</v8:item>
 									</Title>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="СписокПриложенийГруппаСостояниеРасширеннаяПодсказка" id="567"/>
@@ -619,6 +746,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Состояние</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>State</v8:content>
+												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="СписокПриложенийСостояниеПредставлениеКонтекстноеМеню" id="572"/>
@@ -632,11 +763,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Последнее отправление</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Last sending</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Сведения об отправке данных</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data sending information</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Group>Horizontal</Group>
@@ -647,6 +786,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Приложений группа последняя выгрузка</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Applications group last export</v8:content>
 												</v8:item>
 											</Title>
 											<Group>InCell</Group>
@@ -691,11 +834,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Последнее получение</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Last receipt</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Сведения о получении данных</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data receipt information</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ExtendedTooltip name="СписокПриложенийГруппаПолучениеДанныхРасширеннаяПодсказка" id="731"/>
@@ -705,6 +856,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Приложений группа последняя загрузка</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Applications group last import</v8:content>
 												</v8:item>
 											</Title>
 											<Group>InCell</Group>
@@ -750,6 +905,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Включено - настроено расписание синхронизации данных.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>If the check box is selected, the synchronization schedule is configured.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
 									<HeaderPicture>
@@ -769,6 +928,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ожидание</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Wait page</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -792,6 +955,11 @@
 									<v8:content>Выполняется получение списка настроенных синхронизаций данных.
 Пожалуйста, подождите...</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Receiving the list of configured data synchronizations.
+Please wait…</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="Декорация2КонтекстноеМеню" id="711"/>
 							<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="712"/>
@@ -806,6 +974,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Префикс ИБ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Infobase prefix</v8:content>
+				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<VerticalAlign>Center</VerticalAlign>
@@ -819,6 +991,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Декорация картинка префикс</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Prefix picture decoration</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -838,6 +1014,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Префикс этой информационной базы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>This infobase prefix</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
 					<ContextMenu name="ПрефиксИБКонтекстноеМеню" id="334"/>
@@ -846,6 +1026,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Префикс добавляется автоматически к кодам элементов справочников и номерам документов для того, чтобы различать, в какой из программ они были введены, и избежать дублирования данных. Префикс вводиться в панели администрирования до настройки первой синхронизации и неизменен до тех пор, пока в информационной базе есть хотя бы одна синхронизация.</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>The prefix is added automatically to catalog item codes and document numbers to see which application they were entered in and avoid data duplication. The prefix is entered in the administration panel before setting up the first synchronization and remains unchanged as long as there is at least one synchronization in the infobase.</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
@@ -860,6 +1044,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Приложений группа расписание выполнения обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Applications group exchange schedule</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalStretch>true</HorizontalStretch>
@@ -886,6 +1074,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список приложений</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Application list</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -911,6 +1103,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Префикс</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Prefix</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -926,6 +1122,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Данные получены</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data received</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -940,6 +1140,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Данные отправлены</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data sent</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -965,6 +1169,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состояние картинка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Status picture</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -981,6 +1189,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состояние</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Status</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -995,6 +1207,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расписание настроено</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Scheduled</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1041,6 +1257,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состояние выгрузки картинка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export status picture</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -1056,6 +1276,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состояние загрузки картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Import status picture</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1176,6 +1400,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Программа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Application</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1210,6 +1438,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Предупреждения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Warnings</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1224,6 +1456,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Предупреждения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Warnings</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1256,6 +1492,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Префикс ИБ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Infobase prefix</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1359,11 +1599,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить монитор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh monitor</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F5</Shortcut>
@@ -1381,11 +1629,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronize</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизировать данные автоматически</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronize data automatically</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1402,11 +1658,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить настройки синхронизации данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change data synchronization settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1423,11 +1687,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>События получения данных...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data receiving events…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти в журнал регистрации событий получения данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to data receipt event log.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1443,11 +1715,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>События отправки данных...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data sending events…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти в журнал регистрации событий отправки данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to data sending event log.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1463,11 +1743,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизация по расписанию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronization schedule</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить сценарии обмена данными</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure data exchange scenarios.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1484,11 +1772,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Состав отправляемых данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data to be sent</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Состав отправляемых данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data to be sent</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1504,11 +1800,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить настройку</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete setting</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить текущую настройку синхронизации данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete the data synchronization settings item.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1525,11 +1829,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить правила...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Load rules…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить правила синхронизации данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Load data synchronization rules.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1545,11 +1857,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать настройку новой синхронизации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create new synchronization setting</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1565,11 +1885,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выгрузка данных для сопоставления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Export data to map</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Начальная выгрузка данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Initial data export</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1584,11 +1912,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизировать с дополнительными параметрами</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronize with additional parameters</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизировать данные, задав дополнительные отборы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronize data with additional filters</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1604,11 +1940,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предыдущая форма предупреждений</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Previous warnings form</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предыдущая форма предупреждений</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Previous warnings form</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПредыдущаяФормаПредупреждений</Action>
@@ -1619,11 +1963,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить обновление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Install update</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить обновление</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Install the update.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УстановитьОбновление</Action>
@@ -1635,11 +1987,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Новый код предопределенного узла</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>New predefined node code</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Новый код предопределенного узла</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>New predefined node code</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НовыйКодПредопределенногоУзла</Action>
@@ -1650,11 +2010,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить префикс ИБ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change the infobase prefix</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИзменитьПрефиксИБ</Action>

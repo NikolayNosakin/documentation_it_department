@@ -18,6 +18,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
 			</Title>
 			<VerticalStretch>false</VerticalStretch>
 			<Group>Vertical</Group>
@@ -31,6 +35,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Быстрые отборы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Quick filters</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -43,6 +51,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Показывать</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Show</v8:content>
 						</v8:item>
 					</Title>
 					<Width>15</Width>
@@ -59,6 +71,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Все</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>All</v8:content>
+									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:decimal">0</Value>
 							</xr:Value>
@@ -72,6 +88,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Используемые</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Used</v8:content>
+									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:decimal">1</Value>
 							</xr:Value>
@@ -84,6 +104,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Отключенные</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Disabled</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:decimal">2</Value>
@@ -104,6 +128,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
+				</v8:item>
 			</Title>
 			<CommandSource>Form</CommandSource>
 			<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="37"/>
@@ -116,12 +144,20 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Добавить из файла...</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Add from file…</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ФормаСоздатьРасширеннаяПодсказка" id="70">
 						<Title formatted="false">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Добавить из файла на диске...</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Add from file on disk…</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
@@ -131,6 +167,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Действие</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Action</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаДействиеРасширеннаяПодсказка" id="66"/>
@@ -170,6 +210,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSet>
@@ -348,11 +392,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить из файла...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update from file…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить из файла на диске...</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update from file on disk…</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -369,11 +421,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить как...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save as…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить как...</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save as…</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -389,11 +449,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить с Портала 1С:ИТС</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update from 1C:ITS Portal</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить с Портала 1С:ИТС</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update from 1C:ITS Portal</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

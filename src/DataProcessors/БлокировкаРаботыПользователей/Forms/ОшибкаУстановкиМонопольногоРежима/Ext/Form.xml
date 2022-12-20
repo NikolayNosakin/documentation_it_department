@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Не удалось выполнить обновление</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Update canceled</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -48,6 +52,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ГруппаСтраницыExtendedTooltip" id="47"/>
@@ -58,6 +66,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Информация</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Information</v8:content>
+						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ИнформацияРасширеннаяПодсказка" id="48"/>
@@ -67,6 +79,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Информация для пользователя</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Information for user</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -89,6 +105,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Информация</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Information</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -101,6 +121,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Сообщение об ошибке</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Error message</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -116,6 +140,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Невозможно выполнить обновление версии программы, т.к. с ней работают другие пользователи:</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Cannot update the application because other users are working with it:</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="ТекстСообщенияОбОшибкеКонтекстноеМеню" id="2"/>
 													<ExtendedTooltip name="ТекстСообщенияОбОшибкеExtendedTooltip" id="53"/>
@@ -126,6 +154,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Активные пользователи (%1)</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Active users (%1)</v8:content>
 														</v8:item>
 													</Title>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -146,6 +178,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Для продолжения необходимо завершить их работу.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>To continue, close their sessions.</v8:content>
+												</v8:item>
 											</Title>
 											<VerticalAlign>Bottom</VerticalAlign>
 											<ContextMenu name="ПояснениеПоОшибкеКонтекстноеМеню" id="17"/>
@@ -163,6 +199,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ожидание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Wait</v8:content>
+						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ОжиданиеРасширеннаяПодсказка" id="56"/>
@@ -172,6 +212,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Содержание</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Content</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -184,6 +228,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинка ожидание</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Waiting picture</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -200,6 +248,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Текст пояснения</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Note text</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -215,6 +267,11 @@
 													<v8:content>В течение ближайших двух минут работа всех пользователей в программе будет завершена автоматически. 
 При этом им будет выведено предупреждение, чтобы перед выходом из программы они могли сохранить введенные данные.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>All user sessions will be closed within 2 minutes. 
+The users will be prompted to save their data before signing out.</v8:content>
+												</v8:item>
 											</Title>
 											<TitleHeight>1</TitleHeight>
 											<ContextMenu name="ТекстПоясненияКонтекстноеМеню" id="27"/>
@@ -226,6 +283,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Активные пользователи (%1)</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Active users (%1)</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
@@ -321,6 +382,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить сеансы и повторить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Close sessions and retry</v8:content>
+				</v8:item>
 			</Title>
 			<Action>ЗавершитьСеансыИПовторить</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -331,6 +396,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
+				</v8:item>
 			</Title>
 			<Action>ОтменитьЗапускПрограммы</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -340,6 +409,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Повторить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Retry</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ПовторитьЗапускПрограммы</Action>

@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Выбор пользователей для копирования настроек</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Select source and destination users</v8:content>
+		</v8:item>
 	</Title>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
@@ -43,6 +47,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSource>Form</CommandSource>
@@ -90,6 +98,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выберите пользователей, которым необходимо скопировать настройки:</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select destination users:</v8:content>
+				</v8:item>
 			</Title>
 			<ContextMenu name="НадписьКонтекстноеМеню" id="24"/>
 			<ExtendedTooltip name="НадписьExtendedTooltip" id="58"/>
@@ -99,6 +111,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбор пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select users</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
@@ -129,6 +145,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группы пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User groups</v8:content>
 						</v8:item>
 					</Title>
 					<CommandSet>
@@ -205,6 +225,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>И картинка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>And picture</v8:content>
+								</v8:item>
 							</Title>
 							<Group>InCell</Group>
 							<ExtendedTooltip name="ГруппаИКартинкаExtendedTooltip" id="64"/>
@@ -244,6 +268,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователи</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Users</v8:content>
 						</v8:item>
 					</Title>
 					<CommandSet>
@@ -316,6 +344,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пользователи</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Users</v8:content>
+								</v8:item>
 							</Title>
 							<Group>InCell</Group>
 							<ExtendedTooltip name="ГруппаПользователиExtendedTooltip" id="71"/>
@@ -371,6 +403,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать пользователей дочерних групп</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show users that belong to subgroups</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ГруппаПоказыватьПользователейДочернихГруппExtendedTooltip" id="74"/>
@@ -380,6 +416,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Установить свойство</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Apply property</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаУстановитьСвойствоExtendedTooltip" id="75"/>
@@ -391,12 +431,20 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Показывать пользователей дочерних групп</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Show users that belong to subgroups</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отображать в списке пользователей выбранной группы пользователей дочерних групп</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Show users that belong to subgroups in the list of users of the selected group.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -418,6 +466,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отметьте пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select users</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -433,6 +485,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ВнешниеПользователи</v8:Type>
@@ -445,6 +501,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пометка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check box</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -456,6 +516,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подразделение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Department</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:TypeSet>cfg:DefinedType.Подразделение</v8:TypeSet>
@@ -466,6 +530,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Физическое лицо</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Individual</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -486,6 +554,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выберите группу пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select user group</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -500,6 +572,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ГруппыВнешнихПользователей</v8:Type>
@@ -511,6 +587,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Picture</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -593,6 +673,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать пользователей дочерних групп</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show users that belong to subgroups</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -655,11 +739,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select users.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -676,11 +768,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пометить выбранные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add check marks to selected users</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пометить выбранные</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add check marks to selected users.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПометитьВыбранные</Action>
@@ -693,11 +793,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять пометку выбранных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove check marks from selected users</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять пометку выбранных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove check marks from selected users.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СнятьПометкуВыбранных</Action>
@@ -710,11 +818,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пометить всех</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пометить всех пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all users.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -730,11 +846,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять пометку со всех</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять пометку со всех пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all users.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -750,11 +874,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть карточку пользователя или группы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open user or group card</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -771,11 +903,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Активные пользователи...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Active users…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть список пользователей, работающих в программе</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the list of users signed in to the application.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>АктивныеПользователи</Action>

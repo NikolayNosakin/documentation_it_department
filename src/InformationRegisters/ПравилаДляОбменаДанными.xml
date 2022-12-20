@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Правила для обмена данными</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data exchange rules</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -169,6 +173,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Используется для хранения правил конвертации и регистрации данных. Правила хранятся в зачитанном и оригинальном виде.</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stores data conversion and data registration rules. The rules are stored in both the original format and the format they have after parsing.</v8:content>
+				</v8:item>
 			</Explanation>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
@@ -182,6 +190,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Типовые правила из конфигурации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Standard rules from configuration</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -199,6 +211,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя макета правил конвертации/регистрации из которого были загружены правила</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name of the template that is source of conversion or registration rules.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -231,6 +247,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Типовые правила из конфигурации</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Standard rules from configuration</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -247,6 +267,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя макета правил конвертации/регистрации из которого были загружены правила</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name of the template that is source of conversion or registration rules.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -279,6 +303,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя плана обмена из правил</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange plan name from rules</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -295,6 +323,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя плана обмена, как оно задано в конфигураторе, для которого были загружены правила для обмена.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name of the exchange plan that uses the rules, as it is set in Designer.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -327,6 +359,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла обработки для отладки выгрузки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>File name of the data processor for export debugging</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -343,6 +379,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полное имя файла внешней обработки для отладки выгрузки.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The full file name of the external data processor for export debugging.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -375,6 +415,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла обработки для отладки загрузки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>File name of the data processor for import debugging</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -391,6 +435,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полное имя файла внешней обработки для отладки загрузки.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The full file name of the external data processor for import debugging.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -423,6 +471,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла с правилами</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Rules file name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -439,6 +491,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла правил для обмена из которого были загружены правила. Только имя файла, без относительного пути.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name of the exchange rules file. Doesn't include the path to the file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -471,6 +527,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла протокола обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange log file name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -487,6 +547,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полное имя файла протокола обмена.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The full name of the exchange log file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -519,6 +583,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Информация о правилах</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Rules</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -535,6 +603,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Строка информация о правилах конвертации/регистрации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Conversion or registration rule details string.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -567,6 +639,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Источник правил</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Rules source</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -579,6 +655,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак загрузки правил для обмена из файла или макета конфигурации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether exchange rules have been imported from a file or a template.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -611,6 +691,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Не останавливать по ошибке</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Continue data exchange if errors occur</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -623,6 +707,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак включения режима, при котором выполнение обмена данными не будет остановлено при возникновении ошибки.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether data exchange continues if an error occurs.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -655,6 +743,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Правила XML</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Rules (XML)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -667,6 +759,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Оригинальный XML-файл правил конвертации/регистрации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An XML file that is a source of conversion or registration rules.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -699,6 +795,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Правила XML корреспондента</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Peer rules (XML)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -711,6 +811,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Оригинальный XML-файл правил конвертации/регистрации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An XML file that is a source of conversion or registration rules.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -743,6 +847,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Правила зачитанные</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parsed rules</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -755,6 +863,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Зачитанные из файла правила конвертации/регистрации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Conversion or registration rules imported from a file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -787,6 +899,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Зачитанные правила корреспондента</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parsed peer rules</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -799,6 +915,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Зачитанные из файла правила конвертации/регистрации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Conversion or registration rules that are read from a file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -831,6 +951,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Режим отладки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Debug mode</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -843,6 +967,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак включения возможностей режима отладки правил конвертации.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether debugging of conversion rules is enabled.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -875,6 +1003,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Режим отладки выгрузки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export debug mode</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -887,6 +1019,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак включения режима отладки выгрузки.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether export debugging is enabled.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -919,6 +1055,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Режим отладки загрузки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Import debug mode</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -931,6 +1071,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак включения режима отладки загрузки.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether import debugging is enabled.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -963,6 +1107,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Режим протоколирования синхронизации данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data synchronization logging mode</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -975,6 +1123,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак включения режима вывода информационных сообщений об обмене в Журнал регистрации или в файл протокола.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether informational messages related to data exchange are written to the event log or the exchange log file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1006,6 +1158,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя менеджера регистрации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Registration manager name</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1050,6 +1206,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать фильтр выборочной регистрации объектов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use selective object registration filter</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1062,6 +1222,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак использования фильтра Выборочной регистрации объектов для плана обмена. Используется только для правил конвертации объектов. </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether a selective object registration filter applies to an exchange plan. It is used for object conversion rules only.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1094,6 +1258,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Правила загружены</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Rules are imported</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1106,6 +1274,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что правила для обмена загружены в регистр (прочитаны из файла/макета правил).</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether exchange rules have been imported to the register from a file or a template.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1138,6 +1310,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя плана обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange plan name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1154,6 +1330,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя плана обмена как оно задано в конфигураторе.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An exchange plan name, as it is set in Designer.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1189,6 +1369,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вид правил</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Rules type</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1201,6 +1385,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вид правил для обмена данными.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The data exchange rules type.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

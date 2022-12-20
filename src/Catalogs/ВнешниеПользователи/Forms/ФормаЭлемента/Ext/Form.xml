@@ -25,6 +25,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Команды формы</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form commands</v8:content>
+					</v8:item>
 				</Title>
 				<CommandSource>Form</CommandSource>
 				<ExtendedTooltip name="КомандыФормыРасширеннаяПодсказка" id="354"/>
@@ -57,6 +61,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Свойства обработка несоответствия</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Properties mismatch processing</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -69,6 +77,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Свойства картинка предупреждения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Properties warning picture</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -84,6 +96,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Свойства пояснение и команды</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Properties note and commands</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -102,11 +118,21 @@
 %1.
 Нажмите "Записать", чтобы устранить различия и не выводить это предупреждение.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The following infobase user properties differ from the properties specified in the form:
+%1.
+Click "Save" to resolve the differences and hide this message.</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Некоторые свойства пользователя информационной базы сохраняются в карточке внешнего пользователя. Между значениями этих свойств найдены различия.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Some of the infobase user properties are stored in the external user card. The values stored in the card do not match the values specified here.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<VerticalAlign>Top</VerticalAlign>
@@ -123,6 +149,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сопоставление обработка несоответствия</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Mapping mismatch processing</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -135,6 +165,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сопоставление картинка предупреждения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Mapping warning picture</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -154,6 +188,11 @@
 							<v8:content>Пользователь информационной базы не найден.
 Нажмите "Записать", чтобы устранить проблему и не выводить это предупреждение.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The infobase user is not found.
+Click "Save" to resolve the issue and hide this message.</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalAlign>Center</VerticalAlign>
 					<ContextMenu name="СопоставлениеПояснениеНесоответствияКонтекстноеМеню" id="173"/>
@@ -167,6 +206,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Шапка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -178,6 +221,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -215,6 +262,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вход в программу разрешен</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow authorization</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -230,6 +281,11 @@
 							<v8:content>Разрешить вход внешнего пользователя в программу
 указанными способами аутентификации.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allow external users to sign in
+with the specified authentication methods.</v8:content>
+						</v8:item>
 					</ToolTip>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ВходВПрограммуРазрешенКонтекстноеМеню" id="100"/>
@@ -243,6 +299,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Изменить ограничение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Edit authentication restrictions</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -266,12 +326,21 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Рекомендуется проверить настройки для входа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Consider reviewing user authentication settings</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перед разрешением входа в программу рекомендуется проверить настройки, т.к. пользователь
 был введен не администратором, а ответственным за список внешних пользователей.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>It is recommended that you review the settings because the user was created
+by the external user list owner (not by the administrator).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -286,6 +355,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы главное и комментарий</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main and comment pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыГлавноеИКомментарийРасширеннаяПодсказка" id="282"/>
@@ -299,6 +372,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Главное</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаГлавноеРасширеннаяПодсказка" id="284"/>
 					<ChildItems>
@@ -307,6 +384,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Свойства пользователя информационной базы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Infobase user properties</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -319,6 +400,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Основные свойства</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Main properties</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -333,6 +418,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Имя (переключение отметки незаполненного)</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Name (switching between incomplete and complete fields)</v8:content>
+												</v8:item>
 											</Title>
 											<PagesRepresentation>None</PagesRepresentation>
 											<ExtendedTooltip name="ИмяПереключениеОтметкиНезаполненногоРасширеннаяПодсказка" id="239"/>
@@ -342,6 +431,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Имя с отметкой незаполненного</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Name (incomplete field)</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ИмяСОтметкойНезаполненногоРасширеннаяПодсказка" id="241"/>
@@ -362,6 +455,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Имя без отметки незаполненного</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Name (complete field)</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ИмяБезОтметкиНезаполненногоРасширеннаяПодсказка" id="246"/>
@@ -384,6 +481,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Свойства аутентификации 1С предприятия</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>1C:Enterprise authentication properties</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -400,6 +501,11 @@
 															<v8:content>Способ входа в программу с помощью имени и пароля,
 указанного для пользователя 1С:Предприятия.</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Authentication with 1C:Enterprise
+username and password.</v8:content>
+														</v8:item>
 													</ToolTip>
 													<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 													<CheckBoxType>Auto</CheckBoxType>
@@ -414,6 +520,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Отступ</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Indent</v8:content>
 														</v8:item>
 													</Title>
 													<Behavior>Usual</Behavior>
@@ -431,6 +541,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Параметры аутентификации 1С:Предприятия</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>1C: Enterprise authentication parameters</v8:content>
+																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
 															<Behavior>Usual</Behavior>
@@ -443,6 +557,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Пароль</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Password</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Behavior>Usual</Behavior>
@@ -457,6 +575,10 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Пустой пароль</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Blank password</v8:content>
 																				</v8:item>
 																			</Title>
 																			<ContextMenu name="НадписьНаличиеПароляКонтекстноеМеню" id="322"/>
@@ -493,6 +615,11 @@
 																			<v8:content>Запрещает изменение пароля
 внешнему пользователю.</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>The external user cannot change
+their password.</v8:content>
+																		</v8:item>
 																	</ToolTip>
 																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ПользовательИБЗапрещеноИзменятьПарольКонтекстноеМеню" id="52"/>
@@ -520,6 +647,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Свойства аутентификации open ID</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>OpenID authentication properties</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -537,6 +668,12 @@
 которое передается службе аутентификации по протоколу OpenID.
 Используется только при подключении через веб-сервер (адрес службы должен быть настроен).</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Authentication with the name assigned to the 1C:Enterprise user,
+ which is sent to the authentication service over OpenID protocol.
+Only for a web server connection (the service address must be configured).</v8:content>
+														</v8:item>
 													</ToolTip>
 													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПользовательИБАутентификацияOpenIDКонтекстноеМеню" id="198"/>
@@ -552,6 +689,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Свойства дополнительные</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Additional properties</v8:content>
 												</v8:item>
 											</Title>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -584,6 +725,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Редактирование или просмотр ролей</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Edit or view roles</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -606,6 +751,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Список ролей</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Role list</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -637,6 +786,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Разрешенные действия (роли)</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Allowed actions (roles)</v8:content>
 														</v8:item>
 													</Title>
 													<CommandSet>
@@ -689,6 +842,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Роли стандартные команды</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Roles standard commands</v8:content>
+																	</v8:item>
 																</Title>
 																<CommandSource>Item.Роли</CommandSource>
 																<ExtendedTooltip name="РолиСтандартныеКомандыРасширеннаяПодсказка" id="290"/>
@@ -726,6 +883,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Роли колонок</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Role columns</v8:content>
 																</v8:item>
 															</Title>
 															<Group>InCell</Group>
@@ -767,6 +928,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адреса, телефоны</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Addresses and phones</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаКонтактнаяИнформацияРасширеннаяПодсказка" id="358"/>
 					<ChildItems>
@@ -775,6 +940,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Контактная информация</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Contact information</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -790,6 +959,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные реквизиты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional attributes</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаДополнительныеРеквизитыРасширеннаяПодсказка" id="301"/>
 				</Page>
@@ -798,6 +971,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаКомментарийРасширеннаяПодсказка" id="286"/>
@@ -829,6 +1006,11 @@
 					<v8:content>Язык интерфейса
 программы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Application interface
+language</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -848,6 +1030,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователю запрещено изменять пароль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User cannot change password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -862,6 +1048,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя (для входа)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Username</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -881,6 +1071,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вход в программу разрешен</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow authorization</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -949,6 +1143,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Roles</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -964,6 +1162,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пометка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check box</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -974,6 +1176,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разрешенное действие (роль)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allowed action (role)</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1044,6 +1250,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Аутентификация по протоколу OpenID</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OpenID authentication</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1058,6 +1268,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Аутентификация 1С:Предприятия</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>1C:Enterprise authentication</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1131,6 +1345,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Потребовать смену пароля при входе</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Require password change upon authorization</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1223,6 +1441,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователю запрещено восстанавливать пароль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User cannot recover the password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1237,11 +1459,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Только выбранные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Selected roles only</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать только выбранные роли</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show selected roles only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1261,11 +1491,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Исключить роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove roles</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Исключить роли</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove roles</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1285,11 +1523,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add roles</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить роли</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add roles</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1309,11 +1555,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>По подсистемам</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group by subsystems</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группировать список ролей по подсистемам</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group roles by subsystems.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1333,6 +1587,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сменить пароль...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change password…</v8:content>
+				</v8:item>
 			</Title>
 			<Action>СменитьПароль</Action>
 			<FunctionalOptions>
@@ -1345,6 +1603,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить ограничение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit authentication restrictions</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ИзменитьОграничениеНаВходВПрограмму</Action>
@@ -1359,11 +1621,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать объект и закрыть форму</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаписатьИЗакрыть</Action>

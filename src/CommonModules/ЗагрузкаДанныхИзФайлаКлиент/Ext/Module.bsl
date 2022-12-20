@@ -77,7 +77,8 @@
 Процедура ДиалогЗагрузкиФайла(ОповещениеЗавершения , ИмяФайла = "") Экспорт
 	
 	ПараметрыЗагрузки = ФайловаяСистемаКлиент.ПараметрыЗагрузкиФайла();
-	ПараметрыЗагрузки.Диалог.Фильтр = НСтр("ru = 'Все поддерживаемые форматы файлов(*.xls;*.xlsx;*.ods;*.mxl;*.csv)|*.xls;*.xlsx;*.ods;*.mxl;*.csv|Книга Excel 97 (*.xls)|*.xls|Книга Excel 2007 (*.xlsx)|*.xlsx|Электронная таблица OpenDocument (*.ods)|*.ods|Текстовый документ c разделителями (*.csv)|*.csv|Табличный документ (*.mxl)|*.mxl'");
+	ПараметрыЗагрузки.Диалог.Фильтр = НСтр("ru = 'Все поддерживаемые форматы файлов(*.xls;*.xlsx;*.ods;*.mxl;*.csv)|*.xls;*.xlsx;*.ods;*.mxl;*.csv|Книга Excel 97 (*.xls)|*.xls|Книга Excel 2007 (*.xlsx)|*.xlsx|Электронная таблица OpenDocument (*.ods)|*.ods|Текстовый документ c разделителями (*.csv)|*.csv|Табличный документ (*.mxl)|*.mxl';
+											|en = 'All supported file formats (*.xls; *.xlsx; *.ods; *.mxl; *.csv)|*.xls;*.xlsx;*.ods;*.mxl;*.csv|Excel Workbook 97 (*.xls)|*.xls|Excel Workbook 2007 (*.xlsx)|*.xlsx|OpenDocument Spreadsheet (*.ods)|*.ods|Comma-separated values file(*.csv)|*.csv|Spreadsheet document (*.mxl)|*.mxl'");
 	ПараметрыЗагрузки.ИдентификаторФормы = ОповещениеЗавершения.Модуль.УникальныйИдентификатор;
 	
 	

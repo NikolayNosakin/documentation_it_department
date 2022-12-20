@@ -33,7 +33,8 @@
 	
 		Элементы.ГруппаВнешниеПользователи.Видимость = Ложь;
 		Элементы.ОписаниеРаздела.Заголовок =
-			НСтр("ru = 'Администрирование пользователей, настройка групп доступа, управление пользовательскими настройками.'");
+			НСтр("ru = 'Администрирование пользователей, настройка групп доступа, управление пользовательскими настройками.';
+				|en = 'Manage users, configure access groups, grant access to external users, and manage user settings.'");
 	КонецЕсли;
 	
 	Если СтандартныеПодсистемыСервер.ЭтоБазоваяВерсияКонфигурации()
@@ -128,21 +129,35 @@
 			НСтр("ru = 'Включить производительный вариант ограничения доступа?
 			           |
 			           |Включение произойдет после окончания первого обновления
-			           |(см. ход по ссылке ""Обновление доступа на уровне записей"").'");
+			           |(см. ход по ссылке ""Обновление доступа на уровне записей"").';
+			           |en = 'Do you want to enable the High-performance mode of access restriction?
+			           |
+			           |It will be applied after the first update
+			           |(see “Update record-level access”).'");
 	ИначеЕсли НаборКонстант.ОграничиватьДоступНаУровнеЗаписей Тогда
 		ТекстВопроса =
 			НСтр("ru = 'Выключить производительный вариант ограничения доступа?
 			           |
 			           |Потребуется заполнение данных, которое будет выполняться частями
 			           |регламентным заданием ""Заполнение данных для ограничения доступа""
-			           |(ход выполнения в журнале регистрации).'");
+			           |(ход выполнения в журнале регистрации).';
+			           |en = 'Do you want to disable the High-performance mode of access restriction?
+			           |
+			           |This requires data population that will be performed in batches by
+			           |scheduled job ""Filling data to restrict access""
+			           |(see the progress is in the Event Log).'");
 	Иначе
 		ТекстВопроса =
 			НСтр("ru = 'Выключить производительный вариант ограничения доступа?
 			           |
 			           |Потребуется частичное заполнение данных, которое будет выполняться частями
 			           |регламентным заданием ""Заполнение данных для ограничения доступа""
-			           |(ход выполнения в журнале регистрации).'");
+			           |(ход выполнения в журнале регистрации).';
+			           |en = 'Do you want to disable the High-performance mod of access restriction?
+			           |
+			           |This requires data population that will be performed in batches
+			           |by scheduled job ""Access restriction data population""
+			           |(see the progress in the Event Log).'");
 	КонецЕсли;
 	
 	Если ЗначениеЗаполнено(ТекстВопроса) Тогда
@@ -166,12 +181,19 @@
 			           |(см. ход по ссылке ""Обновление доступа на уровне записей"").
 			           |
 			           |Обновление доступа может замедлить работу программы и выполняться
-			           |от нескольких секунд до часов (в зависимости от объема данных).'");
+			           |от нескольких секунд до часов (в зависимости от объема данных).';
+			           |en = 'Access groups settings will take effect gradually
+			           |(to view the progress, click ""View record-level access update progress"").
+			           |
+			           |This might slow down the application and take
+			           |from seconds to a few hours depending on the data volume.'");
 		Если НаборКонстант.ОграничиватьДоступНаУровнеЗаписей Тогда
-			ТекстВопроса = НСтр("ru = 'Включить ограничение доступа на уровне записей?'")
+			ТекстВопроса = НСтр("ru = 'Включить ограничение доступа на уровне записей?';
+								|en = 'Do you want to enable record-level access restrictions?'")
 				+ Символы.ПС + Символы.ПС + ТекстВопроса;
 		Иначе
-			ТекстВопроса = НСтр("ru = 'Выключить ограничение доступа на уровне записей?'")
+			ТекстВопроса = НСтр("ru = 'Выключить ограничение доступа на уровне записей?';
+								|en = 'Do you want to disable record-level access restrictions?'")
 				+ Символы.ПС + Символы.ПС + ТекстВопроса;
 		КонецЕсли;
 		
@@ -184,7 +206,15 @@
 			           |(ход выполнения в журнале регистрации).
 			           |
 			           |Выполнение может сильно замедлить работу программы и выполняться
-			           |от нескольких секунд до многих часов (в зависимости от объема данных).'");
+			           |от нескольких секунд до многих часов (в зависимости от объема данных).';
+			           |en = 'Do you want to enable record-level access restriction?
+			           |
+			           |This requires data population that will be performed in batches
+			           |by scheduled job ""Access restriction data population"" 
+			           |(see the progress in the Event Log).
+			           |
+			           |The processing might slow down the application and take
+			           |from seconds to a few hours depending on the data volume.'");
 	Иначе
 		ТекстВопроса = "";
 	КонецЕсли;
@@ -211,7 +241,12 @@
 			           |
 			           |При входе в программу список выбора пользователей станет пустым
 			           |(реквизит ""Показывать в списке выбора"" в карточках всех
-			           | пользователей будет очищен и скрыт).'");
+			           | пользователей будет очищен и скрыт).';
+			           |en = 'Do you want to allow external user access?
+			           |
+			           |The user list in the startup dialog will be cleared
+			           |(attribute ""Show in choice list"" will be cleared and hidden from all user profiles).
+			           |'");
 		
 		ПоказатьВопрос(
 			Новый ОписаниеОповещения(
@@ -225,7 +260,11 @@
 			НСтр("ru = 'Запретить доступ внешним пользователям?
 			           |
 			           |Реквизит ""Вход в программу разрешен"" будет
-			           |очищен в карточках всех внешних пользователей.'");
+			           |очищен в карточках всех внешних пользователей.';
+			           |en = 'Do you want to deny external user access?
+			           |
+			           |Attribute ""Can sign in"" will be cleared
+			           |in all external user profiles.'");
 		
 		ПоказатьВопрос(
 			Новый ОписаниеОповещения(

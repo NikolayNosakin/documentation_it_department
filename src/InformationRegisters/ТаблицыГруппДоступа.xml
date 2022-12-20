@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Таблицы групп доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access group tables</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -178,6 +182,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право изменение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Update" right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -190,6 +198,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флажок, установленный истина, показывает наличие права изменения в заданной таблице в пределах заданной группы доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>To grant the right to update the table to the access group, select the check box.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -222,6 +234,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право добавление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Add" right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -234,6 +250,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флажок, установленный истина, показывает наличие права добавления в заданной таблице в пределах заданной группы доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>To grant the right to add items to the table to the access group, select the check box.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -266,6 +286,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право чтение без ограничения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Unrestricted read" right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -278,6 +302,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флажок, установленный истина, показывает наличие права чтения без ограничения в заданной таблице в пределах заданной группы доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>To grant the right to read the table without restrictions to the access group, select the check box.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -310,6 +338,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право изменение без ограничения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Unrestricted update" right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -322,6 +354,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флажок, установленный истина, показывает наличие права изменения без ограничения в заданной таблице в пределах заданной группы доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>To grant the right to update the table without restrictions to the access group, select the check box.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -354,6 +390,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право добавление без ограничения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Unrestricted add" right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -366,6 +406,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Флажок, установленный истина, показывает наличие права добавления без ограничения в заданной таблице в пределах заданной группы доступа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>To grant the right to add items to the table without restrictions to the access group, select the check box.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -398,6 +442,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип таблицы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Table type</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>АПК:1330 - №728.2.1 Допустимо использование универсального ссылочного типа, так как это универсальный механизм и только для RLS в формате БСП 2.х (устарел)</Comment>
 					<Type>
@@ -418,6 +466,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вспомогательный реквизит, содержащий пустую ссылку для таблиц объектного типа.
 Реквизит используется в шаблонах ограничения доступа для ускорения работы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An additional attribute that stores a blank reference for tables of object type.
+The attribute is used in access restriction templates to improve performance.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -450,6 +503,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Table</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -463,6 +520,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Идентификатор объекта метаданных для которого в одной из ролей профиля заданы права доступа.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An ID of a metadata object. One of the profile roles grants access rights to the object.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -498,6 +559,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа доступа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access group</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -510,6 +575,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа доступа, которой принадлежит описание доступных таблиц по пользователям и правам.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An access group that defines the availability of tables by users and rights.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

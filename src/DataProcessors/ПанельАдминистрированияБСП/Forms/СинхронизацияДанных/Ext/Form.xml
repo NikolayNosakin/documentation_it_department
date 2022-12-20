@@ -29,6 +29,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заголовок</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Title</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -42,6 +46,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Синхронизация данных с другими программами и организация совместной работы в распределенной информационной базе.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Synchronize data with other applications and organize collaboration in a distributed infobase.</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalAlign>Top</VerticalAlign>
 					<ContextMenu name="ОписаниеРазделаКонтекстноеМеню" id="1568"/>
@@ -52,6 +60,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Справка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Help</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаСправкаExtendedTooltip" id="2016"/>
@@ -71,6 +83,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизация данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data synchronization</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -83,6 +99,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать синхронизацию данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use data synchronization</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -100,6 +120,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Синхронизация данных</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data synchronization</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -111,6 +135,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Синхронизация данных с другими программами.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Synchronize data with other applications.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -125,6 +153,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки синхронизации данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data synchronization setting</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -145,6 +177,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Настройка и выполнение синхронизации данных с другими программами.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Configure and run data synchronization with other applications.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -157,6 +193,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Даты запрета загрузки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data import restriction dates</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
@@ -171,12 +211,21 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Даты запрета загрузки использование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use data import restriction dates</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Запрет загрузки данных прошлых периодов из других программ.
 Не влияет на распределенные информационные базы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Deny importing data of closed periods from other applications.
+This has no effect in distributed infobases.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -193,6 +242,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Даты запрета загрузки</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data import restriction dates</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>None</ToolTipRepresentation>
@@ -205,6 +258,11 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Запрет загрузки данных прошлых периодов из других программ.
 Не влияет на распределенные информационные базы.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Deny importing data of closed periods from other applications.
+This has no effect in distributed infobases.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -220,6 +278,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настроить</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="НастроитьДатыЗапретаЗагрузкиРасширеннаяПодсказка" id="2066"/>
 						</Button>
@@ -230,6 +292,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Даты запрета загрузки настройка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configure data import restriction dates</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -248,6 +314,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизация данных дополнительно</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data synchronization more</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -260,6 +330,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Результатов синхронизации данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data synchronization result</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -281,6 +355,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Просмотр непроведенных документов, незаполненных реквизитов, конфликтов и непринятых по дате запрета.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>View unposted documents, unfilled attributes, conflicts, and data related to closed periods.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -291,6 +369,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Загрузка данных enterprise data</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Import EnterpriseData data</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -309,6 +391,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Загрузка данных EnterpriseData</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Import EnterpriseData data</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ЗагрузкаДанныхEnterpriseDataРасширеннаяПодсказка" id="2072">
@@ -316,6 +402,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Загрузка данных, представленных в формате EnterpriseData.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Import data in the EnterpriseData format.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -329,6 +419,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Префикс узла распределенной информационной базы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Distributed infobase node prefix</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -348,6 +442,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Префикс этой информационной базы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>This infobase prefix</v8:content>
+						</v8:item>
 					</Title>
 					<EditTextUpdate>OnValueChange</EditTextUpdate>
 					<ContextMenu name="ПрефиксУзлаРаспределеннойИнформационнойБазыКонтекстноеМеню" id="1996"/>
@@ -366,6 +464,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Декорация ожидание изменения префикса</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Waiting for prefix change decoration</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>CommonPicture.НезавершившаясяПроверка</xr:Ref>
@@ -383,6 +485,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Каталог временных файлов кластера серверов 1С:Предприятие:</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Temporary files directory of 1C:Enterprise server cluster:</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 			<Group>Vertical</Group>
@@ -395,6 +501,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Путь к единому сетевому каталогу для общих временных файлов серверов 1С:Предприятие, работающих в одном кластере.</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Path to a network directory for temporary files of all 1C:Enterprise servers running in a single cluster.</v8:content>
+					</v8:item>
 				</Title>
 			</ExtendedTooltip>
 			<ChildItems>
@@ -404,6 +514,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Под управлением ОС Windows</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Managed by Windows OS</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="КаталогСообщенийОбменаДаннымиДляWindowsКонтекстноеМеню" id="2043"/>
@@ -419,6 +533,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Под управлением ОС Linux</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Managed by Linux OS</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="КаталогСообщенийОбменаДаннымиДляLinuxКонтекстноеМеню" id="2046"/>
 					<ExtendedTooltip name="КаталогСообщенийОбменаДаннымиДляLinuxРасширеннаяПодсказка" id="2047"/>
@@ -433,6 +551,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Интерфейс o data</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OData interface</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -450,6 +572,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Настройки автоматического REST-сервиса для запроса и обновления данных.</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Settings of automatic REST service for request and data update.</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
@@ -507,11 +633,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить даты запрета загрузки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure data import restriction dates</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить даты запрета загрузки данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure data import restriction dates</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастроитьДатыЗапретаЗагрузки</Action>
@@ -522,11 +656,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки синхронизации данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data synchronization settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки синхронизации данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data synchronization settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастройкиСинхронизацииДанных</Action>

@@ -17,6 +17,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Создать</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Create</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="СоздатьРасширеннаяПодсказка" id="48"/>
 				<ChildItems>
@@ -27,6 +31,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Добавить вручную</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Add manually</v8:content>
 							</v8:item>
 						</Title>
 						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
@@ -45,6 +53,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Команды списка</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>List commands</v8:content>
 					</v8:item>
 				</Title>
 				<CommandSource>Item.Список</CommandSource>
@@ -76,6 +88,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Строка поиска</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search string</v8:content>
+					</v8:item>
 				</Title>
 				<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="63"/>
 				<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="64"/>
@@ -89,6 +105,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Дополнение1</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Addition1</v8:content>
 					</v8:item>
 				</Title>
 				<ContextMenu name="УправлениеПоискомКонтекстноеМеню" id="66"/>
@@ -107,6 +127,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -129,6 +153,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
 				</v8:item>
 			</Title>
 			<AutoRefresh>false</AutoRefresh>
@@ -220,6 +248,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полное наименование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Full description</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="13"/>
 					<ExtendedTooltip name="НаименованиеПолноеExtendedTooltip" id="32"/>
@@ -292,11 +324,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Классификатор стран (ОКСМ)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Country classifier</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть классификатор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open classifier</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьКлассификатор</Action>
@@ -308,11 +348,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить из классификатора...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add from classifier…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать страну выбрав из классификатора стран</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create a country by selecting from the country classifier.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

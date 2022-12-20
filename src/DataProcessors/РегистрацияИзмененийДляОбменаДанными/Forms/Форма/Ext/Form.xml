@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Регистрация изменений для обмена данными</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Data staging manager</v8:content>
+		</v8:item>
 	</Title>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<SaveDataInSettings>UseList</SaveDataInSettings>
@@ -27,11 +31,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы формы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Form pages</v8:content>
 				</v8:item>
 			</ToolTip>
 			<ToolTipRepresentation>None</ToolTipRepresentation>
@@ -44,6 +56,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Основная</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОсновнаяРасширеннаяПодсказка" id="377"/>
 					<ChildItems>
@@ -52,6 +68,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Быстрые отборы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Quick filters</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -87,6 +107,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>№ отправленного 0, № принятого 0</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Number of sent message: 0. Number of received message: 0</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ФормаРедактироватьНомераСообщенийExtendedTooltip" id="202"/>
 								</Button>
@@ -96,6 +120,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Отображать</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Show</v8:content>
 										</v8:item>
 									</Title>
 									<Width>18</Width>
@@ -112,6 +140,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Все</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>All items</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:decimal">0</Value>
 											</xr:Value>
@@ -125,6 +157,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Только выгруженные </v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Exported items</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:decimal">1</Value>
 											</xr:Value>
@@ -137,6 +173,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Только невыгруженные</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Items pending export</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:decimal">2</Value>
@@ -158,6 +198,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Данные регистрации</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Registration data</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -171,11 +215,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Командная панель </v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Command bar</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Общая командная панель</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Common command bar</v8:content>
 										</v8:item>
 									</ToolTip>
 									<CommandSource>Form</CommandSource>
@@ -187,11 +239,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Зарегистрировать</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Stage</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Зарегистрировать объекты выбранных типов</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Stage</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Picture>
@@ -208,6 +268,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Все объекты выбранных типов</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>All objects of selected types</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ДеревоМетаданныхДобавитьРегистрациюВсехОбъектовExtendedTooltip" id="207"/>
 												</Button>
@@ -219,6 +283,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Объекты выбранных типов с авторегистрацией</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Autostaged items of selected types</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ДеревоМетаданныхДобавитьРегистрациюАвтоОбъектовExtendedTooltip" id="208"/>
 												</Button>
@@ -228,11 +296,19 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Регистрация</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Register</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Команды добавления регистрации</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Commands for registering objects</v8:content>
 														</v8:item>
 													</ToolTip>
 													<ExtendedTooltip name="ГруппаКомандДобавитьExtendedTooltip" id="209"/>
@@ -249,6 +325,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Одиночный объект</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Selected object</v8:content>
+																</v8:item>
 															</Title>
 															<ExtendedTooltip name="ФормаДобавитьРегистрациюОдногоОбъектаExtendedTooltip" id="210"/>
 														</Button>
@@ -260,6 +340,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Объекты при помощи отбора</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Filtered objects</v8:content>
+																</v8:item>
 															</Title>
 															<ExtendedTooltip name="ФормаДобавитьРегистрациюОтборExtendedTooltip" id="211"/>
 														</Button>
@@ -270,6 +354,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Регистрация результатов запроса</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Register query result</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ДеревоМетаданныхГруппа3ExtendedTooltip" id="212"/>
@@ -286,6 +374,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Результаты запроса</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Query results</v8:content>
+																</v8:item>
 															</Title>
 															<ExtendedTooltip name="ДеревоМетаданныхДобавитьРегистрациюРезультатаЗапросаExtendedTooltip" id="213"/>
 														</Button>
@@ -299,11 +391,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Отменить регистрацию</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Unstage</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Отменить регистрацию объектов выбранных типов</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Unstage</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Picture>
@@ -320,6 +420,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Всех объектов выбранных типов</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>All objects of selected types</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ДеревоМетаданныхУдалитьРегистрациюВсехОбъектовExtendedTooltip" id="215"/>
 												</Button>
@@ -331,6 +435,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Объектов выбранных типов с авторегистрацией</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Autostaged items of selected types</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ДеревоМетаданныхУдалитьРегистрациюАвтоОбъектовExtendedTooltip" id="216"/>
 												</Button>
@@ -340,11 +448,19 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Отмена регистрации</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Unregister</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Команды удаления регистрации</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Commands for unregistering objects</v8:content>
 														</v8:item>
 													</ToolTip>
 													<ExtendedTooltip name="ГруппаКомандУдалитьExtendedTooltip" id="217"/>
@@ -361,6 +477,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Одиночного объекта</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Selected object</v8:content>
+																</v8:item>
 															</Title>
 															<ExtendedTooltip name="ФормаУдалитьРегистрациюОдногоОбъектаExtendedTooltip" id="218"/>
 														</Button>
@@ -372,6 +492,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Объектов при помощи отбора</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Filtered objects</v8:content>
+																</v8:item>
 															</Title>
 															<ExtendedTooltip name="ФормаУдалитьРегистрациюОтборExtendedTooltip" id="219"/>
 														</Button>
@@ -382,6 +506,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Отмена регистрации результатов запроса</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Unregister query result</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ДеревоМетаданныхГруппа4ExtendedTooltip" id="220"/>
@@ -397,6 +525,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Результатов запроса</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Query results</v8:content>
 																</v8:item>
 															</Title>
 															<ExtendedTooltip name="ДеревоМетаданныхУдалитьРегистрациюРезультатаЗапросаExtendedTooltip" id="221"/>
@@ -414,6 +546,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Обновить</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Refresh</v8:content>
+												</v8:item>
 											</Title>
 											<ExtendedTooltip name="ОбновитьВсеДанныеExtendedTooltip" id="222"/>
 										</Button>
@@ -425,6 +561,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Настройки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Settings</v8:content>
 												</v8:item>
 											</Title>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
@@ -443,6 +583,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Регистрация объекта на всех узлах</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Stage item for all nodes</v8:content>
+												</v8:item>
 											</Title>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="ФормаОткрытьФормуРегистрацииНаУзлахExtendedTooltip" id="225"/>
@@ -453,11 +597,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Форма группа кнопок РИБ</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Form DIB button group</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Группа кнопок РИБ</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>DIB button group</v8:content>
 												</v8:item>
 											</ToolTip>
 											<ExtendedTooltip name="ФормаГруппаКнопокРИБРасширеннаяПодсказка" id="317"/>
@@ -487,6 +639,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Регистрируемые объекты</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Objects to register</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
 									<Behavior>Usual</Behavior>
@@ -515,6 +671,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Виды объектов регистрации</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Object types to stage</v8:content>
+												</v8:item>
 											</Title>
 											<CommandSet>
 												<ExcludedCommand>Add</ExcludedCommand>
@@ -538,6 +698,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Добавление по виду объектов</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Register by object type</v8:content>
+															</v8:item>
 														</Title>
 														<ExtendedTooltip name="ДеревоМетаданныхКонтекстноеМенюГруппа1ExtendedTooltip" id="227"/>
 														<ChildItems>
@@ -553,6 +717,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Зарегистрировать изменения всех объектов выбранных типов</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Stage all items of selected types</v8:content>
+																	</v8:item>
 																</Title>
 																<ExtendedTooltip name="ДеревоМетаданныхКонтекстноеМенюДобавитьРегистрациюВсехОбъектовExtendedTooltip" id="228"/>
 															</Button>
@@ -564,6 +732,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Зарегистрировать изменения объектов выбранных типов с авторегистрацией</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Stage autostaged items of selected types</v8:content>
+																	</v8:item>
 																</Title>
 																<ExtendedTooltip name="ДеревоМетаданныхКонтекстноеМенюДобавитьРегистрациюАвтоОбъектовExtendedTooltip" id="229"/>
 															</Button>
@@ -574,6 +746,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Добавление объектов</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Add objects</v8:content>
 															</v8:item>
 														</Title>
 														<ExtendedTooltip name="ГруппаКомандДобавить1ExtendedTooltip" id="230"/>
@@ -590,6 +766,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Зарегистрировать изменения одиночного объекта</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Stage selected item</v8:content>
+																	</v8:item>
 																</Title>
 																<ExtendedTooltip name="ДеревоМетаданныхКонтекстноеМенюДобавитьРегистрациюОдногоОбъектаExtendedTooltip" id="231"/>
 															</Button>
@@ -601,6 +781,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Зарегистрировать изменения объектов при помощи отбора</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Stage filtered items</v8:content>
+																	</v8:item>
 																</Title>
 																<ExtendedTooltip name="ДеревоМетаданныхКонтекстноеМенюДобавитьРегистрациюОтборExtendedTooltip" id="232"/>
 															</Button>
@@ -611,6 +795,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Отмена регистрации по виду объектов</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Unregister by object type</v8:content>
 															</v8:item>
 														</Title>
 														<ExtendedTooltip name="ДеревоМетаданныхКонтекстноеМенюГруппа2ExtendedTooltip" id="233"/>
@@ -627,6 +815,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Отменить регистрацию изменений всех объектов выбранных типов</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Unstage all items of selected types</v8:content>
+																	</v8:item>
 																</Title>
 																<ExtendedTooltip name="ДеревоМетаданныхКонтекстноеМенюУдалитьРегистрациюВсехОбъектовExtendedTooltip" id="234"/>
 															</Button>
@@ -638,6 +830,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Отменить регистрацию изменений объектов выбранных типов с авторегистрацией</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Unstage autostaged items of selected types</v8:content>
+																	</v8:item>
 																</Title>
 																<ExtendedTooltip name="ДеревоМетаданныхКонтекстноеМенюУдалитьРегистрациюАвтоОбъектовExtendedTooltip" id="235"/>
 															</Button>
@@ -648,6 +844,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Отмена регистрации</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Cancel registration</v8:content>
 															</v8:item>
 														</Title>
 														<ExtendedTooltip name="ГруппаКомандУдалить1ExtendedTooltip" id="236"/>
@@ -664,6 +864,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Отменить регистрацию изменений одиночного объекта</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Unstage single item</v8:content>
+																	</v8:item>
 																</Title>
 																<ExtendedTooltip name="ДеревоМетаданныхКонтекстноеМенюУдалитьРегистрациюОдногоОбъектаExtendedTooltip" id="237"/>
 															</Button>
@@ -675,6 +879,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Отменить регистрацию изменений объектов при помощи отбора</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Unstage filtered items</v8:content>
+																	</v8:item>
 																</Title>
 																<ExtendedTooltip name="ДеревоМетаданныхКонтекстноеМенюУдалитьРегистрациюОтборExtendedTooltip" id="238"/>
 															</Button>
@@ -685,6 +893,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Системное меню</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>System menu</v8:content>
 															</v8:item>
 														</Title>
 														<ExtendedTooltip name="ДеревоМетаданныхКонтекстноеМенюГруппа3ExtendedTooltip" id="239"/>
@@ -713,6 +925,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Регистрация объекта на всех узлах</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Stage item for all nodes</v8:content>
 															</v8:item>
 														</Title>
 														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
@@ -759,6 +975,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Объекты регистрации</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Registration objects</v8:content>
+														</v8:item>
 													</Title>
 													<Group>InCell</Group>
 													<ExtendedTooltip name="ДеревоМетаданныхГруппа1ExtendedTooltip" id="243"/>
@@ -783,6 +1003,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Объект конфигурации</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Metadata object tree</v8:content>
+																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
 															<Width>17</Width>
@@ -798,6 +1022,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Информация о регистрации</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Stage details</v8:content>
+														</v8:item>
 													</Title>
 													<Group>InCell</Group>
 													<ExtendedTooltip name="ДеревоМетаданныхГруппа2ExtendedTooltip" id="246"/>
@@ -812,6 +1040,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Авторегистрация</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Autostage</v8:content>
 																</v8:item>
 															</Title>
 															<TitleLocation>None</TitleLocation>
@@ -836,11 +1068,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Количество</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Staged / Pending export</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Зарегистрировано / не выгружено</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Staged / Pending export</v8:content>
 																</v8:item>
 															</ToolTip>
 															<HorizontalAlign>Left</HorizontalAlign>
@@ -861,11 +1101,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Регистрация объектов</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Object registration</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Варианты списка регистрируемых объектов</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Variants of the list of registered objects</v8:content>
 												</v8:item>
 											</ToolTip>
 											<PagesRepresentation>None</PagesRepresentation>
@@ -880,11 +1128,19 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Константы</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Constants</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страница данные константы</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Constants data page</v8:content>
 														</v8:item>
 													</ToolTip>
 													<ExtendedTooltip name="СтраницаКонстантыExtendedTooltip" id="250"/>
@@ -895,11 +1151,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Пользовательских настроек константы</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>User settings constants</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Группа пользовательских настроек констант</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>User settings constants group</v8:content>
 																</v8:item>
 															</ToolTip>
 															<Group>Vertical</Group>
@@ -929,6 +1193,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Констант</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Constants</v8:content>
+																</v8:item>
 															</Title>
 															<AutoRefresh>false</AutoRefresh>
 															<AutoRefreshPeriod>60</AutoRefreshPeriod>
@@ -954,6 +1222,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Список констант контекстное меню 1</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Constants context menu 1</v8:content>
+																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="СписокКонстантКонтекстноеМенюГруппа1ExtendedTooltip" id="251"/>
 																		<ChildItems>
@@ -968,6 +1240,10 @@
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Зарегистрировать изменение константы</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Stage constant</v8:content>
 																					</v8:item>
 																				</Title>
 																				<ExtendedTooltip name="СписокКонстантКонтекстноеМенюДобавитьРегистрациюКонстантыExtendedTooltip" id="252"/>
@@ -984,6 +1260,10 @@
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Отменить регистрацию изменений константы</v8:content>
 																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Unstage constant</v8:content>
+																					</v8:item>
 																				</Title>
 																				<ExtendedTooltip name="СписокКонстантКонтекстноеМенюУдалитьРегистрациюКонстантыExtendedTooltip" id="253"/>
 																			</Button>
@@ -994,6 +1274,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Список констант контекстное меню 3</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Constants context menu 3</v8:content>
 																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="СписокКонстантКонтекстноеМенюГруппа3ExtendedTooltip" id="254"/>
@@ -1009,6 +1293,10 @@
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Результат стандартной выгрузки (РИБ)</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Export result (DIB)</v8:content>
 																					</v8:item>
 																				</Title>
 																				<ExtendedTooltip name="СписокКонстантКонтекстноеМенюПоказатьРезультатВыгрузкиExtendedTooltip" id="255"/>
@@ -1034,6 +1322,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Список констант контекстное меню 2</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Constants context menu 2</v8:content>
 																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="СписокКонстантКонтекстноеМенюГруппа2ExtendedTooltip" id="258"/>
@@ -1107,6 +1399,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Константа</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Constant</v8:content>
+																		</v8:item>
 																	</Title>
 																	<HorizontalStretch>true</HorizontalStretch>
 																	<ContextMenu name="СписокКонстантНаименованиеКонтекстноеМеню" id="67"/>
@@ -1117,6 +1413,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Информация о регистрации</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Stage details</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Group>InCell</Group>
@@ -1132,6 +1432,10 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Авторегистрация</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Autostage</v8:content>
 																				</v8:item>
 																			</Title>
 																			<TitleLocation>None</TitleLocation>
@@ -1151,6 +1455,10 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>№ отправленного</v8:content>
 																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Number of sent message</v8:content>
+																				</v8:item>
 																			</Title>
 																			<HorizontalAlign>Left</HorizontalAlign>
 																			<EditMode>Directly</EditMode>
@@ -1169,11 +1477,19 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Ссылки</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>References</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страница списка ссылок</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>References page</v8:content>
 														</v8:item>
 													</ToolTip>
 													<ExtendedTooltip name="СтраницаСписокСсылокExtendedTooltip" id="269"/>
@@ -1184,11 +1500,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Пользовательских настроек ссылки</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>User settings references</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Группа пользовательских настроек константы</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>User settings constants group</v8:content>
 																</v8:item>
 															</ToolTip>
 															<Group>Vertical</Group>
@@ -1212,6 +1536,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Ссылок</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>References</v8:content>
 																</v8:item>
 															</Title>
 															<AutoRefresh>false</AutoRefresh>
@@ -1238,6 +1566,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Список ссылок контекстное меню 1</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>References context menu 1</v8:content>
+																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="СписокСсылокКонтекстноеМенюГруппа1ExtendedTooltip" id="270"/>
 																		<ChildItems>
@@ -1253,6 +1585,10 @@
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Зарегистрировать изменение объекта</v8:content>
 																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Stage single item</v8:content>
+																					</v8:item>
 																				</Title>
 																				<ExtendedTooltip name="СписокСсылокКонтекстноеМенюДобавитьРегистрациюСсылкиПодборExtendedTooltip" id="271"/>
 																			</Button>
@@ -1263,6 +1599,10 @@
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Зарегистрировать изменения объектов при помощи отбора</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Stage filtered items</v8:content>
 																					</v8:item>
 																				</Title>
 																				<ExtendedTooltip name="СписокСсылокКонтекстноеМенюДобавитьРегистрациюСсылкиОтборExtendedTooltip" id="272"/>
@@ -1275,6 +1615,10 @@
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Зарегистрировать удаление объекта</v8:content>
 																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Stage item deletion</v8:content>
+																					</v8:item>
 																				</Title>
 																				<ExtendedTooltip name="СписокСсылокКонтекстноеМенюДобавитьРегистрациюУдаленияОбъектаExtendedTooltip" id="273"/>
 																			</Button>
@@ -1285,6 +1629,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Список ссылок контекстное меню 3</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>References context menu 3</v8:content>
 																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="СписокСсылокКонтекстноеМенюГруппа3ExtendedTooltip" id="274"/>
@@ -1301,6 +1649,10 @@
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Отменить регистрацию изменений объекта</v8:content>
 																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Unstage single item</v8:content>
+																					</v8:item>
 																				</Title>
 																				<ExtendedTooltip name="СписокСсылокКонтекстноеМенюУдалитьРегистрациюСсылкиExtendedTooltip" id="275"/>
 																			</Button>
@@ -1312,6 +1664,10 @@
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Отменить регистрацию изменения объектов при помощи отбора</v8:content>
 																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Unstage filtered items</v8:content>
+																					</v8:item>
 																				</Title>
 																				<ExtendedTooltip name="СписокСсылокКонтекстноеМенюУдалитьРегистрациюСсылкиОтборExtendedTooltip" id="276"/>
 																			</Button>
@@ -1322,6 +1678,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Список ссылок контекстное меню 4</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>References context menu 4</v8:content>
 																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="СписокСсылокКонтекстноеМенюГруппа4ExtendedTooltip" id="277"/>
@@ -1338,6 +1698,10 @@
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Показать результат выгрузки</v8:content>
 																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Show export result</v8:content>
+																					</v8:item>
 																				</Title>
 																				<ExtendedTooltip name="СписокСсылокКонтекстноеМенюПоказатьРезультатВыгрузкиExtendedTooltip" id="278"/>
 																			</Button>
@@ -1352,6 +1716,10 @@
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Регистрация на других узлах</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Staging at other nodes</v8:content>
 																					</v8:item>
 																				</Title>
 																				<ExtendedTooltip name="СписокСсылокКонтекстноеМенюОткрытьФормуРегистрацииНаУзлахExtendedTooltip" id="279"/>
@@ -1368,6 +1736,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Список ссылок контекстное меню 2</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>References context menu 2</v8:content>
 																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="СписокСсылокКонтекстноеМенюГруппа2ExtendedTooltip" id="281"/>
@@ -1442,6 +1814,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Данные</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Data</v8:content>
+																		</v8:item>
 																	</Title>
 																	<HorizontalStretch>true</HorizontalStretch>
 																	<ContextMenu name="СписокСсылокСсылкаПредставлениеКонтекстноеМеню" id="22"/>
@@ -1453,6 +1829,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>№ отправленного</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Number of sent message</v8:content>
 																		</v8:item>
 																	</Title>
 																	<ContextMenu name="СписокСсылокНомерСообщенияКонтекстноеМеню" id="53"/>
@@ -1468,11 +1848,19 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Наборы записей</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Record sets</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страница набора записей</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Record set page</v8:content>
 														</v8:item>
 													</ToolTip>
 													<ExtendedTooltip name="СтраницаНаборЗаписейExtendedTooltip" id="290"/>
@@ -1483,11 +1871,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Пользовательских настроек набор записей</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>User settings record set</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Группа пользовательских настроек константы</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>User settings record set group</v8:content>
 																</v8:item>
 															</ToolTip>
 															<Group>Vertical</Group>
@@ -1508,6 +1904,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Набор записей</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Record set</v8:content>
 																</v8:item>
 															</Title>
 															<AutoRefresh>false</AutoRefresh>
@@ -1534,6 +1934,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Наборов записей контекстное меню группа 1</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Record sets context menu group 1</v8:content>
+																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="СписокНаборовЗаписейКонтекстноеМенюГруппа1ExtendedTooltip" id="291"/>
 																		<ChildItems>
@@ -1549,6 +1953,10 @@
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Зарегистрировать изменения набора записей</v8:content>
 																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Register record set changes</v8:content>
+																					</v8:item>
 																				</Title>
 																				<ExtendedTooltip name="СписокНаборовЗаписейКонтекстноеМенюДобавитьРегистрациюНабораЗаписейОтборExtendedTooltip" id="292"/>
 																			</Button>
@@ -1559,6 +1967,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Наборов записей контекстное меню группа 2</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Record sets context menu group 2</v8:content>
 																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="СписокНаборовЗаписейКонтекстноеМенюГруппа2ExtendedTooltip" id="293"/>
@@ -1575,6 +1987,10 @@
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Отменить регистрацию изменений текущей строки</v8:content>
 																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Unregister current line changes</v8:content>
+																					</v8:item>
 																				</Title>
 																				<ExtendedTooltip name="СписокНаборовЗаписейКонтекстноеМенюУдалитьРегистрациюНабораЗаписейExtendedTooltip" id="294"/>
 																			</Button>
@@ -1586,6 +2002,10 @@
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Отменить регистрацию изменений при помощи отбора</v8:content>
 																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Unregister changes for items that match a filter</v8:content>
+																					</v8:item>
 																				</Title>
 																				<ExtendedTooltip name="СписокНаборовЗаписейКонтекстноеМенюУдалитьРегистрациюНабораЗаписейОтборExtendedTooltip" id="295"/>
 																			</Button>
@@ -1596,6 +2016,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Наборов записей контекстное меню группа 4</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Record sets context menu group 4</v8:content>
 																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="СписокНаборовЗаписейКонтекстноеМенюГруппа4ExtendedTooltip" id="296"/>
@@ -1611,6 +2035,10 @@
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Показать результат выгрузки</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Show export result</v8:content>
 																					</v8:item>
 																				</Title>
 																				<ExtendedTooltip name="СписокНаборовЗаписейКонтекстноеМенюПоказатьРезультатВыгрузкиExtendedTooltip" id="297"/>
@@ -1636,6 +2064,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Наборов записей контекстное меню группа 3</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Record sets context menu group 3</v8:content>
 																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="СписокНаборовЗаписейКонтекстноеМенюГруппа3ExtendedTooltip" id="300"/>
@@ -1709,11 +2141,19 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Измерения</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Dimensions</v8:content>
+																		</v8:item>
 																	</Title>
 																	<ToolTip>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Измерения набора записей</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Record set dimensions.</v8:content>
 																		</v8:item>
 																	</ToolTip>
 																	<Group>InCell</Group>
@@ -1725,6 +2165,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>№ отправленного</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Number of sent message</v8:content>
 																		</v8:item>
 																	</Title>
 																	<ContextMenu name="СписокНаборовЗаписейНомерСообщенияКонтекстноеМеню" id="84"/>
@@ -1741,11 +2185,19 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Итоги по виду объекта</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Totals by object type</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страница итогов</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Totals page</v8:content>
 														</v8:item>
 													</ToolTip>
 													<ExtendedTooltip name="СтраницаПустаяExtendedTooltip" id="309"/>
@@ -1757,11 +2209,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Описание</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Details</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Пустое описание</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Blank details</v8:content>
 																</v8:item>
 															</ToolTip>
 															<Group>Vertical</Group>
@@ -1795,11 +2255,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ожидание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Waiting</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ожидание длительной операции</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Waiting for a long-running operation completion.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Group>Horizontal</Group>
@@ -1813,6 +2281,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Длительная операция</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Long-running operation</v8:content>
 								</v8:item>
 							</Title>
 							<Picture>
@@ -1834,6 +2306,11 @@
 									<v8:content>Выполняется длительная операция.
 Пожалуйста, подождите...</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>A long-running operation is in progress.
+Please wait…</v8:content>
+								</v8:item>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
 							<ContextMenu name="СтатусДлительнойОперацииКонтекстноеМеню" id="372"/>
@@ -1850,11 +2327,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительная информация</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional details</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа скрытые данные</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group hidden data</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Behavior>Collapsible</Behavior>
@@ -1868,6 +2353,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Скрытая картинка информация32</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Hidden picture information32</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -1885,6 +2374,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Режим выборочной регистрации: информация доступна после выбора настройки синхронизации.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Selective registration mode: information is available after selecting a synchronization setting.</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
 					<ContextMenu name="ДекорацияРежимВыборочнойРегистрацииКонтекстноеМеню" id="381"/>
@@ -1896,6 +2389,13 @@
 Режим "Отключен" – все записываемые объекты считаются измененными и будут зарегистрированы к обмену;
 Режим "Модифицированность" – регистрируем к обмену объекты, у которых были изменения в данных;
 Режим "Согласно правилам xml" – к обменам регистрируем объекты, у которых есть изменения в реквизитах. Список реквизитов получается из правил конвертаций.</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Selective object registration is an additional check mode that is used upon object registration and configured by application developers.
+"Disabled" mode. All objects to save are considered as modified and registered for exchange.
+"Modified" mode. Objects that have changes in the data are registered for exchange.
+"According to XML rules" mode. Objects that have changes in the attributes are registered for exchange. The list of attributes is received from conversion rules.</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
@@ -1916,6 +2416,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Узел обмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exchange node</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:TypeSet>cfg:ExchangePlanRef</v8:TypeSet>
@@ -1930,6 +2434,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Метаданные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Metadata</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -1940,6 +2448,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1975,6 +2487,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пометка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check mark</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -1990,6 +2506,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Авторегистрация</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Autostage</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2037,6 +2557,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество изменений строкой</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Number of changes as a string</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -2053,6 +2577,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список ссылок</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object list</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2093,6 +2621,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список констант</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Constants</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2147,6 +2679,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список наборов записей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Record sets</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
@@ -2196,6 +2732,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вариант отбора по номеру сообщения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filter by message number option</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2297,11 +2837,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2317,11 +2865,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию ссылки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьРегистрациюСсылки</Action>
@@ -2333,11 +2889,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить все данные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить все данные</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2353,11 +2917,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Зарегистрировать все объекты выбранных типов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage all items of selected types</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Зарегистрировать все объекты выбранных типов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage all items of selected types</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьРегистрациюВсехОбъектов</Action>
@@ -2369,11 +2941,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Зарегистрировать только авторегистрируемые объекты выбранных типов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage autostaged items of selected types</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Зарегистрировать только авторегистрируемые объекты выбранных типов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage autostaged items of selected types</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьРегистрациюАвтоОбъектов</Action>
@@ -2385,11 +2965,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию всех объектов выбранных типов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage all items of selected types</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию всех объектов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage all items of selected types</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьРегистрациюВсехОбъектов</Action>
@@ -2401,11 +2989,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию только авторегистрируемых  объектов выбранных типов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage autostaged items of selected types</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию авто объектов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage autostaged items of selected types</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьРегистрациюАвтоОбъектов</Action>
@@ -2417,11 +3013,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию результата подбора</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage selected items</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию результата подбора</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage selected items</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьРегистрациюСсылкиПодбор</Action>
@@ -2433,11 +3037,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить по  результату запроса</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage from query result</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить по  результату запроса</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage from query result</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьРегистрациюРезультатаЗапроса</Action>
@@ -2449,11 +3061,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить по результату запроса</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage query result</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить по результату запроса</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage query result</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьРегистрациюРезультатаЗапроса</Action>
@@ -2465,11 +3085,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию константы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage constant change</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию константы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage constant change</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьРегистрациюКонстанты</Action>
@@ -2481,11 +3109,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию константы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage constant</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию константы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage constant</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьРегистрациюКонстанты</Action>
@@ -2497,11 +3133,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Редактировать номера сообщений</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit message number</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Редактировать номера сообщений</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit message number</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>РедактироватьНомераСообщений</Action>
@@ -2513,11 +3157,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Результат стандартной выгрузки (РИБ)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Export result (DIB)</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать результат выгрузки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show export result</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказатьРезультатВыгрузки</Action>
@@ -2529,11 +3181,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию результата отбора</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage filtered items</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию результата отбора</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage filtered items</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьРегистрациюСсылкиОтбор</Action>
@@ -2545,11 +3205,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию результата отбора</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage filtered items</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию результата отбора</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage filtered items</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьРегистрациюСсылкиОтбор</Action>
@@ -2561,11 +3229,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию результата отбора</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage filtered items</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию результата отбора</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage filtered items</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьРегистрациюНабораЗаписейОтбор</Action>
@@ -2577,11 +3253,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию по отбору</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage filtered items</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию набора записей отбор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage filtered items</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьРегистрациюНабораЗаписейОтбор</Action>
@@ -2593,11 +3277,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию набора записей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage record set</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию набора записей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage record set</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьРегистрациюНабораЗаписей</Action>
@@ -2609,11 +3301,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть форму регистрации на узлах</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open stage manager</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Регистрация объекта на всех узлах</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage item for all nodes</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьФормуРегистрацииНаУзлах</Action>
@@ -2625,11 +3325,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть форму настроек</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the settings form.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2645,11 +3353,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию одного объекта</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage single item</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию одного объекта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage single item</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьРегистрациюОдногоОбъекта</Action>
@@ -2661,11 +3377,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию отбор</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage filtered items</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию отбор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage filtered items</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьРегистрациюОтбор</Action>
@@ -2677,11 +3401,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию одного объекта</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage single item</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию одного объекта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage single item</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьРегистрациюОдногоОбъекта</Action>
@@ -2693,11 +3425,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию отбор</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage filtered items</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить регистрацию отбор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unstage filtered items</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьРегистрациюОтбор</Action>
@@ -2709,11 +3449,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию удаления объекта</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage deleted item</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить регистрацию удаления объекта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage deleted item</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьРегистрациюУдаленияОбъекта</Action>
@@ -2725,11 +3473,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Редактировать номер сообщения объекта</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit message number</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Редактировать номер сообщения объекта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit message number</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2745,11 +3501,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Зарегистрировать данные для восстановления подчиненного узла РИБ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage items to restore DIB subnode</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Зарегистрировать данные для восстановления подчиненного узла РИБ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stage items to restore DIB subnode</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗарегистрироватьИОМИПредопределенные</Action>

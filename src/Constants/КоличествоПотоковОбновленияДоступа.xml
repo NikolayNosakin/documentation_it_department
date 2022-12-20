@@ -22,6 +22,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Количество потоков обновления доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Number of access update threads</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Type>
@@ -45,6 +49,12 @@
 					<v8:content>Максимальное количество фоновых заданий при обновлении.
 Рекомендуется до 50-75% от количества ядер, доступных кластеру серверов (подробнее см. в справке).
 Если указано более одного потока, то запускается еще один управляющий поток.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>The maximum number of background jobs upon update.
+The recommended value is up to 50-75% of the number of server cluster processor cores (for more information, see Help).
+If more than one thread is specified, one more thread of control is started.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<MarkNegatives>false</MarkNegatives>

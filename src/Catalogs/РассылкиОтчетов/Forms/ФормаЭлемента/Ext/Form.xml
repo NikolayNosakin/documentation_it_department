@@ -27,6 +27,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Общие команды</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Common commands</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ОбщиеКомандыРасширеннаяПодсказка" id="995"/>
 				<ChildItems>
@@ -67,6 +71,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Кнопки</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Buttons</v8:content>
+					</v8:item>
 				</Title>
 				<CommandSource>Form</CommandSource>
 				<ExtendedTooltip name="КнопкиРасширеннаяПодсказка" id="960"/>
@@ -94,6 +102,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассылка подготовлена</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report distribution prepared</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
@@ -128,6 +140,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вид рассылки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Distribution types</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -140,6 +156,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отправлять</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Send</v8:content>
 						</v8:item>
 					</Title>
 					<AutoMaxWidth>false</AutoMaxWidth>
@@ -160,6 +180,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Отчеты указанным получателям</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Reports to specified recipients</v8:content>
+									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">Общая</Value>
 							</xr:Value>
@@ -173,6 +197,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Свой отчет для каждого получателя</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Individual report for each recipient</v8:content>
+									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">Персонализирована</Value>
 							</xr:Value>
@@ -185,6 +213,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Только мне (личная рассылка автора)</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>To me only (private email)</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">Личная</Value>
@@ -204,6 +236,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Виды рассылки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Distribution types</v8:content>
+						</v8:item>
 					</Title>
 					<PagesRepresentation>None</PagesRepresentation>
 					<ExtendedTooltip name="ВидыРассылкиExtendedTooltip" id="705"/>
@@ -213,6 +249,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Виды рассылки личная</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Distribution type: personal</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ВидыРассылкиЛичнаяExtendedTooltip" id="706"/>
@@ -241,6 +281,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Виды рассылки для получателей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Distribution by recipients</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ВидыРассылкиДляПолучателейExtendedTooltip" id="708"/>
@@ -272,6 +316,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыExtendedTooltip" id="711"/>
@@ -282,11 +330,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отчеты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reports</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выбор отчетов для рассылки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Select reports to distribute.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>
@@ -309,6 +365,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отчеты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Reports</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -336,11 +396,19 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Включить в рассылку</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Include in distribution</v8:content>
+											</v8:item>
 										</Title>
 										<ToolTip>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Включить отчет в рассылку</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Include a report in the distribution.</v8:content>
 											</v8:item>
 										</ToolTip>
 										<ExtendedTooltip name="ОтчетыВключитьВРассылкуExtendedTooltip" id="713"/>
@@ -363,6 +431,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Команды перемещения</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Transfer commands</v8:content>
 											</v8:item>
 										</Title>
 										<Representation>Compact</Representation>
@@ -400,6 +472,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Командная панель отчеты</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Reports command bar</v8:content>
 											</v8:item>
 										</Title>
 										<CommandSource>Item.Отчеты</CommandSource>
@@ -456,6 +532,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки отчета:</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report settings:</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -468,6 +548,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Настройки отчета:</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Report settings:</v8:content>
+										</v8:item>
 									</Title>
 									<PagesRepresentation>None</PagesRepresentation>
 									<ExtendedTooltip name="СтраницыНастроекОтчетаExtendedTooltip" id="721"/>
@@ -477,6 +561,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Пустая страница</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Blank page</v8:content>
 												</v8:item>
 											</Title>
 											<ExtendedTooltip name="ПустаяСтраницаExtendedTooltip" id="722"/>
@@ -496,6 +584,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Пустые настройки</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Blank settings</v8:content>
 														</v8:item>
 													</Title>
 													<CommandSet>
@@ -563,6 +655,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Настройка</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Settings</v8:content>
+																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
 															<ContextMenu name="НастройкиТекущегоОтчетаПредставление1КонтекстноеМеню" id="663"/>
@@ -588,6 +684,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Страница компоновщик</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Composer page</v8:content>
+												</v8:item>
 											</Title>
 											<Group>HorizontalIfPossible</Group>
 											<ExtendedTooltip name="СтраницаКомпоновщикExtendedTooltip" id="727"/>
@@ -600,6 +700,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Пользовательские настройки</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>User settings</v8:content>
 														</v8:item>
 													</Title>
 													<CommandSet>
@@ -691,6 +795,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Пользовательские настройки группа колонок</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>User settings column group</v8:content>
+																</v8:item>
 															</Title>
 															<Group>InCell</Group>
 															<ExtendedTooltip name="ПользовательскиеНастройкиГруппаКолонокРасширеннаяПодсказка" id="730"/>
@@ -723,6 +831,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Пользовательские настройки группа колонок 1</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>User settings column group 1</v8:content>
 																</v8:item>
 															</Title>
 															<Group>InCell</Group>
@@ -772,6 +884,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Страница настройки текущего отчета</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Settings page of current report</v8:content>
+												</v8:item>
 											</Title>
 											<Group>HorizontalIfPossible</Group>
 											<ExtendedTooltip name="СтраницаНастройкиТекущегоОтчетаExtendedTooltip" id="738"/>
@@ -791,6 +907,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Настройки текущего отчета</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Settings of current report</v8:content>
 														</v8:item>
 													</Title>
 													<CommandSet>
@@ -874,6 +994,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Настройка</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Settings</v8:content>
+																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
 															<ContextMenu name="НастройкиТекущегоОтчетаПредставлениеКонтекстноеМеню" id="240"/>
@@ -908,6 +1032,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расписание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Schedule</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>StdPicture.ScheduledJob</xr:Ref>
@@ -921,6 +1049,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Периодичность</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Frequency</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -933,6 +1065,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Выполнять по расписанию:</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Schedule:</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
@@ -948,6 +1084,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Параметры выполнения по расписанию</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Scheduled execution parameters</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -978,6 +1118,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Страницы время или изменить</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Pages time or change</v8:content>
+												</v8:item>
 											</Title>
 											<PagesRepresentation>None</PagesRepresentation>
 											<ExtendedTooltip name="СтраницыВремяИлиИзменитьExtendedTooltip" id="748"/>
@@ -988,6 +1132,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страница время начала</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Start time page</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="СтраницаВремяНачалаExtendedTooltip" id="749"/>
 													<ChildItems>
@@ -997,6 +1145,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>ДФ=HH:mm</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>DF=hh:mm tt</v8:content>
 																</v8:item>
 															</EditFormat>
 															<ContextMenu name="ВремяНачалаКонтекстноеМеню" id="430"/>
@@ -1012,6 +1164,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страница изменить расписание</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Change schedule page</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="СтраницаИзменитьРасписаниеExtendedTooltip" id="751"/>
@@ -1042,6 +1198,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы периодичности</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Frequency pages</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыПериодичностиExtendedTooltip" id="755"/>
@@ -1052,6 +1212,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница ежедневно</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Daily page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаЕжедневноExtendedTooltip" id="758"/>
 									<ChildItems>
@@ -1060,6 +1224,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Строка период повтора дней</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Repetition in days</v8:content>
 												</v8:item>
 											</Title>
 											<Behavior>Usual</Behavior>
@@ -1083,6 +1251,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>дней</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>days</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="ДекорацияДнейКонтекстноеМеню" id="442"/>
 													<ExtendedTooltip name="ДекорацияДнейРасширеннаяПодсказка" id="761"/>
@@ -1097,6 +1269,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница еженедельно</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Weekly page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаЕженедельноExtendedTooltip" id="763"/>
 									<ChildItems>
@@ -1105,6 +1281,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Дни недели</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Week days</v8:content>
 												</v8:item>
 											</Title>
 											<Behavior>Usual</Behavior>
@@ -1193,6 +1373,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница ежемесячно</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Monthly page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаЕжемесячноExtendedTooltip" id="773"/>
 									<ChildItems>
@@ -1201,6 +1385,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Строка ежемесячных параметров</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Line of monthly parameters</v8:content>
 												</v8:item>
 											</Title>
 											<Behavior>Usual</Behavior>
@@ -1214,6 +1402,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Каждый</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Every</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="ДекорацияКаждыйКонтекстноеМеню" id="466"/>
@@ -1236,6 +1428,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>день  месяца  с</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>day of month from</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="ДекорацияДеньМесяцаСКонтекстноеМеню" id="470"/>
 													<ExtendedTooltip name="ДекорацияДеньМесяцаСРасширеннаяПодсказка" id="777"/>
@@ -1246,6 +1442,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>начала</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>beginning</v8:content>
 														</v8:item>
 													</Title>
 													<Hyperlink>true</Hyperlink>
@@ -1262,6 +1462,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>месяца.</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>month.</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="ДекорацияМесяцаКонтекстноеМеню" id="474"/>
 													<ExtendedTooltip name="ДекорацияМесяцаРасширеннаяПодсказка" id="779"/>
@@ -1274,6 +1478,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Месяцы</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Months</v8:content>
+												</v8:item>
 											</Title>
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
@@ -1285,6 +1493,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Квартал I</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Quarter I</v8:content>
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
@@ -1330,6 +1542,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Квартал II</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Quarter II</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Usual</Behavior>
@@ -1373,6 +1589,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Квартал III</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Quarter III</v8:content>
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
@@ -1418,6 +1638,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Квартал IV</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Quarter IV</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Usual</Behavior>
@@ -1462,6 +1686,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Пометки</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Marks</v8:content>
+														</v8:item>
 													</Title>
 													<GroupVerticalAlign>Center</GroupVerticalAlign>
 													<Group>Vertical</Group>
@@ -1496,6 +1724,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Представление расписания</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Schedule presentation</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ПредставлениеРасписанияКонтекстноеМеню" id="1176"/>
 							<ExtendedTooltip name="ПредставлениеРасписанияРасширеннаяПодсказка" id="1177"/>
@@ -1518,11 +1750,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Доставка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Delivery</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Способы доставки рассылки до получателей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Report delivery settings.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>
@@ -1536,6 +1776,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Другие способы доставки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Other delivery methods</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -1575,6 +1819,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>В папку</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>To directory</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">ИспользоватьПапку</Value>
 											</xr:Value>
@@ -1588,6 +1836,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>В сетевой каталог</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>To network directory</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">ИспользоватьСетевойКаталог</Value>
 											</xr:Value>
@@ -1600,6 +1852,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>На FTP ресурс</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>To FTP resource</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">ИспользоватьFTPРесурс</Value>
@@ -1619,6 +1875,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Параметры доставки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Delivery parameters</v8:content>
+										</v8:item>
 									</Title>
 									<PagesRepresentation>None</PagesRepresentation>
 									<ExtendedTooltip name="ПараметрыДоставкиExtendedTooltip" id="812"/>
@@ -1628,6 +1888,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Использовать папку</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Use folder</v8:content>
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
@@ -1652,6 +1916,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Использовать сетевой каталог</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Use network directory</v8:content>
+												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
 											<ExtendedTooltip name="ИспользоватьСетевойКаталогExtendedTooltip" id="815"/>
@@ -1661,6 +1929,10 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
+															<v8:content>Windows</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
 															<v8:content>Windows</v8:content>
 														</v8:item>
 													</Title>
@@ -1681,6 +1953,10 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
+															<v8:content>Linux</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
 															<v8:content>Linux</v8:content>
 														</v8:item>
 													</Title>
@@ -1704,6 +1980,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Использовать FTP ресурс</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Use FTP resource</v8:content>
+												</v8:item>
 											</Title>
 											<Group>HorizontalIfPossible</Group>
 											<ExtendedTooltip name="ИспользоватьFTPРесурсExtendedTooltip" id="818"/>
@@ -1721,6 +2001,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>ftp://сервер/каталог/</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>ftp://server/directory/</v8:content>
 														</v8:item>
 													</InputHint>
 													<ContextMenu name="FTPСерверИКаталогКонтекстноеМеню" id="389"/>
@@ -1752,6 +2036,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Доставка по электронной почте</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Email delivery</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -1764,6 +2052,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Доставка по электронной почте</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Email delivery</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -1802,6 +2094,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Учетная запись</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Account</v8:content>
+										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
@@ -1822,6 +2118,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Отправлять только уведомления</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Send notifications only</v8:content>
+												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -1841,6 +2141,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Параметры письма</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Mail properties</v8:content>
+										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
@@ -1852,6 +2156,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Тема и текст письма</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Email subject and text</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -1871,6 +2179,10 @@
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Параметр</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Parameter</v8:content>
 																	</v8:item>
 																</Title>
 																<Picture>
@@ -1926,6 +2238,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страницы текст письма</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Pages email text</v8:content>
+														</v8:item>
 													</Title>
 													<PagesRepresentation>None</PagesRepresentation>
 													<ExtendedTooltip name="СтраницыТекстПисьмаExtendedTooltip" id="843"/>
@@ -1936,6 +2252,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страницы текст письма HTML</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Pages email text HTML</v8:content>
+																</v8:item>
 															</Title>
 															<ExtendedTooltip name="СтраницыТекстПисьмаHTMLExtendedTooltip" id="844"/>
 															<ChildItems>
@@ -1944,6 +2264,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Командная панель текст письма форматированный документ</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Command bar email text formatted document</v8:content>
 																		</v8:item>
 																	</Title>
 																	<ExtendedTooltip name="КоманднаяПанельТекстПисьмаФорматированныйДокументExtendedTooltip" id="845"/>
@@ -1954,11 +2278,19 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Параметр</v8:content>
 																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Parameter</v8:content>
+																				</v8:item>
 																			</Title>
 																			<ToolTip>
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Добавить параметр в текст письма</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Add parameter to email text</v8:content>
 																				</v8:item>
 																			</ToolTip>
 																			<ExtendedTooltip name="ТекстПисьмаФорматированныйДокументДобавитьПараметрШаблонаExtendedTooltip" id="846"/>
@@ -2016,11 +2348,19 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>HTML</v8:content>
 																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>HTML</v8:content>
+																				</v8:item>
 																			</Title>
 																			<ToolTip>
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Сменить формат письма</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Change mail format</v8:content>
 																				</v8:item>
 																			</ToolTip>
 																			<ExtendedTooltip name="HTMLExtendedTooltip" id="856"/>
@@ -2049,6 +2389,10 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Стандартные действия</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Standard actions</v8:content>
 																				</v8:item>
 																			</Title>
 																			<CommandSource>Item.ТекстПисьмаФорматированныйДокумент</CommandSource>
@@ -2106,6 +2450,10 @@
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Параметр</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Parameter</v8:content>
 																					</v8:item>
 																				</Title>
 																				<Picture>
@@ -2173,6 +2521,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страницы текст письма обычный текст</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Pages email text plain text</v8:content>
+																</v8:item>
 															</Title>
 															<ExtendedTooltip name="СтраницыТекстПисьмаОбычныйТекстExtendedTooltip" id="878"/>
 															<ChildItems>
@@ -2181,6 +2533,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Командная панель текст письма</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Command bar email text</v8:content>
 																		</v8:item>
 																	</Title>
 																	<ExtendedTooltip name="КоманднаяПанельТекстПисьмаExtendedTooltip" id="879"/>
@@ -2191,11 +2547,19 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Параметр</v8:content>
 																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Parameter</v8:content>
+																				</v8:item>
 																			</Title>
 																			<ToolTip>
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Добавить параметр шаблона</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Add template parameter</v8:content>
 																				</v8:item>
 																			</ToolTip>
 																			<ExtendedTooltip name="ТекстПисьмаДобавитьПараметрШаблонаExtendedTooltip" id="880"/>
@@ -2253,11 +2617,19 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Обычный текст</v8:content>
 																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Plain text</v8:content>
+																				</v8:item>
 																			</Title>
 																			<ToolTip>
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Сменить формат письма</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Change mail format</v8:content>
 																				</v8:item>
 																			</ToolTip>
 																			<ExtendedTooltip name="ОбычныйТекстExtendedTooltip" id="890"/>
@@ -2290,6 +2662,10 @@
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Параметр</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Parameter</v8:content>
 																					</v8:item>
 																				</Title>
 																				<Picture>
@@ -2367,6 +2743,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительно</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>More</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаДополнительноExtendedTooltip" id="915"/>
 					<ChildItems>
@@ -2390,6 +2770,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Форматы отчетов и кнопки</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report formats and buttons</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -2407,6 +2791,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Форматы отчетов</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Report formats</v8:content>
 										</v8:item>
 									</Title>
 									<CommandSet>
@@ -2529,6 +2917,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Не отправлять отчет если он не содержит данных.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Do not send a report if it does not contain data.</v8:content>
+												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<CheckBoxType>Auto</CheckBoxType>
@@ -2545,6 +2937,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Кнопки форматов отчетов</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Report format buttons</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -2583,6 +2979,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Параметры архивации в ZIP</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Parameters of archiving to ZIP</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -2595,6 +2995,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Архивировать в ZIP:</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Compress to ZIP archive:</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
@@ -2617,6 +3021,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Имя файла архива</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Archive file name</v8:content>
+										</v8:item>
 									</InputHint>
 									<ContextMenu name="ИмяАрхиваКонтекстноеМеню" id="16">
 										<ChildItems>
@@ -2625,6 +3033,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Параметр</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Parameter</v8:content>
 													</v8:item>
 												</Title>
 												<Picture>
@@ -2656,6 +3068,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Пароль</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Password</v8:content>
+										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
@@ -2665,6 +3081,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Пароль архива</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Archive password</v8:content>
 										</v8:item>
 									</InputHint>
 									<ContextMenu name="ПарольАрхиваКонтекстноеМеню" id="18"/>
@@ -2680,6 +3100,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Параметры доставки по электронной почте</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Parameters of delivery via email</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -2709,6 +3133,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительные параметры</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional parameters</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -2747,6 +3175,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Адрес</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Email</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
@@ -2764,6 +3196,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Форматы</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Formats</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
@@ -2779,6 +3215,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Внесены изменения</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Changes made</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -2790,6 +3230,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>СКД</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>DCS</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -2800,6 +3244,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Адрес настроек</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Settings address</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -2816,6 +3264,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Отчет</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Report</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
@@ -2831,6 +3283,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Инициализирован</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Initialized</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -2842,6 +3298,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Не отправлять пустой</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Do not send blank reports</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -2852,6 +3312,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Полное имя</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Full name</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -2868,6 +3332,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Ключ варианта</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Option key</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
@@ -2883,6 +3351,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Доступность</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Availability</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -2896,6 +3368,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки текущего отчета</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report settings</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2918,6 +3394,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -2937,6 +3417,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Value</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2964,6 +3448,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Usage</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -3000,6 +3488,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Текст письма форматированный документ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Message body in HTML format</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
@@ -3015,6 +3507,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Получатели</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Recipients</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3079,6 +3575,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Форматы сохранения отчетов (по умолчанию)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Default report formats</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3166,6 +3666,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сервер и каталог</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Server and directory</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -3184,6 +3688,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Август    </v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>August</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3195,6 +3703,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Апрель </v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>April</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3208,6 +3720,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Воскресенье</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sunday</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3219,6 +3735,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Время начала</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Start time</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3235,6 +3755,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вторник</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Tuesday</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3247,6 +3771,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Декабрь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>December</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3258,6 +3786,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>День в месяце</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Day of month</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3282,6 +3814,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Июль    </v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>July</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3293,6 +3829,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Июнь    </v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>June</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3306,6 +3846,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Май      </v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>May</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3317,6 +3861,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Март       </v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>March</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3330,6 +3878,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ноябрь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>November</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3342,6 +3894,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Октябрь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>October</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3353,6 +3909,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Период повтора</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Repeat every</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3371,6 +3931,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Понедельник</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Monday</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3382,6 +3946,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пятница</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Friday</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3399,6 +3967,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сентябрь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>September</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3411,6 +3983,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Среда</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Wednesday</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3422,6 +3998,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Суббота</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Saturday</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3444,6 +4024,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Февраль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>February</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3455,6 +4039,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Четверг</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Thursday</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3468,6 +4056,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Январь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>January</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -3479,6 +4071,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вид рассылки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Distribution type</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3496,6 +4092,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Другой способ доставки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Another delivery method</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -3511,6 +4111,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Публиковать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Publish</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3560,6 +4164,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Получатели рассылки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Recipient list</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -3574,6 +4182,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль архива</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Archive password</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3641,11 +4253,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дата рассылки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Distribution date</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить или изменить шаблон даты рассылки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add or change distribution date template</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьИзменитьШаблонДатыРассылки</Action>
@@ -3659,11 +4279,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Получатель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Recipient</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить представление получателя</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add a recipient presentation.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьШаблонПолучателя</Action>
@@ -3677,11 +4305,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сформированные отчеты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Generated reports</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить шаблон сформированных отчетов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add a template of generated reports</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьШаблонСформированныхОтчетов</Action>
@@ -3695,11 +4331,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить отчет</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add a report to the distribution list.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьОтчет</Action>
@@ -3711,11 +4355,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать дополнительный отчет</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select additional report</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать дополнительный отчет</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select an additional report</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3731,11 +4383,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Автор</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Author</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить представление автора</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add an author.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьШаблонАвтора</Action>
@@ -3749,11 +4409,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Наименование рассылки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Distribution description</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить шаблон наименования рассылки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add a distribution description template.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьШаблонНаименованияРассылки</Action>
@@ -3767,11 +4435,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предварительный просмотр</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Preview</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предпросмотр шаблона</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Template preview</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3788,11 +4464,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предварительный просмотр...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Preview…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предварительный просмотр отчета</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report preview</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3809,11 +4493,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заголовок системы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Infobase title</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить представление рассылки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add a distribution presentation.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьШаблонСистемы</Action>
@@ -3827,11 +4519,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Способ доставки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delivery method</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить представление способа доставки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add a delivery method.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьШаблонСпособаДоставки</Action>
@@ -3845,11 +4545,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заполнить по шаблону...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill in from template…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заполнить расписание по шаблону</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill in schedule from template</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаполнитьРасписаниеПоШаблону</Action>
@@ -3861,6 +4569,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить...</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change…</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ИзменитьРасписание</Action>
@@ -3874,11 +4586,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять пометки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять пометки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3895,11 +4615,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить пометки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить пометки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3916,11 +4644,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>HTML</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>HTML</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить тип текста на HTML</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change text type to HTML</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИзменитьТипТекстаНаHTML</Action>
@@ -3932,11 +4668,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обычный текст</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Plain text</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить тип текста на HTML</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change text type to HTML</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИзменитьТипТекстаНаОбычный</Action>
@@ -3948,11 +4692,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Шаблон по умолчанию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Default template</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Добавить/Заменить шаблоном по умолчанию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add/Replace with the default template.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3970,11 +4722,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять пометки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять пометки флажка "Отправлять, если пустой" для всех отчетов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear the "Send if empty" check box for all reports</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3990,11 +4750,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить пометки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить пометки флажка "Отправлять, если пустой" для всех отчетов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select the "Send if empty" check box for all reports</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -4010,11 +4778,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Указать получателя рассылки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select recipient</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Указать получателя рассылки в настройке отчета</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select a recipient in the report settings.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -4031,11 +4807,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать объект</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save the report.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>Ctrl+S</Shortcut>
@@ -4052,11 +4836,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать объект и закрыть форму</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -4072,11 +4864,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить сейчас</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run now</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команда выполнить сейчас</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>The "run now" command</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -4093,11 +4893,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>События рассылки...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report distribution events…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти в журнал регистрации с отбором по рассылке</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to Event Log and filter by distribution</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -4114,11 +4922,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить получателя рассылки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove recipient</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить получателя рассылки из настройки отчета</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove a recipient from the distribution list.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьПолучателяРассылки</Action>
@@ -4130,11 +4946,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить возможность публикации в и/или рассылки на электронную почту</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Test the report deliverability.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверитьВозможностьРассылки</Action>

@@ -21,6 +21,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Команды формы</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form commands</v8:content>
+					</v8:item>
 				</Title>
 				<CommandSource>Form</CommandSource>
 				<ExtendedTooltip name="КомандыФормыРасширеннаяПодсказка" id="394"/>
@@ -64,6 +68,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поставляемый профиль изменен</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Built-in profile changed</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -75,6 +83,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Поставляемый профиль изменен картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Built-in profile changed picture</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -92,6 +104,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>В поставляемый профиль были внесены изменения.
 Описание может отличаться от текущей настройки профиля.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The built-in profile was changed.
+The displayed details might differ from the current profile settings.</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -119,6 +136,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Назначение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Assigned to</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -131,6 +152,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Назначение:</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Assignment:</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="ЗаголовокНазначениеКонтекстноеМеню" id="386"/>
@@ -149,6 +174,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Доступ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="ДоступExtendedTooltip" id="255"/>
@@ -158,6 +187,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разрешенные действия (роли)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allowed actions (roles)</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОтображениеРолейExtendedTooltip" id="256"/>
@@ -184,6 +217,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Роли</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Roles</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -236,6 +273,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Роли стандартные команды</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Roles standard commands</v8:content>
+											</v8:item>
 										</Title>
 										<CommandSource>Item.Роли</CommandSource>
 										<ExtendedTooltip name="РолиСтандартныеКомандыРасширеннаяПодсказка" id="304"/>
@@ -273,6 +314,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Роли колонок</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Role columns</v8:content>
 										</v8:item>
 									</Title>
 									<Group>InCell</Group>
@@ -340,6 +385,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ограничения доступа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Access restrictions</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ВидыИЗначенияДоступаExtendedTooltip" id="265"/>
 					<ChildItems>
@@ -355,6 +404,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Виды доступа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Access kinds</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -425,6 +478,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Способ определения разрешенных значений доступа</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The method used to determine allowed Access Values.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<AutoCellHeight>true</AutoCellHeight>
 									<ListChoiceMode>true</ListChoiceMode>
@@ -445,6 +502,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Значения доступа по виду доступа</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Access Values for access kinds</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -461,6 +522,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>В данный момент не используется, т.к. эта возможность отключена в программе.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>This feature is disabled.</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="ТекстВидДоступаНеИспользуетсяКонтекстноеМеню" id="247"/>
 									<ExtendedTooltip name="ТекстВидДоступаНеИспользуетсяExtendedTooltip" id="283"/>
@@ -471,6 +536,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Типы видов доступа</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Access kind types</v8:content>
+										</v8:item>
 									</Title>
 									<PagesRepresentation>None</PagesRepresentation>
 									<ExtendedTooltip name="ТипыВидовДоступаExtendedTooltip" id="284"/>
@@ -480,6 +549,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Предустановленный вид доступа</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Predefined access kind</v8:content>
 												</v8:item>
 											</Title>
 											<ShowTitle>false</ShowTitle>
@@ -498,6 +571,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Значения доступа</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Access Values</v8:content>
 														</v8:item>
 													</Title>
 													<CommandSet>
@@ -584,6 +661,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Обычный вид доступа</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Regular access kind</v8:content>
+												</v8:item>
 											</Title>
 											<Group>HorizontalIfPossible</Group>
 											<ShowTitle>false</ShowTitle>
@@ -597,6 +678,11 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Список значений назначается в группах доступа.
  </v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>You can create the list of values in access groups.
+</v8:content>
 														</v8:item>
 													</Title>
 													<VerticalAlign>Center</VerticalAlign>
@@ -617,6 +703,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Details</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОписаниеРасширеннаяПодсказка" id="333"/>
 					<ChildItems>
@@ -628,6 +718,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Описание поставляемого профиля.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Built-in profile details</v8:content>
 								</v8:item>
 							</ToolTip>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -651,6 +745,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаКомментарийРасширеннаяПодсказка" id="302"/>
@@ -683,6 +781,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Вид доступа</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Access kind</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
@@ -697,6 +799,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Значения доступа</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Access Values</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -714,6 +820,10 @@
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
+								<v8:content>N</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
 								<v8:content>N</v8:content>
 							</v8:item>
 						</Title>
@@ -757,6 +867,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Roles</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -769,6 +883,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пометка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check box</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -779,6 +897,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разрешенное действие (роль)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allowed action (role)</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -805,6 +927,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя роли в конфигурации</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configuration role name</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -825,6 +951,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Это недоступная роль</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>This is an unavailable role</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -835,6 +965,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Это несуществующая роль</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>This is a non-existent role</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -883,6 +1017,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Описание поставляемого профиля</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Built-in profile details</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -903,11 +1041,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Восстановить по начальному заполнению</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restore default profile</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Восстановить профиль по начальному заполнению (только для профилей поставляемых с прикладным решением)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restore the default profile (only for built-in profiles).</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВосстановитьПоНачальномуЗаполнению</Action>
@@ -919,11 +1065,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Только выбранные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Selected roles only</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать только выбранные роли</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show selected roles only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -940,11 +1094,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add roles</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить роли</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add roles</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -961,11 +1123,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Исключить роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove roles</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Исключить роли</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remove roles</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -982,11 +1152,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>По подсистемам</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group by subsystems</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группировать список ролей по подсистемам</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group roles by subsystems.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1003,11 +1181,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать неиспользуемые виды доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show unused access kinds</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать неиспользуемые виды доступа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show unused access kinds</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказыватьНеиспользуемыеВидыДоступа</Action>
@@ -1019,11 +1205,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать назначение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать назначение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьНазначение</Action>
@@ -1036,11 +1230,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать объект и закрыть форму</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаписатьИЗакрыть</Action>

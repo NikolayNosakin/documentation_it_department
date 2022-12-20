@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Настройки использования профилей безопасности</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Security profile setup</v8:content>
+		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<Customizable>false</Customizable>
@@ -35,6 +39,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заголовок</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Title</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -48,6 +56,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использование профилей безопасности для контроля за использованием программой внешних ресурсов (относительно кластера серверов 1С:Предприятия).</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Security profile options to control how the application can use external resources (regarding 1C:Enterprise server cluster).</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalAlign>Top</VerticalAlign>
 					<ContextMenu name="ОписаниеРазделаКонтекстноеМеню" id="1582"/>
@@ -58,6 +70,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Справка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Help</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаСправкаExtendedTooltip" id="1603"/>
@@ -77,6 +93,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Профили безопасности</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Security profiles</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -89,6 +109,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Безопасность колонки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Column security</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -103,6 +127,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Профили безопасности колонки левая</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Security profiles columns left</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -115,6 +143,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Режим использования профилей безопасности</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Security profile usage mode</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -138,6 +170,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Профили безопасности не используются для данной информационной базы</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Security profiles are not used for this infobase</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:decimal">0</Value>
 													</xr:Value>
@@ -151,6 +187,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Профили безопасности для данной информационной базы настраиваются администратором в консоли кластера</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Security profiles for this infobase are set up by administrator via cluster console</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:decimal">1</Value>
 													</xr:Value>
@@ -163,6 +203,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Предлагать автоматически настраивать разрешения в профилях безопасности при необходимости (непосредственно из программы)</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Option to automatically add permissions to security profiles when necessary</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:decimal">2</Value>
@@ -185,6 +229,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Профили безопасности колонка правая</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Security profiles column right</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -197,6 +245,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Требуемые разрешения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Required permissions</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -218,6 +270,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Разрешения на использование внешних ресурсов, которые должны быть разрешены в профилях безопасности для корректной работы программы.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Permissions to use external resources that must be granted in the security profiles for the application to operates correctly.</v8:content>
+												</v8:item>
 											</Title>
 											<VerticalAlign>Top</VerticalAlign>
 											<ContextMenu name="ПояснениеТребуемыеРазрешенияКонтекстноеМеню" id="1626"/>
@@ -230,6 +286,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Профиль безопасности информационной базы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Infobase security profile</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -255,6 +315,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Имя профиля безопасности (в кластере серверов 1С:Предприятия), использующегося в качестве профиля безопасности для информационной базы.</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Security profile name (in the 1C:Enterprise server cluster) used as a security profile for the infobase.</v8:content>
+												</v8:item>
 											</Title>
 											<VerticalAlign>Top</VerticalAlign>
 											<ContextMenu name="ПояснениеПрофильБезопасностиИнформационнойБазыКонтекстноеМеню" id="1634"/>
@@ -272,6 +336,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пояснение о лицензии КОРП</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>CORP license explanation</v8:content>
+						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
@@ -283,6 +351,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Декорация пояснение о лицензии КОРП</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Explanation to CORP license decoration</v8:content>
 								</v8:item>
 							</Title>
 							<Picture>
@@ -301,6 +373,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Использование профилей безопасности предоставляется только при наличии версии КОРП клиентских и серверных лицензий для платформы "1С:Предприятие 8".</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Security profiles are only available to owners of CORP client and server licenses for 1C:Enterprise 8 platform.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ПояснениеОЛицензииКОРПКонтекстноеМеню" id="1651"/>
 							<ExtendedTooltip name="ПояснениеОЛицензииКОРПРасширеннаяПодсказка" id="1652"/>
@@ -312,6 +388,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content> Сервисные функции</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content> Service functions</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -325,6 +405,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сервисные функции колонки левая</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Service functions left column</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -337,6 +421,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Открыть внешнюю обработку</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Open external data processor</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -359,6 +447,11 @@
 													<v8:content>Открыть внешнюю обработку или отчет (с возможностью указать безопасный режим, в котором будет выполняться подключение внешнего модуля).
 </v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Open external data processor or report (allowing the safe mode to be specified in which the external module will be connected).
+</v8:content>
+												</v8:item>
 											</Title>
 											<VerticalAlign>Top</VerticalAlign>
 											<ContextMenu name="ПояснениеОткрытьВнешнююОбработкуКонтекстноеМеню" id="1695"/>
@@ -374,6 +467,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сервисные функции колонка правая</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Service functions right column</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -386,6 +483,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Восстановление профилей безопасности</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Restore security profiles</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -406,6 +507,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Автоматическое пересоздание профилей безопасности в кластере серверов (например, после переноса информационной базы на другой кластер).</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Autoregeneration of security profiles in the server cluster (for example, when the infobase is transferred to another cluster).</v8:content>
 												</v8:item>
 											</Title>
 											<VerticalAlign>Top</VerticalAlign>
@@ -436,6 +541,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Режим использования профилей безопасности</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Security profile usage mode</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -469,11 +578,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Восстановить настройки профилей безопасности</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restore security profile settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Восстановить профили безопасности</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restore security profiles</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВосстановитьПрофилиБезопасности</Action>
@@ -485,11 +602,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Требуемые разрешения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Required permissions</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Требуемые разрешения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Required permissions</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ТребуемыеРазрешения</Action>
@@ -501,11 +626,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть внешнюю обработку или отчет</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open external report or data processor</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть внешнюю обработку</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open external data processor</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьВнешнююОбработку</Action>

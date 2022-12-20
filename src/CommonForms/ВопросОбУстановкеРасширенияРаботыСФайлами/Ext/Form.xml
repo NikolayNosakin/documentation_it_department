@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Установка расширения работы с файлами</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Install file system extension</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -54,6 +58,11 @@
 					<v8:content>Для удобной работы с программой предлагается установить расширение для работы с 1С:Предприятием. 
 Установить?</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>For better application experience, it is recommended that you install 1C:Enterprise Extension.
+Do you want to install it?</v8:content>
+				</v8:item>
 			</Title>
 			<VerticalAlign>Top</VerticalAlign>
 			<ContextMenu name="ДекорацияПояснениеКонтекстноеМеню" id="7"/>
@@ -78,11 +87,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить и продолжить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Install and continue</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить расширение для работы с 1С:Предприятием и продолжить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Install 1C:Enterprise Extension and continue.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УстановитьИПродолжить</Action>
@@ -94,11 +111,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить без установки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not install</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить без установки расширения для веб-клиента 1С:Предприятие</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue without installing 1C:Enterprise web client extension.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПродолжитьБезУстановки</Action>

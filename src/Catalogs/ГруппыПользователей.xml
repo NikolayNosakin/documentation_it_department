@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группы пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User groups</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Hierarchical>true</Hierarchical>
@@ -217,6 +221,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вышестоящая группа в иерархии</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group the item belongs to.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -232,6 +240,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Входит в группу</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parent group</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -252,6 +264,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Название группы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The group name.</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -283,6 +299,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код, идентифицирующий группу</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The group ID.</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -335,6 +355,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User group</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -343,6 +367,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группы пользователей, имеющих одинаковый доступ к данным системы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Groups of users. All users in a group have the same access rights.</v8:content>
 				</v8:item>
 			</Explanation>
 			<CreateOnInput>Use</CreateOnInput>
@@ -360,6 +388,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -376,6 +408,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Произвольная строка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Free text about the item.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -419,12 +455,20 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Участники группы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group members</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователи, входящие в группу</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Users that belong to the group.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<FillChecking>DontCheck</FillChecking>
@@ -467,6 +511,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пользователь</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>User</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -479,6 +527,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пользователь, включенный в группу</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>A user that belongs to the group.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -513,6 +565,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Groups</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Group>FormNavigationPanelGoTo</Group>
@@ -526,6 +582,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группы пользователя</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Groups that include the user.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture/>

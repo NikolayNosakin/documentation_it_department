@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группы внешних пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>External user groups</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Hierarchical>true</Hierarchical>
@@ -217,6 +221,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вышестоящая группа в иерархии</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group the item belongs to.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -232,6 +240,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Входит в группу</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parent group</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -252,6 +264,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование группы внешних пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The external user group description.</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -330,6 +346,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа внешних пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>External user group</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -338,6 +358,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группы внешних пользователей, имеющих одинаковый доступ к данным системы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Groups of external users. All users in a group have the same access rights.</v8:content>
 				</v8:item>
 			</Explanation>
 			<CreateOnInput>Use</CreateOnInput>
@@ -355,6 +379,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -371,6 +399,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Произвольная строка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Free text about the item.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -404,6 +436,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Все</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>All</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -416,6 +452,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>В группу должны быть включены все участники указанного вида</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The group must include all members of the specified type.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -459,12 +499,20 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Участники группы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group members</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Внешние пользователи, входящие в группу</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>External users that belong to the group.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<FillChecking>DontCheck</FillChecking>
@@ -507,6 +555,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Внешний пользователь</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>External user</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -519,6 +571,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Внешний пользователь, включенный в группу</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>An external user that belongs to the group.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -560,6 +616,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Роли</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Roles</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -604,6 +664,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Роль</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Role</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -616,6 +680,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Разрешенное действие (роль), заданное для группы внешних пользователей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>An allowed action (role) specified for the external user group.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -657,6 +725,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Назначение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Assignment</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -701,6 +773,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тип пользователей</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>User type</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -713,6 +789,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Пустая ссылка на допустимый тип объектов авторизации</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>A blank reference to a valid authorization object type.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -747,6 +827,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Groups</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Group>FormNavigationPanelGoTo</Group>
@@ -760,6 +844,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группы пользователя</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Groups that include the user.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture/>

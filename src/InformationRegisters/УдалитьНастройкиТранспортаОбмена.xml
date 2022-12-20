@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>(не используется) Настройки транспорта обмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>(not used) Exchange transport settings</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -165,6 +169,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры подключения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Connection parameters</v8:content>
+				</v8:item>
 			</RecordPresentation>
 			<ExtendedRecordPresentation/>
 			<ListPresentation/>
@@ -183,6 +191,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Аутентификация операционной системы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Operating system authentication</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -195,6 +207,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак аутентификации операционной системы при создании внешнего подключения к информационной базе</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether operating system authentication is used for external connection to the infobase.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -227,6 +243,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вариант работы информационной базы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase run mode</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -244,6 +264,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вариант работы информационной базы: 0 – файловый; 1 – клиент-серверный</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase run mode: 0 for file, 1 for client/server.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -275,6 +299,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя информационной базы на сервере 1С:Предприятия</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase name on 1C:Enterprise server</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -319,6 +347,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя пользователя</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Username</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -335,6 +367,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя пользователя информационной базы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An infobase user's name.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -366,6 +402,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя сервера 1С:Предприятия</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>1C:Enterprise server name</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -410,6 +450,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Каталог информационной базы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase directory</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -426,6 +470,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Каталог информационной базы для файлового режима работы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A file infobase directory.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -458,6 +506,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Допустимый размер вложения письма</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Attachment size limit</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -475,6 +527,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Максимальный размер отправляемого файла сообщения обмена (Кб)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The exchange message file size limit (KB).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -507,6 +563,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сжимать отправляемые данные в архив</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Compress outgoing data</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -519,6 +579,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что отправляемые данные будут заархивированы перед отправкой.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Compress data into an archive before sending.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -551,6 +615,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Учетная запись электронной почты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Email account</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -563,6 +631,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Учетная запись для синхронизации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A synchronization account.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -595,6 +667,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Транслитерировать имена файлов сообщений обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Transliterate file names of exchange messages</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -607,6 +683,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что имена файлов сообщений обмена будут содержать только латинские символы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether names of exchange message files contain only Latin characters.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -639,6 +719,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Каталог</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Directory</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -655,6 +739,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Каталог синхронизации данных на сетевом ресурсе.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A data synchronization directory on a network resource.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -687,6 +775,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сжимать отправляемые данные в архив</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Compress outgoing data</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -699,6 +791,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что отправляемые данные будут заархивированы перед отправкой.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Compress data into an archive before sending.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -731,6 +827,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Транслитерировать имена файлов сообщений обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Transliterate file names of exchange messages</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -743,6 +843,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что имена файлов сообщений обмена будут содержать только латинские символы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether names of exchange message files contain only Latin characters.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -775,6 +879,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сжимать отправляемые данные в архив</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Compress outgoing data</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -787,6 +895,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что отправляемые данные будут заархивированы перед отправкой.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Compress data into an archive before sending.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -819,6 +931,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Максимальный размер файла</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>File size limit</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -836,6 +952,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Максимальный размер отправляемого файла сообщения обмена (Кб)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The exchange message file size limit (KB).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -868,6 +988,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пассивное соединение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Passive connection</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -880,6 +1004,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак пассивного соединения.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A passive connection flag.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -912,6 +1040,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь (логин)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Username</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -928,6 +1060,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя пользователя для доступа на FTP-ресурс.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The username to access FTP resource.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -960,6 +1096,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Порт</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Port</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -977,6 +1117,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Порт для доступа на FTP-ресурс.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The port to access FTP resource.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1009,6 +1153,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Путь к каталогу</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Directory path</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1025,6 +1173,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Строка с полным именем пути FTP-ресурса</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The full path to the FTP resource.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1057,6 +1209,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Транслитерировать имена файлов сообщений обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Transliterate file names of exchange messages</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1069,6 +1225,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что имена файлов сообщений обмена будут содержать только латинские символы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether names of exchange message files contain only Latin characters.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1101,6 +1261,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>URL</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1117,6 +1281,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес веб-сервиса</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A web service URL.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1149,6 +1317,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Запомнить пароль</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Remember password</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1161,6 +1333,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак сохранения пароля</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether the password is stored in the application.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1193,6 +1369,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1209,6 +1389,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя пользователя (логин)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The username.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1241,6 +1425,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать передачу большого объема данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use large data transfer</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1253,6 +1441,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать передачу большого объема данных через веб-сервис</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use large data transfer over the web service.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1285,6 +1477,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подключение по умолчанию</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Default connection</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1297,6 +1493,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Параметры подключения, используемые по умолчанию.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Default connection parameters.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1329,6 +1529,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество элементов в транзакции выгрузки данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Number of items in a data export transaction</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1346,6 +1550,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество элементов на одну транзакцию выгрузки данных. 0 – данные будут выгружены в одной транзакции.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The number of items in a data export transaction. If 0, all data is exported in a single transaction.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1378,6 +1586,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество элементов в транзакции загрузки данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Number of items in a data import transaction</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1395,6 +1607,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Количество элементов на одну транзакцию загрузки данных. 0 – данные будут загружены в одной транзакции.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The number of items in a data import transaction. If 0, all data is imported in a single transaction.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1427,6 +1643,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>(не используется) COM пароль пользователя</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>(not used) COM user password</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1443,6 +1663,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пароль пользователя информационной базы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An infobase user password.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1475,6 +1699,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>(не используется) FTP соединение пароль</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>(not used) FTP connection password</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1491,6 +1719,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пароль для доступа на FTP-ресурс.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A password for accessing an FTP resource.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1523,6 +1755,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>(не используется) WS пароль</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>(not used) WS password</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1539,6 +1775,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пароль пользователя</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A user's password.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1571,6 +1811,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>(не используется) Пароль архива сообщения обмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>(not used) Exchange message archive password</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1587,6 +1831,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Поле для задания пароля для сжатия и распаковки архива данных. Подразумевается, что пароль сжатия в базе источнике и пароль распаковки в базе приемнике должны совпадать.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Archive password. The passwords in the source infobase and the destination infobase must match.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1619,6 +1867,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Узел информационной базы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase node</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1631,6 +1883,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Узел плана обмена, для которого задаются настройки транспорта.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>An exchange plan node where the transport settings are applied.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

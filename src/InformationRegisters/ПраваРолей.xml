@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Права ролей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Rights of roles</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -173,6 +177,14 @@
 - для бытрого обновления прав групп доступа;
 - в отчете "Права доступа".</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>The register stores access rights for metadata object tables by roles.
+The register is used to:
+- Quickly get current user's rights to tables.
+- Quickly update access group rights.
+- Generate the "Access rights" report.</v8:content>
+				</v8:item>
 			</Explanation>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
@@ -187,6 +199,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право изменение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Update" right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -199,6 +215,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право изменение, установленное в роли.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The "Update" right granted to the role.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -231,6 +251,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право добавление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Add" right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -243,6 +267,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право добавление, установленное в роли.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The "Add" right granted to the role.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -275,6 +303,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право чтение без ограничения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Unrestricted read" right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -288,6 +320,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право чтение, установленное в роли,
 не содержит ограничения доступа ни по одному полю.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The "Read" right granted to the role
+does not contain access restrictions by any field.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -320,6 +357,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право изменение без ограничения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Unrestricted update" right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -333,6 +374,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право изменение, установленное в роли,
 не содержит ограничения доступа.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The "Update" right granted to the role
+does not contain access restrictions.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -365,6 +411,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право добавление без ограничения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Unrestricted add" right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -378,6 +428,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право добавление, установленное в роли,
 не содержит ограничения доступа.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The "Add" right granted to the role
+does not contain access restrictions.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -410,6 +465,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право просмотр</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"View" right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -422,6 +481,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право просмотр, установленное в роли.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The "View" right granted to the role.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -454,6 +517,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право редактирование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Edit" right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -466,6 +533,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право редактирование, установленное в роли.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The "Edit" right granted to the role.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -498,6 +569,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право интерактивное добавление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>"Interactive add" right</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -510,6 +585,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Право интерактивное добавление, установленное в роли.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The "Interactive add" right granted to the role.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -542,6 +621,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект метаданных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Metadata object</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -554,6 +637,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект метаданных, для которого пользователю разрешены программные и интерактивные действия.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A metadata object that a user can access programmatically or manually.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -589,6 +676,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Роль</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Role</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -601,6 +692,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект метаданных Роль, разрешающий некоторые действия пользователю с другими объектами метаданных.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A Role metadata object. It grants users the right to perform some actions with other metadata objects.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

@@ -18,6 +18,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Транспорт сообщений обмена через FTP</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exchange message transport over FTP</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -35,6 +39,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сжимать файл исходящего сообщения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Compress outgoing message file</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -70,6 +78,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Максимальный размер сообщения обмена, КБайт</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Maximum size of exchange message, KB</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -87,6 +99,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Максимальный размер отправляемого файла сообщения обмена (КБайт)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Maximum size of exchange message file (KB).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -113,6 +129,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пароль</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Password</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -152,6 +172,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пассивное соединение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Passive connection</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -185,6 +209,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь (логин)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Username</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -223,6 +251,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Порт</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Port</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -263,6 +295,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Путь к каталогу</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Path to directory</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -300,6 +336,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пароль архива сообщения обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange message archive password</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -339,6 +379,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Шаблон имени файла сообщения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Message file name template</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -376,6 +420,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать временный каталог для отправки и приема сообщений</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use temporary directory to send and receive messages</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>Истина - Отправка и получение сообщений обмена будет выполняться через временный каталог; Ложь – отправка и получение будет выполняться напрямую через каталог обмена</Comment>

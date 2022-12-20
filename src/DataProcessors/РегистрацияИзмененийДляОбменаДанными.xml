@@ -18,6 +18,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Регистрация изменений для обмена данными</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data staging manager</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
@@ -36,6 +40,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Авторегистрация последовательностей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Document sequence autostage</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -48,6 +56,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Авторегистрация последовательностей документов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Document sequence autostage</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -75,6 +87,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Авторегистрация движений</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Autostage records</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -87,6 +103,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Авторегистрация движений документов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Autostage document register record.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -114,6 +134,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес внешней обработки запросов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Address of external query data processor</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -130,6 +154,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Полное имя файла внешней обработки - консоли запросов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The full name of the external data processor that provides a query console.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -157,6 +185,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка вариант номера сообщения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Message numbering option</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -174,6 +206,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вариант установки номера сообщения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Message numbering option.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -201,6 +237,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Конфигурация может контролировать выгрузку объектов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configuration can control object export</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>При использовании в составе БСП 2.1.2 и старше</Comment>
 					<Type>
@@ -213,6 +253,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>При использовании в составе БСП 2.1.2 и старше, конфигурация может контролировать выгрузку объектов, </v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configurations with SSL 2.1.2 or later can control object export.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -240,6 +284,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Конфигурация поддерживает БСП</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configuration supports SSL</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Вычисляется при чтении настроек, ограничивает варианты настроек</Comment>
 					<Type>
@@ -252,6 +300,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Конфигурация поддерживает возможности БСП</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The configuration supports SSL features.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -279,6 +331,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Доступна регистрация средствами БСП</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Registration with SSL methods is available</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -291,6 +347,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Регистрация средствами БСП доступна</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Registration with SSL methods is available.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -318,6 +378,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Доступна работа РИБ</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>DIB available</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -330,6 +394,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Работа РИБ доступна</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>DIB available.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -357,6 +425,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Доступна регистрация асинхронно</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Asynchronous registration is available</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -369,6 +441,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Регистрация в асинхронном режиме доступна.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Registration in asynchronous mode is available.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -402,6 +478,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Регистрация изменений для отправки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Register changes for sending</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

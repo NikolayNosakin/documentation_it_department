@@ -14,6 +14,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дата</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Date</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:dateTime</v8:Type>
@@ -36,6 +40,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -53,6 +61,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Часов работы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Hours worked</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -72,6 +84,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подключений за период</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Connections in the specified period</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:decimal</v8:Type>
@@ -89,6 +105,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Введено документов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Documents entered</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -108,6 +128,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Введено справочников</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Catalogs entered</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:decimal</v8:Type>
@@ -125,6 +149,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменено документов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Documents changed</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -144,6 +172,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменено справочников</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Catalogs changed</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:decimal</v8:Type>
@@ -162,6 +194,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Объект</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:DocumentRef</v8:TypeSet>
@@ -175,6 +211,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вид объекта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object kind</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -192,6 +232,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ошибок</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Errors</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -211,6 +255,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Неделя</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Week</v8:content>
+				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -220,6 +268,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предупреждений</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Warnings</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -239,6 +291,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создано бизнес процессов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Business processes created</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:decimal</v8:Type>
@@ -256,6 +312,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создано задач</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Tasks created</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -275,6 +335,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменено бизнес процессов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Business processes changed</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:decimal</v8:Type>
@@ -292,6 +356,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменено задач</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Tasks changed</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -316,6 +384,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дата одновременно работавших пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Concurrent users date</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:dateTime</v8:Type>
@@ -338,6 +410,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Одновременно работавших пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Concurrent users</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:decimal</v8:Type>
@@ -356,6 +432,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список одновременно работавших пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Concurrent users list</v8:content>
+				</v8:item>
 			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
@@ -369,11 +449,24 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Месяц</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Month</v8:content>
+			</v8:item>
 		</title>
 		<appearance>
 			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 				<dcscor:parameter>Формат</dcscor:parameter>
-				<dcscor:value xsi:type="xs:string">ДФ='MMMM yy'</dcscor:value>
+				<dcscor:value xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ДФ='MMMM yy'</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>DF='MMMM yyyy'</v8:content>
+					</v8:item>
+				</dcscor:value>
 			</dcscor:item>
 		</appearance>
 	</calculatedField>
@@ -385,6 +478,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Введено</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Entered</v8:content>
+			</v8:item>
 		</title>
 	</calculatedField>
 	<calculatedField>
@@ -394,6 +491,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Изменено</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Changed</v8:content>
 			</v8:item>
 		</title>
 	</calculatedField>
@@ -464,6 +565,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Пользователь</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>User</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Пользователи</v8:Type>
@@ -487,6 +592,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Пользователи</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Users</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ГруппыПользователей</v8:Type>
@@ -503,6 +612,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Вариант отчета</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Report option</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -521,6 +634,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>АнализАктивностиПользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>UsersActivityAnalysis</v8:content>
+				</v8:item>
 			</presentation>
 		</availableValue>
 		<availableValue>
@@ -529,6 +646,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>АктивностьПользователя</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>UserActivity</v8:content>
 				</v8:item>
 			</presentation>
 		</availableValue>
@@ -539,6 +660,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>КонтрольЖурналаРегистрации</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>EventLogMonitor</v8:content>
+				</v8:item>
 			</presentation>
 		</availableValue>
 		<availableValue>
@@ -547,6 +672,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>ДиаграммаГанта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>GanttChart</v8:content>
 				</v8:item>
 			</presentation>
 		</availableValue>
@@ -557,6 +686,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Период</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Period</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -577,6 +710,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>День</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Day</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:dateTime</v8:Type>
@@ -595,6 +732,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Начало периода</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Period start</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -620,6 +761,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Конец периода</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Period end</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:dateTime</v8:Type>
@@ -644,6 +789,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Отображать фоновые задания</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Show background jobs</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:boolean</v8:Type>
@@ -657,6 +806,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Минимальная продолжительность сеансов регламентных заданий (в секундах)</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Minimum length of scheduled job sessions (in seconds)</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -684,6 +837,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Минимальное число одновременно работавших регламентных заданий за период</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Minimum number of concurrent scheduled jobs in the specified period</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:decimal</v8:Type>
@@ -703,6 +860,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Скрыть регламентные задания</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Hide scheduled jobs</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:string</v8:Type>
@@ -717,6 +878,10 @@
 			<presentation xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
+					<v8:content>11</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
 					<v8:content>11</v8:content>
 				</v8:item>
 			</presentation>
@@ -736,6 +901,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Выводить бизнес процессы</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Show business processes</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:boolean</v8:Type>
@@ -749,6 +918,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Выводить задачи</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Show tasks</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -764,6 +937,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Выводить справочники</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Show catalogs</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:boolean</v8:Type>
@@ -777,6 +954,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Выводить документы</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Show documents</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -792,6 +973,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Даты в часовом поясе сервера</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Dates in server time zone</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:boolean</v8:Type>
@@ -806,6 +991,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Анализ активности пользователей</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>User activity analysis</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
@@ -863,6 +1052,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Анализ активности пользователей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User activity analysis</v8:content>
+						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -900,6 +1093,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Документы</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Documents</v8:content>
+								</v8:item>
 							</dcsset:lwsTitle>
 							<dcsset:item xsi:type="dcsset:SelectedItemField">
 								<dcsset:field>СозданоДокументов</dcsset:field>
@@ -907,6 +1104,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Введено</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Entered</v8:content>
 									</v8:item>
 								</dcsset:lwsTitle>
 							</dcsset:item>
@@ -918,6 +1119,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Процент введённых документов</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Entered documents, %</v8:content>
+									</v8:item>
 								</dcsset:lwsTitle>
 							</dcsset:item>
 							<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -926,6 +1131,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Изменено</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Changed</v8:content>
 									</v8:item>
 								</dcsset:lwsTitle>
 							</dcsset:item>
@@ -937,6 +1146,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Справочники</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Catalogs</v8:content>
+								</v8:item>
 							</dcsset:lwsTitle>
 							<dcsset:item xsi:type="dcsset:SelectedItemField">
 								<dcsset:field>СозданоСправочников</dcsset:field>
@@ -944,6 +1157,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Введено</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Entered</v8:content>
 									</v8:item>
 								</dcsset:lwsTitle>
 							</dcsset:item>
@@ -955,6 +1172,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Процент введённых справочников</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Entered catalogs, %</v8:content>
+									</v8:item>
 								</dcsset:lwsTitle>
 							</dcsset:item>
 							<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -963,6 +1184,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Изменено</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Changed</v8:content>
 									</v8:item>
 								</dcsset:lwsTitle>
 							</dcsset:item>
@@ -993,6 +1218,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>ЧДЦ=1</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>NFD=1</v8:content>
 										</v8:item>
 									</dcscor:value>
 								</dcscor:item>
@@ -1031,6 +1260,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Документы</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Documents</v8:content>
+									</v8:item>
 								</dcsset:lwsTitle>
 								<dcsset:item xsi:type="dcsset:SelectedItemField">
 									<dcsset:field>СозданоДокументов</dcsset:field>
@@ -1038,6 +1271,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Введено</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Entered</v8:content>
 										</v8:item>
 									</dcsset:lwsTitle>
 								</dcsset:item>
@@ -1049,6 +1286,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Процент введённых документов</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Entered documents, %</v8:content>
+										</v8:item>
 									</dcsset:lwsTitle>
 								</dcsset:item>
 								<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -1057,6 +1298,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Изменено</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Changed</v8:content>
 										</v8:item>
 									</dcsset:lwsTitle>
 								</dcsset:item>
@@ -1068,6 +1313,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Справочники</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Catalogs</v8:content>
+									</v8:item>
 								</dcsset:lwsTitle>
 								<dcsset:item xsi:type="dcsset:SelectedItemField">
 									<dcsset:field>СозданоСправочников</dcsset:field>
@@ -1075,6 +1324,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Введено</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Entered</v8:content>
 										</v8:item>
 									</dcsset:lwsTitle>
 								</dcsset:item>
@@ -1086,6 +1339,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Процент введённых справочников</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Entered catalogs, %</v8:content>
+										</v8:item>
 									</dcsset:lwsTitle>
 								</dcsset:item>
 								<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -1094,6 +1351,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Изменено</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Changed</v8:content>
 										</v8:item>
 									</dcsset:lwsTitle>
 								</dcsset:item>
@@ -1124,6 +1385,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>ЧДЦ=1</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>NFD=1</v8:content>
 											</v8:item>
 										</dcscor:value>
 									</dcscor:item>
@@ -1159,6 +1424,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Документы</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Documents</v8:content>
+										</v8:item>
 									</dcsset:lwsTitle>
 									<dcsset:item xsi:type="dcsset:SelectedItemField">
 										<dcsset:field>СозданоДокументов</dcsset:field>
@@ -1170,6 +1439,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Процент введённых документов</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Entered documents, %</v8:content>
 											</v8:item>
 										</dcsset:lwsTitle>
 									</dcsset:item>
@@ -1184,6 +1457,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Справочники</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Catalogs</v8:content>
+										</v8:item>
 									</dcsset:lwsTitle>
 									<dcsset:item xsi:type="dcsset:SelectedItemField">
 										<dcsset:field>СозданоСправочников</dcsset:field>
@@ -1195,6 +1472,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Процент введённых справочников</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Entered catalogs, %</v8:content>
 											</v8:item>
 										</dcsset:lwsTitle>
 									</dcsset:item>
@@ -1222,6 +1503,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>ДЛФ=D</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>DLF=D</v8:content>
+												</v8:item>
 											</dcscor:value>
 										</dcscor:item>
 									</dcsset:appearance>
@@ -1243,6 +1528,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>ЧДЦ=1</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>NFD=1</v8:content>
 												</v8:item>
 											</dcscor:value>
 										</dcscor:item>
@@ -1296,6 +1585,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Максимальное количество одновременно работавших пользователей</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Maximum number of concurrent users</v8:content>
+							</v8:item>
 						</dcscor:value>
 					</dcscor:item>
 				</dcsset:outputParameters>
@@ -1334,6 +1627,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>ДЛФ=D</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>DLF=D</v8:content>
 										</v8:item>
 									</dcscor:value>
 								</dcscor:item>
@@ -1396,6 +1693,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Введено документов</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Documents entered</v8:content>
+							</v8:item>
 						</dcsset:lwsTitle>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -1424,6 +1725,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Диаграмма "Введено документов и справочников"</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>"Documents and catalogs entered" chart</v8:content>
+							</v8:item>
 						</dcsset:userSettingPresentation>
 					</dcscor:item>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -1436,6 +1741,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Введено и изменено документов за период</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Documents entered and changed in the specified period</v8:content>
 							</v8:item>
 						</dcscor:value>
 					</dcscor:item>
@@ -1487,6 +1796,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Введено справочников</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Catalogs entered</v8:content>
+							</v8:item>
 						</dcsset:lwsTitle>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -1508,6 +1821,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Диаграмма "Изменено документов и справочников"</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>"Documents and catalogs changed" chart</v8:content>
+							</v8:item>
 						</dcsset:userSettingPresentation>
 					</dcscor:item>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -1520,6 +1837,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Введено и изменено справочников за период</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Catalogs entered and changed in the specified period</v8:content>
 							</v8:item>
 						</dcscor:value>
 					</dcscor:item>
@@ -1535,6 +1856,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Активность пользователя</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>User activity</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
@@ -1607,6 +1932,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Активность пользователя</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User activity</v8:content>
+						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -1662,6 +1991,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>ДЛФ=D</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>DLF=D</v8:content>
 									</v8:item>
 								</dcscor:value>
 							</dcscor:item>
@@ -1802,6 +2135,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>ДФ=dd.MM.yy</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>DF=MM/dd/yy</v8:content>
+										</v8:item>
 									</dcscor:value>
 								</dcscor:item>
 							</dcsset:appearance>
@@ -1814,6 +2151,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Активность пользователя</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>User activity</v8:content>
 							</v8:item>
 						</dcsset:lwsTitle>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -1839,6 +2180,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Диаграмма "Введено и изменено справочников"</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>"Catalogs entered and changed" chart</v8:content>
+							</v8:item>
 						</dcsset:userSettingPresentation>
 					</dcscor:item>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -1852,6 +2197,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Введено и изменено документов</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Documents entered and changed</v8:content>
+							</v8:item>
 						</dcscor:value>
 					</dcscor:item>
 				</dcsset:outputParameters>
@@ -1860,6 +2209,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Введено и изменено документов</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Documents entered and changed</v8:content>
 					</v8:item>
 				</dcsset:userSettingPresentation>
 			</dcsset:item>
@@ -1902,6 +2255,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>ДФ=dd.MM.yy</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>DF=MM/dd/yy</v8:content>
+										</v8:item>
 									</dcscor:value>
 								</dcscor:item>
 							</dcsset:appearance>
@@ -1914,6 +2271,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Активность пользователя</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>User activity</v8:content>
 							</v8:item>
 						</dcsset:lwsTitle>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -1939,6 +2300,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Диаграмма "Введено и изменено документов"</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>"Documents entered and changed" chart</v8:content>
+							</v8:item>
 						</dcsset:userSettingPresentation>
 					</dcscor:item>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -1952,6 +2317,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Введено и изменено справочников</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Catalogs entered and changed</v8:content>
+							</v8:item>
 						</dcscor:value>
 					</dcscor:item>
 				</dcsset:outputParameters>
@@ -1960,6 +2329,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Введено и изменено справочников</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Catalogs entered and changed</v8:content>
 					</v8:item>
 				</dcsset:userSettingPresentation>
 			</dcsset:item>
@@ -2003,6 +2376,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>ДФ=dd.MM.yy</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>DF=MM/dd/yy</v8:content>
+										</v8:item>
 									</dcscor:value>
 								</dcscor:item>
 							</dcsset:appearance>
@@ -2015,6 +2392,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Активность пользователя</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>User activity</v8:content>
 							</v8:item>
 						</dcsset:lwsTitle>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -2040,6 +2421,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Диаграмма "Введено и изменено бизнес процессов"</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>"Business processes entered and changed" chart</v8:content>
+							</v8:item>
 						</dcsset:userSettingPresentation>
 					</dcscor:item>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -2053,6 +2438,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Введено и изменено бизнес процессов</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Business processes entered and changed</v8:content>
+							</v8:item>
 						</dcscor:value>
 					</dcscor:item>
 				</dcsset:outputParameters>
@@ -2061,6 +2450,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Введено и изменено бизнес процессов</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Business processes entered and changed</v8:content>
 					</v8:item>
 				</dcsset:userSettingPresentation>
 			</dcsset:item>
@@ -2104,6 +2497,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>ДФ=dd.MM.yy</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>DF=MM/dd/yy</v8:content>
+										</v8:item>
 									</dcscor:value>
 								</dcscor:item>
 							</dcsset:appearance>
@@ -2116,6 +2513,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Активность пользователя</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>User activity</v8:content>
 							</v8:item>
 						</dcsset:lwsTitle>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -2141,6 +2542,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Диаграмма "Введено и изменено задач"</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>"Tasks entered and changed" chart</v8:content>
+							</v8:item>
 						</dcsset:userSettingPresentation>
 					</dcscor:item>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -2154,6 +2559,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Введено и изменено задач</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Tasks entered and changed</v8:content>
+							</v8:item>
 						</dcscor:value>
 					</dcscor:item>
 				</dcsset:outputParameters>
@@ -2162,6 +2571,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Введено и изменено задач</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Tasks entered and changed</v8:content>
 					</v8:item>
 				</dcsset:userSettingPresentation>
 			</dcsset:item>
@@ -2173,6 +2586,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Контроль журнала регистрации</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Errors and warnings</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
@@ -2204,6 +2621,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Продолжительность работы регламентных заданий</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Scheduled job runtime</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">

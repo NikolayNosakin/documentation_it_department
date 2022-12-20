@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Права доступа</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Access rights</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -102,6 +106,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группы прав</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access rights groups</v8:content>
 				</v8:item>
 			</Title>
 			<RowFilter xsi:nil="true"/>
@@ -206,6 +214,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Наследование и легенда</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Inheritance and legend</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
 			<Behavior>Usual</Behavior>
@@ -219,6 +231,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наследовать права от вышестоящих папок</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Inherit access rights</v8:content>
 						</v8:item>
 					</Title>
 					<TitleLocation>Right</TitleLocation>
@@ -241,6 +257,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Легенда</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Legend</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
 					<Group>Horizontal</Group>
@@ -259,6 +279,16 @@
 &lt;fontsize 10&gt;в соответствующей колонке установлено хотя бы одно разрешение &lt;/&gt;&lt;fontsize 12&gt;&lt;colorstyle 0:5a83b75a-38b0-4d15-9c6f-c201fa97e485&gt;✔&lt;/&gt;&lt;/&gt;
 &lt;fontsize 10&gt;и не установлено ни одного запрета &lt;/&gt;&lt;fontsize 12&gt;&lt;colorstyle 0:0c44fdea-7b81-45be-87f5-d64456a9d379&gt;✘&lt;/&gt;&lt;/&gt;&lt;fontsize 12&gt;&lt;color #000000&gt;.&lt;/&gt;&lt;/&gt;</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>&lt;fontsize 12&gt;&lt;colorstyle 0:5a83b75a-38b0-4d15-9c6f-c201fa97e485&gt;✔&lt;/&gt;&lt;/&gt;&lt;fontsize 12&gt;&lt;color #008000&gt; &lt;/&gt;&lt;/&gt;&lt;fontsize 10&gt;&lt;colorstyle -3&gt;a&lt;/&gt;&lt;/&gt;&lt;fontsize 10&gt;&lt;colorstyle -3&gt;llows&lt;/&gt;&lt;/&gt;&lt;fontsize 10&gt;&lt;colorstyle -3&gt; access&lt;/&gt;&lt;/&gt;
+&lt;fontsize 12&gt;&lt;colorstyle 0:0c44fdea-7b81-45be-87f5-d64456a9d379&gt;✘&lt;/&gt;&lt;/&gt;&lt;fontsize 12&gt; &lt;/&gt;&lt;fontsize 10&gt;&lt;colorstyle -3&gt;denies&lt;/&gt;&lt;/&gt;&lt;fontsize 10&gt;&lt;colorstyle -3&gt; &lt;/&gt;&lt;/&gt;&lt;fontsize 10&gt;&lt;colorstyle -3&gt;access even if other &lt;/&gt;&lt;/&gt;&lt;fontsize 10&gt;&lt;colorstyle -3&gt;rows contain a permission &lt;/&gt;&lt;/&gt;&lt;fontsize 10&gt;&lt;colorstyle -3&gt;for this user or group &lt;/&gt;&lt;/&gt;
+&lt;fontsize 12&gt;&lt;colorstyle 0:0a83f9ec-eabe-4e8f-9fa9-0067acad6fc4&gt;●&lt;/&gt;&lt;/&gt;&lt;fontsize 12&gt; &lt;/&gt;&lt;fontsize 12&gt; &lt;/&gt;&lt;fontsize 10&gt;&lt;colorstyle -3&gt;n&lt;/&gt;&lt;/&gt;&lt;fontsize 10&gt;&lt;colorstyle -3&gt;either allows nor denies access&lt;/&gt;&lt;/&gt;
+
+&lt;fontsize 10&gt;Thus, a&lt;/&gt;&lt;fontsize 10&gt;user &lt;/&gt;&lt;fontsize 10&gt;gets access if at least one permission and no lock is set&lt;/&gt;&lt;fontsize 10&gt;,&lt;/&gt;
+&lt;fontsize 10&gt;for them or their group &lt;/&gt;&lt;fontsize 12&gt;&lt;colorstyle 0:5a83b75a-38b0-4d15-9c6f-c201fa97e485&gt;✔&lt;/&gt;&lt;/&gt;
+&lt;fontsize 10&gt;in the respective column &lt;/&gt;&lt;fontsize 12&gt;&lt;colorstyle 0:0c44fdea-7b81-45be-87f5-d64456a9d379&gt;✘&lt;/&gt;&lt;/&gt;&lt;fontsize 12&gt;&lt;color #000000&gt;.&lt;/&gt;&lt;/&gt;</v8:content>
+							</v8:item>
 						</Title>
 					</ExtendedTooltip>
 					<ChildItems>
@@ -267,6 +297,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Легенда право разрешено</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Legend the right is allowed</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -283,11 +317,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>✔</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>✔</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Разрешает доступ</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Allows access</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="КартинкаПравоРазрешеноКонтекстноеМеню" id="105"/>
@@ -299,11 +341,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Разрешено     </v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Allowed     </v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Разрешает доступ</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Allows access</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="ОписаниеПравоРазрешеноКонтекстноеМеню" id="86"/>
@@ -316,6 +366,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Легенда право запрещено</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Legend the right is denied</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -332,11 +386,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>✘</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>✘</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Запрещает доступ, даже если в других строках для этого пользователя/группы есть разрешение</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Denies access even if other rows contain a permission for this user/group</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="КартинкаПравоЗапрещеноКонтекстноеМеню" id="108"/>
@@ -348,12 +410,21 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Запрещено  </v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Denied  </v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Запрещает доступ, даже если в других строках
 для этого пользователя/группы есть разрешение</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Denies access even if other rows contain a permission
+for this user/group</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="ОписаниеПравоЗапрещеноКонтекстноеМеню" id="94"/>
@@ -366,6 +437,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Легенда право не назначено</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Legend the right is not assigned</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -381,11 +456,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>●</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>●</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Не разрешает доступ, но и не запрещает</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Neither allows nor denies access</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="КартинкаПравоНеНазначеноКонтекстноеМеню" id="111"/>
@@ -397,11 +480,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Не назначено </v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Not assigned </v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Не разрешает доступ, но и не запрещает</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Neither allows nor denies access</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ContextMenu name="ОписаниеПравоНеНазначеноКонтекстноеМеню" id="102"/>
@@ -421,6 +512,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группы прав</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access rights groups</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -432,6 +527,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -483,6 +582,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Наследовать права родителей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Inherit access rights</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -524,11 +627,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -545,11 +656,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save the changes.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Записать</Action>
@@ -561,11 +680,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перечитать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перечитать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -581,11 +708,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разрешено ✔</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allowed ✔</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить разрешение права</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Grant the access right.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УстановитьРазрешениеПрава</Action>
@@ -597,11 +732,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Запрещено ✘</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Denied ✘</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить запрет права</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Deny the access right.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УстановитьЗапретПрава</Action>
@@ -613,11 +756,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не назначено ●</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Not assigned ●</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять установку права</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear the access right.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СнятьУстановкуПрава</Action>

@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Копирование настроек</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Copy settings</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -48,6 +52,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открытые копируемые формы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open forms to copy</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -65,6 +73,13 @@
 Рекомендуется закрыть перечисленные окна и повторить копирование.
 </v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The settings of some &lt;link ОткрытыеОкна&gt;open windows&lt;/&gt; are about to be copied to another user.
+If you made any changes in these windows, the changes might not be copied.
+It is recommended that you close the windows before copying the settings.
+</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="СообщениеОткрытыеФормыКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="СообщениеОткрытыеФормыРасширеннаяПодсказка" id="27"/>
@@ -79,6 +94,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Активные пользователи</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Active users</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -97,6 +116,12 @@
 должны завершить свои сеансы работы.
 В противном случае настройки могут не примениться.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Before you start copying the interface settings,
+destination users must exit the application.
+Otherwise, the settings might not be applied.</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="СообщениеКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="СообщениеExtendedTooltip" id="20"/>
@@ -107,6 +132,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список активных пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Active users</v8:content>
 						</v8:item>
 					</Title>
 					<Hyperlink>true</Hyperlink>
@@ -146,11 +175,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Скопировать</Action>

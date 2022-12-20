@@ -16,6 +16,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Описание синхронизации данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data synchronization details</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -44,6 +48,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Резервное копирование</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Backup</v8:content>
+				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<VerticalAlign>Center</VerticalAlign>
@@ -70,6 +78,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перед началом настройки новой синхронизации данных рекомендуется создать резервную копию данных.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>It is recommended that you back up your data before configuring a new synchronization.</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="ДекорацияРезервноеКопированиеНадписьКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="ДекорацияРезервноеКопированиеНадписьРасширеннаяПодсказка" id="15"/>
@@ -82,6 +94,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Этапы настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronization setup steps</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -92,6 +108,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка подключения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configure connection parameters</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -106,6 +126,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Панель настройка подключения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure connection parameters panel</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ПанельНастройкаПодключенияРасширеннаяПодсказка" id="19"/>
@@ -115,6 +139,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница настройка подключения успешно</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Configure connection parameters success page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаНастройкаПодключенияУспешноРасширеннаяПодсказка" id="21"/>
@@ -138,6 +166,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница настройка подключения текущий</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Configure connection parameters current step</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаНастройкаПодключенияТекущийРасширеннаяПодсказка" id="26"/>
 									<ChildItems>
@@ -159,6 +191,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница настройка подключения пустой</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Configure connection parameters no picture page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаНастройкаПодключенияПустойРасширеннаяПодсказка" id="117"/>
@@ -187,6 +223,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Для начала синхронизации данных необходимо указать, каким способом программы будут подключаться друг к другу.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>To start data synchronization, specify how the applications connect to each other.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -197,6 +237,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подтверждение подключения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Confirm connection</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -211,6 +255,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Панель подтверждение подключения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Confirm connection panel</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ПанельПодтверждениеПодключенияРасширеннаяПодсказка" id="151"/>
@@ -220,6 +268,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница подтверждение подключения успешно</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Confirm connection success page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаПодтверждениеПодключенияУспешноРасширеннаяПодсказка" id="153"/>
@@ -243,6 +295,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница подтверждение подключения текущий</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Confirm connection current step page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаПодтверждениеПодключенияТекущийРасширеннаяПодсказка" id="155"/>
 									<ChildItems>
@@ -264,6 +320,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница подтверждение подключения пустой</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Confirm connection no picture page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаПодтверждениеПодключенияПустойРасширеннаяПодсказка" id="157"/>
@@ -291,6 +351,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Система "%1" должна подтвердить запрос на настройку подключения из этой программы.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>%1 must confirm a request for connection from this application.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -301,6 +365,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка правил</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Configure synchronization rules</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -315,6 +383,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Панель настройка правил</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure synchronization rules panel</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ПанельНастройкаПравилРасширеннаяПодсказка" id="35"/>
@@ -324,6 +396,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница настройка правил успешно</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Configure synchronization rules success page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаНастройкаПравилУспешноРасширеннаяПодсказка" id="37"/>
@@ -347,6 +423,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница настройка правил текущий</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Configure synchronization rules current step page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаНастройкаПравилТекущийРасширеннаяПодсказка" id="42"/>
 									<ChildItems>
@@ -368,6 +448,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница настройка правил пустой</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Configure synchronization rules no picture page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаНастройкаПравилПустойРасширеннаяПодсказка" id="47"/>
@@ -396,6 +480,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Перед началом использования синхронизации данных требуется указать ограничения отправки данных, а также правила получения данных из другой программы (значения по умолчанию).</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Before you start using data synchronization, specify data sending restrictions and rules of receiving data from the other application (default values).</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -406,6 +494,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Начальный образ РИБ</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Initial DIB image</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -420,6 +512,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Панель начальный образ РИБ</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Initial DIB image panel</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ПанельНачальныйОбразРИБРасширеннаяПодсказка" id="56"/>
@@ -429,6 +525,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница начальный образ РИБ успешно</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Initial DIB image success page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаНачальныйОбразРИБУспешноРасширеннаяПодсказка" id="58"/>
@@ -452,6 +552,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница начальный образ РИБ текущий</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Initial DIB image current step page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаНачальныйОбразРИБТекущийРасширеннаяПодсказка" id="63"/>
 									<ChildItems>
@@ -473,6 +577,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница начальный образ РИБ пустой</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Initial DIB image no picture page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаНачальныйОбразРИБПустойРасширеннаяПодсказка" id="68"/>
@@ -502,6 +610,11 @@
 										<v8:content>Создание начального образа может занять длительное время.
 После создания необходимо развернуть информационную базу из созданного образа и выполнить первоначальный запуск программы для завершения настройки. Возможно создать начальный образ позднее. Для этого необходимо открыть параметры настроенной синхронизации и выполнить команду «Создание начального образа подчиненного узла распределенной информационной базы».</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Creating an initial image might take a long time.
+After creation, deploy the infobase from the initial image and run the application to complete the synchronization setup. You can create an initial image later by opening configured configuration parameters and clicking "Create initial image of a subordinate DIB node."</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -512,6 +625,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сопоставление и загрузка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Map and import data</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -526,6 +643,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Панель сопоставление и загрузка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Map and import data panel</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ПанельСопоставлениеИЗагрузкаРасширеннаяПодсказка" id="128"/>
@@ -535,6 +656,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница сопоставление и загрузка успешно</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Map and import data success page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаСопоставлениеИЗагрузкаУспешноРасширеннаяПодсказка" id="132"/>
@@ -558,6 +683,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница сопоставление и загрузка текущий</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Map and import data current step page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаСопоставлениеИЗагрузкаТекущийРасширеннаяПодсказка" id="134"/>
 									<ChildItems>
@@ -579,6 +708,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница сопоставление и загрузка пустой</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Map and import data no picture page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаСопоставлениеИЗагрузкаПустойРасширеннаяПодсказка" id="136"/>
@@ -606,6 +739,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Если учет ведется в обеих программах, перед запуском синхронизации следует выполнить сопоставление данных. Это позволит избежать появления дублирующихся элементов справочников, которые независимо друг от друга были введены в обеих программах, например, с одинаковыми наименованиями. С помощью сопоставления можно указать, какие данные являются одинаковыми в двух программах. После чего можно будет выполнить загрузку с учетом настроенных сопоставлений.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>If accounting is carried out in both applications, before you run the synchronization, map their data. This will help you to avoid duplication of catalog items recorded independently in both applications, for example, items with the same name. Once you specify the mapping, you can import data from the other application.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
@@ -616,6 +753,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Начальная выгрузка данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Initial data export.</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -630,6 +771,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Панель начальная выгрузка данных</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Run initial data export panel</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ПанельНачальнаяВыгрузкаДанныхРасширеннаяПодсказка" id="77"/>
@@ -639,6 +784,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница начальная выгрузка данных успешно</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Run initial data export success page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаНачальнаяВыгрузкаДанныхУспешноРасширеннаяПодсказка" id="79"/>
@@ -662,6 +811,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница начальная выгрузка данных текущий</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Run initial data export current step page</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаНачальнаяВыгрузкаДанныхТекущийРасширеннаяПодсказка" id="84"/>
 									<ChildItems>
@@ -683,6 +836,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница начальная выгрузка данных пустой</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Run initial data export no picture page</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаНачальнаяВыгрузкаДанныхПустойРасширеннаяПодсказка" id="89"/>
@@ -711,6 +868,11 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Будет произведена выгрузка данных из этой программы. Сразу после завершения настройки синхронизации возможно будет выполнить загрузку данных в другой программе и указать, какие данные являются одинаковыми для двух синхронизирующихся программ.
 Выгрузку данных можно выполнить позднее из списка настроенных синхронизаций данных.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Data will be exported from this application. Once you complete the synchronization setup, you can import the data in another application and map the data being imported to the application's data.
+You can export the data later from the list of configured data synchronizations.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -973,11 +1135,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подробное описание</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Detailed description</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подробное описание синхронизации данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Detailed data synchronization description</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -992,11 +1162,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить параметры подключения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure connection parameters</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить параметры подключения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure connection parameters</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастроитьПараметрыПодключения</Action>
@@ -1007,11 +1185,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить правила отправки и получения данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure data sending and receiving rules</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить правила отправки и получения данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure data sending and receiving rules</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастроитьПравилаОтправкиИПолученияДанных</Action>
@@ -1022,11 +1208,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать начальный образ подчиненного узла РИБ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create initial image of a subordinate DIB node</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать начальный образ РИБ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create initial DIB image</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьНачальныйОбразРИБ</Action>
@@ -1037,11 +1231,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить начальную выгрузку данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run initial data export</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить начальную выгрузку данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run initial data export</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыполнитьНачальнуюВыгрузкуДанных</Action>
@@ -1052,11 +1254,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить сопоставление и загрузку данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Map and import data</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить сопоставление и загрузку данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Map and import data</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыполнитьСопоставлениеИЗагрузкуДанных</Action>
@@ -1067,11 +1277,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Получить подтверждение подключения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Get connection confirmation</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Получить подтверждение подключения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Get connection confirmation</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПолучитьПодтверждениеПодключения</Action>

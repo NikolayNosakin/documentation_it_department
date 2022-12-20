@@ -17,6 +17,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -29,6 +33,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Показать</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Show</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -44,6 +52,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Все профили</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>All profiles</v8:content>
+									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">ВсеПрофили</Value>
 							</xr:Value>
@@ -56,6 +68,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Поставляемые</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Built-in profiles</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">Поставляемые</Value>
@@ -70,6 +86,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Непоставляемые</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Custom profiles</v8:content>
+									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">Непоставляемые</Value>
 							</xr:Value>
@@ -82,6 +102,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Устаревшие</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Obsolete profiles</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">Устаревшие</Value>
@@ -97,6 +121,12 @@
 Непоставляемые профили - все остальные (обновляются вручную).
 Устаревшие профили содержат удаленные роли (не обновлены вручную).</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Built-in profiles are included in the configuration (subject to automatic update).
+Custom profiles are the remaining ones (manual update required).
+Obsolete profiles contain deleted roles (manual update skipped).</v8:content>
+							</v8:item>
 						</Title>
 					</ExtendedTooltip>
 					<Events>
@@ -109,6 +139,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Назначение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Assignment</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalStretch>true</HorizontalStretch>
@@ -130,6 +164,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -141,6 +179,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="23"/>
@@ -188,6 +230,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Форма стандартные команды</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Form standard commands</v8:content>
+						</v8:item>
 					</Title>
 					<CommandSource>Form</CommandSource>
 					<ExtendedTooltip name="ФормаСтандартныеКомандыРасширеннаяПодсказка" id="61"/>
@@ -206,6 +252,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Список поиск</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>List search</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="СписокПоискКонтекстноеМеню" id="70"/>
@@ -238,6 +288,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSet>
@@ -298,6 +352,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
 						</v8:item>
 					</Title>
 					<Wrap>false</Wrap>
@@ -364,6 +422,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать профили</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show profiles</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -378,6 +440,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вид пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User kind</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -396,11 +462,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить текущий список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F5</Shortcut>

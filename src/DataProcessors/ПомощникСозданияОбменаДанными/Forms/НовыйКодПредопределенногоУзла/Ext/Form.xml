@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Новый код предопределенного узла</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>New predefined node code</v8:content>
+		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -28,6 +32,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предупреждение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Warning</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
@@ -38,6 +46,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинка предупреждение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Warning picture</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -59,6 +71,15 @@
 которые были получены путем копирования.
  
 Не рекомендуется применять для работающих синхронизаций.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>&lt;colorstyle -16&gt;Warning!&lt;/&gt;
+This operation cannot be undone and is intended only to resolve a synchronization error
+associated with duplicate exchange settings in infobases
+that were obtained by copying.
+ 
+This operation is not recommended for running synchronizations.</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="ДекорацияПредупреждениеКонтекстноеМеню" id="9"/>
@@ -96,11 +117,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить новый код</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Set new code</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить новый код</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Set new code</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УстановитьНовыйКод</Action>

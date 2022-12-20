@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>История изменений</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Change history</v8:content>
+		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<CommandSet>
@@ -34,11 +38,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменения в реквизитах</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filter changes by attributes</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать версии, в которых есть изменения выбранных реквизитов.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show only versions where the selected attributes were changed.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<ChoiceButton>true</ChoiceButton>
@@ -48,6 +60,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Без отбора</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>No filter</v8:content>
 				</v8:item>
 			</InputHint>
 			<ContextMenu name="РеквизитыКонтекстноеМеню" id="58"/>
@@ -63,6 +79,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
+				</v8:item>
 			</Title>
 			<CommandSource>Form</CommandSource>
 			<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="64"/>
@@ -72,6 +92,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Действия с версией</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Version actions</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ДействияСВерсиейРасширеннаяПодсказка" id="120"/>
@@ -111,6 +135,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Основная страница</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main page</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ОсновнаяСтраницаExtendedTooltip" id="44"/>
@@ -120,6 +148,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выбор версий для сравнения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Versions to compare</v8:content>
 						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
@@ -138,6 +170,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дерево версий</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Version tree</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -240,6 +276,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Источник изменений</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Change source</v8:content>
+										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>30</Width>
@@ -265,6 +305,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версии для сравнения отсутствуют</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>No versions to compare</v8:content>
+						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
 					<ShowTitle>false</ShowTitle>
@@ -275,6 +319,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Picture</v8:content>
 								</v8:item>
 							</Title>
 							<Picture>
@@ -293,6 +341,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Предыдущие версии отсутствуют</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Earlier versions are not available.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="НетВерсийКонтекстноеМеню" id="36"/>
 							<ExtendedTooltip name="НетВерсийExtendedTooltip" id="56"/>
@@ -307,6 +359,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Технические сведения об изменении объекта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Technical details on the object change</v8:content>
 				</v8:item>
 			</Title>
 			<Hyperlink>true</Hyperlink>
@@ -338,6 +394,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Реквизиты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Attributes</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -359,6 +419,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дерево версий</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Version tree</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -369,6 +433,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Автор изменений</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Author</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -385,6 +453,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Date</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -403,6 +475,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -417,6 +493,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>№</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>#</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -450,6 +530,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Узел</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Node</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -485,11 +569,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сравнить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Compare</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сформировать отчет по изменениям между версиями</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Generate delta report for the selected versions.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СформироватьОтчетПоИзменениям</Action>
@@ -501,11 +593,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть версию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open version</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть отчет по версии</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the version report.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьВерсиюОбъекта</Action>
@@ -517,11 +617,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти на версию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to version</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти на предыдущую версию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restore version</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПерейтиНаВерсию</Action>
@@ -533,11 +641,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F5</Shortcut>

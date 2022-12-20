@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Поиск документов, файлов или отчетов</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Document, file, or report search</v8:content>
+		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<Customizable>false</Customizable>
@@ -22,6 +26,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Состояние поиска</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search state</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>AlwaysHorizontal</Group>
@@ -37,6 +45,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Состояние поиска предупреждение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Search state warning</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -63,6 +75,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Шапка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
@@ -77,6 +93,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Введите искомый текст или часть фразы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Enter search text</v8:content>
 						</v8:item>
 					</ToolTip>
 					<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -96,6 +116,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Введите искомый текст или часть фразы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Enter search text</v8:content>
 						</v8:item>
 					</InputHint>
 					<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="6"/>
@@ -133,6 +157,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Область поиска</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search location</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -145,6 +173,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Область поиска</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Search location</v8:content>
 						</v8:item>
 					</Title>
 					<AutoMaxWidth>false</AutoMaxWidth>
@@ -163,6 +195,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Информация о найденном</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search result information</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>AlwaysHorizontal</Group>
@@ -176,6 +212,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Навигация</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Navigation</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -233,6 +273,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Строка поиска</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search bar</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -257,6 +301,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Результаты поиска представление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search results presentation</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -275,6 +323,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Области поиска представление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search locations presentation</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -289,6 +341,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Состояние поиска представление</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search state presentation</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -378,11 +434,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Найти</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Find</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Найти текст</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Find text</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -399,11 +463,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Следующие</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Next</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Следующие результаты поиска</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Next search results</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -420,11 +492,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предыдущие</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Previous</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предыдущие результаты поиска</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Previous search results</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

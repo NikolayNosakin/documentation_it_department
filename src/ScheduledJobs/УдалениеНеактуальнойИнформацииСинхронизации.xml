@@ -8,6 +8,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удаление неактуальной информации синхронизации</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete obsolete synchronization data</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment>Выполняет удаление информации синхронизации, которая не была удалена из-за сбоев в работе программы. Удалению подлежат файлы с датой размещения более суток.</Comment>
 			<MethodName>CommonModule.ОбменДаннымиСервер.УдалитьНеактуальныеСообщенияОбмена</MethodName>

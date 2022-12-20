@@ -21,6 +21,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель основная</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main panel</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ПанельОсновнаяExtendedTooltip" id="151"/>
@@ -32,6 +36,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сопоставление объектов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object mapping</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СопоставлениеОбъектовExtendedTooltip" id="152"/>
 					<ChildItems>
@@ -40,6 +48,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель таблицы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Table command bar</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="КоманднаяПанельТаблицыExtendedTooltip" id="153"/>
@@ -74,6 +86,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Таблица автоматически сопоставленных объектов</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Table of automatically mapped objects</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -138,6 +154,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Поля приемника</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Destination fields</v8:content>
+										</v8:item>
 									</Title>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="ПоляПриемникаExtendedTooltip" id="158"/>
@@ -196,11 +216,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Поля источника</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Source fields</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Поля приемника</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Destination fields</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Group>InCell</Group>
@@ -262,6 +290,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель формы</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Form command bar</v8:content>
+								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
 							<ExtendedTooltip name="КоманднаяПанельФормыExtendedTooltip" id="172"/>
@@ -290,6 +322,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ожидание сопоставления объектов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Waiting for object mapping</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОжиданиеСопоставленияОбъектовExtendedTooltip" id="175"/>
 					<ChildItems>
@@ -299,6 +335,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Рамка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Border</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
@@ -315,6 +355,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Группировка сообщения</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Message grouping</v8:content>
+										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
 									<Representation>NormalSeparation</Representation>
@@ -326,6 +370,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Картинки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Pictures</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -352,6 +400,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Сообщения</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Messages</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -367,6 +419,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Поиск одинаковых данных...</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Searching for matches…</v8:content>
 														</v8:item>
 													</Title>
 													<VerticalAlign>Center</VerticalAlign>
@@ -388,6 +444,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ошибка сопоставления объектов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object mapping error</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОшибкаСопоставленияОбъектовExtendedTooltip" id="182"/>
 					<ChildItems>
@@ -397,6 +457,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Рамка 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Border 1</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
@@ -413,11 +477,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Группировка сообщения 1</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Message grouping 1</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Группировка сообщения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Message grouping</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Behavior>Usual</Behavior>
@@ -430,6 +502,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Картинки 1</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Pictures 1</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -456,6 +532,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Сообщения 1</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Messages 1</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -471,6 +551,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Не удалось выполнить поиск одинаковых данных.</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Cannot complete the search for matches.</v8:content>
 														</v8:item>
 													</Title>
 													<VerticalAlign>Center</VerticalAlign>
@@ -495,6 +579,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель формы 2</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Form command bar 2</v8:content>
+								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
 							<ExtendedTooltip name="КоманднаяПанельФормы2ExtendedTooltip" id="189"/>
@@ -515,11 +603,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пустой результат сопоставления объектов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Empty result of object mapping</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ошибка сопоставления объектов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object mapping error.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="ПустойРезультатСопоставленияОбъектовExtendedTooltip" id="191"/>
@@ -530,6 +626,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Рамка 2</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Border 2</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
@@ -546,11 +646,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Группировка сообщения 2</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Message grouping 2</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Группировка сообщения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Message grouping</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Behavior>Usual</Behavior>
@@ -563,6 +671,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Картинки 2</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Pictures 2</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -589,6 +701,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Сообщения 2</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Messages 2</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
@@ -605,6 +721,11 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Одинаковые данные не найдены.
 Попробуйте задать другие условия поиска.</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>No matches.
+Try specifying other search conditions.</v8:content>
 														</v8:item>
 													</Title>
 													<VerticalAlign>Center</VerticalAlign>
@@ -628,6 +749,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель формы 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Form command bar 1</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -797,11 +922,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Применить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Apply</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Применить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Apply</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Применить</Action>
@@ -813,11 +946,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Отмена</Action>
@@ -829,11 +970,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить пометки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить пометки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -850,11 +999,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять пометки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять пометки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -871,11 +1028,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗакрытьФорму</Action>

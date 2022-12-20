@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Редактируемые файлы</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Locked files</v8:content>
+		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>None</CommandBarLocation>
@@ -30,6 +34,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -41,6 +49,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSource>Item.Список</CommandSource>
@@ -72,6 +84,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Открыть карточку</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Open card</v8:content>
+						</v8:item>
 					</Title>
 					<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаОткрытьСвойстваФайлаРасширеннаяПодсказка" id="76"/>
@@ -92,6 +108,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSet>
@@ -131,6 +151,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Открыть карточку</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Open card</v8:content>
+							</v8:item>
 						</Title>
 						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 						<ExtendedTooltip name="СписокКонтекстноеМенюОткрытьСвойстваФайлаРасширеннаяПодсказка" id="110"/>
@@ -140,6 +164,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Группа</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Group</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СписокКонтекстноеМенюГруппаКомандОсновныеРасширеннаяПодсказка" id="112"/>
@@ -173,6 +201,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Контекстное меню группа команд дополнительные</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Context menu additional commands group</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СписокКонтекстноеМенюГруппаКомандДополнительныеРасширеннаяПодсказка" id="122"/>
 						<ChildItems>
@@ -190,6 +222,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Отменить редактирование</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Cancel editing</v8:content>
 									</v8:item>
 								</Title>
 								<ExtendedTooltip name="СписокКонтекстноеМенюОсвободитьРасширеннаяПодсказка" id="82"/>
@@ -214,6 +250,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Дополнительно</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>More</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СписокКонтекстноеМенюГруппаКомандДополнительноРасширеннаяПодсказка" id="84"/>
 						<ChildItems>
@@ -227,6 +267,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Настройка</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Settings</v8:content>
 									</v8:item>
 								</Title>
 								<ExtendedTooltip name="СписокКонтекстноеМенюГруппаНастройкаРасширеннаяПодсказка" id="102"/>
@@ -311,6 +355,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование и описание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description and details</v8:content>
+						</v8:item>
 					</Title>
 					<Group>InCell</Group>
 					<ExtendedTooltip name="ГруппаНаименованиеИОписаниеРасширеннаяПодсказка" id="88"/>
@@ -340,6 +388,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Файл</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>File</v8:content>
 								</v8:item>
 							</Title>
 							<AutoCellHeight>true</AutoCellHeight>
@@ -373,11 +425,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размер (КБ)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Size (kB)</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размер файла в килобайтах</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The file size in kilobytes.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Width>1</Width>
@@ -385,6 +445,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>ЧЦ=10; ЧН=0</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>ND=10; NZ=0</v8:content>
 						</v8:item>
 					</Format>
 					<ContextMenu name="СписокТекущаяВерсияРазмерКонтекстноеМеню" id="62"/>
@@ -399,6 +463,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ссылка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Ref</v8:content>
 						</v8:item>
 					</Title>
 					<Width>1</Width>
@@ -423,6 +491,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командной панели</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
 			<ExtendedTooltip name="ГруппаКоманднойПанелиExtendedTooltip" id="95"/>
@@ -436,6 +508,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>ОК</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OK</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ЗаписатьИЗакрытьExtendedTooltip" id="96"/>
 				</Button>
@@ -446,6 +522,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Cancel</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОтменаExtendedTooltip" id="97"/>
@@ -459,6 +539,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -523,6 +607,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать занятые файлы при завершении работы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show locked files before exit</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -546,11 +634,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Просмотреть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>View</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть файл</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open file</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F4</Shortcut>
@@ -568,11 +664,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Закончить редактирование</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Commit</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить и освободить файл в информационной базе</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save the file and release it in the infobase.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -589,11 +693,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Освободить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Release</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Освободить занятый файл</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Release a locked file.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -610,11 +722,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить изменения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save changes</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить изменения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save changes</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -630,11 +750,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть каталог файла</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open file directory</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть каталог файла</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open file directory</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -651,11 +779,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить как...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save as…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить файл на диск или другое устройство</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save the file to a hard drive or another device.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -672,11 +808,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить из файла на диске...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update from file on hard drive…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить из файла на диске</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update from a file on a hard drive.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОбновитьИзФайлаНаДиске</Action>
@@ -688,11 +832,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаписатьИЗакрыть</Action>
@@ -704,11 +856,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F5</Shortcut>
@@ -725,11 +885,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть свойства файла</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open file properties</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть свойства файла</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open file properties</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F2</Shortcut>

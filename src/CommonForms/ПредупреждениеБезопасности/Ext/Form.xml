@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Предупреждение безопасности</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Security warning</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -29,6 +33,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Картинка предупреждение32</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Picture warning32</v8:content>
+				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
@@ -44,6 +52,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="16"/>
@@ -53,6 +65,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>После обновления</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>After update</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПослеОбновленияРасширеннаяПодсказка" id="41"/>
@@ -74,6 +90,19 @@
 
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>For safety reasons, it is recommended that you prohibit opening external reports 
+and data processors from the &lt;b&gt;File - &lt;/&gt;&lt;b&gt;Open&lt;/&gt; menu.
+External report or data processor files from 
+untrusted sources
+can be harmful to your computer and data.
+
+Instead of opening external reports and data processors, it is recommended that you use 
+&lt;link e1cib/list/Справочник.ДополнительныеОтчетыИОбработки&gt;additional&lt;/&gt;&lt;link e1cib/list/Справочник.ДополнительныеОтчетыИОбработки&gt; reports&lt;/&gt;&lt;link e1cib/list/Справочник.ДополнительныеОтчетыИОбработки&gt; and data processors&lt;/&gt; and &lt;link e1cib/app/ОбщаяФорма.Расширения&gt;extensions&lt;/&gt; from trusted sources.
+
+See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt;.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="Надпись1КонтекстноеМеню" id="43"/>
 							<ExtendedTooltip name="Надпись1РасширеннаяПодсказка" id="44"/>
@@ -83,6 +112,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель 1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar 1</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -109,6 +142,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>После появления права</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>After granting right</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПослеПоявленияПраваРасширеннаяПодсказка" id="54"/>
 					<ChildItems>
@@ -127,6 +164,17 @@
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.
 </v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>In access right settings, you are authorized to open files of external reports
+and data processors from the &lt;b&gt;File — &lt;/&gt;&lt;b&gt;Open&lt;/&gt; menu.
+You are encouraged to pay attention to the file sources.
+Do not open files from untrusted sources.
+
+Such files might be harmful to your computer and data. 
+
+See also:&lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="Надпись2КонтекстноеМеню" id="56"/>
 							<ExtendedTooltip name="Надпись2РасширеннаяПодсказка" id="57"/>
@@ -136,6 +184,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель 2</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar 2</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -156,6 +208,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перед добавлением дополнительного отчета или обработки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Before adding an additional report or data processor</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПередДобавлениемДополнительногоОтчетаИлиОбработкиРасширеннаяПодсказка" id="69"/>
 					<ChildItems>
@@ -175,6 +231,16 @@
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.
 </v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>When attaching an additional report or data processor, 
+pay attention to their sources.
+If you are not sure that the file was obtained from a trusted source,
+refrain from attaching it.
+
+
+See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="Надпись3КонтекстноеМеню" id="71"/>
 							<ExtendedTooltip name="Надпись3РасширеннаяПодсказка" id="72"/>
@@ -184,6 +250,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель 3</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar 3</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -209,6 +279,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перед добавлением расширений</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Before adding extensions</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПередДобавлениемРасширенийРасширеннаяПодсказка" id="18"/>
 					<ChildItems>
@@ -226,6 +300,16 @@
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.
 </v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>When attaching configuration extensions, 
+pay attention to their sources.
+If you are not sure the extension file was obtained from a trusted source, 
+refrain from attaching it.
+
+
+See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="Надпись4КонтекстноеМеню" id="27"/>
 							<ExtendedTooltip name="Надпись4РасширеннаяПодсказка" id="28"/>
@@ -235,6 +319,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель 4</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar 4</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -260,11 +348,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перед выбором файла обновления</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Before selecting an update file</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перед добавлением расширений</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Before adding extensions</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="ПередВыборомФайлаОбновленияРасширеннаяПодсказка" id="154"/>
@@ -283,6 +379,16 @@
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.
 </v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>When installing configuration updates, 
+pay attention to their sources.
+If you are not sure the update file was obtained from a trusted source,
+refrain from installing this update.
+
+
+See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="Надпись7КонтекстноеМеню" id="156"/>
 							<ExtendedTooltip name="Надпись7РасширеннаяПодсказка" id="157"/>
@@ -292,6 +398,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель 8</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar 8</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -317,6 +427,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перед выбором роли</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Before selecting a role</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПередВыборомРолиРасширеннаяПодсказка" id="109"/>
 					<ChildItems>
@@ -333,6 +447,15 @@
 В противном случае, такие файлы могут нанести вред вашему компьютеру и данным в программе.
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The selected role allows opening files of external reports and data processors
+using the &lt;b&gt;File — &lt;/&gt;&lt;b&gt;Open&lt;/&gt; menu. When opening these files, pay attention to their sources
+and refrain from opening the external report or data processor files obtained from unsafe sources.
+
+Otherwise, such files might harm your computer and damage your application data.
+See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="Надпись5КонтекстноеМеню" id="111"/>
 							<ExtendedTooltip name="Надпись5РасширеннаяПодсказка" id="112"/>
@@ -342,6 +465,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель 5</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar 5</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -367,6 +494,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>При изменении списка запрещенных расширений</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>On list of prohibited extensions change</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПриИзмененииСпискаЗапрещенныхРасширенийРасширеннаяПодсказка" id="125"/>
 					<ChildItems>
@@ -383,6 +514,15 @@
 В противном случае, такие файлы могут нанести вред компьютерам пользователей.
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Disabling this option will allow adding potentially harmful files to the application.
+When adding these files, it is important to pay attention to their sources
+and refrain from adding files obtained from untrusted sources.
+
+Such files might harm your users' computers.
+See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="Надпись6КонтекстноеМеню" id="127"/>
 							<ExtendedTooltip name="Надпись6РасширеннаяПодсказка" id="128"/>
@@ -392,6 +532,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель 6</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar 6</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -417,6 +561,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перед открытием файла</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Before opening a file</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПередОткрытиемФайлаРасширеннаяПодсказка" id="138"/>
 					<ChildItems>
@@ -424,6 +572,10 @@
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
+									<v8:content>%1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
 									<v8:content>%1</v8:content>
 								</v8:item>
 							</Title>
@@ -442,6 +594,14 @@
 В противном случае, такие файлы могут нанести вред компьютеру.
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>This file contains potentially harmful executable code.
+It is recommended that you open files obtained from trusted sources only.
+
+Files obtained from untrusted sources might harm your computer.
+See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ПредупреждениеПриОткрытииФайлаПояснениеКонтекстноеМеню" id="143"/>
 							<ExtendedTooltip name="ПредупреждениеПриОткрытииФайлаПояснениеРасширеннаяПодсказка" id="144"/>
@@ -451,6 +611,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель 7</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar 7</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -476,6 +640,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перед добавлением внешней компоненты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Before adding add-ins</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПередДобавлениемВнешнейКомпонентыРасширеннаяПодсказка" id="167"/>
 					<ChildItems>
@@ -493,6 +661,16 @@
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.
 </v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>When attaching add-ins, 
+pay attention to their sources.
+If you are not sure the add-in file was obtained from a trusted source,
+refrain from attaching it.
+
+
+See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ПредупреждениеПриДобавленииВнешнейКомпонентыКонтекстноеМеню" id="169"/>
 							<ExtendedTooltip name="ПредупреждениеПриДобавленииВнешнейКомпонентыРасширеннаяПодсказка" id="170"/>
@@ -502,6 +680,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель 9</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar 9</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -527,6 +709,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перед удалением расширения без данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Before deleting an extension without data</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПередУдалениемРасширенияБезДанныхРасширеннаяПодсказка" id="212"/>
 					<ChildItems>
@@ -538,6 +724,11 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Удаление расширения необратимо.
 Будут потеряны сделанные настройки (например, варианты отчетов).</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Extension deletion is permanent.
+Settings made (for example, report options) will be lost.</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -551,6 +742,12 @@
 • обновить расширение, то вместо удаления и добавления нажмите кнопку &lt;b&gt;Обновить&lt;/&gt;;
 • временно отключить расширение, следует снять флажок &lt;b&gt;Подключать расширение при входе&lt;/&gt;.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>If you need to…
+• update an extension, click &lt;b&gt;Update&lt;/&gt; instead of deleting and adding it.
+• Temporarily disable an extension, clear the &lt;b&gt;Attach the extension when a user signs in&lt;/&gt; check box.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</LabelDecoration>
@@ -559,6 +756,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отступ расширения без данных</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Indent extension without data</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -572,6 +773,11 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Перед удалением расширения рекомендуется 
 выполнить резервное копирование информационной базы.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>It is recommended that you back up the infobase
+before deleting the extension.</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="ПредупреждениеПередУдалениемРасширенияБезДанныхРезервноеКопированиеКонтекстноеМеню" id="235"/>
@@ -590,6 +796,11 @@
 									<v8:content>&lt;&lt;Удалить выделенные расширения?&gt;&gt;
 &lt;&lt;Удалить расширение?&gt;&gt;</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>&lt;&lt;Do you want to delete the selected extensions?&gt;&gt;
+&lt;&lt;Do you want to delete the extension?&gt;&gt;</v8:content>
+								</v8:item>
 							</Title>
 							<VerticalAlign>Top</VerticalAlign>
 							<ContextMenu name="ПредупреждениеПередУдалениемРасширенияБезДанныхТекстУдалитьКонтекстноеМеню" id="241"/>
@@ -600,6 +811,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель 12</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar 12</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -612,6 +827,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Удалить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Delete</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="Продолжить12РасширеннаяПодсказка" id="225"/>
@@ -631,6 +850,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перед удалением расширения с данными</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Before deleting an extension with data</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПередУдалениемРасширенияСДаннымиРасширеннаяПодсказка" id="180"/>
 					<ChildItems>
@@ -641,6 +864,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Удаляемое расширение хранит данные в информационной базе, которые будут безвозвратно потеряны.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The extension you are about to delete stores its data in the infobase. If you delete the extension, its data will be lost.</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -656,6 +883,13 @@
 • обновить расширение, то вместо удаления и добавления нажмите кнопку &lt;b&gt;Обновить&lt;/&gt;;
 • временно отключить расширение, следует снять флажок &lt;b&gt;Подключать расширение при входе&lt;/&gt;.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Read the extension documentation available from the extension provider.
+If you need to 
+update an extension, click &lt;b&gt;Update&lt;/&gt; instead of deleting and adding it again.
+If you need to temporarily disable an extension, clear the &lt;b&gt;Attach the extension when a user signs in&lt;/&gt; check box.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</LabelDecoration>
@@ -664,6 +898,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отступ расширение с данными</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Indent extension with data</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -677,6 +915,11 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Перед удалением расширения рекомендуется 
 выполнить резервное копирование информационной базы.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>It is recommended that you back up the infobase
+before deleting the extension.</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="ПредупреждениеПередУдалениемРасширенияСДаннымиРезервноеКопированиеКонтекстноеМеню" id="206"/>
@@ -695,6 +938,11 @@
 									<v8:content>&lt;&lt;Удалить выделенные расширения?&gt;&gt;
 &lt;&lt;Удалить расширение?&gt;&gt;</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>&lt;&lt;Do you want to delete the selected extensions?&gt;&gt;
+&lt;&lt;Do you want to delete the extension?&gt;&gt;</v8:content>
+								</v8:item>
 							</Title>
 							<VerticalAlign>Top</VerticalAlign>
 							<ContextMenu name="ПредупреждениеПередУдалениемРасширенияСДаннымиТекстУдалитьКонтекстноеМеню" id="209"/>
@@ -705,6 +953,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель 10</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar 10</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
@@ -717,6 +969,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Удалить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Delete</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="Продолжить10РасширеннаяПодсказка" id="189"/>
@@ -736,6 +992,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Перед удалением расширения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Before deleting an extension</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПередОтключениемРасширенияСДаннымиРасширеннаяПодсказка" id="193"/>
 					<ChildItems>
@@ -749,6 +1009,11 @@
 									<v8:content>Отключаемое расширение хранит данные в информационной базе, которые станут недоступными. 
 Кроме того некоторые данные самой программы могут также стать недоступными для изменения.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The extension you are about to detach stores its data in the infobase
+. If you detach the extension, the data will become unavailable, and some application data can become unavailable for editing.</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ContextMenu name="ПредупреждениеПередОтключениемРасширенияКонтекстноеМеню" id="195"/>
@@ -760,6 +1025,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Ознакомьтесь с документацией по расширению, которую можно получить от поставщика расширения.</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Please consult the extension documentation available from the extension provider.</v8:content>
+									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</LabelDecoration>
@@ -768,6 +1037,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отступ перед отключением расширения с данными</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Indent before disabling an extension without data</v8:content>
 								</v8:item>
 							</Title>
 							<Shortcut>F7</Shortcut>
@@ -784,6 +1057,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Отключить расширение?</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Do you want to detach the extension?</v8:content>
+										</v8:item>
 									</Title>
 									<VerticalAlign>Top</VerticalAlign>
 									<ContextMenu name="ПредупреждениеПередОтключениемРасширенияТекстОтключитьКонтекстноеМеню" id="232"/>
@@ -797,6 +1074,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель 11</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar 11</v8:content>
+								</v8:item>
 							</Title>
 							<HorizontalLocation>Right</HorizontalLocation>
 							<ExtendedTooltip name="КоманднаяПанель11РасширеннаяПодсказка" id="200"/>
@@ -808,6 +1089,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Отключить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Disable</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="Продолжить11РасширеннаяПодсказка" id="202"/>
@@ -852,11 +1137,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не запрещать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не запрещать открытие внешних отчетов и обработок</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow opening external reports and data processors.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НеЗапрещатьОткрытиеВнешнихОтчетовИОбработок</Action>
@@ -868,11 +1161,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаПродолжить</Action>
@@ -884,11 +1185,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Запретить открытие внешних отчетов и обработок</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Deny opening external reports and data processors</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Роль "Интерактивное открытие внешних отчетов и обработок" будет отключена у всех пользователей и администраторов.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Role "Open external reports and data processors interactively" will be disabled for all users and administrators.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗапретитьОткрытиеВнешнихОтчетовИОбработок</Action>
@@ -900,11 +1209,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>ОК</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>OK</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЯОзнакомлен</Action>
@@ -916,11 +1233,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разрешить только администраторам</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow for administrators only</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разрешить только администраторам</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow for administrators only</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -931,11 +1256,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разрешить всем</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow for all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разрешить всем</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow for all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -946,11 +1279,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Запретить всем</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Deny for all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Запретить всем</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Deny for all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>

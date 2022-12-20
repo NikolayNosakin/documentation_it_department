@@ -26,6 +26,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -37,6 +41,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="54"/>
@@ -50,6 +58,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Открыть карточку</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Open card</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ФормаИзменитьExtendedTooltip" id="32"/>
 				</Button>
@@ -58,6 +70,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Удаление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Delete</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаУдалениеРасширеннаяПодсказка" id="69"/>
@@ -80,6 +96,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Форма стандартные команды</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Form standard commands</v8:content>
 						</v8:item>
 					</Title>
 					<CommandSource>Form</CommandSource>
@@ -117,6 +137,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
+				</v8:item>
 			</Title>
 			<CommandSet>
 				<ExcludedCommand>Copy</ExcludedCommand>
@@ -150,6 +174,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Открыть карточку</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Open card</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СписокКонтекстноеМенюИзменитьExtendedTooltip" id="35"/>
@@ -213,6 +241,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вертикально</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Vertical</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаВертикальноРасширеннаяПодсказка" id="65"/>
 					<ChildItems>
@@ -221,6 +253,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Основное</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Main</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -232,6 +268,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Наименование</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Description</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="СписокПолноеНаименованиеКонтекстноеМеню" id="9"/>
@@ -351,11 +391,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалить данные версии файла</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete file version data.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -372,11 +420,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать помеченные файлы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show marked files</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать помеченные файлы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show marked files</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказыватьПомеченныеФайлы</Action>

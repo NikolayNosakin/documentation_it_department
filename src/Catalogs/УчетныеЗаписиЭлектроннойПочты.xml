@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки почты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Email settings</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment>АПК:58</Comment>
 			<Hierarchical>false</Hierarchical>
@@ -243,6 +247,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование учетной записи</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Display name of the email account.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -320,6 +328,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройка почты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Email settings</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -340,6 +352,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес электронной почты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Email</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -356,6 +372,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адрес электронной почты в формате пользователь@сервер</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The email address in the following format: user@server.com.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -389,6 +409,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Время ожидания сервера (сек)</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Server timeout (sec)</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -406,6 +430,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Время ожидания сервера до разрыва соединения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Server connection timeout.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -439,6 +467,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя пользователя</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Username</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Имя отправителя</Comment>
 					<Type>
@@ -455,6 +487,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя отправителя почтовых сообщений. Например, "Иван Петров".</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Sender's name.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -488,6 +524,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать для отправки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Used to send mail</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -500,6 +540,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать учетную запись для отправки почтовых сообщений</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The account is used to send mail.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -533,6 +577,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать для получения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Used to receive mail</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -545,6 +593,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать учетную запись для получения почтовых сообщений</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The account is used to receive mail.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -578,6 +630,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать защищенное соединение для входящей почты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Encrypt incoming mail</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -590,6 +646,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать шифрование соединения (SSL)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use SSL connection to encrypt incoming mail.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -623,6 +683,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать защищенное соединение для исходящей почты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Encrypt outgoing mail</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -635,6 +699,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать шифрование соединения (SSL)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use SSL connection to encrypt outgoing mail.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -668,6 +736,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Оставлять копии сообщений на сервере</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Leave mail on server</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -680,6 +752,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Требуется оставлять копии сообщений на сервере</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Enable if you want to keep a copy of mail on the server.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -713,6 +789,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Период хранения сообщений на сервере</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Mail retention period</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -730,6 +810,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Число дней, которое должны храниться сообщения на сервере. Вычисляется как разница между текущей датой и датой получения (если письма хранятся в ИБ), или датой отправки (если письма не хранятся в ИБ)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The period a mail is stored on the server after it was received or sent, in days.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -763,6 +847,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Username</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -779,6 +867,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя пользователя для доступа к почте (логин)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Email address used to sign in to email account.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -812,6 +904,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь SMTP</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>SMTP user</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -828,6 +924,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя пользователя для доступа к почте (логин)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Email address used to sign in to email account.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -861,6 +961,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Порт сервера входящей почты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Incoming mail server port</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -878,6 +982,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Номер порта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Port number.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -911,6 +1019,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Порт сервера исходящей почты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Outgoing mail server port</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -928,6 +1040,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Номер порта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Port number.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -961,6 +1077,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Протокол входящей почты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Incoming mail protocol</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -977,6 +1097,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Протокол сервера входящей почты: POP или IMAP.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The incoming mail server protocol: POP or IMAP.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1010,6 +1134,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сервер входящей почты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Incoming mail server</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1026,6 +1154,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя хоста сервера входящей почты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name of the incoming mail server.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1059,6 +1191,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сервер исходящей почты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Outgoing mail server</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1075,6 +1211,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя хоста сервера исходящей почты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name of the outgoing mail server.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1108,6 +1248,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Требуется вход на сервер перед отправкой</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>SMTP server requires authentication</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1120,6 +1264,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Установите этот флажок, если для аутентификации на SMTP сервере требуется успешное подключение к POP3 серверу.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Enable this option if SMTP server authentication requires a connection to a POP3 server.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1153,6 +1301,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отправлять скрытые копии писем на этот адрес</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Always add this email address to Bcc</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1166,6 +1318,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Если включен, то в получатели скрытых копий всех исходящих писем будет добавляться этот почтовый адрес.
 Рекомендуется включать при отсутствии штатных возможностей для хранения отправленных писем на почтовом сервере.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Enable to send BCC to this email address every time when you send a mail.
+Use this option if your email server doesn't store outgoing mail.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1199,6 +1356,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Владелец почты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Account owner</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>АПК:58</Comment>
 					<Type>
@@ -1211,6 +1372,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Владелец персональной учетной записи электронной почты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The owner of the private email account.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1243,6 +1408,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>При отправке писем требуется авторизация</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Outgoing server requires authentication</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1284,6 +1453,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Авторизация с помощью почтового сервиса</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Email service authorization</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1323,6 +1496,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя почтового сервиса</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Email service name</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

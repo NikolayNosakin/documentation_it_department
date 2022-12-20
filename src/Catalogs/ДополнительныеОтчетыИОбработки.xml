@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительные отчеты и обработки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional reports and data processors</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Hierarchical>true</Hierarchical>
@@ -217,6 +221,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа, к которой относится дополнительный отчет или обработка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group the item belongs to.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -232,6 +240,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -252,6 +264,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование дополнительного отчета или обработки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description of additional report or data processor.</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -330,6 +346,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительный отчет или обработка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional report or data processor</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -350,6 +370,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Безопасный режим</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Safe mode</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -362,6 +386,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вызывать обработку в безопасном режиме. В безопасном режиме запрещены COM; загрузка внешних компонент; запуск внешних приложений и команд операционной системы; доступ к файловой системе (кроме временных файлов); доступ к сети Интернет.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Run the data processor in safe mode. The mode disables COM technology, import of external components, commands from external applications and the operating system, access to file system (except for temporary files), and Internet access.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -395,6 +423,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Version</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -411,6 +443,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия дополнительного отчета или обработки (устанавливается поставщиком)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Version of additional report or data processor. Defined by the supplier.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -444,6 +480,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вид</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Kind</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -456,6 +496,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вид дополнительного отчета или обработки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Kind of additional report or data processor.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -489,6 +533,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя объекта</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -505,6 +553,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя, под которым дополнительный отчет или обработка регистрируется в системе</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name assigned to an additional report or data processor.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -538,6 +590,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>File name</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -554,6 +610,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя файла дополнительного отчета или обработки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The name of an additional report or data processor file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -587,6 +647,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Информация</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Information</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -603,6 +667,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Краткая информация о внешней обработке</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>External data processor summary.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -636,6 +704,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать для формы объекта</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Available in object forms</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -648,6 +720,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак использования для формы объекта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Flag that shows whether users can run the data processor or report from object forms.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -681,6 +757,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать для формы списка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Available in list forms</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -693,6 +773,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак использования для формы списка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Flag that shows whether users can run the data processor or report from list forms.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -726,6 +810,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -742,6 +830,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий ответственного за ведение списка обработок</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A comment from the person responsible for the data processor list.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -775,6 +867,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ответственный</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Person responsible</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -787,6 +883,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь, добавивший обработку</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User who added the data processor.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -820,6 +920,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Публикация</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Availability</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -832,6 +936,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вариант публикации (опубликовано, опубликовано для тестирования, не опубликовано)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Availability (available, debug mode, or disabled).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -865,6 +973,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хранилище настроек</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Settings storage</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -877,6 +989,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Двоичные данные настроек дополнительного отчета или обработки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional report or data processor settings in binary format.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -910,6 +1026,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хранилище обработки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data processor storage</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -922,6 +1042,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Двоичные данные дополнительного отчета или обработки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional report or data processor data in binary format.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -955,6 +1079,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использует хранилище вариантов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Uses report option storage</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Когда Истина то дополнительный отчет подключен к хранилищу вариантов "ХранилищеВариантовОтчетов".</Comment>
 					<Type>
@@ -968,6 +1096,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Определяет может ли дополнительный отчет выводиться в панелях отчетов.
 Заполняется автоматически при подключении дополнительного отчета/обработки.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Flag that shows whether users see the additional report or data processor in report panels.
+This field is populated automatically when a report or data processor is attached.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1001,6 +1134,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тесная интеграция с формой отчета</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Deep integration with report form</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Когда Истина то у отчета есть программный интерфейс для тесной интеграции с общей формой "ФормаОтчета".</Comment>
 					<Type>
@@ -1013,6 +1150,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заполняется автоматически при подключении дополнительного отчета/обработки.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>This field is populated automatically when an additional report or data processor is attached.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1046,6 +1187,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Режим совместимости разрешений</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Permission compatibility mode</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -1058,6 +1203,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Режим совместимости, исходя из которого при подключении дополнительного отчета или обработки определяется способ интерпретации запрошенных разрешений. Задается в качестве версии библиотеки "1С:Библиотека стандартных подсистем".</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The compatibility mode defines how requested permissions are treated when an additional report or data processor is attached.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1100,6 +1249,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Команды</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Commands</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1144,6 +1297,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Идентификатор</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>ID</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1160,6 +1317,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Идентификатор команды (служебное поле)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The command ID. An internal field.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1190,6 +1351,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вариант запуска</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Run option</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1202,6 +1367,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вариант запуска команды (клиент, сервер, открытие формы)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command run option (client, server, form open)</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1232,6 +1401,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Наименование</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Description</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1248,6 +1421,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Представление команды в пользовательском интерфейсе.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command description in user interface.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1278,6 +1455,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Показывать оповещение</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Show notification</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1290,6 +1471,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Показывать оповещение пользователю после выполнения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Show user notification after execution.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1320,6 +1505,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Модификатор</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Modifier</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1336,6 +1525,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Модификатор команды (служебное поле)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The command modifier. An internal field.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1366,6 +1559,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Регламентное задание GUID</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Scheduled job UUID</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1378,6 +1575,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Идентификатор связанного регламентного задания</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>ID of linked scheduled job</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1408,6 +1609,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Скрыть</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Hide</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1421,6 +1626,11 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>"Да" - Серверная команда, которая вызывается из формы внешней обработки.
 Значение по умолчанию - "Нет".</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>If "Yes," the external data processor form will call the server command.
+The default value is "No."</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1451,6 +1661,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Заменяемые команды</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Replaceable commands</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1467,6 +1681,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Идентификаторы заменяемых команд печати.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>IDs of print commands to replace.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1508,6 +1726,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Назначение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Assigned to</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1552,6 +1774,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Объект назначения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Related object</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1564,6 +1790,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тип объектов, в списке или карточке которых должна выводиться эта дополнительная обработка.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The type of objects the data processor is assigned to.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1605,6 +1835,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разделы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Sections</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1649,6 +1883,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Раздел</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Section</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1661,6 +1899,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Раздел командного интерфейса, в котором должен выводиться этот дополнительный отчет или обработка.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The section of command interface where the additional report or data processor is displayed.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1702,6 +1944,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Разрешения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Permissions</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1746,6 +1992,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вид разрешения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Permission kind</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1762,6 +2012,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Строковое представление XDTO-типа, описывающего разрешение (служебное поле).</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The string representation of the XDTO type that describes the permission. An internal field.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1792,6 +2046,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Параметры</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Parameters</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -1804,6 +2062,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Описание разрешения, требуемого для дополнительного отчета или обработки (служебное поле).</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The description of the permission required for the additional report or data processor. An internal field.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>

@@ -22,6 +22,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Завершить работу</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Exit</v8:content>
+					</v8:item>
 				</Title>
 				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаЗакрытьФормуРасширеннаяПодсказка" id="80"/>
@@ -40,6 +44,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Для входа в программу смените пароль на новый.</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>To sign in, change the password.</v8:content>
+				</v8:item>
 			</Title>
 			<ContextMenu name="ПояснениеПриВходеКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ПояснениеПриВходеРасширеннаяПодсказка" id="3"/>
@@ -49,6 +57,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Password</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -70,6 +82,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Новый пароль</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>New password</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -117,6 +133,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подтверждение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Confirm</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalStretch>false</VerticalStretch>
 					<Behavior>Usual</Behavior>
@@ -145,6 +165,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>(не совпадает)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>(password mismatch)</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="НадписьПарольНеСовпадаетКонтекстноеМеню" id="77"/>
 							<ExtendedTooltip name="НадписьПарольНеСовпадаетРасширеннаяПодсказка" id="78"/>
@@ -156,6 +180,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Показывать новый пароль</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Show new password</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -185,6 +213,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Новый пароль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>New password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -199,6 +231,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подтверждение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Confirm password</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -215,6 +251,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывать новый пароль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show new password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -225,6 +265,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Старый пароль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Current password</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -294,6 +338,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить пароль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Set password</v8:content>
+				</v8:item>
 			</Title>
 			<Action>УстановитьПароль</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -304,11 +352,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать пароль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Generate password</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать новый надежный пароль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Generate a strong password.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьПароль</Action>
@@ -319,6 +375,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Закрыть форму</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Close form</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ЗакрытьФорму</Action>

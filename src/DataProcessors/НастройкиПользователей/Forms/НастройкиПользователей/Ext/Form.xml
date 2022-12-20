@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Настройки пользователей</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>User settings</v8:content>
+		</v8:item>
 	</Title>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
@@ -36,6 +40,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отчет или предупреждение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report or warning</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ОтчетИлиПредупреждениеExtendedTooltip" id="118"/>
@@ -46,6 +54,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отображать отчет</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Display report</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОтображатьОтчетExtendedTooltip" id="119"/>
 					<ChildItems>
@@ -54,6 +66,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Быстрый поиск</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Quick search</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -67,6 +83,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Пользователь, настройки которого требуется скопировать или очистить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The user whose settings will be copied or cleared.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Width>35</Width>
@@ -91,6 +111,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Введите слово или часть фразы для поиска настроек. Например: отчет</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Type a query to search for settings. Example: report.</v8:content>
+										</v8:item>
 									</ToolTip>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ClearButton>true</ClearButton>
@@ -98,6 +122,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>слово или часть фразы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>one or more search words</v8:content>
 										</v8:item>
 									</InputHint>
 									<ContextMenu name="ПоискКонтекстноеМеню" id="49"/>
@@ -113,6 +141,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSource>Form</CommandSource>
@@ -135,11 +167,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Скопировать другим группу настроек</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Copy settings group to other users</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Скопировать все настройки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Copy all settings.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ExtendedTooltip name="СкопироватьДругимExtendedTooltip" id="126"/>
@@ -184,11 +224,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Очистить все</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Clear all</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Очистить настройки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Clear settings.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ExtendedTooltip name="ОчиститьExtendedTooltip" id="133"/>
@@ -252,6 +300,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы длительная операция</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Long-running operation pages</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыДлительнаяОперацияРасширеннаяПодсказка" id="212"/>
@@ -261,6 +313,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница длительная операция</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Long-running operation page</v8:content>
 										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
@@ -282,6 +338,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Формирование списка настроек пользователя...</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Generating list of user settings…</v8:content>
+												</v8:item>
 											</Title>
 											<GroupVerticalAlign>Center</GroupVerticalAlign>
 											<ContextMenu name="ПояснениеДлительнаяОперацияКонтекстноеМеню" id="221"/>
@@ -295,6 +355,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница настройки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Settings page</v8:content>
+										</v8:item>
 									</Title>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="СтраницаНастройкиРасширеннаяПодсказка" id="216"/>
@@ -304,6 +368,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Виды настроек</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Setting types</v8:content>
 												</v8:item>
 											</Title>
 											<PagesRepresentation>TabsOnTop</PagesRepresentation>
@@ -317,6 +385,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Внешний вид</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Interface</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ВнешнийВидСтраницаExtendedTooltip" id="142"/>
@@ -339,6 +411,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Внешний вид</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Interface settings</v8:content>
 																</v8:item>
 															</Title>
 															<CommandSet>
@@ -372,6 +448,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Скопировать другим...</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Copy to other users…</v8:content>
+																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="ВнешнийВидКонтекстноеМенюСкопироватьExtendedTooltip" id="144"/>
 																	</Button>
@@ -382,6 +462,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Очистить</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Clear</v8:content>
 																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="ВнешнийВидКонтекстноеМенюУдалитьExtendedTooltip" id="145"/>
@@ -448,6 +532,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Внешний вид картинка настройка пометка</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Interface settings picture setting mark</v8:content>
+																		</v8:item>
 																	</Title>
 																	<Group>InCell</Group>
 																	<ExtendedTooltip name="ВнешнийВидКартинкаНастройкаПометкаExtendedTooltip" id="151"/>
@@ -480,6 +568,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Настройки отчетов</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Report settings</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="НастройкиОтчетовСтраницаExtendedTooltip" id="154"/>
 													<ChildItems>
@@ -500,6 +592,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Настройки отчетов дерево</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Report settings tree</v8:content>
 																</v8:item>
 															</Title>
 															<CommandSet>
@@ -533,6 +629,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Скопировать другим...</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Copy to other users…</v8:content>
+																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="НастройкиОтчетовДеревоКонтекстноеМенюСкопироватьExtendedTooltip" id="156"/>
 																	</Button>
@@ -543,6 +643,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Очистить</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Clear</v8:content>
 																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="НастройкиОтчетовДеревоКонтекстноеМенюОчиститьExtendedTooltip" id="157"/>
@@ -609,6 +713,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Настройки отчетов картинка настройка пометка</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Report settings picture setting mark</v8:content>
+																		</v8:item>
 																	</Title>
 																	<Group>InCell</Group>
 																	<ExtendedTooltip name="НастройкиОтчетовКартинкаНастройкаПометкаExtendedTooltip" id="163"/>
@@ -641,6 +749,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Прочие настройки</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Other settings</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ПрочиеНастройкиСтраницаExtendedTooltip" id="166"/>
 													<ChildItems>
@@ -662,6 +774,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Прочие настройки</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Other settings</v8:content>
 																</v8:item>
 															</Title>
 															<CommandSet>
@@ -695,6 +811,10 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Скопировать другим...</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Copy to other users…</v8:content>
+																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="ПрочиеНастройкиКонтекстноеМенюСкопироватьExtendedTooltip" id="168"/>
 																	</Button>
@@ -705,6 +825,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Очистить</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Clear</v8:content>
 																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="ПрочиеНастройкиКонтекстноеМенюУдалитьExtendedTooltip" id="169"/>
@@ -771,6 +895,10 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Прочие настройки картинка настройка пометка</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Other settings picture setting mark</v8:content>
+																		</v8:item>
 																	</Title>
 																	<Group>InCell</Group>
 																	<ShowTitle>false</ShowTitle>
@@ -810,6 +938,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отображать предупреждение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Show warning</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОтображатьПредупреждениеExtendedTooltip" id="180"/>
 					<ChildItems>
@@ -818,6 +950,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Предупреждение и картинка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Warning and picture</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -830,6 +966,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинка информации</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Information picture</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -847,6 +987,11 @@
 											<v8:content>Просмотреть настройки возможно только у тех пользователей,
 у которых разрешен доступ к информационной базе.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>You can only view the settings of the users
+that are allowed to access the infobase.</v8:content>
+										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
 									<ContextMenu name="ТекстИнформацииКонтекстноеМеню" id="72"/>
@@ -862,6 +1007,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Недостаточно прав</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Insufficient rights</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="НедостаточноПравРасширеннаяПодсказка" id="224"/>
 					<ChildItems>
@@ -870,6 +1019,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Недостаточно прав</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Insufficient rights</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -882,6 +1035,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинка информации</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Information picture</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -897,6 +1054,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Недостаточно прав для просмотра настроек.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Insufficient rights to view settings.</v8:content>
 										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
@@ -923,6 +1084,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки отчетов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report settings</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -933,6 +1098,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Setting</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -948,6 +1117,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Picture</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -985,6 +1158,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Внешний вид</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Interface</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -995,6 +1172,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Setting</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1010,6 +1191,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Picture</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1047,6 +1232,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пользователь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.ВнешниеПользователи</v8:Type>
@@ -1067,6 +1256,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Найти</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Find</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1103,6 +1296,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Прочие настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Other settings</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -1113,6 +1310,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Setting</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1128,6 +1329,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Picture</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1244,11 +1449,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить список настроек</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Refresh settings list.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F5</Shortcut>
@@ -1266,11 +1479,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать другим...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy to other users…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать выделенные настройки другим пользователям</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy the selected settings to other users.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F9</Shortcut>
@@ -1288,11 +1509,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить выделенные настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear the selected settings.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1309,11 +1538,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти к форме с выбранной настройкой</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the form with the selected setting.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1330,11 +1567,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Все настройки у всех пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>All settings of all users</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить все настройки у всех пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all settings of all users.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОчиститьНастройкиВсехПользователей</Action>
@@ -1347,11 +1592,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки отчетов, внешнего вида и прочие...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report, interface, and other settings…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать все настройки выбранного пользователя</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy all settings of the selected user.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СкопироватьВсеНастройки</Action>
@@ -1364,11 +1617,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки отчетов...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report settings…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать настройки отчетов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy the report settings.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СкопироватьНастройкиОтчетов</Action>
@@ -1381,11 +1642,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки внешнего вида...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Interface settings…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать настройки внешнего вида</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy the interface settings.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СкопироватьНастройкиВнешнегоВида</Action>
@@ -1398,11 +1667,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки отчетов и внешнего вида...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report and interface settings…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать настройки отчетов и внешнего вида</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy the report and interface settings.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СкопироватьНастройкиОтчетовИВнешнегоВида</Action>
@@ -1415,11 +1692,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Все настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>All settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить все настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear all settings.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОчиститьВсеНастройки</Action>
@@ -1431,11 +1716,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки отчетов и внешнего вида</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report and interface settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить настройки отчетов и внешнего вида</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear the report and interface settings.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОчиститьНастройкиОтчетовИВнешнегоВида</Action>
@@ -1447,11 +1740,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать от...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy from…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать настройки от другого пользователя</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy settings from another user.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1468,11 +1769,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выделенные настройки у пользователей...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Selected user settings…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить выделенные настройки у нескольких пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear the selected settings for several users.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОчиститьНастройкиВыбраннымПользователям</Action>
@@ -1484,11 +1793,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Устаревшие настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Obsolete settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить устаревшие настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear obsolete settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОчиститьУстаревшиеНастройки</Action>
@@ -1500,11 +1817,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Устаревшие настройки у всех пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Obsolete settings for all users</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить устаревшие настройки у всех пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear obsolete settings for all users</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОчиститьУстаревшиеНастройкиВсехПользователей</Action>

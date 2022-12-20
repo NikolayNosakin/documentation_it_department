@@ -72,6 +72,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Быстрые отборы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Quick filters</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -86,6 +90,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Поиск слов в наименовании и описании отчета а также в наименованиях настроек отчета.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Search in report name, description, and settings.</v8:content>
+						</v8:item>
 					</ToolTip>
 					<Width>30</Width>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -98,6 +106,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование, поле или автор отчета</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Report description, field, or author</v8:content>
 						</v8:item>
 					</InputHint>
 					<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="61"/>
@@ -121,6 +133,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отбор по типу отчетов: Внутренние / Дополнительные / Внешние.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filter by report type: Internal, Additional, or External.</v8:content>
+						</v8:item>
 					</ToolTip>
 					<HorizontalStretch>false</HorizontalStretch>
 					<VerticalStretch>false</VerticalStretch>
@@ -140,6 +156,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Все</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>All</v8:content>
+						</v8:item>
 					</InputHint>
 					<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 					<ContextMenu name="ОтборТипОтчетаКонтекстноеМеню" id="46"/>
@@ -157,6 +177,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -169,6 +193,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<ExtendedTooltip name="КоманднаяПанельExtendedTooltip" id="102"/>
@@ -213,6 +241,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа 1</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group 1</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СписокГруппа1РасширеннаяПодсказка" id="189"/>
 					<ChildItems>
@@ -241,6 +273,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Команды списка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>List commands</v8:content>
 						</v8:item>
 					</Title>
 					<CommandSource>Item.Список</CommandSource>
@@ -272,6 +308,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обмен вариантами отчетов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange report options</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаОбменВариантамиОтчетовРасширеннаяПодсказка" id="201"/>
 					<ChildItems>
@@ -295,6 +335,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Горизонтальная</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Horizontal</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -306,6 +350,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Все разделы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>All sections</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -330,6 +378,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Разделы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Sections</v8:content>
 								</v8:item>
 							</Title>
 							<CommandSet>
@@ -419,6 +471,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Варианты отчетов</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Report options</v8:content>
+						</v8:item>
 					</Title>
 					<CommandSet>
 						<ExcludedCommand>Change</ExcludedCommand>
@@ -470,6 +526,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Команды списка</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>List commands</v8:content>
+									</v8:item>
 								</Title>
 								<CommandSource>Item.Список</CommandSource>
 								<ExtendedTooltip name="КомандыСпискаСписокExtendedTooltip" id="121"/>
@@ -519,6 +579,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Строки</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Rows</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="СтрокиРасширеннаяПодсказка" id="138"/>
 							<ChildItems>
@@ -527,6 +591,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Колонки первой строки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>First row columns</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
@@ -538,6 +606,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Наименование</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Description</v8:content>
 												</v8:item>
 											</Title>
 											<Width>40</Width>
@@ -559,12 +631,20 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Доступен всем пользователям</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Available to all users</v8:content>
+												</v8:item>
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Доступен всем пользователям</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Available to all users.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<ValuesPicture>
@@ -585,6 +665,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Видимость по умолчанию в панели отчетов</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Default visibility in report panel</v8:content>
+												</v8:item>
 											</ToolTip>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ВидимостьПоУмолчаниюКонтекстноеМеню" id="72"/>
@@ -598,6 +682,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Колонки второй строки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Second row columns</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
 									<ExtendedTooltip name="КолонкиВторойСтрокиРасширеннаяПодсказка" id="142"/>
@@ -608,6 +696,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Описание</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Details</v8:content>
 												</v8:item>
 											</Title>
 											<AutoCellHeight>true</AutoCellHeight>
@@ -627,6 +719,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Техническая информация</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Technical details</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
 							<ShowInHeader>true</ShowInHeader>
@@ -641,6 +737,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Имя отчета</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Report name</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="ИмяОтчетаКонтекстноеМеню" id="74"/>
@@ -793,6 +893,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тип</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Type</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -813,6 +917,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поиск</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -831,6 +939,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Раздел, группа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Section, group</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -847,6 +959,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Раздел, Группа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Section, Group</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -920,6 +1036,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включая подчиненные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Include subordinate subsystems</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -939,11 +1059,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Найти</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Find</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Найти</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Find</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -960,11 +1088,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить ...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить настройки отчета...</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit report settings.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -981,11 +1117,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить в файл...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save to file…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить вариант отчета в файл</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save a report option to a file.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1001,11 +1145,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить из файла...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update from file…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить вариант отчета из файла</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update a report option from a file.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

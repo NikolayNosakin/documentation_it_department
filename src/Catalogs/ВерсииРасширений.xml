@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Версии расширений</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Extensions versions</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Hierarchical>false</Hierarchical>
@@ -112,6 +116,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обобщенная версия набора метаданных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The version of the metadata set, combined into a single string.</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -274,6 +282,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Номер добавленной версии по порядку</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The added version progressive number.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -289,6 +301,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Порядковый номер</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Sequence number</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -330,6 +346,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Версия расширений</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Extensions version</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -350,6 +370,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание метаданных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Metadata details</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -368,6 +392,12 @@
 							<v8:content>Строки вида:
 &lt;Имя расширения&gt; (&lt;Версия расширения&gt;) &lt;Хеш расширения&gt;
 ...</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Strings in the following format:
+&lt;Extension name&gt; (&lt;Extension version&gt;) &lt;Extension hash&gt;
+…</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -401,6 +431,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата последнего использования</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Date of last use</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -417,6 +451,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновляется при входе, если меньше даты начала сеанса округленной до часа.
 Используется в задании удаления устаревших версий расширений, у которых дата последнего использования меньше минимальной даты начала активных сеансов, округленной до часа.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The attribute is updated at sign-in if it is earlier than the session start date rounded up to an hour.
+The attribute is used in the job of deleting obsolete extension versions with the date of last use earlier than the minimum date of active session start rounded up to an hour.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

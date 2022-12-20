@@ -94,6 +94,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель быстрых настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Quick settings panel</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>AlwaysHorizontal</Group>
@@ -109,6 +113,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Settings</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalStretch>true</HorizontalStretch>
 					<VerticalStretch>false</VerticalStretch>
@@ -122,6 +130,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Команды панели быстрых настроек</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Quick settings panel commands</v8:content>
 						</v8:item>
 					</Title>
 					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
@@ -144,6 +156,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команды, показатели</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Commands, functions</v8:content>
+				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
@@ -157,6 +173,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Основная командная панель</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main command bar</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ExtendedTooltip name="ОсновнаяКоманднаяПанельРасширеннаяПодсказка" id="718"/>
@@ -166,6 +186,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Главное</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Main</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ГруппаГлавноеРасширеннаяПодсказка" id="813"/>
@@ -185,6 +209,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки отчета</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report settings</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ГруппаНастройкиОтчетаРасширеннаяПодсказка" id="144"/>
 							<ChildItems>
@@ -193,6 +221,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Настройки и сохранения варианта</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Set up and save an option</v8:content>
 										</v8:item>
 									</Title>
 									<Representation>Compact</Representation>
@@ -211,11 +243,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Сохранение (выбор) варианта отчета</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Save the report option</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Выбрать другой вариант отчета или сохранить новый</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Rewrite the current report option or save as a new one.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Picture>
@@ -230,6 +270,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Сохранение варианта отчета</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Save report options</v8:content>
 														</v8:item>
 													</Title>
 													<Representation>Compact</Representation>
@@ -254,6 +298,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Сохранить как...</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Save as…</v8:content>
+																</v8:item>
 															</Title>
 															<LocationInCommandBar>InCommandBar</LocationInCommandBar>
 															<ExtendedTooltip name="СохранитьВариантКакРасширеннаяПодсказка" id="507"/>
@@ -266,6 +314,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Варианты отчета</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Report options</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ГруппаВариантыОтчетаРасширеннаяПодсказка" id="361"/>
@@ -289,6 +341,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Работа в таблице</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Spreadsheet commands</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ГруппаРаботаВТаблицеРасширеннаяПодсказка" id="519"/>
 							<ChildItems>
@@ -297,6 +353,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Поиск</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Search</v8:content>
 										</v8:item>
 									</Title>
 									<Representation>Compact</Representation>
@@ -324,6 +384,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Управление группировками</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group management</v8:content>
+										</v8:item>
 									</Title>
 									<Representation>Compact</Representation>
 									<ExtendedTooltip name="ГруппаУправлениеГруппировкамиРасширеннаяПодсказка" id="711"/>
@@ -348,11 +412,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Разворачивать до</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Expand to</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Развернуть группировки до выбранного уровня</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Expand groupings to the selected level</v8:content>
 												</v8:item>
 											</ToolTip>
 											<ExtendedTooltip name="ГруппаУровниГруппировокРасширеннаяПодсказка" id="1003"/>
@@ -375,6 +447,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вывод</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Output</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ГруппаВыводРасширеннаяПодсказка" id="535"/>
 							<ChildItems>
@@ -383,6 +459,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Печать</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Print</v8:content>
 										</v8:item>
 									</Title>
 									<Representation>Compact</Representation>
@@ -410,6 +490,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Сохранение и рассылка варианта</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Save and distribute an option</v8:content>
+										</v8:item>
 									</Title>
 									<Representation>Compact</Representation>
 									<ExtendedTooltip name="ГруппаСохранениеИРассылкаВариантаРасширеннаяПодсказка" id="1124"/>
@@ -426,11 +510,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Отправить</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Send</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Отправить отчет по электронной почте</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Send report by email</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Picture>
@@ -459,6 +551,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Переход между изменениями настроек</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Navigate between settings changes</v8:content>
+								</v8:item>
 							</Title>
 							<Representation>Compact</Representation>
 							<ExtendedTooltip name="ГруппаПереходМеждуИзменениямиНастроекРасширеннаяПодсказка" id="1108"/>
@@ -468,6 +564,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Отменить изменение настроек</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Cancel settings change</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -491,6 +591,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Повторить изменение настроек</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Retry settings change</v8:content>
+										</v8:item>
 									</Title>
 									<Picture>
 										<xr:Ref>CommonPicture.ПовторитьДействие</xr:Ref>
@@ -510,6 +614,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Показатель</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicator</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalStretch>true</HorizontalStretch>
 					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
@@ -525,6 +633,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выбрать показатель</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Select indicator</v8:content>
 								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -550,6 +662,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Введите слово для фильтра (название товара, покупателя и пр.)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Type a word for the filter (product name, customer name, and so on)</v8:content>
+								</v8:item>
 							</InputHint>
 							<ContextMenu name="ПоказательКонтекстноеМеню" id="722"/>
 							<ExtendedTooltip name="ПоказательРасширеннаяПодсказка" id="723">
@@ -562,6 +678,15 @@
 &lt;b&gt;&gt;&gt;&lt;/&gt;, &lt;b&gt;&gt;&gt;=&lt;/&gt;, &lt;b&gt;&lt;&lt;&lt;/&gt;, &lt;b&gt;&lt;&lt;=&lt;/&gt; для фильтров по числам и датам
 
 &lt;link Больше возможностей...&gt;Больше возможностей...&lt;/&gt;</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Type a word for the filter (product name, customer name, and so on).
+Use:
+&lt;b&gt;-&lt;/&gt;, &lt;b&gt;&lt;&lt;&gt;&gt;&lt;/&gt; if you need to exclude the value
+&lt;b&gt;&gt;&gt;&lt;/&gt;, &lt;b&gt;&gt;&gt;=&lt;/&gt;, &lt;b&gt;&lt;&lt;&lt;/&gt;, &lt;b&gt;&lt;&lt;=&lt;/&gt; for filters by numbers and dates
+
+&lt;link Больше возможностей...&gt;More options…&lt;/&gt;</v8:content>
 									</v8:item>
 								</Title>
 								<Events>
@@ -582,11 +707,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Показатели</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Functions</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выполняет расчет определенного или всех показателей выделенных ячеек</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Calculate one or all functions for the selected range.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -598,11 +731,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Рассчитать</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Calculate</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Расчет выбранного, либо всех доступных показателей</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Calculate one or all functions.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Picture>
@@ -620,6 +761,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Сумма</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Range sum</v8:content>
+												</v8:item>
 											</Title>
 											<LocationInCommandBar>InCommandBar</LocationInCommandBar>
 											<ExtendedTooltip name="РассчитатьСуммуРасширеннаяПодсказка" id="689"/>
@@ -631,6 +776,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Количество</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Number of cells</v8:content>
 												</v8:item>
 											</Title>
 											<LocationInCommandBar>InCommandBar</LocationInCommandBar>
@@ -644,6 +793,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Среднее</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Range average</v8:content>
+												</v8:item>
 											</Title>
 											<LocationInCommandBar>InCommandBar</LocationInCommandBar>
 											<ExtendedTooltip name="РассчитатьСреднееРасширеннаяПодсказка" id="693"/>
@@ -655,6 +808,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Минимум</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Range minimum</v8:content>
 												</v8:item>
 											</Title>
 											<LocationInCommandBar>InCommandBar</LocationInCommandBar>
@@ -668,6 +825,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Максимум</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Range maximum</v8:content>
+												</v8:item>
 											</Title>
 											<LocationInCommandBar>InCommandBar</LocationInCommandBar>
 											<ExtendedTooltip name="РассчитатьМаксимумРасширеннаяПодсказка" id="697"/>
@@ -679,6 +840,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Все показатели</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>All functions</v8:content>
+												</v8:item>
 											</Title>
 											<ExtendedTooltip name="ВсеПоказателиРасширеннаяПодсказка" id="687"/>
 											<ChildItems>
@@ -689,6 +854,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Все показатели</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>All functions</v8:content>
 														</v8:item>
 													</Title>
 													<LocationInCommandBar>InCommandBar</LocationInCommandBar>
@@ -708,6 +877,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Командная панель еще</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Command bar more</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ExtendedTooltip name="КоманднаяПанельЕщеРасширеннаяПодсказка" id="720"/>
@@ -717,6 +890,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Главное</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Main</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ГруппаГлавноеЕщеРасширеннаяПодсказка" id="644"/>
@@ -740,6 +917,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Настройки отчета</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report settings</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ГруппаНастройкиОтчетаЕщеРасширеннаяПодсказка" id="733"/>
@@ -769,11 +950,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Варианты отчета</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Report options</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Выбрать другой вариант отчета или сохранить новый</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Rewrite the current report option or save as a new one.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Picture>
@@ -788,6 +977,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Сохранение варианта отчета</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Save report options</v8:content>
 												</v8:item>
 											</Title>
 											<Representation>Compact</Representation>
@@ -812,6 +1005,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Сохранить как...</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Save as…</v8:content>
+														</v8:item>
 													</Title>
 													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 													<ExtendedTooltip name="СохранитьВариантКакЕщеРасширеннаяПодсказка" id="739"/>
@@ -825,6 +1022,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Варианты отчета</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Report options</v8:content>
+												</v8:item>
 											</Title>
 											<ExtendedTooltip name="ГруппаВариантыОтчетаЕщеРасширеннаяПодсказка" id="777"/>
 										</ButtonGroup>
@@ -835,6 +1036,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Выбрать...</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Select…</v8:content>
 												</v8:item>
 											</Title>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
@@ -851,6 +1056,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Обмен настройками</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Settings exchange</v8:content>
 												</v8:item>
 											</Title>
 											<ExtendedTooltip name="ГруппаОбменНастройкамиЕщеРасширеннаяПодсказка" id="821"/>
@@ -874,6 +1083,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Схема</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Schema</v8:content>
 												</v8:item>
 											</Title>
 											<ExtendedTooltip name="ГруппаСхемаОтчетаЕщеРасширеннаяПодсказка" id="707"/>
@@ -906,6 +1119,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Персональные настройки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Personal settings</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ГруппаПрочиеНастройкиОтчетаЕщеРасширеннаяПодсказка" id="503"/>
 									<ChildItems>
@@ -937,6 +1154,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Работа в таблице</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Spreadsheet commands</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ГруппаРаботаВТаблицеЕщеРасширеннаяПодсказка" id="743"/>
 							<ChildItems>
@@ -951,6 +1172,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Управление группировками</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group management</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ГруппаУправлениеГруппировкамиЕщеРасширеннаяПодсказка" id="1005"/>
@@ -973,11 +1198,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Разворачивать до</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Expand to</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Развернуть группировки до выбранного уровня</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Expand groupings to the selected level</v8:content>
 												</v8:item>
 											</ToolTip>
 											<ExtendedTooltip name="ГруппаУровниГруппировокЕщеРасширеннаяПодсказка" id="1007"/>
@@ -997,6 +1230,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Таблица</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Table</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="КомандыТабличногоДокументаРасширеннаяПодсказка" id="527"/>
@@ -1029,11 +1266,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Группа кнопок</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Button group</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Динамически добавляемые кнопки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Dynamic buttons</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ExtendedTooltip name="ГруппаПрограммныйИнтерфейсРасширеннаяПодсказка" id="642"/>
@@ -1043,6 +1288,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вывод</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Output</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ГруппаВыводЕщеРасширеннаяПодсказка" id="727"/>
@@ -1071,11 +1320,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Отправить</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Send</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Отправить отчет по электронной почте</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Send report by email</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Picture>
@@ -1101,11 +1358,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Рассчитать</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Calculate</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Расчет выбранного, либо всех доступных показателей</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Calculate one or all functions.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ExtendedTooltip name="КомандыВидовПоказателейЕщеРасширеннаяПодсказка" id="761"/>
@@ -1117,6 +1382,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Сумма</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Range sum</v8:content>
 										</v8:item>
 									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
@@ -1130,6 +1399,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Количество</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Number of cells</v8:content>
+										</v8:item>
 									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="РассчитатьКоличествоЕщеРасширеннаяПодсказка" id="765"/>
@@ -1141,6 +1414,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Среднее</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Range average</v8:content>
 										</v8:item>
 									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
@@ -1154,6 +1431,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Минимум</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Range minimum</v8:content>
+										</v8:item>
 									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="РассчитатьМинимумЕщеРасширеннаяПодсказка" id="769"/>
@@ -1166,6 +1447,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Максимум</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Range maximum</v8:content>
+										</v8:item>
 									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="РассчитатьМаксимумЕщеРасширеннаяПодсказка" id="771"/>
@@ -1175,6 +1460,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Все показатели</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>All functions</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ВсеПоказателиЕщеРасширеннаяПодсказка" id="773"/>
@@ -1186,6 +1475,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Все показатели</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>All functions</v8:content>
 												</v8:item>
 											</Title>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
@@ -1200,6 +1493,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отчеты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Reports</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ОтчетыРасширеннаяПодсказка" id="831"/>
@@ -1240,6 +1537,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показатели</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Functions</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -1264,6 +1565,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Контекстное меню области заголовка</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Title area context menu</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="КонтекстноеМенюОбластиЗаголовкаРасширеннаяПодсказка" id="835"/>
 						<ChildItems>
@@ -1272,6 +1577,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Изменить состав полей</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Change field composition</v8:content>
 									</v8:item>
 								</Title>
 								<ExtendedTooltip name="КонтекстноеМенюОбластиЗаголовкаИзменитьСоставПолейРасширеннаяПодсказка" id="837"/>
@@ -1286,6 +1595,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Вставить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Insert</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиЗаголовкаВставитьРасширеннаяПодсказка" id="839"/>
@@ -1321,6 +1634,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Переместить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Move</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиЗаголовкаПереместитьРасширеннаяПодсказка" id="845"/>
@@ -1365,6 +1682,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Фильтровать</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Filter</v8:content>
+									</v8:item>
 								</Title>
 								<ExtendedTooltip name="КонтекстноеМенюОбластиЗаголовкаМенюФильтроватьРасширеннаяПодсказка" id="981"/>
 								<ChildItems>
@@ -1385,6 +1706,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Сортировать</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Sort</v8:content>
 									</v8:item>
 								</Title>
 								<ExtendedTooltip name="КонтекстноеМенюОбластиЗаголовкаСортироватьРасширеннаяПодсказка" id="861"/>
@@ -1407,6 +1732,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Оформить</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Format</v8:content>
+									</v8:item>
 								</Title>
 								<Picture>
 									<xr:Ref>StdPicture.DataCompositionConditionalAppearance</xr:Ref>
@@ -1424,6 +1753,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Оформить отрицательные, положительные</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Format negative, positive</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиЗаголовкаОформитьОтрицательныеПоложительныеРасширеннаяПодсказка" id="869"/>
@@ -1445,6 +1778,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Установить высоту, ширину</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Set height, width</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиЗаголовкаУстановитьВысотуШиринуРасширеннаяПодсказка" id="875"/>
@@ -1477,6 +1814,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Контекстное меню области данных</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Data area context menu</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхРасширеннаяПодсказка" id="883"/>
 						<ChildItems>
@@ -1492,6 +1833,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Фильтровать</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Filter</v8:content>
 									</v8:item>
 								</Title>
 								<Picture>
@@ -1511,17 +1856,21 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Равно, не равно</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Equal, not equal</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьРавноНеРавноРасширеннаяПодсказка" id="889"/>
 										<ChildItems>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьРавно" id="890">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>92:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьРавноРасширеннаяПодсказка" id="891"/>
 											</Button>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьНеРавно" id="892">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>93:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьНеРавноРасширеннаяПодсказка" id="893"/>
 											</Button>
 										</ChildItems>
@@ -1532,17 +1881,21 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Больше, меньше</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>More, less</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьБольшеМеньшеРасширеннаяПодсказка" id="895"/>
 										<ChildItems>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьБольше" id="896">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>81:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьБольшеРасширеннаяПодсказка" id="897"/>
 											</Button>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьМеньше" id="898">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>94:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьМеньшеРасширеннаяПодсказка" id="899"/>
 											</Button>
 										</ChildItems>
@@ -1553,17 +1906,21 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Больше или равно, меньше или равно</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Greater than or equal, less than or equal</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьБольшеИлиРавноМеньшеИлиРавноРасширеннаяПодсказка" id="901"/>
 										<ChildItems>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьБольшеИлиРавно" id="902">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>82:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьБольшеИлиРавноРасширеннаяПодсказка" id="903"/>
 											</Button>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьМеньшеИлиРавно" id="904">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>95:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьМеньшеИлиРавноРасширеннаяПодсказка" id="905"/>
 											</Button>
 										</ChildItems>
@@ -1574,17 +1931,21 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Содержит, не содержит</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Contains, does not contain</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьСодержитНеСодержитРасширеннаяПодсказка" id="907"/>
 										<ChildItems>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьСодержит" id="908">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>96:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьСодержитРасширеннаяПодсказка" id="909"/>
 											</Button>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьНеСодержит" id="910">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>97:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьНеСодержитРасширеннаяПодсказка" id="911"/>
 											</Button>
 										</ChildItems>
@@ -1595,17 +1956,21 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>В списке, не в списке</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>In list, not in list</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьВСпискеНеВСпискеРасширеннаяПодсказка" id="913"/>
 										<ChildItems>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьВСписке" id="914">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>98:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьВСпискеРасширеннаяПодсказка" id="915"/>
 											</Button>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьНеВСписке" id="916">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>99:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьНеВСпискеРасширеннаяПодсказка" id="917"/>
 											</Button>
 										</ChildItems>
@@ -1616,17 +1981,21 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>В списке по иерархии, не в списке по иерархии</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>In hierarchy list, not in hierarchy list</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьВСпискеПоИерархииНеВСпискеПоИерархииРасширеннаяПодсказка" id="919"/>
 										<ChildItems>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьВСпискеПоИерархии" id="920">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>100:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьВСпискеПоИерархииРасширеннаяПодсказка" id="921"/>
 											</Button>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьНеВСпискеПоИерархии" id="922">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>83:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьНеВСпискеПоИерархииРасширеннаяПодсказка" id="923"/>
 											</Button>
 										</ChildItems>
@@ -1637,17 +2006,21 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>В иерархии, не в иерархии</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>In hierarchy, not in hierarchy</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьВИерархииНеВИерархииРасширеннаяПодсказка" id="925"/>
 										<ChildItems>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьВИерархии" id="926">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>91:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьВИерархииРасширеннаяПодсказка" id="927"/>
 											</Button>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьНеВИерархии" id="928">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>101:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьНеВИерархииРасширеннаяПодсказка" id="929"/>
 											</Button>
 										</ChildItems>
@@ -1658,17 +2031,21 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Заполнено, не заполнено</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Filled, empty</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьЗаполненоНеЗаполненоРасширеннаяПодсказка" id="931"/>
 										<ChildItems>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьЗаполнено" id="932">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>84:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьЗаполненоРасширеннаяПодсказка" id="933"/>
 											</Button>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьНеЗаполнено" id="934">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>85:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьНеЗаполненоРасширеннаяПодсказка" id="935"/>
 											</Button>
 										</ChildItems>
@@ -1679,17 +2056,21 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Начинается с, не начинается С</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Starts with, does not start with</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьНачинаетсяСНеНачинаетсяСРасширеннаяПодсказка" id="937"/>
 										<ChildItems>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьНачинаетсяС" id="938">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>86:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьНачинаетсяСРасширеннаяПодсказка" id="939"/>
 											</Button>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьНеНачинаетсяС" id="940">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>87:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьНеНачинаетсяСРасширеннаяПодсказка" id="941"/>
 											</Button>
 										</ChildItems>
@@ -1700,17 +2081,21 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Подобно, не подобно</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Like, not like</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьПодобноНеПодобноРасширеннаяПодсказка" id="943"/>
 										<ChildItems>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьПодобно" id="944">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>88:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьПодобноРасширеннаяПодсказка" id="945"/>
 											</Button>
 											<Button name="КонтекстноеМенюОбластиДанныхФильтроватьНеПодобно" id="946">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>89:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхФильтроватьНеПодобноРасширеннаяПодсказка" id="947"/>
 											</Button>
 										</ChildItems>
@@ -1723,6 +2108,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Сортировать</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Sort</v8:content>
 									</v8:item>
 								</Title>
 								<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхСортироватьРасширеннаяПодсказка" id="949"/>
@@ -1746,6 +2135,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Оформить</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Format</v8:content>
+									</v8:item>
 								</Title>
 								<Picture>
 									<xr:Ref>StdPicture.DataCompositionConditionalAppearance</xr:Ref>
@@ -1763,6 +2156,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Оформить красным, желтым, зеленым</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Highlight in red, yellow, green</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхОформитьКраснымЖелтымЗеленымРасширеннаяПодсказка" id="957"/>
@@ -1790,6 +2187,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Оформить отрицательные, положительные</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Format negative, positive</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхОформитьОтрицательныеПоложительныеРасширеннаяПодсказка" id="965"/>
 										<ChildItems>
@@ -1810,6 +2211,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Установить высоту, ширину</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Set height, width</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхУстановитьВысотуШиринуРасширеннаяПодсказка" id="971"/>
@@ -1851,6 +2256,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Буфер обмена</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Clipboard</v8:content>
+									</v8:item>
 								</Title>
 								<ExtendedTooltip name="КонтекстноеМенюОбластиДанныхБуферОбменаРасширеннаяПодсказка" id="1096"/>
 								<ChildItems>
@@ -1874,6 +2283,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Контекстное меню области общее</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Common area context menu</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="КонтекстноеМенюОбластиОбщееРасширеннаяПодсказка" id="1028"/>
 						<ChildItems>
@@ -1882,6 +2295,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Свернуть / Развернуть</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Collapse/Expand</v8:content>
 									</v8:item>
 								</Title>
 								<ExtendedTooltip name="КонтекстноеМенюОбластиОбщееСвернутьРазвернутьРасширеннаяПодсказка" id="1034"/>
@@ -1906,6 +2323,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Уровни группировок</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Grouping levels</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="ГруппаУровниГруппировокКонтекстноеМенюРасширеннаяПодсказка" id="1040"/>
 										<ChildItems>
@@ -1924,6 +2345,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Редактирование</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Edit</v8:content>
+									</v8:item>
 								</Title>
 								<ExtendedTooltip name="КонтекстноеМенюОбластиОбщееРедактированиеРасширеннаяПодсказка" id="1052"/>
 								<ChildItems>
@@ -1932,6 +2357,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Буфер обмена</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Clipboard</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиОбщееБуферОбменаРасширеннаяПодсказка" id="1054"/>
@@ -1959,6 +2388,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Изменить область</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Change area</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиОбщееИзменитьОбластьРасширеннаяПодсказка" id="1062"/>
 										<ChildItems>
@@ -1983,6 +2416,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Удалить</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Delete</v8:content>
+													</v8:item>
 												</Title>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиОбщееУдалитьРасширеннаяПодсказка" id="1070"/>
 												<ChildItems>
@@ -2003,6 +2440,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Очистить</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Clear</v8:content>
 													</v8:item>
 												</Title>
 												<ExtendedTooltip name="КонтекстноеМенюОбластиОбщееОчиститьРасширеннаяПодсказка" id="1076"/>
@@ -2027,6 +2468,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Примечание</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Note</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиОбщееПримечаниеРасширеннаяПодсказка" id="1082"/>
 										<ChildItems>
@@ -2047,6 +2492,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Прочее</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Other</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюОбластиОбщееПрочееРасширеннаяПодсказка" id="1088"/>
@@ -2088,11 +2537,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показатели</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Functions</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показатели выделенных ячеек отчета</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Indicators for the selected cell range.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<HorizontalStretch>true</HorizontalStretch>
@@ -2110,6 +2567,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Виды показателей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicator functions</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -2181,6 +2642,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предопределенные элементы настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Predefined settings items</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -2192,6 +2657,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Период</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Period</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -2214,6 +2683,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Период (дата начала)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Period (start date)</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>None</TitleLocation>
 							<Width>9</Width>
@@ -2230,6 +2703,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>–</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>–</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="Разделитель1КонтекстноеМеню" id="787"/>
 							<ExtendedTooltip name="Разделитель1РасширеннаяПодсказка" id="788"/>
@@ -2240,6 +2717,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Период (дата окончания)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Period (end date)</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>None</TitleLocation>
@@ -2256,6 +2737,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выбрать период</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Select period</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalAlign>Center</HorizontalAlign>
@@ -2288,6 +2773,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Период</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Period</v8:content>
+						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
 					<Behavior>Usual</Behavior>
@@ -2309,6 +2798,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Период (дата начала)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Period (start date)</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>None</TitleLocation>
 							<Width>9</Width>
@@ -2325,6 +2818,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>–</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>–</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="Разделитель2КонтекстноеМеню" id="799"/>
 							<ExtendedTooltip name="Разделитель2РасширеннаяПодсказка" id="800"/>
@@ -2335,6 +2832,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Период (дата окончания)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Period (end date)</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>None</TitleLocation>
@@ -2351,6 +2852,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выбрать период</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Select period</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalAlign>Center</HorizontalAlign>
@@ -2418,6 +2923,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Табличный документ - результат формирования отчета</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Spreadsheet document: report generation result</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2580,6 +3089,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сумма</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Range sum</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -2595,6 +3108,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Количество</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Number of cells</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2612,6 +3129,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Среднее</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Range average</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -2627,6 +3148,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Минимум</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Range minimum</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2644,6 +3169,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Максимум</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Range maximum</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
@@ -2659,6 +3188,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показатель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Indicator</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2688,6 +3221,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Флажок</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check box</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2698,6 +3235,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Флажок</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check box</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2821,11 +3362,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Все настройки...</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report settings.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2842,11 +3391,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Стандартные настройки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Default settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки по умолчанию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Default settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастройкиПоУмолчанию</Action>
@@ -2858,11 +3415,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отправить сейчас...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Send now…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать новое письмо и прикрепить отчет как вложение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Send the report option by email.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2878,11 +3443,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сформировать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Generate</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сформировать отчет</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Generate the report.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F5</Shortcut>
@@ -2900,11 +3473,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Формировать сразу</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Run report on open</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Формировать сразу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>When you open the report, it will run automatically.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ФормироватьСразу</Action>
@@ -2916,11 +3497,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Другие отчеты...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Other reports…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Другие отчеты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>View other reports.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2936,11 +3525,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить вид сравнения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change mapping kind</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить вид сравнения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change mapping kind</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -2951,11 +3548,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассчитать сумму</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Range sum</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполняет расчет суммы выделенных ячеек</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Calculate the cell range sum.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>РассчитатьСумму</Action>
@@ -2966,11 +3571,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассчитать количество</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Number of cells</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполняет расчет количества выделенных ячеек</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Calculate the number of cells in the range.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>РассчитатьКоличество</Action>
@@ -2981,11 +3594,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассчитать среднее</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Range average</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполняет расчет среднего значения выделенных ячеек</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Calculate the average value for the range.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>РассчитатьСреднее</Action>
@@ -2996,11 +3617,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассчитать минимум</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Range minimum</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполняет расчет минимального значения выделенных ячеек</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Calculate the minimum value for the range.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>РассчитатьМинимум</Action>
@@ -3011,11 +3640,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассчитать максимум</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Range maximum</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполняет расчет максимального значения выделенных ячеек</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Calculate the maximum value for the range.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>РассчитатьМаксимум</Action>
@@ -3026,11 +3663,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассчитать все показатели</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Calculate all functions</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполняет расчет всех показателей выделенных ячеек</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Calculate all functions for the selected cell range.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>РассчитатьВсеПоказатели</Action>
@@ -3041,11 +3686,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Свернуть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Collapse</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Свернуть панель показателей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Collapse function list.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3061,11 +3714,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить схему</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import scheme</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загружает схему компоновки данных из xml-файла</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import data composition schema from an XML file.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3081,11 +3742,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Редактировать схему</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit scheme</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открывает конструктор схемы компоновки данных (доступно только в толстом клиенте)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the designer to edit data composition schema. Only for the thin client mode.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3102,11 +3771,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Стандартная схема</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Default schema</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Восстановить стандартную схему</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restore to default schema.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВосстановитьСтандартнуюСхему</Action>
@@ -3117,6 +3794,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать период</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select period</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -3132,6 +3813,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать период</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select period</v8:content>
+				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>0</xr:Ref>
@@ -3146,11 +3831,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить в файл...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save to file…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить вариант отчета в файл</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save a report option to a file.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3165,11 +3858,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить из файла...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update from file…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить вариант отчета из файла</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update a report option from a file.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3184,11 +3885,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поделиться настройками...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Share settings…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поделиться настройками</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Share settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоделитьсяНастройками</Action>
@@ -3199,11 +3908,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Права пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User rights</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Права пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User rights</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3218,6 +3935,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вставить поле справа...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Insert field to the right…</v8:content>
+				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>CommonPicture.ВставитьКолонкуСправа</xr:Ref>
@@ -3230,6 +3951,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вставить группировку ниже...</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Insert grouping below…</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -3244,6 +3969,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переместить влево</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move left</v8:content>
+				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>CommonPicture.ПереместитьКолонкуВлево</xr:Ref>
@@ -3256,6 +3985,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переместить вправо</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move right</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -3270,6 +4003,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переместить выше</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move up</v8:content>
+				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>CommonPicture.ПереместитьГруппировкуВыше</xr:Ref>
@@ -3282,6 +4019,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переместить ниже</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move down</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -3296,6 +4037,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Hide</v8:content>
+				</v8:item>
 			</Title>
 			<Action>СкрытьПоле</Action>
 		</Command>
@@ -3305,6 +4050,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переименовать...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Rename…</v8:content>
+				</v8:item>
 			</Title>
 			<Action>ПереименоватьПоле</Action>
 		</Command>
@@ -3313,6 +4062,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Фильтровать...</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filter…</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -3327,6 +4080,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сортировать по возрастанию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sort ascending</v8:content>
+				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>CommonPicture.СортироватьСтрокиПоВозрастанию</xr:Ref>
@@ -3339,6 +4096,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сортировать по убыванию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sort descending</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -3353,11 +4114,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Желтым</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Yellow</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Оформить желтым</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Highlight in yellow</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Representation>TextPicture</Representation>
@@ -3368,11 +4137,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Зеленым</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Green</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Оформить зеленым</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Highlight in green</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Representation>TextPicture</Representation>
@@ -3383,11 +4160,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Красным</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Red</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Оформить красным</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Highlight in red</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Representation>TextPicture</Representation>
@@ -3398,11 +4183,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отрицательные красным</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Negative in red</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Оформить отрицательные значения красным</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Highlight negative values in red</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОформитьОтрицательные</Action>
@@ -3413,11 +4206,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Положительные зеленым</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Positive in green</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Оформить отрицательные значения зеленым</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Highlight negative values in green</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОформитьПоложительные</Action>
@@ -3428,11 +4229,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Высота строки...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Row height…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить высоту строки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Set row height</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3448,11 +4257,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ширина колонки...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Column width…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить ширину колонки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Set column width</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3468,6 +4285,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Еще...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>More…</v8:content>
+				</v8:item>
 			</Title>
 			<Action>ОформитьЕще</Action>
 		</Command>
@@ -3477,6 +4298,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open</v8:content>
+				</v8:item>
 			</Title>
 		</Command>
 		<Command name="Расшифровать" id="46">
@@ -3485,6 +4310,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Расшифровать...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Decrypt…</v8:content>
+				</v8:item>
 			</Title>
 		</Command>
 		<Command name="СнятьФильтр" id="47">
@@ -3492,6 +4321,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Снять фильтр</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear filter</v8:content>
 				</v8:item>
 			</Title>
 			<Action>СнятьФильтр</Action>
@@ -3502,11 +4335,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить состав быстрых настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit quick settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить состав быстрых настроек</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit quick settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3522,11 +4363,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить (перезаписать) текущий вариант отчета</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save (overwrite) the current report option</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3541,6 +4390,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>По умолчанию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Default</v8:content>
+				</v8:item>
 			</Title>
 			<Action>Подключаемый_ПоказатьУровеньГруппировок</Action>
 		</Command>
@@ -3550,11 +4403,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти назад</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go back</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Подключаемый_СдвинутьПериодНазад</Action>
@@ -3565,11 +4426,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&gt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&gt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти вперед</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go forward</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Подключаемый_СдвинутьПериодВперед</Action>
@@ -3580,11 +4449,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти назад</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go back</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Подключаемый_СдвинутьПериодНазад</Action>
@@ -3595,11 +4472,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&gt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&gt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти вперед</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go forward</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Подключаемый_СдвинутьПериодВперед</Action>
@@ -3610,11 +4495,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сгруппировать по полю</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group by field</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сгруппировать по выбранному полю</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group by selected field</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -3629,6 +4522,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Очистить оформление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear appearance</v8:content>
+				</v8:item>
 			</Title>
 			<Action>ОчиститьОформление</Action>
 		</Command>
@@ -3638,11 +4535,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить результат отчета в файл</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save a report result to a file</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>Ctrl+S</Shortcut>
@@ -3659,6 +4564,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Расшифровать по детальным записям</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Decrypt by detailed records</v8:content>
+				</v8:item>
 			</Title>
 		</Command>
 		<Command name="ВставитьПолеСлева" id="57">
@@ -3666,6 +4575,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вставить поле слева</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Insert field to the left</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -3680,6 +4593,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вставить группировку выше</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Insert grouping above</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>

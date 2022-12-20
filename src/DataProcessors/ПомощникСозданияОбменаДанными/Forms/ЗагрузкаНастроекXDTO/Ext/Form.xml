@@ -25,6 +25,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель основная</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main panel</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ПанельОсновнаяРасширеннаяПодсказка" id="2"/>
@@ -34,6 +38,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница длительная операция</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Long-running operation page</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -57,6 +65,11 @@
 									<v8:content>Выполняется получение параметров из программы "%1".
 Пожалуйста, подождите...</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Getting parameters from %1.
+Please wait…</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ДекорацияНадписьОжиданиеКонтекстноеМеню" id="11"/>
 							<ExtendedTooltip name="ДекорацияНадписьОжиданиеРасширеннаяПодсказка" id="12"/>
@@ -68,6 +81,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница ошибка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Error page</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -91,6 +108,12 @@
 									<v8:content>Перед продолжением настройки синхронизации данных (настройки правил отправки и получения данных) требуется получить параметры из программы "%1".
 
 Перейдите в "%1", завершите в ней настройку и выполните первоначальную выгрузку данных, после чего завершите настройку в этой программе.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Before you proceed with configuring data synchronization (data sending and receiving rules), get parameters from %1.
+
+Go to %1, complete the setup there, perform initial data export, and then complete the setup in this application.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ДекорацияНадписьОшибкаКонтекстноеМеню" id="17"/>
@@ -129,6 +152,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Готово</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Done</v8:content>
 				</v8:item>
 			</Title>
 			<Action>КомандаГотово</Action>

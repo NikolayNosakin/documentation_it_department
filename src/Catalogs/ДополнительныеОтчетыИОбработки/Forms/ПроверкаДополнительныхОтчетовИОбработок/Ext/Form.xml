@@ -32,6 +32,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сообщение пользователю</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Message to user</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -43,6 +47,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинка сообщения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Message picture</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -62,6 +70,12 @@
 
 Устаревшие дополнительные отчеты и обработки могут работать некорректно, в этом случае их необходимо обновить (или временно отключить). </v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check that the additional reports and data processors are compatible with the current version of the application.
+
+Earlier additional reports and data processors might function incorrectly. In this case, try to update or temporarily disable them.</v8:content>
+						</v8:item>
 					</Title>
 					<ContextMenu name="ТекстСообщенияКонтекстноеМеню" id="13"/>
 					<ExtendedTooltip name="ТекстСообщенияРасширеннаяПодсказка" id="14"/>
@@ -77,11 +91,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверено</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Checked</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не выводить больше это сообщение до следующего обновления программы.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not show this message until the next application update.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Проверено</Action>
@@ -93,6 +115,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти к списку</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to list</v8:content>
+				</v8:item>
 			</Title>
 			<Action>ПерейтиКСписку</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -102,6 +128,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ЗакрытьФорму</Action>

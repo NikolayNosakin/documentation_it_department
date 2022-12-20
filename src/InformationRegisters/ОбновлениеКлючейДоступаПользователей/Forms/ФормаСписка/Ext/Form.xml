@@ -13,6 +13,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа пользовательских настроек</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
 			</Title>
 			<VerticalStretch>false</VerticalStretch>
 			<Group>Vertical</Group>
@@ -25,6 +29,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<CommandSource>Form</CommandSource>
@@ -52,6 +60,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
 				</v8:item>
 			</Title>
 			<AutoRefresh>false</AutoRefresh>
@@ -111,6 +123,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>ВП</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>EU</v8:content>
+						</v8:item>
 					</Title>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокДляВнешнихПользователейКонтекстноеМеню" id="20"/>
@@ -122,6 +138,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>ТЗ</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>AJ</v8:content>
 						</v8:item>
 					</Title>
 					<CheckBoxType>Auto</CheckBoxType>
@@ -135,6 +155,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>РЗ</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>SJ</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
@@ -143,6 +167,13 @@
 1 - точечное задание,
 2 - обновление устаревших,
 3 - обновление с начала.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Job size:
+1 - atomic job.
+2 - update of obsolete items.
+3 - update from the beginning.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ContextMenu name="РазмерЗаданияКонтекстноеМеню" id="38"/>
@@ -154,6 +185,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата изменения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Modified on</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="СписокДатаИзмененияЗаписиРегистраКонтекстноеМеню" id="23"/>
@@ -203,11 +238,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность редактирования только для целей поиска неисправности (требуется углубленное понимание работы механизма)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Allow editing for troubleshooting purposes. Recommended for advanced users only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>

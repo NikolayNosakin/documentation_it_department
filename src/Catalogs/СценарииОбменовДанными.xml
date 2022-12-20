@@ -30,6 +30,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сценарии синхронизации данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data synchronization scenarios</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<Hierarchical>false</Hierarchical>
@@ -243,6 +247,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование сценария обмена данными.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data exchange scenario description.</v8:content>
+						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
 					<xr:Format/>
@@ -273,6 +281,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код сценария настройки обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data exchange scenario code.</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -325,6 +337,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сценарий синхронизации данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data synchronization scenario</v8:content>
+				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
@@ -333,6 +349,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Используется для задания сценариев синхронизации данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use this catalog to set data synchronization scenarios.</v8:content>
 				</v8:item>
 			</Explanation>
 			<CreateOnInput>Use</CreateOnInput>
@@ -350,6 +370,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Использовать регламентное задание</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use scheduled job</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -362,6 +386,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак использования расписания регламентного задания.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use scheduled job.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -395,6 +423,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -411,6 +443,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Краткое описание сценария.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A brief scenario description.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -444,6 +480,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Регламентное задание GUID</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Scheduled job UUID</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -460,6 +500,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Строковое представление уникального идентификатора регламентного задания.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A string presentation of the scheduled job UUID.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -503,12 +547,20 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройки синхронизации</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Synchronization settings</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Содержит последовательно выполняемые действия сценария синхронизации.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Contains steps of a synchronization scenario.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<FillChecking>ShowError</FillChecking>
@@ -551,6 +603,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Информационная база</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Infobase</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -563,6 +619,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Информационная база, для которой используется сценарий синхронизации данных.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>An infobase included in the synchronization scenario.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -593,6 +653,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подключение</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Connection</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -605,6 +669,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подключение, используемое для текущего сценария.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>A connection used in the current scenario.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -635,6 +703,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выполняемое действие</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Action</v8:content>
+								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
@@ -647,6 +719,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Действие сценарий обмена (выгрузка/загрузка данных).</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>An exchange scenario action (import or export data).</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>

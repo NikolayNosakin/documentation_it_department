@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Соответствия объектов информационных баз</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Mapping of infobase objects</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -169,6 +173,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Используется для хранения информации сопоставления объектов этой информационной базы с объектами информационной базы-корреспондента обмена.</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stores the mapping between the objects of this infobase and peer infobases.</v8:content>
+				</v8:item>
 			</Explanation>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
@@ -182,6 +190,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уникальный идентификатор источника строкой</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Source UUID as a string</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -200,6 +212,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Строковое представление типа объекта информационной базы корреспондента.
 Строка уникального идентификатора объекта ссылочного типа этой информационной базы (производная от значения измерения УникальныйИдентификаторИсточника).</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A string presentation of a peer infobase object type.
+It is a string UUID of a reference-type object of this infobase (based on a value of the SourceUUID dimension).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -232,6 +249,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект выгружен по ссылке</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object exported by reference</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -244,6 +265,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что запись регистра используется для идентификации объектов, выгруженных по ссылке. При загрузке данных такие записи удаляются по возможности.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether the register record is used to determine objects exported by reference. Such records are deleted on data import if possible.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -276,6 +301,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уникальный идентификатор приемника</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Destination UUID</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -292,6 +321,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Строка уникального идентификатора объекта ссылочного типа информационной базы корреспондента.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A string UUID of a reference-type object of a peer infobase.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -327,6 +360,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уникальный идентификатор источника</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Source UUID</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -345,6 +382,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ссылка на любой объект ссылочного типа этой информационной базы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A reference to any object of a reference type in this infobase.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -380,6 +421,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип приемника</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Destination type</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -396,6 +441,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Строковое представление типа объекта информационной базы корреспондента.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A string presentation of a peer infobase object type.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -431,6 +480,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип источника</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Source type</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -447,6 +500,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Строковое представление типа объекта этой информационной базы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A string presentation of an object type in this infobase.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -482,6 +539,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Узел информационной базы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Infobase node</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -494,6 +555,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Узел плана обмена, для которого хранится информация сопоставления объектов.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The exchange plan node by which object mapping information is stored.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

@@ -39,6 +39,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ошибка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Error</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -64,6 +68,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Текст ошибки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Error text</v8:content>
+						</v8:item>
 					</Title>
 					<VerticalAlign>Top</VerticalAlign>
 					<ContextMenu name="ТекстОшибкиКонтекстноеМеню" id="72"/>
@@ -77,6 +85,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Режим</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Mode</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalStretch>false</HorizontalStretch>
 			<VerticalStretch>false</VerticalStretch>
@@ -88,6 +100,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница настройки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Settings page</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаНастройкиExtendedTooltip" id="95"/>
@@ -101,6 +117,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>БЛ='работа пользователей разрешена'; БИ='работа пользователей временно запрещена'</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>BF='user connections allowed'; BT='user connections prohibited'</v8:content>
 								</v8:item>
 							</Format>
 							<ContextMenu name="НачальныйСтатусЗапретаРаботыПользователейКонтекстноеМеню" id="65"/>
@@ -121,6 +141,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Период блокировки</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Lock period</v8:content>
+								</v8:item>
 							</Title>
 							<Shortcut>Ctrl+S</Shortcut>
 							<Behavior>Usual</Behavior>
@@ -137,6 +161,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>с</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>from</v8:content>
+										</v8:item>
 									</Title>
 									<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 									<Wrap>false</Wrap>
@@ -151,6 +179,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>по</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>to</v8:content>
+										</v8:item>
 									</Title>
 									<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 									<Wrap>false</Wrap>
@@ -158,6 +190,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>ДП=бессрочно</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>DE=no end time</v8:content>
 										</v8:item>
 									</EditFormat>
 									<BorderColor>style:BorderColor</BorderColor>
@@ -183,6 +219,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Запретить работу регламентных заданий</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Disable scheduled jobs</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ГруппаЗапретитьРаботуРегламентныхЗаданийРасширеннаяПодсказка" id="121"/>
@@ -192,6 +232,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Ввода параметров администрирования</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Input administration parameters</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ГруппаВводаПараметровАдминистрированияРасширеннаяПодсказка" id="125"/>
@@ -210,6 +254,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Управление регламентными заданиями</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Scheduled job management</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ГруппаУправлениеРегламентнымиЗаданиямиРасширеннаяПодсказка" id="123"/>
 									<ChildItems>
@@ -219,6 +267,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Также запретить работу регламентных заданий</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Also disable scheduled jobs</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
@@ -238,6 +290,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница состояния блокировки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Lock state page</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаСостоянияБлокировкиExtendedTooltip" id="105"/>
 					<ChildItems>
@@ -246,6 +302,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Состояние</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>State</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalStretch>false</VerticalStretch>
@@ -269,6 +329,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Содержимое</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Content</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
@@ -285,6 +349,11 @@
 													<v8:content>Пожалуйста, подождите...
 Работа пользователей завершается. Осталось активных сеансов: %1</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Please wait…
+Closing user sessions. Active sessions remaining: %1.</v8:content>
+												</v8:item>
 											</Title>
 											<VerticalAlign>Center</VerticalAlign>
 											<ContextMenu name="СостояниеКонтекстноеМеню" id="50"/>
@@ -297,6 +366,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Блокировка установлена по причине</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Lock reason:</v8:content>
 												</v8:item>
 											</Title>
 											<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -313,6 +386,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Период блокировки 1</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Lock period 1</v8:content>
+												</v8:item>
 											</Title>
 											<Shortcut>Ctrl+S</Shortcut>
 											<Behavior>Usual</Behavior>
@@ -328,6 +405,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>с</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>from</v8:content>
+														</v8:item>
 													</Title>
 													<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 													<ContextMenu name="НачалоБлокировки1КонтекстноеМеню" id="57"/>
@@ -340,12 +421,20 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>по</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>to</v8:content>
+														</v8:item>
 													</Title>
 													<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 													<Format>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>ДП=бессрочно</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>DE=no end time</v8:content>
 														</v8:item>
 													</Format>
 													<ContextMenu name="ОкончаниеБлокировки1КонтекстноеМеню" id="59"/>
@@ -366,6 +455,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Основная командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main command bar</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
@@ -420,6 +513,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Состояние</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>State</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -477,11 +574,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Применить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Apply</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Применить изменения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Apply the changes.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Применить</Action>
@@ -493,11 +598,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Активные пользователи</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Active users</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Активные пользователи</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Active users</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -514,11 +627,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Остановить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Stop</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Остановить завершение работы пользователей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel session closing.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -535,11 +656,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Включить возможность управления блокировкой регламентных заданий</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Manage scheduled job locks</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры администрирования</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Administration parameters</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПараметрыАдминистрирования</Action>

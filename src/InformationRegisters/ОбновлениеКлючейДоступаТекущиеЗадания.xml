@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновление ключей доступа текущие задания</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access keys update current jobs</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -165,6 +169,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновление ключей доступа текущее задание</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access keys update current job</v8:content>
+				</v8:item>
 			</RecordPresentation>
 			<ExtendedRecordPresentation/>
 			<ListPresentation/>
@@ -183,6 +191,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Параметры</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parameters</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -195,6 +207,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Параметры задания для начала или продолжения обновления.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The parameters of the job that starts or continues update.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -227,6 +243,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Результат</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Result</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -241,6 +261,12 @@
 							<v8:content>Если "Это запуск" равно Ложь, тогда есть результат
 выполнения задания по указанным параметрам,
 в противном случае результата нет.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If "Startup" is False, the result
+of the job that was started with the specified parameters is available.
+Otherwise, there is no result.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -273,6 +299,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Это запуск</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Startup</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -285,6 +315,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Если Истина, тогда результата нет, в противном случае есть.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>If True, there is no result. Otherwise, there is a result.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -317,6 +351,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата изменения записи регистра</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Register record modification date</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -334,6 +372,12 @@
 							<v8:content>Дата изменения записи регистра.
 Используется для отслеживания заданий, которые
 не подготовили результат за допустимое время.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A register record modification date.
+It is used to keep track of jobs that
+did not produce a result by the expected time.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -366,6 +410,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Идентификатор потока</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Thread ID</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -378,6 +426,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уникальный идентификатор фонового задания</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A background job UUID.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

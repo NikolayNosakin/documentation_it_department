@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Объединение элементов в один</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Merge items</v8:content>
+		</v8:item>
 	</Title>
 	<Width>60</Width>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
@@ -35,6 +39,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Шаги мастера</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Wizard steps</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ШагиМастераРасширеннаяПодсказка" id="71"/>
@@ -45,6 +53,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Поиск мест использования</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Search for occurrences</v8:content>
+						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
 					<ExtendedTooltip name="ШагПоискМестИспользованияРасширеннаяПодсказка" id="73"/>
@@ -54,6 +66,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка длительной операции1</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Long-running operation picture1</v8:content>
 								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -74,6 +90,11 @@
 									<v8:content>Пожалуйста, подождите.
 Выполняется поиск мест использования элементов...</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Please wait.
+Searching for occurrences…</v8:content>
+								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
 							<VerticalAlign>Center</VerticalAlign>
@@ -88,6 +109,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Выбор основного элемента</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main item selection</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ШагВыборОсновногоЭлементаРасширеннаяПодсказка" id="75"/>
 					<ChildItems>
@@ -96,6 +121,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель выбора основного элемента</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Main item selection command bar</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="КоманднаяПанельВыбораОсновногоРасширеннаяПодсказка" id="67"/>
@@ -122,6 +151,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Добавить удалить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Add delete</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ГруппаДобавитьУдалитьРасширеннаяПодсказка" id="229"/>
@@ -163,6 +196,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Все действия</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>All actions</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ВсеДействияРасширеннаяПодсказка" id="61"/>
 									<ChildItems>
@@ -200,6 +237,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Места использования</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Occurrences</v8:content>
+								</v8:item>
 							</Title>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="МестаИспользованияКонтекстноеМеню" id="2">
@@ -210,6 +251,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Места использования контекстное меню группа 1</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Occurrences context menu group 1</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="МестаИспользованияКонтекстноеМенюГруппа1РасширеннаяПодсказка" id="159"/>
@@ -251,6 +296,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Места использования контекстное меню группа 2</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Occurrences context menu group 2</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="МестаИспользованияКонтекстноеМенюГруппа2РасширеннаяПодсказка" id="223"/>
@@ -310,6 +359,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Места использования ссылка основной</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Occurrences reference main</v8:content>
+										</v8:item>
 									</Title>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="МестаИспользованияСсылкаОсновнойРасширеннаяПодсказка" id="18"/>
@@ -352,6 +405,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Места использования количество мест использования</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Occurrence count</v8:content>
+										</v8:item>
 									</Title>
 									<Width>7</Width>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -365,6 +422,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Посмотреть места использования</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>View occurrences</v8:content>
 												</v8:item>
 											</ToolTip>
 											<HorizontalAlign>Left</HorizontalAlign>
@@ -395,6 +456,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подсказка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Tooltip</v8:content>
+								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -409,6 +474,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Подсказка выбора основного элемента</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Main item selection tooltip</v8:content>
 										</v8:item>
 									</Title>
 									<VerticalAlign>Top</VerticalAlign>
@@ -433,11 +502,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объединение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Merge</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница поиск мест использования</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Search for occurrences page</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Group>HorizontalIfPossible</Group>
@@ -462,6 +539,11 @@
 									<v8:content>Пожалуйста, подождите.
 Выполняется объединение элементов...</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Please wait.
+Merging items…</v8:content>
+								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
 							<VerticalAlign>Center</VerticalAlign>
@@ -476,11 +558,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Успешное завершение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Success</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страница поиск мест использования</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Search for occurrences page</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="ШагУспешногоЗавершенияРасширеннаяПодсказка" id="98"/>
@@ -491,6 +581,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Результат объединения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Merge result</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="РезультатОбъединенияКонтекстноеМеню" id="105"/>
@@ -504,6 +598,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Повтор объединения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Merge again</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ШагПовторОбъединенияРасширеннаяПодсказка" id="108"/>
 					<ChildItems>
@@ -514,6 +612,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Результат неудачные замены</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Unsuccessful replacements result</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="РезультатНеудачныеЗаменыКонтекстноеМеню" id="134"/>
 							<ExtendedTooltip name="РезультатНеудачныеЗаменыРасширеннаяПодсказка" id="135"/>
@@ -523,6 +625,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Командная панель неудачные замены</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Unsuccessful replacements command bar</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="КоманднаяПанельНеудачныеЗаменыРасширеннаяПодсказка" id="126"/>
@@ -549,11 +655,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Все действия 2</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>All actions 2</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Все действия</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>All actions</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ExtendedTooltip name="ВсеДействия2РасширеннаяПодсказка" id="137"/>
@@ -597,6 +711,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Неудачные замены</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Unsuccessful replacements</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="НеудачныеЗаменыКонтекстноеМеню" id="113"/>
 							<AutoCommandBar name="НеудачныеЗаменыКоманднаяПанель" id="114">
@@ -638,6 +756,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Неудачные замены данные код</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Unsuccessful replacements data code</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
 									<ExtendedTooltip name="НеудачныеЗаменыДанныеКодРасширеннаяПодсказка" id="151"/>
@@ -647,6 +769,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Неудачные замены группа 1</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Unsuccessful replacements group 1</v8:content>
 												</v8:item>
 											</Title>
 											<Group>InCell</Group>
@@ -708,6 +834,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Возникла ошибка</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Error occurred</v8:content>
+						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
 					<ExtendedTooltip name="ШагВозниклаОшибкаРасширеннаяПодсказка" id="231"/>
@@ -717,6 +847,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Картинка предупреждение32</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Picture warning32</v8:content>
 								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -737,6 +871,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Надпись текст ошибки</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Error text label</v8:content>
+								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
 							<VerticalAlign>Center</VerticalAlign>
@@ -749,6 +887,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подробнее</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Details</v8:content>
 								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -770,6 +912,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель действий мастера</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Wizard actions panel</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -781,6 +927,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Назад</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Back</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаНазадРасширеннаяПодсказка" id="57"/>
@@ -797,6 +947,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Вперед</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Forward</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalLocation>Right</HorizontalLocation>
@@ -835,6 +989,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Места использования</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Occurrences</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -846,6 +1004,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
@@ -856,6 +1018,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Мест использования</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Occurrences</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -873,6 +1039,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Code</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -887,6 +1057,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пиктограмма</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Icon</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -903,6 +1077,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Мест использования</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Occurrences</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -924,6 +1102,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Неудачные замены</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unsuccessful replacements</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -937,6 +1119,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Code</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -953,6 +1139,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Причина</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reason</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -967,6 +1157,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование / Место использования</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description / Occurrence</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -992,6 +1186,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пиктограмма</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Icon</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -1014,6 +1212,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Расшифровка причины</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reason details</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1070,11 +1272,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отметить как оригинал</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Mark as original item</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить выделенный элемент как результат объединения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>The original item will replace duplicates.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1091,11 +1301,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Все места использования</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>All occurrences</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Посмотреть места использования всех элементов в списке</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>All occurrences</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВсеМестаИспользования</Action>
@@ -1107,11 +1325,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Далее &gt;</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Next &gt;</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить выполнение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Proceed to the next step.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОбработчикКнопкиМастера</Action>
@@ -1123,11 +1349,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>&lt; Назад</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt; Back</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вернутся на предыдущий шаг</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Return to the previous step.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОбработчикКнопкиМастера</Action>
@@ -1139,11 +1373,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отмена</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Прекратить работу мастера</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exit the wizard.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОбработчикКнопкиМастера</Action>
@@ -1155,11 +1397,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Развернуть все</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Expand all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Развернуть все неудачные замены</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Expand all unsuccessful replacements.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1175,11 +1425,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Свернуть все</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Collapse all</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Свернуть все неудачные замены</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Collapse all unsuccessful replacements.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1195,11 +1453,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть элемент</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open the item.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F2</Shortcut>
@@ -1216,11 +1482,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть элемент (F2)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open item (F2)</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F2</Shortcut>
@@ -1237,11 +1511,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Места использования...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Occurrences…</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать места использования элемента</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show item occurrences</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>МестаИспользования</Action>

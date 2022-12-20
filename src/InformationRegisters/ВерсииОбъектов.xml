@@ -38,6 +38,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Версии объектов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object versions</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>false</UseStandardCommands>
@@ -165,12 +169,20 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Версия объекта</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object version</v8:content>
+				</v8:item>
 			</RecordPresentation>
 			<ExtendedRecordPresentation/>
 			<ListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записи о версиях объектов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object version records</v8:content>
 				</v8:item>
 			</ListPresentation>
 			<ExtendedListPresentation/>
@@ -188,6 +200,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия объекта</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object version</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -200,6 +216,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление объекта в виде Fast InfoSet</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The object presentation in Fast Infoset format.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -232,6 +252,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Автор версии</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Version author</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -246,6 +270,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Пользователь, внесший изменения в объект</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The user that modified the object.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -278,6 +306,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата версии</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Version date</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -293,6 +325,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дата и время изменения объекта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object modification date and time.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -325,6 +361,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -341,6 +381,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Комментарий к версии</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Version comment</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -373,6 +417,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип версии объекта</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object version type</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -385,6 +433,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия может быть создана пользователем или при возникновении проблем обмена данными (коллизий или запрета загрузки данных)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A version is created when a user modifies an object or as a result of data exchange issues (either a conflict or an attempt to import data after period-end closing).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -417,6 +469,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия проигнорирована</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Version ignored</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -429,6 +485,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак игнорирования версии в проблемах обмена данными. Не используется для версий созданных пользователем.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Shows whether the version is ignored when solving data exchange issues. It is not applied to user-created versions.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -461,6 +521,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размер данных</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data size</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -478,6 +542,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Размер данных хранимой версии в байтах</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The size of the stored version data (in bytes).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -510,6 +578,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Контрольная сумма</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Checksum</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -526,6 +598,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Контрольная сумма данных версии по алгоритму MD5</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The checksum of the version data hashed with MD5 algorithm.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -558,6 +634,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Есть данные версии</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Has version data</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -570,6 +650,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак наличия данных версии</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The version data availability flag.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -602,6 +686,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Версия владелец</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Parent version</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -619,6 +707,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Номер версии, относительно которой данная версия является "вложенной".</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The number of the version that is parent to this one.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -651,6 +743,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Узел</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Node</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Технический реквизит, используется при выгрузке данных в РИБ</Comment>
 					<Type>
@@ -667,6 +763,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление узла-создателя версии.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The presentation of the node that created the version.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -699,6 +799,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Синхронизируется</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Synchronized</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Технический реквизит, используется при выгрузке данных в РИБ</Comment>
 					<Type>
@@ -711,6 +815,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что версия синхронизируется в РИБ. Истина для всех новых версий, Ложь - для версий, созданных в прежних версиях конфигурации.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Shows whether the version is synchronized in a distributed infobase. It is True for all new versions, and False for versions created in the previous configuration versions.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -743,6 +851,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Смещение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Offset</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment>Технический реквизит, используется при выгрузке данных в РИБ</Comment>
 					<Type>
@@ -760,6 +872,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Хранит количество "старых" (несинхронизируемых) версий объекта.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Stores the number of "older" (unsynchronized) object versions. </v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -791,6 +907,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Предупреждение синхронизации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Synchronization warning</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -835,6 +955,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Объект</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -853,6 +977,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ссылка на объект, сведения о версии которого хранятся в регистре</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A reference to the object whose version data is stored in the register.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -888,6 +1016,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Номер версии</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Version number</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -905,6 +1037,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Уникальный номер версии объекта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>A unique object version number.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

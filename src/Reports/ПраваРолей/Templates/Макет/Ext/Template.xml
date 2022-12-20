@@ -14,6 +14,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Код родителя</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Parent code</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -30,6 +34,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Код элемента</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Item code</v8:content>
 				</v8:item>
 			</title>
 			<presentationExpression>ВЫБОР
@@ -55,6 +63,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Индекс картинки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Picture index</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:decimal</v8:Type>
@@ -73,6 +85,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя элемента</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Item name</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -89,6 +105,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление элемента</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Item presentation</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -108,6 +128,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Есть права элемента</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Has item rights</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:boolean</v8:Type>
@@ -121,6 +145,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Есть право с ограничением</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Right with restriction exists</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:boolean</v8:Type>
@@ -133,6 +161,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Полное имя объекта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Full object name</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -156,6 +188,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Код элемента</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Item code</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -172,6 +208,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Код роли</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Role code</v8:content>
 				</v8:item>
 			</title>
 			<presentationExpression>ВЫБОР
@@ -197,6 +237,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Уровень доступа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access level</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:decimal</v8:Type>
@@ -214,6 +258,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Есть ограничение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>There is a restriction</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -233,6 +281,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Код роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Role code</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:decimal</v8:Type>
@@ -251,6 +303,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Role name</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -267,6 +323,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление роли</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Role presentation</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -285,6 +345,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Есть права роли</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Has role rights</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:boolean</v8:Type>
@@ -297,6 +361,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Профиль (Права роли на объекты метаданных)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Profile (Role rights to metadata objects)</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -315,6 +383,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя объекта (Подробные права)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object name (Detailed rights)</v8:content>
 				</v8:item>
 			</title>
 			<presentationExpression>ВЫБОР
@@ -340,6 +412,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление объекта (Подробные права)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object presentation (Detailed rights)</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -356,6 +432,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя роли (Подробные права)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Role name (Detailed rights)</v8:content>
 				</v8:item>
 			</title>
 			<presentationExpression>ВЫБОР
@@ -381,6 +461,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление роли (Подробные права)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Role presentation (Detailed rights)</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -397,6 +481,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя права (Подробные права)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Right name (Detailed rights)</v8:content>
 				</v8:item>
 			</title>
 			<presentationExpression>ВЫБОР
@@ -422,6 +510,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление права (Подробные права)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object presentation (Detailed rights)</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -438,6 +530,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Порядок права (Подробные права)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Right order (Detailed rights)</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -457,6 +553,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Значение права (Подробные права)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Right value (Detailed rights)</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:boolean</v8:Type>
@@ -470,6 +570,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Есть ограничение права (Подробные права)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>There is a right restriction (Detailed rights)</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:boolean</v8:Type>
@@ -482,6 +586,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Профиль (Подробные права)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Profile (Detailed rights)</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -500,6 +608,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя объекта (Права ролей на объект)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object name (Rights of roles to an object)</v8:content>
 				</v8:item>
 			</title>
 			<presentationExpression>ВЫБОР
@@ -525,6 +637,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление объекта (Права ролей на объект)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object presentation (Rights of roles to an object)</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -541,6 +657,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя роли (Права ролей на объект)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Role name (Rights of roles to an object)</v8:content>
 				</v8:item>
 			</title>
 			<presentationExpression>ВЫБОР
@@ -566,6 +686,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление роли (Права ролей на объект)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Role presentation (Rights of roles to an object)</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
@@ -583,6 +707,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Профиль (Права ролей на объект)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Profile (Rights of roles to an object)</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ПрофилиГруппДоступа</v8:Type>
@@ -595,6 +723,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Уровень доступа (Права ролей на объект)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Access level (Rights of roles to an object)</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -614,6 +746,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Есть ограничение (Права ролей на объект)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>There is a restriction (Rights of roles to an object)</v8:content>
+				</v8:item>
 			</title>
 			<valueType>
 				<v8:Type>xs:boolean</v8:Type>
@@ -626,6 +762,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Без профиля (Права ролей на объект)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Without a profile (Rights of roles to an object)</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -645,6 +785,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя роли (Права роли на объекты метаданных)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Role name (Role rights to metadata objects)</v8:content>
+				</v8:item>
 			</title>
 			<presentationExpression>ВЫБОР
 	КОГДА &amp;ФорматИмениВыбранный = 1 ТОГДА ИмяРоли4
@@ -660,6 +804,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление роли  (Права роли на объекты метаданных)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Role presentation (Role rights to metadata objects)</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -720,6 +868,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Объект метаданных</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Metadata object</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:string</v8:Type>
@@ -737,6 +889,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Роль</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Role</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -763,6 +919,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Профиль</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Profile</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ПрофилиГруппДоступа</v8:Type>
@@ -776,6 +936,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Права на реквизиты</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Rights to attributes</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -791,6 +955,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Уровень доступа</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Access level</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -811,6 +979,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Право</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Right</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:string</v8:Type>
@@ -829,6 +1001,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Показывать объекты и роли без прав</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Show objects and roles without rights</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:boolean</v8:Type>
@@ -843,6 +1019,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Формат имени</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Name format</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -862,6 +1042,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Presentation</v8:content>
+				</v8:item>
 			</presentation>
 		</availableValue>
 		<availableValue>
@@ -870,6 +1054,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Name</v8:content>
 				</v8:item>
 			</presentation>
 		</availableValue>
@@ -880,6 +1068,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление (Имя)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Presentation (Name)</v8:content>
+				</v8:item>
 			</presentation>
 		</availableValue>
 		<availableValue>
@@ -888,6 +1080,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Имя (Представление)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Name (Presentation)</v8:content>
 				</v8:item>
 			</presentation>
 		</availableValue>
@@ -898,6 +1094,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Формат имени выбранный</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Selected name format</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -920,6 +1120,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Показывать права неинтерфейсных подсистем</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Show rights of non-interface subsystems</v8:content>
+			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type>xs:boolean</v8:Type>
@@ -935,6 +1139,10 @@
 				<v8:lang>ru</v8:lang>
 				<v8:content>Начальный отбор</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Initial filter</v8:content>
+			</v8:item>
 		</title>
 		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
@@ -946,6 +1154,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Высота шапки</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Header height</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -965,6 +1177,10 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Не предупреждать о большом размере отчета</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Do not warn about large report size</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -1034,6 +1250,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>***</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>***</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -1059,6 +1279,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Объект метаданных</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Metadata object</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -1375,6 +1599,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>- просмотр</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- View</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -1498,6 +1726,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>- просмотр и редактирование</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- View and edit</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -1666,6 +1898,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>- просмотр, редактирование и создание</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- View, edit, and create</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -2297,6 +2533,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>*</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>*</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -2370,6 +2610,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>- просмотр ограничен</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- View restricted</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -2599,6 +2843,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>- есть право</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- Right exists</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -2718,6 +2966,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>- получение и установка</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- Obtain and set</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -3611,6 +3863,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>- использование</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- Use</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -3731,6 +3987,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>- использование и администрирование</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- Use and administer</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -3820,6 +4080,10 @@
 						<dcsat:value xsi:type="v8:LocalStringType">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
+								<v8:content>***</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
 								<v8:content>***</v8:content>
 							</v8:item>
 						</dcsat:value>
@@ -4049,6 +4313,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>✔</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>✔</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -4114,6 +4382,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>- есть право</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- Right exists</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -4941,6 +5213,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>+</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>+</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -5006,6 +5282,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>- есть право с ограничением</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- Right with restriction exists</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -5532,6 +5812,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>***</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>***</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -5694,6 +5978,10 @@ PSIjNzI3MjcyIi8+Cjwvc3ZnPgo=</dcscor:value>
 								<v8:lang>ru</v8:lang>
 								<v8:content>- просмотр</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- View</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -5826,6 +6114,10 @@ NTM3OUw3LjY0NiA2LjM1Mzc5WiIgZmlsbD0iIzcyNzI3MiIvPgo8L3N2Zz4K</dcscor:value>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>- просмотр и редактирование</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- View and edit</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -5998,6 +6290,10 @@ Pgo=</dcscor:value>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>- просмотр, редактирование и создание</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- View, edit, and create</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -6629,6 +6925,10 @@ Pgo=</dcscor:value>
 								<v8:lang>ru</v8:lang>
 								<v8:content>*</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>*</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -6717,6 +7017,10 @@ PSIjNzI3MjcyIi8+Cjwvc3ZnPgo=</dcscor:value>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>- просмотр ограничен</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- View restricted</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -6953,6 +7257,10 @@ Mjk3WiIgZmlsbD0iIzg5ODk4OSIvPgo8L3N2Zz4K</dcscor:value>
 								<v8:lang>ru</v8:lang>
 								<v8:content>- есть право</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- Right exists</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -7098,6 +7406,10 @@ IzcyNzI3MiIvPgo8L3N2Zz4K</dcscor:value>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>- получение и установка</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- Obtain and set</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -7729,6 +8041,10 @@ IzcyNzI3MiIvPgo8L3N2Zz4K</dcscor:value>
 								<v8:lang>ru</v8:lang>
 								<v8:content>●</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>●</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -7802,6 +8118,10 @@ IzcyNzI3MiIvPgo8L3N2Zz4K</dcscor:value>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content> - роль в профиле</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content> - a role in the profile</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -8054,6 +8374,10 @@ Ljc5NDYxWiIgZmlsbD0iIzcyNzI3MiIvPgo8L3N2Zz4K</dcscor:value>
 								<v8:lang>ru</v8:lang>
 								<v8:content>- использование</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- Use</v8:content>
+							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
@@ -8205,6 +8529,10 @@ PC9zdmc+Cg==</dcscor:value>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>- использование и администрирование</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>- Use and administer</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -8424,6 +8752,10 @@ PC9zdmc+Cg==</dcscor:value>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Права ролей</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Rights of roles</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
@@ -8917,6 +9249,10 @@ PC9zdmc+Cg==</dcscor:value>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Подробные права роли на объект метаданных</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Detailed role rights to a metadata object</v8:content>
+			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:dataParameters>
@@ -8966,6 +9302,10 @@ PC9zdmc+Cg==</dcscor:value>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Показывать роли без прав</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Show roles without rights</v8:content>
 						</v8:item>
 					</dcsset:userSettingPresentation>
 				</dcscor:item>
@@ -9157,6 +9497,10 @@ PC9zdmc+Cg==</dcscor:value>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Права ролей на объект метаданных</v8:content>
 			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Rights of roles to a metadata object</v8:content>
+			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:dataParameters>
@@ -9208,6 +9552,10 @@ PC9zdmc+Cg==</dcscor:value>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Показывать роли без прав</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Show roles without rights</v8:content>
 						</v8:item>
 					</dcsset:userSettingPresentation>
 				</dcscor:item>
@@ -9326,6 +9674,10 @@ PC9zdmc+Cg==</dcscor:value>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>&lt;Без профиля&gt;</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>&lt;Without a profile&gt;</v8:content>
 										</v8:item>
 									</dcscor:value>
 								</dcscor:item>
@@ -9701,6 +10053,10 @@ PC9zdmc+Cg==</dcscor:value>
 											<v8:lang>ru</v8:lang>
 											<v8:content>●</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>●</v8:content>
+										</v8:item>
 									</dcscor:value>
 								</dcscor:item>
 							</dcsset:appearance>
@@ -9744,6 +10100,10 @@ PC9zdmc+Cg==</dcscor:value>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Права роли на объекты метаданных</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Role rights to metadata objects</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">

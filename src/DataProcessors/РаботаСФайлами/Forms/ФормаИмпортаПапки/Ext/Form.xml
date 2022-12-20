@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Загрузка папки</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Upload folder</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -30,6 +34,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Папка с файлами</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File folder</v8:content>
+				</v8:item>
 			</Title>
 			<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 			<Width>40</Width>
@@ -51,6 +59,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Размещение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Location</v8:content>
+				</v8:item>
 			</Title>
 			<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 			<ContextMenu name="ПапкаКонтекстноеМеню" id="15"/>
@@ -70,6 +82,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Свойств файлов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File properties</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -83,6 +99,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание для создаваемых файлов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
 						</v8:item>
 					</Title>
 					<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -109,6 +129,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Кодировка</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Encoding</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -121,6 +145,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Кодировка текстовых файлов:</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Text file encoding:</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="ДекорацияКодировкаКонтекстноеМеню" id="29"/>
@@ -138,6 +166,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Основная командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main command bar</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
@@ -168,6 +200,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отмена</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Cancel</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ЗакрытьExtendedTooltip" id="42"/>
 				</Button>
@@ -192,6 +228,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Описание</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Details</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -206,6 +246,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Удалять файлы после добавления</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete files after adding</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -223,6 +267,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Хранить версии</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Track versions</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -233,6 +281,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Каталог</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Directory</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -286,6 +338,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Папка для добавления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Folder to add files to</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -303,11 +359,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить папку</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Upload folder</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить папку с файлами в программу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Upload the folder with files to the application</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИмпортВыполнить</Action>
@@ -319,11 +383,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать кодировку</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select encoding</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выбрать кодировку</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select encoding</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыбратьКодировку</Action>

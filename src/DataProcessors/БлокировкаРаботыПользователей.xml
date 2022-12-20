@@ -18,6 +18,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Блокировка работы пользователей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Lock user connections</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
@@ -36,6 +40,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Запретить работу пользователей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Deny user access</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -48,6 +56,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что включена блокировка работы пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether user connections are allowed.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -75,6 +87,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Запретить работу регламентных заданий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Disable scheduled jobs</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -87,6 +103,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Признак того, что включена блокировка работы регламентных заданий</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indicates whether scheduled jobs are allowed.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -114,6 +134,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код для разблокировки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Unlock code</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -130,6 +154,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Код разрешения, позволяющий администратору войти в заблокированную программу.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The code that allows administrators to sign in to a locked infobase.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -157,6 +185,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Начало действия блокировки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Lock start time</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -172,6 +204,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Момент времени, с которого начинает действовать блокировка работы пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The time when the application lock takes effect.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -199,6 +235,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Окончание действия блокировки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Lock end time</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -214,6 +254,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Момент времени окончания действия блокировки работы пользователей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The time when the application lock ends.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -241,6 +285,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сообщение для пользователей</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Message for users</v8:content>
+						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
@@ -257,6 +305,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сообщение о причине блокировки, которое выводится пользователю при попытке войти в заблокированную ИБ</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The message explaining the lock reason that is displayed when users attempt to sign in to a locked infobase.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

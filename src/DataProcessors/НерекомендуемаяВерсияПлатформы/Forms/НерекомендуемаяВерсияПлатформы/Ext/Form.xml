@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Рекомендуется обновить версию платформы</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>1C:Enterprise update recommended</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockWholeInterface</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -37,6 +41,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Предупреждение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Warning</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -48,6 +56,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинка предупреждение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Warning picture</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -64,6 +76,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Текст</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Text</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
@@ -76,6 +92,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Версия</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Version</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -92,6 +112,11 @@
 											<v8:content>Для работы с программой %1 использовать версию платформы "1С:Предприятие 8" не ниже %2.
 Используемая сейчас версия: %3.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>%1 requires 1C:Enterprise version %2 or later.
+Current version: %3.</v8:content>
+										</v8:item>
 									</Title>
 									<VerticalAlign>Top</VerticalAlign>
 									<ContextMenu name="ВерсияКонтекстноеМеню" id="20"/>
@@ -107,6 +132,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Текст сообщения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Message text</v8:content>
+								</v8:item>
 							</Title>
 							<VerticalAlign>Top</VerticalAlign>
 							<ContextMenu name="ТекстСообщенияКонтекстноеМеню" id="14"/>
@@ -118,6 +147,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Порядок обновления на новую версию платформы 1С:Предприятие</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>1C:Enterprise update procedure</v8:content>
 								</v8:item>
 							</Title>
 							<Hyperlink>true</Hyperlink>
@@ -134,6 +167,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Завершить работу программы?</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Do you want to exit the application?</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Bottom</VerticalAlign>
@@ -182,11 +219,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить работу на текущей версии</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue with the current version</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить работу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПродолжитьРаботу</Action>
@@ -198,11 +243,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить работу</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exit</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить работу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exit</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗавершитьРаботу</Action>

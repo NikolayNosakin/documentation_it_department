@@ -23,16 +23,21 @@
 		ИзменилосьРазделение = ПараметрыБлокировки.РазделениеВключено <> РазделениеВключено;
 		
 		Если РазделениеВключено Тогда
-			Элементы.ИнформационнаяБазаПеремещена.Заголовок = НСтр("ru = 'Приложение перемещено'");
-			Элементы.ЭтоКопияИнформационнойБазы.Заголовок = НСтр("ru = 'Это копия приложения'");
-			Заголовок = НСтр("ru = 'Приложение было перемещено или восстановлено из резервной копии'");
+			Элементы.ИнформационнаяБазаПеремещена.Заголовок = НСтр("ru = 'Приложение перемещено';
+																	|en = 'The application is transferred'");
+			Элементы.ЭтоКопияИнформационнойБазы.Заголовок = НСтр("ru = 'Это копия приложения';
+																|en = 'Copied application'");
+			Заголовок = НСтр("ru = 'Приложение было перемещено или восстановлено из резервной копии';
+							|en = 'The application was transferred or restored from backup'");
 		КонецЕсли;
 		
 		Если Не РазделениеВключено И Не ИзменилосьРазделение Тогда
 			
 			УточнениеМасштабируемыйКластер = ?(ОбщегоНазначения.ИнформационнаяБазаФайловая(), "",
 				НСтр("ru = '• При работе в масштабируемом кластере для предотвращения ложных срабатываний из-за смены компьютеров, выступающих
-				           |  в роли рабочих серверов, отключите проверку имени компьютера, нажмите <b>Еще - Проверять имя сервера.</b>'"));
+				           |  в роли рабочих серверов, отключите проверку имени компьютера, нажмите <b>Еще - Проверять имя сервера.</b>';
+				           |en = '• When using a scalable cluster, to prevent false starts due to change of computers acting
+				           | as working servers, turn off the computer name check, click <b>More actions - Check server name.</b>'"));
 			
 			НадписьПредупреждение = СтроковыеФункцииКлиентСервер.ПодставитьПараметрыВСтроку(
 				НСтр("ru = 'Работа со всеми внешними ресурсами (синхронизация данных, отправка почты и т.п.), выполняемая по расписанию,
@@ -44,6 +49,18 @@
 				           |
 				           |• Если информационная база будет использоваться для ведения учета, нажмите <b>Информационная база перемещена</b>.
 				           |• Если это копия информационной базы, нажмите <b>Это копия информационной базы</b>.
+				           |%3
+				           |
+				           |%4';
+				           |en = 'Scheduled online activities such as data synchronization and emailing are disabled
+				           |to prevent conflicts with the main infobase.
+				           |
+				           |%1
+				           |
+				           |<a href = ""%2"">Technical information on lock reason</a>
+				           |
+				           | • If you use the infobase for accounting, click <b>Transferred infobase</b>.
+				           | • If it is an infobase copy, click <b>This is an infobase copy</b>.
 				           |%3
 				           |
 				           |%4'"),
@@ -61,6 +78,15 @@
 				           |• Если информационная база будет использоваться для ведения учета, нажмите <b>Информационная база перемещена</b>.
 				           |• Если это копия информационной базы, нажмите <b>Это копия информационной базы</b>.
 				           |
+				           |%1';
+				           |en = 'Scheduled online activities such as data synchronization and emailing are disabled to prevent conflicts
+				           |with the web application.
+				           |
+				           |<b>This infobase was transferred from a web application</b>.
+				           |
+				           | • If you will use the infobase for accounting, select <b>Transferred infobase</b>.
+				           | • If it is an infobase copy, select <b>Infobase copy</b>.
+				           |
 				           |%1'"),
 				ТекстСнятияБлокировки);
 		ИначеЕсли РазделениеВключено И Не ИзменилосьРазделение Тогда
@@ -73,6 +99,15 @@
 				           |• Если приложение будет использоваться для ведения учета, нажмите <b>Приложение перемещено</b>.
 				           |• Если это копия приложения, нажмите <b>Это копия приложения</b>.
 				           |
+				           |%1';
+				           |en = 'Scheduled online activities such as data synchronization and emailing are disabled to prevent conflicts
+				           |with the web application.
+				           |
+				           |<b>The application was transferred.</b>
+				           |
+				           | • If you will use the application for accounting, select <b>Transferred application</b>.
+				           | • If it is a copy of an application, select <b>Copied application</b>.
+				           |
 				           |%1'"),
 				ТекстСнятияБлокировки);
 		Иначе // Если РазделениеВключено И ИзменилосьРазделение
@@ -84,6 +119,15 @@
 				           |
 				           |• Если приложение будет использоваться для ведения учета, нажмите <b>Приложение перемещено</b>.
 				           |• Если это копия приложения, нажмите <b>Это копия приложения</b>.
+				           |
+				           |%1';
+				           |en = 'Scheduled online activities such as data synchronization and emailing are disabled to prevent conflicts
+				           |with the desktop application.
+				           |
+				           |The application was transferred from a desktop.
+				           |
+				           | • If you will use the application for accounting, select <b>Transferred application</b>.
+				           | • If it is a copy of an application, select <b>Copied application</b>.
 				           |
 				           |%1'"),
 				ТекстСнятияБлокировки);
@@ -102,7 +146,8 @@
 		Элементы.ГруппаПараметрыФормы.ТекущаяСтраница = Элементы.ГруппаПараметрыБлокировки;
 		Элементы.НадписьПредупреждение.Видимость = Ложь;
 		Элементы.ЗаписатьИЗакрыть.КнопкаПоУмолчанию = Истина;
-		Заголовок = НСтр("ru = 'Параметры блокировки работы с внешними ресурсами'");
+		Заголовок = НСтр("ru = 'Параметры блокировки работы с внешними ресурсами';
+						|en = 'Lock settings of external resources'");
 	КонецЕсли;
 	
 КонецПроцедуры

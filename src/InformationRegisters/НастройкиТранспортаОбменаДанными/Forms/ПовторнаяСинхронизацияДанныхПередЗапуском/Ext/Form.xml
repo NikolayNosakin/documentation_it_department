@@ -14,6 +14,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Панель основная</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main panel</v8:content>
+				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ПанельОсновнаяРасширеннаяПодсказка" id="27"/>
@@ -23,6 +27,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Начало</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Start</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="НачалоРасширеннаяПодсказка" id="29"/>
@@ -35,6 +43,12 @@
 									<v8:content>Не удалось установить обновление программы, полученное из
 Главного узла
 Техническую информацию см. в &lt;link ЖурналРегистрации&gt;Журнале регистрации&lt;/&gt;.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Cannot install the application update received from the
+main node.
+For details, see the &lt;link ЖурналРегистрации&gt;event log&lt;/&gt;.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ИнформационнаяНадписьИмяУзлаКонтекстноеМеню" id="45"/>
@@ -52,6 +66,12 @@
 обновление программы еще раз (рекомендуется).
 </v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Click &lt;b&gt;Synchronize and continue&lt;/&gt; to get
+the application update again (recommended).
+</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ИнформационнаяНадписьКонтекстноеМеню" id="33"/>
 							<ExtendedTooltip name="ИнформационнаяНадписьРасширеннаяПодсказка" id="34"/>
@@ -62,6 +82,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы параметры подключения</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Connection parameters pages</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыПараметрыПодключенияРасширеннаяПодсказка" id="58"/>
@@ -71,6 +95,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница РИБ</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>DIB page</v8:content>
 										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
@@ -92,6 +120,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница АРМ</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Automated workstation page</v8:content>
 										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
@@ -123,6 +155,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Нажмите &lt;b&gt;П&lt;/&gt;&lt;b&gt;родолжить,&lt;/&gt; чтобы повторить попытку обновления программы.</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Click &lt;b&gt;C&lt;/&gt;&lt;b&gt;ontinue&lt;/&gt; to retry the update.</v8:content>
+								</v8:item>
 							</Title>
 							<ContextMenu name="ИнформационнаяНадписьНеСинхронизироватьКонтекстноеМеню" id="42"/>
 							<ExtendedTooltip name="ИнформационнаяНадписьНеСинхронизироватьРасширеннаяПодсказка" id="43"/>
@@ -134,6 +170,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Длительная операция</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Long-running operation</v8:content>
 						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
@@ -160,6 +200,12 @@
 Это может занять несколько минут.
 Пожалуйста, подождите...</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Synchronizing data.
+This might take a few minutes.
+Please wait…</v8:content>
+								</v8:item>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
 							<ContextMenu name="НадписьДлительнаяОперацияКонтекстноеМеню" id="39"/>
@@ -175,6 +221,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнительные сведения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional information</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -187,6 +237,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Командная панель</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
 			<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="25"/>
@@ -196,6 +250,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Кнопок основная</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main buttons</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаКнопокОсновнаяРасширеннаяПодсказка" id="52"/>
@@ -214,6 +272,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Продолжить</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Continue</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ФормаНеСинхронизироватьИПродолжитьРасширеннаяПодсказка" id="4"/>
 						</Button>
@@ -230,6 +292,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Кнопок длительная операция</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Long-running operation buttons</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаКнопокДлительнаяОперацияРасширеннаяПодсказка" id="54"/>
 					<ChildItems>
@@ -240,6 +306,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Отмена</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Cancel</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ЗавершитьРаботуРасширеннаяПодсказка" id="56"/>
@@ -320,6 +390,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Пароль</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Password</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -361,11 +435,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Синхронизировать и продолжить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Synchronize and continue</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Получить новое сообщение из главного узла и продолжить запуск</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Receive a new message from the master node and continue application startup.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СинхронизироватьИПродолжить</Action>
@@ -377,11 +459,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить работу</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exit</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Завершить работу и повторить запуск позднее</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exit the application and run the synchronization at next startup.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗавершитьРаботу</Action>
@@ -393,11 +483,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не синхронизировать и продолжить</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not synchronize and continue</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Продолжить запуск без получения нового сообщения из главного узла</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Continue application startup without receiving a new message from the master node.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НеСинхронизироватьИПродолжить</Action>
@@ -409,11 +507,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить параметры подключения для синхронизации данных</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change data synchronization connection parameters </v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры подключения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Connection parameters</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПараметрыПодключения</Action>
@@ -425,11 +531,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Забыли пароль?</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Forgot your password?</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Забыли пароль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Forgot your password?</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗабылиПароль</Action>

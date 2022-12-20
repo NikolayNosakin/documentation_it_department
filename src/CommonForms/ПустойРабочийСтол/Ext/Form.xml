@@ -17,6 +17,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Тестовый режим</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Test mode</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -28,6 +32,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Picture</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -48,6 +56,14 @@
 
 Работа пользователей в этом режиме настоятельно не рекомендуется,
 так как это приведет к рассогласованию или потере данных.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The authorization in the infobase was performed for automated testing purposes,
+using the startup parameter &lt;b&gt;DisableSystemStartupLogic&lt;/&gt;.
+
+It is strongly recommended that you do not allow normal user operation in this mode
+as it will result in data losses or mismatches.</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="НадписьКонтекстноеМеню" id="7"/>

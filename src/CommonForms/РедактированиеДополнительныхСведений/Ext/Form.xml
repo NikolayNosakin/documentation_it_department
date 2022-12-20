@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Дополнительные сведения</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Additional information records</v8:content>
+		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
@@ -71,6 +75,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Таблица значений свойств</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Table of property values</v8:content>
+				</v8:item>
 			</Title>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ТаблицаЗначенийСвойствКонтекстноеМеню" id="4">
@@ -118,6 +126,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Таблица значений свойств картинка и свойство</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Table of property values picture and property</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>InCell</Group>
@@ -156,6 +168,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Value</v8:content>
+						</v8:item>
 					</Title>
 					<Wrap>false</Wrap>
 					<ClearButton>true</ClearButton>
@@ -163,6 +179,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>БЛ=Нет; БИ=Да</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>BF=No; BT=Yes</v8:content>
 						</v8:item>
 					</Format>
 					<ContextMenu name="ТаблицаЗначенийСвойствЗначениеКонтекстноеМеню" id="11"/>
@@ -175,11 +195,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>?</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>?</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Подсказка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Tooltip</v8:content>
 						</v8:item>
 					</ToolTip>
 					<CellHyperlink>true</CellHyperlink>
@@ -197,6 +225,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Таблица значений свойств</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Table of property values</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -219,6 +251,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Value</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:TypeSet>cfg:Characteristic.ДополнительныеРеквизитыИСведения</v8:TypeSet>
@@ -229,6 +265,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Номер картинки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Picture index</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -245,6 +285,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -284,6 +328,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Колонка вопрос</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Column question</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -329,11 +377,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить состав дополнительных сведений</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit set of additional information records</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить состав дополнительных сведений</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit set of additional information records</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -349,6 +405,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save</v8:content>
+				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>StdPicture.Write</xr:Ref>
@@ -363,11 +423,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

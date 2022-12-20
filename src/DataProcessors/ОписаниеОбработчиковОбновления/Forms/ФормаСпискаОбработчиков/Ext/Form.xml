@@ -89,6 +89,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Отладка</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Debug</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ГруппаОтладкаРасширеннаяПодсказка" id="206"/>
 				<ChildItems>
@@ -166,11 +170,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки выгрузки описания обработчиков</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Handler details export settings</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки параметров загрузки/выгрузки/группировки обработчиков обновления.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings of update handler import, export, or grouping parameters.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Width>150</Width>
@@ -180,6 +192,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загружать описание обработчиков из &lt;?&gt;; Сохранять в &lt;?&gt;;</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import handler details from &lt;?&gt;; Save to &lt;?&gt;;</v8:content>
 				</v8:item>
 			</CollapsedRepresentationTitle>
 			<Collapsed>true</Collapsed>
@@ -191,6 +207,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Параметры выгрузки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Export parameters</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -206,6 +226,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сохранять в репозиторий</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Save to repository</v8:content>
+								</v8:item>
 							</Title>
 							<TitleLocation>Left</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -217,6 +241,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Путь к каталогу SRC</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>SRC directory path</v8:content>
 								</v8:item>
 							</InputHint>
 							<ContextMenu name="КаталогSRCКонтекстноеМеню" id="76"/>
@@ -252,6 +280,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отборы обработчиков обновления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update handler filters</v8:content>
+				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
@@ -265,6 +297,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Библиотека</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Library</v8:content>
 						</v8:item>
 					</Title>
 					<Width>15</Width>
@@ -303,6 +339,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Команды обработчиков обновления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update handler commands</v8:content>
+				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -335,6 +375,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Установить номер сборки</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Set assembly number</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="УстановитьНомерСборкиОбработчикамРасширеннаяПодсказка" id="217"/>
 				</Button>
@@ -343,6 +387,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Быстрые отборы:</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Quick filters:</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="Декорация1КонтекстноеМеню" id="170"/>
@@ -370,6 +418,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обработчики обновления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update handlers</v8:content>
+				</v8:item>
 			</Title>
 			<ViewStatusLocation>Top</ViewStatusLocation>
 			<RowFilter xsi:nil="true"/>
@@ -387,6 +439,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Обработчики обновления стандартные</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Standard update handlers</v8:content>
 							</v8:item>
 						</Title>
 						<CommandSource>Item.ОбработчикиОбновления</CommandSource>
@@ -590,6 +646,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Начальное заполнение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Initial filling</v8:content>
+						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
@@ -607,6 +667,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обязательный</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Required</v8:content>
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
@@ -629,6 +693,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Многопоточный</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Multi-threaded</v8:content>
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
@@ -708,6 +776,11 @@
 							<v8:content>Текущий обработчик изменяет объекты, которые читаются другими обработчиками
 или другие обработчики изменяют объекты, которые читает текущий обработчик.</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Either this handler modifies objects readable by other handlers
+or other handlers modify objects readable by this handler.</v8:content>
+						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
@@ -725,6 +798,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Повторная запись изменяемых объектов другими обработчиками.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Rewriting objects that are modified by other handlers.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
@@ -748,6 +825,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Задан порядок выполнения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Execution order set</v8:content>
+						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
 					<HeaderPicture>
@@ -769,6 +850,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Изменен</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Changed</v8:content>
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
@@ -868,6 +953,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Текущая библиотека</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Current library</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -883,6 +972,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Читаемый объект</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object to read</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -897,6 +990,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменяемый объект</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object to change</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -955,6 +1052,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Каталог файлов ошибок</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Error files directory</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1055,11 +1156,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить описания</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import details</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить описание обработчиков обновления</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import details of update handlers</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1074,11 +1183,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить в репозиторий</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save to repository</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить в репозиторий</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save to the repository</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1093,11 +1210,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить конфликты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check conflicts</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Находит все пересечения обработчиков - изменение читаемых объектов и повторная запись.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Looking for handlers' collisions: modifiable and rewritable objects.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверитьКонфликты</Action>
@@ -1108,11 +1233,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Контроль построения очереди</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Queue building control</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Построить очередь</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Build the queue</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПостроитьОчередь</Action>
@@ -1123,11 +1256,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать все описания обработчиков</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show all handler details</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Текст процедуры ПриДобавленииОбработчиковОбновления со списком всех описаний обработчиков</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Text of the OnAddUpdateHandlers procedure with the list of all handler details</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПриДобавленииОбработчиковОбновления_Описания</Action>
@@ -1138,11 +1279,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить тест построения очереди</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Test queue building</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить тест построения очереди</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Test queue building</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыполнитьТестПостроенияОчереди</Action>
@@ -1153,11 +1302,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать файл шаблона настройки генератора кода</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show template file for code generator customization</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показывает шаблон файла настроек тегов ERP для генерации кода описания обработчиков обновления (файл cut_tags.yml)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Shows a template of ERP tag settings file used to generate the update handler details code (the cut_tags.yml file)</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказатьНастройки</Action>
@@ -1168,11 +1325,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать все таблицы описания всех обработчиков</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show all handler details tables</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать табличные части</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show tabular sections</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказатьТабличныеЧасти</Action>
@@ -1183,11 +1348,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассчитать очередь</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Calculate queue</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Рассчитать очередь</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Calculate queue</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>РассчитатьОчередь</Action>
@@ -1198,11 +1371,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать все вызовы обработчиков</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show all handler calls</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Текст процедуры ПриДобавленииОбработчиковОбновления со списком вызовов всех процедур описаний обработчиков</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Text of the OnAddUpdateHandlers procedure with the list of all handler details procedure calls</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПриДобавленииОбработчиковОбновления_Вызовы</Action>
@@ -1213,11 +1394,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить в репозиторий все обработчики</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save all handlers to repository</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Полностью перезаписывает все процедуры описания обработчиков</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Totally overwrites all handler details procedures.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьВРепозиторийВсеОбработчики</Action>
@@ -1228,11 +1417,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать тексты всех модулей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show texts of all modules</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать тексты всех модулей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show texts of all modules</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказатьТекстыВсехМодулей</Action>
@@ -1243,11 +1440,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>для выделенных обработчиков</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>for selected handlers</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>в корень конфигурации и модули обновления установится максимальная сборка из обработчиков</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>The maximum assembly of handlers will be installed to the configuration root and update modules</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УстановитьНомерСборкиОбработчикам</Action>
@@ -1258,11 +1463,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать приоритеты и конфликты обработчика</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show handler priorities and conflicts</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать приоритеты конфликты обработчика</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show handler priorities and conflicts</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказатьПриоритетыКонфликтыОбработчика</Action>
@@ -1273,6 +1486,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить список обработчиков тех. проекта</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save list of handlers of technical design</v8:content>
+				</v8:item>
 			</Title>
 			<Action>ЗаписатьСписокОбработчиковТехПроекта</Action>
 		</Command>
@@ -1281,6 +1498,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать код  выделенных обработчиков</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show code of selected handlers</v8:content>
 				</v8:item>
 			</Title>
 			<Shortcut>Ctrl+1</Shortcut>
@@ -1293,11 +1514,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сформировать тексты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Generate texts</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сформировать тексты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Generate texts</v8:content>
 				</v8:item>
 			</ToolTip>
 		</Command>
@@ -1307,11 +1536,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать код описания обработчиков обновления</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show update handler details code</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать код описания обработчиков обновления</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show update handler details code</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказатьКодОписанияОбработчиковОбновления</Action>
@@ -1322,11 +1559,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти в упрощенный режим</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to simplified mode</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переключить режим формы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Switch the form mode</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПереключитьРежимФормы</Action>
@@ -1337,11 +1582,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать объекты обработчика</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show handler objects</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Показать объекты обработчика</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show handler objects</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказатьОбъектыОбработчика</Action>
@@ -1352,11 +1605,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить в файл</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save to file</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сохранить в файл</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save to file</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьВФайл</Action>
@@ -1367,11 +1628,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить из файла</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import from file</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить из файла</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import from file</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗагрузитьИзФайла</Action>
@@ -1382,11 +1651,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить автопорядок</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Set auto order</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Установить авто порядок</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Set auto order</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УстановитьАвтоПорядок</Action>
