@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -40,6 +40,7 @@
 				<SpreadSheetDocumentField name="Результат" id="8">
 					<DataPath>Результат</DataPath>
 					<TitleLocation>None</TitleLocation>
+					<Edit>true</Edit>
 					<ContextMenu name="РезультатКонтекстноеМеню" id="9"/>
 					<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="10"/>
 				</SpreadSheetDocumentField>
@@ -54,11 +55,95 @@
 					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="16"/>
 					<ChildItems>
 						<CheckBoxField name="ВыводитьКлинета" id="17">
-							<DataPath>ВыводитьКлинета</DataPath>
+							<DataPath>ВыводитьКлиента</DataPath>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ВыводитьКлинетаКонтекстноеМеню" id="18"/>
 							<ExtendedTooltip name="ВыводитьКлинетаРасширеннаяПодсказка" id="19"/>
 						</CheckBoxField>
+						<CheckBoxField name="ВыводитьIPАдрес" id="23">
+							<DataPath>ВыводитьIPАдрес</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ВыводитьIPАдресКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="ВыводитьIPАдресРасширеннаяПодсказка" id="25"/>
+						</CheckBoxField>
+						<InputField name="ПоложениеТекста" id="20">
+							<DataPath>ПоложениеТекста</DataPath>
+							<DropListButton>true</DropListButton>
+							<ListChoiceMode>true</ListChoiceMode>
+							<ChooseType>false</ChooseType>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Bottom</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Низ</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">Низ</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Top</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Верх</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">Верх</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Left</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Лево</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">Лево</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Right</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Право</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">Право</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="ПоложениеТекстаКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="ПоложениеТекстаРасширеннаяПодсказка" id="22"/>
+						</InputField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -74,8 +159,12 @@
 		<Attribute name="СсылкаНаОбъект" id="2">
 			<Title>
 				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Device</v8:content>
+				</v8:item>
+				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Ссылка на объект</v8:content>
+					<v8:content>Устройство</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -99,11 +188,49 @@
 				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ВыводитьКлинета" id="4">
+		<Attribute name="ВыводитьКлиента" id="4">
 			<Title>
 				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add client to signature</v8:content>
+				</v8:item>
+				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выводить клинета</v8:content>
+					<v8:content>Выводить клиента</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоложениеТекста" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Text position</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Положение текста</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВыводитьIPАдрес" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show IP address</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выводить IP адрес</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -114,6 +241,10 @@
 	<Commands>
 		<Command name="СформироватьШтрихкод" id="1">
 			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Generate a barcode</v8:content>
+				</v8:item>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сформировать штрихкод</v8:content>
@@ -129,6 +260,10 @@
 		</Command>
 		<Command name="Печать" id="2">
 			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Print</v8:content>
+				</v8:item>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Печать</v8:content>

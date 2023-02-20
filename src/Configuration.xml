@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<Configuration uuid="df4c43c4-63b4-4216-ac10-c353308b57d7">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -41,7 +41,7 @@
 			</Synonym>
 			<Comment/>
 			<NamePrefix/>
-			<ConfigurationExtensionCompatibilityMode>Version8_3_21</ConfigurationExtensionCompatibilityMode>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_22</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
@@ -53,8 +53,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.1.4.1</Version>
-			<UpdateCatalogAddress>https://github.com/NikolayNosakin/1c_documentation_it_department/releases/latest</UpdateCatalogAddress>
+			<Version>1.1.4.2</Version>
+			<UpdateCatalogAddress>https://github.com/NikolayNosakin/documentation_it_department/releases</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
 			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
@@ -69,6 +69,7 @@
 			<DefaultReportForm>CommonForm.ФормаОтчета</DefaultReportForm>
 			<DefaultReportVariantForm>CommonForm.ФормаВариантаОтчета</DefaultReportVariantForm>
 			<DefaultReportSettingsForm>CommonForm.ФормаНастроекОтчета</DefaultReportSettingsForm>
+			<DefaultReportAppearanceTemplate/>
 			<DefaultDynamicListSettingsForm/>
 			<DefaultSearchForm/>
 			<DefaultDataHistoryChangeHistoryForm/>
@@ -197,6 +198,10 @@
 					<app:functionality>AllFilesAccess</app:functionality>
 					<app:use>true</app:use>
 				</app:functionality>
+				<app:functionality>
+					<app:functionality>Videoconferences</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
 			</UsedMobileApplicationFunctionalities>
 			<StandaloneConfigurationRestrictionRoles/>
 			<MobileApplicationURLs/>
@@ -221,7 +226,7 @@
 			<ConfigurationInformationAddress>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>https://github.com/NikolayNosakin/1c_documentation_it_department</v8:content>
+					<v8:content>https://github.com/NikolayNosakin/documentation_it_department</v8:content>
 				</v8:item>
 			</ConfigurationInformationAddress>
 			<DataLockControlMode>Managed</DataLockControlMode>
@@ -793,6 +798,7 @@
 			<Role>ДобавлениеИзменениеУчетныхЗаписейЭлектроннойПочты</Role>
 			<Role>док_БазовыеПрава</Role>
 			<Role>док_ПолныеПраваБезУдаления</Role>
+			<Role>док_Редактирование_WEBСерверы</Role>
 			<Role>док_Редактирование_АТС</Role>
 			<Role>док_Редактирование_АТС_Пароли</Role>
 			<Role>док_Редактирование_БД</Role>
@@ -845,6 +851,7 @@
 			<Role>док_Редактирование_УчетныеДанныеСервисов</Role>
 			<Role>док_Редактирование_УчетныеДанныеСервисовПрисоединенныеФайлы</Role>
 			<Role>док_Редактирование_ХранилищаКонфигураций</Role>
+			<Role>док_Чтение_WEBСерверы</Role>
 			<Role>док_Чтение_АТС</Role>
 			<Role>док_Чтение_АТС_Пароли</Role>
 			<Role>док_Чтение_БД</Role>
@@ -952,6 +959,7 @@
 			<FilterCriterion>ФайлыВТоме</FilterCriterion>
 			<CommonModule>АдминистрированиеКластера</CommonModule>
 			<CommonModule>АдминистрированиеКластераCOM</CommonModule>
+			<CommonModule>АдминистрированиеКластераCOMКлиентСервер</CommonModule>
 			<CommonModule>АдминистрированиеКластераRAS</CommonModule>
 			<CommonModule>АдминистрированиеКластераRASКлиентСервер</CommonModule>
 			<CommonModule>АдминистрированиеКластераКлиентСервер</CommonModule>
@@ -993,7 +1001,6 @@
 			<CommonModule>ДлительныеОперации</CommonModule>
 			<CommonModule>ДлительныеОперацииВызовСервера</CommonModule>
 			<CommonModule>ДлительныеОперацииКлиент</CommonModule>
-			<CommonModule>ДополнительныеОтчетыИОбработки</CommonModule>
 			<CommonModule>док_ИнтеграцияSlack</CommonModule>
 			<CommonModule>док_ОбработкичиРегламентныхЗаданий</CommonModule>
 			<CommonModule>док_ОбщегоНазначения</CommonModule>
@@ -1003,6 +1010,7 @@
 			<CommonModule>док_СтандартныеПодсистемыСервер</CommonModule>
 			<CommonModule>док_ШифрованиеДанныхКлиент</CommonModule>
 			<CommonModule>док_ШифрованиеДанныхСервер</CommonModule>
+			<CommonModule>ДополнительныеОтчетыИОбработки</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработкиВБезопасномРежимеСлужебный</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработкиВызовСервера</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработкиКлиент</CommonModule>
@@ -1064,12 +1072,13 @@
 			<CommonModule>ОбновлениеИнформационнойБазыБСП</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыВызовСервера</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыГлобальный</CommonModule>
-			<CommonModule>ОбновлениеИнформационнойБазыКлиент</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыДокументация</CommonModule>
+			<CommonModule>ОбновлениеИнформационнойБазыКлиент</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыКлиентПереопределяемый</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыПереопределяемый</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебный</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебныйВызовСервера</CommonModule>
+			<CommonModule>ОбновлениеИнформационнойБазыСлужебныйДокументация</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебныйПовтИсп</CommonModule>
 			<CommonModule>Обсуждения</CommonModule>
 			<CommonModule>ОбсужденияКлиент</CommonModule>
@@ -1218,7 +1227,7 @@
 			<CommonModule>УправлениеКонтактнойИнформацией</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформациейКлиент</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформациейКлиентСервер</CommonModule>
-			<CommonModule>АдминистрированиеКластераCOMКлиентСервер</CommonModule>
+			<CommonModule>УправлениеКонтактнойИнформациейЛокализация</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформациейПереопределяемый</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформациейСлужебный</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформациейСлужебныйВызовСервера</CommonModule>
@@ -1245,7 +1254,6 @@
 			<CommonModule>ФайловаяСистемаСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ФизическиеЛицаКлиентСервер</CommonModule>
 			<CommonModule>ЯндексДискОбменДанными</CommonModule>
-			<CommonModule>УправлениеКонтактнойИнформациейЛокализация</CommonModule>
 			<ExchangePlan>ОбновлениеИнформационнойБазы</ExchangePlan>
 			<XDTOPackage>ApplicationExtensionsManifest_1_0_0_1</XDTOPackage>
 			<XDTOPackage>ApplicationExtensionsPermissions_1_0_0_1</XDTOPackage>
@@ -1573,16 +1581,16 @@
 			<Constant>СписокРасширенийФайловOpenDocumentОбластиДанных</Constant>
 			<Constant>СпособХраненияФайлов</Constant>
 			<Constant>СтандартныеПодсистемыВАвтономномРежиме</Constant>
+			<Constant>УдалитьЛогинДоступаКСервисуMorpher</Constant>
+			<Constant>УдалитьНастройкиВходаПользователей</Constant>
 			<Constant>УчетнаяЗаписьДляВосстановленияПароля</Constant>
 			<Constant>ХранитьФайлыВТомахНаДиске</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
-			<Constant>УдалитьЛогинДоступаКСервисуMorpher</Constant>
 			<Constant>ЯД_ID_Приложения</Constant>
 			<Constant>ЯД_КодАвторизации</Constant>
 			<Constant>ЯД_ПарольПриложения</Constant>
 			<Constant>ЯД_СрокДействияТокена</Constant>
 			<Constant>ЯД_Токен</Constant>
-			<Constant>УдалитьНастройкиВходаПользователей</Constant>
 			<CommonForm>БлокировкаРаботыСВнешнимиРесурсами</CommonForm>
 			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
 			<CommonForm>Вопрос</CommonForm>
@@ -1661,6 +1669,7 @@
 			<Catalog>ГруппыВнешнихПользователей</Catalog>
 			<Catalog>ГруппыДоступа</Catalog>
 			<Catalog>ГруппыПользователей</Catalog>
+			<Catalog>док_WEBСерверы</Catalog>
 			<Catalog>док_АТС</Catalog>
 			<Catalog>док_БД</Catalog>
 			<Catalog>док_БДПрисоединенныеФайлы</Catalog>
@@ -1821,12 +1830,14 @@
 			<DataProcessor>ГрупповоеИзменениеРеквизитов</DataProcessor>
 			<DataProcessor>док_SlackConnect</DataProcessor>
 			<DataProcessor>док_ГенераторПаролей</DataProcessor>
+			<DataProcessor>док_ГенерацияШтрихкодовУстройств</DataProcessor>
 			<DataProcessor>док_НастройкаУведомленийПользователейОбОкончанииФН</DataProcessor>
 			<DataProcessor>док_ПанельАдминистрированияДокументация</DataProcessor>
 			<DataProcessor>док_ПанельВзаимодействия</DataProcessor>
 			<DataProcessor>док_ПолучитьСписокИнформационныхБазС_Сервера</DataProcessor>
 			<DataProcessor>док_РаботаС_webinst</DataProcessor>
 			<DataProcessor>док_Регистрация_V83_COMConnector</DataProcessor>
+			<DataProcessor>док_СканированиеШтрихкодов</DataProcessor>
 			<DataProcessor>док_Создание_v8i</DataProcessor>
 			<DataProcessor>док_ТестПодключенияК_FTP</DataProcessor>
 			<DataProcessor>ЖурналРегистрации</DataProcessor>
@@ -1867,8 +1878,6 @@
 			<DataProcessor>ТранспортСообщенийОбменаFTP</DataProcessor>
 			<DataProcessor>УдалениеПомеченныхОбъектов</DataProcessor>
 			<DataProcessor>УниверсальныйОбменДаннымиXML</DataProcessor>
-			<DataProcessor>док_ГенерацияШтрихкодовУстройств</DataProcessor>
-			<DataProcessor>док_СканированиеШтрихкодов</DataProcessor>
 			<InformationRegister>АдресныеОбъекты</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>

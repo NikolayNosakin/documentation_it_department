@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<Catalog uuid="47410a5b-1ac3-4401-952f-e16ed9273f03">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.док_Серверы" category="Object">
@@ -27,6 +27,10 @@
 			<Name>док_Серверы</Name>
 			<Synonym>
 				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Servers</v8:content>
+				</v8:item>
+				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Серверы</v8:content>
 				</v8:item>
@@ -36,7 +40,7 @@
 			<HierarchyType>HierarchyOfItems</HierarchyType>
 			<LimitLevelCount>false</LimitLevelCount>
 			<LevelCount>2</LevelCount>
-			<FoldersOnTop>true</FoldersOnTop>
+			<FoldersOnTop>false</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
@@ -333,6 +337,10 @@
 					<Name>Тип</Name>
 					<Synonym>
 						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Type</v8:content>
+						</v8:item>
+						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Тип</v8:content>
 						</v8:item>
@@ -372,6 +380,10 @@
 				<Properties>
 					<Name>ОС</Name>
 					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OS</v8:content>
+						</v8:item>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>ОС</v8:content>
@@ -413,6 +425,10 @@
 					<Name>Клиент</Name>
 					<Synonym>
 						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Counterparty</v8:content>
+						</v8:item>
+						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Клиент</v8:content>
 						</v8:item>
@@ -452,6 +468,10 @@
 				<Properties>
 					<Name>Домен</Name>
 					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Domain</v8:content>
+						</v8:item>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Домен</v8:content>
@@ -499,6 +519,10 @@
 					<Name>КонтроллерДомена</Name>
 					<Synonym>
 						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Domain Controller</v8:content>
+						</v8:item>
+						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Контроллер домена</v8:content>
 						</v8:item>
@@ -539,6 +563,10 @@
 					<Name>Поколение</Name>
 					<Synonym>
 						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Generation</v8:content>
+						</v8:item>
+						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Поколение</v8:content>
 						</v8:item>
@@ -578,6 +606,10 @@
 				<Properties>
 					<Name>Описание</Name>
 					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
+						</v8:item>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Описание</v8:content>
@@ -622,6 +654,10 @@
 				<Properties>
 					<Name>РабочаяГруппа</Name>
 					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Work Group</v8:content>
+						</v8:item>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Рабочая группа</v8:content>
@@ -677,6 +713,10 @@
 					<Name>IP</Name>
 					<Synonym>
 						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>IP</v8:content>
+						</v8:item>
+						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>IP</v8:content>
 						</v8:item>
@@ -720,6 +760,10 @@
 							<Name>IP</Name>
 							<Synonym>
 								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>IP</v8:content>
+								</v8:item>
+								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>IP</v8:content>
 								</v8:item>
@@ -760,6 +804,10 @@
 						<Properties>
 							<Name>MAC</Name>
 							<Synonym>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>MAC</v8:content>
+								</v8:item>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>MAC</v8:content>
@@ -802,6 +850,10 @@
 							<Name>Основной</Name>
 							<Synonym>
 								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Primary</v8:content>
+								</v8:item>
+								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Основной</v8:content>
 								</v8:item>
@@ -838,6 +890,10 @@
 						<Properties>
 							<Name>Описание</Name>
 							<Synonym>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Description</v8:content>
+								</v8:item>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Описание</v8:content>

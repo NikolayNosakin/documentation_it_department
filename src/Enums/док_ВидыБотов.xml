@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<Enum uuid="f79e12fe-ba87-484c-852d-d44846f3e108">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.док_ВидыБотов" category="Ref">
@@ -18,6 +18,10 @@
 		<Properties>
 			<Name>док_ВидыБотов</Name>
 			<Synonym>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Types of bots</v8:content>
+				</v8:item>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Виды ботов</v8:content>
@@ -97,6 +101,10 @@
 					<Name>Telegram</Name>
 					<Synonym>
 						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Telegram</v8:content>
+						</v8:item>
+						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Telegram</v8:content>
 						</v8:item>
@@ -108,6 +116,10 @@
 				<Properties>
 					<Name>Slack</Name>
 					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Slack</v8:content>
+						</v8:item>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Slack</v8:content>
@@ -121,6 +133,10 @@
 					<Name>ICQ</Name>
 					<Synonym>
 						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>ICQ</v8:content>
+						</v8:item>
+						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>ICQ</v8:content>
 						</v8:item>
@@ -132,6 +148,10 @@
 				<Properties>
 					<Name>Viber</Name>
 					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Viber</v8:content>
+						</v8:item>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Viber</v8:content>
@@ -145,6 +165,10 @@
 					<Name>VK</Name>
 					<Synonym>
 						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>VK</v8:content>
+						</v8:item>
+						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>VK</v8:content>
 						</v8:item>
@@ -156,6 +180,10 @@
 				<Properties>
 					<Name>WhatsApp</Name>
 					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Whats app</v8:content>
+						</v8:item>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Whats app</v8:content>

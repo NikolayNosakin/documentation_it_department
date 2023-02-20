@@ -8,23 +8,42 @@
 			<code>Русский</code>
 			<description>Русский</description>
 		</languageInfo>
+		<languageInfo>
+			<id>en</id>
+			<code>Английский</code>
+			<description>Английский</description>
+		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>1</size>
+		<size>3</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
 				<formatIndex>1</formatIndex>
 			</column>
 		</columnsItem>
+		<columnsItem>
+			<index>1</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>2</index>
+			<column>
+				<formatIndex>3</formatIndex>
+			</column>
+		</columnsItem>
 	</columns>
 	<rowsItem>
 		<index>0</index>
 		<row>
-			<formatIndex>2</formatIndex>
+			<formatIndex>4</formatIndex>
 			<c>
+				<i>1</i>
 				<c>
-					<f>3</f>
+					<f>5</f>
+					<parameter>Устройство</parameter>
 				</c>
 			</c>
 		</row>
@@ -32,9 +51,34 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
+			<formatIndex>6</formatIndex>
 			<c>
 				<c>
-					<f>4</f>
+					<f>7</f>
+					<parameter>Устройство</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Устройство</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
 					<parameter>Устройство</parameter>
 				</c>
 			</c>
@@ -42,27 +86,47 @@
 	</rowsItem>
 	<drawing>
 		<drawingType>Picture</drawingType>
-		<id>1</id>
-		<formatIndex>5</formatIndex>
-		<beginRow>0</beginRow>
+		<id>2</id>
+		<formatIndex>11</formatIndex>
+		<beginRow>1</beginRow>
 		<beginRowOffset>27</beginRowOffset>
-		<endRow>0</endRow>
+		<endRow>1</endRow>
 		<endRowOffset>831</endRowOffset>
-		<beginColumn>0</beginColumn>
+		<beginColumn>1</beginColumn>
 		<beginColumnOffset>30</beginColumnOffset>
-		<endColumn>0</endColumn>
+		<endColumn>1</endColumn>
 		<endColumnOffset>1374</endColumnOffset>
 		<autoSize>false</autoSize>
-		<pictureSize>RealSize</pictureSize>
+		<pictureSize>Proportionally</pictureSize>
 		<zOrder>1</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>6</defaultFormatIndex>
-	<height>2</height>
-	<vgRows>2</vgRows>
+	<defaultFormatIndex>12</defaultFormatIndex>
+	<height>3</height>
+	<vgRows>3</vgRows>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Колонка</name>
+		<area>
+			<type>Columns</type>
+			<beginRow>-1</beginRow>
+			<endRow>-1</endRow>
+			<beginColumn>1</beginColumn>
+			<endColumn>1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ПодписьУстройствоВерх</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ПодписьУстройствоЛево</name>
 		<area>
 			<type>Columns</type>
 			<beginRow>-1</beginRow>
@@ -72,7 +136,27 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>ПодписьУстройство</name>
+		<name>ПодписьУстройствоНиз</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>2</beginRow>
+			<endRow>2</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ПодписьУстройствоПраво</name>
+		<area>
+			<type>Columns</type>
+			<beginRow>-1</beginRow>
+			<endRow>-1</endRow>
+			<beginColumn>2</beginColumn>
+			<endColumn>2</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Строка</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>1</beginRow>
@@ -81,52 +165,88 @@
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
-	<namedItem xsi:type="NamedItemCells">
-		<name>Строка</name>
-		<area>
-			<type>Rows</type>
-			<beginRow>0</beginRow>
-			<endRow>0</endRow>
-			<beginColumn>-1</beginColumn>
-			<endColumn>-1</endColumn>
-		</area>
-	</namedItem>
 	<namedItem xsi:type="NamedItemDrawing">
 		<name>Штрихкод</name>
-		<drawingID>1</drawingID>
+		<drawingID>2</drawingID>
 	</namedItem>
-	<printArea>
-		<type>Rectangle</type>
-		<beginRow>0</beginRow>
-		<endRow>0</endRow>
-		<beginColumn>0</beginColumn>
-		<endColumn>0</endColumn>
-	</printArea>
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">None</v8ui:style>
 	</line>
 	<font faceName="Arial" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
+		<width>381</width>
+		<protection>false</protection>
+	</format>
+	<format>
 		<width>536</width>
+		<textPlacement>Wrap</textPlacement>
+		<protection>false</protection>
 	</format>
 	<format>
-		<height>867</height>
+		<width>451</width>
+		<protection>false</protection>
 	</format>
 	<format>
-		<height>609</height>
-		<width>405</width>
-		<backColor>#FFFF99</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<protection>false</protection>
 	</format>
 	<format>
 		<font>0</font>
+		<width>536</width>
+		<horizontalAlignment>Center</horizontalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
+		<protection>false</protection>
+	</format>
+	<format>
+		<height>867</height>
+		<textPlacement>Wrap</textPlacement>
+		<protection>false</protection>
+	</format>
+	<format>
+		<font>0</font>
+		<width>536</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<protection>false</protection>
+	</format>
+	<format>
+		<font>0</font>
+		<height>609</height>
+		<width>405</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<protection>true</protection>
+	</format>
+	<format>
+		<font>0</font>
+		<height>867</height>
+		<width>536</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<protection>false</protection>
+	</format>
+	<format>
+		<font>0</font>
+		<width>536</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<protection>false</protection>
 	</format>
 	<format>
 		<drawingBorder>0</drawingBorder>
 	</format>
 	<format>
 		<width>72</width>
+		<textPlacement>Wrap</textPlacement>
+		<protection>false</protection>
 	</format>
 	<picture>
 		<index>0</index>
