@@ -121,6 +121,26 @@
 					<ContextMenu name="СерверКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="27"/>
 				</LabelField>
+				<LabelField name="Тип" id="37">
+					<DataPath>Список.Тип</DataPath>
+					<ContextMenu name="ТипКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="39"/>
+				</LabelField>
+				<LabelField name="Версия" id="40">
+					<DataPath>Список.Версия</DataPath>
+					<ContextMenu name="ВерсияКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ВерсияРасширеннаяПодсказка" id="42"/>
+				</LabelField>
+				<LabelField name="Логин" id="43">
+					<DataPath>Список.Логин</DataPath>
+					<ContextMenu name="ЛогинКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ЛогинРасширеннаяПодсказка" id="45"/>
+				</LabelField>
+				<LabelField name="ПользовательОС" id="46">
+					<DataPath>Список.ПользовательОС</DataPath>
+					<ContextMenu name="ПользовательОСКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ПользовательОСРасширеннаяПодсказка" id="48"/>
+				</LabelField>
 				<LabelField name="Описание" id="28">
 					<DataPath>Список.Описание</DataPath>
 					<ContextMenu name="ОписаниеКонтекстноеМеню" id="29"/>
@@ -146,7 +166,11 @@
 	СпрСУБД.Сервер КАК Сервер,
 	СпрСУБД.Описание КАК Описание,
 	СпрСУБД.Предопределенный КАК Предопределенный,
-	СпрСУБД.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных
+	СпрСУБД.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
+	СпрСУБД.Тип КАК Тип,
+	СпрСУБД.Версия КАК Версия,
+	СпрСУБД.Логин КАК Логин,
+	СпрСУБД.ПользовательОС КАК ПользовательОС
 ИЗ
 	Справочник.док_СУБД КАК СпрСУБД
 ГДЕ
@@ -162,10 +186,6 @@
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
 					<dcssch:field>ПометкаУдаления</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>СУБД</dcssch:dataPath>
-					<dcssch:field>СУБД</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
@@ -192,8 +212,28 @@
 					<dcssch:field>Предопределенный</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Платформы</dcssch:dataPath>
-					<dcssch:field>Платформы</dcssch:field>
+					<dcssch:dataPath>Логин</dcssch:dataPath>
+					<dcssch:field>Логин</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Тип</dcssch:dataPath>
+					<dcssch:field>Тип</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Версия</dcssch:dataPath>
+					<dcssch:field>Версия</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Пароль</dcssch:dataPath>
+					<dcssch:field>Пароль</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПользовательОС</dcssch:dataPath>
+					<dcssch:field>ПользовательОС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПарольЗашифрован</dcssch:dataPath>
+					<dcssch:field>ПарольЗашифрован</dcssch:field>
 				</Field>
 				<Parameter>
 					<dcssch:name>Клиент</dcssch:name>

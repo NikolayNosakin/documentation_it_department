@@ -2,33 +2,33 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<Catalog uuid="a3d5b358-5f82-48dd-b67b-6af1d717af13">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.док_СУБДПрисоединенныеФайлы" category="Object">
+			<xr:GeneratedType name="CatalogObject.док_Кластеры1СПрисоединенныеФайлы" category="Object">
 				<xr:TypeId>831e1550-2925-4214-b337-02eef46a0970</xr:TypeId>
 				<xr:ValueId>7c50cad2-6842-4699-a859-366c2e2b249b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.док_СУБДПрисоединенныеФайлы" category="Ref">
+			<xr:GeneratedType name="CatalogRef.док_Кластеры1СПрисоединенныеФайлы" category="Ref">
 				<xr:TypeId>e5a8161f-8329-41ea-b52a-f823ca251aff</xr:TypeId>
 				<xr:ValueId>18622a09-a19d-4f05-ac97-d995bdbc9c39</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.док_СУБДПрисоединенныеФайлы" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.док_Кластеры1СПрисоединенныеФайлы" category="Selection">
 				<xr:TypeId>bfd60e4c-aaa5-48b9-adc6-0c30a5411659</xr:TypeId>
 				<xr:ValueId>c08cb84f-234a-4bc6-bd24-05b237d5b634</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.док_СУБДПрисоединенныеФайлы" category="List">
+			<xr:GeneratedType name="CatalogList.док_Кластеры1СПрисоединенныеФайлы" category="List">
 				<xr:TypeId>12454307-599e-47be-a572-a8fc9b70a4a8</xr:TypeId>
 				<xr:ValueId>d7beb90e-b40f-4ef1-93b2-86764f89369e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.док_СУБДПрисоединенныеФайлы" category="Manager">
+			<xr:GeneratedType name="CatalogManager.док_Кластеры1СПрисоединенныеФайлы" category="Manager">
 				<xr:TypeId>d22541dd-0b22-42a4-b83f-524d84146d55</xr:TypeId>
 				<xr:ValueId>bf82dd74-ec20-4c95-a00c-fc9d6a26934a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>док_СУБДПрисоединенныеФайлы</Name>
+			<Name>док_Кластеры1СПрисоединенныеФайлы</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Присоединенные файлы (СУБД)</v8:content>
+					<v8:content>Присоединенные файлы (Кластеры1С)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -295,7 +295,7 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.док_СУБДПрисоединенныеФайлы.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.док_Кластеры1СПрисоединенныеФайлы.StandardAttribute.Description</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -313,7 +313,7 @@
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<BasedOn/>
 			<DataLockFields>
-				<xr:Field>Catalog.док_СУБДПрисоединенныеФайлы.Attribute.ВладелецФайла</xr:Field>
+				<xr:Field>Catalog.док_Кластеры1СПрисоединенныеФайлы.Attribute.ВладелецФайла</xr:Field>
 			</DataLockFields>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>DontUse</FullTextSearch>
@@ -391,7 +391,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.док_СУБД</v8:Type>
+						<v8:Type>cfg:CatalogRef.док_Кластеры1С</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -1325,11 +1325,11 @@
 			</Attribute>
 			<TabularSection uuid="5fa26413-2223-4ee2-b416-07d29f77fc8a">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.док_СУБДПрисоединенныеФайлы.УдалитьЭлектронныеПодписи" category="TabularSection">
+					<xr:GeneratedType name="CatalogTabularSection.док_Кластеры1СПрисоединенныеФайлы.УдалитьЭлектронныеПодписи" category="TabularSection">
 						<xr:TypeId>c90493f6-17bd-42c4-bd39-7965cdef86ef</xr:TypeId>
 						<xr:ValueId>f53395fe-9ce8-400c-8d7a-fc4f98877ba5</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.док_СУБДПрисоединенныеФайлы.УдалитьЭлектронныеПодписи" category="TabularSectionRow">
+					<xr:GeneratedType name="CatalogTabularSectionRow.док_Кластеры1СПрисоединенныеФайлы.УдалитьЭлектронныеПодписи" category="TabularSectionRow">
 						<xr:TypeId>eefd21e9-e16a-46e5-95db-0893cbc97810</xr:TypeId>
 						<xr:ValueId>b940b941-6971-4d6b-878b-ead0cbae7980</xr:ValueId>
 					</xr:GeneratedType>
@@ -1827,11 +1827,11 @@
 			</TabularSection>
 			<TabularSection uuid="6d07ecdd-daad-458b-87aa-ae62078fe3f6">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.док_СУБДПрисоединенныеФайлы.УдалитьСертификатыШифрования" category="TabularSection">
+					<xr:GeneratedType name="CatalogTabularSection.док_Кластеры1СПрисоединенныеФайлы.УдалитьСертификатыШифрования" category="TabularSection">
 						<xr:TypeId>6ee1491e-fb61-43a7-bada-829635729089</xr:TypeId>
 						<xr:ValueId>8aa48eb4-9616-4d6b-bb95-9199d5a970f1</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.док_СУБДПрисоединенныеФайлы.УдалитьСертификатыШифрования" category="TabularSectionRow">
+					<xr:GeneratedType name="CatalogTabularSectionRow.док_Кластеры1СПрисоединенныеФайлы.УдалитьСертификатыШифрования" category="TabularSectionRow">
 						<xr:TypeId>fcf0c41b-2360-43aa-ba61-84d5ae2347e9</xr:TypeId>
 						<xr:ValueId>11d47197-29e3-4042-bb49-28cf029bf40f</xr:ValueId>
 					</xr:GeneratedType>

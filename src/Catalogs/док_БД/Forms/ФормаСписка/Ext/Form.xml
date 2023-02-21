@@ -110,7 +110,13 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="Наименование" id="16">
+				<CheckBoxField name="Тестовая" id="49" DisplayImportance="Usual">
+					<DataPath>Список.Тестовая</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТестоваяКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ТестоваяРасширеннаяПодсказка" id="51"/>
+				</CheckBoxField>
+				<LabelField name="Наименование" id="16" DisplayImportance="VeryHigh">
 					<DataPath>Список.Наименование</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
@@ -142,6 +148,11 @@
 					<ContextMenu name="ТипБДКонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="ТипБДРасширеннаяПодсказка" id="33"/>
 				</LabelField>
+				<LabelField name="Сервер" id="69" DisplayImportance="High">
+					<DataPath>Список.Сервер</DataPath>
+					<ContextMenu name="СерверКонтекстноеМеню" id="70"/>
+					<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="71"/>
+				</LabelField>
 				<LabelField name="ПутьК_БД" id="34">
 					<DataPath>Список.ПутьК_БД</DataPath>
 					<Visible>false</Visible>
@@ -162,6 +173,7 @@
 				</LabelField>
 				<LabelField name="СУБД" id="46">
 					<DataPath>Список.СУБД</DataPath>
+					<Visible>false</Visible>
 					<ContextMenu name="СУБДКонтекстноеМеню" id="47"/>
 					<ExtendedTooltip name="СУБДРасширеннаяПодсказка" id="48"/>
 				</LabelField>
@@ -170,12 +182,6 @@
 					<ContextMenu name="КлиентКонтекстноеМеню" id="62"/>
 					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="63"/>
 				</LabelField>
-				<CheckBoxField name="Тестовая" id="49">
-					<DataPath>Список.Тестовая</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ТестоваяКонтекстноеМеню" id="50"/>
-					<ExtendedTooltip name="ТестоваяРасширеннаяПодсказка" id="51"/>
-				</CheckBoxField>
 				<LabelField name="Описание" id="37">
 					<DataPath>Список.Описание</DataPath>
 					<ContextMenu name="ОписаниеКонтекстноеМеню" id="38"/>
@@ -205,6 +211,7 @@
 	БД.ТипБД КАК ТипБД,
 	БД.ПутьК_БД КАК ПутьК_БД,
 	БД.Описание КАК Описание,
+	БД.Сервер КАК Сервер,
 	БД.СУБД КАК СУБД,
 	БД.Тестовая КАК Тестовая,
 	БД.Конфигурация КАК Конфигурация,
@@ -315,6 +322,10 @@
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
 					<dcssch:field>Предопределенный</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Сервер</dcssch:dataPath>
+					<dcssch:field>Сервер</dcssch:field>
 				</Field>
 				<Parameter>
 					<dcssch:name>Клиент</dcssch:name>

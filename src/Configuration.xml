@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.1.4.2</Version>
+			<Version>1.1.5.1</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/documentation_it_department/releases</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -841,9 +841,9 @@
 			<Role>док_Редактирование_СетевоеОборудованиеПрисоединенныеФайлы</Role>
 			<Role>док_Редактирование_Сети</Role>
 			<Role>док_Редактирование_СетиПрисоединенныеФайлы</Role>
-			<Role>док_Редактирование_СУБД</Role>
-			<Role>док_Редактирование_СУБД_Пароли</Role>
-			<Role>док_Редактирование_СУБДПрисоединенныеФайлы</Role>
+			<Role>док_Редактирование_Кластеры1С</Role>
+			<Role>док_Редактирование_Кластеры1С_Пароли</Role>
+			<Role>док_Редактирование_Кластеры1СПрисоединенныеФайлы</Role>
 			<Role>док_Редактирование_Устройства</Role>
 			<Role>док_Редактирование_Устройства_Пароли</Role>
 			<Role>док_Редактирование_УстройстваПрисоединенныеФайлы</Role>
@@ -1078,7 +1078,7 @@
 			<CommonModule>ОбновлениеИнформационнойБазыПереопределяемый</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебный</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебныйВызовСервера</CommonModule>
-			<CommonModule>ОбновлениеИнформационнойБазыСлужебныйДокументация</CommonModule>
+			<CommonModule>док_ОбновлениеИнформационнойБазыСлужебный</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебныйПовтИсп</CommonModule>
 			<CommonModule>Обсуждения</CommonModule>
 			<CommonModule>ОбсужденияКлиент</CommonModule>
@@ -1707,8 +1707,8 @@
 			<Catalog>док_СетевоеОборудованиеПрисоединенныеФайлы</Catalog>
 			<Catalog>док_Сети</Catalog>
 			<Catalog>док_СетиПрисоединенныеФайлы</Catalog>
-			<Catalog>док_СУБД</Catalog>
-			<Catalog>док_СУБДПрисоединенныеФайлы</Catalog>
+			<Catalog>док_Кластеры1С</Catalog>
+			<Catalog>док_Кластеры1СПрисоединенныеФайлы</Catalog>
 			<Catalog>док_Устройства</Catalog>
 			<Catalog>док_УстройстваПрисоединенныеФайлы</Catalog>
 			<Catalog>док_УстройстваСУдаленнымУправлением</Catalog>
@@ -1740,6 +1740,7 @@
 			<Catalog>УчетныеЗаписиСинхронизацииФайлов</Catalog>
 			<Catalog>УчетныеЗаписиЭлектроннойПочты</Catalog>
 			<Catalog>Файлы</Catalog>
+			<Catalog>док_СУБД</Catalog>
 			<Enum>ВариантыВерсионированияОбъектов</Enum>
 			<Enum>ВариантыИспользованияВнешнихКомпонент</Enum>
 			<Enum>ВариантыОчисткиФайлов</Enum>

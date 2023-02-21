@@ -106,12 +106,32 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<InputField name="ИмяИБ" id="7">
-			<DataPath>Объект.ИмяИБ</DataPath>
-			<Visible>false</Visible>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ИмяИБКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="ИмяИБРасширеннаяПодсказка" id="9"/>
+		<UsualGroup name="ГрСервернаяИБ" id="151">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГрСервернаяИБРасширеннаяПодсказка" id="152"/>
+			<ChildItems>
+				<InputField name="СУБД" id="153">
+					<DataPath>Объект.СУБД</DataPath>
+					<ContextMenu name="СУБДКонтекстноеМеню" id="154"/>
+					<ExtendedTooltip name="СУБДРасширеннаяПодсказка" id="155"/>
+				</InputField>
+				<InputField name="ИмяИБ" id="7">
+					<DataPath>Объект.ИмяИБ</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИмяИБКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ИмяИБРасширеннаяПодсказка" id="9"/>
+					<Events>
+						<Event name="OnChange">ИмяИБПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="СтрокаСоединения" id="148">
+			<DataPath>СтрокаСоединения</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="СтрокаСоединенияКонтекстноеМеню" id="149"/>
+			<ExtendedTooltip name="СтрокаСоединенияРасширеннаяПодсказка" id="150"/>
 		</InputField>
 		<InputField name="ПутьК_БД" id="25">
 			<DataPath>Объект.ПутьК_БД</DataPath>
@@ -119,6 +139,9 @@
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="ПутьК_БДКонтекстноеМеню" id="26"/>
 			<ExtendedTooltip name="ПутьК_БДРасширеннаяПодсказка" id="27"/>
+			<Events>
+				<Event name="OnChange">ПутьК_БДПриИзменении</Event>
+			</Events>
 		</InputField>
 		<UsualGroup name="Группа6" id="132">
 			<Behavior>Usual</Behavior>
@@ -179,8 +202,8 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="112"/>
 			<ChildItems>
-				<InputField name="СУБД" id="37">
-					<DataPath>Объект.СУБД</DataPath>
+				<InputField name="Сервер" id="37">
+					<DataPath>Объект.Сервер</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<DropListButton>false</DropListButton>
 					<ChoiceButton>true</ChoiceButton>
@@ -189,13 +212,13 @@
 					<SpinButton>false</SpinButton>
 					<OpenButton>true</OpenButton>
 					<CreateButton>false</CreateButton>
-					<ContextMenu name="СУБДКонтекстноеМеню" id="38"/>
-					<ExtendedTooltip name="СУБДРасширеннаяПодсказка" id="39"/>
+					<ContextMenu name="СерверКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="39"/>
 					<Events>
 						<Event name="OnChange">СУБДПриИзменении</Event>
 					</Events>
 				</InputField>
-				<InputField name="СУБДКлиент" id="116">
+				<InputField name="Клиент" id="116">
 					<DataPath>Объект.Клиент</DataPath>
 					<DropListButton>false</DropListButton>
 					<ChoiceButton>true</ChoiceButton>
@@ -204,8 +227,8 @@
 					<SpinButton>false</SpinButton>
 					<OpenButton>true</OpenButton>
 					<CreateButton>false</CreateButton>
-					<ContextMenu name="СУБДКлиентКонтекстноеМеню" id="117"/>
-					<ExtendedTooltip name="СУБДКлиентРасширеннаяПодсказка" id="118"/>
+					<ContextMenu name="КлиентКонтекстноеМеню" id="117"/>
+					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="118"/>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
@@ -335,6 +358,21 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="СтрокаСоединения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Строка соединения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 </Form>
