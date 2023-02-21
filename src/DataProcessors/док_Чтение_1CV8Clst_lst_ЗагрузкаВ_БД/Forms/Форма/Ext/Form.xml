@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="37">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="38"/>
+			<ChildItems>
+				<InputField name="ФайлНастроек" id="1">
+					<DataPath>ФайлНастроек</DataPath>
+					<ChoiceButton>true</ChoiceButton>
+					<ContextMenu name="ФайлНастроекКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ФайлНастроекРасширеннаяПодсказка" id="3"/>
+					<Events>
+						<Event name="StartChoice">ФайлНастроекНачалоВыбора</Event>
+					</Events>
+				</InputField>
+				<Button name="ФормаПрочитать" id="4">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Прочитать</CommandName>
+					<ExtendedTooltip name="ФормаПрочитатьРасширеннаяПодсказка" id="5"/>
+				</Button>
+				<Button name="ЗагрузитьВСправочник" id="69">
+					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.ЗагрузитьВСправочник</CommandName>
+					<ExtendedTooltip name="ЗагрузитьВСправочникРасширеннаяПодсказка" id="70"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="63">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="64"/>
+			<ChildItems>
+				<InputField name="Кластер1С" id="58">
+					<DataPath>Кластер1С</DataPath>
+					<ContextMenu name="Кластер1СКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="Кластер1СРасширеннаяПодсказка" id="60"/>
+				</InputField>
+				<Button name="Заполнить" id="61">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗаполнитьКластерВ_Таб</CommandName>
+					<ExtendedTooltip name="ЗаполнитьРасширеннаяПодсказка" id="62"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа3" id="74">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="75"/>
+			<ChildItems>
+				<InputField name="Клиент" id="76">
+					<DataPath>Клиент</DataPath>
+					<ContextMenu name="КлиентКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="78"/>
+				</InputField>
+				<Button name="ЗаполнитьКлиентаВ_Таб" id="79">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗаполнитьКлиентаВ_Таб</CommandName>
+					<ExtendedTooltip name="ЗаполнитьКлиентаВ_ТабРасширеннаяПодсказка" id="80"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="БД" id="6">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>БД</DataPath>
+			<CommandSet>
+				<ExcludedCommand>Add</ExcludedCommand>
+				<ExcludedCommand>Change</ExcludedCommand>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
+				<ExcludedCommand>EndEdit</ExcludedCommand>
+				<ExcludedCommand>MoveDown</ExcludedCommand>
+				<ExcludedCommand>MoveUp</ExcludedCommand>
+				<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+			</CommandSet>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="БДКонтекстноеМеню" id="7"/>
+			<AutoCommandBar name="БДКоманднаяПанель" id="8">
+				<ChildItems>
+					<Button name="БДУстановитьФлаг" id="65">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УстановитьФлаг</CommandName>
+						<ExtendedTooltip name="БДУстановитьФлагРасширеннаяПодсказка" id="66"/>
+					</Button>
+					<Button name="БДСнятьФлаг" id="67">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СнятьФлаг</CommandName>
+						<ExtendedTooltip name="БДСнятьФлагРасширеннаяПодсказка" id="68"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="БДРасширеннаяПодсказка" id="9"/>
+			<SearchStringAddition name="БДСтрокаПоиска" id="10">
+				<AdditionSource>
+					<Item>БД</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="БДСтрокаПоискаКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="БДСтрокаПоискаРасширеннаяПодсказка" id="12"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="БДСостояниеПросмотра" id="13">
+				<AdditionSource>
+					<Item>БД</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="БДСостояниеПросмотраКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="БДСостояниеПросмотраРасширеннаяПодсказка" id="15"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="БДУправлениеПоиском" id="16">
+				<AdditionSource>
+					<Item>БД</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="БДУправлениеПоискомКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="БДУправлениеПоискомРасширеннаяПодсказка" id="18"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<CheckBoxField name="БДФлЗагрузки" id="55">
+					<DataPath>БД.ФлЗагрузки</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="БДФлЗагрузкиКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="БДФлЗагрузкиРасширеннаяПодсказка" id="57"/>
+				</CheckBoxField>
+				<ColumnGroup name="БДГруппа1" id="45">
+					<Group>Horizontal</Group>
+					<ShowTitle>false</ShowTitle>
+					<TitleBackColor>#10FA74</TitleBackColor>
+					<ShowInHeader>true</ShowInHeader>
+					<ExtendedTooltip name="БДГруппа1РасширеннаяПодсказка" id="46"/>
+					<ChildItems>
+						<InputField name="БДБД" id="39">
+							<DataPath>БД.БД</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="БДБДКонтекстноеМеню" id="40"/>
+							<ExtendedTooltip name="БДБДРасширеннаяПодсказка" id="41"/>
+						</InputField>
+						<InputField name="БДКластер1С" id="42">
+							<DataPath>БД.Кластер1С</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="БДКластер1СКонтекстноеМеню" id="43"/>
+							<ExtendedTooltip name="БДКластер1СРасширеннаяПодсказка" id="44"/>
+						</InputField>
+						<InputField name="БДСУБД_" id="49">
+							<DataPath>БД.СУБД_</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="БДСУБД_КонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="БДСУБД_РасширеннаяПодсказка" id="51"/>
+						</InputField>
+						<InputField name="БДТипБД_" id="52">
+							<DataPath>БД.ТипБД_</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ListChoiceMode>true</ListChoiceMode>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.док_ТипБД.EnumValue.MS_SQL</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.док_ТипБД.EnumValue.PostgreSQL</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.док_ТипБД.EnumValue.Oracle</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.док_ТипБД.EnumValue.IBM_DB2</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="БДТипБД_КонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="БДТипБД_РасширеннаяПодсказка" id="54"/>
+						</InputField>
+						<InputField name="БДКлиент" id="71">
+							<DataPath>БД.Клиент</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="БДКлиентКонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="БДКлиентРасширеннаяПодсказка" id="73"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="БДГруппа2" id="47">
+					<Group>Horizontal</Group>
+					<TitleBackColor>#B1B1B1</TitleBackColor>
+					<ShowInHeader>true</ShowInHeader>
+					<ExtendedTooltip name="БДГруппа2РасширеннаяПодсказка" id="48"/>
+					<ChildItems>
+						<InputField name="БДГуид" id="19">
+							<DataPath>БД.Гуид</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="БДГуидКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="БДГуидРасширеннаяПодсказка" id="21"/>
+						</InputField>
+						<InputField name="БДИмяВКластере" id="22">
+							<DataPath>БД.ИмяВКластере</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="БДИмяВКластереКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="БДИмяВКластереРасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<InputField name="БДОписание" id="25">
+							<DataPath>БД.Описание</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="БДОписаниеКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="БДОписаниеРасширеннаяПодсказка" id="27"/>
+						</InputField>
+						<InputField name="БДТипБД" id="28">
+							<DataPath>БД.ТипБД</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="БДТипБДКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="БДТипБДРасширеннаяПодсказка" id="30"/>
+						</InputField>
+						<InputField name="БДСУБД" id="31">
+							<DataPath>БД.СУБД</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="БДСУБДКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="БДСУБДРасширеннаяПодсказка" id="33"/>
+						</InputField>
+						<InputField name="БДИмяИБ_В_СУБД" id="34">
+							<DataPath>БД.ИмяИБ_В_СУБД</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="БДИмяИБ_В_СУБДКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="БДИмяИБ_В_СУБДРасширеннаяПодсказка" id="36"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.док_Чтение_1CV8Clst_lst_ЗагрузкаВ_БД</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ФайлНастроек" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Файл настроек</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="БД" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>БД</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Гуид" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гуид</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяВКластере" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя в кластере</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Описание" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ТипБД" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип БД</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СУБД" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СУБД</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяИБ_В_СУБД" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя ИБ в СУБД</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="БД" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БД</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.док_БД</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Кластер1С" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кластер 1С</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.док_Кластеры1С</v8:Type>
+					</Type>
+				</Column>
+				<Column name="СУБД_" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СУБД</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.док_СУБД</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ТипБД_" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип БД</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.док_ТипБД</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ФлЗагрузки" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Фл загрузки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Клиент" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Клиент</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Кластер1С" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кластер 1С</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.док_Кластеры1С</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Клиент" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Клиент</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Прочитать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочитать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочитать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Прочитать</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ЗаполнитьКластерВ_Таб" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить кластер в таб</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить кластер в таб</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаполнитьКластерВ_Таб</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="УстановитьФлаг" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить флаг</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить флаг</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УстановитьФлаг</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="СнятьФлаг" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Снять флаг</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Снять флаг</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СнятьФлаг</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ЗагрузитьВСправочник" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить в справочник</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить в справочник</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьВСправочник</Action>
+		</Command>
+		<Command name="ЗаполнитьКлиентаВ_Таб" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить клиента в таб</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить клиента в таб</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаполнитьКлиентаВ_Таб</Action>
+			<Representation>Picture</Representation>
+		</Command>
+	</Commands>
+</Form>
