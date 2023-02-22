@@ -28,6 +28,10 @@
 					<CommandName>Form.Command.ЗагрузитьВСправочник</CommandName>
 					<ExtendedTooltip name="ЗагрузитьВСправочникРасширеннаяПодсказка" id="70"/>
 				</Button>
+				<CommandBar name="Группа4" id="84">
+					<CommandSource>Form</CommandSource>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="85"/>
+				</CommandBar>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="Группа2" id="63">
@@ -156,6 +160,8 @@
 						<InputField name="БДТипБД_" id="52">
 							<DataPath>БД.ТипБД_</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<Width>8</Width>
+							<HorizontalStretch>false</HorizontalStretch>
 							<ListChoiceMode>true</ListChoiceMode>
 							<ChoiceList>
 								<xr:Item>
@@ -197,6 +203,8 @@
 						<InputField name="БДКлиент" id="71">
 							<DataPath>БД.Клиент</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<Width>20</Width>
+							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="БДКлиентКонтекстноеМеню" id="72"/>
 							<ExtendedTooltip name="БДКлиентРасширеннаяПодсказка" id="73"/>
 						</InputField>
@@ -212,6 +220,8 @@
 							<DataPath>БД.Гуид</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<Width>28</Width>
+							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="БДГуидКонтекстноеМеню" id="20"/>
 							<ExtendedTooltip name="БДГуидРасширеннаяПодсказка" id="21"/>
 						</InputField>
@@ -230,12 +240,15 @@
 						<InputField name="БДТипБД" id="28">
 							<DataPath>БД.ТипБД</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<Width>12</Width>
+							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="БДТипБДКонтекстноеМеню" id="29"/>
 							<ExtendedTooltip name="БДТипБДРасширеннаяПодсказка" id="30"/>
 						</InputField>
 						<InputField name="БДСУБД" id="31">
 							<DataPath>БД.СУБД</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<Width>30</Width>
 							<ContextMenu name="БДСУБДКонтекстноеМеню" id="32"/>
 							<ExtendedTooltip name="БДСУБДРасширеннаяПодсказка" id="33"/>
 						</InputField>
@@ -244,6 +257,12 @@
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="БДИмяИБ_В_СУБДКонтекстноеМеню" id="35"/>
 							<ExtendedTooltip name="БДИмяИБ_В_СУБДРасширеннаяПодсказка" id="36"/>
+						</InputField>
+						<InputField name="БДИмяПользователяСУБД" id="81">
+							<DataPath>БД.ИмяПользователяСУБД</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="БДИмяПользователяСУБДКонтекстноеМеню" id="82"/>
+							<ExtendedTooltip name="БДИмяПользователяСУБДРасширеннаяПодсказка" id="83"/>
 						</InputField>
 					</ChildItems>
 				</ColumnGroup>
@@ -293,7 +312,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>50</v8:Length>
+							<v8:Length>36</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -437,6 +456,21 @@
 					</Title>
 					<Type>
 						<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ИмяПользователяСУБД" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя пользователя СУБД</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Column>
 			</Columns>
