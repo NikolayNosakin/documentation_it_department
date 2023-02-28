@@ -46,6 +46,7 @@
 - УдалениеПомеченныхОбъектов
 - УправлениеДоступом
 
+## Скриншоты (старые):
 <img src="https://user-images.githubusercontent.com/32937052/160834111-a185947a-fd33-4ccc-8a89-ce8d6972923c.png" width="600" />
 
 <img src="https://user-images.githubusercontent.com/32937052/160834112-576d2f7f-b31c-4c01-ac24-293575c15a38.png" width="600" />
