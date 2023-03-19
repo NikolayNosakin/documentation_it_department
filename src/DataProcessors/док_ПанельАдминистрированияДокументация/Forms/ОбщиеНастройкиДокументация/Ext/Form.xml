@@ -72,25 +72,25 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="23"/>
 			<ChildItems>
-				<CheckBoxField name="док_ИспользоватьОграничениеRLS_ПоКлиентам" id="17">
-					<DataPath>НаборКонстант.док_ИспользоватьОграничениеRLS_ПоКлиентам</DataPath>
+				<CheckBoxField name="док_ИспользоватьОграничениеRLS_ПоКонтрагентам" id="17">
+					<DataPath>НаборКонстант.док_ИспользоватьОграничениеRLS_ПоКонтрагентам</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="док_ИспользоватьОграничениеRLS_ПоКлиентамКонтекстноеМеню" id="18"/>
-					<ExtendedTooltip name="док_ИспользоватьОграничениеRLS_ПоКлиентамРасширеннаяПодсказка" id="19"/>
+					<ContextMenu name="док_ИспользоватьОграничениеRLS_ПоКонтрагентамКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="док_ИспользоватьОграничениеRLS_ПоКонтрагентамРасширеннаяПодсказка" id="19"/>
 					<Events>
 						<Event name="OnChange">док_ИспользоватьОграничениеRLS_ПоКлиентамПриИзменении</Event>
 					</Events>
 				</CheckBoxField>
-				<Button name="НастроитьОграничениеПользователейПоКлиентам" id="20">
+				<Button name="НастроитьОграничениеПользователейПоКонтрагентам" id="20">
 					<Type>Hyperlink</Type>
-					<CommandName>Form.Command.НастроитьОграничениеПользователейПоКлиентам</CommandName>
+					<CommandName>Form.Command.НастроитьОграничениеПользователейПоКонтрагентам</CommandName>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настроить</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="НастроитьОграничениеПользователейПоКлиентамРасширеннаяПодсказка" id="21"/>
+					<ExtendedTooltip name="НастроитьОграничениеПользователейПоКонтрагентамРасширеннаяПодсказка" id="21"/>
 				</Button>
 			</ChildItems>
 		</UsualGroup>
@@ -190,20 +190,20 @@
 			</ToolTip>
 			<Action>СохранениеВосстановлениеДанных</Action>
 		</Command>
-		<Command name="НастроитьОграничениеПользователейПоКлиентам" id="5">
+		<Command name="НастроитьОграничениеПользователейПоКонтрагентам" id="5">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Настроить ограничение пользователей по клиентам</v8:content>
+					<v8:content>Настроить ограничение пользователей по контрагентам</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Настроить ограничение пользователей по клиентам</v8:content>
+					<v8:content>Настроить ограничение пользователей по контрагентам</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>НастроитьОграничениеПользователейПоКлиентам</Action>
+			<Action>НастроитьОграничениеПользователейПоКонтрагентам</Action>
 		</Command>
 	</Commands>
 </Form>

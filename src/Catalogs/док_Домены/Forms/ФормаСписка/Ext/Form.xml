@@ -28,8 +28,8 @@
 					<ContextMenu name="ПоискКонтекстноеМеню" id="31"/>
 					<ExtendedTooltip name="ПоискРасширеннаяПодсказка" id="32"/>
 				</SearchStringAddition>
-				<InputField name="Клиент1" id="25">
-					<DataPath>Клиент</DataPath>
+				<InputField name="Контрагент1" id="25">
+					<DataPath>Контрагент</DataPath>
 					<DropListButton>false</DropListButton>
 					<ChoiceButton>true</ChoiceButton>
 					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -37,10 +37,10 @@
 					<SpinButton>false</SpinButton>
 					<OpenButton>false</OpenButton>
 					<CreateButton>false</CreateButton>
-					<ContextMenu name="Клиент1КонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="Клиент1РасширеннаяПодсказка" id="27"/>
+					<ContextMenu name="Контрагент1КонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="Контрагент1РасширеннаяПодсказка" id="27"/>
 					<Events>
-						<Event name="OnChange">Клиент1ПриИзменении</Event>
+						<Event name="OnChange">КонтрагентПриИзменении</Event>
 					</Events>
 				</InputField>
 			</ChildItems>
@@ -118,10 +118,10 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
-				<LabelField name="Клиент" id="19">
-					<DataPath>Список.Клиент</DataPath>
-					<ContextMenu name="КлиентКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="21"/>
+				<LabelField name="Контрагент" id="19">
+					<DataPath>Список.Контрагент</DataPath>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="21"/>
 				</LabelField>
 				<LabelField name="Описание" id="22">
 					<DataPath>Список.Описание</DataPath>
@@ -145,7 +145,7 @@
 	СправочникДомены.ПометкаУдаления КАК ПометкаУдаления,
 	СправочникДомены.Код КАК Код,
 	СправочникДомены.Наименование КАК Наименование,
-	СправочникДомены.Клиент КАК Клиент,
+	СправочникДомены.Контрагент КАК Контрагент,
 	СправочникДомены.Описание КАК Описание,
 	СправочникДомены.УчетныеДанные.(
 		Ссылка КАК Ссылка,
@@ -163,9 +163,9 @@
 	Справочник.док_Домены КАК СправочникДомены
 ГДЕ
 	ВЫБОР
-			КОГДА &amp;Клиент = ЗНАЧЕНИЕ(Справочник.док_Клиенты.ПустаяСсылка)
+			КОГДА &amp;Контрагент = ЗНАЧЕНИЕ(Справочник.док_Контрагенты.ПустаяСсылка)
 				ТОГДА ИСТИНА
-			ИНАЧЕ СправочникДомены.Клиент = &amp;Клиент
+			ИНАЧЕ СправочникДомены.Контрагент = &amp;Контрагент
 		КОНЕЦ</QueryText>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Ссылка</dcssch:dataPath>
@@ -244,7 +244,7 @@
 						</v8:item>
 					</dcssch:title>
 					<dcssch:valueType>
-						<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+						<v8:Type>cfg:CatalogRef.док_Контрагенты</v8:Type>
 					</dcssch:valueType>
 					<dcssch:value xsi:nil="true"/>
 					<dcssch:useRestriction>true</dcssch:useRestriction>
@@ -268,15 +268,15 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="Клиент" id="2">
+		<Attribute name="Контрагент" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Клиент</v8:content>
+					<v8:content>Контрагент</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+				<v8:Type>cfg:CatalogRef.док_Контрагенты</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>

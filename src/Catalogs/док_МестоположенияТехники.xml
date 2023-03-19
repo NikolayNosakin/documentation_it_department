@@ -43,7 +43,7 @@
 			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.док_Клиенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.док_Контрагенты</xr:Item>
 			</Owners>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
@@ -212,7 +212,7 @@
 					<xr:Comment/>
 					<xr:FullTextSearch>Use</xr:FullTextSearch>
 					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:type="xr:DesignTimeRef">Catalog.док_Клиенты.EmptyRef</xr:FillValue>
+					<xr:FillValue xsi:type="xr:DesignTimeRef">Catalog.док_Контрагенты.EmptyRef</xr:FillValue>
 					<xr:Mask/>
 					<xr:ChoiceParameters/>
 				</xr:StandardAttribute>

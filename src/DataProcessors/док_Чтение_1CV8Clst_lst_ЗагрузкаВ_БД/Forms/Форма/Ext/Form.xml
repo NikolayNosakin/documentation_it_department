@@ -54,15 +54,15 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="75"/>
 			<ChildItems>
-				<InputField name="Клиент" id="76">
-					<DataPath>Клиент</DataPath>
-					<ContextMenu name="КлиентКонтекстноеМеню" id="77"/>
-					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="78"/>
+				<InputField name="Контрагент" id="76">
+					<DataPath>Контрагент</DataPath>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="78"/>
 				</InputField>
-				<Button name="ЗаполнитьКлиентаВ_Таб" id="79">
+				<Button name="ЗаполнитьКонтрагентаВ_Таб" id="79">
 					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ЗаполнитьКлиентаВ_Таб</CommandName>
-					<ExtendedTooltip name="ЗаполнитьКлиентаВ_ТабРасширеннаяПодсказка" id="80"/>
+					<CommandName>Form.Command.ЗаполнитьКонтрагентаВ_Таб</CommandName>
+					<ExtendedTooltip name="ЗаполнитьКонтрагентаВ_ТабРасширеннаяПодсказка" id="80"/>
 				</Button>
 			</ChildItems>
 		</UsualGroup>
@@ -200,13 +200,13 @@
 							<ContextMenu name="БДТипБД_КонтекстноеМеню" id="53"/>
 							<ExtendedTooltip name="БДТипБД_РасширеннаяПодсказка" id="54"/>
 						</InputField>
-						<InputField name="БДКлиент" id="71">
-							<DataPath>БД.Клиент</DataPath>
+						<InputField name="БДКонтрагент" id="71">
+							<DataPath>БД.Контрагент</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<Width>20</Width>
 							<HorizontalStretch>false</HorizontalStretch>
-							<ContextMenu name="БДКлиентКонтекстноеМеню" id="72"/>
-							<ExtendedTooltip name="БДКлиентРасширеннаяПодсказка" id="73"/>
+							<ContextMenu name="БДКонтрагентКонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="БДКонтрагентРасширеннаяПодсказка" id="73"/>
 						</InputField>
 					</ChildItems>
 				</ColumnGroup>
@@ -447,15 +447,15 @@
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Column>
-				<Column name="Клиент" id="12">
+				<Column name="Контрагент" id="12">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Клиент</v8:content>
+							<v8:content>Контрагент</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+						<v8:Type>cfg:CatalogRef.док_Контрагенты</v8:Type>
 					</Type>
 				</Column>
 				<Column name="ИмяПользователяСУБД" id="13">
@@ -486,15 +486,15 @@
 				<v8:Type>cfg:CatalogRef.док_Кластеры1С</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="Клиент" id="5">
+		<Attribute name="Контрагент" id="5">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Клиент</v8:content>
+					<v8:content>Контрагент</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+				<v8:Type>cfg:CatalogRef.док_Контрагенты</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
@@ -590,24 +590,24 @@
 			</ToolTip>
 			<Action>ЗагрузитьВСправочник</Action>
 		</Command>
-		<Command name="ЗаполнитьКлиентаВ_Таб" id="6">
+		<Command name="ЗаполнитьКонтрагентаВ_Таб" id="6">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить клиента в таб</v8:content>
+					<v8:content>Заполнить контрагента в таб</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить клиента в таб</v8:content>
+					<v8:content>Заполнить контрагента в таб</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
 				<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action>ЗаполнитьКлиентаВ_Таб</Action>
+			<Action>ЗаполнитьКонтрагентаВ_Таб</Action>
 			<Representation>Picture</Representation>
 		</Command>
 	</Commands>

@@ -96,10 +96,10 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
-				<LabelField name="Клиент" id="19">
-					<DataPath>Список.Клиент</DataPath>
-					<ContextMenu name="КлиентКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="21"/>
+				<LabelField name="Контрагент" id="19">
+					<DataPath>~Список.Клиент</DataPath>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="21"/>
 				</LabelField>
 				<LabelField name="Описание" id="22">
 					<DataPath>Список.Описание</DataPath>

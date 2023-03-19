@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.1.5.3</Version>
+			<Version>1.1.6.1</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/documentation_it_department/releases</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -736,9 +736,9 @@
 			<SessionParameter>ВыполняетсяУдалениеОбъектов</SessionParameter>
 			<SessionParameter>ДатаОбновленияПовторноИспользуемыхЗначенийМРО</SessionParameter>
 			<SessionParameter>ДлительныеОперации</SessionParameter>
-			<SessionParameter>док_ИспользоватьОграничениеRLSПоКлиентам</SessionParameter>
+			<SessionParameter>док_ИспользоватьОграничениеRLSПоКонтрагентам</SessionParameter>
 			<SessionParameter>док_ПарольДляШифрования</SessionParameter>
-			<SessionParameter>док_РазрешенныеКлиенты</SessionParameter>
+			<SessionParameter>док_РазрешенныеКонтрагенты</SessionParameter>
 			<SessionParameter>ИдентификаторыТаблицСОтдельнымиНастройкамиПрав</SessionParameter>
 			<SessionParameter>ИнтерактивнаяПроверкаЗаполненияКонтактнойИнформации</SessionParameter>
 			<SessionParameter>ИнтерактивнаяПроверкаЗаполненияСвойств</SessionParameter>
@@ -818,9 +818,9 @@
 			<Role>док_Редактирование_Кассы</Role>
 			<Role>док_Редактирование_Кассы_Пароли</Role>
 			<Role>док_Редактирование_КассыПрисоединенныеФайлы</Role>
-			<Role>док_Редактирование_Клиенты</Role>
-			<Role>док_Редактирование_КлиентыПрисоединенныеФайлы</Role>
-			<Role>док_Редактирование_КонтактныеЛицаКлиентов</Role>
+			<Role>док_Редактирование_Контрагенты</Role>
+			<Role>док_Редактирование_КонтрагентыПрисоединенныеФайлы</Role>
+			<Role>док_Редактирование_КонтактныеЛицаКонтрагентов</Role>
 			<Role>док_Редактирование_Конфигурации</Role>
 			<Role>док_Редактирование_Лицензии</Role>
 			<Role>док_Редактирование_ЛицензииПрисоединенныеФайлы</Role>
@@ -871,9 +871,9 @@
 			<Role>док_Чтение_Кассы</Role>
 			<Role>док_Чтение_Кассы_Пароли</Role>
 			<Role>док_Чтение_КассыПрисоединенныеФайлы</Role>
-			<Role>док_Чтение_Клиенты</Role>
-			<Role>док_Чтение_КлиентыПрисоединенныеФайлы</Role>
-			<Role>док_Чтение_КонтактныеЛицаКлиентов</Role>
+			<Role>док_Чтение_Контрагенты</Role>
+			<Role>док_Чтение_КонтрагентыПрисоединенныеФайлы</Role>
+			<Role>док_Чтение_КонтактныеЛицаКонтрагентов</Role>
 			<Role>док_Чтение_Конфигурации</Role>
 			<Role>док_Чтение_Лицензии</Role>
 			<Role>док_Чтение_ЛицензииПрисоединенныеФайлы</Role>
@@ -1368,7 +1368,7 @@
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>АктуальнаяДатаОбновленияПовторноИспользуемыхЗначенийМРО</FunctionalOption>
 			<FunctionalOption>ВариантыВерсионированияОбъектов</FunctionalOption>
-			<FunctionalOption>док_ИспользоватьОграничениеRLS_ПоКлиентам</FunctionalOption>
+			<FunctionalOption>док_ИспользоватьОграничениеRLS_ПоКонтрагентам</FunctionalOption>
 			<FunctionalOption>док_УведомлятьОбОкончанииФН</FunctionalOption>
 			<FunctionalOption>док_ШифроватьПароли</FunctionalOption>
 			<FunctionalOption>ИспользоватьВерсионированиеОбъекта</FunctionalOption>
@@ -1504,7 +1504,7 @@
 			<Constant>ДанныеДляОтложенногоОбновления</Constant>
 			<Constant>ДатаОбновленияПовторноИспользуемыхЗначенийМРО</Constant>
 			<Constant>ДетализироватьОбновлениеИБВЖурналеРегистрации</Constant>
-			<Constant>док_ИспользоватьОграничениеRLS_ПоКлиентам</Constant>
+			<Constant>док_ИспользоватьОграничениеRLS_ПоКонтрагентам</Constant>
 			<Constant>док_ПаролиЗашифрованы</Constant>
 			<Constant>док_РезервноеКопированиеНаЯндексДиск</Constant>
 			<Constant>док_УведомлятьОбОкончанииФН</Constant>
@@ -1684,9 +1684,11 @@
 			<Catalog>док_ДоменыПрисоединенныеФайлы</Catalog>
 			<Catalog>док_Кассы</Catalog>
 			<Catalog>док_КассыПрисоединенныеФайлы</Catalog>
-			<Catalog>док_Клиенты</Catalog>
-			<Catalog>док_КлиентыПрисоединенныеФайлы</Catalog>
-			<Catalog>док_КонтактныеЛицаКлиентов</Catalog>
+			<Catalog>док_Кластеры1С</Catalog>
+			<Catalog>док_Кластеры1СПрисоединенныеФайлы</Catalog>
+			<Catalog>док_КонтактныеЛицаКонтрагентов</Catalog>
+			<Catalog>док_Контрагенты</Catalog>
+			<Catalog>док_КонтрагентыПрисоединенныеФайлы</Catalog>
 			<Catalog>док_Конфигурации</Catalog>
 			<Catalog>док_Лицензии</Catalog>
 			<Catalog>док_ЛицензииПрисоединенныеФайлы</Catalog>
@@ -1696,7 +1698,7 @@
 			<Catalog>док_ОперационныеСистемы</Catalog>
 			<Catalog>док_Принтеры</Catalog>
 			<Catalog>док_ПринтерыПрисоединенныеФайлы</Catalog>
-			<Catalog>док_РазрешенныеКлиентыПользователей</Catalog>
+			<Catalog>док_РазрешенныеКонтрагентыПользователей</Catalog>
 			<Catalog>док_Серверы</Catalog>
 			<Catalog>док_СерверыVPN</Catalog>
 			<Catalog>док_СерверыVPNПрисоединенныеФайлы</Catalog>
@@ -1707,8 +1709,7 @@
 			<Catalog>док_СетевоеОборудованиеПрисоединенныеФайлы</Catalog>
 			<Catalog>док_Сети</Catalog>
 			<Catalog>док_СетиПрисоединенныеФайлы</Catalog>
-			<Catalog>док_Кластеры1С</Catalog>
-			<Catalog>док_Кластеры1СПрисоединенныеФайлы</Catalog>
+			<Catalog>док_СУБД</Catalog>
 			<Catalog>док_Устройства</Catalog>
 			<Catalog>док_УстройстваПрисоединенныеФайлы</Catalog>
 			<Catalog>док_УстройстваСУдаленнымУправлением</Catalog>
@@ -1740,7 +1741,6 @@
 			<Catalog>УчетныеЗаписиСинхронизацииФайлов</Catalog>
 			<Catalog>УчетныеЗаписиЭлектроннойПочты</Catalog>
 			<Catalog>Файлы</Catalog>
-			<Catalog>док_СУБД</Catalog>
 			<Enum>ВариантыВерсионированияОбъектов</Enum>
 			<Enum>ВариантыИспользованияВнешнихКомпонент</Enum>
 			<Enum>ВариантыОчисткиФайлов</Enum>

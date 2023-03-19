@@ -22,8 +22,8 @@
 			<ContextMenu name="ПоискКонтекстноеМеню" id="38"/>
 			<ExtendedTooltip name="ПоискРасширеннаяПодсказка" id="39"/>
 		</SearchStringAddition>
-		<InputField name="Клиент1" id="34">
-			<DataPath>Клиент</DataPath>
+		<InputField name="Контрагент1" id="34">
+			<DataPath>Контрагент</DataPath>
 			<DropListButton>false</DropListButton>
 			<ChoiceButton>true</ChoiceButton>
 			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -31,10 +31,10 @@
 			<SpinButton>false</SpinButton>
 			<OpenButton>false</OpenButton>
 			<CreateButton>false</CreateButton>
-			<ContextMenu name="Клиент1КонтекстноеМеню" id="35"/>
-			<ExtendedTooltip name="Клиент1РасширеннаяПодсказка" id="36"/>
+			<ContextMenu name="Контрагент1КонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="Контрагент1РасширеннаяПодсказка" id="36"/>
 			<Events>
-				<Event name="OnChange">Клиент1ПриИзменении</Event>
+				<Event name="OnChange">КонтрагентПриИзменении</Event>
 			</Events>
 		</InputField>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
@@ -125,10 +125,10 @@
 					<ContextMenu name="УчетнаяЗаписьКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="УчетнаяЗаписьРасширеннаяПодсказка" id="27"/>
 				</LabelField>
-				<LabelField name="Клиент" id="28">
-					<DataPath>Список.Клиент</DataPath>
-					<ContextMenu name="КлиентКонтекстноеМеню" id="29"/>
-					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="30"/>
+				<LabelField name="Контрагент" id="28">
+					<DataPath>Список.Контрагент</DataPath>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="30"/>
 				</LabelField>
 				<LabelField name="Описание" id="31">
 					<DataPath>Список.Описание</DataPath>
@@ -155,7 +155,7 @@
 	Лицензии.Продукт КАК Продукт,
 	Лицензии.Ключ КАК Ключ,
 	Лицензии.УчетнаяЗапись КАК УчетнаяЗапись,
-	Лицензии.Клиент КАК Клиент,
+	Лицензии.Контрагент КАК Контрагент,
 	Лицензии.ДатаНачала КАК ДатаНачала,
 	Лицензии.ДатаОкончания КАК ДатаОкончания,
 	Лицензии.Описание КАК Описание,
@@ -165,10 +165,14 @@
 	Справочник.док_Лицензии КАК Лицензии
 ГДЕ
 	ВЫБОР
-			КОГДА &amp;Клиент = ЗНАЧЕНИЕ(Справочник.док_Клиенты.ПустаяСсылка)
+			КОГДА &amp;Контрагент = ЗНАЧЕНИЕ(Справочник.док_Контрагенты.ПустаяСсылка)
 				ТОГДА ИСТИНА
-			ИНАЧЕ Лицензии.Клиент = &amp;Клиент
+			ИНАЧЕ Лицензии.Контрагент = &amp;Контрагент
 		КОНЕЦ</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Контрагент</dcssch:dataPath>
+					<dcssch:field>Контрагент</dcssch:field>
+				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Ключ</dcssch:dataPath>
 					<dcssch:field>Ключ</dcssch:field>
@@ -192,10 +196,6 @@
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Код</dcssch:dataPath>
 					<dcssch:field>Код</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Клиент</dcssch:dataPath>
-					<dcssch:field>Клиент</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Наименование</dcssch:dataPath>
@@ -222,15 +222,15 @@
 					<dcssch:field>Предопределенный</dcssch:field>
 				</Field>
 				<Parameter>
-					<dcssch:name>Клиент</dcssch:name>
+					<dcssch:name>Контрагент</dcssch:name>
 					<dcssch:title xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Клиент</v8:content>
+							<v8:content>Контрагент</v8:content>
 						</v8:item>
 					</dcssch:title>
 					<dcssch:valueType>
-						<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+						<v8:Type>cfg:CatalogRef.док_Контрагенты</v8:Type>
 					</dcssch:valueType>
 					<dcssch:value xsi:nil="true"/>
 					<dcssch:useRestriction>true</dcssch:useRestriction>
@@ -254,15 +254,15 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="Клиент" id="2">
+		<Attribute name="Контрагент" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Клиент</v8:content>
+					<v8:content>Контрагент</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+				<v8:Type>cfg:CatalogRef.док_Контрагенты</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>

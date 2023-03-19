@@ -334,16 +334,16 @@
 		<ChildObjects>
 			<Attribute uuid="598deb9c-8deb-4da9-8aeb-f92b0ebe2db9">
 				<Properties>
-					<Name>Клиент</Name>
+					<Name>Контрагент</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Клиент</v8:content>
+							<v8:content>Контрагент</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+						<v8:Type>cfg:CatalogRef.док_Контрагенты</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -698,7 +698,7 @@
 					<ChoiceParameterLinks>
 						<xr:Link>
 							<xr:Name>Отбор.Владелец</xr:Name>
-							<xr:DataPath xsi:type="xs:string">Catalog.док_Принтеры.Attribute.Клиент</xr:DataPath>
+							<xr:DataPath xsi:type="xs:string">Catalog.док_Принтеры.Attribute.Контрагент</xr:DataPath>
 							<xr:ValueChange>Clear</xr:ValueChange>
 						</xr:Link>
 					</ChoiceParameterLinks>

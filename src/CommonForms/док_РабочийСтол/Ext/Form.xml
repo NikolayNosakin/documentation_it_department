@@ -223,10 +223,10 @@
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа15РасширеннаяПодсказка" id="92"/>
 							<ChildItems>
-								<Button name="Клиенты" id="23">
+								<Button name="Контрагенты" id="23">
 									<Type>Hyperlink</Type>
-									<CommandName>Form.Command.Клиенты</CommandName>
-									<ExtendedTooltip name="КлиентыРасширеннаяПодсказка" id="24"/>
+									<CommandName>Form.Command.Контрагенты</CommandName>
+									<ExtendedTooltip name="КонтрагентыРасширеннаяПодсказка" id="24"/>
 								</Button>
 								<LabelDecoration name="Декорация2" id="58">
 									<Title formatted="false">
@@ -563,20 +563,20 @@
 			</ToolTip>
 			<Action>Домены</Action>
 		</Command>
-		<Command name="Клиенты" id="8">
+		<Command name="Контрагенты" id="8">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Клиенты</v8:content>
+					<v8:content>Контрагенты</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Клиенты</v8:content>
+					<v8:content>Контрагенты</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>Клиенты</Action>
+			<Action>Контрагенты</Action>
 		</Command>
 		<Command name="Номенклатура" id="9">
 			<Title>

@@ -22,8 +22,8 @@
 			<ContextMenu name="ПоискКонтекстноеМеню" id="35"/>
 			<ExtendedTooltip name="ПоискРасширеннаяПодсказка" id="36"/>
 		</SearchStringAddition>
-		<InputField name="Клиент" id="31">
-			<DataPath>Клиент</DataPath>
+		<InputField name="Контрагент" id="31">
+			<DataPath>Контрагент</DataPath>
 			<DropListButton>false</DropListButton>
 			<ChoiceButton>true</ChoiceButton>
 			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -31,8 +31,8 @@
 			<SpinButton>false</SpinButton>
 			<OpenButton>false</OpenButton>
 			<CreateButton>false</CreateButton>
-			<ContextMenu name="КлиентКонтекстноеМеню" id="32"/>
-			<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="33"/>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="33"/>
 			<Events>
 				<Event name="OnChange">КлиентПриИзменении</Event>
 			</Events>
@@ -105,7 +105,7 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<LabelField name="Наименование" id="16">
-					<DataPath>Список.Наименование</DataPath>
+					<DataPath>~Список.Наименование</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<Title>
 						<v8:item>
@@ -117,12 +117,12 @@
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
 				<LabelField name="Сервер" id="25">
-					<DataPath>Список.Сервер</DataPath>
+					<DataPath>~Список.Сервер</DataPath>
 					<ContextMenu name="СерверКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="27"/>
 				</LabelField>
 				<LabelField name="Описание" id="28">
-					<DataPath>Список.Описание</DataPath>
+					<DataPath>~Список.Описание</DataPath>
 					<ContextMenu name="ОписаниеКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="30"/>
 				</LabelField>
@@ -151,7 +151,7 @@
 	Справочник.док_Кластеры1С КАК Кластеры
 ГДЕ
 	ВЫБОР
-			КОГДА &amp;Клиент = ЗНАЧЕНИЕ(Справочник.док_Клиенты.ПустаяСсылка)
+			КОГДА &amp;Клиент = ЗНАЧЕНИЕ(Справочник.док_Контрагенты.ПустаяСсылка)
 				ТОГДА ИСТИНА
 			ИНАЧЕ Кластеры.Сервер.Клиент = &amp;Клиент
 		КОНЕЦ</QueryText>
@@ -204,7 +204,7 @@
 						</v8:item>
 					</dcssch:title>
 					<dcssch:valueType>
-						<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+						<v8:Type>cfg:CatalogRef.док_Контрагенты</v8:Type>
 					</dcssch:valueType>
 					<dcssch:value xsi:nil="true"/>
 					<dcssch:useRestriction>true</dcssch:useRestriction>
@@ -228,15 +228,15 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="Клиент" id="2">
+		<Attribute name="Контрагент" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Клиент</v8:content>
+					<v8:content>Контрагент</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+				<v8:Type>cfg:CatalogRef.док_Контрагенты</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>

@@ -43,8 +43,8 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<InputField name="Клиент" id="13">
-			<DataPath>Объект.Клиент</DataPath>
+		<InputField name="Контрагент" id="13">
+			<DataPath>Объект.Контрагент</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<DropListButton>false</DropListButton>
 			<ChoiceButton>true</ChoiceButton>
@@ -53,8 +53,8 @@
 			<SpinButton>false</SpinButton>
 			<OpenButton>true</OpenButton>
 			<CreateButton>false</CreateButton>
-			<ContextMenu name="КлиентКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="15"/>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="15"/>
 			<Events>
 				<Event name="OnChange">НазначитьНаименование</Event>
 			</Events>

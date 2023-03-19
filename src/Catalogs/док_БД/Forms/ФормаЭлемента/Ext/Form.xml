@@ -26,8 +26,8 @@
 					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 				</InputField>
-				<InputField name="Клиент" id="116">
-					<DataPath>Объект.Клиент</DataPath>
+				<InputField name="Контрагент" id="116">
+					<DataPath>Объект.Контрагент</DataPath>
 					<DropListButton>false</DropListButton>
 					<ChoiceButton>true</ChoiceButton>
 					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -35,8 +35,8 @@
 					<SpinButton>false</SpinButton>
 					<OpenButton>true</OpenButton>
 					<CreateButton>false</CreateButton>
-					<ContextMenu name="КлиентКонтекстноеМеню" id="117"/>
-					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="118"/>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="117"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="118"/>
 				</InputField>
 				<CheckBoxField name="Тестовая" id="119">
 					<DataPath>Объект.Тестовая</DataPath>

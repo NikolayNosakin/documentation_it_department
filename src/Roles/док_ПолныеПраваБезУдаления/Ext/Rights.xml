@@ -809,7 +809,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_РазрешенныеКлиентыПользователей</name>
+		<name>Catalog.док_РазрешенныеКонтрагентыПользователей</name>
 		<right>
 			<name>Delete</name>
 			<value>false</value>
@@ -1044,8 +1044,8 @@
 			<name>Read</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
-ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКонтрагентам #Тогда
+ГДЕ Контрагент В(&amp;док_РазрешенныеКонтрагенты)
 #КонецЕсли</condition>
 			</restrictionByCondition>
 		</right>
@@ -1053,8 +1053,8 @@
 			<name>Insert</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
-ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКонтрагентам #Тогда
+ГДЕ Контрагент В(&amp;док_РазрешенныеКонтрагенты)
 #КонецЕсли</condition>
 			</restrictionByCondition>
 		</right>
@@ -1062,8 +1062,8 @@
 			<name>Update</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
-ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКонтрагентам #Тогда
+ГДЕ Контрагент В(&amp;док_РазрешенныеКонтрагенты)
 #КонецЕсли</condition>
 			</restrictionByCondition>
 		</right>
@@ -1296,7 +1296,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КонтактныеЛицаКлиентов</name>
+		<name>Catalog.док_КонтактныеЛицаКонтрагентов</name>
 		<right>
 			<name>Delete</name>
 			<value>false</value>
@@ -1618,7 +1618,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_КлиентыПрисоединенныеФайлы</name>
+		<name>Catalog.док_КонтрагентыПрисоединенныеФайлы</name>
 		<right>
 			<name>Delete</name>
 			<value>false</value>
@@ -1724,8 +1724,8 @@
 			<name>Read</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
-ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКонтрагентам #Тогда
+ГДЕ Контрагент В(&amp;док_РазрешенныеКонтрагенты)
 #КонецЕсли</condition>
 			</restrictionByCondition>
 		</right>
@@ -1733,8 +1733,8 @@
 			<name>Insert</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
-ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКонтрагентам #Тогда
+ГДЕ Контрагент В(&amp;док_РазрешенныеКонтрагенты)
 #КонецЕсли</condition>
 			</restrictionByCondition>
 		</right>
@@ -1742,8 +1742,8 @@
 			<name>Update</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКлиентам #Тогда
-ГДЕ Клиент В(&amp;док_РазрешенныеКлиенты)
+				<condition>#Если &amp;док_ИспользоватьОграничениеRLSПоКонтрагентам #Тогда
+ГДЕ Контрагент В(&amp;док_РазрешенныеКонтрагенты)
 #КонецЕсли</condition>
 			</restrictionByCondition>
 		</right>
@@ -1838,7 +1838,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.док_Клиенты</name>
+		<name>Catalog.док_Контрагенты</name>
 		<right>
 			<name>Delete</name>
 			<value>false</value>

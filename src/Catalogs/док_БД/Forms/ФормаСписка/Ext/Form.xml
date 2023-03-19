@@ -26,8 +26,8 @@
 					<ContextMenu name="ПоискКонтекстноеМеню" id="59"/>
 					<ExtendedTooltip name="ПоискРасширеннаяПодсказка" id="60"/>
 				</SearchStringAddition>
-				<InputField name="Клиент1" id="66">
-					<DataPath>Клиент</DataPath>
+				<InputField name="Контрагент1" id="66">
+					<DataPath>Контрагент</DataPath>
 					<DropListButton>false</DropListButton>
 					<ChoiceButton>true</ChoiceButton>
 					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -35,10 +35,10 @@
 					<SpinButton>false</SpinButton>
 					<OpenButton>false</OpenButton>
 					<CreateButton>false</CreateButton>
-					<ContextMenu name="Клиент1КонтекстноеМеню" id="67"/>
-					<ExtendedTooltip name="Клиент1РасширеннаяПодсказка" id="68"/>
+					<ContextMenu name="Контрагент1КонтекстноеМеню" id="67"/>
+					<ExtendedTooltip name="Контрагент1РасширеннаяПодсказка" id="68"/>
 					<Events>
-						<Event name="OnChange">Клиент1ПриИзменении</Event>
+						<Event name="OnChange">Контрагент1ПриИзменении</Event>
 					</Events>
 				</InputField>
 			</ChildItems>
@@ -177,10 +177,10 @@
 					<ContextMenu name="СУБДКонтекстноеМеню" id="47"/>
 					<ExtendedTooltip name="СУБДРасширеннаяПодсказка" id="48"/>
 				</LabelField>
-				<LabelField name="Клиент" id="61">
-					<DataPath>Список.Клиент</DataPath>
-					<ContextMenu name="КлиентКонтекстноеМеню" id="62"/>
-					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="63"/>
+				<LabelField name="Контрагент" id="61">
+					<DataPath>Список.Контрагент</DataPath>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="63"/>
 				</LabelField>
 				<LabelField name="Описание" id="37">
 					<DataPath>Список.Описание</DataPath>
@@ -220,16 +220,16 @@
 	БД.WebСервер КАК WebСервер,
 	БД.АдресПубликации КАК АдресПубликации,
 	БД.ХранилищеКонфигурации КАК ХранилищеКонфигурации,
-	БД.Клиент КАК Клиент,
+	БД.Контрагент КАК Контрагент,
 	БД.Предопределенный КАК Предопределенный,
 	БД.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных
 ИЗ
 	Справочник.док_БД КАК БД
 ГДЕ
 	ВЫБОР
-			КОГДА &amp;Клиент = ЗНАЧЕНИЕ(Справочник.док_Клиенты.ПустаяСсылка)
+			КОГДА &amp;Контрагент = ЗНАЧЕНИЕ(Справочник.док_Контрагенты.ПустаяСсылка)
 				ТОГДА ИСТИНА
-			ИНАЧЕ БД.Клиент = &amp;Клиент
+			ИНАЧЕ БД.Контрагент = &amp;Контрагент
 		КОНЕЦ</QueryText>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Ссылка</dcssch:dataPath>
@@ -336,7 +336,7 @@
 						</v8:item>
 					</dcssch:title>
 					<dcssch:valueType>
-						<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+						<v8:Type>cfg:CatalogRef.док_Контрагенты</v8:Type>
 					</dcssch:valueType>
 					<dcssch:value xsi:nil="true"/>
 					<dcssch:useRestriction>true</dcssch:useRestriction>
@@ -360,15 +360,15 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="Клиент" id="2">
+		<Attribute name="Контрагент" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Клиент</v8:content>
+					<v8:content>Контрагент</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+				<v8:Type>cfg:CatalogRef.док_Контрагенты</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>

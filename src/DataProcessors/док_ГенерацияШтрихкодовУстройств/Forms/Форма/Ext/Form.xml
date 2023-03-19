@@ -54,11 +54,11 @@
 					<Group>Vertical</Group>
 					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="16"/>
 					<ChildItems>
-						<CheckBoxField name="ВыводитьКлинета" id="17">
-							<DataPath>ВыводитьКлиента</DataPath>
+						<CheckBoxField name="ВыводитьКонтрагента" id="17">
+							<DataPath>ВыводитьКонтрагента</DataPath>
 							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="ВыводитьКлинетаКонтекстноеМеню" id="18"/>
-							<ExtendedTooltip name="ВыводитьКлинетаРасширеннаяПодсказка" id="19"/>
+							<ContextMenu name="ВыводитьКонтрагентаКонтекстноеМеню" id="18"/>
+							<ExtendedTooltip name="ВыводитьКонтрагентаРасширеннаяПодсказка" id="19"/>
 						</CheckBoxField>
 						<CheckBoxField name="ВыводитьIPАдрес" id="23">
 							<DataPath>ВыводитьIPАдрес</DataPath>
@@ -188,7 +188,7 @@
 				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ВыводитьКлиента" id="4">
+		<Attribute name="ВыводитьКонтрагента" id="4">
 			<Title>
 				<v8:item>
 					<v8:lang>en</v8:lang>
@@ -196,7 +196,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выводить клиента</v8:content>
+					<v8:content>Выводить контрагента</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

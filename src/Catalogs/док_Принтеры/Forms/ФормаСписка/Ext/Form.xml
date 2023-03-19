@@ -22,8 +22,8 @@
 			<ContextMenu name="ПоискКонтекстноеМеню" id="35"/>
 			<ExtendedTooltip name="ПоискРасширеннаяПодсказка" id="36"/>
 		</SearchStringAddition>
-		<InputField name="Клиент1" id="31">
-			<DataPath>Клиент</DataPath>
+		<InputField name="Контрагент1" id="31">
+			<DataPath>Контрагент</DataPath>
 			<DropListButton>false</DropListButton>
 			<ChoiceButton>true</ChoiceButton>
 			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -31,10 +31,10 @@
 			<SpinButton>false</SpinButton>
 			<OpenButton>false</OpenButton>
 			<CreateButton>false</CreateButton>
-			<ContextMenu name="Клиент1КонтекстноеМеню" id="32"/>
-			<ExtendedTooltip name="Клиент1РасширеннаяПодсказка" id="33"/>
+			<ContextMenu name="Контрагент1КонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="Контрагент1РасширеннаяПодсказка" id="33"/>
 			<Events>
-				<Event name="OnChange">Клиент1ПриИзменении</Event>
+				<Event name="OnChange">КонтрагентПриИзменении</Event>
 			</Events>
 		</InputField>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
@@ -110,10 +110,10 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
-				<LabelField name="Клиент" id="19">
-					<DataPath>Список.Клиент</DataPath>
-					<ContextMenu name="КлиентКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="21"/>
+				<LabelField name="Контрагент" id="19">
+					<DataPath>Список.Контрагент</DataPath>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="21"/>
 				</LabelField>
 				<LabelField name="IP" id="22">
 					<DataPath>Список.IP</DataPath>
@@ -152,7 +152,7 @@
 	Принтеры.ПометкаУдаления КАК ПометкаУдаления,
 	Принтеры.Код КАК Код,
 	Принтеры.Наименование КАК Наименование,
-	Принтеры.Клиент КАК Клиент,
+	Принтеры.Контрагент КАК Контрагент,
 	Принтеры.IP КАК IP,
 	Принтеры.ТипПодключения КАК ТипПодключения,
 	Принтеры.Описание КАК Описание,
@@ -163,9 +163,9 @@
 	Справочник.док_Принтеры КАК Принтеры
 ГДЕ
 	ВЫБОР
-			КОГДА &amp;Клиент = ЗНАЧЕНИЕ(Справочник.док_Клиенты.ПустаяСсылка)
+			КОГДА &amp;Контрагент = ЗНАЧЕНИЕ(Справочник.док_Контрагенты.ПустаяСсылка)
 				ТОГДА ИСТИНА
-			ИНАЧЕ Принтеры.Клиент = &amp;Клиент
+			ИНАЧЕ Принтеры.Контрагент = &amp;Контрагент
 		КОНЕЦ</QueryText>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Логин</dcssch:dataPath>
@@ -200,12 +200,20 @@
 					<dcssch:field>Ссылка</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Клиент</dcssch:dataPath>
-					<dcssch:field>Клиент</dcssch:field>
+					<dcssch:dataPath>МоделиКартриджей</dcssch:dataPath>
+					<dcssch:field>МоделиКартриджей</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Наименование</dcssch:dataPath>
 					<dcssch:field>Наименование</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Контрагент</dcssch:dataPath>
+					<dcssch:field>Контрагент</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Местоположение</dcssch:dataPath>
+					<dcssch:field>Местоположение</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>IP</dcssch:dataPath>
@@ -219,28 +227,20 @@
 					<dcssch:dataPath>Описание</dcssch:dataPath>
 					<dcssch:field>Описание</dcssch:field>
 				</Field>
-				<Field xsi:type="dcssch:DataSetFieldNestedDataSet">
-					<dcssch:dataPath>МоделиКартриджей</dcssch:dataPath>
-					<dcssch:field>МоделиКартриджей</dcssch:field>
-				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
 					<dcssch:field>Предопределенный</dcssch:field>
 				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Местоположение</dcssch:dataPath>
-					<dcssch:field>Местоположение</dcssch:field>
-				</Field>
 				<Parameter>
-					<dcssch:name>Клиент</dcssch:name>
+					<dcssch:name>Контрагент</dcssch:name>
 					<dcssch:title xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Клиент</v8:content>
+							<v8:content>Контрагент</v8:content>
 						</v8:item>
 					</dcssch:title>
 					<dcssch:valueType>
-						<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+						<v8:Type>cfg:CatalogRef.док_Контрагенты</v8:Type>
 					</dcssch:valueType>
 					<dcssch:value xsi:nil="true"/>
 					<dcssch:useRestriction>true</dcssch:useRestriction>
@@ -264,15 +264,15 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="Клиент" id="2">
+		<Attribute name="Контрагент" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Клиент</v8:content>
+					<v8:content>Контрагент</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:CatalogRef.док_Клиенты</v8:Type>
+				<v8:Type>cfg:CatalogRef.док_Контрагенты</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
