@@ -105,7 +105,7 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<LabelField name="Наименование" id="16">
-					<DataPath>~Список.Наименование</DataPath>
+					<DataPath>Список.Наименование</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<Title>
 						<v8:item>
@@ -117,12 +117,17 @@
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
 				<LabelField name="Сервер" id="25">
-					<DataPath>~Список.Сервер</DataPath>
+					<DataPath>Список.Сервер</DataPath>
 					<ContextMenu name="СерверКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="27"/>
 				</LabelField>
+				<LabelField name="Версия" id="37">
+					<DataPath>Список.Версия</DataPath>
+					<ContextMenu name="ВерсияКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ВерсияРасширеннаяПодсказка" id="39"/>
+				</LabelField>
 				<LabelField name="Описание" id="28">
-					<DataPath>~Список.Описание</DataPath>
+					<DataPath>Список.Описание</DataPath>
 					<ContextMenu name="ОписаниеКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="30"/>
 				</LabelField>
@@ -144,6 +149,7 @@
 	Кластеры.Код КАК Код,
 	Кластеры.Наименование КАК Наименование,
 	Кластеры.Сервер КАК Сервер,
+	Кластеры.Версия КАК Версия,
 	Кластеры.Описание КАК Описание,
 	Кластеры.Предопределенный КАК Предопределенный,
 	Кластеры.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных
@@ -151,25 +157,33 @@
 	Справочник.док_Кластеры1С КАК Кластеры
 ГДЕ
 	ВЫБОР
-			КОГДА &amp;Клиент = ЗНАЧЕНИЕ(Справочник.док_Контрагенты.ПустаяСсылка)
+			КОГДА &amp;Контрагент = ЗНАЧЕНИЕ(Справочник.док_Контрагенты.ПустаяСсылка)
 				ТОГДА ИСТИНА
-			ИНАЧЕ Кластеры.Сервер.Клиент = &amp;Клиент
+			ИНАЧЕ Кластеры.Сервер.Контрагент = &amp;Контрагент
 		КОНЕЦ</QueryText>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Код</dcssch:dataPath>
-					<dcssch:field>Код</dcssch:field>
-				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
 					<dcssch:field>ПометкаУдаления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Платформы</dcssch:dataPath>
+					<dcssch:field>Платформы</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ссылка</dcssch:dataPath>
+					<dcssch:field>Ссылка</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
 					<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Ссылка</dcssch:dataPath>
-					<dcssch:field>Ссылка</dcssch:field>
+					<dcssch:dataPath>Код</dcssch:dataPath>
+					<dcssch:field>Код</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
+					<dcssch:field>Предопределенный</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Сервер</dcssch:dataPath>
@@ -184,23 +198,31 @@
 					<dcssch:field>Описание</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
-					<dcssch:field>Предопределенный</dcssch:field>
+					<dcssch:dataPath>Версия</dcssch:dataPath>
+					<dcssch:field>Версия</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Платформы</dcssch:dataPath>
-					<dcssch:field>Платформы</dcssch:field>
+					<dcssch:dataPath>Пароль</dcssch:dataPath>
+					<dcssch:field>Пароль</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>СУБД</dcssch:dataPath>
-					<dcssch:field>СУБД</dcssch:field>
+					<dcssch:dataPath>Разрядность</dcssch:dataPath>
+					<dcssch:field>Разрядность</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Логин</dcssch:dataPath>
+					<dcssch:field>Логин</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Порт</dcssch:dataPath>
+					<dcssch:field>Порт</dcssch:field>
 				</Field>
 				<Parameter>
-					<dcssch:name>Клиент</dcssch:name>
+					<dcssch:name>Контрагент</dcssch:name>
 					<dcssch:title xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Клиент</v8:content>
+							<v8:content>Контрагент</v8:content>
 						</v8:item>
 					</dcssch:title>
 					<dcssch:valueType>
