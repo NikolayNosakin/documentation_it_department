@@ -34,7 +34,7 @@
 			<ContextMenu name="СерверКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="15"/>
 			<Events>
-				<Event name="OnChange">СерверПриИзменении</Event>
+				<Event name="OnChange">СформироватьНаименование</Event>
 			</Events>
 		</InputField>
 		<UsualGroup name="Группа1" id="19">
@@ -57,9 +57,6 @@
 					<DataPath>Объект.Разрядность</DataPath>
 					<ContextMenu name="РазрядностьКонтекстноеМеню" id="25"/>
 					<ExtendedTooltip name="РазрядностьРасширеннаяПодсказка" id="26"/>
-					<Events>
-						<Event name="StartChoice">РазрядностьНачалоВыбора</Event>
-					</Events>
 				</InputField>
 				<InputField name="ДиапазонПортов" id="27">
 					<DataPath>Объект.Порт</DataPath>
