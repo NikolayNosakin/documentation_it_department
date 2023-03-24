@@ -111,7 +111,6 @@
 					<ExtendedTooltip name="ТипБДРасширеннаяПодсказка" id="24"/>
 					<Events>
 						<Event name="OnChange">ТипБДПриИзменении</Event>
-						<Event name="StartChoice">ТипБДНачалоВыбора</Event>
 					</Events>
 				</InputField>
 			</ChildItems>
@@ -363,6 +362,159 @@
 						</Table>
 					</ChildItems>
 				</Page>
+				<Page name="Группа9" id="163">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расширения</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="164"/>
+					<ChildItems>
+						<Table name="Расширения" id="165">
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Расширения</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РасширенияКонтекстноеМеню" id="166"/>
+							<AutoCommandBar name="РасширенияКоманднаяПанель" id="167"/>
+							<ExtendedTooltip name="РасширенияРасширеннаяПодсказка" id="168"/>
+							<SearchStringAddition name="РасширенияСтрокаПоиска" id="169">
+								<AdditionSource>
+									<Item>Расширения</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасширенияСтрокаПоискаКонтекстноеМеню" id="170"/>
+								<ExtendedTooltip name="РасширенияСтрокаПоискаРасширеннаяПодсказка" id="171"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РасширенияСостояниеПросмотра" id="172">
+								<AdditionSource>
+									<Item>Расширения</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасширенияСостояниеПросмотраКонтекстноеМеню" id="173"/>
+								<ExtendedTooltip name="РасширенияСостояниеПросмотраРасширеннаяПодсказка" id="174"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РасширенияУправлениеПоиском" id="175">
+								<AdditionSource>
+									<Item>Расширения</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РасширенияУправлениеПоискомКонтекстноеМеню" id="176"/>
+								<ExtendedTooltip name="РасширенияУправлениеПоискомРасширеннаяПодсказка" id="177"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="РасширенияНомерСтроки" id="178">
+									<DataPath>Объект.Расширения.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РасширенияНомерСтрокиКонтекстноеМеню" id="179"/>
+									<ExtendedTooltip name="РасширенияНомерСтрокиРасширеннаяПодсказка" id="180"/>
+								</LabelField>
+								<InputField name="РасширенияНазвание" id="181">
+									<DataPath>Объект.Расширения.Название</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РасширенияНазваниеКонтекстноеМеню" id="182"/>
+									<ExtendedTooltip name="РасширенияНазваниеРасширеннаяПодсказка" id="183"/>
+								</InputField>
+								<InputField name="РасширенияХранилище" id="184">
+									<DataPath>Объект.Расширения.Хранилище</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РасширенияХранилищеКонтекстноеМеню" id="185"/>
+									<ExtendedTooltip name="РасширенияХранилищеРасширеннаяПодсказка" id="186"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаWebПубликация" id="187">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Web публикация</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаWebПубликацияРасширеннаяПодсказка" id="188"/>
+					<ChildItems>
+						<Table name="WebСервисы" id="189">
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.WebСервисы</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="WebСервисыКонтекстноеМеню" id="190"/>
+							<AutoCommandBar name="WebСервисыКоманднаяПанель" id="191">
+								<ChildItems>
+									<Button name="WebСервисыЗаполнитьИзVRD_Файла" id="217">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗаполнитьИзVRD_Файла</CommandName>
+										<ExtendedTooltip name="WebСервисыЗаполнитьИзVRD_ФайлаРасширеннаяПодсказка" id="218"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="WebСервисыРасширеннаяПодсказка" id="192"/>
+							<SearchStringAddition name="WebСервисыСтрокаПоиска" id="193">
+								<AdditionSource>
+									<Item>WebСервисы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="WebСервисыСтрокаПоискаКонтекстноеМеню" id="194"/>
+								<ExtendedTooltip name="WebСервисыСтрокаПоискаРасширеннаяПодсказка" id="195"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="WebСервисыСостояниеПросмотра" id="196">
+								<AdditionSource>
+									<Item>WebСервисы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="WebСервисыСостояниеПросмотраКонтекстноеМеню" id="197"/>
+								<ExtendedTooltip name="WebСервисыСостояниеПросмотраРасширеннаяПодсказка" id="198"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="WebСервисыУправлениеПоиском" id="199">
+								<AdditionSource>
+									<Item>WebСервисы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="WebСервисыУправлениеПоискомКонтекстноеМеню" id="200"/>
+								<ExtendedTooltip name="WebСервисыУправлениеПоискомРасширеннаяПодсказка" id="201"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="WebСервисыНомерСтроки" id="202">
+									<DataPath>Объект.WebСервисы.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="WebСервисыНомерСтрокиКонтекстноеМеню" id="203"/>
+									<ExtendedTooltip name="WebСервисыНомерСтрокиРасширеннаяПодсказка" id="204"/>
+								</LabelField>
+								<CheckBoxField name="WebСервисыВключен" id="214">
+									<DataPath>Объект.WebСервисы.Включен</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="WebСервисыВключенКонтекстноеМеню" id="215"/>
+									<ExtendedTooltip name="WebСервисыВключенРасширеннаяПодсказка" id="216"/>
+								</CheckBoxField>
+								<InputField name="WebСервисыТип" id="205">
+									<DataPath>Объект.WebСервисы.Тип</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="WebСервисыТипКонтекстноеМеню" id="206"/>
+									<ExtendedTooltip name="WebСервисыТипРасширеннаяПодсказка" id="207"/>
+								</InputField>
+								<InputField name="WebСервисыНазвание" id="208">
+									<DataPath>Объект.WebСервисы.Название</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="WebСервисыНазваниеКонтекстноеМеню" id="209"/>
+									<ExtendedTooltip name="WebСервисыНазваниеРасширеннаяПодсказка" id="210"/>
+								</InputField>
+								<InputField name="WebСервисыАдрес" id="211">
+									<DataPath>Объект.WebСервисы.Адрес</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="WebСервисыАдресКонтекстноеМеню" id="212"/>
+									<ExtendedTooltip name="WebСервисыАдресРасширеннаяПодсказка" id="213"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 				<Page name="ГруппаОписание" id="109">
 					<Title>
 						<v8:item>
@@ -383,8 +535,10 @@
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
+							<Height>2</Height>
 							<AutoMaxHeight>false</AutoMaxHeight>
 							<MultiLine>true</MultiLine>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
 							<ContextMenu name="ОписаниеКонтекстноеМеню" id="29"/>
 							<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="30"/>
 						</InputField>
@@ -437,6 +591,26 @@
 			</Picture>
 			<Action>ЗаполнитьИмяИБ</Action>
 			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ЗаполнитьИзVRD_Файла" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить из VRD файла</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить из VRD файла</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Reread</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаполнитьИзVRD_Файла</Action>
+			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
 </Form>
