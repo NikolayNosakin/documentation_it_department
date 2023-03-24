@@ -105,7 +105,7 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<LabelField name="Наименование" id="16">
-					<DataPath>~Список.Наименование</DataPath>
+					<DataPath>Список.Наименование</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<Title>
 						<v8:item>
@@ -117,32 +117,32 @@
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
 				<LabelField name="Сервер" id="25">
-					<DataPath>~Список.Сервер</DataPath>
+					<DataPath>Список.Сервер</DataPath>
 					<ContextMenu name="СерверКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="27"/>
 				</LabelField>
 				<LabelField name="Тип" id="37">
-					<DataPath>~Список.Тип</DataPath>
+					<DataPath>Список.Тип</DataPath>
 					<ContextMenu name="ТипКонтекстноеМеню" id="38"/>
 					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="39"/>
 				</LabelField>
 				<LabelField name="Версия" id="40">
-					<DataPath>~Список.Версия</DataPath>
+					<DataPath>Список.Версия</DataPath>
 					<ContextMenu name="ВерсияКонтекстноеМеню" id="41"/>
 					<ExtendedTooltip name="ВерсияРасширеннаяПодсказка" id="42"/>
 				</LabelField>
 				<LabelField name="Логин" id="43">
-					<DataPath>~Список.Логин</DataPath>
+					<DataPath>Список.Логин</DataPath>
 					<ContextMenu name="ЛогинКонтекстноеМеню" id="44"/>
 					<ExtendedTooltip name="ЛогинРасширеннаяПодсказка" id="45"/>
 				</LabelField>
 				<LabelField name="ПользовательОС" id="46">
-					<DataPath>~Список.ПользовательОС</DataPath>
+					<DataPath>Список.ПользовательОС</DataPath>
 					<ContextMenu name="ПользовательОСКонтекстноеМеню" id="47"/>
 					<ExtendedTooltip name="ПользовательОСРасширеннаяПодсказка" id="48"/>
 				</LabelField>
 				<LabelField name="Описание" id="28">
-					<DataPath>~Список.Описание</DataPath>
+					<DataPath>Список.Описание</DataPath>
 					<ContextMenu name="ОписаниеКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="30"/>
 				</LabelField>
@@ -175,17 +175,25 @@
 	Справочник.док_СУБД КАК СпрСУБД
 ГДЕ
 	ВЫБОР
-			КОГДА &amp;Клиент = ЗНАЧЕНИЕ(Справочник.док_Контрагенты.ПустаяСсылка)
+			КОГДА &amp;Контрагент = ЗНАЧЕНИЕ(Справочник.док_Контрагенты.ПустаяСсылка)
 				ТОГДА ИСТИНА
-			ИНАЧЕ СпрСУБД.Сервер.Клиент = &amp;Клиент
+			ИНАЧЕ СпрСУБД.Сервер.Контрагент = &amp;Контрагент
 		КОНЕЦ</QueryText>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Код</dcssch:dataPath>
 					<dcssch:field>Код</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
-					<dcssch:field>ПометкаУдаления</dcssch:field>
+					<dcssch:dataPath>Пароль</dcssch:dataPath>
+					<dcssch:field>Пароль</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Описание</dcssch:dataPath>
+					<dcssch:field>Описание</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПарольЗашифрован</dcssch:dataPath>
+					<dcssch:field>ПарольЗашифрован</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
@@ -196,24 +204,24 @@
 					<dcssch:field>Ссылка</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Сервер</dcssch:dataPath>
-					<dcssch:field>Сервер</dcssch:field>
+					<dcssch:dataPath>Логин</dcssch:dataPath>
+					<dcssch:field>Логин</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Наименование</dcssch:dataPath>
-					<dcssch:field>Наименование</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Описание</dcssch:dataPath>
-					<dcssch:field>Описание</dcssch:field>
+					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
+					<dcssch:field>ПометкаУдаления</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
 					<dcssch:field>Предопределенный</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Логин</dcssch:dataPath>
-					<dcssch:field>Логин</dcssch:field>
+					<dcssch:dataPath>Сервер</dcssch:dataPath>
+					<dcssch:field>Сервер</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Наименование</dcssch:dataPath>
+					<dcssch:field>Наименование</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Тип</dcssch:dataPath>
@@ -224,23 +232,15 @@
 					<dcssch:field>Версия</dcssch:field>
 				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Пароль</dcssch:dataPath>
-					<dcssch:field>Пароль</dcssch:field>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>ПользовательОС</dcssch:dataPath>
 					<dcssch:field>ПользовательОС</dcssch:field>
 				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ПарольЗашифрован</dcssch:dataPath>
-					<dcssch:field>ПарольЗашифрован</dcssch:field>
-				</Field>
 				<Parameter>
-					<dcssch:name>Клиент</dcssch:name>
+					<dcssch:name>Контрагент</dcssch:name>
 					<dcssch:title xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Клиент</v8:content>
+							<v8:content>Контрагент</v8:content>
 						</v8:item>
 					</dcssch:title>
 					<dcssch:valueType>
@@ -255,6 +255,7 @@
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
+					<dcsset:dataParameters/>
 					<dcsset:order>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>

@@ -111,20 +111,68 @@
 					<ExtendedTooltip name="ТипБДРасширеннаяПодсказка" id="24"/>
 					<Events>
 						<Event name="OnChange">ТипБДПриИзменении</Event>
+						<Event name="StartChoice">ТипБДНачалоВыбора</Event>
 					</Events>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ГрСервернаяИБ" id="151">
-			<Group>AlwaysHorizontal</Group>
+		<UsualGroup name="ГруппаСерверСУБД" id="161">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа сервер СУБД</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа сервер СУБД</v8:content>
+				</v8:item>
+			</ToolTip>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГрСервернаяИБРасширеннаяПодсказка" id="152"/>
+			<ExtendedTooltip name="ГруппаСерверСУБДРасширеннаяПодсказка" id="162"/>
 			<ChildItems>
-				<UsualGroup name="Группа9" id="161">
-					<Group>AlwaysHorizontal</Group>
-					<Representation>None</Representation>
+				<UsualGroup name="Группа5" id="111">
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="162"/>
+					<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="112"/>
+					<ChildItems>
+						<InputField name="Сервер" id="37">
+							<DataPath>Объект.Сервер</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<DropListButton>false</DropListButton>
+							<ChoiceButton>true</ChoiceButton>
+							<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+							<ClearButton>false</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>true</OpenButton>
+							<CreateButton>false</CreateButton>
+							<ContextMenu name="СерверКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="39"/>
+							<Events>
+								<Event name="OnChange">СУБДПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="СУБД" id="153">
+							<DataPath>Объект.СУБД</DataPath>
+							<Visible>false</Visible>
+							<DropListButton>false</DropListButton>
+							<ChoiceButton>true</ChoiceButton>
+							<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+							<ClearButton>false</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>true</OpenButton>
+							<CreateButton>false</CreateButton>
+							<ContextMenu name="СУБДКонтекстноеМеню" id="154"/>
+							<ExtendedTooltip name="СУБДРасширеннаяПодсказка" id="155"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГрСервернаяИБ" id="151">
+					<Visible>false</Visible>
+					<Group>AlwaysHorizontal</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГрСервернаяИБРасширеннаяПодсказка" id="152"/>
 					<ChildItems>
 						<InputField name="ИмяИБ" id="7">
 							<DataPath>Объект.ИмяИБ</DataPath>
@@ -140,57 +188,22 @@
 							<CommandName>Form.Command.ЗаполнитьИмяИБ</CommandName>
 							<ExtendedTooltip name="ЗаполнитьИмяИБРасширеннаяПодсказка" id="160"/>
 						</Button>
+						<InputField name="ИмяИБ_В_СУБД" id="156">
+							<DataPath>Объект.ИмяИБ_В_СУБД</DataPath>
+							<ContextMenu name="ИмяИБ_В_СУБДКонтекстноеМеню" id="157"/>
+							<ExtendedTooltip name="ИмяИБ_В_СУБДРасширеннаяПодсказка" id="158"/>
+						</InputField>
 					</ChildItems>
 				</UsualGroup>
-				<InputField name="ИмяИБ_В_СУБД" id="156">
-					<DataPath>Объект.ИмяИБ_В_СУБД</DataPath>
-					<ContextMenu name="ИмяИБ_В_СУБДКонтекстноеМеню" id="157"/>
-					<ExtendedTooltip name="ИмяИБ_В_СУБДРасширеннаяПодсказка" id="158"/>
-				</InputField>
-			</ChildItems>
-		</UsualGroup>
-		<InputField name="ПутьК_БД" id="25">
-			<DataPath>Объект.ПутьК_БД</DataPath>
-			<Visible>false</Visible>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ПутьК_БДКонтекстноеМеню" id="26"/>
-			<ExtendedTooltip name="ПутьК_БДРасширеннаяПодсказка" id="27"/>
-			<Events>
-				<Event name="OnChange">ПутьК_БДПриИзменении</Event>
-			</Events>
-		</InputField>
-		<UsualGroup name="Группа5" id="111">
-			<Behavior>Usual</Behavior>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="112"/>
-			<ChildItems>
-				<InputField name="Сервер" id="37">
-					<DataPath>Объект.Сервер</DataPath>
+				<InputField name="ПутьК_БД" id="25">
+					<DataPath>Объект.ПутьК_БД</DataPath>
+					<Visible>false</Visible>
 					<EditMode>EnterOnInput</EditMode>
-					<DropListButton>false</DropListButton>
-					<ChoiceButton>true</ChoiceButton>
-					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
-					<ClearButton>false</ClearButton>
-					<SpinButton>false</SpinButton>
-					<OpenButton>true</OpenButton>
-					<CreateButton>false</CreateButton>
-					<ContextMenu name="СерверКонтекстноеМеню" id="38"/>
-					<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="39"/>
+					<ContextMenu name="ПутьК_БДКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ПутьК_БДРасширеннаяПодсказка" id="27"/>
 					<Events>
-						<Event name="OnChange">СУБДПриИзменении</Event>
+						<Event name="OnChange">ПутьК_БДПриИзменении</Event>
 					</Events>
-				</InputField>
-				<InputField name="СУБД" id="153">
-					<DataPath>Объект.СУБД</DataPath>
-					<DropListButton>false</DropListButton>
-					<ChoiceButton>true</ChoiceButton>
-					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
-					<ClearButton>false</ClearButton>
-					<SpinButton>false</SpinButton>
-					<OpenButton>true</OpenButton>
-					<CreateButton>false</CreateButton>
-					<ContextMenu name="СУБДКонтекстноеМеню" id="154"/>
-					<ExtendedTooltip name="СУБДРасширеннаяПодсказка" id="155"/>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
