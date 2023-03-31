@@ -154,9 +154,9 @@
 	Справочник.док_КонтактныеЛицаКонтрагентов КАК КонтактныеЛицаКлиентов
 ГДЕ
 	ВЫБОР
-			КОГДА &amp;Клиент = ЗНАЧЕНИЕ(Справочник.док_Контрагенты.ПустаяСсылка)
+			КОГДА &amp;Контрагент = ЗНАЧЕНИЕ(Справочник.док_Контрагенты.ПустаяСсылка)
 				ТОГДА ИСТИНА
-			ИНАЧЕ КонтактныеЛицаКлиентов.Владелец = &amp;Клиент
+			ИНАЧЕ КонтактныеЛицаКлиентов.Владелец = &amp;Контрагент
 		КОНЕЦ</QueryText>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Статус</dcssch:dataPath>
@@ -199,11 +199,11 @@
 					<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
 				</Field>
 				<Parameter>
-					<dcssch:name>Клиент</dcssch:name>
+					<dcssch:name>Контрагент</dcssch:name>
 					<dcssch:title xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Клиент</v8:content>
+							<v8:content>Контрагент</v8:content>
 						</v8:item>
 					</dcssch:title>
 					<dcssch:valueType>
