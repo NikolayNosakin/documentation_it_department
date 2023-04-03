@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.1.8.2</Version>
+			<Version>1.1.8.3</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/documentation_it_department/releases</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -307,6 +307,9 @@
 			<Style>СтильОформленияСиний</Style>
 			<Style>СтильОформленияТемноСерый</Style>
 			<Style>СтильОформленияТемный</Style>
+			<Style>СтильОформленияБледный</Style>
+			<Style>СтильОформленияБронза</Style>
+			<Style>СтильОформленияTelegram</Style>
 			<CommonPicture>BotFather</CommonPicture>
 			<CommonPicture>BotFatherВконтакте</CommonPicture>
 			<CommonPicture>GoogleMaps</CommonPicture>
@@ -1770,6 +1773,7 @@
 			<Enum>док_ТипСервера</Enum>
 			<Enum>док_ТипСетевогоОборудования</Enum>
 			<Enum>док_ТипыVPN</Enum>
+			<Enum>док_ТипыВебСервисов</Enum>
 			<Enum>док_ЧастотыWiFi</Enum>
 			<Enum>ДополнительныеЗначенияДоступа</Enum>
 			<Enum>ДоступныеПериодыОтчета</Enum>
@@ -1810,7 +1814,6 @@
 			<Enum>ФорматыХраненияОдностраничныхФайлов</Enum>
 			<Enum>ЦветаЗаметок</Enum>
 			<Enum>ЦветностиИзображения</Enum>
-			<Enum>док_ТипыВебСервисов</Enum>
 			<Report>АнализВерсийОбъектов</Report>
 			<Report>АнализЖурналаРегистрации</Report>
 			<Report>АнализПравДоступа</Report>
