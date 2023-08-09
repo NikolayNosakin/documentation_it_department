@@ -13,37 +13,57 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="97"/>
 			<ChildItems>
-				<InputField name="Наименование" id="4">
-					<DataPath>Объект.Description</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
-					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
-				</InputField>
-				<InputField name="Код" id="1">
-					<DataPath>Объект.Code</DataPath>
-					<Visible>false</Visible>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
-					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
-				</InputField>
-				<InputField name="Контрагент" id="116">
-					<DataPath>Объект.Контрагент</DataPath>
-					<DropListButton>false</DropListButton>
-					<ChoiceButton>true</ChoiceButton>
-					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
-					<ClearButton>false</ClearButton>
-					<SpinButton>false</SpinButton>
-					<OpenButton>true</OpenButton>
-					<CreateButton>false</CreateButton>
-					<ContextMenu name="КонтрагентКонтекстноеМеню" id="117"/>
-					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="118"/>
-				</InputField>
-				<CheckBoxField name="Тестовая" id="119">
-					<DataPath>Объект.Тестовая</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ТестоваяКонтекстноеМеню" id="120"/>
-					<ExtendedTooltip name="ТестоваяРасширеннаяПодсказка" id="121"/>
-				</CheckBoxField>
+				<UsualGroup name="Группа11" id="224">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="225"/>
+					<ChildItems>
+						<InputField name="Наименование" id="4">
+							<DataPath>Объект.Description</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="Код" id="1">
+							<DataPath>Объект.Code</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="Контрагент" id="116">
+							<DataPath>Объект.Контрагент</DataPath>
+							<DropListButton>false</DropListButton>
+							<ChoiceButton>true</ChoiceButton>
+							<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+							<ClearButton>false</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>true</OpenButton>
+							<CreateButton>false</CreateButton>
+							<ContextMenu name="КонтрагентКонтекстноеМеню" id="117"/>
+							<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="118"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа10" id="222">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="223"/>
+					<ChildItems>
+						<CheckBoxField name="Тестовая" id="119">
+							<DataPath>Объект.Тестовая</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ТестоваяКонтекстноеМеню" id="120"/>
+							<ExtendedTooltip name="ТестоваяРасширеннаяПодсказка" id="121"/>
+							<Events>
+								<Event name="OnChange">ТестоваяПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<InputField name="СрокЖизни" id="219">
+							<DataPath>Объект.СрокЖизни</DataPath>
+							<ContextMenu name="СрокЖизниКонтекстноеМеню" id="220"/>
+							<ExtendedTooltip name="СрокЖизниРасширеннаяПодсказка" id="221"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="Группа3" id="100">
@@ -272,6 +292,18 @@
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<ContextMenu name="СтрокаСоединенияКонтекстноеМеню" id="149"/>
 			<ExtendedTooltip name="СтрокаСоединенияРасширеннаяПодсказка" id="150"/>
+		</InputField>
+		<InputField name="Ответственный" id="226">
+			<DataPath>Объект.Ответственный</DataPath>
+			<DropListButton>false</DropListButton>
+			<ChoiceButton>true</ChoiceButton>
+			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+			<ClearButton>false</ClearButton>
+			<SpinButton>false</SpinButton>
+			<OpenButton>true</OpenButton>
+			<CreateButton>false</CreateButton>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="227"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="228"/>
 		</InputField>
 		<Pages name="Страницы" id="40">
 			<Title>

@@ -1,31 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
-	<DataProcessor uuid="675be3d8-e9a0-4573-b19b-0b8bcf08fcc0">
+	<DataProcessor uuid="0cca3ca3-44a1-4dd8-bb85-4dd4c8219d00">
 		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.док_Регистрация_V83_COMConnector" category="Object">
-				<xr:TypeId>7576c04d-4c9e-49de-a1b8-30145fc2350f</xr:TypeId>
-				<xr:ValueId>7fcbf208-b02f-434f-8110-4c263ac61493</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorObject.док_КонструкторСтрокиЗапуска1С" category="Object">
+				<xr:TypeId>70f24efa-c9df-4ad8-9d79-cc9f497e960d</xr:TypeId>
+				<xr:ValueId>afd82c8a-9cac-49d6-8fea-56b712f28d48</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.док_Регистрация_V83_COMConnector" category="Manager">
-				<xr:TypeId>b9620474-fb76-4b5e-9ed9-bc39b2df3be6</xr:TypeId>
-				<xr:ValueId>b7adc0f6-2554-4b05-bb74-a5697896e8e8</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorManager.док_КонструкторСтрокиЗапуска1С" category="Manager">
+				<xr:TypeId>01202172-6234-42a8-8e79-e3c17a5cd4c8</xr:TypeId>
+				<xr:ValueId>a6247825-2ade-4b0b-bc27-692975e2e7b2</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>док_Регистрация_V83_COMConnector</Name>
+			<Name>док_КонструкторСтрокиЗапуска1С</Name>
 			<Synonym>
 				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Registration v83.COM Connector</v8:content>
-				</v8:item>
-				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Регистрация v83.COM Connector</v8:content>
+					<v8:content>Конструктор строки запуска 1С</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>Позволяет сформировать командную строку запуска 1С:Предприятие</Comment>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>DataProcessor.док_Регистрация_V83_COMConnector.Form.Форма</DefaultForm>
+			<DefaultForm>DataProcessor.док_КонструкторСтрокиЗапуска1С.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ExtendedPresentation/>
@@ -33,6 +29,8 @@
 		</Properties>
 		<ChildObjects>
 			<Form>Форма</Form>
+			<Template>ОписаниеЗначенийПараметров</Template>
+			<Template>ОписаниеРазделов</Template>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

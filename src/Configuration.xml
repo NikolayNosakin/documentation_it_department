@@ -35,6 +35,10 @@
 			<Name>Документация</Name>
 			<Synonym>
 				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Documentation</v8:content>
+				</v8:item>
+				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Документация</v8:content>
 				</v8:item>
@@ -53,7 +57,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.1.8.3</Version>
+			<Version>1.1.9.1</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/documentation_it_department/releases</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -234,7 +238,7 @@
 			<ModalityUseMode>UseWithWarnings</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_20</CompatibilityMode>
+			<CompatibilityMode>Version8_3_21</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
@@ -1744,6 +1748,7 @@
 			<Catalog>УчетныеЗаписиСинхронизацииФайлов</Catalog>
 			<Catalog>УчетныеЗаписиЭлектроннойПочты</Catalog>
 			<Catalog>Файлы</Catalog>
+			<Catalog>док_ПараметрыЗапуска1С</Catalog>
 			<Enum>ВариантыВерсионированияОбъектов</Enum>
 			<Enum>ВариантыИспользованияВнешнихКомпонент</Enum>
 			<Enum>ВариантыОчисткиФайлов</Enum>
@@ -1884,6 +1889,7 @@
 			<DataProcessor>ТранспортСообщенийОбменаFTP</DataProcessor>
 			<DataProcessor>УдалениеПомеченныхОбъектов</DataProcessor>
 			<DataProcessor>УниверсальныйОбменДаннымиXML</DataProcessor>
+			<DataProcessor>док_КонструкторСтрокиЗапуска1С</DataProcessor>
 			<InformationRegister>АдресныеОбъекты</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>
