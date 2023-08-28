@@ -42,11 +42,11 @@
 						<Title formatted="false">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Добавить из файла на диске...</v8:content>
+								<v8:content>Добавить из файла на компьютере...</v8:content>
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Add from file on disk…</v8:content>
+								<v8:content>Add from local file...</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
@@ -138,6 +138,24 @@
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="УдалитьУстаревшиеПараметрыРаботыРасширенийРасширеннаяПодсказка" id="132"/>
 				</Button>
+				<SearchStringAddition name="СтрокаПоиск" id="225">
+					<AdditionSource>
+						<Item>СписокРасширений</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поиск</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Search</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СтрокаПоискКонтекстноеМеню" id="226"/>
+					<ExtendedTooltip name="СтрокаПоискРасширеннаяПодсказка" id="227"/>
+				</SearchStringAddition>
 			</ChildItems>
 		</CommandBar>
 		<Pages name="СтраницыОбновление" id="101">
@@ -193,7 +211,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Warning picture</v8:content>
+											<v8:content>Warning Picture</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -794,7 +812,7 @@ Extension changes for data area users will be applied next time they log in to t
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Long-running operation page</v8:content>
+							<v8:content>Page Long-running operation</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -1118,11 +1136,11 @@ Extension changes for data area users will be applied next time they log in to t
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить из файла на диске...</v8:content>
+					<v8:content>Обновить из файла на компьютере...</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Update from file.</v8:content>
+					<v8:content>Update from local file...</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

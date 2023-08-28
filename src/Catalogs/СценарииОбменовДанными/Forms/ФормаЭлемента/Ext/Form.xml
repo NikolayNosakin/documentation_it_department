@@ -87,8 +87,66 @@
 					<Type>Hyperlink</Type>
 					<SkipOnInput>false</SkipOnInput>
 					<CommandName>Form.Command.НастроитьРасписаниеРегламентногоЗадания</CommandName>
-					<ExtendedTooltip name="НастроитьРасписаниеРегламентногоЗаданияExtendedTooltip" id="133"/>
+					<ExtendedTooltip name="НастроитьРасписаниеРегламентногоЗаданияExtendedTooltip" id="133">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Минимальный интервал не должен быть меньше 15 минут (900 секунд).
+Точное время выполнения сценария зависит от загруженности программы.</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Minimum interval must be over 15 minutes (900 seconds).
+The exact scenario execution time depends on the application workload.</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
 				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПредупреждение" id="156">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предупреждение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Warning</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПредупреждениеРасширеннаяПодсказка" id="157"/>
+			<ChildItems>
+				<PictureDecoration name="Декорация1" id="158">
+					<Picture>
+						<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="159"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="160"/>
+				</PictureDecoration>
+				<LabelDecoration name="Декорация2" id="161">
+					<Width>60</Width>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Минимальный интервал не должен быть меньше 15 минут.
+Точное время выполнения сценария зависит от загруженности программы.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Minimum interval must be over 15 minutes.
+The exact scenario execution time depends on the application workload.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Декорация2КонтекстноеМеню" id="162"/>
+					<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="163"/>
+				</LabelDecoration>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="Состав" id="104">
@@ -211,6 +269,7 @@
 									<ExtendedTooltip name="НастройкиОбменаУзелИнформационнойБазыExtendedTooltip" id="141"/>
 									<Events>
 										<Event name="OnChange">НастройкиОбменаУзелИнформационнойБазыПриИзменении</Event>
+										<Event name="StartChoice">НастройкиОбменаУзелИнформационнойБазыНачалоВыбора</Event>
 										<Event name="ChoiceProcessing">НастройкиОбменаУзелИнформационнойБазыОбработкаВыбора</Event>
 									</Events>
 								</InputField>
@@ -308,6 +367,11 @@
 			</Type>
 			<Settings xsi:type="v8:TypeDescription"/>
 		</Attribute>
+		<Attribute name="РазделениеВключено" id="4">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="НастроитьРасписаниеРегламентногоЗадания" id="1">
@@ -318,7 +382,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Configure schedule</v8:content>
+					<v8:content>Set schedule</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -328,7 +392,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Configure schedule</v8:content>
+					<v8:content>Set schedule</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

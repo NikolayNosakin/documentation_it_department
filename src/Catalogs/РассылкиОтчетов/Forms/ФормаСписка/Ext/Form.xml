@@ -195,7 +195,7 @@
 					<ChildItems>
 						<Button name="ФормаВыбрать" id="152">
 							<Type>CommandBarButton</Type>
-							<CommandName>1:8969c93a-23e5-4bef-941d-aaef315858d2</CommandName>
+							<CommandName>Form.StandardCommand.Choose</CommandName>
 							<ExtendedTooltip name="ФормаВыбратьРасширеннаяПодсказка" id="153"/>
 						</Button>
 						<Button name="ФормаСоздать" id="91">
@@ -265,12 +265,6 @@
 							<DataPath>Items.Список.CurrentData.Ref</DataPath>
 							<ExtendedTooltip name="ВыполнитьСейчасExtendedTooltip" id="57"/>
 						</Button>
-						<Button name="СобытияРассылки" id="30">
-							<Type>CommandBarButton</Type>
-							<CommandName>Catalog.РассылкиОтчетов.Command.СобытияРассылки</CommandName>
-							<DataPath>Items.Список.CurrentData.Ref</DataPath>
-							<ExtendedTooltip name="СобытияРассылкиExtendedTooltip" id="58"/>
-						</Button>
 						<Button name="ИзменитьВыделенные" id="79">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.Command.ИзменитьВыделенные</CommandName>
@@ -279,6 +273,32 @@
 						</Button>
 					</ChildItems>
 				</ButtonGroup>
+				<Popup name="ПодменюОтчеты" id="174">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчеты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reports</v8:content>
+						</v8:item>
+					</Title>
+					<Picture>
+						<xr:Ref>CommonPicture.Отчеты</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
+					<Representation>PictureAndText</Representation>
+					<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="175"/>
+					<ChildItems>
+						<Button name="СобытияРассылки" id="30">
+							<Type>CommandBarButton</Type>
+							<CommandName>Catalog.РассылкиОтчетов.Command.СобытияРассылки</CommandName>
+							<DataPath>Items.Список.CurrentData.Ref</DataPath>
+							<ExtendedTooltip name="СобытияРассылкиExtendedTooltip" id="58"/>
+						</Button>
+					</ChildItems>
+				</Popup>
 				<ButtonGroup name="ВторостепенныеКоманды" id="127">
 					<Title>
 						<v8:item>
@@ -457,6 +477,7 @@
 			</ChildItems>
 		</CommandBar>
 		<Table name="Список" id="1">
+			<ChoiceMode>true</ChoiceMode>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<InitialTreeView>ExpandAllLevels</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
@@ -538,6 +559,10 @@
 				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="146"/>
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="147"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
+				<Event name="Drag">СписокПеретаскивание</Event>
+			</Events>
 			<ChildItems>
 				<LabelField name="Наименование" id="6" DisplayImportance="Usual">
 					<DataPath>Список.Description</DataPath>

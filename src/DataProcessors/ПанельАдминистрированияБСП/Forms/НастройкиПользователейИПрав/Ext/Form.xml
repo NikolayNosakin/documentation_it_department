@@ -162,6 +162,74 @@
 								<Event name="OnChange">ИспользоватьГруппыПользователейПриИзменении</Event>
 							</Events>
 						</CheckBoxField>
+						<UsualGroup name="ГруппаВнешниеПользователи" id="852">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Внешние пользователи</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>External users</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ControlRepresentation>Picture</ControlRepresentation>
+							<Representation>NormalSeparation</Representation>
+							<ChildItemsWidth>Equal</ChildItemsWidth>
+							<ExtendedTooltip name="ГруппаВнешниеПользователиРасширеннаяПодсказка" id="2070"/>
+							<ChildItems>
+								<CheckBoxField name="ИспользоватьВнешнихПользователей" id="699">
+									<DataPath>НаборКонстант.ИспользоватьВнешнихПользователей</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Разрешить доступ внешним пользователям</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Allow external user access</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Предоставление удаленного доступа партнерам к программе.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Provide partners with remote access to the application.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ИспользоватьВнешнихПользователейКонтекстноеМеню" id="700"/>
+									<ExtendedTooltip name="ИспользоватьВнешнихПользователейExtendedTooltip" id="2072"/>
+									<Events>
+										<Event name="OnChange">ИспользоватьВнешнихПользователейПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<Button name="ОткрытьВнешниеПользователи" id="2031">
+									<Type>Hyperlink</Type>
+									<CommandName>Form.Command.ВнешниеПользователи</CommandName>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<ExtendedTooltip name="ОткрытьВнешниеПользователиРасширеннаяПодсказка" id="2075">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Ведение списка внешних пользователей, которым предоставлен удаленный доступ к программе.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Manage the list of external users who have remote access to the application.</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="НастройкиВходаИОтчетПоПравам" id="2241">
@@ -193,7 +261,7 @@
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Sign-in help and user password recovery</v8:content>
+										<v8:content>Sign-in help and user password recovery.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -258,205 +326,11 @@
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Shows current settings of user access rights to infobase tables.</v8:content>
+										<v8:content>View current settings of user access rights to infobase tables.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
-					</ChildItems>
-				</UsualGroup>
-			</ChildItems>
-		</UsualGroup>
-		<UsualGroup name="ГруппаВнешниеПользователи" id="852">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Внешние пользователи</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>External users</v8:content>
-				</v8:item>
-			</Title>
-			<Group>Vertical</Group>
-			<Behavior>Collapsible</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
-			<Representation>NormalSeparation</Representation>
-			<ChildItemsWidth>Equal</ChildItemsWidth>
-			<ExtendedTooltip name="ГруппаВнешниеПользователиРасширеннаяПодсказка" id="2070"/>
-			<ChildItems>
-				<UsualGroup name="ГруппаИспользоватьВнешнихПользователей" id="1883">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Использовать внешних пользователей</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Use external users</v8:content>
-						</v8:item>
-					</Title>
-					<Width>43</Width>
-					<HorizontalStretch>false</HorizontalStretch>
-					<Group>Vertical</Group>
-					<Behavior>Usual</Behavior>
-					<Representation>NormalSeparation</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаИспользоватьВнешнихПользователейРасширеннаяПодсказка" id="2071"/>
-					<ChildItems>
-						<CheckBoxField name="ИспользоватьВнешнихПользователей" id="699">
-							<DataPath>НаборКонстант.ИспользоватьВнешнихПользователей</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Разрешить доступ внешним пользователям</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Allow external user access</v8:content>
-								</v8:item>
-							</Title>
-							<TitleLocation>Right</TitleLocation>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Предоставление удаленного доступа партнерам к программе.</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Provide partners with remote access to the application.</v8:content>
-								</v8:item>
-							</ToolTip>
-							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="ИспользоватьВнешнихПользователейКонтекстноеМеню" id="700"/>
-							<ExtendedTooltip name="ИспользоватьВнешнихПользователейExtendedTooltip" id="2072"/>
-							<Events>
-								<Event name="OnChange">ИспользоватьВнешнихПользователейПриИзменении</Event>
-							</Events>
-						</CheckBoxField>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="ГруппаВнешниеПользователиИНастройкиВхода" id="2192">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Внешние пользователи и настройки входа</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>External users and authorization settings</v8:content>
-						</v8:item>
-					</Title>
-					<HorizontalStretch>false</HorizontalStretch>
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаВнешниеПользователиИНастройкиВходаРасширеннаяПодсказка" id="2193"/>
-					<ChildItems>
-						<PictureDecoration name="ГруппаСписокВнешнихПользователейОтступ" id="2158">
-							<Width>1</Width>
-							<Height>1</Height>
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Горизонтальный отступ</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Horizontal indent</v8:content>
-								</v8:item>
-							</Title>
-							<FileDragMode>AsFile</FileDragMode>
-							<ContextMenu name="ГруппаСписокВнешнихПользователейОтступКонтекстноеМеню" id="2159"/>
-							<ExtendedTooltip name="ГруппаСписокВнешнихПользователейОтступРасширеннаяПодсказка" id="2160"/>
-						</PictureDecoration>
-						<UsualGroup name="ГруппаСписокВнешнихПользователей" id="2186">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Список внешних пользователей</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>External user list</v8:content>
-								</v8:item>
-							</Title>
-							<Width>41</Width>
-							<HorizontalStretch>false</HorizontalStretch>
-							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаСписокВнешнихПользователейРасширеннаяПодсказка" id="2187"/>
-							<ChildItems>
-								<Button name="ОткрытьВнешниеПользователи" id="2031">
-									<Type>Hyperlink</Type>
-									<CommandName>Form.Command.ВнешниеПользователи</CommandName>
-									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<ExtendedTooltip name="ОткрытьВнешниеПользователиРасширеннаяПодсказка" id="2075">
-										<Title formatted="false">
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Ведение списка внешних пользователей, которым предоставлен удаленный доступ к программе.</v8:content>
-											</v8:item>
-											<v8:item>
-												<v8:lang>en</v8:lang>
-												<v8:content>Manage the list of external users that are granted remote access to the application.</v8:content>
-											</v8:item>
-										</Title>
-									</ExtendedTooltip>
-								</Button>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="ГруппаНастройкиВходаВнешнихПользователей" id="2147">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Настройки входа внешних пользователей</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>External user authorization settings</v8:content>
-								</v8:item>
-							</Title>
-							<Width>43</Width>
-							<HorizontalStretch>false</HorizontalStretch>
-							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаНастройкиВходаВнешнихПользователейРасширеннаяПодсказка" id="2148"/>
-							<ChildItems>
-								<Button name="НастройкиВходаВнешнихПользователей" id="2149">
-									<Type>Hyperlink</Type>
-									<CommandName>Form.Command.НастройкиВходаВнешнихПользователей</CommandName>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Настройки входа</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Authorization settings</v8:content>
-										</v8:item>
-									</Title>
-									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<ExtendedTooltip name="НастройкиВходаВнешнихПользователейРасширеннаяПодсказка" id="2150">
-										<Title formatted="false">
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Сложность и смена паролей, ограничение работы неактивных внешних пользователей.</v8:content>
-											</v8:item>
-											<v8:item>
-												<v8:lang>en</v8:lang>
-												<v8:content>Set passwords, configure password complexity, and deny access for inactive external users.</v8:content>
-											</v8:item>
-										</Title>
-									</ExtendedTooltip>
-								</Button>
-							</ChildItems>
-						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -621,7 +495,7 @@
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Regular</v8:content>
+														<v8:content>Standard</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:boolean">false</Value>
@@ -638,7 +512,7 @@
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>High performance</v8:content>
+														<v8:content>High-performance</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:boolean">true</Value>
@@ -662,15 +536,15 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Performance mode is recommended for the client/server infobase,
+												<v8:content>High-performance mode is recommended for the client/server infobase,
 where it is much more efficient than the standard mode. 
 
 In a multiuser file infobase, it might restrict the performance
-of concurrent users, so the standard mode might be required.
+of concurrent users, so the standard mode would be preferable.
 
-In this case, if there is only one user in the file infobase or data is entered by multiple users
-not intensively, the performance mode imposes no further restrictions and
-will speed up viewing of lists and generating reports in comparison with the standard mode.</v8:content>
+If there is only one user in the file infobase or data is entered by multiple users
+not intensively, the high-performance mode imposes no further restrictions and
+will speed up viewing lists and generating reports compared to the standard mode.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -837,7 +711,7 @@ will speed up viewing of lists and generating reports in comparison with the sta
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Clear settings for all users or for selected users.</v8:content>
+										<v8:content>Clear settings for all or selected users.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -1026,42 +900,42 @@ will speed up viewing of lists and generating reports in comparison with the sta
 								</Button>
 							</ChildItems>
 						</UsualGroup>
-						<UsualGroup name="ГруппаСкрытиеПерсональныхДанныхИспользование" id="2223">
+						<UsualGroup name="ГруппаУничтожениеПерсональныхДанныхИспользование" id="2223">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Скрытие персональных данных использование</v8:content>
+									<v8:content>Уничтожение персональных данных использование</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Hide personal data</v8:content>
+									<v8:content>Personal data destruction usage</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаСкрытиеПерсональныхДанныхИспользованиеРасширеннаяПодсказка" id="2224"/>
+							<ExtendedTooltip name="ГруппаУничтожениеПерсональныхДанныхИспользованиеРасширеннаяПодсказка" id="2224"/>
 							<ChildItems>
-								<UsualGroup name="ГруппаДнейДоСкрытия" id="2225">
+								<UsualGroup name="ГруппаДнейДоУничтожения" id="2225">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Дней до скрытия</v8:content>
+											<v8:content>Дней до уничтожения</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Days before hiding</v8:content>
+											<v8:content>Days before destruction</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Причиной скрытия данных может быть истечение срока действия согласия субъекта или его отсутствие.</v8:content>
+											<v8:content>Причиной уничтожения данных может быть истечение срока действия согласия субъекта или его отсутствие.</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Possible reasons to hide data: subject's consent period expired or the consent is missing.</v8:content>
+											<v8:content>Possible reasons for data destruction: the subject's consent expired or the consent is missing.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -1071,58 +945,40 @@ will speed up viewing of lists and generating reports in comparison with the sta
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаДнейДоСкрытияРасширеннаяПодсказка" id="2226"/>
+									<ExtendedTooltip name="ГруппаДнейДоУничтоженияРасширеннаяПодсказка" id="2226"/>
 									<ChildItems>
-										<CheckBoxField name="ИспользоватьСкрытиеПерсональныхДанных" id="2227">
+										<CheckBoxField name="ИспользоватьУничтожениеПерсональныхДанных" id="2227">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Скрывать персональные данные через</v8:content>
+													<v8:content>Уничтожать персональные данные</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Hide personal data in</v8:content>
+													<v8:content>Destroy personal data</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 											<CheckBoxType>Auto</CheckBoxType>
-											<ContextMenu name="ИспользоватьСкрытиеПерсональныхДанныхКонтекстноеМеню" id="2228"/>
-											<ExtendedTooltip name="ИспользоватьСкрытиеПерсональныхДанныхРасширеннаяПодсказка" id="2229"/>
+											<ContextMenu name="ИспользоватьУничтожениеПерсональныхДанныхКонтекстноеМеню" id="2228"/>
+											<ExtendedTooltip name="ИспользоватьУничтожениеПерсональныхДанныхРасширеннаяПодсказка" id="2229"/>
 											<Events>
-												<Event name="OnChange">Подключаемый_НастройкиСкрытияПДнПриИзменении</Event>
+												<Event name="OnChange">Подключаемый_НастройкиУничтоженияПДнПриИзменении</Event>
 											</Events>
 										</CheckBoxField>
-										<InputField name="ДнейДоСкрытияПерсональныхДанныхСубъектов" id="2230">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>дней</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>days</v8:content>
-												</v8:item>
-											</Title>
-											<TitleLocation>Right</TitleLocation>
-											<ContextMenu name="ДнейДоСкрытияПерсональныхДанныхСубъектовКонтекстноеМеню" id="2231"/>
-											<ExtendedTooltip name="ДнейДоСкрытияПерсональныхДанныхСубъектовРасширеннаяПодсказка" id="2232"/>
-											<Events>
-												<Event name="OnChange">Подключаемый_НастройкиСкрытияПДнПриИзменении</Event>
-											</Events>
-										</InputField>
-										<PictureDecoration name="ДекорацияОжиданиеИзмененияИспользованияСкрытияПДн" id="2233">
+										<PictureDecoration name="ДекорацияОжиданиеИзмененияИспользованияУничтоженияПДн" id="2233">
 											<Visible>false</Visible>
 											<Width>2</Width>
 											<Height>1</Height>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Декорация ожидание изменения использования скрытия ПДн</v8:content>
+													<v8:content>Декорация ожидание изменения использования уничтожения ПДн</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Wait for personal data usage option change decoration</v8:content>
+													<v8:content>Decoration Wait for personal data destruction settings to change</v8:content>
 												</v8:item>
 											</Title>
 											<Picture>
@@ -1130,8 +986,8 @@ will speed up viewing of lists and generating reports in comparison with the sta
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
 											<FileDragMode>AsFile</FileDragMode>
-											<ContextMenu name="ДекорацияОжиданиеИзмененияИспользованияСкрытияПДнКонтекстноеМеню" id="2234"/>
-											<ExtendedTooltip name="ДекорацияОжиданиеИзмененияИспользованияСкрытияПДнРасширеннаяПодсказка" id="2235"/>
+											<ContextMenu name="ДекорацияОжиданиеИзмененияИспользованияУничтоженияПДнКонтекстноеМеню" id="2234"/>
+											<ExtendedTooltip name="ДекорацияОжиданиеИзмененияИспользованияУничтоженияПДнРасширеннаяПодсказка" id="2235"/>
 										</PictureDecoration>
 									</ChildItems>
 								</UsualGroup>
@@ -1233,20 +1089,6 @@ will speed up viewing of lists and generating reports in comparison with the sta
 				</v8:item>
 			</ToolTip>
 			<Action>СправочникВнешниеПользователи</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
-		<Command name="НастройкиВходаВнешнихПользователей" id="3">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Настройки входа внешних пользователей</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>External user authorization settings</v8:content>
-				</v8:item>
-			</Title>
-			<Action>НастройкиВходаВнешнихПользователей</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОбновлениеДоступаНаУровнеЗаписей" id="2">

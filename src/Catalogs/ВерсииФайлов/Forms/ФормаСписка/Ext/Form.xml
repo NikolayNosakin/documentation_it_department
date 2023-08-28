@@ -116,6 +116,24 @@
 					<CommandName>Form.StandardCommand.Help</CommandName>
 					<ExtendedTooltip name="ФормаСправкаExtendedTooltip" id="34"/>
 				</Button>
+				<SearchStringAddition name="СтрокаПоиска" id="78">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поиск</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Search</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="79"/>
+					<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="80"/>
+				</SearchStringAddition>
 			</ChildItems>
 		</CommandBar>
 		<Table name="Список" id="1">

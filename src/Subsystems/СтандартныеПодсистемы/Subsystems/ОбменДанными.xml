@@ -48,7 +48,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыТранспортаСообщенийОбмена</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаПравилРегистрацииОбъектов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменДаннымиXDTOСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ПравилаВыборочнойРегистрацииОбъектов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИспользоватьСинхронизациюДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПрефиксУзлаРаспределеннойИнформационнойБазы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТранспортСообщенийОбменаFILE</xr:Item>
@@ -117,7 +116,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.СообщениеОбменаДаннымиИзГлавногоУзла</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВыполнениеОбменаДанными</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ДополнительноеОписание</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EnterpriseData_1_8_6</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonTemplate.ИнструкцияКакВыполнитьУстановкуОбновленияВручную</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменДаннымиВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КонвертацияОбъектовИнформационныхБаз</xr:Item>
@@ -173,11 +171,32 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОтложеннаяЗаписьУзла</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EnterpriseData_1_10_8</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыБСД</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EnterpriseData_1_8_6</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">WebService.Exchange_3_0_2_1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменДаннымиВебСервис</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ОбъектыНезарегистрированныеПриЗацикливании</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ПомощникПереходаНаИнтернетВнутренняяПубликация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КонтурСинхронизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОбъектыНезарегистрированныеПриЗацикливании</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НастройкиАрхиваСообщенийОбменов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АрхивСообщенийОбменов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменДаннымиКонтрольЗацикливания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.АрхивСообщенийОбменов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЭтоАвтономноеРабочееМесто</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.РаботаВАвтономномРежиме</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EnterpriseData_1_11_5</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменДаннымиТрансляцияФорматаПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ОбменДаннымиУчетныеЗаписиЭлектроннойПочты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьОценкуПроизводительностиСинхронизацииДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменДаннымиОценкаПроизводительности</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СеансыОбменовДанными</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EnterpriseData_1_11_7</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EnterpriseData_1_15_3</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EnterpriseData_1_12_1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">WebService.Exchange_3_0_2_2</xr:Item>
 			</Content>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Subsystem>Регистрация</Subsystem>
+		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

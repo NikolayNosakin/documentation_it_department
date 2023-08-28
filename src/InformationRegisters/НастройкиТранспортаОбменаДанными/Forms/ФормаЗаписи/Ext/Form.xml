@@ -355,24 +355,28 @@
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
-						<CheckBoxField name="WSИспользоватьПередачуБольшогоОбъемаДанных" id="204">
-							<DataPath>Запись.WSИспользоватьПередачуБольшогоОбъемаДанных</DataPath>
-							<TitleLocation>Right</TitleLocation>
-							<ToolTip>
+						<InputField name="WSКонечнаяТочкаКорреспондента" id="210">
+							<DataPath>WSКонечнаяТочкаКорреспондента</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="WSКонечнаяТочкаКорреспондентаКонтекстноеМеню" id="211"/>
+							<ExtendedTooltip name="WSКонечнаяТочкаКорреспондентаРасширеннаяПодсказка" id="212"/>
+						</InputField>
+						<InputField name="WSОбластьДанныхКорреспондента" id="207">
+							<DataPath>Запись.WSОбластьДанныхКорреспондента</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Рекомендуется использовать в тех случаях, если в синхронизации участвует более одного объекта (справочника, документа).</v8:content>
+									<v8:content>Область данных</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>It is recommended that you use it if there is more than one object (catalog, document) in synchronization.</v8:content>
+									<v8:content>Data area</v8:content>
 								</v8:item>
-							</ToolTip>
-							<ToolTipRepresentation>Button</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="WSИспользоватьПередачуБольшогоОбъемаДанныхКонтекстноеМеню" id="205"/>
-							<ExtendedTooltip name="WSИспользоватьПередачуБольшогоОбъемаДанныхРасширеннаяПодсказка" id="206"/>
-						</CheckBoxField>
+							</Title>
+							<ContextMenu name="WSОбластьДанныхКорреспондентаКонтекстноеМеню" id="208"/>
+							<ExtendedTooltip name="WSОбластьДанныхКорреспондентаРасширеннаяПодсказка" id="209"/>
+						</InputField>
 						<Button name="ПараметрыДоступаВИнтернет" id="119">
 							<Type>Hyperlink</Type>
 							<CommandName>Form.Command.ПараметрыДоступаВИнтернет</CommandName>
@@ -393,7 +397,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Network folder</v8:content>
+							<v8:content>Network directory</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="НастройкиТранспортаFILEExtendedTooltip" id="148"/>
@@ -601,7 +605,7 @@ If you select the check box, also select it in the peer application.</v8:content
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>KB (type 0 to remove the size restriction)</v8:content>
+											<v8:content>KB (0 for no restriction)</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация1КонтекстноеМеню" id="115"/>
@@ -747,7 +751,7 @@ If you select the check box, also select it in the peer application.</v8:content
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>KB (type 0 to remove the size restriction)</v8:content>
+											<v8:content>KB (0 for no restriction)</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация2КонтекстноеМеню" id="118"/>
@@ -987,6 +991,25 @@ If you select the check box, also select it in the peer application.</v8:content
 					</Type>
 				</Column>
 			</Columns>
+		</Attribute>
+		<Attribute name="WSКонечнаяТочкаКорреспондента" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конечная точка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Endpoint</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>

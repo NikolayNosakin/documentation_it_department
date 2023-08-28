@@ -7,7 +7,7 @@
 		</v8:item>
 		<v8:item>
 			<v8:lang>en</v8:lang>
-			<v8:content>Application update result</v8:content>
+			<v8:content>Application update results</v8:content>
 		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
@@ -1192,11 +1192,11 @@ Access to this data is temporary restricted.</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>&lt;b&gt;● &lt;/&gt;&lt;b&gt;User sessions&lt;/&gt;: data is processed more slowly but server load and impact on user activities in the application is lower.
-&lt;b&gt;● &lt;/&gt;&lt;b&gt;Data processing&lt;/&gt;: data processing speed is faster but server load is higher as well as user activities are slower in the application. It is recommended that you use it when you need a faster access to data being processed.
-&lt;b&gt;● &lt;/&gt;&lt;b&gt;&lt;fontsize 8&gt;Number&lt;/&gt;&lt;/&gt;&lt;b&gt; of threads&lt;/&gt;: number of update handlers executed simultaneously. The default value is 8. Recommended value:
-&lt;b&gt;    &lt;/&gt;up to 50-75% of the number of server cluster processor cores. 
-&lt;b&gt;    •&lt;/&gt;For the forced update within a period of minimum activity, the recommended value is as many cores as available for the server cluster.
+																<v8:content>&lt;b&gt;● &lt;/&gt;&lt;b&gt;User experience&lt;/&gt;. Data processing takes longer, but server load and user experience degradation are less significant.
+&lt;b&gt;● &lt;/&gt;&lt;b&gt;Data processing&lt;/&gt;. Data processing takes less time, but server load is higher and user experience degradation is significant. It is recommended that you use this mode when availability of the processed data is critical.
+&lt;b&gt;● &lt;/&gt;&lt;b&gt;&lt;fontsize 8&gt;Number&lt;/&gt;&lt;/&gt;&lt;b&gt; of threads&lt;/&gt;. The number of concurrent update handlers. The default value is 8. Recommended value:
+&lt;b&gt;    •&lt;/&gt;For regular operations, up to 50-75% of the number of server cluster processor cores. 
+&lt;b&gt;    •&lt;/&gt;For the forced update within a period of minimum activity, as many cores as available to the server cluster.
 See also &lt;link http://1c.ru/news/info.jsp?id=25491&gt;restriction of 12 cores per server for 1C:Enterprise PROF version (in Russian)&lt;/&gt; and &lt;link https://v8.1c.ru/priobretenie-i-vnedrenie/otvety-na-tipovye-voprosy-po-litsenzirovaniyu-1s-predpriyatiya-8/&gt;Which processor cores to count - real or virtual? (in Russian)&lt;/&gt;
 </v8:content>
 															</v8:item>
@@ -1290,7 +1290,7 @@ Applications users might experience lags during the data processing.</v8:content
 																</v8:item>
 																<v8:item>
 																	<v8:lang>en</v8:lang>
-																	<v8:content>Configure schedule</v8:content>
+																	<v8:content>Set schedule</v8:content>
 																</v8:item>
 															</Title>
 															<ExtendedTooltip name="ИзменитьРасписаниеExtendedTooltip" id="159"/>
@@ -1631,8 +1631,8 @@ Applications users might experience lags during the data processing.</v8:content
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>To view the application update report
-go to &lt;b&gt;Administration&lt;/&gt; — &lt;b&gt;Service&lt;/&gt;.</v8:content>
+					<v8:content>To view the application update report,
+go to &lt;b&gt;Administration&lt;/&gt; — &lt;b&gt;Support and service&lt;/&gt;.</v8:content>
 				</v8:item>
 			</Title>
 			<TitleHeight>2</TitleHeight>
@@ -1648,6 +1648,24 @@ go to &lt;b&gt;Administration&lt;/&gt; — &lt;b&gt;Service&lt;/&gt;.</v8:conten
 			<ContextMenu name="КартинкаШаблонКонтекстноеМеню" id="359"/>
 			<ExtendedTooltip name="КартинкаШаблонРасширеннаяПодсказка" id="360"/>
 		</PictureDecoration>
+		<LabelDecoration name="ГиперссылкаПрогрессОбновленияОбластей" id="361">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет по прогрессу обновления областей данных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Report on progress of data area update</v8:content>
+				</v8:item>
+			</Title>
+			<Hyperlink>true</Hyperlink>
+			<ContextMenu name="ГиперссылкаПрогрессОбновленияОбластейКонтекстноеМеню" id="362"/>
+			<ExtendedTooltip name="ГиперссылкаПрогрессОбновленияОбластейРасширеннаяПодсказка" id="363"/>
+			<Events>
+				<Event name="Click">ГиперссылкаПрогрессОбновленияОбластейНажатие</Event>
+			</Events>
+		</LabelDecoration>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -1754,6 +1772,15 @@ go to &lt;b&gt;Administration&lt;/&gt; — &lt;b&gt;Service&lt;/&gt;.</v8:conten
 		<Attribute name="ОбновлениеЗавершеноУспешно" id="13">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтчетПоПрогрессуОбновленияОбластей" id="14">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>

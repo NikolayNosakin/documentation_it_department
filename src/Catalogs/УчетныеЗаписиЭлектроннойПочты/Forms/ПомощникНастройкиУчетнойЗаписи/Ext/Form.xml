@@ -42,11 +42,11 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Настройка учетной записи</v8:content>
+							<v8:content>Настройка почты</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Account settings</v8:content>
+							<v8:content>Account setup</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="НастройкаУчетнойЗаписиРасширеннаяПодсказка" id="33"/>
@@ -92,7 +92,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Question picture</v8:content>
+											<v8:content>Picture Question</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -176,11 +176,10 @@
 							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ThroughAlign>Use</ThroughAlign>
+							<ThroughAlign>DontUse</ThroughAlign>
 							<ExtendedTooltip name="АутентификацияРасширеннаяПодсказка" id="201"/>
 							<ChildItems>
-								<InputField name="АдресЭлектроннойПочты" id="44">
-									<DataPath>АдресЭлектроннойПочты</DataPath>
+								<UsualGroup name="ГруппаАдресПочты" id="426">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -188,19 +187,70 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Email</v8:content>
+											<v8:content>Email address</v8:content>
 										</v8:item>
 									</Title>
-									<Width>25</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<AutoMarkIncomplete>true</AutoMarkIncomplete>
-									<EditTextUpdate>OnValueChange</EditTextUpdate>
-									<ContextMenu name="АдресЭлектроннойПочтыКонтекстноеМеню" id="45"/>
-									<ExtendedTooltip name="АдресЭлектроннойПочтыРасширеннаяПодсказка" id="46"/>
-									<Events>
-										<Event name="OnChange">АдресЭлектроннойПочтыПриИзменении</Event>
-									</Events>
-								</InputField>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаАдресПочтыРасширеннаяПодсказка" id="427"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияАдресПочты" id="428">
+											<Width>11</Width>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Адрес почты:</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Email address:</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияАдресПочтыКонтекстноеМеню" id="429"/>
+											<ExtendedTooltip name="ДекорацияАдресПочтыРасширеннаяПодсказка" id="430">
+												<AutoMaxWidth>false</AutoMaxWidth>
+											</ExtendedTooltip>
+										</LabelDecoration>
+										<InputField name="АдресЭлектроннойПочты" id="44">
+											<DataPath>АдресЭлектроннойПочты</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Адрес почты</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Email</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>None</TitleLocation>
+											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+											<Width>25</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<EditTextUpdate>OnValueChange</EditTextUpdate>
+											<ContextMenu name="АдресЭлектроннойПочтыКонтекстноеМеню" id="45"/>
+											<ExtendedTooltip name="АдресЭлектроннойПочтыРасширеннаяПодсказка" id="46">
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>30</MaxWidth>
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Электронная почта для рассылки уведомлений из программы.</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Account for service notifications.</v8:content>
+													</v8:item>
+												</Title>
+											</ExtendedTooltip>
+											<Events>
+												<Event name="OnChange">АдресЭлектроннойПочтыПриИзменении</Event>
+											</Events>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 								<RadioButtonField name="СпособАутентификации" id="362">
 									<DataPath>СпособАутентификации</DataPath>
 									<Visible>false</Visible>
@@ -275,11 +325,11 @@
 														<Presentation>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Ввести пароль:</v8:content>
+																<v8:content>Пароль почты:</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Enter password:</v8:content>
+																<v8:content>Password:</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">Пароль</Value>
@@ -306,6 +356,17 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<TitleHeight>1</TitleHeight>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>В целях безопасности рекомендуется создать на сайте почтового сервиса отдельный пароль приложения и использовать его в программе вместо основного пароля.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>For safety reasons, create a separate application password on the email service website and use it in the application instead of the main password.</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>Button</ToolTipRepresentation>
 											<Width>23</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<PasswordMode>true</PasswordMode>
@@ -313,7 +374,7 @@
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<EditTextUpdate>OnValueChange</EditTextUpdate>
 											<ChoiceButtonPicture>
-												<xr:Ref>CommonPicture.ВводимыеСимволыСкрыты</xr:Ref>
+												<xr:Ref>CommonPicture.ВводимыеСимволыВидны</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</ChoiceButtonPicture>
 											<ContextMenu name="ПарольКонтекстноеМеню" id="48"/>
@@ -366,7 +427,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Use this account to</v8:content>
+									<v8:content>Use this account</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -382,7 +443,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Send mail</v8:content>
+											<v8:content>To send mail</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
@@ -399,7 +460,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Receive mail</v8:content>
+											<v8:content>To receive mail</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
@@ -442,7 +503,7 @@
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>All users</v8:content>
+														<v8:content>For all users</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">Общая</Value>
@@ -459,7 +520,7 @@
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Me only</v8:content>
+														<v8:content>For me only</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">Персональная</Value>
@@ -560,11 +621,11 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Тип учетной записи</v8:content>
+									<v8:content>Тип почты</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Protocol</v8:content>
+									<v8:content>Account type</v8:content>
 								</v8:item>
 							</Title>
 							<Width>8</Width>
@@ -1005,6 +1066,23 @@ Fill in the following fields from the application registration settings:
 							<ContextMenu name="ПарольПриложенияКонтекстноеМеню" id="319"/>
 							<ExtendedTooltip name="ПарольПриложенияРасширеннаяПодсказка" id="320"/>
 						</InputField>
+						<LabelDecoration name="ДополнительноеПояснение" id="420">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>50</MaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>У некоторых сервисов новое зарегистрированное приложение становится доступным не сразу. Рекомендуется после регистрации подождать несколько минут, прежде чем продолжить настройку.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>In some services, a new registered application does not become available immediately. Before you continue the setup after registration, wait a few minutes.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДополнительноеПояснениеКонтекстноеМеню" id="421"/>
+							<ExtendedTooltip name="ДополнительноеПояснениеРасширеннаяПодсказка" id="422"/>
+						</LabelDecoration>
 					</ChildItems>
 				</Page>
 				<Page name="Авторизация" id="308">
@@ -1100,7 +1178,7 @@ Fill in the following fields from the application registration settings:
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Проверка настроек учетной записи</v8:content>
+							<v8:content>Проверка настроек почты</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
@@ -1113,11 +1191,11 @@ Fill in the following fields from the application registration settings:
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Проверка настроек учетной записи картинка и надпись</v8:content>
+									<v8:content>Проверка настроек почты.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Account settings test picture and label</v8:content>
+									<v8:content>Account settings test</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -1178,7 +1256,7 @@ This might take a while.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Picture question</v8:content>
+									<v8:content>Picture Question</v8:content>
 								</v8:item>
 							</Title>
 							<Picture>
@@ -1197,7 +1275,7 @@ This might take a while.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Errors found</v8:content>
+									<v8:content>Errors found during the test</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -1252,7 +1330,7 @@ This might take a while.</v8:content>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Учетная запись успешно настроена</v8:content>
+							<v8:content>Почта успешно настроена</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
@@ -1282,11 +1360,11 @@ This might take a while.</v8:content>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Учетная запись успешно настроена картинка и надпись</v8:content>
+									<v8:content>Почта успешно настроена.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Email account setup completed picture and label</v8:content>
+									<v8:content>Email account setup completed.</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
@@ -1302,7 +1380,7 @@ This might take a while.</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Success picture</v8:content>
+											<v8:content>Picture Success</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -1319,13 +1397,11 @@ This might take a while.</v8:content>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Настройка параметров почты
-vasyapupkin@example.com завершена.</v8:content>
+											<v8:content>Настройка параметров почты завершена.</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Setup of email account
-jdoe@example.com is completed.</v8:content>
+											<v8:content>Email account is set up.</v8:content>
 										</v8:item>
 									</Title>
 									<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -1344,7 +1420,7 @@ jdoe@example.com is completed.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Test failed</v8:content>
+							<v8:content>Errors found during the test</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПриПроверкеОбнаруженыОшибкиРасширеннаяПодсказка" id="394"/>
@@ -1374,7 +1450,7 @@ jdoe@example.com is completed.</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Picture errors found</v8:content>
+											<v8:content>Picture Errors found during the test</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
@@ -1495,7 +1571,7 @@ jdoe@example.com is completed.</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Recommendations on how to resolve standard issues</v8:content>
+											<v8:content>Need help?</v8:content>
 										</v8:item>
 									</Title>
 									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
@@ -1548,13 +1624,6 @@ jdoe@example.com is completed.</v8:content>
 							<CommandName>Form.Command.Назад</CommandName>
 							<ExtendedTooltip name="КнопкаНазадРасширеннаяПодсказка" id="21"/>
 						</Button>
-						<Button name="ФормаИзменитьФорму" id="171">
-							<Type>CommandBarButton</Type>
-							<Visible>false</Visible>
-							<CommandName>0:198ea630-fda2-4cda-8a23-f999f4c67ee6</CommandName>
-							<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-							<ExtendedTooltip name="ФормаИзменитьФормуРасширеннаяПодсказка" id="172"/>
-						</Button>
 					</ChildItems>
 				</CommandBar>
 				<CommandBar name="КоманднаяПанельПраваяЧасть" id="30">
@@ -1580,6 +1649,16 @@ jdoe@example.com is completed.</v8:content>
 							<Type>CommandBarButton</Type>
 							<DefaultButton>true</DefaultButton>
 							<CommandName>Form.Command.Далее</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Создать</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="КнопкаДалееРасширеннаяПодсказка" id="23"/>
 						</Button>
 						<Button name="КнопкаОтмена" id="268">
@@ -1870,7 +1949,7 @@ jdoe@example.com is completed.</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Send mail</v8:content>
+					<v8:content>To send mail</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1885,7 +1964,7 @@ jdoe@example.com is completed.</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Receive mail</v8:content>
+					<v8:content>To receive mail</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1981,7 +2060,7 @@ jdoe@example.com is completed.</v8:content>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Вид учетной записи</v8:content>
+					<v8:content>Вид почты</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>

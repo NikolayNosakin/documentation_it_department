@@ -58,6 +58,7 @@
 			<CommandBarLocation>None</CommandBarLocation>
 			<ReadOnly>true</ReadOnly>
 			<SelectionMode>SingleRow</SelectionMode>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
@@ -84,6 +85,7 @@
 				<ExcludedCommand>SortListAsc</ExcludedCommand>
 				<ExcludedCommand>SortListDesc</ExcludedCommand>
 			</CommandSet>
+			<SearchStringLocation>Top</SearchStringLocation>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="УзлыПлановОбменаКонтекстноеМеню" id="15"/>
 			<AutoCommandBar name="УзлыПлановОбменаКоманднаяПанель" id="16"/>
@@ -119,12 +121,14 @@
 				<InputField name="УзлыПлановОбменаПланОбменаПредставление" id="23">
 					<DataPath>УзлыПлановОбмена.ПланОбменаПредставление</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<Width>40</Width>
 					<ContextMenu name="УзлыПлановОбменаПланОбменаПредставлениеКонтекстноеМеню" id="24"/>
 					<ExtendedTooltip name="УзлыПлановОбменаПланОбменаПредставлениеExtendedTooltip" id="31"/>
 				</InputField>
 				<InputField name="УзлыПлановОбменаУзелПредставление" id="25">
 					<DataPath>УзлыПлановОбмена.УзелПредставление</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<Width>40</Width>
 					<ContextMenu name="УзлыПлановОбменаУзелПредставлениеКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="УзлыПлановОбменаУзелПредставлениеExtendedTooltip" id="32"/>
 				</InputField>
@@ -230,12 +234,7 @@
 					<v8:content>Select</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Picture>
-				<xr:Ref>StdPicture.ChooseValue</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
 			<Action>Выбрать</Action>
-			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
@@ -247,6 +246,11 @@
 		</Parameter>
 		<Parameter name="ПланыОбменаДляВыбора">
 			<Type/>
+		</Parameter>
+		<Parameter name="ТекущаяСтрока">
+			<Type>
+				<v8:TypeSet>cfg:ExchangePlanRef</v8:TypeSet>
+			</Type>
 		</Parameter>
 	</Parameters>
 </Form>

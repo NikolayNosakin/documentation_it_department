@@ -112,24 +112,40 @@
 					<CommandName>Form.Item.СписокПользователей.StandardCommand.CancelSearch</CommandName>
 					<ExtendedTooltip name="ОтменитьПоискExtendedTooltip" id="44"/>
 				</Button>
-				<Button name="СортировкаПоВозрастанию" id="26">
-					<Type>CommandBarButton</Type>
-					<SkipOnInput>false</SkipOnInput>
-					<CommandName>Form.Command.СортировкаПоВозрастанию</CommandName>
-					<TextColor>style:ButtonTextColor</TextColor>
-					<BackColor>style:ButtonBackColor</BackColor>
-					<BorderColor>style:BorderColor</BorderColor>
-					<ExtendedTooltip name="СортировкаПоВозрастаниюExtendedTooltip" id="45"/>
-				</Button>
-				<Button name="СортировкаПоУбыванию" id="27">
-					<Type>CommandBarButton</Type>
-					<SkipOnInput>false</SkipOnInput>
-					<CommandName>Form.Command.СортировкаПоУбыванию</CommandName>
-					<TextColor>style:ButtonTextColor</TextColor>
-					<BackColor>style:ButtonBackColor</BackColor>
-					<BorderColor>style:BorderColor</BorderColor>
-					<ExtendedTooltip name="СортировкаПоУбываниюExtendedTooltip" id="46"/>
-				</Button>
+				<ButtonGroup name="ГруппаСортировка" id="82">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сортировка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Sorting</v8:content>
+						</v8:item>
+					</Title>
+					<Representation>Compact</Representation>
+					<ExtendedTooltip name="ГруппаСортировкаРасширеннаяПодсказка" id="83"/>
+					<ChildItems>
+						<Button name="СортировкаПоВозрастанию" id="26">
+							<Type>CommandBarButton</Type>
+							<SkipOnInput>false</SkipOnInput>
+							<CommandName>Form.Command.СортировкаПоВозрастанию</CommandName>
+							<TextColor>style:ButtonTextColor</TextColor>
+							<BackColor>style:ButtonBackColor</BackColor>
+							<BorderColor>style:BorderColor</BorderColor>
+							<ExtendedTooltip name="СортировкаПоВозрастаниюExtendedTooltip" id="45"/>
+						</Button>
+						<Button name="СортировкаПоУбыванию" id="27">
+							<Type>CommandBarButton</Type>
+							<SkipOnInput>false</SkipOnInput>
+							<CommandName>Form.Command.СортировкаПоУбыванию</CommandName>
+							<TextColor>style:ButtonTextColor</TextColor>
+							<BackColor>style:ButtonBackColor</BackColor>
+							<BorderColor>style:BorderColor</BorderColor>
+							<ExtendedTooltip name="СортировкаПоУбываниюExtendedTooltip" id="46"/>
+						</Button>
+					</ChildItems>
+				</ButtonGroup>
 				<Button name="ЗавершитьСеанс" id="31">
 					<Type>CommandBarButton</Type>
 					<Representation>Text</Representation>
@@ -776,4 +792,20 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
+	<Parameters>
+		<Parameter name="ОтборИмяПриложения">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ОповещатьОЗакрытии">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Parameter>
+	</Parameters>
 </Form>

@@ -1,5 +1,5 @@
 ﻿///////////////////////////////////////////////////////////////////////////////////////////////////////
-// Copyright (c) 2022, ООО 1С-Софт
+// Copyright (c) 2023, ООО 1С-Софт
 // Все права защищены. Эта программа и сопроводительные материалы предоставляются 
 // в соответствии с условиями лицензии Attribution 4.0 International (CC BY 4.0)
 // Текст лицензии доступен по ссылке:
@@ -24,11 +24,11 @@
 		
 		Если РазделениеВключено Тогда
 			Элементы.ИнформационнаяБазаПеремещена.Заголовок = НСтр("ru = 'Приложение перемещено';
-																	|en = 'The application is transferred'");
+																	|en = 'Moved application'");
 			Элементы.ЭтоКопияИнформационнойБазы.Заголовок = НСтр("ru = 'Это копия приложения';
-																|en = 'Copied application'");
+																|en = 'Application copy'");
 			Заголовок = НСтр("ru = 'Приложение было перемещено или восстановлено из резервной копии';
-							|en = 'The application was transferred or restored from backup'");
+							|en = 'The application has been moved or restored from backup'");
 		КонецЕсли;
 		
 		Если Не РазделениеВключено И Не ИзменилосьРазделение Тогда
@@ -57,10 +57,10 @@
 				           |
 				           |%1
 				           |
-				           |<a href = ""%2"">Technical information on lock reason</a>
+				           |<a href = ""%2"">Technical information</a>
 				           |
-				           | • If you use the infobase for accounting, click <b>Transferred infobase</b>.
-				           | • If it is an infobase copy, click <b>This is an infobase copy</b>.
+				           | • If you are going to use the infobase for accounting, select <b>Moved infobase</b>.
+				           | • If this is an infobase copy, select <b>Infobase copy</b>.
 				           |%3
 				           |
 				           |%4'"),
@@ -82,10 +82,10 @@
 				           |en = 'Scheduled online activities such as data synchronization and emailing are disabled to prevent conflicts
 				           |with the web application.
 				           |
-				           |<b>This infobase was transferred from a web application</b>.
+				           |<b>This infobase was imported from the web application</b>.
 				           |
-				           | • If you will use the infobase for accounting, select <b>Transferred infobase</b>.
-				           | • If it is an infobase copy, select <b>Infobase copy</b>.
+				           | • If you are going to use the infobase for accounting, select <b>Moved infobase</b>.
+				           | • If this is an infobase copy, select <b>Infobase copy</b>.
 				           |
 				           |%1'"),
 				ТекстСнятияБлокировки);
@@ -103,10 +103,10 @@
 				           |en = 'Scheduled online activities such as data synchronization and emailing are disabled to prevent conflicts
 				           |with the web application.
 				           |
-				           |<b>The application was transferred.</b>
+				           |<b>The application was moved.</b>
 				           |
-				           | • If you will use the application for accounting, select <b>Transferred application</b>.
-				           | • If it is a copy of an application, select <b>Copied application</b>.
+				           | • If you are going to use the application for accounting, select <b>Moved application</b>.
+				           | • If this is an application copy, select <b>Application copy</b>.
 				           |
 				           |%1'"),
 				ТекстСнятияБлокировки);
@@ -122,12 +122,12 @@
 				           |
 				           |%1';
 				           |en = 'Scheduled online activities such as data synchronization and emailing are disabled to prevent conflicts
-				           |with the desktop application.
+				           |with the local version.
 				           |
-				           |The application was transferred from a desktop.
+				           |The application was imported from the local version.
 				           |
-				           | • If you will use the application for accounting, select <b>Transferred application</b>.
-				           | • If it is a copy of an application, select <b>Copied application</b>.
+				           | • If you are going to use the application for accounting, select <b>Moved application</b>.
+				           | • If this is an application copy, select <b>Application copy</b>.
 				           |
 				           |%1'"),
 				ТекстСнятияБлокировки);

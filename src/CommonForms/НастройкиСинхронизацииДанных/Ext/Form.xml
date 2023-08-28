@@ -319,10 +319,211 @@ Please contact the administrator.</v8:content>
 							<v8:content>Configuration extensions are changed. To continue with the changes made, &lt;link 1&gt;restart&lt;/&gt; the application.</v8:content>
 						</v8:item>
 					</Title>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
 					<ContextMenu name="ПредупреждениеОПерезагрузкеОписаниеКонтекстноеМеню" id="765"/>
 					<ExtendedTooltip name="ПредупреждениеОПерезагрузкеОписаниеРасширеннаяПодсказка" id="766"/>
 					<Events>
 						<Event name="URLProcessing">ПредупреждениеОПерезагрузкеОписаниеОбработкаНавигационнойСсылки</Event>
+					</Events>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ИнформационнаяПанельОбнаруженоЗацикливание" id="769">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предупреждение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Warning</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>style:ЦветФонаПредупреждения</BackColor>
+			<ExtendedTooltip name="ИнформационнаяПанельОбнаруженоЗацикливаниеРасширеннаяПодсказка" id="770"/>
+			<ChildItems>
+				<PictureDecoration name="ПредупреждениеОЗацикливанииКартинка" id="771">
+					<Width>3</Width>
+					<Height>2</Height>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Предупреждение о зацикливании картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Warning about loop picture</v8:content>
+						</v8:item>
+					</Title>
+					<Picture>
+						<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
+					<FileDragMode>AsFile</FileDragMode>
+					<ContextMenu name="ПредупреждениеОЗацикливанииКартинкаКонтекстноеМеню" id="772"/>
+					<ExtendedTooltip name="ПредупреждениеОЗацикливанииКартинкаРасширеннаяПодсказка" id="773"/>
+				</PictureDecoration>
+				<LabelDecoration name="ПредупреждениеОЗацикливанииОписание" id="774">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обнаружено зацикливание синхронизаций. Для получения подробной информации перейдите по &lt;link 1&gt;ссылке&lt;/&gt;.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Synchronization loop is found. For more information, follow the &lt;link 1&gt;link&lt;/&gt;.</v8:content>
+						</v8:item>
+					</Title>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<ContextMenu name="ПредупреждениеОЗацикливанииОписаниеКонтекстноеМеню" id="775"/>
+					<ExtendedTooltip name="ПредупреждениеОЗацикливанииОписаниеРасширеннаяПодсказка" id="776"/>
+					<Events>
+						<Event name="URLProcessing">ПредупреждениеОЗацикливанииОписаниеОбработкаНавигационнойСсылки</Event>
+					</Events>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ИнформационнаяПанельОтключенныеСценариях" id="788">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предупреждение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Warning</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>style:ЦветФонаПредупреждения</BackColor>
+			<ExtendedTooltip name="ИнформационнаяПанельОтключенныеСценарияхРасширеннаяПодсказка" id="789"/>
+			<ChildItems>
+				<PictureDecoration name="ПредупреждениеОбОтключенныхСценарияхКартинка" id="790">
+					<Width>3</Width>
+					<Height>2</Height>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Предупреждение об отключенных сценариях</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Warning about disabled scenarios</v8:content>
+						</v8:item>
+					</Title>
+					<Picture>
+						<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
+					<FileDragMode>AsFile</FileDragMode>
+					<ContextMenu name="ПредупреждениеОбОтключенныхСценарияхКартинкаКонтекстноеМеню" id="791"/>
+					<ExtendedTooltip name="ПредупреждениеОбОтключенныхСценарияхКартинкаРасширеннаяПодсказка" id="792"/>
+				</PictureDecoration>
+				<LabelDecoration name="ПредупреждениеОбОтключенныхСценарияхОписание" id="793">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отключенные сценарии</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Disabled scenarios</v8:content>
+						</v8:item>
+					</Title>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<ContextMenu name="ПредупреждениеОбОтключенныхСценарияхОписаниеКонтекстноеМеню" id="794"/>
+					<ExtendedTooltip name="ПредупреждениеОбОтключенныхСценарияхОписаниеРасширеннаяПодсказка" id="795"/>
+					<Events>
+						<Event name="URLProcessing">ПредупреждениеОЗацикливанииОписаниеОбработкаНавигационнойСсылки</Event>
+					</Events>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ИнформационнаяПанельПереходНаИнтернет" id="777">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предупреждение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Warning</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информационная панель обнаружено зацикливание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Information panel loop is found</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>web:PaleGreen</BackColor>
+			<ExtendedTooltip name="ИнформационнаяПанельПереходНаИнтернетРасширеннаяПодсказка" id="778"/>
+			<ChildItems>
+				<PictureDecoration name="ИнформацияОПереходеНаИнтернетКартинка" id="779">
+					<Width>3</Width>
+					<Height>2</Height>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Информация о переходе на интернет (картинка)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Information about switching to Internet connection (picture)</v8:content>
+						</v8:item>
+					</Title>
+					<PictureSize>Proportionally</PictureSize>
+					<ImageScale>200</ImageScale>
+					<Picture>
+						<xr:Ref>StdPicture.Information</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<FileDragMode>AsFile</FileDragMode>
+					<ContextMenu name="ИнформацияОПереходеНаИнтернетКартинкаКонтекстноеМеню" id="780"/>
+					<ExtendedTooltip name="ИнформацияОПереходеНаИнтернетКартинкаРасширеннаяПодсказка" id="781"/>
+				</PictureDecoration>
+				<LabelDecoration name="ИнформацияОПереходеНаИнтернетОписание" id="782">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Для некоторых синхронизаций есть возможность настроить обмен через Интернет (веб-сервис). 
+Это позволит ускорить обмен и более гибко настроить график синхронизации. 
+Для перехода на обмен посредством веб-сервиса, воспользуйтесь помощником перехода в списке &lt;img :2d40609d-b56f-4082-9a6f-8216817ebd24:00000000-0000-0000-0000-000000000000/&gt;.
+
+&lt;link НеПредлагатьПерейтиНаВебСервис&gt;Больше не предлагать перейти на веб-сервис&lt;/&gt;. (Вызвать помощник перехода можно через меню узла синхронизации &lt;b&gt;Ещё&lt;/&gt;)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>For some synchronizations, you can configure exchange over the Internet (web service). 
+It allows you to speed up the exchange and set up a more flexible synchronization schedule. 
+To switch to exchange using a web service, use the switch to Internet connection wizard from the list: &lt;img 0:2d40609d-b56f-4082-9a6f-8216817ebd24:00000000-0000-0000-0000-000000000000/&gt;.
+
+&lt;link НеПредлагатьПерейтиНаВебСервис&gt;Do not offer to switch to a web service again&lt;/&gt;. You can call the wizard in the &lt;b&gt;More actions&lt;/&gt; menu of a synchronization node.</v8:content>
+						</v8:item>
+					</Title>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<ContextMenu name="ИнформацияОПереходеНаИнтернетОписаниеКонтекстноеМеню" id="783"/>
+					<ExtendedTooltip name="ИнформацияОПереходеНаИнтернетОписаниеРасширеннаяПодсказка" id="784"/>
+					<Events>
+						<Event name="URLProcessing">ИнформацияОПереходеНаИнтернетОписаниеОбработкаНавигационнойСсылки</Event>
 					</Events>
 				</LabelDecoration>
 			</ChildItems>
@@ -897,6 +1098,21 @@ Please contact the administrator.</v8:content>
 										</ColumnGroup>
 									</ChildItems>
 								</ColumnGroup>
+								<PictureField name="СписокПриложенийДоступенПереходНаWS" id="785">
+									<DataPath>СписокПриложений.ДоступенПереходНаWS</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<HeaderPicture>
+										<xr:Ref>StdPicture.Setting</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</HeaderPicture>
+									<ValuesPicture>
+										<xr:Ref>CommonPicture.СинхронизацияДанныхНастройка</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</ValuesPicture>
+									<ContextMenu name="СписокПриложенийДоступенПереходНаWSКонтекстноеМеню" id="786"/>
+									<ExtendedTooltip name="СписокПриложенийДоступенПереходНаWSРасширеннаяПодсказка" id="787"/>
+								</PictureField>
 								<CheckBoxField name="СписокПриложенийРасписаниеНастроено" id="641">
 									<DataPath>СписокПриложений.РасписаниеНастроено</DataPath>
 									<TitleLocation>None</TitleLocation>
@@ -1034,10 +1250,20 @@ Please wait…</v8:content>
 						</Title>
 					</ExtendedTooltip>
 				</InputField>
-				<Button name="ИзменитьПрефиксИБ" id="769">
+				<Button name="ИзменитьПрефиксИБ" id="796">
 					<Type>Hyperlink</Type>
 					<CommandName>Form.Command.ИзменитьПрефиксИБ</CommandName>
-					<ExtendedTooltip name="ИзменитьПрефиксИБРасширеннаяПодсказка" id="770"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменить</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Change</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ИзменитьПрефиксИБРасширеннаяПодсказка" id="797"/>
 				</Button>
 				<UsualGroup name="СписокПриложенийГруппаРасписаниеВыполненияОбмена" id="594">
 					<Title>
@@ -1475,6 +1701,26 @@ Please wait…</v8:content>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Column>
+				<Column name="ДоступенПереходНаWS" id="26">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доступен переход на WS</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Switch to WS is available</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="СинхронизацияНедоступна" id="37">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="ЕстьПраваНаАдминистрированиеОбменов" id="4">
@@ -1578,6 +1824,11 @@ Please wait…</v8:content>
 						</v8:StringQualifiers>
 					</Type>
 				</Column>
+				<Column name="ДоступенExchangeAdministrationManage_3_0_1_1" id="4">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="ИндексСтрокиСписокПриложений" id="3">
@@ -1590,6 +1841,31 @@ Please wait…</v8:content>
 		</Attribute>
 		<Attribute name="КэшЗначений" id="37">
 			<Type/>
+		</Attribute>
+		<Attribute name="ДоступенПереходНаWS" id="6">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбнаруженоЗацикливание" id="7">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтключенныеСценарии" id="11">
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription"/>
+		</Attribute>
+		<Attribute name="ИзменитьПрефиксИБ" id="12">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -2008,11 +2284,11 @@ Please wait…</v8:content>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Изменить</v8:content>
+					<v8:content>Изменить префикс ИБ</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Edit</v8:content>
+					<v8:content>Change the infobase prefix</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>

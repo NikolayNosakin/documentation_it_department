@@ -301,6 +301,14 @@
 													</Button>
 												</ChildItems>
 											</ButtonGroup>
+											<SearchStringAddition name="СтрокаПоиска" id="463">
+												<AdditionSource>
+													<Item>Значения</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="464"/>
+												<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="465"/>
+											</SearchStringAddition>
 										</ChildItems>
 									</AutoCommandBar>
 									<ExtendedTooltip name="ЗначенияРасширеннаяПодсказка" id="21"/>
@@ -1950,7 +1958,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Group by the selected field</v8:content>
+					<v8:content>Group by selected field</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

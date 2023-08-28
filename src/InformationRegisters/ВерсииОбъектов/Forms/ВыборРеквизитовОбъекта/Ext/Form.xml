@@ -85,6 +85,24 @@
 						<CommandName>Form.Command.СнятьФлажки</CommandName>
 						<ExtendedTooltip name="ФормаСнятьФлажкиРасширеннаяПодсказка" id="31"/>
 					</Button>
+					<SearchStringAddition name="СтрокаПоиска" id="43">
+						<AdditionSource>
+							<Item>РеквизитыОбъекта</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Поиск</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Search</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="44"/>
+						<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="45"/>
+					</SearchStringAddition>
 				</ChildItems>
 			</AutoCommandBar>
 			<ExtendedTooltip name="РеквизитыОбъектаРасширеннаяПодсказка" id="16"/>

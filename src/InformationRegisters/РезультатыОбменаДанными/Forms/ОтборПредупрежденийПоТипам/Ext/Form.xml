@@ -166,6 +166,13 @@
 							<ContextMenu name="ОшибкаВыполненияКодаОбработчиковПриПолученииДанныхКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="ОшибкаВыполненияКодаОбработчиковПриПолученииДанныхРасширеннаяПодсказка" id="18"/>
 						</CheckBoxField>
+						<CheckBoxField name="СообщениеОбменаНеПомещеноВАрхив" id="48">
+							<DataPath>СообщениеОбменаНеПомещеноВАрхив</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СообщениеОбменаНеПомещеноВАрхивКонтекстноеМеню" id="49"/>
+							<ExtendedTooltip name="СообщениеОбменаНеПомещеноВАрхивРасширеннаяПодсказка" id="50"/>
+						</CheckBoxField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -323,6 +330,21 @@
 				<v8:item>
 					<v8:lang>en</v8:lang>
 					<v8:content>Administrative error of the application</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СообщениеОбменаНеПомещеноВАрхив" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщение обмена не помещено в архив</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exchange message is not placed to archive</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

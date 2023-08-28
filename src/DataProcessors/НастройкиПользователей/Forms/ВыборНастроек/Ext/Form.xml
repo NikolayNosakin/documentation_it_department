@@ -40,55 +40,6 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ОтображатьОтчетExtendedTooltip" id="104"/>
 			<ChildItems>
-				<UsualGroup name="БыстрыйПоиск" id="50">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Быстрый поиск</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Quick search</v8:content>
-						</v8:item>
-					</Title>
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="БыстрыйПоискExtendedTooltip" id="105"/>
-					<ChildItems>
-						<InputField name="Поиск" id="48">
-							<DataPath>Поиск</DataPath>
-							<TitleLocation>Left</TitleLocation>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Введите слово или часть фразы для поиска настроек. Например: отчет</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Type a query to search for settings. Example: report.</v8:content>
-								</v8:item>
-							</ToolTip>
-							<HorizontalStretch>false</HorizontalStretch>
-							<ClearButton>true</ClearButton>
-							<InputHint>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>слово или часть фразы</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>one or more search words</v8:content>
-								</v8:item>
-							</InputHint>
-							<ContextMenu name="ПоискКонтекстноеМеню" id="49"/>
-							<ExtendedTooltip name="ПоискExtendedTooltip" id="106"/>
-							<Events>
-								<Event name="OnChange">ПоискПриИзменении</Event>
-							</Events>
-						</InputField>
-					</ChildItems>
-				</UsualGroup>
 				<CommandBar name="КоманднаяПанель" id="51">
 					<Title>
 						<v8:item>
@@ -155,7 +106,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Long-running operation page</v8:content>
+									<v8:content>Page Long-running operation</v8:content>
 								</v8:item>
 							</Title>
 							<Group>HorizontalIfPossible</Group>
@@ -270,6 +221,7 @@
 														<ExcludedCommand>SortListDesc</ExcludedCommand>
 														<ExcludedCommand>Tree</ExcludedCommand>
 													</CommandSet>
+													<SearchStringLocation>Top</SearchStringLocation>
 													<ContextMenu name="ВнешнийВидКонтекстноеМеню" id="30">
 														<ChildItems>
 															<Button name="ВнешнийВидКонтекстноеМенюОткрыть" id="76">
@@ -425,6 +377,7 @@
 														<ExcludedCommand>SortListDesc</ExcludedCommand>
 														<ExcludedCommand>Tree</ExcludedCommand>
 													</CommandSet>
+													<SearchStringLocation>Top</SearchStringLocation>
 													<ContextMenu name="НастройкиОтчетовДеревоКонтекстноеМеню" id="20">
 														<ChildItems>
 															<Button name="НастройкиОтчетовДеревоКонтекстноеМенюОткрыть" id="65">
@@ -582,6 +535,7 @@
 														<ExcludedCommand>SortListDesc</ExcludedCommand>
 														<ExcludedCommand>Tree</ExcludedCommand>
 													</CommandSet>
+													<SearchStringLocation>Top</SearchStringLocation>
 													<ContextMenu name="ПрочиеНастройкиКонтекстноеМеню" id="87">
 														<ChildItems>
 															<Button name="ПрочиеНастройкиКонтекстноеМенюОткрыть" id="100">
@@ -902,28 +856,6 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Поиск" id="10">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Найти</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Find</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-			<Save>
-				<Field>Поиск</Field>
-			</Save>
-		</Attribute>
 		<Attribute name="ПользовательИнформационнойБазы" id="5">
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1177,7 +1109,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Refresh settings list.</v8:content>
+					<v8:content>Refresh settings list</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F5</Shortcut>
@@ -1207,7 +1139,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Open setting.</v8:content>
+					<v8:content>Open setting</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1236,7 +1168,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Select settings.</v8:content>
+					<v8:content>Select settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1265,7 +1197,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Select all settings.</v8:content>
+					<v8:content>Select all settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1293,7 +1225,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Clear all settings.</v8:content>
+					<v8:content>Clear all settings</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

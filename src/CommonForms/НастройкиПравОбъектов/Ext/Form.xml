@@ -52,16 +52,32 @@
 				<CommandName>Form.Item.ГруппыПрав.StandardCommand.Delete</CommandName>
 				<ExtendedTooltip name="ФормаУдалитьExtendedTooltip" id="45"/>
 			</Button>
-			<Button name="ФормаПереместитьВверх" id="37">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Item.ГруппыПрав.StandardCommand.MoveUp</CommandName>
-				<ExtendedTooltip name="ФормаПереместитьВверхExtendedTooltip" id="46"/>
-			</Button>
-			<Button name="ФормаПереместитьВниз" id="38">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Item.ГруппыПрав.StandardCommand.MoveDown</CommandName>
-				<ExtendedTooltip name="ФормаПереместитьВнизExtendedTooltip" id="47"/>
-			</Button>
+			<ButtonGroup name="КнопкиПеремещения" id="113">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Кнопки перемещения</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Move buttons</v8:content>
+					</v8:item>
+				</Title>
+				<Representation>Compact</Representation>
+				<ExtendedTooltip name="КнопкиПеремещенияРасширеннаяПодсказка" id="114"/>
+				<ChildItems>
+					<Button name="ФормаПереместитьВверх" id="37">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ГруппыПрав.StandardCommand.MoveUp</CommandName>
+						<ExtendedTooltip name="ФормаПереместитьВверхExtendedTooltip" id="46"/>
+					</Button>
+					<Button name="ФормаПереместитьВниз" id="38">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ГруппыПрав.StandardCommand.MoveDown</CommandName>
+						<ExtendedTooltip name="ФормаПереместитьВнизExtendedTooltip" id="47"/>
+					</Button>
+				</ChildItems>
+			</ButtonGroup>
 			<Button name="ФормаСправка" id="30">
 				<Type>CommandBarButton</Type>
 				<Visible>false</Visible>
@@ -81,6 +97,24 @@
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаВывестиСписокРасширеннаяПодсказка" id="60"/>
 			</Button>
+			<SearchStringAddition name="СтрокаПоиск" id="115">
+				<AdditionSource>
+					<Item>ГруппыПрав</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Поиск</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="СтрокаПоискКонтекстноеМеню" id="116"/>
+				<ExtendedTooltip name="СтрокаПоискРасширеннаяПодсказка" id="117"/>
+			</SearchStringAddition>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>

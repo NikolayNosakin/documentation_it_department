@@ -46,7 +46,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Select catalog to import data</v8:content>
+							<v8:content>Select catalog to import data to</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ВыборСправочникаДляЗагрузкиРасширеннаяПодсказка" id="4"/>
@@ -114,7 +114,7 @@ You can paste the data from the clipboard or upload a spreadsheet file.</v8:cont
 										<ExcludedCommand>Add</ExcludedCommand>
 										<ExcludedCommand>Change</ExcludedCommand>
 										<ExcludedCommand>CheckAll</ExcludedCommand>
-										<ExcludedCommand>Copy</ExcludedCommand>
+										<ExcludedCommand>Choose</ExcludedCommand>
 										<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 										<ExcludedCommand>Delete</ExcludedCommand>
 										<ExcludedCommand>EndEdit</ExcludedCommand>
@@ -127,7 +127,28 @@ You can paste the data from the clipboard or upload a spreadsheet file.</v8:cont
 									</CommandSet>
 									<ContextMenu name="ВидЗагрузкиДанныхКонтекстноеМеню" id="18"/>
 									<AutoCommandBar name="ВидЗагрузкиДанныхКоманднаяПанель" id="19">
+										<HorizontalAlign>Auto</HorizontalAlign>
 										<Autofill>false</Autofill>
+										<ChildItems>
+											<SearchStringAddition name="СтрокаПоиска" id="687">
+												<AdditionSource>
+													<Item>ВидЗагрузкиДанных</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Поиск</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Search</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="688"/>
+												<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="689"/>
+											</SearchStringAddition>
+										</ChildItems>
 									</AutoCommandBar>
 									<ExtendedTooltip name="ВидЗагрузкиДанныхРасширеннаяПодсказка" id="20"/>
 									<SearchStringAddition name="ВидЗагрузкиДанныхСтрокаПоиска" id="661">
@@ -358,6 +379,7 @@ You can paste the data from the clipboard or upload a spreadsheet file.</v8:cont
 											<Events>
 												<Event name="OnChange">ШаблонСДаннымиПриИзменении</Event>
 												<Event name="OnActivate">ШаблонСДаннымиПриАктивизации</Event>
+												<Event name="Selection">ШаблонСДаннымиВыбор</Event>
 											</Events>
 										</SpreadSheetDocumentField>
 										<Button name="ИзменитьБланкЗаполнениеТаблицы" id="657">
@@ -1960,6 +1982,15 @@ Also, you can save skipped lines to a file, revise them, and import them later.<
 						</v8:StringQualifiers>
 					</Type>
 				</Column>
+				<Column name="Использование" id="32">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>30</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="ВнешняяОбработкаСсылка" id="5">
@@ -2139,7 +2170,7 @@ Also, you can save skipped lines to a file, revise them, and import them later.<
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Progress</v8:content>
+					<v8:content>Background job progress</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

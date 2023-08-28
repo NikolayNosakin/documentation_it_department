@@ -67,117 +67,6 @@
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКоманднаяПанельРегионовРасширеннаяПодсказка" id="207"/>
-							<ChildItems>
-								<CommandBar name="ГруппаУстановитьСнятьФлажки" id="208">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Установить снять флажки</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Select clear check boxes</v8:content>
-										</v8:item>
-									</Title>
-									<ExtendedTooltip name="ГруппаУстановитьСнятьФлажкиРасширеннаяПодсказка" id="209"/>
-									<ChildItems>
-										<ButtonGroup name="КнопкиВыбора" id="239">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Выбрать все</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>Select all</v8:content>
-												</v8:item>
-											</Title>
-											<Representation>Compact</Representation>
-											<ExtendedTooltip name="КнопкиВыбораРасширеннаяПодсказка" id="240"/>
-											<ChildItems>
-												<Button name="СубъектыРФУстановитьФлажки" id="47">
-													<Type>CommandBarButton</Type>
-													<CommandName>Form.Command.УстановитьФлажки</CommandName>
-													<ExtendedTooltip name="СубъектыРФУстановитьФлажкиРасширеннаяПодсказка" id="48"/>
-												</Button>
-												<Button name="СубъектыРФСнятьФлажки" id="49">
-													<Type>CommandBarButton</Type>
-													<CommandName>Form.Command.СнятьФлажки</CommandName>
-													<ExtendedTooltip name="СубъектыРФСнятьФлажкиРасширеннаяПодсказка" id="50"/>
-												</Button>
-											</ChildItems>
-										</ButtonGroup>
-									</ChildItems>
-								</CommandBar>
-								<InputField name="Поиск" id="203">
-									<DataPath>Поиск</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<ClearButton>true</ClearButton>
-									<InputHint>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Введите первые буквы названия региона</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Enter the first letters of region name</v8:content>
-										</v8:item>
-									</InputHint>
-									<ContextMenu name="ПоискКонтекстноеМеню" id="204"/>
-									<ExtendedTooltip name="ПоискРасширеннаяПодсказка" id="205"/>
-									<Events>
-										<Event name="AutoComplete">ПоискАвтоПодбор</Event>
-										<Event name="Clearing">ПоискОчистка</Event>
-										<Event name="TextEditEnd">ПоискОкончаниеВводаТекста</Event>
-									</Events>
-								</InputField>
-								<CommandBar name="ГруппаЕще" id="210">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Еще</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>More</v8:content>
-										</v8:item>
-									</Title>
-									<HorizontalStretch>false</HorizontalStretch>
-									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-									<ExtendedTooltip name="ГруппаЕщеРасширеннаяПодсказка" id="211"/>
-									<ChildItems>
-										<Button name="СубъектыРФУстановитьФлажки1" id="241">
-											<Type>CommandBarButton</Type>
-											<CommandName>Form.Command.УстановитьФлажки</CommandName>
-											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-											<ExtendedTooltip name="СубъектыРФУстановитьФлажки1РасширеннаяПодсказка" id="242"/>
-										</Button>
-										<Button name="СубъектыРФСнятьФлажки1" id="243">
-											<Type>CommandBarButton</Type>
-											<CommandName>Form.Command.СнятьФлажки</CommandName>
-											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-											<ExtendedTooltip name="СубъектыРФСнятьФлажки1РасширеннаяПодсказка" id="244"/>
-										</Button>
-										<Button name="СубъектыРФНайти" id="43">
-											<Type>CommandBarButton</Type>
-											<CommandName>Form.Item.СубъектыРФ.StandardCommand.Find</CommandName>
-											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-											<ExtendedTooltip name="СубъектыРФНайтиРасширеннаяПодсказка" id="44"/>
-										</Button>
-										<Button name="СубъектыРФОтменитьПоиск" id="45">
-											<Type>CommandBarButton</Type>
-											<CommandName>Form.Item.СубъектыРФ.StandardCommand.CancelSearch</CommandName>
-											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-											<ExtendedTooltip name="СубъектыРФОтменитьПоискРасширеннаяПодсказка" id="46"/>
-										</Button>
-										<Button name="Справка" id="217">
-											<Type>CommandBarButton</Type>
-											<CommandName>Form.StandardCommand.Help</CommandName>
-											<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="218"/>
-										</Button>
-									</ChildItems>
-								</CommandBar>
-							</ChildItems>
 						</UsualGroup>
 						<Table name="СубъектыРФ" id="1">
 							<Representation>List</Representation>
@@ -214,7 +103,49 @@
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="СубъектыРФКонтекстноеМеню" id="2"/>
 							<AutoCommandBar name="СубъектыРФКоманднаяПанель" id="3">
-								<Autofill>false</Autofill>
+								<ChildItems>
+									<ButtonGroup name="ГруппаУстановитьСнятьФлажки" id="208">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Установить снять флажки</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Select all / Clear all</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ГруппаУстановитьСнятьФлажкиРасширеннаяПодсказка" id="209"/>
+										<ChildItems>
+											<ButtonGroup name="КнопкиВыбора" id="239">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Выбрать все</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Select all</v8:content>
+													</v8:item>
+												</Title>
+												<Representation>Compact</Representation>
+												<ExtendedTooltip name="КнопкиВыбораРасширеннаяПодсказка" id="240"/>
+												<ChildItems>
+													<Button name="СубъектыРФУстановитьФлажки" id="47">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.УстановитьФлажки</CommandName>
+														<ExtendedTooltip name="СубъектыРФУстановитьФлажкиРасширеннаяПодсказка" id="48"/>
+													</Button>
+													<Button name="СубъектыРФСнятьФлажки" id="49">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.СнятьФлажки</CommandName>
+														<ExtendedTooltip name="СубъектыРФСнятьФлажкиРасширеннаяПодсказка" id="50"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+										</ChildItems>
+									</ButtonGroup>
+								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="СубъектыРФРасширеннаяПодсказка" id="4"/>
 							<SearchStringAddition name="СубъектыРФСтрокаПоиска" id="135">
@@ -352,7 +283,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Import the history of renaming, moving, or deleting address classifier info.</v8:content>
+											<v8:content>Import the history of renaming, moving, or deleting address classifier details.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -407,7 +338,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Import variant:</v8:content>
+									<v8:content>Import options:</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -520,11 +451,11 @@
 														<Presentation>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Из папки на диске:</v8:content>
+																<v8:content>Из папки на компьютере:</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>From folder on hard drive:</v8:content>
+																<v8:content>From a local folder:</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">КАТАЛОГ</Value>
@@ -542,11 +473,11 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Загрузить из папки на диске</v8:content>
+													<v8:content>Загрузить из папки на компьютере</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Import from folder on hard drive</v8:content>
+													<v8:content>Import from a local folder</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>None</TitleLocation>
@@ -903,8 +834,8 @@ This depends on the number of selected states.</v8:content>
 									<v8:lang>en</v8:lang>
 									<v8:content>
 Postal code %1%2 is not found in the address classifier. Possible reasons:
- - The postal code belongs to a state that is missing from the application's address data.
- - The address data imported to the application is outdated.
+ - The postal code belongs to a state that is missing from the application's address details.
+ - The address details imported to the application are outdated.
  - The postal code is invalid.
 </v8:content>
 								</v8:item>
@@ -1240,16 +1171,6 @@ Postal code %1%2 is not found in the address classifier. Possible reasons:
 			</Type>
 		</Attribute>
 		<Attribute name="Поиск" id="17">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Поиск</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Search</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
@@ -1297,7 +1218,7 @@ Postal code %1%2 is not found in the address classifier. Possible reasons:
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Import address information</v8:content>
+					<v8:content>Import address details</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -1307,7 +1228,7 @@ Postal code %1%2 is not found in the address classifier. Possible reasons:
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Import address information for selected regions</v8:content>
+					<v8:content>Import address details for selected regions</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Загрузить</Action>

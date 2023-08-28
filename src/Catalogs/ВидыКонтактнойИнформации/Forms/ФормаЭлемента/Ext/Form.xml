@@ -119,12 +119,23 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаТипОбщиеДляВсехExtendedTooltip" id="91"/>
 					<ChildItems>
+						<CheckBoxField name="ОтображатьВсегда" id="189">
+							<DataPath>Объект.ОтображатьВсегда</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОтображатьВсегдаКонтекстноеМеню" id="190"/>
+							<ExtendedTooltip name="ОтображатьВсегдаРасширеннаяПодсказка" id="191"/>
+						</CheckBoxField>
 						<CheckBoxField name="ОбязательноеЗаполнение" id="18">
 							<DataPath>Объект.ОбязательноеЗаполнение</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОбязательноеЗаполнениеКонтекстноеМеню" id="19"/>
 							<ExtendedTooltip name="ОбязательноеЗаполнениеExtendedTooltip" id="92"/>
+							<Events>
+								<Event name="OnChange">ОбязательноеЗаполнениеПриИзменении</Event>
+							</Events>
 						</CheckBoxField>
 						<InputField name="ВидРедактирования" id="168">
 							<DataPath>Объект.ВидРедактирования</DataPath>
@@ -255,7 +266,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Allow users to enter multiple values of the same contact information type.</v8:content>
+									<v8:content>Allow users to enter multiple values of the same contact information kind.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -380,12 +391,15 @@
 									</Title>
 									<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="133"/>
 									<ChildItems>
-										<CheckBoxField name="ТелефонCДобавочнымНомером" id="134">
-											<DataPath>Объект.ТелефонCДобавочнымНомером</DataPath>
+										<CheckBoxField name="ТелефонСДобавочнымНомером" id="134">
+											<DataPath>Объект.ТелефонСДобавочнымНомером</DataPath>
 											<TitleLocation>Right</TitleLocation>
 											<CheckBoxType>Auto</CheckBoxType>
-											<ContextMenu name="ТелефонCДобавочнымНомеромКонтекстноеМеню" id="135"/>
-											<ExtendedTooltip name="ТелефонCДобавочнымНомеромРасширеннаяПодсказка" id="136"/>
+											<ContextMenu name="ТелефонСДобавочнымНомеромКонтекстноеМеню" id="135"/>
+											<ExtendedTooltip name="ТелефонСДобавочнымНомеромРасширеннаяПодсказка" id="136"/>
+											<Events>
+												<Event name="OnChange">ТелефонСДобавочнымНомеромПриИзменении</Event>
+											</Events>
 										</CheckBoxField>
 										<CheckBoxField name="ПроверятьКорректностьТелефон" id="137">
 											<DataPath>Объект.ПроверятьКорректность</DataPath>
@@ -420,6 +434,9 @@
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="МаскаПриВводеНомераТелефонаКонтекстноеМеню" id="179"/>
 											<ExtendedTooltip name="МаскаПриВводеНомераТелефонаРасширеннаяПодсказка" id="180"/>
+											<Events>
+												<Event name="OnChange">МаскаПриВводеНомераТелефонаПриИзменении</Event>
+											</Events>
 										</CheckBoxField>
 										<UsualGroup name="МаскаТелефона" id="184">
 											<Title>
@@ -468,25 +485,21 @@
 &lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;! - любой введенный символ преобразуется в верхний регистр;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
 &lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;9 - допустимо ввести произвольный символ цифры;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
 &lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;# - допустимо ввести произвольный символ цифры или - (знак минус) или + (знак плюс) или пробел;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;N - допустимо ввести любые алфавитно-цифровые символы (буквы или цифры);&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;U - допустимо ввести любые алфавитно-цифровые символы (буквы или цифры) и любой введенный символ преобразуется в верхний регистр;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;N - допустимо ввести любой алфавитно-цифровой символ (буква или цифра);&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;U - допустимо ввести любой алфавитно-цифровой символ (буква или цифра) и любой введенный символ преобразуется в верхний регистр;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
 &lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;X (латинского алфавита) - допустимо ввести произвольный символ;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;^ - недопустимо вводить этот символ интерактивно пользователем, он может устанавливаться только из языка;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;@ – допустимо ввести любые алфавитно-цифровые символы (буквы или цифры) в верхнем регистре или пробел.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;@ – допустимо ввести любой алфавитно-цифровой символ (буква или цифра) в верхнем регистре или пробел.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
 																<v8:content>&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;In a mask string, you can use the following special characters:&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;! - any entered character is converted to uppercase.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;9 - you can enter an arbitrary digit.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;# - you can enter an arbitrary digit, the minus sign, the plus sign, or space.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;N - you can enter any alphanumeric characters (letters and digits).&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;U - you can enter any alphanumeric characters (letters and digits), and any entered character is converted to uppercase.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;X - you can enter any arbitrary character.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;^ - you cannot enter this character manually, it can be set only from 1C:Enterprise language.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;@ - you can enter any alphanumeric characters (letters and digits) in uppercase or space.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;!: any entered character is converted to uppercase.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;9: you can enter an arbitrary digit.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;#: you can enter an arbitrary digit, the minus sign, the plus sign, or space.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;N: you can enter any alphanumeric characters (letters and digits).&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;U: you can enter any alphanumeric characters (letters and digits) and any entered character is converted to uppercase.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;X: you can enter any arbitrary character.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Arial&gt;&lt;fontsize 8&gt;&lt;bgcolor #ffffff&gt;&lt;color #333333&gt;@: you can enter any alphanumeric characters (letters and digits) in uppercase or space.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
 															</v8:item>
 														</Title>
 													</ExtendedTooltip>
@@ -536,7 +549,7 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Field kind</v8:content>
+													<v8:content>Field layout</v8:content>
 												</v8:item>
 											</Title>
 											<RadioButtonType>Auto</RadioButtonType>
@@ -643,6 +656,7 @@
 			<ChildItems>
 				<InputField name="ИдентификаторДляФормул" id="173">
 					<DataPath>Объект.ИдентификаторДляФормул</DataPath>
+					<TitleHeight>2</TitleHeight>
 					<ContextMenu name="ИдентификаторДляФормулКонтекстноеМеню" id="174"/>
 					<ExtendedTooltip name="ИдентификаторДляФормулРасширеннаяПодсказка" id="175"/>
 				</InputField>

@@ -190,6 +190,24 @@
 										<CommandName>Form.Command.ИзменитьГруппу</CommandName>
 										<ExtendedTooltip name="ГруппыДоступаИзменитьГруппуExtendedTooltip" id="123"/>
 									</Button>
+									<SearchStringAddition name="ГруппыДоступаСтрокаПоиск" id="160">
+										<AdditionSource>
+											<Item>ГруппыДоступа</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Поиск</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Search</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ГруппыДоступаСтрокаПоискКонтекстноеМеню" id="161"/>
+										<ExtendedTooltip name="ГруппыДоступаСтрокаПоискРасширеннаяПодсказка" id="162"/>
+									</SearchStringAddition>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="ГруппыДоступаExtendedTooltip" id="124"/>
@@ -388,6 +406,24 @@ due to insufficient access rights.
 										<CommandName>Form.Command.ГруппировкаРолейПоПодсистемам</CommandName>
 										<ExtendedTooltip name="РолиПоказатьПодсистемыРолейExtendedTooltip" id="133"/>
 									</Button>
+									<SearchStringAddition name="РолиСтрокаПоиск" id="163">
+										<AdditionSource>
+											<Item>Роли</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Поиск</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Search</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="РолиСтрокаПоискКонтекстноеМеню" id="164"/>
+										<ExtendedTooltip name="РолиСтрокаПоискРасширеннаяПодсказка" id="165"/>
+									</SearchStringAddition>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="РолиExtendedTooltip" id="134"/>

@@ -93,6 +93,7 @@
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаНаименованиеРежимРаботы" id="384">
@@ -289,6 +290,9 @@ For more information about attachment modes, see the form help.</v8:content>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыВариантыКомандыРазрешенияРасширеннаяПодсказка" id="186"/>
+			<Events>
+				<Event name="OnCurrentPageChange">СтраницыВариантыКомандыРазрешенияПриСменеСтраницы</Event>
+			</Events>
 			<ChildItems>
 				<Page name="СтраницаВарианты" id="81">
 					<Title>
@@ -1370,6 +1374,19 @@ application without setting the safe mode.</v8:content>
 						</UsualGroup>
 					</ChildItems>
 				</Page>
+				<Page name="СтраницаДополнительныеРеквизиты" id="411">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные реквизиты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional attributes</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаДополнительныеРеквизитыРасширеннаяПодсказка" id="412"/>
+				</Page>
 			</ChildItems>
 		</Pages>
 		<UsualGroup name="ОтветственныйИКомментарий" id="320">
@@ -1742,6 +1759,11 @@ application without setting the safe mode.</v8:content>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="НазначениеВариантаОтчета" id="20">
+			<Type>
+				<v8:Type>cfg:EnumRef.НазначенияВариантовОтчетов</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ЗагрузитьИзФайла" id="1">
@@ -1758,11 +1780,11 @@ application without setting the safe mode.</v8:content>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить из файла на диске...</v8:content>
+					<v8:content>Обновить из файла на компьютере...</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Update from file.</v8:content>
+					<v8:content>Update from local file...</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1999,7 +2021,7 @@ application without setting the safe mode.</v8:content>
 	<CommandInterface>
 		<CommandBar>
 			<Item>
-				<Command>0:4ef362ee-0350-49fe-b40a-3ffa1576aa36</Command>
+				<Command>0</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 				<Visible>
@@ -2007,7 +2029,7 @@ application without setting the safe mode.</v8:content>
 				</Visible>
 			</Item>
 			<Item>
-				<Command>0:1ea304f6-8e8f-4479-aceb-086cf9709ce7</Command>
+				<Command>0</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 				<Visible>
@@ -2015,7 +2037,7 @@ application without setting the safe mode.</v8:content>
 				</Visible>
 			</Item>
 			<Item>
-				<Command>0:4769b1a9-c88a-4d5e-9520-ea46da1ac861</Command>
+				<Command>0</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 				<Visible>

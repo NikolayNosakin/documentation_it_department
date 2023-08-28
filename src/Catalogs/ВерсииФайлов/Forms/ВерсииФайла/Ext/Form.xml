@@ -78,6 +78,24 @@
 				<CommandName>Form.StandardCommand.Help</CommandName>
 				<ExtendedTooltip name="ФормаСправкаExtendedTooltip" id="81"/>
 			</Button>
+			<SearchStringAddition name="СтрокаПоиска" id="124">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Поиск</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="125"/>
+				<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="126"/>
+			</SearchStringAddition>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -295,7 +313,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>The date the file version was added.</v8:content>
+											<v8:content>The date when the file version was added.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
@@ -497,7 +515,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Mark for deletion</v8:content>
+					<v8:content>Toggle deletion mark</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -601,11 +619,11 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сохранить файл версии на диск или другое устройство</v8:content>
+					<v8:content>Сохранить файл версии на компьютер или другое устройство</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Save the file version to a hard drive or another other device.</v8:content>
+					<v8:content>Save the file version to a computer or another device</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

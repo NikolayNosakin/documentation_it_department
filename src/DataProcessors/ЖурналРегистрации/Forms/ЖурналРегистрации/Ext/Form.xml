@@ -70,7 +70,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>The number of the latest events to select from the date range.</v8:content>
+							<v8:content>The number of the most recent events in the given date interval.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<HorizontalAlign>Right</HorizontalAlign>
@@ -553,6 +553,24 @@
 										<CommandName>Form.StandardCommand.Help</CommandName>
 										<ExtendedTooltip name="ЖурналСправкаРасширеннаяПодсказка" id="174"/>
 									</Button>
+									<SearchStringAddition name="СтрокаПоиск" id="211">
+										<AdditionSource>
+											<Item>Журнал</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Поиск</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Search</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="СтрокаПоискКонтекстноеМеню" id="212"/>
+										<ExtendedTooltip name="СтрокаПоискРасширеннаяПодсказка" id="213"/>
+									</SearchStringAddition>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="ЖурналExtendedTooltip" id="145"/>
@@ -854,7 +872,7 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Secondary IP port.</v8:content>
+													<v8:content>Secondary IP port</v8:content>
 												</v8:item>
 											</ToolTip>
 											<ShowInHeader>false</ShowInHeader>
@@ -1582,7 +1600,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Set the date interval.</v8:content>
+					<v8:content>Set date interval</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1610,7 +1628,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Set filter.</v8:content>
+					<v8:content>Filter</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1639,7 +1657,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Set filter by value in current column</v8:content>
+					<v8:content>Filter by current column value</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

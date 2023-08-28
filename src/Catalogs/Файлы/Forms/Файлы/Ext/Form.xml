@@ -45,11 +45,11 @@
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Файл с диска...</v8:content>
+								<v8:content>Файл с компьютера...</v8:content>
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>File from hard drive…</v8:content>
+								<v8:content>File from computer...</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ФормаСоздатьИзФайлаРасширеннаяПодсказка" id="148"/>
@@ -487,6 +487,12 @@
 						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 						<ExtendedTooltip name="ФормаИспользоватьИерархиюРасширеннаяПодсказка" id="170"/>
 					</Button>
+					<Button name="ФормаНастроитьПрава" id="450">
+						<Type>CommandBarButton</Type>
+						<CommandName>CommonCommand.НастроитьПрава</CommandName>
+						<DataPath>Items.Папки.CurrentData.Ref</DataPath>
+						<ExtendedTooltip name="ФормаНастроитьПраваРасширеннаяПодсказка" id="451"/>
+					</Button>
 					<ButtonGroup name="ФормаГруппаНастройкаСписка" id="329">
 						<Title>
 							<v8:item>
@@ -669,7 +675,7 @@
 								<ExcludedCommand>OutputList</ExcludedCommand>
 								<ExcludedCommand>Refresh</ExcludedCommand>
 							</CommandSet>
-							<SearchStringLocation>None</SearchStringLocation>
+							<SearchStringLocation>Top</SearchStringLocation>
 							<ViewStatusLocation>None</ViewStatusLocation>
 							<SearchControlLocation>None</SearchControlLocation>
 							<CurrentRowUse>SelectionPresentation</CurrentRowUse>
@@ -797,6 +803,12 @@
 											</Button>
 										</ChildItems>
 									</ButtonGroup>
+									<Button name="ПапкиКонтекстноеМенюНастроитьПрава" id="448">
+										<Type>CommandBarButton</Type>
+										<CommandName>CommonCommand.НастроитьПрава</CommandName>
+										<DataPath>Items.Папки.CurrentData.Ref</DataPath>
+										<ExtendedTooltip name="ПапкиКонтекстноеМенюНастроитьПраваРасширеннаяПодсказка" id="449"/>
+									</Button>
 									<Button name="ПапкиКонтекстноеМенюКопироватьВБуферОбмена" id="141" DisplayImportance="VeryLow">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Item.Папки.StandardCommand.CopyToClipboard</CommandName>
@@ -965,7 +977,7 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Synchronized: %2</v8:content>
+													<v8:content>Synchronized on: %2</v8:content>
 												</v8:item>
 											</Title>
 											<ToolTip>
@@ -1016,7 +1028,7 @@
 										<ExcludedCommand>Refresh</ExcludedCommand>
 									</CommandSet>
 									<ToolTipRepresentation>None</ToolTipRepresentation>
-									<SearchStringLocation>None</SearchStringLocation>
+									<SearchStringLocation>Top</SearchStringLocation>
 									<ViewStatusLocation>None</ViewStatusLocation>
 									<SearchControlLocation>None</SearchControlLocation>
 									<AutoRefresh>false</AutoRefresh>
@@ -1840,11 +1852,6 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПапкаПриОткрытии" id="4">
-			<Type>
-				<v8:Type>cfg:CatalogRef.ПапкиФайлов</v8:Type>
-			</Type>
-		</Attribute>
 		<Attribute name="ИспользоватьИерархию" id="5">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2000,21 +2007,21 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Из файла на диске ...</v8:content>
+					<v8:content>Из файла на компьютере ...</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>From file on hard drive…</v8:content>
+					<v8:content>From local file...</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Создать файл из файла на диске</v8:content>
+					<v8:content>Загрузить файл из компьютера или другого устройства</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Create a file from a file on a hard drive.</v8:content>
+					<v8:content>Import a file from a computer or another device</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьФайл</Action>
@@ -2269,11 +2276,11 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сохранить файл на диск или другое устройство</v8:content>
+					<v8:content>Сохранить файл на компьютер или другое устройство</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Save the file to a hard drive or another device.</v8:content>
+					<v8:content>Save the file to a computer or another device</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2338,21 +2345,21 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить из файла на диске...</v8:content>
+					<v8:content>Обновить из файла на компьютере...</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Update from file on hard drive…</v8:content>
+					<v8:content>Update from local file...</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить из файла на диске</v8:content>
+					<v8:content>Обновить из файла на компьютере или другого устройства</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Update from a file on a hard drive.</v8:content>
+					<v8:content>Update from a file on a computer or another device</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2409,10 +2416,6 @@
 					<v8:content>Sign</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Picture>
-				<xr:Ref>CommonPicture.ПодписанЭП</xr:Ref>
-				<xr:LoadTransparent>false</xr:LoadTransparent>
-			</Picture>
 			<Action>Подписать</Action>
 			<CurrentRowUse>Use</CurrentRowUse>
 			<AssociatedTableElementId xsi:type="xs:string">Список</AssociatedTableElementId>
@@ -2809,6 +2812,16 @@
 			<AssociatedTableElementId xsi:type="xs:string">Список</AssociatedTableElementId>
 		</Command>
 	</Commands>
+	<Parameters>
+		<Parameter name="Папка">
+			<Type>
+				<v8:Type>cfg:CatalogRef.ПапкиФайлов</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="ПараметрыОтправки">
+			<Type/>
+		</Parameter>
+	</Parameters>
 	<CommandInterface>
 		<CommandBar>
 			<Item>

@@ -58,7 +58,7 @@
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content> Apply general authorization settings</v8:content>
+										<v8:content> As configured in common settings</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">НеУказан</Value>
@@ -109,7 +109,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Period type till date</v8:content>
+							<v8:content>Date-based period</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -134,7 +134,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content> Allow authorization till:</v8:content>
+												<v8:content> Allow sign-in till:</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">ДоДаты</Value>
@@ -163,7 +163,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Period type inactivity</v8:content>
+							<v8:content>Inactivity-based period</v8:content>
 						</v8:item>
 					</Title>
 					<Behavior>Usual</Behavior>
@@ -188,7 +188,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Deny authorization if no activity for:</v8:content>
+												<v8:content>Deny sign-in after inactivity of:</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">Просрочка</Value>

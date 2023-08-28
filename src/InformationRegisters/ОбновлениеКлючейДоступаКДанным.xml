@@ -211,8 +211,8 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>An atomic job refers to the main update object for updating
-only the part of the list that matches the leading object.</v8:content>
+							<v8:content>An atomic job refers to the master object for updating
+only the part of the list that corresponds to the master object.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -273,7 +273,7 @@ only the part of the list that matches the leading object.</v8:content>
 							<v8:content>If the unique key is filled in, it is the date of the last document or business process
 that had its access key updated.
 If the unique key is empty, it is the maximum date.
-This does not apply to atomic jobs (jobs with the main object specified).</v8:content>
+This does not apply to atomic jobs (jobs with the master object specified).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -327,9 +327,9 @@ This does not apply to atomic jobs (jobs with the main object specified).</v8:co
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Stores a structure with a link to the last item or its record key
+							<v8:content>Stores a structure with a reference to the last item or its record key
 (only when the unique key is empty),
-as well as links to main access keys of atomic jobs.</v8:content>
+as well as references to master access keys of atomic jobs.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

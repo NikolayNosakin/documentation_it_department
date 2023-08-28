@@ -268,21 +268,21 @@ Do you want to import it?</v8:content>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Подключить интернет поддержку</v8:content>
+					<v8:content>Подключить интернет-поддержку пользователей</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Enable online support</v8:content>
+					<v8:content>Enable online user support</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Подключить интернет поддержку</v8:content>
+					<v8:content>Подключить Интернет-поддержку пользователей</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Enable online support</v8:content>
+					<v8:content>Enable online user support</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПодключитьИнтернетПоддержку</Action>
@@ -338,6 +338,12 @@ Do you want to import it?</v8:content>
 					<v8:Length>0</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
+			</Type>
+			<KeyParameter>true</KeyParameter>
+		</Parameter>
+		<Parameter name="ОбновлятьАвтоматически">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 			<KeyParameter>true</KeyParameter>
 		</Parameter>

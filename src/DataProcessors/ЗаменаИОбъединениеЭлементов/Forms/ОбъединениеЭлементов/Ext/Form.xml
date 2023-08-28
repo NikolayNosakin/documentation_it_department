@@ -173,6 +173,16 @@ Searching for occurrences…</v8:content>
 									</ChildItems>
 								</ButtonGroup>
 								<ButtonGroup name="ГруппаСортировать" id="241">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сортировать</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Sort</v8:content>
+										</v8:item>
+									</Title>
 									<Representation>Compact</Representation>
 									<ExtendedTooltip name="ГруппаСортироватьРасширеннаяПодсказка" id="242"/>
 									<ChildItems>
@@ -221,6 +231,24 @@ Searching for occurrences…</v8:content>
 										</Button>
 									</ChildItems>
 								</ButtonGroup>
+								<SearchStringAddition name="СтрокаПоискаМестаИспользования" id="246">
+									<AdditionSource>
+										<Item>МестаИспользования</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Поиск</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Search</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СтрокаПоискаМестаИспользованияКонтекстноеМеню" id="247"/>
+									<ExtendedTooltip name="СтрокаПоискаМестаИспользованияРасширеннаяПодсказка" id="248"/>
+								</SearchStringAddition>
 							</ChildItems>
 						</CommandBar>
 						<Table name="МестаИспользования" id="1">
@@ -690,6 +718,24 @@ Merging items…</v8:content>
 										</Button>
 									</ChildItems>
 								</ButtonGroup>
+								<SearchStringAddition name="СтрокаПоискаНеудачныеЗамены" id="243">
+									<AdditionSource>
+										<Item>НеудачныеЗамены</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Поиск</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Search</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СтрокаПоискаНеудачныеЗаменыКонтекстноеМеню" id="244"/>
+									<ExtendedTooltip name="СтрокаПоискаНеудачныеЗаменыРасширеннаяПодсказка" id="245"/>
+								</SearchStringAddition>
 							</ChildItems>
 						</CommandBar>
 						<Table name="НеудачныеЗамены" id="112">
@@ -1227,15 +1273,6 @@ Merging items…</v8:content>
 			</Type>
 		</Attribute>
 		<Attribute name="СобытиеОповещенияОЗамене" id="9">
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="ТекстОшибкиПараметров" id="10">
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>

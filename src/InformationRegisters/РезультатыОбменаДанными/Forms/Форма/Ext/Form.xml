@@ -403,7 +403,7 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Data kind</v8:content>
+													<v8:content>Data type</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ОшибкиОбъектаXDTOПредставлениеОбъектаКонтекстноеМеню" id="747"/>
@@ -1172,7 +1172,7 @@ It is recommended that you open the catalog item and fill in the attributes.</v8
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Data kind</v8:content>
+													<v8:content>Data type</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="НезаполненныеРеквизитыТипСтрокойКонтекстноеМеню" id="83"/>
@@ -1743,7 +1743,6 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>НепринятыеПоДате</DataPath>
-							<RowPictureDataPath>~НепринятыеПоДате.DefaultPicture</RowPictureDataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -2798,7 +2797,6 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 				<Field>Коллизии.АвторДругойВерсии</Field>
 				<Field>Коллизии.ВерсияПроигнорирована</Field>
 				<Field>Коллизии.Дата</Field>
-				<Field>Коллизии.ДругаяВерсияПринята</Field>
 				<Field>Коллизии.НомерДругойВерсии</Field>
 				<Field>Коллизии.НомерЭтойВерсии</Field>
 				<Field>Коллизии.Ссылка</Field>
@@ -2853,7 +2851,6 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>~НепринятыеПоДате.ДругаяВерсияПринята</Field>
 				<Field>НепринятыеПоДате.АвторДругойВерсии</Field>
 				<Field>НепринятыеПоДате.ВерсияПроигнорирована</Field>
 				<Field>НепринятыеПоДате.НовыйОбъект</Field>
@@ -3084,7 +3081,6 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>~ОшибкиОбъектаXDTO.ТипСтрокой</Field>
 				<Field>ОшибкиОбъектаXDTO.ДатаВозникновения</Field>
 				<Field>ОшибкиОбъектаXDTO.ПометкаУдаления</Field>
 				<Field>ОшибкиОбъектаXDTO.ПредставлениеОбъекта</Field>
@@ -3225,7 +3221,7 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Change the selected documents.</v8:content>
+					<v8:content>Edit the selected documents.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИзменитьВыделенныеДокументы</Action>
@@ -3332,7 +3328,7 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Change the selected data.</v8:content>
+					<v8:content>Edit the selected items.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИзменитьВыделенныеОбъекты</Action>
@@ -3800,7 +3796,7 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Change selected objects</v8:content>
+					<v8:content>Edit selected items</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -3810,7 +3806,7 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Change the selected XTDO errors.</v8:content>
+					<v8:content>Edit the selected XTDO errors.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ИзменитьВыделенныеОшибкиПроверки</Action>

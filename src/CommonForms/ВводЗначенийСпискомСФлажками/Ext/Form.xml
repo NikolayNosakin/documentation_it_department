@@ -128,6 +128,24 @@
 					</Button>
 				</ChildItems>
 			</ButtonGroup>
+			<SearchStringAddition name="СтрокаПоиска" id="110">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Поиск</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="111"/>
+				<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="112"/>
+			</SearchStringAddition>
 			<Button name="ФормаИзменитьФорму" id="70">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
@@ -400,7 +418,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Select more</v8:content>
+							<v8:content>Pick more</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СписокПодборПодвалРасширеннаяПодсказка" id="109"/>
@@ -491,7 +509,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Paste the clipboard…</v8:content>
+					<v8:content>Paste from clipboard…</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -501,7 +519,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Paste the clipboard content.</v8:content>
+					<v8:content>Paste from clipboard</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

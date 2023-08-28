@@ -16,6 +16,14 @@
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ДеревоПодсистемСнятьФлажкиExtendedTooltip" id="80"/>
 			</Button>
+			<SearchStringAddition name="СтрокаПоиска" id="99">
+				<AdditionSource>
+					<Item>ДеревоПодсистем</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="100"/>
+				<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="101"/>
+			</SearchStringAddition>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -25,6 +33,7 @@
 	<ChildItems>
 		<Table name="ДеревоПодсистем" id="7">
 			<Representation>Tree</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
 			<ChangeRowOrder>false</ChangeRowOrder>
 			<SelectionMode>SingleRow</SelectionMode>

@@ -62,16 +62,32 @@
 					<CommandName>Form.Command.Выбрать</CommandName>
 					<ExtendedTooltip name="ВыбратьExtendedTooltip" id="52"/>
 				</Button>
-				<Button name="ПометитьВсе" id="27">
-					<Type>CommandBarButton</Type>
-					<CommandName>Form.Command.ПометитьВсе</CommandName>
-					<ExtendedTooltip name="ПометитьВсеExtendedTooltip" id="53"/>
-				</Button>
-				<Button name="СнятьПометкуСоВсех" id="28">
-					<Type>CommandBarButton</Type>
-					<CommandName>Form.Command.СнятьПометкуСоВсех</CommandName>
-					<ExtendedTooltip name="СнятьПометкуСоВсехExtendedTooltip" id="54"/>
-				</Button>
+				<ButtonGroup name="ГруппаКомандФлажки" id="107">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа команд флажки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Command group check boxes</v8:content>
+						</v8:item>
+					</Title>
+					<Representation>Compact</Representation>
+					<ExtendedTooltip name="ГруппаКомандФлажкиРасширеннаяПодсказка" id="108"/>
+					<ChildItems>
+						<Button name="ПометитьВсе" id="27">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.ПометитьВсе</CommandName>
+							<ExtendedTooltip name="ПометитьВсеExtendedTooltip" id="53"/>
+						</Button>
+						<Button name="СнятьПометкуСоВсех" id="28">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.СнятьПометкуСоВсех</CommandName>
+							<ExtendedTooltip name="СнятьПометкуСоВсехExtendedTooltip" id="54"/>
+						</Button>
+					</ChildItems>
+				</ButtonGroup>
 				<Button name="ПометитьВыбранные" id="21">
 					<Type>CommandBarButton</Type>
 					<CommandName>Form.Command.ПометитьВыбранные</CommandName>
@@ -89,6 +105,24 @@
 					<CommandName>Form.Command.АктивныеПользователи</CommandName>
 					<ExtendedTooltip name="ФормаАктивныеПользователиExtendedTooltip" id="57"/>
 				</Button>
+				<SearchStringAddition name="СтрокаПоиск" id="104">
+					<AdditionSource>
+						<Item>СписокПользователей</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поиск</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Search</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СтрокаПоискКонтекстноеМеню" id="105"/>
+					<ExtendedTooltip name="СтрокаПоискРасширеннаяПодсказка" id="106"/>
+				</SearchStringAddition>
 			</ChildItems>
 		</CommandBar>
 		<LabelDecoration name="Надпись" id="23">

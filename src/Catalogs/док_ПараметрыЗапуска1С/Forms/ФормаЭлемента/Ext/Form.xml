@@ -12,6 +12,11 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
+		<InputField name="БазаДанных" id="12">
+			<DataPath>Объект.БазаДанных</DataPath>
+			<ContextMenu name="БазаДанныхКонтекстноеМеню" id="13"/>
+			<ExtendedTooltip name="БазаДанныхРасширеннаяПодсказка" id="14"/>
+		</InputField>
 		<InputField name="Наименование" id="7">
 			<DataPath>Объект.Description</DataPath>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="8"/>

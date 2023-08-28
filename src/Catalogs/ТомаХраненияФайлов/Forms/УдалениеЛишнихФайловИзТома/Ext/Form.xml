@@ -112,13 +112,13 @@
 					<Title formatted="false">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Если в файлах, которые есть на диске, но сведения о них в базе отсутствуют, может содержаться полезная информация,
-то рекомендуется скопировать их в другую папку.</v8:content>
+							<v8:content>Если в файлах в томе, о которых в программе нет сведений, может содержаться полезная информация,
+то рекомендуется скопировать их в другой каталог.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>If files on your hard drive that are not registered in the application might contain useful data,
-it is recommended that you copy them to another directory.</v8:content>
+							<v8:content>If the volume files with no records in the application might contain useful information,
+copy them to another directory.</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="ДекорацияИнфоКонтекстноеМеню" id="11"/>
@@ -288,4 +288,11 @@ it is recommended that you copy them to another directory.</v8:content>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
+	<Parameters>
+		<Parameter name="ТомХраненияФайлов">
+			<Type>
+				<v8:Type>cfg:CatalogRef.ТомаХраненияФайлов</v8:Type>
+			</Type>
+		</Parameter>
+	</Parameters>
 </Form>

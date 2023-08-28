@@ -641,7 +641,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Rules source</v8:content>
+							<v8:content>Rule source</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -918,7 +918,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Conversion or registration rules that are read from a file.</v8:content>
+							<v8:content>Conversion or registration rules imported from a file.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1198,17 +1198,60 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Attribute uuid="a21989bd-a57f-4969-be3b-d8b39ead4145">
+			<Resource uuid="569bb515-cec2-4da0-80f0-34dae50206e0">
 				<Properties>
-					<Name>ИспользоватьФильтрВыборочнойРегистрацииОбъектов</Name>
+					<Name>ПараметрыВыборочнойРегистрации</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Использовать фильтр выборочной регистрации объектов</v8:content>
+							<v8:content>Параметры выборочной регистрации</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Use selective object registration filter</v8:content>
+							<v8:content>Selective registration parameters</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>v8:ValueStorage</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Resource>
+			<Attribute uuid="a21989bd-a57f-4969-be3b-d8b39ead4145">
+				<Properties>
+					<Name>УдалитьИспользоватьФильтрВыборочнойРегистрацииОбъектов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Удалить использовать фильтр выборочной регистрации объектов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Remove/use selective registration filter</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1225,7 +1268,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Indicates whether a selective object registration filter applies to an exchange plan. It is used for object conversion rules only.</v8:content>
+							<v8:content>Indicates whether a selective registration filter applies to an exchange plan. It is used for object conversion rules only.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

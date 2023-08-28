@@ -4,13 +4,6 @@
 	<AutoTitle>false</AutoTitle>
 	<AutoURL>false</AutoURL>
 	<AutoFillCheck>false</AutoFillCheck>
-	<MobileDeviceCommandBarContent>
-		<xr:Item>
-			<xr:Presentation/>
-			<xr:CheckState>0</xr:CheckState>
-			<xr:Value xsi:type="xs:string"/>
-		</xr:Item>
-	</MobileDeviceCommandBarContent>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -97,7 +90,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Full line</v8:content>
+												<v8:content>Full row</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">ВсейСтроки</Value>
@@ -114,7 +107,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Fields</v8:content>
+												<v8:content>Field</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">Поля</Value>
@@ -1558,7 +1551,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Show "Select all."</v8:content>
+					<v8:content>Show "Select all"</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

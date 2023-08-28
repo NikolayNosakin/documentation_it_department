@@ -81,7 +81,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Correction of addresses of the %1 contact information type might take a long time. Do you want to continue?</v8:content>
+									<v8:content>Correction of addresses of the %1 contact information kind might take a long time. Do you want to continue?</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
@@ -169,7 +169,6 @@ Please wait…</v8:content>
 							<v8:content>Correction indicator group</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Group>HorizontalIfPossible</Group>
 					<ExtendedTooltip name="ГруппаИндикаторУспешноеИсправлениеРасширеннаяПодсказка" id="23"/>
 					<ChildItems>
 						<LabelDecoration name="НадписьУспешноеИсправление" id="24">
@@ -179,16 +178,30 @@ Please wait…</v8:content>
 							<Title formatted="true">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Исправлено %1 из %2.</v8:content>
+									<v8:content>Исправлено элементов: %1 из %2</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Corrected %1 of %2.</v8:content>
+									<v8:content>Items corrected: %1 out of %2</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
 							<ContextMenu name="НадписьУспешноеИсправлениеКонтекстноеМеню" id="25"/>
 							<ExtendedTooltip name="НадписьУспешноеИсправлениеРасширеннаяПодсказка" id="26"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДополнительнаяИнформацияУспешноеИсправление" id="38">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Если не удалось автоматически исправить адрес, то его следует скорректировать вручную, открыв форму ввода адреса.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>If the address cannot be corrected automatically, correct it manually in the address input form.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДополнительнаяИнформацияУспешноеИсправлениеКонтекстноеМеню" id="39"/>
+							<ExtendedTooltip name="ДополнительнаяИнформацияУспешноеИсправлениеРасширеннаяПодсказка" id="40"/>
 						</LabelDecoration>
 					</ChildItems>
 				</Page>
@@ -200,7 +213,7 @@ Please wait…</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Unsuccessful correction</v8:content>
+							<v8:content>Correction failed</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
@@ -213,7 +226,6 @@ Please wait…</v8:content>
 							<v8:content>Correction indicator group</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Group>HorizontalIfPossible</Group>
 					<ExtendedTooltip name="ГруппаИндикаторНеуспешноеИсправлениеРасширеннаяПодсказка" id="28"/>
 					<ChildItems>
 						<LabelDecoration name="НадписьНеуспешноеИсправление" id="29">
@@ -224,6 +236,20 @@ Please wait…</v8:content>
 							<VerticalAlign>Center</VerticalAlign>
 							<ContextMenu name="НадписьНеуспешноеИсправлениеКонтекстноеМеню" id="30"/>
 							<ExtendedTooltip name="НадписьНеуспешноеИсправлениеРасширеннаяПодсказка" id="31"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДополнительнаяИнформация" id="35">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Если не удалось автоматически исправить адрес, то его следует скорректировать вручную, открыв форму ввода адреса.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>If the address cannot be corrected automatically, correct it manually in the address input form.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДополнительнаяИнформацияКонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="ДополнительнаяИнформацияРасширеннаяПодсказка" id="37"/>
 						</LabelDecoration>
 					</ChildItems>
 				</Page>

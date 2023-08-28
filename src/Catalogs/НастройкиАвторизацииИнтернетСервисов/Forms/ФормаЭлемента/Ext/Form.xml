@@ -21,48 +21,18 @@
 					<v8:content>Data owner</v8:content>
 				</v8:item>
 			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Имя домена-владельца данных. По этому имени определяется возможность использования аутентификации по протоколу OAuth. Например, mycompany.zzz.</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Data owner domain name. This name allows defining whether OAuth authentication can be used. For example, mycompany.com.</v8:content>
-				</v8:item>
-			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<ContextMenu name="ВладелецДанныхКонтекстноеМеню" id="26"/>
 			<ExtendedTooltip name="ВладелецДанныхРасширеннаяПодсказка" id="27"/>
 		</InputField>
 		<InputField name="ИмяИнтернетСервиса" id="22">
 			<DataPath>Объект.ИмяИнтернетСервиса</DataPath>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Доменное имя сервера, на котором хранятся данные. Например, outlook.com.</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Domain name of the server where data is stored. For example, outlook.com.</v8:content>
-				</v8:item>
-			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<ContextMenu name="ИмяИнтернетСервисаКонтекстноеМеню" id="23"/>
 			<ExtendedTooltip name="ИмяИнтернетСервисаРасширеннаяПодсказка" id="24"/>
 		</InputField>
 		<InputField name="АдресАвторизации" id="4">
 			<DataPath>Объект.АдресАвторизации</DataPath>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Адрес для интерактивной авторизации пользователя</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Address for interactive user authorization</v8:content>
-				</v8:item>
-			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="АдресАвторизацииКонтекстноеМеню" id="5"/>
@@ -70,16 +40,6 @@
 		</InputField>
 		<InputField name="АдресПеренаправления" id="28">
 			<DataPath>Объект.АдресПеренаправления</DataPath>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Адрес перенаправления пользователя после авторизации</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>User redirection address after authorization</v8:content>
-				</v8:item>
-			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<ContextMenu name="АдресПеренаправленияКонтекстноеМеню" id="29"/>
 			<ExtendedTooltip name="АдресПеренаправленияРасширеннаяПодсказка" id="30"/>
@@ -96,16 +56,6 @@
 		</InputField>
 		<InputField name="АдресПолученияКлюча" id="7">
 			<DataPath>Объект.АдресПолученияКлюча</DataPath>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Адрес для получения и обновления токенов</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Address for receiving and updating tokens</v8:content>
-				</v8:item>
-			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="АдресПолученияКлючаКонтекстноеМеню" id="8"/>
@@ -113,32 +63,12 @@
 		</InputField>
 		<InputField name="ЗапрашиваемыеРазрешения" id="34">
 			<DataPath>Объект.ЗапрашиваемыеРазрешения</DataPath>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Идентификаторы разрешений, разделенные пробелом.</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Space-separated permission IDs.</v8:content>
-				</v8:item>
-			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<ContextMenu name="ЗапрашиваемыеРазрешенияКонтекстноеМеню" id="35"/>
 			<ExtendedTooltip name="ЗапрашиваемыеРазрешенияРасширеннаяПодсказка" id="36"/>
 		</InputField>
 		<InputField name="ИдентификаторПриложения" id="16">
 			<DataPath>Объект.ИдентификаторПриложения</DataPath>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Идентификатор этого приложения на сервере с данными</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Application ID on the server with data</v8:content>
-				</v8:item>
-			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<ContextMenu name="ИдентификаторПриложенияКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="ИдентификаторПриложенияРасширеннаяПодсказка" id="18"/>
@@ -159,7 +89,7 @@
 			<PasswordMode>true</PasswordMode>
 			<ChoiceButton>true</ChoiceButton>
 			<ChoiceButtonPicture>
-				<xr:Ref>CommonPicture.ВводимыеСимволыСкрыты</xr:Ref>
+				<xr:Ref>CommonPicture.ВводимыеСимволыВидны</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</ChoiceButtonPicture>
 			<ContextMenu name="ПарольПриложенияКонтекстноеМеню" id="20"/>
@@ -171,32 +101,12 @@
 		</InputField>
 		<InputField name="ДополнительныеПараметрыАвторизации" id="37">
 			<DataPath>Объект.ДополнительныеПараметрыАвторизации</DataPath>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Дополнительные параметры, которые необходимо передать в запросе авторизации. Указываются в формате ИмяПараметра=Значение, разделитель - пробел.</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Additional parameters that must be passed in the authorization request. The parameters are specified in the following format: ParameterName=Value with space as a separator.</v8:content>
-				</v8:item>
-			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<ContextMenu name="ДополнительныеПараметрыАвторизацииКонтекстноеМеню" id="38"/>
 			<ExtendedTooltip name="ДополнительныеПараметрыАвторизацииРасширеннаяПодсказка" id="39"/>
 		</InputField>
 		<InputField name="ДополнительныеПараметрыПолученияТокена" id="40">
 			<DataPath>Объект.ДополнительныеПараметрыПолученияТокена</DataPath>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Дополнительные параметры, которые необходимо передать в запросе обмена кода авторизации на токен доступа. Указываются в формате ИмяПараметра=Значение, разделитель - пробел.</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Additional parameters that must be passed in the request to exchange an authorization code for an access token. The parameters are specified in the following format: ParameterName=Value with space as a separator.</v8:content>
-				</v8:item>
-			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<ContextMenu name="ДополнительныеПараметрыПолученияТокенаКонтекстноеМеню" id="41"/>
 			<ExtendedTooltip name="ДополнительныеПараметрыПолученияТокенаРасширеннаяПодсказка" id="42"/>
@@ -204,16 +114,6 @@
 		<CheckBoxField name="ИспользоватьКлючПроверкиПодлинностиPKCE" id="31">
 			<DataPath>Объект.ИспользоватьКлючПроверкиПодлинностиPKCE</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Установите этот флажок, если в запросах авторизации и обмена кода авторизации на токен доступа на сервере авторизации поддерживается защита с помощью ключа проверки подлинности "Proof Key for Code Exchange (PKCE)"</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Select this check box if authorization requests and requests to exchange an authorization code for an access token on the authorization server support protection using the "Proof Key for Code Exchange (PKCE)" authentication key</v8:content>
-				</v8:item>
-			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ИспользоватьКлючПроверкиПодлинностиPKCEКонтекстноеМеню" id="32"/>
@@ -222,16 +122,6 @@
 		<CheckBoxField name="ИспользоватьПарольПриложения" id="43">
 			<DataPath>Объект.ИспользоватьПарольПриложения</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Установите этот флажок, если для получения токенов требуется передавать в запросах пароль приложения (client_secret)</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Select this check box if an application password (client_secret) must be passed in requests to receive tokens</v8:content>
-				</v8:item>
-			</ToolTip>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ИспользоватьПарольПриложенияКонтекстноеМеню" id="44"/>

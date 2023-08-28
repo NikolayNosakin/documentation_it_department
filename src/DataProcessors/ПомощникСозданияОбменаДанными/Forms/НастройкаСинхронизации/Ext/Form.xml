@@ -111,7 +111,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Configure connection parameters</v8:content>
+							<v8:content>Connection settings</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -1151,8 +1151,8 @@ You can export the data later from the list of configured data synchronizations.
 				</v8:item>
 			</ToolTip>
 			<Picture>
-				<xr:Ref>CommonPicture.УдалитьИнформация</xr:Ref>
-				<xr:LoadTransparent>false</xr:LoadTransparent>
+				<xr:Ref>StdPicture.Information</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ПодробноеОписаниеСинхронизацииДанных</Action>
 		</Command>

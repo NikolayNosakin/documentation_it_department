@@ -1,5 +1,5 @@
 ﻿///////////////////////////////////////////////////////////////////////////////////////////////////////
-// Copyright (c) 2022, ООО 1С-Софт
+// Copyright (c) 2023, ООО 1С-Софт
 // Все права защищены. Эта программа и сопроводительные материалы предоставляются 
 // в соответствии с условиями лицензии Attribution 4.0 International (CC BY 4.0)
 // Текст лицензии доступен по ссылке:
@@ -25,8 +25,8 @@
 				|и совершать видеозвонки, создавать тематические обсуждения и вести переписку по документам.';
 				|en = 'Do you want to enable conversations?
 				|
-				|With them, users will be able to send text messages to each other 
-				|and make video calls, create themed conversations, and correspond on documents.'");
+				|With them, users will be able to exchange text messages, make video calls,
+				|create themed conversations, and correspond on documents.'");
 		ОповещениеОЗавершении = Новый ОписаниеОповещения("ПредлагатьОбсужденияЗавершение", ЭтотОбъект);
 		
 		ПоказатьВопрос(ОповещениеОЗавершении, ПредлагатьОбсужденияТекст, РежимДиалогаВопрос.ДаНет);

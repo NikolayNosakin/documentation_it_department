@@ -1,5 +1,5 @@
 ﻿///////////////////////////////////////////////////////////////////////////////////////////////////////
-// Copyright (c) 2022, ООО 1С-Софт
+// Copyright (c) 2023, ООО 1С-Софт
 // Все права защищены. Эта программа и сопроводительные материалы предоставляются 
 // в соответствии с условиями лицензии Attribution 4.0 International (CC BY 4.0)
 // Текст лицензии доступен по ссылке:
@@ -131,7 +131,7 @@
 			           |
 			           |Неверное значение параметра %2 ""%3"".
 			           |Для объектов таблицы ""%4"" права не настраиваются.';
-			           |en = 'Error in procedure ""%1"".
+			           |en = 'Error in procedure %1.
 			           |
 			           |Parameter ""%2"" has invalid value ""%3"".
 			           |Table ""%4"" doesn''t support access rights.'"),
@@ -301,7 +301,7 @@
 			           |
 			           |Неверное значение параметра %2 ""%3"".
 			           |Для объектов таблицы ""%4"" права не настраиваются.';
-			           |en = 'Error in procedure ""%1"".
+			           |en = 'Error in procedure %1.
 			           |
 			           |Parameter ""%2"" has invalid value ""%3"".
 			           |Table ""%4"" doesn''t support access rights.'"),
@@ -484,8 +484,8 @@
 				           |модуля менеджера регистра сведений %2.
 				           |
 				           |Тип владельцев прав ""%3"" не указан в измерении %4.';
-				           |en = 'Error in procedure ""%1""
-				           |of information register ""%2"" manager module.
+				           |en = 'Error in procedure %1
+				           |of the %2 information register manager module.
 				           |
 				           |Dimension ""%4"" is missing right owner type ""%3"".'"),
 				"ОбновитьВспомогательныеДанныеРегистра",
@@ -893,7 +893,7 @@
 					НСтр("ru = 'Тип владельца прав ""%1""
 					           |не указан в определяемом типе %2.';
 					           |en = 'The rights owner type ""%1""
-					           |is missing from the flexible type collection ""%2"".'"),
+					           |is missing from type collection ""%2"".'"),
 					Строка(ТипСсылки),
 					"ВладелецНастроекПрав");
 				ВызватьИсключение ТекстОшибки;
@@ -919,13 +919,13 @@
 						           |Требуется указать тип в определяемом типе %5
 						           |для корректного заполнения регистра %6.';
 						           |en = 'Rights owner type ""%1""
-						           |is not specified in flexible type collection ""%2"" 
-						           |but used to fill access value sets 
-						           |as it is specified in one of subscriptions to the event:
+						           |is missing from type collection ""%2"".
+						           |However, it affects access value sets,
+						           |as it is present in the subscription to one of the following events:
 						           |- %3
 						           |- %4
-						           |Specify a type in defined type ""%5""
-						           |for correct filling of register ""%6"".'"),
+						           |To avoid mistakes in the %6 register,
+						           |add this type to type collection ""%5"".'"),
 						Строка(ТипСсылки),
 						"ЗначениеДоступа",
 						"ЗаписатьЗависимыеНаборыЗначенийДоступа" + "*",
@@ -968,7 +968,7 @@
 					НСтр("ru = 'Тип владельца прав ""%1""
 					           |не указан в определяемом типе %2.';
 					           |en = 'The rights owner type ""%1""
-					           |is missing from the flexible type collection ""%2"".'"),
+					           |is missing from type collection ""%2"".'"),
 					Строка(ТипОбъекта), "ВладелецНастроекПравОбъект");
 				ВызватьИсключение ТекстОшибки;
 			КонецЕсли;

@@ -15,77 +15,6 @@
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
-		<ChildItems>
-			<Button name="ИсторияВыбрать" id="50" DisplayImportance="VeryHigh">
-				<Type>CommandBarButton</Type>
-				<Visible>false</Visible>
-				<CommandName>Form.Command.Выбрать</CommandName>
-				<ExtendedTooltip name="ИсторияВыбратьРасширеннаяПодсказка" id="51"/>
-			</Button>
-			<Button name="ИсторияДобавить" id="22" DisplayImportance="Usual">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Item.История.StandardCommand.Add</CommandName>
-				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-				<ExtendedTooltip name="ИсторияДобавитьРасширеннаяПодсказка" id="23"/>
-			</Button>
-			<Button name="ИсторияИзменить" id="20">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Item.История.StandardCommand.Change</CommandName>
-				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-				<ExtendedTooltip name="ИсторияИзменитьРасширеннаяПодсказка" id="21"/>
-			</Button>
-			<Button name="ИсторияУдалить" id="24">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Item.История.StandardCommand.Delete</CommandName>
-				<ExtendedTooltip name="ИсторияУдалитьРасширеннаяПодсказка" id="25"/>
-			</Button>
-			<ButtonGroup name="ИсторияГруппаДействия" id="32">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>История группа действия</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>History group actions</v8:content>
-					</v8:item>
-				</Title>
-				<ExtendedTooltip name="ИсторияГруппаДействияРасширеннаяПодсказка" id="33"/>
-				<ChildItems>
-					<Button name="ИсторияИзменитьФорму" id="28">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
-						<ExtendedTooltip name="ИсторияИзменитьФормуРасширеннаяПодсказка" id="29"/>
-					</Button>
-					<Button name="ИсторияВывестиСписок" id="30">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Item.История.StandardCommand.OutputList</CommandName>
-						<ExtendedTooltip name="ИсторияВывестиСписокРасширеннаяПодсказка" id="31"/>
-					</Button>
-				</ChildItems>
-			</ButtonGroup>
-			<ButtonGroup name="ИсторияГруппаСправка" id="34">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>История группа справка</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>History group help</v8:content>
-					</v8:item>
-				</Title>
-				<ExtendedTooltip name="ИсторияГруппаСправкаРасширеннаяПодсказка" id="35"/>
-				<ChildItems>
-					<Button name="ФормаСправка" id="26">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.StandardCommand.Help</CommandName>
-						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-						<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="27"/>
-					</Button>
-				</ChildItems>
-			</ButtonGroup>
-		</ChildItems>
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
@@ -142,7 +71,42 @@
 				</ChildItems>
 			</ContextMenu>
 			<AutoCommandBar name="ИсторияКоманднаяПанель" id="3">
-				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="ИсторияВыбрать" id="50" DisplayImportance="VeryHigh">
+						<Type>CommandBarButton</Type>
+						<Visible>false</Visible>
+						<CommandName>Form.Command.Выбрать</CommandName>
+						<ExtendedTooltip name="ИсторияВыбратьРасширеннаяПодсказка" id="51"/>
+					</Button>
+					<Button name="ИсторияДобавить" id="22" DisplayImportance="Usual">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.История.StandardCommand.Add</CommandName>
+						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ИсторияДобавитьРасширеннаяПодсказка" id="23"/>
+					</Button>
+					<Button name="ИсторияИзменить" id="20">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.История.StandardCommand.Change</CommandName>
+						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ИсторияИзменитьРасширеннаяПодсказка" id="21"/>
+					</Button>
+					<Button name="ИсторияУдалить" id="24">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.История.StandardCommand.Delete</CommandName>
+						<ExtendedTooltip name="ИсторияУдалитьРасширеннаяПодсказка" id="25"/>
+					</Button>
+					<Button name="ИсторияИзменитьФорму" id="28">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
+						<ExtendedTooltip name="ИсторияИзменитьФормуРасширеннаяПодсказка" id="29"/>
+					</Button>
+					<Button name="ФормаСправка" id="26">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.StandardCommand.Help</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="27"/>
+					</Button>
+				</ChildItems>
 			</AutoCommandBar>
 			<ExtendedTooltip name="ИсторияРасширеннаяПодсказка" id="4"/>
 			<SearchStringAddition name="ИсторияСтрокаПоиска" id="5">

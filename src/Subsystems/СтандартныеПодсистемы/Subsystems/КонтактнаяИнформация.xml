@@ -10,7 +10,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Contact Information</v8:content>
+					<v8:content>Contact information</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -60,7 +60,15 @@
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ИнтерактивнаяПроверкаЗаполненияКонтактнойИнформации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.КонтактнаяИнформацияОбработкаПроверкиЗаполнения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ИсправлениеУстаревшихАдресов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Адрес</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ЭлектроннаяПочта</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ВебСтраница</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПоказатьНаКарте</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Другое</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Факс</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеКонтактнойИнформациейЛокализация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСАдресамиПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КонтактнаяИнформацияОтправитьЭлектронноеПисьмо</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

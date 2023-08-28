@@ -194,7 +194,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>"Print" menu</v8:content>
+											<v8:content>Print submenu</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -300,41 +300,164 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаВариантыРассылкиРасширеннаяПодсказка" id="1608"/>
 					<ChildItems>
-						<UsualGroup name="ГруппаОтчеты" id="1674">
+						<UsualGroup name="ГруппаОтчетыУниверсальныйОтчет" id="1740">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Отчеты</v8:content>
+									<v8:content>Отчеты и универсальный отчет</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Reports</v8:content>
+									<v8:content>Reports and universal report</v8:content>
 								</v8:item>
 							</Title>
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
-							<Behavior>Usual</Behavior>
+							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаОтчетыРасширеннаяПодсказка" id="1675"/>
+							<ExtendedTooltip name="ГруппаОтчетыУниверсальныйОтчетРасширеннаяПодсказка" id="1741"/>
 							<ChildItems>
-								<Button name="ОткрытьВариантыОтчетов" id="1391">
-									<Type>Hyperlink</Type>
-									<CommandName>Catalog.ВариантыОтчетов.StandardCommand.OpenList</CommandName>
-									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<ExtendedTooltip name="ОткрытьВариантыОтчетовExtendedTooltip" id="1610">
-										<Title formatted="false">
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Администрирование списка всех вариантов отчетов, назначение ответственных и настройка видимости.</v8:content>
-											</v8:item>
-											<v8:item>
-												<v8:lang>en</v8:lang>
-												<v8:content>Administer report options, assign people responsible to reports, and configure report visibility.</v8:content>
-											</v8:item>
-										</Title>
-									</ExtendedTooltip>
-								</Button>
+								<UsualGroup name="ГруппаОтчеты" id="1674">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отчеты</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Reports</v8:content>
+										</v8:item>
+									</Title>
+									<Width>43</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОтчетыРасширеннаяПодсказка" id="1675"/>
+									<ChildItems>
+										<Button name="ОткрытьВариантыОтчетов" id="1391">
+											<Type>Hyperlink</Type>
+											<CommandName>Catalog.ВариантыОтчетов.StandardCommand.OpenList</CommandName>
+											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+											<ExtendedTooltip name="ОткрытьВариантыОтчетовExtendedTooltip" id="1610">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Администрирование списка всех вариантов отчетов, назначение ответственных и настройка видимости.</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Administer report options, assign people responsible to reports, and configure report visibility.</v8:content>
+													</v8:item>
+												</Title>
+											</ExtendedTooltip>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаУниверсальныйОтчетКолонтитулы" id="1641">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Универсальный отчет и настройка колонтитулов</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Universal report and header or footer customization</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>NormalSeparation</Representation>
+									<ChildItemsWidth>Equal</ChildItemsWidth>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаУниверсальныйОтчетКолонтитулыРасширеннаяПодсказка" id="1642"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаУниверсальныйОтчет" id="1670">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Универсальный отчет</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Universal report</v8:content>
+												</v8:item>
+											</Title>
+											<Width>43</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаУниверсальныйОтчетРасширеннаяПодсказка" id="1671"/>
+											<ChildItems>
+												<Button name="УниверсальныйОтчет" id="1678">
+													<Type>Hyperlink</Type>
+													<CommandName>Report.УниверсальныйОтчет.StandardCommand.Open</CommandName>
+													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+													<ExtendedTooltip name="УниверсальныйОтчетРасширеннаяПодсказка" id="1679">
+														<AutoMaxWidth>false</AutoMaxWidth>
+														<Title formatted="false">
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Просмотр произвольных справочников, документов, регистров и т.д.</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>View any catalogs, documents, registers, and other objects.</v8:content>
+															</v8:item>
+														</Title>
+													</ExtendedTooltip>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаНастройкаКолонтитулов" id="1692">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Настройка колонтитулов</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Header and footer settings</v8:content>
+												</v8:item>
+											</Title>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаНастройкаКолонтитуловРасширеннаяПодсказка" id="1693"/>
+											<ChildItems>
+												<Button name="НастройкаКолонтитулов" id="1694">
+													<Type>Hyperlink</Type>
+													<CommandName>CommonCommand.НастройкаКолонтитулов</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Настройка колонтитулов</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Configure headers and footers</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+													<ExtendedTooltip name="НастройкаКолонтитуловРасширеннаяПодсказка" id="1695">
+														<Title formatted="false">
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Установка номеров страниц, даты и других полей в колонтитулах отчетов при печати.</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Add page numbers, dates, and other fields to report headers or footers when printing.</v8:content>
+															</v8:item>
+														</Title>
+													</ExtendedTooltip>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаРассылкиОтчетов" id="1676">
@@ -350,6 +473,7 @@
 							</Title>
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
+							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -363,117 +487,80 @@
 										<Title formatted="false">
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Настройка списка рассылок отчетов, отправка по требованию или автоматически по расписанию.</v8:content>
+												<v8:content>Настройка автоматических рассылок отчетов по почте, публикации в папку, на FTP-ресурс по заданному расписанию или по требованию.</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Configure report distribution and send reports on demand or on schedule.</v8:content>
+												<v8:content>Configure automatic report distribution by email, publication to a folder, to an FTP resource according to the set schedule or at request.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
-							</ChildItems>
-						</UsualGroup>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="ГруппаУниверсальныйОтчетРасширения" id="1641">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Универсальный отчет расширения</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Universal report extensions</v8:content>
-						</v8:item>
-					</Title>
-					<Behavior>Usual</Behavior>
-					<Representation>NormalSeparation</Representation>
-					<ChildItemsWidth>Equal</ChildItemsWidth>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаУниверсальныйОтчетРасширенияРасширеннаяПодсказка" id="1642"/>
-					<ChildItems>
-						<UsualGroup name="ГруппаУниверсальныйОтчет" id="1670">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Универсальный отчет</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Universal report</v8:content>
-								</v8:item>
-							</Title>
-							<Width>43</Width>
-							<HorizontalStretch>false</HorizontalStretch>
-							<Behavior>Usual</Behavior>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаУниверсальныйОтчетРасширеннаяПодсказка" id="1671"/>
-							<ChildItems>
-								<Button name="УниверсальныйОтчет" id="1678">
-									<Type>Hyperlink</Type>
-									<CommandName>Report.УниверсальныйОтчет.StandardCommand.Open</CommandName>
-									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<ExtendedTooltip name="УниверсальныйОтчетРасширеннаяПодсказка" id="1679">
-										<AutoMaxWidth>false</AutoMaxWidth>
-										<Title formatted="false">
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Просмотр произвольных справочников, документов, регистров и т.д.</v8:content>
-											</v8:item>
-											<v8:item>
-												<v8:lang>en</v8:lang>
-												<v8:content>View any catalogs, documents, registers, and other objects.</v8:content>
-											</v8:item>
-										</Title>
-									</ExtendedTooltip>
-								</Button>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="ГруппаНастройкаКолонтитулов" id="1692">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Настройка колонтитулов</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Header and footer settings</v8:content>
-								</v8:item>
-							</Title>
-							<Behavior>Usual</Behavior>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаНастройкаКолонтитуловРасширеннаяПодсказка" id="1693"/>
-							<ChildItems>
-								<Button name="НастройкаКолонтитулов" id="1694">
-									<Type>Hyperlink</Type>
-									<CommandName>CommonCommand.НастройкаКолонтитулов</CommandName>
+								<UsualGroup name="ГруппаНастройкиИсторииРассылкиОтчетов" id="1728">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Настройка колонтитулов</v8:content>
+											<v8:content>Группа настройки истории рассылки отчетов</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Configure headers and footers</v8:content>
+											<v8:content>Group report distribution history settings</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<ExtendedTooltip name="НастройкаКолонтитуловРасширеннаяПодсказка" id="1695">
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаНастройкиИсторииРассылкиОтчетовРасширеннаяПодсказка" id="1729">
 										<Title formatted="false">
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Установка номеров страниц, даты и других полей в колонтитулах отчетов при печати.</v8:content>
+												<v8:content>Позволяет узнать, когда, кому и с каким результатом были разосланы отчеты. Для ограничения объема хранимых данных устаревшая история рассылок удаляется автоматически. </v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Add page numbers, dates, and other fields to report headers or footers when printing.</v8:content>
+												<v8:content>Provides you with the information on the date when reports were distributed, the recipients, and the distribution result. To limit the amount of stored data, obsolete report distribution history is automatically deleted.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
-								</Button>
+									<ChildItems>
+										<CheckBoxField name="ХранитьИсториюРассылкиОтчетов" id="1725">
+											<DataPath>НаборКонстант.ХранитьИсториюРассылкиОтчетов</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Хранить историю за последние</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Store history for the last</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ХранитьИсториюРассылкиОтчетовКонтекстноеМеню" id="1726"/>
+											<ExtendedTooltip name="ХранитьИсториюРассылкиОтчетовРасширеннаяПодсказка" id="1727"/>
+											<Events>
+												<Event name="OnChange">ХранитьИсториюРассылкиОтчетовПриИзменении</Event>
+											</Events>
+										</CheckBoxField>
+										<InputField name="КоличествоМесяцевХраненияИсторииРассылкиОтчетов" id="1732">
+											<DataPath>НаборКонстант.КоличествоМесяцевХраненияИсторииРассылкиОтчетов</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<SpinButton>true</SpinButton>
+											<ContextMenu name="КоличествоМесяцевХраненияИсторииРассылкиОтчетовКонтекстноеМеню" id="1733"/>
+											<ExtendedTooltip name="КоличествоМесяцевХраненияИсторииРассылкиОтчетовРасширеннаяПодсказка" id="1734"/>
+											<Events>
+												<Event name="OnChange">КоличествоМесяцевХраненияИсторииРассылкиОтчетовПриИзменении</Event>
+											</Events>
+										</InputField>
+										<Button name="ОчиститьИсториюРассылкиОтчетов" id="1738">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ОчиститьИсториюРассылкиОтчетов</CommandName>
+											<ExtendedTooltip name="ОчиститьИсториюРассылкиОтчетовРасширеннаяПодсказка" id="1739"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
@@ -689,7 +776,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Source document originals state</v8:content>
+					<v8:content>State of source document originals</v8:content>
 				</v8:item>
 			</Title>
 			<HorizontalStretch>false</HorizontalStretch>
@@ -706,7 +793,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Source document original states usage</v8:content>
+							<v8:content>States of source document originals usage</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -738,7 +825,7 @@
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Record availability of signed source document originals.</v8:content>
+										<v8:content>Keep records of signed source document originals.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -756,7 +843,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Source document original states setting</v8:content>
+							<v8:content>States of source document originals setup</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -775,7 +862,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Source document original states</v8:content>
+									<v8:content>States of source document originals</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -787,7 +874,7 @@
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Configure states that will be used upon tracking source document originals.</v8:content>
+										<v8:content>Configure states that will be used when tracking source document originals.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -824,6 +911,29 @@
 				</v8:item>
 			</Title>
 			<Action>ДополнительныеОтчетыИОбработки</Action>
+		</Command>
+		<Command name="ОчиститьИсториюРассылкиОтчетов" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить историю рассылки отчетов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear the report distribution history</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьИсториюРассылкиОтчетов</Action>
 		</Command>
 	</Commands>
 </Form>

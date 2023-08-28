@@ -88,13 +88,13 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>
 Невозможно запустить синхронизацию данных.
-Повторите попытку позже или &lt;link ОжидатьВозможностьСинхронизации&gt;ожидайте&lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt; &lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt;такую&lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt; &lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt;возможность...&lt;/&gt;</v8:content>
+Повторите попытку позже или &lt;link ОжидатьВозможностьСинхронизации&gt;ожидайте такую возможность...&lt;/&gt;</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
 											<v8:content>
 Cannot start data synchronization.
-Try again later or &lt;link ОжидатьВозможностьСинхронизации&gt;wait for&lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt; &lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt;&gt;this&lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt; &lt;/&gt;&lt;link ОжидатьВозможностьСинхронизации&gt;opportunity…&lt;/&gt;</v8:content>
+Try again later or &lt;link ОжидатьВозможностьСинхронизации&gt;wait for synchronization to become available...&lt;/&gt;</v8:content>
 										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
@@ -104,6 +104,96 @@ Try again later or &lt;link ОжидатьВозможностьСинхрон�
 										<Event name="URLProcessing">СтатусНедоступностьСинхронизацииОбработкаНавигационнойСсылки</Event>
 									</Events>
 								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаПроверкаЗадачОбмена" id="220">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проверка очереди задач обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check exchange task queue</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаПроверкаЗадачОбменаРасширеннаяПодсказка" id="221"/>
+					<ChildItems>
+						<UsualGroup name="Группа3" id="222">
+							<VerticalStretch>true</VerticalStretch>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="223"/>
+							<ChildItems>
+								<PictureDecoration name="ЗадачаВОчереди" id="224">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Задача в очереди</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Task in queue</v8:content>
+										</v8:item>
+									</Title>
+									<Picture>
+										<xr:Ref>CommonPicture.СинхронизацияДанныхНедоступна</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
+									<ContextMenu name="ЗадачаВОчередиКонтекстноеМеню" id="225"/>
+									<ExtendedTooltip name="ЗадачаВОчередиРасширеннаяПодсказка" id="226"/>
+								</PictureDecoration>
+								<LabelDecoration name="СтатусЗадачаВОчереди" id="227">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Для узла уже выполняется синхронизация.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Synchronization is already in progress for this node.</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalAlign>Center</VerticalAlign>
+									<ContextMenu name="СтатусЗадачаВОчередиКонтекстноеМеню" id="228"/>
+									<ExtendedTooltip name="СтатусЗадачаВОчередиРасширеннаяПодсказка" id="229"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа4" id="230">
+							<HorizontalStretch>true</HorizontalStretch>
+							<HorizontalAlign>Right</HorizontalAlign>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="231"/>
+							<ChildItems>
+								<Button name="ОтменитьОчередьИПродолжить" id="234">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ОтменитьОчередьИПродолжить</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Далее</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Next</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ОтменитьОчередьИПродолжитьРасширеннаяПодсказка" id="235"/>
+								</Button>
+								<Button name="Закрыть1" id="232">
+									<Type>UsualButton</Type>
+									<CommandName>Form.StandardCommand.Close</CommandName>
+									<ExtendedTooltip name="Закрыть1РасширеннаяПодсказка" id="233"/>
+								</Button>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
@@ -187,7 +277,7 @@ Please wait…</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Import data</v8:content>
+							<v8:content>Data import</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="ЗапросПароляПользователяExtendedTooltip" id="89"/>
@@ -351,10 +441,10 @@ Please wait…</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>In some cases data synchronization may take a long time:
- - Slow connection
- - Big data volume
- - Application update is available online</v8:content>
+													<v8:content>Data synchronization may take a while if:
+ • The connection is slow
+ • The amount of data to sync is big
+ • An application update is available online</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="Декорация1КонтекстноеМеню" id="134"/>
@@ -425,7 +515,7 @@ Please wait…</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Waiting for data synchronization</v8:content>
+							<v8:content>Data synchronization in progress</v8:content>
 						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
@@ -479,7 +569,7 @@ Please wait…</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Waiting for data synchronization</v8:content>
+							<v8:content>Data synchronization in progress</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОжиданиеСинхронизацииДанныхПрогрессБарЗагрузкаРасширеннаяПодсказка" id="171"/>
@@ -524,7 +614,7 @@ Please wait…</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Waiting for data synchronization</v8:content>
+							<v8:content>Data synchronization in progress</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ОжиданиеСинхронизацииДанныхПрогрессБарВыгрузкаРасширеннаяПодсказка" id="182"/>
@@ -1026,6 +1116,58 @@ For a correction method, see the &lt;link 1&gt;instruction&lt;/&gt;
 										</LabelDecoration>
 									</ChildItems>
 								</Page>
+								<Page name="ОбменЗавершенСОшибкойТребуетсяПерезагрузка" id="236">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обмен завершен с ошибкой требуется перезагрузка</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Exchange completed with error Restart required</v8:content>
+										</v8:item>
+									</Title>
+									<Group>HorizontalIfPossible</Group>
+									<ExtendedTooltip name="ОбменЗавершенСОшибкойТребуетсяПерезагрузкаРасширеннаяПодсказка" id="237"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаТребуетсяПерезагрузка" id="238">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Картинка требуется перезагрузка</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Picture Restart required</v8:content>
+												</v8:item>
+											</Title>
+											<Picture>
+												<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="КартинкаТребуетсяПерезагрузкаКонтекстноеМеню" id="239"/>
+											<ExtendedTooltip name="КартинкаТребуетсяПерезагрузкаРасширеннаяПодсказка" id="240"/>
+										</PictureDecoration>
+										<LabelDecoration name="ТекстТребуетсяПерезагрузка" id="250">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Изменены расширения конфигурации.
+Чтобы продолжить работу с учетом сделанных изменений, необходимо перезапустить программу.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Configuration extensions are changed.
+To continue with the changes made, restart the application.</v8:content>
+												</v8:item>
+											</Title>
+											<VerticalAlign>Center</VerticalAlign>
+											<ContextMenu name="ТекстТребуетсяПерезагрузкаКонтекстноеМеню" id="251"/>
+											<ExtendedTooltip name="ТекстТребуетсяПерезагрузкаРасширеннаяПодсказка" id="252"/>
+										</LabelDecoration>
+									</ChildItems>
+								</Page>
 							</ChildItems>
 						</Pages>
 						<Pages name="ПанельДействий" id="45">
@@ -1100,7 +1242,7 @@ For a correction method, see the &lt;link 1&gt;instruction&lt;/&gt;
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Command bar set close</v8:content>
+													<v8:content>Command bar Install close</v8:content>
 												</v8:item>
 											</Title>
 											<HorizontalLocation>Right</HorizontalLocation>
@@ -1168,6 +1310,48 @@ For a correction method, see the &lt;link 1&gt;instruction&lt;/&gt;
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="167"/>
+												</Button>
+											</ChildItems>
+										</CommandBar>
+									</ChildItems>
+								</Page>
+								<Page name="ДействияПерезагрузить" id="253">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Действия перезагрузить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Actions Restart</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ДействияПерезагрузитьРасширеннаяПодсказка" id="254"/>
+									<ChildItems>
+										<CommandBar name="КоманднаяПанельПерезагрузить" id="255">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Командная панель установить закрыть</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Command bar Install close</v8:content>
+												</v8:item>
+											</Title>
+											<HorizontalLocation>Right</HorizontalLocation>
+											<ExtendedTooltip name="КоманднаяПанельПерезагрузитьРасширеннаяПодсказка" id="256"/>
+											<ChildItems>
+												<Button name="ПерезапуститьПрограмму" id="261">
+													<Type>CommandBarButton</Type>
+													<CommandName>Form.Command.ПерезапуститьПрограмму</CommandName>
+													<ExtendedTooltip name="ПерезапуститьПрограммуРасширеннаяПодсказка" id="262"/>
+												</Button>
+												<Button name="ФормаЗакрыть3" id="259">
+													<Type>CommandBarButton</Type>
+													<Representation>Text</Representation>
+													<CommandName>Form.StandardCommand.Close</CommandName>
+													<ExtendedTooltip name="ФормаЗакрыть3РасширеннаяПодсказка" id="260"/>
 												</Button>
 											</ChildItems>
 										</CommandBar>
@@ -1468,7 +1652,7 @@ For a correction method, see the &lt;link 1&gt;instruction&lt;/&gt;
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Additional information running</v8:content>
+					<v8:content>Additional progress details</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1580,6 +1764,33 @@ For a correction method, see the &lt;link 1&gt;instruction&lt;/&gt;
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="ОбменЧерезВнутреннююПубликацию" id="50">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИдентификаторОбменаЧерезВнутреннююПубликацию" id="51">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПараметрыОбменаЧерезВнутреннююПубликацию" id="52">
+			<Type/>
+		</Attribute>
+		<Attribute name="СценарийВыполненияЧерезВнутреннююПубликацию" id="53">
+			<Type>
+				<v8:Type>cfg:CatalogRef.СценарииОбменовДанными</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоУзлуЗапланированОбмен" id="54">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ПерейтиВЖурналРегистрации" id="1">
@@ -1638,7 +1849,7 @@ For a correction method, see the &lt;link 1&gt;instruction&lt;/&gt;
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Forgot your password?</v8:content>
+					<v8:content>Forgot password?</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -1701,6 +1912,52 @@ For a correction method, see the &lt;link 1&gt;instruction&lt;/&gt;
 			</ToolTip>
 			<Action>ПродолжитьСинхронизацию</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОтменитьОчередьИПродолжить" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отменить очередь и продолжить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel queue and continue</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отменить очередь и продолжить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cancel queue and continue</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтменитьОчередьИПродолжить</Action>
+		</Command>
+		<Command name="ПерезапуститьПрограмму" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перезапустить программу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restart application</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перезапустить программу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Restart application.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПерезапуститьПрограмму</Action>
 		</Command>
 	</Commands>
 	<Parameters>

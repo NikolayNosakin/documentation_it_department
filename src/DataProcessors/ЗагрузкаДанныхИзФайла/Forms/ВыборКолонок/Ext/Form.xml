@@ -61,18 +61,52 @@
 						<CommandName>Form.Command.Выбрать</CommandName>
 						<ExtendedTooltip name="ФормаВыборРасширеннаяПодсказка" id="12"/>
 					</Button>
-					<Button name="СписокКолонокУстановитьФлажки" id="13">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Item.СписокКолонок.StandardCommand.CheckAll</CommandName>
-						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-						<ExtendedTooltip name="СписокКолонокУстановитьФлажкиРасширеннаяПодсказка" id="14"/>
-					</Button>
-					<Button name="СписокКолонокСнятьФлажки" id="15">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Item.СписокКолонок.StandardCommand.UncheckAll</CommandName>
-						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-						<ExtendedTooltip name="СписокКолонокСнятьФлажкиРасширеннаяПодсказка" id="16"/>
-					</Button>
+					<ButtonGroup name="СписокКолонокГруппа1" id="28">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Список колонок группа1</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Column list group1</v8:content>
+							</v8:item>
+						</Title>
+						<Representation>Compact</Representation>
+						<ExtendedTooltip name="СписокКолонокГруппа1РасширеннаяПодсказка" id="29"/>
+						<ChildItems>
+							<Button name="СписокКолонокУстановитьФлажки" id="13">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Item.СписокКолонок.StandardCommand.CheckAll</CommandName>
+								<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="СписокКолонокУстановитьФлажкиРасширеннаяПодсказка" id="14"/>
+							</Button>
+							<Button name="СписокКолонокСнятьФлажки" id="15">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Item.СписокКолонок.StandardCommand.UncheckAll</CommandName>
+								<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="СписокКолонокСнятьФлажкиРасширеннаяПодсказка" id="16"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+					<SearchStringAddition name="СтрокаПоиска" id="30">
+						<AdditionSource>
+							<Item>СписокКолонок</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Поиск</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Search</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="31"/>
+						<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="32"/>
+					</SearchStringAddition>
 				</ChildItems>
 			</AutoCommandBar>
 			<ExtendedTooltip name="СписокКолонокРасширеннаяПодсказка" id="4"/>

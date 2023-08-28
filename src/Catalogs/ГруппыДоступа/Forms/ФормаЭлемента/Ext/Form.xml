@@ -221,6 +221,24 @@
 										<CommandSource>Item.Пользователи</CommandSource>
 										<ExtendedTooltip name="ПользователиСтандартныеКомандыРасширеннаяПодсказка" id="406"/>
 									</ButtonGroup>
+									<SearchStringAddition name="ПользователиСтрокаПоиск" id="451">
+										<AdditionSource>
+											<Item>Пользователи</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Поиск</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Search</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ПользователиСтрокаПоискКонтекстноеМеню" id="452"/>
+										<ExtendedTooltip name="ПользователиСтрокаПоискРасширеннаяПодсказка" id="453"/>
+									</SearchStringAddition>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="ПользователиExtendedTooltip" id="359"/>
@@ -433,7 +451,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>The method used to determine allowed Access Values.</v8:content>
+											<v8:content>The method used to determine allowed access values.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Width>30</Width>
@@ -457,7 +475,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Access Values for access kinds</v8:content>
+									<v8:content>Access values for access kinds</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -500,7 +518,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Access Values</v8:content>
+											<v8:content>Access values</v8:content>
 										</v8:item>
 									</Title>
 									<CommandSet>
@@ -741,7 +759,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Access Values</v8:content>
+								<v8:content>Access values</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -762,7 +780,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Line number by kind</v8:content>
+								<v8:content>Line number for access kind</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -869,7 +887,7 @@
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>1</v8:Digits>
+							<v8:Digits>2</v8:Digits>
 							<v8:FractionDigits>0</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
@@ -956,7 +974,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Select</v8:content>
+					<v8:content>Pick</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -966,7 +984,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Select access group members.</v8:content>
+					<v8:content>Pick access group members</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Подобрать</Action>

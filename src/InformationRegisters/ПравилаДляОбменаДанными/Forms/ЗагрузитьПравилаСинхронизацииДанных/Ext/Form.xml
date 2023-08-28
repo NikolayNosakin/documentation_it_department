@@ -23,18 +23,18 @@
 			</Button>
 			<Button name="ФормаЗаписать" id="84">
 				<Type>CommandBarButton</Type>
-				<CommandName>0:fe558fde-99b3-45d0-a060-9fc2905309f6</CommandName>
+				<CommandName>0</CommandName>
 				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="85"/>
 			</Button>
 			<Button name="ФормаПеречитать" id="50">
 				<Type>CommandBarButton</Type>
-				<CommandName>0:1f317795-c420-4a30-b594-c492abc55f7a</CommandName>
+				<CommandName>0</CommandName>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаПеречитатьExtendedTooltip" id="52"/>
 			</Button>
 			<Button name="ФормаУдалить" id="86">
 				<Type>CommandBarButton</Type>
-				<CommandName>0:c32d43de-b820-49d0-bf7a-d70829f48f40</CommandName>
+				<CommandName>0</CommandName>
 				<ExtendedTooltip name="ФормаУдалитьРасширеннаяПодсказка" id="87"/>
 			</Button>
 			<Button name="СохранитьПравилаВФайл" id="20">
@@ -468,35 +468,6 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ГруппаДополнительно" id="18">
-			<UserVisible>
-				<xr:Common>false</xr:Common>
-			</UserVisible>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Дополнительно</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>More</v8:content>
-				</v8:item>
-			</Title>
-			<Behavior>Usual</Behavior>
-			<Representation>None</Representation>
-			<ChildItemsWidth>LeftWidest</ChildItemsWidth>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаДополнительноExtendedTooltip" id="80"/>
-			<ChildItems>
-				<CheckBoxField name="ИспользоватьФильтрВыборочнойРегистрацииОбъектов" id="13">
-					<DataPath>ИспользоватьФильтрВыборочнойРегистрацииОбъектов</DataPath>
-					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ИспользоватьФильтрВыборочнойРегистрацииОбъектовКонтекстноеМеню" id="14"/>
-					<ExtendedTooltip name="ИспользоватьФильтрВыборочнойРегистрацииОбъектовExtendedTooltip" id="81"/>
-				</CheckBoxField>
-			</ChildItems>
-		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="ИнформацияОПравилахРегистрации" id="2">
@@ -559,21 +530,6 @@
 				<v8:item>
 					<v8:lang>en</v8:lang>
 					<v8:content>Debug mode</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="ИспользоватьФильтрВыборочнойРегистрацииОбъектов" id="9">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Использовать фильтр выборочной регистрации объектов</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Use selective object registration filter</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

@@ -67,96 +67,179 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ПраваИОграниченияExtendedTooltip" id="78"/>
 			<ChildItems>
-				<Table name="Профили" id="2">
-					<Representation>List</Representation>
-					<TitleLocation>Top</TitleLocation>
-					<ChangeRowSet>false</ChangeRowSet>
-					<ChangeRowOrder>false</ChangeRowOrder>
-					<Header>false</Header>
-					<AutoInsertNewRow>true</AutoInsertNewRow>
-					<EnableStartDrag>true</EnableStartDrag>
-					<EnableDrag>true</EnableDrag>
-					<FileDragMode>AsFile</FileDragMode>
-					<DataPath>Профили</DataPath>
+				<UsualGroup name="ГруппаПрофили" id="144">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Профили</v8:content>
+							<v8:content>Группа профили</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Profiles</v8:content>
+							<v8:content>Group profiles</v8:content>
 						</v8:item>
 					</Title>
-					<CommandSet>
-						<ExcludedCommand>Add</ExcludedCommand>
-						<ExcludedCommand>CancelSearch</ExcludedCommand>
-						<ExcludedCommand>Copy</ExcludedCommand>
-						<ExcludedCommand>Delete</ExcludedCommand>
-						<ExcludedCommand>EndEdit</ExcludedCommand>
-						<ExcludedCommand>Find</ExcludedCommand>
-						<ExcludedCommand>MoveDown</ExcludedCommand>
-						<ExcludedCommand>MoveUp</ExcludedCommand>
-						<ExcludedCommand>SelectAll</ExcludedCommand>
-						<ExcludedCommand>SortListAsc</ExcludedCommand>
-						<ExcludedCommand>SortListDesc</ExcludedCommand>
-					</CommandSet>
-					<RowFilter xsi:nil="true"/>
-					<ContextMenu name="ПрофилиКонтекстноеМеню" id="3">
-						<Autofill>false</Autofill>
-					</ContextMenu>
-					<AutoCommandBar name="ПрофилиКоманднаяПанель" id="4">
-						<Autofill>false</Autofill>
-					</AutoCommandBar>
-					<ExtendedTooltip name="ПрофилиExtendedTooltip" id="79"/>
-					<SearchStringAddition name="ПрофилиСтрокаПоиска" id="112">
-						<AdditionSource>
-							<Item>Профили</Item>
-							<Type>SearchStringRepresentation</Type>
-						</AdditionSource>
-						<ContextMenu name="ПрофилиСтрокаПоискаКонтекстноеМеню" id="113"/>
-						<ExtendedTooltip name="ПрофилиСтрокаПоискаРасширеннаяПодсказка" id="114"/>
-					</SearchStringAddition>
-					<ViewStatusAddition name="ПрофилиСостояниеПросмотра" id="115">
-						<AdditionSource>
-							<Item>Профили</Item>
-							<Type>ViewStatusRepresentation</Type>
-						</AdditionSource>
-						<ContextMenu name="ПрофилиСостояниеПросмотраКонтекстноеМеню" id="116"/>
-						<ExtendedTooltip name="ПрофилиСостояниеПросмотраРасширеннаяПодсказка" id="117"/>
-					</ViewStatusAddition>
-					<SearchControlAddition name="ПрофилиУправлениеПоиском" id="118">
-						<AdditionSource>
-							<Item>Профили</Item>
-							<Type>SearchControl</Type>
-						</AdditionSource>
-						<ContextMenu name="ПрофилиУправлениеПоискомКонтекстноеМеню" id="119"/>
-						<ExtendedTooltip name="ПрофилиУправлениеПоискомРасширеннаяПодсказка" id="120"/>
-					</SearchControlAddition>
-					<Events>
-						<Event name="OnActivateRow">ПрофилиПриАктивизацииСтроки</Event>
-					</Events>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПрофилиРасширеннаяПодсказка" id="145"/>
 					<ChildItems>
-						<CheckBoxField name="ПрофилиПометка" id="5">
-							<DataPath>Профили.Пометка</DataPath>
-							<TitleLocation>None</TitleLocation>
-							<EditMode>Directly</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="ПрофилиПометкаКонтекстноеМеню" id="6"/>
-							<ExtendedTooltip name="ПрофилиПометкаExtendedTooltip" id="80"/>
+						<UsualGroup name="ЗаголовокПрофили" id="149">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Заголовок профили</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Title profiles</v8:content>
+								</v8:item>
+							</Title>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ЗаголовокПрофилиРасширеннаяПодсказка" id="150"/>
+							<ChildItems>
+								<LabelDecoration name="НадписьПрофили" id="146">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Профили:</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Profiles:</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="НадписьПрофилиКонтекстноеМеню" id="147"/>
+									<ExtendedTooltip name="НадписьПрофилиРасширеннаяПодсказка" id="148"/>
+								</LabelDecoration>
+								<CommandBar name="КомандыПрофили" id="154">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Команды профили</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Commands profiles</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalLocation>Right</HorizontalLocation>
+									<ExtendedTooltip name="КомандыПрофилиРасширеннаяПодсказка" id="155"/>
+									<ChildItems>
+										<SearchStringAddition name="ПрофилиСтрокаПоиск" id="151">
+											<AdditionSource>
+												<Item>Профили</Item>
+												<Type>SearchStringRepresentation</Type>
+											</AdditionSource>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Поиск</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Search</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ПрофилиСтрокаПоискКонтекстноеМеню" id="152"/>
+											<ExtendedTooltip name="ПрофилиСтрокаПоискРасширеннаяПодсказка" id="153"/>
+										</SearchStringAddition>
+									</ChildItems>
+								</CommandBar>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="Профили" id="2">
+							<Representation>List</Representation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Header>false</Header>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Профили</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Профили</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Profiles</v8:content>
+								</v8:item>
+							</Title>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>SelectAll</ExcludedCommand>
+								<ExcludedCommand>SortListAsc</ExcludedCommand>
+								<ExcludedCommand>SortListDesc</ExcludedCommand>
+							</CommandSet>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПрофилиКонтекстноеМеню" id="3">
+								<Autofill>false</Autofill>
+							</ContextMenu>
+							<AutoCommandBar name="ПрофилиКоманднаяПанель" id="4">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ПрофилиExtendedTooltip" id="79"/>
+							<SearchStringAddition name="ПрофилиСтрокаПоиска" id="112">
+								<AdditionSource>
+									<Item>Профили</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПрофилиСтрокаПоискаКонтекстноеМеню" id="113"/>
+								<ExtendedTooltip name="ПрофилиСтрокаПоискаРасширеннаяПодсказка" id="114"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПрофилиСостояниеПросмотра" id="115">
+								<AdditionSource>
+									<Item>Профили</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПрофилиСостояниеПросмотраКонтекстноеМеню" id="116"/>
+								<ExtendedTooltip name="ПрофилиСостояниеПросмотраРасширеннаяПодсказка" id="117"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПрофилиУправлениеПоиском" id="118">
+								<AdditionSource>
+									<Item>Профили</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПрофилиУправлениеПоискомКонтекстноеМеню" id="119"/>
+								<ExtendedTooltip name="ПрофилиУправлениеПоискомРасширеннаяПодсказка" id="120"/>
+							</SearchControlAddition>
 							<Events>
-								<Event name="OnChange">ПрофилиПометкаПриИзменении</Event>
+								<Event name="OnActivateRow">ПрофилиПриАктивизацииСтроки</Event>
 							</Events>
-						</CheckBoxField>
-						<InputField name="ПрофилиПрофильПредставление" id="9">
-							<DataPath>Профили.ПрофильПредставление</DataPath>
-							<ReadOnly>true</ReadOnly>
-							<EditMode>EnterOnInput</EditMode>
-							<ContextMenu name="ПрофилиПрофильПредставлениеКонтекстноеМеню" id="10"/>
-							<ExtendedTooltip name="ПрофилиПрофильПредставлениеExtendedTooltip" id="81"/>
-						</InputField>
+							<ChildItems>
+								<CheckBoxField name="ПрофилиПометка" id="5">
+									<DataPath>Профили.Пометка</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>Directly</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПрофилиПометкаКонтекстноеМеню" id="6"/>
+									<ExtendedTooltip name="ПрофилиПометкаExtendedTooltip" id="80"/>
+									<Events>
+										<Event name="OnChange">ПрофилиПометкаПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<InputField name="ПрофилиПрофильПредставление" id="9">
+									<DataPath>Профили.ПрофильПредставление</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПрофилиПрофильПредставлениеКонтекстноеМеню" id="10"/>
+									<ExtendedTooltip name="ПрофилиПрофильПредставлениеExtendedTooltip" id="81"/>
+								</InputField>
+							</ChildItems>
+						</Table>
 					</ChildItems>
-				</Table>
+				</UsualGroup>
 				<UsualGroup name="Доступ" id="11">
 					<Title>
 						<v8:item>
@@ -294,7 +377,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>The method used to determine allowed Access Values.</v8:content>
+											<v8:content>The method used to determine allowed access values.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Width>23</Width>
@@ -318,7 +401,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Access Values for access kinds</v8:content>
+									<v8:content>Access values for access kinds</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -360,7 +443,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Access Values</v8:content>
+											<v8:content>Access values</v8:content>
 										</v8:item>
 									</Title>
 									<CommandSet>
@@ -587,7 +670,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Access Values</v8:content>
+							<v8:content>Access values</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -608,7 +691,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Access Values</v8:content>
+					<v8:content>Access values</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -635,7 +718,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Access Value</v8:content>
+							<v8:content>Access value</v8:content>
 						</v8:item>
 					</Title>
 					<Type>

@@ -129,6 +129,7 @@ Items of catalogs and documents (broken down by companies) with the maximum numb
 								</PictureDecoration>
 								<InputField name="НовыйПрефиксИБ" id="167">
 									<DataPath>НовыйПрефиксИБ</DataPath>
+									<Mask>NN</Mask>
 									<ContextMenu name="НовыйПрефиксИБКонтекстноеМеню" id="168"/>
 									<ExtendedTooltip name="НовыйПрефиксИБРасширеннаяПодсказка" id="169"/>
 								</InputField>
@@ -356,7 +357,7 @@ It may take a long time, please wait…
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Navigation start page</v8:content>
+									<v8:content>Navigation page start</v8:content>
 								</v8:item>
 							</Title>
 							<Group>HorizontalIfPossible</Group>
@@ -473,7 +474,7 @@ It may take a long time, please wait…
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Error navigation page</v8:content>
+									<v8:content>Navigation page error</v8:content>
 								</v8:item>
 							</Title>
 							<Group>HorizontalIfPossible</Group>
@@ -537,7 +538,7 @@ It may take a long time, please wait…
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>End navigation page</v8:content>
+									<v8:content>Navigation page end</v8:content>
 								</v8:item>
 							</Title>
 							<Group>HorizontalIfPossible</Group>

@@ -804,7 +804,7 @@ Used during the search.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Parameter and filter names</v8:content>
+							<v8:content>Parameter and filter descriptions</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -826,8 +826,8 @@ Used during the search.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Names of report filters and parameters.
-Looked up during the search.</v8:content>
+							<v8:content>Descriptions of report parameters and filters.
+Looked up for during a search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -863,7 +863,7 @@ Looked up during the search.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Descriptions of parameters and filters (additional language)</v8:content>
+							<v8:content>Parameter and filter descriptions (additional language)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -885,8 +885,8 @@ Looked up during the search.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Descriptions of parameters and report filters.
-Used during the search.</v8:content>
+							<v8:content>Descriptions of report parameters and filters.
+Looked up for during a search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -922,7 +922,7 @@ Used during the search.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Descriptions of parameters and filters (additional language)</v8:content>
+							<v8:content>Parameter and filter descriptions (additional language)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -944,8 +944,8 @@ Used during the search.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Descriptions of parameters and report filters.
-Used during the search.</v8:content>
+							<v8:content>Descriptions of report parameters and filters.
+Looked up for during a search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -981,7 +981,7 @@ Used during the search.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Field names</v8:content>
+							<v8:content>Field descriptions</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1003,8 +1003,8 @@ Used during the search.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Report field names.
-Looked up during the search.</v8:content>
+							<v8:content>Report field descriptions.
+Looked up for during a search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1040,7 +1040,7 @@ Looked up during the search.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Descriptions of fields (additional language)</v8:content>
+							<v8:content>Field descriptions (additional language)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1062,8 +1062,8 @@ Looked up during the search.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Descriptions of fields displayed in the report.
-Used during the search.</v8:content>
+							<v8:content>Report field descriptions.
+Looked up for during a search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1099,7 +1099,7 @@ Used during the search.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Descriptions of fields (additional language 2)</v8:content>
+							<v8:content>Field descriptions (additional language 2)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1121,8 +1121,8 @@ Used during the search.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Descriptions of fields displayed in the report.
-Used during the search.</v8:content>
+							<v8:content>Report field descriptions.
+Looked up for during a search.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1426,6 +1426,94 @@ Used during the search.</v8:content>
 					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>DontUse</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e0e12708-da10-4f81-9e56-5876ddc77084">
+				<Properties>
+					<Name>Назначение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Назначение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use for</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:EnumRef.НазначенияВариантовОтчетов</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="63ad43fe-a050-47f7-af4f-099aa10255af">
+				<Properties>
+					<Name>ПоказыватьВПодменюВариантов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показывать в подменю вариантов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Show in option submenu</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
@@ -1905,7 +1993,7 @@ Looked up during the search.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Parameter and filter names</v8:content>
+									<v8:content>Parameter and filter descriptions</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>

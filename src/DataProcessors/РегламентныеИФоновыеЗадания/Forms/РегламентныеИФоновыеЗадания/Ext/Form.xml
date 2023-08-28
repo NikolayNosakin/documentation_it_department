@@ -204,7 +204,7 @@
 													</Button>
 													<Button name="ТаблицаРегламентныеЗаданияКонтекстноеМенюОбновитьДанные" id="165">
 														<Type>CommandBarButton</Type>
-														<CommandName>0</CommandName>
+														<CommandName>Form.Command.ОбновитьРегламентныеЗадания</CommandName>
 														<ExtendedTooltip name="ТаблицаРегламентныеЗаданияКонтекстноеМенюОбновитьДанныеExtendedTooltip" id="178"/>
 													</Button>
 													<Button name="ТаблицаРегламентныеЗаданияКонтекстноеМенюВключитьРегламентноеЗадание" id="234">
@@ -520,7 +520,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Is predefined</v8:content>
+															<v8:content>Predefined</v8:content>
 														</v8:item>
 													</Title>
 													<ToolTip>
@@ -530,7 +530,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>A predefined job is a part of the application and cannot be deleted.</v8:content>
+															<v8:content>Predefined jobs are part of the application. They cannot be deleted.</v8:content>
 														</v8:item>
 													</ToolTip>
 													<CheckBoxType>Auto</CheckBoxType>
@@ -1111,7 +1111,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Long-running operation page</v8:content>
+											<v8:content>Page Long-running operation</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаДлительнаяОперацияРасширеннаяПодсказка" id="269"/>
@@ -1879,7 +1879,7 @@ Please wait…</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Configure schedule</v8:content>
+					<v8:content>Set schedule</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2074,44 +2074,4 @@ Please wait…</v8:content>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<CommandInterface>
-		<NavigationPanel>
-			<Item>
-				<Command>0:f7ccc574-d6c3-495a-86b4-7e24e75502d9</Command>
-				<Type>Auto</Type>
-				<CommandGroup>FormNavigationPanelImportant</CommandGroup>
-				<Index>2</Index>
-			</Item>
-			<Item>
-				<Command>0:49440928-bbd6-4c6a-bf40-af70a34d7372</Command>
-				<Type>Auto</Type>
-				<CommandGroup>FormNavigationPanelImportant</CommandGroup>
-			</Item>
-			<Item>
-				<Command>0:721481be-40e4-45b6-9530-ad7fb0c60429</Command>
-				<Type>Auto</Type>
-				<CommandGroup>FormNavigationPanelImportant</CommandGroup>
-				<Index>1</Index>
-			</Item>
-			<Item>
-				<Command>0:f7ccc574-d6c3-495a-86b4-7e24e75502d9</Command>
-				<Type>Added</Type>
-				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
-				<Index>1</Index>
-				<DefaultVisible>false</DefaultVisible>
-			</Item>
-			<Item>
-				<Command>0:49440928-bbd6-4c6a-bf40-af70a34d7372</Command>
-				<Type>Added</Type>
-				<CommandGroup>FormNavigationPanelImportant</CommandGroup>
-				<DefaultVisible>false</DefaultVisible>
-			</Item>
-			<Item>
-				<Command>0:721481be-40e4-45b6-9530-ad7fb0c60429</Command>
-				<Type>Added</Type>
-				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
-				<DefaultVisible>false</DefaultVisible>
-			</Item>
-		</NavigationPanel>
-	</CommandInterface>
 </Form>

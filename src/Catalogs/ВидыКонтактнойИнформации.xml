@@ -32,7 +32,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Kinds of contact information</v8:content>
+					<v8:content>Contact information kinds</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -267,7 +267,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Description of contact information type.</v8:content>
+							<v8:content>Description of contact information kind.</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -357,7 +357,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Contact information type</v8:content>
+					<v8:content>Contact information kind</v8:content>
 				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
@@ -487,7 +487,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Field kind is Other</v8:content>
+							<v8:content>Other field layout</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -508,7 +508,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Field appearance on form is "Other."</v8:content>
+							<v8:content>Choose how the Other field will appear on the form</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -601,7 +601,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Is not user-editable</v8:content>
+							<v8:content>Deny editing</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -618,7 +618,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Prevent users from editing the contact information type.</v8:content>
+							<v8:content>Prevent users from editing the contact information kind.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -815,7 +815,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>The contact information type is used.</v8:content>
+							<v8:content>The contact information kind is used.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1084,7 +1084,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>The contact information type is required.</v8:content>
+							<v8:content>The contact information kind is required.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1165,15 +1165,15 @@
 			</Attribute>
 			<Attribute uuid="7fe61c5d-30bc-440d-9e40-12ff3b296616">
 				<Properties>
-					<Name>ПроверятьПоФИАС</Name>
+					<Name>УдалитьПроверятьПоФИАС</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Проверять по адресному классификатору</v8:content>
+							<v8:content>(не используется) Проверять по ФИАС</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Validate against address classifier</v8:content>
+							<v8:content>(not used) Check against FIAS</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1190,7 +1190,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Validate address entries against the address classifier</v8:content>
+							<v8:content>Validate address entries against the address classifier.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1243,7 +1243,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Allow users to enter multiple values of the same contact information type.</v8:content>
+							<v8:content>Allow users to enter multiple values of the same contact information kind.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1382,11 +1382,11 @@
 			</Attribute>
 			<Attribute uuid="13dee5d8-f165-48de-9ccb-3ef0239f4b27">
 				<Properties>
-					<Name>ТелефонCДобавочнымНомером</Name>
+					<Name>ТелефонСДобавочнымНомером</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Телефон c добавочным номером</v8:content>
+							<v8:content>Телефон с добавочным номером</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
@@ -1683,6 +1683,59 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="91a0ceed-03ce-4914-9cd1-dec49bba336f">
+				<Properties>
+					<Name>ОтображатьВсегда</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отображать всегда</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Always show</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид контактной информации всегда отображается и предлагается к заполнению в карточке владельца</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Contact information kind is always displayed and can be filled in the owner card</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:boolean">true</FillValue>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>

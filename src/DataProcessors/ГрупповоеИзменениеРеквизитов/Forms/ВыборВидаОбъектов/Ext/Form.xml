@@ -38,6 +38,24 @@
 				<CommandName>Form.Item.ДоступныеОбъектыДляИзменения.StandardCommand.UncheckAll</CommandName>
 				<ExtendedTooltip name="ФормаСнятьФлажкиРасширеннаяПодсказка" id="32"/>
 			</Button>
+			<SearchStringAddition name="СтрокаПоиска" id="35">
+				<AdditionSource>
+					<Item>ДоступныеОбъектыДляИзменения</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Поиск</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="36"/>
+				<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="37"/>
+			</SearchStringAddition>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>

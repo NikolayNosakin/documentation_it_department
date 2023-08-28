@@ -19,6 +19,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 		<Event name="OnClose">ПриЗакрытии</Event>
 	</Events>
@@ -48,7 +49,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Change the application name, additional attributes, and other general settings.</v8:content>
+							<v8:content>Change the application name, configure additional attributes, and other general settings.</v8:content>
 						</v8:item>
 					</Title>
 					<VerticalAlign>Top</VerticalAlign>
@@ -149,7 +150,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Use these addresses to generate references to infobase objects for users of infobases that are published in the Internet or in the local network.</v8:content>
+							<v8:content>Use these addresses to generate links to infobase objects if the infobase is published on the Internet or in the local network.</v8:content>
 						</v8:item>
 					</Title>
 					<TitleHeight>2</TitleHeight>
@@ -175,7 +176,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Use this address to generate references for infobases that are published in the Internet.</v8:content>
+							<v8:content>Use this address to generate objects links if the infobase is published on the Internet.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ChoiceButton>true</ChoiceButton>
@@ -219,7 +220,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Use this address to generate references for infobases that are published in the local network.</v8:content>
+							<v8:content>Use this address to generate objects links if the infobase is published in the local network.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ChoiceButton>true</ChoiceButton>
@@ -469,22 +470,22 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Classify addresses, phones, and other contact information of application objects, such as partners, counterparties, employees, and so on.</v8:content>
+								<v8:content>Classify addresses, phones, and other contact information of application objects, such as partners, counterparties, or employees.</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
 				</Button>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ГруппаДополнительныеРеквизитыИСведения" id="1801">
+		<UsualGroup name="ГруппаСвойства" id="1801">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Дополнительные реквизиты и сведения</v8:content>
+					<v8:content>Свойства</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Additional attributes and information</v8:content>
+					<v8:content>Properties</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Collapsible</Behavior>
@@ -492,17 +493,17 @@
 			<ControlRepresentation>Picture</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
-			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыИСведенияExtendedTooltip" id="1846"/>
+			<ExtendedTooltip name="ГруппаСвойстваРасширеннаяПодсказка" id="1846"/>
 			<ChildItems>
-				<UsualGroup name="ГруппаИспользоватьДополнительныеРеквизитыИСведения" id="1802">
+				<UsualGroup name="ГруппаСвойстваЛевая" id="1802">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Использовать дополнительные реквизиты и сведения</v8:content>
+							<v8:content>Свойства левая</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Use additional attributes and information</v8:content>
+							<v8:content>Properties left</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -511,42 +512,79 @@
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаИспользоватьДополнительныеРеквизитыИСведенияExtendedTooltip" id="1847"/>
+					<ExtendedTooltip name="ГруппаСвойстваЛеваяРасширеннаяПодсказка" id="1847"/>
 					<ChildItems>
-						<CheckBoxField name="ИспользоватьДополнительныеРеквизитыИСведения" id="1803">
+						<CheckBoxField name="ИспользоватьСвойства" id="1803">
 							<DataPath>НаборКонстант.ИспользоватьДополнительныеРеквизитыИСведения</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Дополнительные реквизиты и сведения</v8:content>
+									<v8:content>Свойства</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Additional attributes and information</v8:content>
+									<v8:content>Properties</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Добавление реквизитов и сведений к объектам программы.</v8:content>
+									<v8:content>Создание и настройка дополнительных текстовых, числовых и прочих свойств у справочников, документов и других объектов программы.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Add custom attributes and information to application objects.</v8:content>
+									<v8:content>Create and configure additional text, numeric, and other properties for your application objects such as catalogs or documents.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="ИспользоватьДополнительныеРеквизитыИСведенияКонтекстноеМеню" id="1804"/>
-							<ExtendedTooltip name="ИспользоватьДополнительныеРеквизитыИСведенияExtendedTooltip" id="1848"/>
+							<ContextMenu name="ИспользоватьСвойстваКонтекстноеМеню" id="1804"/>
+							<ExtendedTooltip name="ИспользоватьСвойстваРасширеннаяПодсказка" id="1848"/>
 							<Events>
-								<Event name="OnChange">ИспользоватьДополнительныеРеквизитыИСведенияПриИзменении</Event>
+								<Event name="OnChange">ИспользоватьСвойстваПриИзменении</Event>
 							</Events>
 						</CheckBoxField>
+						<UsualGroup name="ГруппаДополнительныеСведения" id="1825">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнительные сведения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional information records</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаДополнительныеСведенияExtendedTooltip" id="1862"/>
+							<ChildItems>
+								<Button name="ДополнительныеСведения" id="2053">
+									<Type>Hyperlink</Type>
+									<CommandName>Form.Command.ДополнительныеСведения</CommandName>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<ExtendedTooltip name="ДополнительныеСведенияРасширеннаяПодсказка" id="2054">
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Редактируются в отдельной форме, открываемой из справочника или документа. Права на их редактирование и просмотр настраиваются независимо от прав на объект-владелец.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Additional information records are edited in a separate form opened from a catalog or a document. You can set up rights to edit and view the additional information records regardless of the rights to an owner object.</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
-				<UsualGroup name="ГруппаДополнительныеРеквизитыИлиСведения" id="1820">
+				<UsualGroup name="ГруппаСвойстваПравая" id="1820">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -554,7 +592,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Additional attributes or information</v8:content>
+							<v8:content>Additional attributes or information records</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -564,7 +602,7 @@
 					<Representation>None</Representation>
 					<ChildItemsWidth>Equal</ChildItemsWidth>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаДополнительныеРеквизитыИлиСведенияExtendedTooltip" id="1858"/>
+					<ExtendedTooltip name="ГруппаСвойстваПраваяРасширеннаяПодсказка" id="1858"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаДополнительныеРеквизиты" id="1821">
 							<Title>
@@ -592,52 +630,48 @@
 										<Title formatted="false">
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Создание реквизитов, их изменение, описание свойств.
-Эти реквизиты отображаются в формах.</v8:content>
+												<v8:content>Размещаются в виде полей в формах справочников и документов. Их редактирование и просмотр определены правами на объект-владелец.</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Create and change attributes and their properties.
-These attributes are displayed in forms.</v8:content>
+												<v8:content>Additional attributes are placed in document and catalog forms as fields. To edit and view the additional attributes, you need to have the required rights to an owner object.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
 								</Button>
 							</ChildItems>
 						</UsualGroup>
-						<UsualGroup name="ГруппаДополнительныеСведения" id="1825">
+						<UsualGroup name="ГруппаМетки" id="2258">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Дополнительные сведения</v8:content>
+									<v8:content>Метки</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Additional information</v8:content>
+									<v8:content>Labels</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаДополнительныеСведенияExtendedTooltip" id="1862"/>
+							<ExtendedTooltip name="ГруппаМеткиРасширеннаяПодсказка" id="2259"/>
 							<ChildItems>
-								<Button name="ДополнительныеСведения" id="2053">
+								<Button name="Метки" id="2260">
 									<Type>Hyperlink</Type>
-									<CommandName>Form.Command.ДополнительныеСведения</CommandName>
+									<CommandName>Form.Command.Метки</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<ExtendedTooltip name="ДополнительныеСведенияРасширеннаяПодсказка" id="2054">
+									<ExtendedTooltip name="МеткиРасширеннаяПодсказка" id="2261">
 										<AutoMaxWidth>false</AutoMaxWidth>
 										<Title formatted="false">
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Создание сведений, их изменение, описание свойств.
-Эти сведения отображаются в отдельной форме, которая открывается специальной командой.</v8:content>
+												<v8:content>Позволяют помечать справочники и документы разноцветными значками-метками. Их редактирование и просмотр определены правами на объект-владелец.</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Create and change information items and their properties.
-These information items are displayed in new forms.</v8:content>
+												<v8:content>Use labels to mark catalogs and documents with multi-colored label icons. To edit and view the labels, you need to have the required rights to an owner object.</v8:content>
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
@@ -889,6 +923,8 @@ These information items are displayed in new forms.</v8:content>
 						</UsualGroup>
 						<Button name="НастройкиЭлектроннойПодписиИШифрования" id="2049">
 							<Type>Hyperlink</Type>
+							<Width>43</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
 							<CommandName>0</CommandName>
 							<Title>
 								<v8:item>
@@ -902,6 +938,7 @@ These information items are displayed in new forms.</v8:content>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="НастройкиЭлектроннойПодписиИШифрованияРасширеннаяПодсказка" id="2050">
+								<Width>43</Width>
 								<AutoMaxWidth>false</AutoMaxWidth>
 								<Title formatted="false">
 									<v8:item>
@@ -917,10 +954,10 @@ These information items are displayed in new forms.</v8:content>
 						</Button>
 					</ChildItems>
 				</UsualGroup>
-				<Button name="ОбщаяФормаРазрешенныеНеаккредитованныеУЦОткрыть" id="2253">
+				<Button name="ОбщаяФормаРазрешенныеНеаккредитованныеУЦОткрыть" id="2256">
 					<Type>Hyperlink</Type>
 					<CommandName>0</CommandName>
-					<ExtendedTooltip name="ОбщаяФормаРазрешенныеНеаккредитованныеУЦОткрытьРасширеннаяПодсказка" id="2254"/>
+					<ExtendedTooltip name="ОбщаяФормаРазрешенныеНеаккредитованныеУЦОткрытьРасширеннаяПодсказка" id="2257"/>
 				</Button>
 				<UsualGroup name="ГруппаУсовершенствованнаяПодпись" id="2158">
 					<Title>
@@ -930,7 +967,7 @@ These information items are displayed in new forms.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Improved signature</v8:content>
+							<v8:content>Enhanced signature</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -947,7 +984,7 @@ These information items are displayed in new forms.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Improved signature horizontal</v8:content>
+									<v8:content>Enhanced signature horizontal</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -984,7 +1021,7 @@ These information items are displayed in new forms.</v8:content>
 												<Title formatted="false">
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>В приложении в Интернете типы подписи с метками времени можно выбрать при подписании сертификатом, установленным на компьютер при установленой программе электронной подписи.</v8:content>
+														<v8:content>В приложении в Интернете типы подписи с метками времени можно выбрать при подписании сертификатом, установленным на компьютер при установленной программе электронной подписи.</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
@@ -995,6 +1032,9 @@ These information items are displayed in new forms.</v8:content>
 													<Event name="URLProcessing">ТипПодписиКриптографииПоУмолчанию1РасширеннаяПодсказкаОбработкаНавигационнойСсылки</Event>
 												</Events>
 											</ExtendedTooltip>
+											<Events>
+												<Event name="OnChange">ТипПодписиПриИзменении</Event>
+											</Events>
 										</LabelField>
 										<RadioButtonField name="ТипПодписиКриптографииПоУмолчанию" id="2175">
 											<DataPath>КонстантаТипПодписиКриптографииПоУмолчанию</DataPath>
@@ -1015,7 +1055,7 @@ These information items are displayed in new forms.</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Basic signature (CAdES-BES)</v8:content>
+																<v8:content>Basic electronic signature (CAdES-BES)</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">102412a6-a3fb-47f1-840c-c7c3b4ad1d4d.d0d90cbf-21fc-47cb-8e1c-549e67a1bf0c</Value>
@@ -1061,7 +1101,7 @@ These information items are displayed in new forms.</v8:content>
 												<Title formatted="false">
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>В модели сервиса архивная подпись по умолчанию недоступна, этот тип подписи можно выбрать при подписании сертификатом, установленным на компьютер при установленой программе электронной подписи.</v8:content>
+														<v8:content>В модели сервиса архивная подпись по умолчанию недоступна, этот тип подписи можно выбрать при подписании сертификатом, установленным на компьютер при установленной программе электронной подписи.</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
@@ -1132,7 +1172,7 @@ These information items are displayed in new forms.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Maintain signature verification</v8:content>
+									<v8:content>Maintain signature validity</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -1152,7 +1192,7 @@ These information items are displayed in new forms.</v8:content>
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>To ensure that signature validity is maintained automatically using a scheduled job, &lt;link Программы&gt;digital signature application&lt;/&gt; must be installed on every computer that has 1C:Enterprise server or a web server attached to a file infobase.</v8:content>
+										<v8:content>To ensure that signature validity is maintained automatically using a scheduled job, a &lt;link Программы&gt;digital signature application&lt;/&gt; must be installed on each computer running 1C:Enterprise server or the web server connected to the file infobase.</v8:content>
 									</v8:item>
 								</Title>
 								<Events>
@@ -1184,7 +1224,7 @@ These information items are displayed in new forms.</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Improve signatures</v8:content>
+													<v8:content>Enhance signatures</v8:content>
 												</v8:item>
 											</Title>
 											<Width>43</Width>
@@ -1201,7 +1241,7 @@ These information items are displayed in new forms.</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Improve signatures</v8:content>
+															<v8:content>Enhance signatures</v8:content>
 														</v8:item>
 													</Title>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -1214,7 +1254,7 @@ These information items are displayed in new forms.</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Improve signature to the selected type</v8:content>
+																<v8:content>Enhance signatures up to the selected type</v8:content>
 															</v8:item>
 														</Title>
 													</ExtendedTooltip>
@@ -1227,7 +1267,7 @@ These information items are displayed in new forms.</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Improve signatures automatically</v8:content>
+															<v8:content>Enhance signatures automatically</v8:content>
 														</v8:item>
 													</Title>
 													<Behavior>Usual</Behavior>
@@ -1248,7 +1288,7 @@ These information items are displayed in new forms.</v8:content>
 																</v8:item>
 																<v8:item>
 																	<v8:lang>en</v8:lang>
-																	<v8:content>Improve signatures automatically</v8:content>
+																	<v8:content>Enhance signatures automatically</v8:content>
 																</v8:item>
 															</Title>
 															<TitleLocation>None</TitleLocation>
@@ -1266,7 +1306,7 @@ These information items are displayed in new forms.</v8:content>
 																			</v8:item>
 																			<v8:item>
 																				<v8:lang>en</v8:lang>
-																				<v8:content>Do not improve</v8:content>
+																				<v8:content>Do not enhance</v8:content>
 																			</v8:item>
 																		</Presentation>
 																		<Value xsi:type="xs:decimal">0</Value>
@@ -1316,7 +1356,7 @@ These information items are displayed in new forms.</v8:content>
 																	</v8:item>
 																	<v8:item>
 																		<v8:lang>en</v8:lang>
-																		<v8:content>* Using commands in &lt;link ОтчетОПродленииПодписей&gt;report&lt;/&gt; and in the "To-do list" panel.</v8:content>
+																		<v8:content>* Using commands in the &lt;link ОтчетОПродленииПодписей&gt;report&lt;/&gt; and the "To-do list" panel.</v8:content>
 																	</v8:item>
 																</Title>
 																<Events>
@@ -1337,7 +1377,7 @@ These information items are displayed in new forms.</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Improve signatures from the date</v8:content>
+															<v8:content>Enhance signatures starting from</v8:content>
 														</v8:item>
 													</Title>
 													<Behavior>Usual</Behavior>
@@ -1425,7 +1465,7 @@ These information items are displayed in new forms.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Check signatures on server</v8:content>
+							<v8:content>Verify signatures on server</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -1488,6 +1528,65 @@ These information items are displayed in new forms.</v8:content>
 						</CheckBoxField>
 					</ChildItems>
 				</UsualGroup>
+				<UsualGroup name="ГруппаПодсказкаКриптопровайдеры" id="2248">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подсказка о криптопровайдерах</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Cryptographic service provider tooltip</v8:content>
+						</v8:item>
+					</Title>
+					<Width>86</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<Behavior>Usual</Behavior>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПодсказкаКриптопровайдерыРасширеннаяПодсказка" id="2249"/>
+					<ChildItems>
+						<PictureDecoration name="ДекорацияИнформацияКриптопровайдеры" id="2253">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Декорация информация</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Decoration information</v8:content>
+								</v8:item>
+							</Title>
+							<Picture>
+								<xr:Ref>StdPicture.Information</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ДекорацияИнформацияКриптопровайдерыКонтекстноеМеню" id="2254"/>
+							<ExtendedTooltip name="ДекорацияИнформацияКриптопровайдерыРасширеннаяПодсказка" id="2255"/>
+						</PictureDecoration>
+						<LabelDecoration name="ДекорацияПроверкаУстановкиКриптопровайдера" id="2250">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Если планируется работа с усиленной квалифицированной электронной подписью, то на компьютере должна быть установлена сертифицированная программа (средство криптографической защиты информации). 
+&lt;link ПроверитьУстановкуПрограммКриптографии&gt;Проверить и установить&lt;/&gt;</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>If you plan to use an advanced qualified digital signature, install a certified application (a cryptographic information protection tool) on your computer. 
+&lt;link ПроверитьУстановкуПрограммКриптографии&gt;Check and install&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияПроверкаУстановкиКриптопровайдераКонтекстноеМеню" id="2251"/>
+							<ExtendedTooltip name="ДекорацияПроверкаУстановкиКриптопровайдераРасширеннаяПодсказка" id="2252"/>
+							<Events>
+								<Event name="URLProcessing">ДекорацияПроверкаУстановкиКриптопровайдераОбработкаНавигационнойСсылки</Event>
+							</Events>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
 				<UsualGroup name="ГруппаОблачнаяПодпись" id="2113">
 					<Title>
 						<v8:item>
@@ -1524,16 +1623,19 @@ These information items are displayed in new forms.</v8:content>
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Разрешает использовать для подписания сервисы подписи DSS.</v8:content>
+										<v8:content>В программном коде</v8:content>
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Allows using DSS signature services for signing.</v8:content>
+										<v8:content>In program code</v8:content>
 									</v8:item>
 								</Title>
+								<Events>
+									<Event name="URLProcessing">ИспользоватьСервисОблачнойПодписиРасширеннаяПодсказкаОбработкаНавигационнойСсылки</Event>
+								</Events>
 							</ExtendedTooltip>
 							<Events>
-								<Event name="OnChange">Подключаемый_ПриИзмененииРеквизита</Event>
+								<Event name="OnChange">ИспользоватьСервисОблачнойПодписиПриИзменении</Event>
 							</Events>
 						</CheckBoxField>
 						<UsualGroup name="ГруппаОблачнаяПодписьНастройки" id="2118">
@@ -1605,7 +1707,7 @@ These information items are displayed in new forms.</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Deletion of marked objects</v8:content>
+					<v8:content>Marked object deletion</v8:content>
 				</v8:item>
 			</Title>
 			<Behavior>Collapsible</Behavior>
@@ -1621,7 +1723,7 @@ These information items are displayed in new forms.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Subgroup delete marked objects</v8:content>
+							<v8:content>Subgroup Delete marked objects</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
@@ -1654,7 +1756,7 @@ These information items are displayed in new forms.</v8:content>
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Delete marked objects on schedule</v8:content>
+										<v8:content>Delete marked objects on schedule.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -1696,7 +1798,7 @@ These information items are displayed in new forms.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Viewing notes marked for deletion</v8:content>
+							<v8:content>View objects marked for deletion</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
@@ -1706,7 +1808,7 @@ These information items are displayed in new forms.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Open workplace for deleting marked objects</v8:content>
+							<v8:content>Open workspace for deleting marked objects.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -1870,7 +1972,7 @@ See also &lt;link http://1c.ru/news/info.jsp?id=25491&gt;restriction of 12 cores
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Temporary files directory of 1C:Enterprise server cluster</v8:content>
+					<v8:content>Temporary file directory of 1C:Enterprise server cluster</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -1907,7 +2009,7 @@ See also &lt;link http://1c.ru/news/info.jsp?id=25491&gt;restriction of 12 cores
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>For multithreaded long-running operations, a path to a single network directory for common temporary files of 1C:Enterprise servers running in the same cluster.</v8:content>
+								<v8:content>For multithreaded long-running operations, a path to a network directory for temporary files of all 1C:Enterprise servers running in a single cluster.</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
@@ -2066,7 +2168,7 @@ See also &lt;link http://1c.ru/news/info.jsp?id=25491&gt;restriction of 12 cores
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Improve signatures automatically</v8:content>
+					<v8:content>Enhance signatures automatically</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2101,7 +2203,7 @@ See also &lt;link http://1c.ru/news/info.jsp?id=25491&gt;restriction of 12 cores
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Check digital signatures on server</v8:content>
+					<v8:content>Verify digital signatures on server</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2198,7 +2300,7 @@ See also &lt;link http://1c.ru/news/info.jsp?id=25491&gt;restriction of 12 cores
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Configure change history storage options.</v8:content>
+					<v8:content>Configure change history storage options</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастроитьХранениеИсторииИзменений</Action>
@@ -2280,7 +2382,7 @@ See also &lt;link http://1c.ru/news/info.jsp?id=25491&gt;restriction of 12 cores
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Configure schedule</v8:content>
+					<v8:content>Set schedule</v8:content>
 				</v8:item>
 			</Title>
 			<Action>НастроитьРасписание</Action>
@@ -2297,6 +2399,19 @@ See also &lt;link http://1c.ru/news/info.jsp?id=25491&gt;restriction of 12 cores
 				</v8:item>
 			</Title>
 			<Action>ПосмотретьПомеченныеНаУдаление</Action>
+		</Command>
+		<Command name="Метки" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Метки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Labels</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Метки</Action>
 		</Command>
 	</Commands>
 </Form>

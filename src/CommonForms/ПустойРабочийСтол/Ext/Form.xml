@@ -8,6 +8,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ТестовыйРежим" id="1">
@@ -48,24 +49,6 @@
 				</PictureDecoration>
 				<LabelDecoration name="Надпись" id="6">
 					<Width>60</Width>
-					<Title formatted="true">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Вход в информационную базу был выполнен в целях автоматического тестирования
-с параметром запуска &lt;b&gt;ОтключитьЛогикуНачалаРаботыСистемы&lt;/&gt;.
-
-Работа пользователей в этом режиме настоятельно не рекомендуется,
-так как это приведет к рассогласованию или потере данных.</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>The authorization in the infobase was performed for automated testing purposes,
-using the startup parameter &lt;b&gt;DisableSystemStartupLogic&lt;/&gt;.
-
-It is strongly recommended that you do not allow normal user operation in this mode
-as it will result in data losses or mismatches.</v8:content>
-						</v8:item>
-					</Title>
 					<ContextMenu name="НадписьКонтекстноеМеню" id="7"/>
 					<ExtendedTooltip name="НадписьРасширеннаяПодсказка" id="8"/>
 				</LabelDecoration>

@@ -50,6 +50,14 @@
 					</Button>
 				</ChildItems>
 			</ButtonGroup>
+			<SearchStringAddition name="СтрокаПоиска" id="85">
+				<AdditionSource>
+					<Item>НастройкиОтображенияОбъектов</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="86"/>
+				<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="87"/>
+			</SearchStringAddition>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -213,8 +221,8 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Check whether objects can be deleted and do not delete objects if there are usage instances.
-It is used to delete single objects.</v8:content>
+								<v8:content>Check whether objects can be deleted and do not delete objects that have occurrences.
+Use it to delete single objects.</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
@@ -259,7 +267,7 @@ It is used to delete single objects.</v8:content>
 							<v8:item>
 								<v8:lang>en</v8:lang>
 								<v8:content>Allow clearing of fields in objects marked for deletion.
-It is used to clear linked objects.
+Use it to clear linked objects.
 </v8:content>
 							</v8:item>
 						</Title>
@@ -303,7 +311,7 @@ It is used to clear linked objects.
 							<v8:item>
 								<v8:lang>en</v8:lang>
 								<v8:content>Block sign-in.
-This method is used to urgently delete large data volumes.</v8:content>
+Use it to promptly delete large data volumes.</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
@@ -367,7 +375,7 @@ This method is used to urgently delete large data volumes.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Configure schedule</v8:content>
+									<v8:content>Set schedule</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="НастройкиРегламентноеУдалениеПомеченныхРасширеннаяПодсказка" id="55"/>

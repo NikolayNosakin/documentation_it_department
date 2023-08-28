@@ -99,6 +99,24 @@
 				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="106"/>
 			</Button>
+			<SearchStringAddition name="СтрокаПоиска" id="153">
+				<AdditionSource>
+					<Item>ДеревоОбъектовМетаданных</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Поиск</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="154"/>
+				<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="155"/>
+			</SearchStringAddition>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -356,7 +374,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Clean up obsolete files</v8:content>
+									<v8:content>Clean up unused files</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
@@ -423,7 +441,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Cleaning up obsolete files…</v8:content>
+															<v8:content>Cleaning up unused files…</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="ИнформацияОФоновомЗаданииКонтекстноеМеню" id="97"/>
@@ -534,7 +552,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Deleted and unwanted files</v8:content>
+												<v8:content>Deleted and unused files</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xr:DesignTimeRef">Enum.РежимыОчисткиФайлов.EnumValue.ОчищатьУдаленныеИНенужные</Value>
@@ -727,7 +745,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Clean up obsolete files automatically:</v8:content>
+					<v8:content>Clean up unused files automatically:</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -981,7 +999,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Clean up unwanted files</v8:content>
+					<v8:content>Clean up unused files</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -999,7 +1017,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Total size of obsolete files</v8:content>
+					<v8:content>Unused file size</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -1023,7 +1041,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>configure schedule</v8:content>
+					<v8:content>Set schedule</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -1033,7 +1051,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Configure schedule</v8:content>
+					<v8:content>Set schedule</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастроитьРасписание</Action>
@@ -1053,11 +1071,11 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Файлы, которых не существует в программе, но имеются в томе на диске</v8:content>
+					<v8:content>Файлы, которых не существует в программе, но имеются в томе в сетевом каталоге</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Files that do not exist in the application but are available in the volume on the hard drive</v8:content>
+					<v8:content>Files that do not exist in the application but are available in the volume of the network directory</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОбъемУдаленныхФайлов</Action>

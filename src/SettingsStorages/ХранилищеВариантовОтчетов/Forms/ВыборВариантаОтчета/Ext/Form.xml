@@ -104,6 +104,7 @@
 				<Button name="ПоказыватьЛичныеВариантыОтчетовДругихАвторов" id="13">
 					<Type>CommandBarButton</Type>
 					<CommandName>Form.Command.ПоказыватьЛичныеВариантыОтчетовДругихАвторов</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ПоказыватьЛичныеВариантыОтчетовДругихАвторовExtendedTooltip" id="37"/>
 				</Button>
 				<Button name="ФормаОбновить" id="28">
@@ -124,6 +125,16 @@
 					</Title>
 					<CommandSource>Item.ДеревоВариантовОтчета</CommandSource>
 					<ExtendedTooltip name="КоманднаяПанельДереваExtendedTooltip" id="39"/>
+					<ChildItems>
+						<SearchStringAddition name="СтрокаПоиска" id="59">
+							<AdditionSource>
+								<Item>ДеревоВариантовОтчета</Item>
+								<Type>SearchStringRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="60"/>
+							<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="61"/>
+						</SearchStringAddition>
+					</ChildItems>
 				</ButtonGroup>
 			</ChildItems>
 		</CommandBar>
@@ -272,6 +283,17 @@
 					<ContextMenu name="ДеревоВариантовОтчетаАвторКонтекстноеМеню" id="19"/>
 					<ExtendedTooltip name="ДеревоВариантовОтчетаАвторExtendedTooltip" id="45"/>
 				</InputField>
+				<PictureField name="ДеревоВариантовОтчетаКартинкаНазначение" id="62">
+					<DataPath>ДеревоВариантовОтчета.КартинкаНазначение</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.НазначенияВариантовОтчетов</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</ValuesPicture>
+					<ContextMenu name="ДеревоВариантовОтчетаКартинкаНазначениеКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="ДеревоВариантовОтчетаКартинкаНазначениеРасширеннаяПодсказка" id="64"/>
+				</PictureField>
 			</ChildItems>
 		</Table>
 		<InputField name="ВариантОписание" id="11">
@@ -437,6 +459,26 @@
 				<Column name="ТолькоДляАвтора" id="15">
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="КартинкаНазначение" id="16">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Картинка назначение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Picture use for</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
 					</Type>
 				</Column>
 			</Columns>

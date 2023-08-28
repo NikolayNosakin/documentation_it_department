@@ -52,6 +52,66 @@
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ПанельОсновнаяExtendedTooltip" id="728"/>
 			<ChildItems>
+				<Page name="СтраницаПроверкаЗадачОбмена" id="1019">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проверка очереди задач обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check exchange task queue</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаПроверкаЗадачОбменаРасширеннаяПодсказка" id="1020"/>
+					<ChildItems>
+						<UsualGroup name="Группа3" id="1021">
+							<VerticalStretch>true</VerticalStretch>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="1022"/>
+							<ChildItems>
+								<PictureDecoration name="ЗадачаВОчереди" id="1023">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Задача в очереди</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Task in queue</v8:content>
+										</v8:item>
+									</Title>
+									<Picture>
+										<xr:Ref>CommonPicture.СинхронизацияДанныхНедоступна</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
+									<ContextMenu name="ЗадачаВОчередиКонтекстноеМеню" id="1024"/>
+									<ExtendedTooltip name="ЗадачаВОчередиРасширеннаяПодсказка" id="1025"/>
+								</PictureDecoration>
+								<LabelDecoration name="СтатусЗадачаВОчереди" id="1026">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Для узла уже выполняется синхронизация.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Synchronization is already in progress for this node.</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalAlign>Center</VerticalAlign>
+									<ContextMenu name="СтатусЗадачаВОчередиКонтекстноеМеню" id="1027"/>
+									<ExtendedTooltip name="СтатусЗадачаВОчередиРасширеннаяПодсказка" id="1028"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
 				<Page name="СтраницаНачала" id="250">
 					<Title>
 						<v8:item>
@@ -89,7 +149,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Select from available transport kinds</v8:content>
+											<v8:content>Select from available transport types</v8:content>
 										</v8:item>
 									</Title>
 									<Behavior>Usual</Behavior>
@@ -317,7 +377,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Click "Next" to analyze the data.</v8:content>
+									<v8:content>Click Next to analyze the data.</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Bottom</VerticalAlign>
@@ -347,7 +407,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Get data</v8:content>
+									<v8:content>Receiving data</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -1018,7 +1078,7 @@ data mapping was performed correctly.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Click "Next" to synchronize data.</v8:content>
+									<v8:content>Click Next to synchronize data.</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Top</VerticalAlign>
@@ -1787,7 +1847,7 @@ data mapping was performed correctly.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Click "Next" to synchronize data.</v8:content>
+									<v8:content>Click Next to synchronize data.</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Bottom</VerticalAlign>
@@ -1847,7 +1907,7 @@ data mapping was performed correctly.</v8:content>
 										<v8:item>
 											<v8:lang>en</v8:lang>
 											<v8:content>Registering data for export.
-Please wait…</v8:content>
+Please wait...</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация3КонтекстноеМеню" id="976"/>
@@ -2941,7 +3001,7 @@ data synchronization.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Click "Finish" to complete the wizard.</v8:content>
+									<v8:content>Click Finish to complete the wizard.</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Bottom</VerticalAlign>
@@ -2991,7 +3051,7 @@ data synchronization.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Navigation start page</v8:content>
+									<v8:content>Navigation page start</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -3090,7 +3150,7 @@ data synchronization.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>End navigation page</v8:content>
+									<v8:content>Navigation page end</v8:content>
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
@@ -3795,7 +3855,7 @@ data synchronization.</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Additional information running</v8:content>
+					<v8:content>Additional progress details</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3976,7 +4036,34 @@ data synchronization.</v8:content>
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ОтменаСопоставления" id="65">
+		<Attribute name="ОбменЧерезВнутреннююПубликацию" id="6">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПараметрыОбменаЧерезВнутреннююПубликацию" id="12">
+			<Type/>
+		</Attribute>
+		<Attribute name="ПоУзлуЗапланированОбмен" id="13">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СценарийВыполненияЧерезВнутреннююПубликацию" id="17">
+			<Type>
+				<v8:Type>cfg:CatalogRef.СценарииОбменовДанными</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИдентификаторОбменаЧерезВнутреннююПубликацию" id="18">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтменаСопоставления" id="22">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
@@ -4377,7 +4464,7 @@ data synchronization.</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Configure schedule…</v8:content>
+					<v8:content>Set schedule…</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>

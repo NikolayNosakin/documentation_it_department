@@ -694,32 +694,63 @@
 										<v8:content>Customize set</v8:content>
 									</v8:item>
 								</Title>
+								<Representation>Compact</Representation>
 								<ExtendedTooltip name="ГруппаНастройкаКомплектаКоманднаяПанельРасширеннаяПодсказка" id="150"/>
 								<ChildItems>
-									<Button name="КнопкаУстановитьФлажкиПодменю" id="122">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.УстановитьФлажки</CommandName>
-										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="КнопкаУстановитьФлажкиПодменюExtendedTooltip" id="151"/>
-									</Button>
-									<Button name="КнопкаСнятьФлажкиПодменю" id="123">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.СнятьФлажки</CommandName>
-										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="КнопкаСнятьФлажкиПодменюExtendedTooltip" id="152"/>
-									</Button>
-									<Button name="КнопкаПереместитьВверхПодменю" id="124">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Item.НастройкиПечатныхФорм.StandardCommand.MoveUp</CommandName>
-										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="КнопкаПереместитьВверхПодменюExtendedTooltip" id="153"/>
-									</Button>
-									<Button name="КнопкаПереместитьВнизПодменю" id="125">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Item.НастройкиПечатныхФорм.StandardCommand.MoveDown</CommandName>
-										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="КнопкаПереместитьВнизПодменюExtendedTooltip" id="154"/>
-									</Button>
+									<ButtonGroup name="УправлениеФлажками" id="286">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Настройки печатных форм группа1</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Print form settings group1</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="УправлениеФлажкамиРасширеннаяПодсказка" id="287"/>
+										<ChildItems>
+											<Button name="КнопкаУстановитьФлажкиПодменю" id="122">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.УстановитьФлажки</CommandName>
+												<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+												<ExtendedTooltip name="КнопкаУстановитьФлажкиПодменюExtendedTooltip" id="151"/>
+											</Button>
+											<Button name="КнопкаСнятьФлажкиПодменю" id="123">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.СнятьФлажки</CommandName>
+												<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+												<ExtendedTooltip name="КнопкаСнятьФлажкиПодменюExtendedTooltip" id="152"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+									<ButtonGroup name="УправлениеСтроками" id="288">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Настройки печатных форм группа1</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Print form settings group1</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="УправлениеСтрокамиРасширеннаяПодсказка" id="289"/>
+										<ChildItems>
+											<Button name="КнопкаПереместитьВверхПодменю" id="124">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Item.НастройкиПечатныхФорм.StandardCommand.MoveUp</CommandName>
+												<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+												<ExtendedTooltip name="КнопкаПереместитьВверхПодменюExtendedTooltip" id="153"/>
+											</Button>
+											<Button name="КнопкаПереместитьВнизПодменю" id="125">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Item.НастройкиПечатныхФорм.StandardCommand.MoveDown</CommandName>
+												<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+												<ExtendedTooltip name="КнопкаПереместитьВнизПодменюExtendedTooltip" id="154"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
 									<Button name="КнопкаСброситьНастройкиПодменю" id="126">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.СброситьНастройки</CommandName>
@@ -728,6 +759,24 @@
 									</Button>
 								</ChildItems>
 							</ButtonGroup>
+							<SearchStringAddition name="СтрокаПоиск" id="290">
+								<AdditionSource>
+									<Item>НастройкиПечатныхФорм</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Поиск</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Search</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="СтрокаПоискКонтекстноеМеню" id="291"/>
+								<ExtendedTooltip name="СтрокаПоискРасширеннаяПодсказка" id="292"/>
+							</SearchStringAddition>
 						</ChildItems>
 					</AutoCommandBar>
 					<ExtendedTooltip name="НастройкиПечатныхФормExtendedTooltip" id="174"/>
@@ -836,6 +885,7 @@
 									<ExtendedTooltip name="ТекущаяПечатнаяФормаРасширеннаяПодсказка" id="213"/>
 									<Events>
 										<Event name="OnActivate">ТекущаяПечатнаяФормаПриАктивизации</Event>
+										<Event name="Selection">ТекущаяПечатнаяФормаВыбор</Event>
 									</Events>
 								</SpreadSheetDocumentField>
 							</ChildItems>
@@ -1485,6 +1535,24 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="ИмяВременногоКаталога" id="28">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИменаМакетов" id="30">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="Отправить" id="1">
@@ -1699,11 +1767,11 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сохранить на диске или в качестве присоединенного файла к объекту</v8:content>
+					<v8:content>Сохранить на компьютере или в качестве присоединенного файла к объекту</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Save as a file.</v8:content>
+					<v8:content>Save to a local folder or attach to the object</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

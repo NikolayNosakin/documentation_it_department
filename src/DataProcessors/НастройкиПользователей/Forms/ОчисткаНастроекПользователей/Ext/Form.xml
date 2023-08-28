@@ -290,8 +290,14 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ПользователиКоторымОчищаютсяНастройки" id="6">
-			<Type/>
+		<Attribute name="ВыбранныеПользователи" id="6">
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>cfg:CatalogRef.ВнешниеПользователи</v8:Type>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Settings>
 		</Attribute>
 		<Attribute name="ВыбранныеНастройки" id="7">
 			<Type/>
@@ -369,7 +375,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Clear the settings.</v8:content>
+					<v8:content>Clear</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Очистить</Action>
@@ -393,7 +399,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Clear the settings and close the form.</v8:content>
+					<v8:content>Clear and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОчиститьИЗакрыть</Action>

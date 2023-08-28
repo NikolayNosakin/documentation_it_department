@@ -282,6 +282,7 @@
 									<CommandSet>
 										<ExcludedCommand>Change</ExcludedCommand>
 									</CommandSet>
+									<SearchStringLocation>Top</SearchStringLocation>
 									<ContextMenu name="НайденныеДублиКонтекстноеМеню" id="68">
 										<ChildItems>
 											<Button name="НайденныеДублиКонтекстноеМенюВыбратьОсновнойЭлемент" id="117">
@@ -314,7 +315,7 @@
 												<ChildItems>
 													<Button name="НайденныеДублиКонтекстноеМенюИзменитьФорму" id="424">
 														<Type>CommandBarButton</Type>
-														<CommandName>0:198ea630-fda2-4cda-8a23-f999f4c67ee6</CommandName>
+														<CommandName>Form.Item.НайденныеДубли.StandardCommand.OutputList</CommandName>
 														<ExtendedTooltip name="НайденныеДублиКонтекстноеМенюИзменитьФормуРасширеннаяПодсказка" id="425"/>
 													</Button>
 												</ChildItems>
@@ -557,6 +558,7 @@
 																	<v8:content>Candidate occurrences</v8:content>
 																</v8:item>
 															</Title>
+															<SearchStringLocation>Top</SearchStringLocation>
 															<RowFilter xsi:nil="true"/>
 															<ContextMenu name="МестаИспользованияКандидатаКонтекстноеМеню" id="138">
 																<ChildItems>
@@ -927,6 +929,7 @@
 										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
+									<SearchStringLocation>Top</SearchStringLocation>
 									<RowFilter xsi:nil="true"/>
 									<ContextMenu name="ВозможныеДублиКонтекстноеМеню" id="474"/>
 									<AutoCommandBar name="ВозможныеДублиКоманднаяПанель" id="475">
@@ -1115,6 +1118,7 @@
 											<CommandSet>
 												<ExcludedCommand>Change</ExcludedCommand>
 											</CommandSet>
+											<SearchStringLocation>Top</SearchStringLocation>
 											<ContextMenu name="НеобработанныеДублиКонтекстноеМеню" id="243">
 												<ChildItems>
 													<ButtonGroup name="НеобработанныеДублиКонтекстноеМенюГруппаОткрыть" id="442">
@@ -1137,16 +1141,6 @@
 														<CommandName>Form.Item.НеобработанныеДубли.StandardCommand.OutputList</CommandName>
 														<ExtendedTooltip name="НеобработанныеДублиКонтекстноеМенюВывестиСписокРасширеннаяПодсказка" id="437"/>
 													</Button>
-													<ButtonGroup name="НеобработанныеДублиКонтекстноеМенюГруппаИзменитьФорму" id="440">
-														<ExtendedTooltip name="НеобработанныеДублиКонтекстноеМенюГруппаИзменитьФормуРасширеннаяПодсказка" id="441"/>
-														<ChildItems>
-															<Button name="НеобработанныеДублиКонтекстноеМенюИзменитьФорму" id="438">
-																<Type>CommandBarButton</Type>
-																<CommandName>0:198ea630-fda2-4cda-8a23-f999f4c67ee6</CommandName>
-																<ExtendedTooltip name="НеобработанныеДублиКонтекстноеМенюИзменитьФормуРасширеннаяПодсказка" id="439"/>
-															</Button>
-														</ChildItems>
-													</ButtonGroup>
 												</ChildItems>
 											</ContextMenu>
 											<AutoCommandBar name="НеобработанныеДублиКоманднаяПанель" id="244">
@@ -1332,6 +1326,7 @@
 																	<v8:content>Item occurrences</v8:content>
 																</v8:item>
 															</Title>
+															<SearchStringLocation>Top</SearchStringLocation>
 															<RowFilter xsi:nil="true"/>
 															<ContextMenu name="МестаИспользованияНеобработанныхКонтекстноеМеню" id="270">
 																<ChildItems>
@@ -2586,6 +2581,83 @@
 		<Attribute name="ВозвращеноМеньшеЧемНайдено" id="42">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="КоличествоПорций" id="43">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>5</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбщееКоличествоВыбранных" id="44">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбщееКоличествоОбработанных" id="45">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрогрессУдаления" id="46">
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="НомерСеанса" id="1">
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="КоличествоОбработанных" id="2">
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="КоличествоУдаленных" id="3">
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ОбщееКоличествоУдаленных" id="47">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>

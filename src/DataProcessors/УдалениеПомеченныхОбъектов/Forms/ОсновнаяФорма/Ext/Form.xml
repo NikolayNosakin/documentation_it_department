@@ -7,7 +7,7 @@
 		</v8:item>
 		<v8:item>
 			<v8:lang>en</v8:lang>
-			<v8:content>Marked objects deletion</v8:content>
+			<v8:content>Marked object deletion</v8:content>
 		</v8:item>
 	</Title>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
@@ -270,6 +270,14 @@
 					<CommandName>Form.StandardCommand.Help</CommandName>
 					<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="688"/>
 				</Button>
+				<SearchStringAddition name="СтрокаПоискаНаУдаление" id="737">
+					<AdditionSource>
+						<Item>ДеревоПомеченныхНаУдаление</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="СтрокаПоискаНаУдалениеКонтекстноеМеню" id="738"/>
+					<ExtendedTooltip name="СтрокаПоискаНаУдалениеРасширеннаяПодсказка" id="739"/>
+				</SearchStringAddition>
 			</ChildItems>
 		</CommandBar>
 		<Pages name="СтраницыОтображениеСостояния" id="645">
@@ -923,6 +931,16 @@ Searching for marked objects</v8:content>
 											</ContextMenu>
 											<AutoCommandBar name="НеУдаленныеКоманднаяПанель" id="222">
 												<Autofill>false</Autofill>
+												<ChildItems>
+													<SearchStringAddition name="СтрокаПоискаНеудаленные" id="740">
+														<AdditionSource>
+															<Item>НеУдаленные</Item>
+															<Type>SearchStringRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="СтрокаПоискаНеудаленныеКонтекстноеМеню" id="741"/>
+														<ExtendedTooltip name="СтрокаПоискаНеудаленныеРасширеннаяПодсказка" id="742"/>
+													</SearchStringAddition>
+												</ChildItems>
 											</AutoCommandBar>
 											<ExtendedTooltip name="НеУдаленныеРасширеннаяПодсказка" id="223"/>
 											<SearchStringAddition name="НеУдаленныеСтрокаПоиска" id="418">
@@ -1058,7 +1076,7 @@ Searching for marked objects</v8:content>
 																</v8:item>
 																<v8:item>
 																	<v8:lang>en</v8:lang>
-																	<v8:content>Skipped objects usage locations</v8:content>
+																	<v8:content>Skipped objects occurrences</v8:content>
 																</v8:item>
 															</Title>
 															<CommandSet>
@@ -1087,6 +1105,16 @@ Searching for marked objects</v8:content>
 															</ContextMenu>
 															<AutoCommandBar name="СвязиНеУдаленныхКоманднаяПанель" id="237">
 																<Autofill>false</Autofill>
+																<ChildItems>
+																	<SearchStringAddition name="СтрокаПоискаМестаИспользованияНеудаленных" id="743">
+																		<AdditionSource>
+																			<Item>МестаИспользованияНеудаленных</Item>
+																			<Type>SearchStringRepresentation</Type>
+																		</AdditionSource>
+																		<ContextMenu name="СтрокаПоискаМестаИспользованияНеудаленныхКонтекстноеМеню" id="744"/>
+																		<ExtendedTooltip name="СтрокаПоискаМестаИспользованияНеудаленныхРасширеннаяПодсказка" id="745"/>
+																	</SearchStringAddition>
+																</ChildItems>
 															</AutoCommandBar>
 															<ExtendedTooltip name="СвязиНеУдаленныхРасширеннаяПодсказка" id="238"/>
 															<SearchStringAddition name="СвязиНеУдаленныхСтрокаПоиска" id="427">
@@ -1929,6 +1957,53 @@ Searching for marked objects</v8:content>
 		<Attribute name="ВыполняетсяЗадание" id="3">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="КоличествоПорций" id="4">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>5</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрогрессУдаления" id="7">
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="НомерСеанса" id="1">
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="КоличествоОбработанных" id="2">
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ОбщееКоличествоВыбранных" id="9">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>

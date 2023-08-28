@@ -367,6 +367,16 @@ Then, if any items are left unmapped, you can map them manually.</v8:content>
 								<Event name="BeforeRowChange">ТаблицаСопоставленияПередНачаломИзменения</Event>
 							</Events>
 							<ChildItems>
+								<PictureField name="ТаблицаСопоставленияСопоставлениеПоСсылкеКартинка" id="419">
+									<DataPath>ТаблицаСопоставления.СопоставлениеПоСсылкеКартинка</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ValuesPicture>
+										<xr:Ref>StdPicture.GetURL</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</ValuesPicture>
+									<ContextMenu name="ТаблицаСопоставленияСопоставлениеПоСсылкеКартинкаКонтекстноеМеню" id="420"/>
+									<ExtendedTooltip name="ТаблицаСопоставленияСопоставлениеПоСсылкеКартинкаРасширеннаяПодсказка" id="421"/>
+								</PictureField>
 								<ColumnGroup name="ДанныеЭтойПрограммы" id="306">
 									<Title>
 										<v8:item>
@@ -824,8 +834,8 @@ Then, if any items are left unmapped, you can map them manually.</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
-						<xr:Ref>CommonPicture.УдалитьИнформация</xr:Ref>
-						<xr:LoadTransparent>false</xr:LoadTransparent>
+						<xr:Ref>StdPicture.Information</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="КартинкаИнформацияОНаличииНесопоставленныхОбъектовКонтекстноеМеню" id="305"/>
@@ -1264,6 +1274,31 @@ Then, if any items are left unmapped, you can map them manually.</v8:content>
 							<v8:Digits>1</v8:Digits>
 							<v8:FractionDigits>0</v8:FractionDigits>
 							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="СопоставлениеПоСсылке" id="27">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="СопоставлениеПоСсылкеКартинка" id="28">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сопоставление по ссылке картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Map by reference picture</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
 				</Column>

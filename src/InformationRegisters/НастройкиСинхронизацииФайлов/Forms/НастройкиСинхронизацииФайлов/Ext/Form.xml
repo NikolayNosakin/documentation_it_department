@@ -115,6 +115,24 @@
 				</Title>
 				<ExtendedTooltip name="ФормаГруппаСинхронизацияРасширеннаяПодсказка" id="113"/>
 			</ButtonGroup>
+			<SearchStringAddition name="СтрокаПоиска" id="119">
+				<AdditionSource>
+					<Item>ДеревоОбъектовМетаданных</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Поиск</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="120"/>
+				<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="121"/>
+			</SearchStringAddition>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -671,7 +689,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Configure schedule</v8:content>
+					<v8:content>Set schedule</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -681,7 +699,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Configure schedule</v8:content>
+					<v8:content>Set schedule</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастроитьРасписание</Action>

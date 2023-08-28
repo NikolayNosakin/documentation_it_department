@@ -52,8 +52,8 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>High-performance mode is disabled. Regular mode is used instead.
-See the access restriction mode in the "Users and rights settings" panel.</v8:content>
+							<v8:content>High-performance mode is disabled. Standard mode is used instead.
+See the access restriction mode in the "Users and rights settings" panel.</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="ПредупреждениеУниверсальноеОграничениеОтключеноНадписьКонтекстноеМеню" id="205"/>
@@ -100,7 +100,7 @@ See the access restriction mode in the "Users and rights settings" panel.</v8:c
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Regular access restriction mode is enabled until the first update is completed.
+							<v8:content>Standard access restriction mode is enabled until the first update is completed.
 See the "First access update completed" constant).
 </v8:content>
 						</v8:item>
@@ -1147,6 +1147,26 @@ automatically.</v8:content>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="РасчетПрогрессаПоКоличествуДанныхРасширеннаяПодсказка" id="283"/>
 					<ChildItems>
+						<SearchStringAddition name="СтрокаПоиск" id="339">
+							<AdditionSource>
+								<Item>Списки</Item>
+								<Type>SearchStringRepresentation</Type>
+							</AdditionSource>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Поиск</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Search</v8:content>
+								</v8:item>
+							</Title>
+							<Width>15</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="СтрокаПоискКонтекстноеМеню" id="340"/>
+							<ExtendedTooltip name="СтрокаПоискРасширеннаяПодсказка" id="341"/>
+						</SearchStringAddition>
 						<CheckBoxField name="РассчитыватьПоКоличествуДанных" id="93">
 							<DataPath>РассчитыватьПоКоличествуДанных</DataPath>
 							<Title>

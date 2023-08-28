@@ -147,6 +147,24 @@
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ДеревоОбъектовМетаданныхОбновитьExtendedTooltip" id="43"/>
 			</Button>
+			<SearchStringAddition name="СтрокаПоиска" id="132">
+				<AdditionSource>
+					<Item>ДеревоОбъектовМетаданных</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Поиск</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="133"/>
+				<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="134"/>
+			</SearchStringAddition>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -828,7 +846,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Configure schedule</v8:content>
+					<v8:content>Set schedule</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -838,7 +856,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Configure schedule</v8:content>
+					<v8:content>Set schedule</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастроитьРасписание</Action>
@@ -862,7 +880,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Keep versions for one week.</v8:content>
+					<v8:content>Keep versions for one week</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаПоследнююНеделю</Action>
@@ -886,7 +904,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Keep versions for one month.</v8:content>
+					<v8:content>Keep versions for one month</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаПоследнийМесяц</Action>
@@ -910,7 +928,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Keep versions for three month.</v8:content>
+					<v8:content>Keep versions for three months</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаПоследниеТриМесяца</Action>
@@ -934,7 +952,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Keep versions for six months.</v8:content>
+					<v8:content>Keep versions for six months</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаПоследниеШестьМесяцев</Action>
@@ -958,7 +976,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Keep versions for one year.</v8:content>
+					<v8:content>Keep versions for one year</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаПоследнийГод</Action>

@@ -639,7 +639,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Access kind Interactive add right</v8:content>
+					<v8:content>Access kind "Add interactively" right</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -726,7 +726,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>It is a settings owner</v8:content>
+					<v8:content>This is a settings owner</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -1004,7 +1004,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>It is a settings owner</v8:content>
+					<v8:content>This is a settings owner</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -1173,7 +1173,7 @@
 			</v8:item>
 			<v8:item>
 				<v8:lang>en</v8:lang>
-				<v8:content>User kind</v8:content>
+				<v8:content>User type</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -1212,6 +1212,22 @@
 				</v8:item>
 			</presentation>
 		</availableValue>
+	</parameter>
+	<parameter>
+		<name>НачальныйОтбор</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начальный отбор</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Initial filter</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
 	</parameter>
 	<template>
 		<name>Макет1</name>

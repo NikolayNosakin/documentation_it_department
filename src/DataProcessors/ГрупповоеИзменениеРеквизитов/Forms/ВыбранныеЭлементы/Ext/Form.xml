@@ -203,7 +203,10 @@
 					<Events>
 						<Event name="OnEditEnd">КомпоновщикНастроекНастройкиОтборПриОкончанииРедактирования</Event>
 						<Event name="BeforeAddRow">КомпоновщикНастроекНастройкиОтборПередНачаломДобавления</Event>
+						<Event name="OnActivateRow">КомпоновщикНастроекНастройкиОтборПриАктивизацииСтроки</Event>
+						<Event name="OnStartEdit">КомпоновщикНастроекНастройкиОтборПриНачалеРедактирования</Event>
 						<Event name="AfterDeleteRow">КомпоновщикНастроекНастройкиОтборПослеУдаления</Event>
+						<Event name="OnChange">КомпоновщикНастроекНастройкиОтборПриИзменении</Event>
 					</Events>
 				</Table>
 			</ChildItems>
@@ -228,7 +231,6 @@
 				<Table name="Список" id="74">
 					<Representation>List</Representation>
 					<CommandBarLocation>Bottom</CommandBarLocation>
-					<Header>false</Header>
 					<HorizontalLines>false</HorizontalLines>
 					<UseAlternationRowColor>true</UseAlternationRowColor>
 					<InitialTreeView>ExpandTopLevel</InitialTreeView>
@@ -254,7 +256,6 @@
 						<ExcludedCommand>ListSettings</ExcludedCommand>
 						<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
 						<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-						<ExcludedCommand>SearchHistory</ExcludedCommand>
 					</CommandSet>
 					<SearchStringLocation>Top</SearchStringLocation>
 					<SearchControlLocation>None</SearchControlLocation>
@@ -341,7 +342,6 @@
 					</SearchControlAddition>
 					<Events>
 						<Event name="Selection">СписокВыбор</Event>
-						<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
 					</Events>
 					<ChildItems>
 						<InputField name="СписокСсылка" id="87">
@@ -458,6 +458,21 @@
 					<v8:Digits>10</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВыполняетсяРедактированиеОтборов" id="9">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="КоличествоУсловий" id="10">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>

@@ -21,6 +21,24 @@
 				<CommandName>Form.Command.Выбрать</CommandName>
 				<ExtendedTooltip name="ВыбратьExtendedTooltip" id="7"/>
 			</Button>
+			<SearchStringAddition name="СтрокаПоиск" id="25">
+				<AdditionSource>
+					<Item>ГруппыДоступа</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Поиск</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="СтрокаПоискКонтекстноеМеню" id="26"/>
+				<ExtendedTooltip name="СтрокаПоискРасширеннаяПодсказка" id="27"/>
+			</SearchStringAddition>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>

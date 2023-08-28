@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ExchangePlanContent xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<Item>
+		<Metadata>InformationRegister.ИсторияРассылкиОтчетов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.СостоянияРассылокОтчетов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -22,6 +26,10 @@
 	</Item>
 	<Item>
 		<Metadata>Catalog.НаборыДополнительныхРеквизитовИСведений</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.АрхивСообщенийОбменов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -57,6 +65,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ОбъектыНезарегистрированныеПриЗацикливании</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Constant.НастройкаПроксиСервера</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -85,10 +97,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.ДомаЗданияСтроения</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.ОбновлениеКлючейДоступаКДанным</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -110,6 +118,10 @@
 	</Item>
 	<Item>
 		<Metadata>Constant.ИспользоватьСинхронизациюДанныхВЛокальномРежиме</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ИсторияАдминистративнойИерархии</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -149,6 +161,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.СнимкиОтчетов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.ПредопределенныеВариантыОтчетовРасширений</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -181,15 +197,15 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Constant.УдалитьЛогинДоступаКСервисуMorpher</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.СтатусыСинхронизацииФайловСОблачнымСервисом</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>Constant.ИспользоватьВерсионированиеОбъектов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.СеансыОбменовДанными</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -226,10 +242,6 @@
 	</Item>
 	<Item>
 		<Metadata>Constant.ЗагрузитьСообщениеОбменаДанными</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.ПользовательСтандартногоИнтерфейсаOData</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -285,6 +297,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.СертификатыПолучателейРассылкиОтчетов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.КлючиДоступаНаборовГруппДоступа</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -313,10 +329,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.СклоненияПредставленийОбъектов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.ПубличныеИдентификаторыСинхронизируемыхОбъектов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -337,6 +349,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.КонтурСинхронизации</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Constant.КоличествоПотоковОбновленияДоступа</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -354,6 +370,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.МуниципальнаяИерархия</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -406,6 +426,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.ЗначенияГруппДоступа</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ИсторияМуниципальнойИерархии</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -517,6 +541,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.АдминистративнаяИерархия</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.УдалитьНастройкиТранспортаОбмена</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -537,10 +565,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.АдресныеОбъекты</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Constant.НастройкаПодчиненногоУзлаРИБЗавершена</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -553,6 +577,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ЗемельныеУчастки</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.ИсторияАдресныхОбъектов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -562,10 +590,6 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.ПериодическиеСерверныеОповещения</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.СвязиАдресныхОбъектов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -609,6 +633,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.АдресныеОбъекты</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.ГруппыВнешнихПользователей</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -618,10 +646,6 @@
 	</Item>
 	<Item>
 		<Metadata>Constant.ХранитьФайлыВТомахНаДиске</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.ИспользоватьСервисСклоненияMorpher</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -661,10 +685,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.ЗемельныеУчастки</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.КлючиДоступаКОбъектам</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -681,11 +701,19 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.НастройкиАрхиваСообщенийОбменов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.МакетыПечатныхФорм</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -702,6 +730,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.КлючиДоступаГруппДоступа</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ДомаЗданияСтроения</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -726,10 +758,6 @@
 	</Item>
 	<Item>
 		<Metadata>Constant.ИсточникДанныхАдресногоКлассификатора</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.ОриентирыАдресныхОбъектов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

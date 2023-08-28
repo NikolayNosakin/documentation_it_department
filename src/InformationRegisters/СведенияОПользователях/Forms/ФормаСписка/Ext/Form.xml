@@ -43,6 +43,12 @@
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаВключитьВозможностьРедактированияExtendedTooltip" id="28"/>
 				</Button>
+				<Button name="ФормаОбновитьДанныеРегистра" id="53">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.ОбновитьДанныеРегистра</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ФормаОбновитьДанныеРегистраРасширеннаяПодсказка" id="54"/>
+				</Button>
 			</ChildItems>
 		</CommandBar>
 		<Table name="Список" id="3">
@@ -55,7 +61,11 @@
 			<EnableStartDrag>true</EnableStartDrag>
 			<FileDragMode>AsFile</FileDragMode>
 			<DataPath>Список</DataPath>
-			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<RowPictureDataPath>Список.НомерКартинки</RowPictureDataPath>
+			<RowsPicture>
+				<xr:Ref>CommonPicture.СостоянияПользователей</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</RowsPicture>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -117,6 +127,28 @@
 					<ContextMenu name="ПользовательКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="18"/>
 				</LabelField>
+				<InputField name="НомерКартинкиСостояния" id="55">
+					<DataPath>Список.НомерКартинкиСостояния</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер
+картинки
+состояния</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Status
+picture
+No.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="НомерКартинкиСостоянияКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="НомерКартинкиСостоянияРасширеннаяПодсказка" id="57"/>
+				</InputField>
 				<CheckBoxField name="ПотребоватьСменуПароляПриВходе" id="32">
 					<DataPath>Список.ПотребоватьСменуПароляПриВходе</DataPath>
 					<Title>
@@ -128,9 +160,9 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Require
-password change
-upon authorization</v8:content>
+							<v8:content>User must
+change password
+at next sign-in</v8:content>
 						</v8:item>
 					</Title>
 					<CheckBoxType>Auto</CheckBoxType>
@@ -148,9 +180,9 @@ upon authorization</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>
-Validity period
-is not limited</v8:content>
+							<v8:content>Access never
+expires
+</v8:content>
 						</v8:item>
 					</Title>
 					<CheckBoxType>Auto</CheckBoxType>
@@ -174,8 +206,8 @@ is not limited</v8:content>
 						<v8:item>
 							<v8:lang>en</v8:lang>
 							<v8:content>Inactivity period
-before denying
-authorization</v8:content>
+before sign-in
+is denied</v8:content>
 						</v8:item>
 					</Title>
 					<Width>15</Width>
@@ -193,7 +225,7 @@ authorization</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Authorization
+							<v8:content>Sign-in
 allowed on
 </v8:content>
 						</v8:item>
@@ -234,34 +266,14 @@ active on
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Authorization
-automatically
-denied on</v8:content>
+							<v8:content>Sign-in
+auto-denied on
+</v8:content>
 						</v8:item>
 					</Title>
 					<Width>14</Width>
 					<ContextMenu name="ДатаАвтоматическогоЗапрещенияВходаКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ДатаАвтоматическогоЗапрещенияВходаРасширеннаяПодсказка" id="24"/>
-				</LabelField>
-				<LabelField name="ДатаНачалаИспользованияПароля" id="29">
-					<DataPath>Список.ДатаНачалаИспользованияПароля</DataPath>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Дата начала
-использования
-пароля</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Password
-activated
-on</v8:content>
-						</v8:item>
-					</Title>
-					<Width>12</Width>
-					<ContextMenu name="ДатаНачалаИспользованияПароляКонтекстноеМеню" id="30"/>
-					<ExtendedTooltip name="ДатаНачалаИспользованияПароляРасширеннаяПодсказка" id="31"/>
 				</LabelField>
 				<InputField name="ПоследнийИспользуемыйКлиент" id="44">
 					<DataPath>Список.ПоследнийИспользуемыйКлиент</DataPath>
@@ -269,6 +281,25 @@ on</v8:content>
 					<ContextMenu name="ПоследнийИспользуемыйКлиентКонтекстноеМеню" id="45"/>
 					<ExtendedTooltip name="ПоследнийИспользуемыйКлиентРасширеннаяПодсказка" id="46"/>
 				</InputField>
+				<LabelField name="УдалитьДатаНачалаИспользованияПароля" id="58">
+					<DataPath>Список.УдалитьДатаНачалаИспользованияПароля</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>(не используется)
+Дата начала
+использования пароля</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>(not used)
+Password
+created on</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="УдалитьДатаНачалаИспользованияПароляКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="УдалитьДатаНачалаИспользованияПароляРасширеннаяПодсказка" id="60"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -279,8 +310,40 @@ on</v8:content>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<Settings xsi:type="DynamicList">
-				<ManualQuery>false</ManualQuery>
+				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	Сведения.НомерКартинкиСостояния - 1 КАК НомерКартинки,
+	Сведения.Пользователь КАК Пользователь,
+	Сведения.ПотребоватьСменуПароляПриВходе КАК ПотребоватьСменуПароляПриВходе,
+	Сведения.СрокДействияНеОграничен КАК СрокДействияНеОграничен,
+	Сведения.СрокДействия КАК СрокДействия,
+	Сведения.ПросрочкаРаботыВПрограммеДоЗапрещенияВхода КАК ПросрочкаРаботыВПрограммеДоЗапрещенияВхода,
+	Сведения.ДатаРазрешенияВходаВПрограмму КАК ДатаРазрешенияВходаВПрограмму,
+	Сведения.ДатаПоследнейАктивности КАК ДатаПоследнейАктивности,
+	Сведения.ДатаАвтоматическогоЗапрещенияВхода КАК ДатаАвтоматическогоЗапрещенияВхода,
+	Сведения.УдалитьДатаНачалаИспользованияПароля КАК УдалитьДатаНачалаИспользованияПароля,
+	Сведения.ПоследнийИспользуемыйКлиент КАК ПоследнийИспользуемыйКлиент,
+	Сведения.НомерКартинкиСостояния КАК НомерКартинкиСостояния,
+	Сведения.ВходВПрограммуРазрешен КАК ВходВПрограммуРазрешен,
+	Сведения.ВходВПрограммуОграничен КАК ВходВПрограммуОграничен,
+	Сведения.НетПрав КАК НетПрав,
+	Сведения.НедостаточноПравДляВхода КАК НедостаточноПравДляВхода,
+	Сведения.Имя КАК Имя,
+	Сведения.АдресЭлектроннойПочты КАК АдресЭлектроннойПочты,
+	Сведения.АутентификацияСтандартная КАК АутентификацияСтандартная,
+	Сведения.ЗапрещеноИзменятьПароль КАК ЗапрещеноИзменятьПароль,
+	Сведения.ЗапрещеноВосстанавливатьПароль КАК ЗапрещеноВосстанавливатьПароль,
+	Сведения.ПоказыватьВСпискеВыбора КАК ПоказыватьВСпискеВыбора,
+	Сведения.АутентификацияOpenID КАК АутентификацияOpenID,
+	Сведения.АутентификацияOpenIDConnect КАК АутентификацияOpenIDConnect,
+	Сведения.АутентификацияТокеномДоступа КАК АутентификацияТокеномДоступа,
+	Сведения.АутентификацияОС КАК АутентификацияОС,
+	Сведения.ПользовательОС КАК ПользовательОС,
+	Сведения.Язык КАК Язык,
+	Сведения.ЗащитаОтОпасныхДействий КАК ЗащитаОтОпасныхДействий
+ИЗ
+	РегистрСведений.СведенияОПользователях КАК Сведения</QueryText>
 				<MainTable>InformationRegister.СведенияОПользователях</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -325,6 +388,29 @@ on</v8:content>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОбновитьДанныеРегистра" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить данные регистра</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update register data</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить данные регистра</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update register data</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьДанныеРегистра</Action>
 		</Command>
 	</Commands>
 </Form>

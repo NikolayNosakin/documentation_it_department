@@ -83,6 +83,24 @@
 					</Title>
 					<ExtendedTooltip name="ФормаИзменитьРасширеннаяПодсказка" id="77"/>
 				</Button>
+				<SearchStringAddition name="СтрокаПоиска" id="124">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поиск</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Search</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="125"/>
+					<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="126"/>
+				</SearchStringAddition>
 			</ChildItems>
 		</CommandBar>
 		<LabelField name="СообщениеЗаголовок" id="64">
@@ -715,11 +733,11 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сохранить файл на диск или другое устройство</v8:content>
+					<v8:content>Сохранить файл на компьютер или другое устройство</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Save the file to a hard drive or another device.</v8:content>
+					<v8:content>Save the file to a computer or another device</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -734,21 +752,21 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить из файла на диске...</v8:content>
+					<v8:content>Обновить из файла на компьютере...</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Update from file on hard drive…</v8:content>
+					<v8:content>Update from local file...</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить из файла на диске</v8:content>
+					<v8:content>Обновить из файла на компьютере</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Update from a file on a hard drive.</v8:content>
+					<v8:content>Update from a file on a computer</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОбновитьИзФайлаНаДиске</Action>

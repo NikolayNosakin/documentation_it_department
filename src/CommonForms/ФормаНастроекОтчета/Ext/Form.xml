@@ -4,13 +4,6 @@
 	<AutoTitle>false</AutoTitle>
 	<AutoURL>false</AutoURL>
 	<CommandBarLocation>Bottom</CommandBarLocation>
-	<MobileDeviceCommandBarContent>
-		<xr:Item>
-			<xr:Presentation/>
-			<xr:CheckState>0</xr:CheckState>
-			<xr:Value xsi:type="xs:string"/>
-		</xr:Item>
-	</MobileDeviceCommandBarContent>
 	<ReportFormType>Settings</ReportFormType>
 	<AutoShowState>Auto</AutoShowState>
 	<ReportResultViewMode>Auto</ReportResultViewMode>
@@ -150,6 +143,24 @@
 										</Button>
 									</ChildItems>
 								</ButtonGroup>
+								<SearchStringAddition name="СтрокаПоиска_СоставГруппировки" id="1431">
+									<AdditionSource>
+										<Item>СоставГруппировки</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Поиск</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Search</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СтрокаПоиска_СоставГруппировкиКонтекстноеМеню" id="1432"/>
+									<ExtendedTooltip name="СтрокаПоиска_СоставГруппировкиРасширеннаяПодсказка" id="1433"/>
+								</SearchStringAddition>
 							</ChildItems>
 						</CommandBar>
 						<Table name="СоставГруппировки" id="624">
@@ -665,6 +676,39 @@
 												<CommandName>Form.Command.Отборы_Разгруппировать</CommandName>
 												<ExtendedTooltip name="Отборы_Разгруппировать1РасширеннаяПодсказка" id="414"/>
 											</Button>
+											<Popup name="Отборы_ТипГруппы1" id="1423">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Тип группы</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Group type</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="Отборы_ТипГруппы1РасширеннаяПодсказка" id="1424"/>
+												<ChildItems>
+													<Button name="ОтборыВыбранныеПоля_ГруппаИ1" id="1425">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ВыбранныеПоля_ГруппаИ</CommandName>
+														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="ОтборыВыбранныеПоля_ГруппаИ1РасширеннаяПодсказка" id="1426"/>
+													</Button>
+													<Button name="ОтборыВыбранныеПоля_ГруппаИли1" id="1427">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ВыбранныеПоля_ГруппаИли</CommandName>
+														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="ОтборыВыбранныеПоля_ГруппаИли1РасширеннаяПодсказка" id="1428"/>
+													</Button>
+													<Button name="ОтборыВыбранныеПоля_ГруппаНе1" id="1429">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ВыбранныеПоля_ГруппаНе</CommandName>
+														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="ОтборыВыбранныеПоля_ГруппаНе1РасширеннаяПодсказка" id="1430"/>
+													</Button>
+												</ChildItems>
+											</Popup>
 										</ChildItems>
 									</ButtonGroup>
 									<ButtonGroup name="КомандыОтборов_Флажки1" id="1065">
@@ -841,6 +885,39 @@
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="Отборы_РазгруппироватьРасширеннаяПодсказка" id="341"/>
 											</Button>
+											<Popup name="Отборы_ТипГруппы" id="1415">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Тип группы</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Group type</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="Отборы_ТипГруппыРасширеннаяПодсказка" id="1416"/>
+												<ChildItems>
+													<Button name="ОтборыВыбранныеПоля_ГруппаИ" id="1417">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ВыбранныеПоля_ГруппаИ</CommandName>
+														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="ОтборыВыбранныеПоля_ГруппаИРасширеннаяПодсказка" id="1418"/>
+													</Button>
+													<Button name="ОтборыВыбранныеПоля_ГруппаИли" id="1419">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ВыбранныеПоля_ГруппаИли</CommandName>
+														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="ОтборыВыбранныеПоля_ГруппаИлиРасширеннаяПодсказка" id="1420"/>
+													</Button>
+													<Button name="ОтборыВыбранныеПоля_ГруппаНе" id="1421">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ВыбранныеПоля_ГруппаНе</CommandName>
+														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="ОтборыВыбранныеПоля_ГруппаНеРасширеннаяПодсказка" id="1422"/>
+													</Button>
+												</ChildItems>
+											</Popup>
 										</ChildItems>
 									</ButtonGroup>
 									<ButtonGroup name="КомандыОтборов_Флажки" id="1059">
@@ -909,6 +986,24 @@
 											</Button>
 										</ChildItems>
 									</Popup>
+									<SearchStringAddition name="СтрокаПоиска_Отборы" id="1434">
+										<AdditionSource>
+											<Item>Отборы</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Поиск</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Search</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="СтрокаПоиска_ОтборыКонтекстноеМеню" id="1435"/>
+										<ExtendedTooltip name="СтрокаПоиска_ОтборыРасширеннаяПодсказка" id="1436"/>
+									</SearchStringAddition>
 									<ButtonGroup name="КомандыОтборов_Общее" id="1389">
 										<Title>
 											<v8:item>
@@ -958,10 +1053,14 @@
 								<ExtendedTooltip name="ОтборыУправлениеПоискомРасширеннаяПодсказка" id="360"/>
 							</SearchControlAddition>
 							<Events>
+								<Event name="DragCheck">ОтборыПроверкаПеретаскивания</Event>
 								<Event name="Selection">ОтборыВыбор</Event>
 								<Event name="BeforeAddRow">ОтборыПередНачаломДобавления</Event>
 								<Event name="BeforeDeleteRow">ОтборыПередУдалением</Event>
 								<Event name="OnActivateRow">ОтборыПриАктивизацииСтроки</Event>
+								<Event name="DragStart">ОтборыНачалоПеретаскивания</Event>
+								<Event name="Drag">ОтборыПеретаскивание</Event>
+								<Event name="DragEnd">ОтборыОкончаниеПеретаскивания</Event>
 								<Event name="OnActivateCell">ОтборыПриАктивизацииЯчейки</Event>
 							</Events>
 							<ChildItems>
@@ -1142,11 +1241,11 @@
 									<Title formatted="true">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;В отчете установлены фильтры для группировок, которые можно настроить на странице &lt;/&gt;&lt;/&gt;&lt;b&gt;&lt;color #9d5600&gt;Структура&lt;/&gt;&lt;/&gt;&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;.&lt;/&gt;&lt;/&gt;</v8:content>
+											<v8:content>&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;На странице &lt;/&gt;&lt;/&gt;&lt;b&gt;&lt;color #9d5600&gt;Структура&lt;/&gt;&lt;/&gt;&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt; для группировок отчета установлены фильтры, которые имеют больший приоритет.&lt;/&gt;&lt;/&gt;</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;The report has assigned grouping filters that can be set up on the &lt;/&gt;&lt;/&gt;&lt;b&gt;&lt;color #9d5600&gt;Structure&lt;/&gt;&lt;/&gt;&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt; page.&lt;/&gt;&lt;/&gt;</v8:content>
+											<v8:content>&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;Filters set for report groupings on tab &lt;/&gt;&lt;/&gt;&lt;b&gt;&lt;color #9d5600&gt;Structure&lt;/&gt;&lt;/&gt;&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt; have a higher priority.&lt;/&gt;&lt;/&gt;</v8:content>
 										</v8:item>
 									</Title>
 									<BackColor>style:ЦветФонаВнимание</BackColor>
@@ -1493,6 +1592,24 @@
 													</Button>
 												</ChildItems>
 											</ButtonGroup>
+											<SearchStringAddition name="СтрокаПоиска_ВыбранныеПоля" id="1437">
+												<AdditionSource>
+													<Item>ВыбранныеПоля</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Поиск</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Search</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="СтрокаПоиска_ВыбранныеПоляКонтекстноеМеню" id="1438"/>
+												<ExtendedTooltip name="СтрокаПоиска_ВыбранныеПоляРасширеннаяПодсказка" id="1439"/>
+											</SearchStringAddition>
 											<Button name="ВыбранныеПоляПерейтиКНастройкамДляТехническогоСпециалиста" id="1391">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ПерейтиКНастройкамДляТехническогоСпециалиста</CommandName>
@@ -1895,6 +2012,24 @@
 															</Button>
 														</ChildItems>
 													</ButtonGroup>
+													<SearchStringAddition name="СтрокаПоиска_Сортировка" id="1446">
+														<AdditionSource>
+															<Item>Сортировка</Item>
+															<Type>SearchStringRepresentation</Type>
+														</AdditionSource>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Поиск</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Search</v8:content>
+															</v8:item>
+														</Title>
+														<ContextMenu name="СтрокаПоиска_СортировкаКонтекстноеМеню" id="1447"/>
+														<ExtendedTooltip name="СтрокаПоиска_СортировкаРасширеннаяПодсказка" id="1448"/>
+													</SearchStringAddition>
 												</ChildItems>
 											</AutoCommandBar>
 											<ExtendedTooltip name="СортировкаРасширеннаяПодсказка" id="133"/>
@@ -2023,11 +2158,11 @@
 									<Title formatted="true">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;В отчете выбраны поля и сортировки для группировок, которые можно настроить на странице &lt;/&gt;&lt;/&gt;&lt;b&gt;&lt;color #9d5600&gt;Структура&lt;/&gt;&lt;/&gt;&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;.&lt;/&gt;&lt;/&gt;</v8:content>
+											<v8:content>&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;На странице &lt;/&gt;&lt;/&gt;&lt;b&gt;&lt;color #9d5600&gt;Структура&lt;/&gt;&lt;/&gt;&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt; для группировок отчета выбраны поля и сортировки, которые имеют больший приоритет.&lt;/&gt;&lt;/&gt;</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;The report has selected fields and sorts for groupings that can be set up on the &lt;/&gt;&lt;/&gt;&lt;b&gt;&lt;color #9d5600&gt;Structure&lt;/&gt;&lt;/&gt;&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt; page.&lt;/&gt;&lt;/&gt;</v8:content>
+											<v8:content>&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;Fields and sorts set for report groupings on tab &lt;/&gt;&lt;/&gt;&lt;b&gt;&lt;color #9d5600&gt;Structure&lt;/&gt;&lt;/&gt;&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt; have a higher priority.&lt;/&gt;&lt;/&gt;</v8:content>
 										</v8:item>
 									</Title>
 									<BackColor>style:ЦветФонаВнимание</BackColor>
@@ -2200,6 +2335,24 @@
 										<CommandName>Form.Command.НастроитьКолонтитулы</CommandName>
 										<ExtendedTooltip name="ОформлениеНастроитьКолонтитулыРасширеннаяПодсказка" id="1127"/>
 									</Button>
+									<SearchStringAddition name="СтрокаПоиска_Оформление" id="1440">
+										<AdditionSource>
+											<Item>Оформление</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Поиск</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Search</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="СтрокаПоиска_ОформлениеКонтекстноеМеню" id="1441"/>
+										<ExtendedTooltip name="СтрокаПоиска_ОформлениеРасширеннаяПодсказка" id="1442"/>
+									</SearchStringAddition>
 									<ButtonGroup name="КомандыОформления_Общее" id="1401">
 										<Title>
 											<v8:item>
@@ -2358,11 +2511,11 @@
 									<Title formatted="true">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;В отчете установлено оформление для группировок, которое можно настроить на странице &lt;/&gt;&lt;/&gt;&lt;b&gt;&lt;color #9d5600&gt;Структура&lt;/&gt;&lt;/&gt;&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;.&lt;/&gt;&lt;/&gt;</v8:content>
+											<v8:content>&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;На странице &lt;/&gt;&lt;/&gt;&lt;b&gt;&lt;color #9d5600&gt;Структура&lt;/&gt;&lt;/&gt;&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt; для группировок отчета задано оформление, которое имеет больший приоритет.&lt;/&gt;&lt;/&gt;</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;The report has assigned grouping appearance that can be set up on the &lt;/&gt;&lt;/&gt;&lt;b&gt;&lt;color #9d5600&gt;Structure&lt;/&gt;&lt;/&gt;&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt; page.&lt;/&gt;&lt;/&gt;</v8:content>
+											<v8:content>&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt;The appearance set for report groupings on tab&lt;/&gt;&lt;/&gt;&lt;b&gt;&lt;color #9d5600&gt;Structure&lt;/&gt;&lt;/&gt;&lt;bgcolor #ffec9d&gt;&lt;color #9d5600&gt; has a higher priority.&lt;/&gt;&lt;/&gt;</v8:content>
 										</v8:item>
 									</Title>
 									<BackColor>style:ЦветФонаВнимание</BackColor>
@@ -2812,6 +2965,24 @@
 										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="СтруктураВариантаСтруктураВарианта_СохранитьВФайлРасширеннаяПодсказка" id="1085"/>
 									</Button>
+									<SearchStringAddition name="СтрокаПоиска_СтруктураВарианта" id="1443">
+										<AdditionSource>
+											<Item>СтруктураВарианта</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Поиск</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Search</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="СтрокаПоиска_СтруктураВариантаКонтекстноеМеню" id="1444"/>
+										<ExtendedTooltip name="СтрокаПоиска_СтруктураВариантаРасширеннаяПодсказка" id="1445"/>
+									</SearchStringAddition>
 									<ButtonGroup name="КомандыСтруктурыВарианта_Общее" id="1395">
 										<Title>
 											<v8:item>
@@ -3318,6 +3489,16 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 							<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="7"/>
 						</Button>
 						<ButtonGroup name="ГруппаНастройка" id="1413">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Settings</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ГруппаНастройкаРасширеннаяПодсказка" id="1414"/>
 							<ChildItems>
 								<Button name="ИзменитьУсловияОтборов" id="1000">
@@ -6520,7 +6701,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Check boxes in report header</v8:content>
+					<v8:content>Only check box in report header</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -6548,7 +6729,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Check boxes in report settings</v8:content>
+					<v8:content>Only check box in report settings</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -6684,10 +6865,6 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 					<v8:content>Select period</v8:content>
 				</v8:item>
 			</Title>
-			<Picture>
-				<xr:Ref>0</xr:Ref>
-				<xr:LoadTransparent>false</xr:LoadTransparent>
-			</Picture>
 			<Action>Подключаемый_ВыбратьПериод</Action>
 			<Representation>Picture</Representation>
 		</Command>
@@ -6699,7 +6876,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Select</v8:content>
+					<v8:content>Pick</v8:content>
 				</v8:item>
 			</Title>
 			<Action>Подключаемый_Список_Подбор</Action>
@@ -6713,7 +6890,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Paste the clipboard…</v8:content>
+					<v8:content>Paste from clipboard…</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -6731,7 +6908,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Select</v8:content>
+					<v8:content>Pick</v8:content>
 				</v8:item>
 			</Title>
 			<Action>Подключаемый_Список_Подбор</Action>
@@ -6745,7 +6922,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Select</v8:content>
+					<v8:content>Pick</v8:content>
 				</v8:item>
 			</Title>
 			<Action>Подключаемый_Список_Подбор</Action>
@@ -6759,7 +6936,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Select</v8:content>
+					<v8:content>Pick</v8:content>
 				</v8:item>
 			</Title>
 			<Action>Подключаемый_Список_Подбор</Action>
@@ -6773,7 +6950,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Paste the clipboard…</v8:content>
+					<v8:content>Paste from clipboard…</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -6791,7 +6968,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Paste the clipboard…</v8:content>
+					<v8:content>Paste from clipboard…</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -6809,7 +6986,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Paste the clipboard…</v8:content>
+					<v8:content>Paste from clipboard…</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -6830,10 +7007,6 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 					<v8:content>Select period</v8:content>
 				</v8:item>
 			</Title>
-			<Picture>
-				<xr:Ref>0</xr:Ref>
-				<xr:LoadTransparent>false</xr:LoadTransparent>
-			</Picture>
 			<Action>Подключаемый_ВыбратьПериод</Action>
 			<Representation>Picture</Representation>
 		</Command>
@@ -7038,6 +7211,46 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 			</Picture>
 			<Action>ИзменитьФормулу</Action>
 			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ВыбранныеПоля_ГруппаНе" id="67">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа Не</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group Not</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ВыбранныеПоля_ГруппаНе</Action>
+		</Command>
+		<Command name="ВыбранныеПоля_ГруппаИ" id="68">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа И</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group And</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ВыбранныеПоля_ГруппаИ</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ВыбранныеПоля_ГруппаИли" id="70">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа Или</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group Or</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ВыбранныеПоля_ГруппаИли</Action>
 		</Command>
 	</Commands>
 	<Parameters>

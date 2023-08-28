@@ -57,6 +57,24 @@
 						<BorderColor>style:BorderColor</BorderColor>
 						<ExtendedTooltip name="СнятьВсеExtendedTooltip" id="15"/>
 					</Button>
+					<SearchStringAddition name="СтрокаПоиск" id="32">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Поиск</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Search</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="СтрокаПоискКонтекстноеМеню" id="33"/>
+						<ExtendedTooltip name="СтрокаПоискРасширеннаяПодсказка" id="34"/>
+					</SearchStringAddition>
 				</ChildItems>
 			</AutoCommandBar>
 			<ExtendedTooltip name="СписокExtendedTooltip" id="16"/>

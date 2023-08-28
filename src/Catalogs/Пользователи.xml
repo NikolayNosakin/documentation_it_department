@@ -673,7 +673,7 @@ Invalid users are hidden from the user lists.
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Is internal</v8:content>
+							<v8:content>Utility user</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -690,7 +690,7 @@ Invalid users are hidden from the user lists.
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>A shared or separated internal user with the rights specified explicitly using 1C:Enterprise script.</v8:content>
+							<v8:content>A shared or separated user with the rights specified explicitly and programmatically.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -877,15 +877,15 @@ Invalid users are hidden from the user lists.
 			</Attribute>
 			<Attribute uuid="d854b528-8456-4453-9c2d-4f96caf10481">
 				<Properties>
-					<Name>СвойстваПользователяИБ</Name>
+					<Name>УдалитьСвойстваПользователяИБ</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Свойства пользователя ИБ</v8:content>
+							<v8:content>(не используется) Свойства пользователя ИБ</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Infobase user properties</v8:content>
+							<v8:content>(not used) Infobase user properties</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1065,7 +1065,7 @@ Invalid users are hidden from the user lists.
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>An additional attribute.</v8:content>
+									<v8:content>Additional attribute</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1343,7 +1343,7 @@ Invalid users are hidden from the user lists.
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Contact information type</v8:content>
+									<v8:content>Contact information kind</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -1879,7 +1879,7 @@ Invalid users are hidden from the user lists.
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>The contact information type to display in the list.</v8:content>
+									<v8:content>The contact information kind to display in the list.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>

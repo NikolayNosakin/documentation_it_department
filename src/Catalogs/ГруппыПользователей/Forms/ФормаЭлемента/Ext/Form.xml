@@ -123,12 +123,6 @@
 										<CommandName>Form.Item.Состав.StandardCommand.Change</CommandName>
 										<ExtendedTooltip name="СоставКонтекстноеМенюИзменитьРасширеннаяПодсказка" id="105"/>
 									</Button>
-									<Button name="СоставКонтекстноеМенюСкопировать" id="50">
-										<Type>CommandBarButton</Type>
-										<SkipOnInput>false</SkipOnInput>
-										<CommandName>10:0ae4bea5-23be-42a7-b69e-97b11b29c453</CommandName>
-										<ExtendedTooltip name="СоставКонтекстноеМенюСкопироватьРасширеннаяПодсказка" id="58"/>
-									</Button>
 									<Button name="СоставКонтекстноеМенюУдалить" id="46">
 										<Type>CommandBarButton</Type>
 										<SkipOnInput>false</SkipOnInput>
@@ -182,12 +176,6 @@
 										<CommandName>Form.Item.Состав.StandardCommand.Change</CommandName>
 										<ExtendedTooltip name="СоставИзменитьРасширеннаяПодсказка" id="107"/>
 									</Button>
-									<Button name="СоставСкопировать" id="49">
-										<Type>CommandBarButton</Type>
-										<SkipOnInput>false</SkipOnInput>
-										<CommandName>10:0ae4bea5-23be-42a7-b69e-97b11b29c453</CommandName>
-										<ExtendedTooltip name="СоставСкопироватьExtendedTooltip" id="62"/>
-									</Button>
 									<Button name="СоставУдалить" id="33">
 										<Type>CommandBarButton</Type>
 										<SkipOnInput>false</SkipOnInput>
@@ -207,16 +195,32 @@
 										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="СоставПереместитьВнизРасширеннаяПодсказка" id="99"/>
 									</Button>
-									<Button name="СоставСортироватьПоВозрастанию" id="84">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.СортироватьПоВозрастанию</CommandName>
-										<ExtendedTooltip name="СоставСортироватьПоВозрастаниюРасширеннаяПодсказка" id="85"/>
-									</Button>
-									<Button name="СоставСортироватьПоУбыванию" id="86">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.СортироватьПоУбыванию</CommandName>
-										<ExtendedTooltip name="СоставСортироватьПоУбываниюРасширеннаяПодсказка" id="87"/>
-									</Button>
+									<ButtonGroup name="СоставГруппаКомандСортировать" id="119">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Состав группа команд сортировать</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Content command group sort</v8:content>
+											</v8:item>
+										</Title>
+										<Representation>Compact</Representation>
+										<ExtendedTooltip name="СоставГруппаКомандСортироватьРасширеннаяПодсказка" id="120"/>
+										<ChildItems>
+											<Button name="СоставСортироватьПоВозрастанию" id="84">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.СортироватьПоВозрастанию</CommandName>
+												<ExtendedTooltip name="СоставСортироватьПоВозрастаниюРасширеннаяПодсказка" id="85"/>
+											</Button>
+											<Button name="СоставСортироватьПоУбыванию" id="86">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.СортироватьПоУбыванию</CommandName>
+												<ExtendedTooltip name="СоставСортироватьПоУбываниюРасширеннаяПодсказка" id="87"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
 									<Button name="ПоказыватьНедействительныхПользователей" id="51">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ПоказыватьНедействительныхПользователей</CommandName>
@@ -237,6 +241,24 @@
 										<CommandSource>Item.Состав</CommandSource>
 										<ExtendedTooltip name="СоставСтандартныеКомандыРасширеннаяПодсказка" id="77"/>
 									</ButtonGroup>
+									<SearchStringAddition name="СоставСтрокаПоиск" id="121">
+										<AdditionSource>
+											<Item>Состав</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Поиск</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Search</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="СоставСтрокаПоискКонтекстноеМеню" id="122"/>
+										<ExtendedTooltip name="СоставСтрокаПоискРасширеннаяПодсказка" id="123"/>
+									</SearchStringAddition>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="СоставExtendedTooltip" id="68"/>
@@ -352,7 +374,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Select</v8:content>
+					<v8:content>Pick</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -362,7 +384,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Select users</v8:content>
+					<v8:content>Pick users</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПодобратьПользователей</Action>

@@ -266,7 +266,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="f2d5f3d7-6f46-421b-8c7b-e9c78953d102">
+			<Attribute uuid="ecb2048d-4c1d-4194-a728-604734683b3b">
 				<Properties>
 					<Name>НомерОтправленного</Name>
 					<Synonym>
@@ -276,7 +276,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Number of sent message</v8:content>
+							<v8:content>Sent message number</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -309,7 +309,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="d3799dbd-2548-4dac-b63b-524415f162cc">
+			<Attribute uuid="b33e046c-b580-4c90-940d-71f38d9ceff2">
 				<Properties>
 					<Name>НомерПринятого</Name>
 					<Synonym>
@@ -319,7 +319,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Number of received message</v8:content>
+							<v8:content>Received message number</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -383,7 +383,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>The directory of a file infobase.</v8:content>
+							<v8:content>Applicable for file mode</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1030,7 +1030,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Path to directory</v8:content>
+							<v8:content>Directory path</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -2373,7 +2373,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>It is distributed infobase setup</v8:content>
+							<v8:content>This is distributed infobase setup</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -2411,7 +2411,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>It is standard data exchange setup</v8:content>
+							<v8:content>This is standard data exchange setup</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -2683,6 +2683,42 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="24ce9257-6dcf-4ba6-839e-1e635c069e75">
+				<Properties>
+					<Name>КонтурСинхронизации</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контур синхронизации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Synchronization circuit</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type/>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="43882a2c-b625-4cfb-8220-3d12bfee09e4">
 				<Properties>
 					<Name>ВерсияФорматаОбмена</Name>
@@ -2768,6 +2804,7 @@
 			<Form>ЗагрузкаНастроекXDTO</Form>
 			<Form>НовыйКодПредопределенногоУзла</Form>
 			<Form>ИзменениеПрефиксаУзлаИБ</Form>
+			<Form>ПереходНаИнтернетСоединение</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

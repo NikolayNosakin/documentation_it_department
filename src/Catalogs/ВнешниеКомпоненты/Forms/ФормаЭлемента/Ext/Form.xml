@@ -174,7 +174,18 @@
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<HorizontalStretch>true</HorizontalStretch>
 							<ContextMenu name="ИдентификаторКонтекстноеМеню" id="11"/>
-							<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="12"/>
+							<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="12">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Чтобы узнать внутренний идентификатор объекта и версию внешней компоненты, обратитесь к разработчику.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>To find out an internal object ID and an add-in version, contact the developer.</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
 						</InputField>
 						<InputField name="Версия" id="7">
 							<DataPath>Объект.Версия</DataPath>
@@ -223,11 +234,11 @@
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Имя внешней компоненты для отображения пользователям.</v8:content>
+										<v8:content>Имя внешней компоненты для отображения в списке.</v8:content>
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Add-in name to display to users.</v8:content>
+										<v8:content>Add-in name to show in the list.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -367,11 +378,11 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить из файла на диске...</v8:content>
+					<v8:content>Обновить из файла на компьютере...</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Update from file on disk…</v8:content>
+					<v8:content>Update from local file...</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -441,6 +452,10 @@
 			<KeyParameter>true</KeyParameter>
 		</Parameter>
 		<Parameter name="ПараметрыПоискаДополнительнойИнформации">
+			<Type/>
+			<KeyParameter>true</KeyParameter>
+		</Parameter>
+		<Parameter name="ПомещенныйФайл">
 			<Type/>
 			<KeyParameter>true</KeyParameter>
 		</Parameter>

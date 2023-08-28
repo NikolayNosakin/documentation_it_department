@@ -153,6 +153,24 @@
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
+				<InputField name="СписокСсылка" id="38">
+					<DataPath>Список.Ссылка</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reference</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СписокСсылкаКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="СписокСсылкаРасширеннаяПодсказка" id="40"/>
+				</InputField>
 			</ChildItems>
 		</Table>
 	</ChildItems>

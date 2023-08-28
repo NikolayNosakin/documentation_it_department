@@ -57,7 +57,7 @@
 				</v8:item>
 			</Title>
 			<Behavior>Usual</Behavior>
-			<Representation>None</Representation>
+			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ВерхняяГруппаExtendedTooltip" id="33"/>
 			<ChildItems>
@@ -101,13 +101,13 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="МассивСоотношенияЭлементовИПараметров" id="1">
+		<Attribute name="ЭлементыИПараметры" id="1">
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
 			<Settings xsi:type="v8:TypeDescription"/>
 		</Attribute>
-		<Attribute name="МассивЗадачНаВыполнениеПослеЗакрытия" id="2">
+		<Attribute name="ЗадачиНаВыполнениеПослеЗакрытия" id="2">
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
@@ -164,4 +164,9 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
+	<Parameters>
+		<Parameter name="Предупреждения">
+			<Type/>
+		</Parameter>
+	</Parameters>
 </Form>

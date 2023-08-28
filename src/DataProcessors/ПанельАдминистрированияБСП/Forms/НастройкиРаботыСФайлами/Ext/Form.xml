@@ -75,6 +75,50 @@
 				</CommandBar>
 			</ChildItems>
 		</UsualGroup>
+		<UsualGroup name="ГруппаОбщие" id="2196">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общие</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Common</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>false</HorizontalStretch>
+			<Behavior>Usual</Behavior>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОбщиеРасширеннаяПодсказка" id="2197"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаФайлы" id="2208">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Файлы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Files</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаФайлыРасширеннаяПодсказка" id="2209"/>
+					<ChildItems>
+						<Button name="СправочникФайлы" id="2212">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.СправочникФайлы</CommandName>
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<ExtendedTooltip name="СправочникФайлыРасширеннаяПодсказка" id="2213"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="УправлениеХранениемФайлов" id="2146">
 			<Title>
 				<v8:item>
@@ -700,7 +744,7 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537/&gt;Example of a virus in
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Configure file cleanup</v8:content>
+							<v8:content>File cleanup settings</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -758,6 +802,7 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537/&gt;Example of a virus in
 			<ExtendedTooltip name="ГруппаСписокРасширенийФайловРасширеннаяПодсказка" id="2130"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаСписокРасширенийФайловOpenDocumentОбластиДанных" id="1415">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1166,7 +1211,7 @@ The application will try to autodetect encoding for such files.</v8:content>
 												<Event name="OnChange">СписокЗапрещенныхРасширенийПриИзменении</Event>
 											</Events>
 										</InputField>
-										<LabelDecoration name="ПояснениеЗапретЗагрузкиФайловПоРасширению2" id="2026">
+										<LabelDecoration name="ПояснениеЗапретЗагрузкиФайловПоРасширению" id="2026">
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<TextColor>style:ПоясняющийТекст</TextColor>
 											<Title formatted="false">
@@ -1181,12 +1226,13 @@ The application will try to autodetect encoding for such files.</v8:content>
 Users will not be able to import these files into the application.</v8:content>
 												</v8:item>
 											</Title>
-											<ContextMenu name="ПояснениеЗапретЗагрузкиФайловПоРасширению2КонтекстноеМеню" id="2027"/>
-											<ExtendedTooltip name="ПояснениеЗапретЗагрузкиФайловПоРасширению2ExtendedTooltip" id="2092"/>
+											<ContextMenu name="ПояснениеЗапретЗагрузкиФайловПоРасширениюКонтекстноеМеню" id="2027"/>
+											<ExtendedTooltip name="ПояснениеЗапретЗагрузкиФайловПоРасширениюРасширеннаяПодсказка" id="2092"/>
 										</LabelDecoration>
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="ГруппаСписокРасширенийФайловOpenDocument" id="2029">
+									<Visible>false</Visible>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -1328,7 +1374,7 @@ You will be able to search for text within such files.</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Is extension blacklist enabled</v8:content>
+					<v8:content>Deny uploading files by extension</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1445,6 +1491,29 @@ You will be able to search for text within such files.</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ПереносФайлов</Action>
+		</Command>
+		<Command name="СправочникФайлы" id="38">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Файлы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Files</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задать структуру папок файлов и права доступа к ним, разместить шаблоны файлов.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Set a structure for file folders and access rights to them, place file templates.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СправочникФайлы</Action>
 		</Command>
 	</Commands>
 </Form>

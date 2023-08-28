@@ -224,6 +224,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ДополнительныеАдресныеСведения.Attribute.КодУчасткаИФНСЮЛ</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.док_БД.Attribute.ОпубликованаНаWebСервере</name>
 		<right>
 			<name>View</name>
@@ -1115,17 +1126,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ЗемельныеУчастки.Dimension.АдресныйОбъект</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ВариантыОтчетов.Attribute.ВидимостьПоУмолчаниюПереопределена</name>
 		<right>
 			<name>View</name>
@@ -1478,17 +1478,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ДополнительныеАдресныеСведения.Attribute.КодУчасткаИФНСФЛ</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.КонвертацияОбъектовИнформационныхБаз.Attribute.ВыводВОкноСообщенийИнформационныхСообщений</name>
 		<right>
 			<name>View</name>
@@ -1522,7 +1511,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СведенияОПользователях.Resource.ИспользованныеПароли</name>
+		<name>InformationRegister.СведенияОПользователях.Resource.УдалитьИспользованныеПароли</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1995,17 +1984,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.АдресныеОбъекты.Attribute.РодительскийИдентификатор</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ПомощникСозданияОбменаДанными.Attribute.COMАутентификацияОперационнойСистемы</name>
 		<right>
 			<name>View</name>
@@ -2161,6 +2139,17 @@
 	</object>
 	<object>
 		<name>Catalog.док_ВидеорегистраторыПрисоединенныеФайлы.Attribute.Изменил</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.АдресныеОбъекты.Attribute.Уровень</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2446,17 +2435,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СклоненияПредставленийОбъектов.Dimension.Объект</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.док_ПринтерыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Подпись</name>
 		<right>
 			<name>View</name>
@@ -2655,7 +2633,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СведенияОПользователях.Resource.ДатаНачалаИспользованияПароля</name>
+		<name>InformationRegister.СведенияОПользователях.Resource.УдалитьДатаНачалаИспользованияПароля</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -3084,18 +3062,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ДополнительныеАдресныеСведения.Attribute.КодИФНСФЛ</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВидыКонтактнойИнформации.Attribute.ТелефонCДобавочнымНомером</name>
+		<name>Catalog.ВидыКонтактнойИнформации.Attribute.ТелефонСДобавочнымНомером</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -3293,17 +3260,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СклоненияПредставленийОбъектов.Dimension.ХешПредставления</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.док_КонтрагентыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ПодписьВерна</name>
 		<right>
 			<name>View</name>
@@ -3470,17 +3426,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.РезультатыОбменаДанными.Attribute.ПометкаУдаления</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.АдресныеОбъекты.Attribute.Сокращение</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -4019,50 +3964,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ДомаЗданияСтроения.StandardAttribute.Active</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДомаЗданияСтроения.StandardAttribute.LineNumber</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДомаЗданияСтроения.StandardAttribute.Recorder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДомаЗданияСтроения.StandardAttribute.Period</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.док_СерверыVPN.TabularSection.УчетныеДанные.Attribute.Логин</name>
 		<right>
 			<name>View</name>
@@ -4140,17 +4041,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.АдресныеОбъекты.Attribute.Наименование</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.КонвертацияОбъектовИнформационныхБаз.Attribute.ЗагрузкаДанныхВыполняетсяЧерезВнешнееСоединение</name>
 		<right>
 			<name>View</name>
@@ -4196,17 +4086,6 @@
 	</object>
 	<object>
 		<name>Catalog.док_ЛицензииПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Комментарий</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СвязиАдресныхОбъектов.Dimension.КодСубъектаРФ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -4393,7 +4272,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ИсторияАдресныхОбъектов.Attribute.Сокращение</name>
+		<name>InformationRegister.ИсторияАдресныхОбъектов.Attribute.ТипОбъекта</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -4867,17 +4746,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ОтправленныеСерверныеОповещения.Attribute.ИдентификаторГруппы</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДомаЗданияСтроения.Dimension.ДополнительныеАдресныеСведения</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -5856,17 +5724,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СклоненияПредставленийОбъектов.Resource.ПредложныйПадеж</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.док_УстройстваПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Подпись</name>
 		<right>
 			<name>View</name>
@@ -5890,17 +5747,6 @@
 	</object>
 	<object>
 		<name>Catalog.ЗначенияСвойствОбъектовИерархия.TabularSection.Представления</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДополнительныеАдресныеСведения.Dimension.КодСубъектаРФ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -6032,7 +5878,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ОтправленныеСерверныеОповещения.Attribute.ЗаписаноВСистемуВзаимодействия</name>
+		<name>InformationRegister.ОтправленныеСерверныеОповещения.Attribute.ДатаЗаписиВСистемуВзаимодействияМиллисекунды</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -6484,17 +6330,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ.Dimension.Очередь</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.УдаляемыеОбъекты.Resource.ВремяБлокировки</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -7660,6 +7495,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ДомаЗданияСтроения.Dimension.АдресныйОбъект</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.док_УстройстваСУдаленнымУправлением.Attribute.Компьютер</name>
 		<right>
 			<name>View</name>
@@ -8035,6 +7881,17 @@
 	</object>
 	<object>
 		<name>Catalog.РассылкиОтчетов.Attribute.FTPПассивноеСоединение</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ЗемельныеУчастки.Dimension.КодСубъектаРФ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -8606,17 +8463,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СклоненияПредставленийОбъектов.Resource.ИменительныйПадеж</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.НаборыГруппДоступа.Attribute.РазрешенныйНаборГруппПользователей</name>
 		<right>
 			<name>View</name>
@@ -9112,7 +8958,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВнешниеПользователи.Attribute.СвойстваПользователяИБ</name>
+		<name>Catalog.ВнешниеПользователи.Attribute.УдалитьСвойстваПользователяИБ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -9454,6 +9300,17 @@
 	</object>
 	<object>
 		<name>ExchangePlan.ОбновлениеИнформационнойБазы.StandardAttribute.Code</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДополнительныеАдресныеСведения.Attribute.КодИФНСФЛ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -11096,17 +10953,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.АдресныеОбъекты.Dimension.КодСубъектаРФ</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.УниверсальныйОбменДаннымиXML.Attribute.ИмяФайлаОбработчиковСобытий</name>
 		<right>
 			<name>View</name>
@@ -11218,17 +11064,6 @@
 	</object>
 	<object>
 		<name>DataProcessor.УниверсальныйОбменДаннымиXML.Attribute.КоличествоЭлементовВТранзакцииПриВыгрузкеДляПлановОбмена</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ИсторияАдресныхОбъектов.Attribute.РодительскийИдентификатор</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -11405,17 +11240,6 @@
 	</object>
 	<object>
 		<name>DataProcessor.ТранспортСообщенийОбменаFILE.Attribute.ПарольАрхиваСообщенияОбмена</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОриентирыАдресныхОбъектов.Dimension.КодСубъектаРФ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -12031,7 +11855,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СвязиАдресныхОбъектов.Dimension.Идентификатор</name>
+		<name>InformationRegister.АдресныеОбъекты.Dimension.КодСубъектаРФ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -12142,17 +11966,6 @@
 	</object>
 	<object>
 		<name>Catalog.Пользователи.Attribute.Подготовлен</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОриентирыАдресныхОбъектов.Resource.Описание</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -13153,6 +12966,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.АдресныеОбъекты.Attribute.КодКЛАДР</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.док_УчетныеДанныеСервисовПрисоединенныеФайлы.Attribute.Редактирует</name>
 		<right>
 			<name>View</name>
@@ -13703,17 +13527,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СклоненияПредставленийОбъектов.Resource.ВинительныйПадеж</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ПрофилиГруппДоступа.TabularSection.Роли</name>
 		<right>
 			<name>View</name>
@@ -14154,17 +13967,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СклоненияПредставленийОбъектов.Resource.ТворительныйПадеж</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ГруппыДоступа.Attribute.Пользователь</name>
 		<right>
 			<name>View</name>
@@ -14320,17 +14122,6 @@
 	</object>
 	<object>
 		<name>Catalog.док_УчетныеДанныеСервисовПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Подпись</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ЗемельныеУчастки.Dimension.ДополнительныеАдресныеСведения</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -14507,17 +14298,6 @@
 	</object>
 	<object>
 		<name>Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.ИмяПочтовогоСервиса</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДополнительныеАдресныеСведения.Attribute.OKATO</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -14954,6 +14734,33 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Configuration.Документация</name>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -15738,6 +15545,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ДополнительныеАдресныеСведения.Attribute.OKATO</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ОписаниеОбработчиковОбновления.TabularSection.ОбработчикиОбновления.Attribute.ПовторнаяЗапись</name>
 		<right>
 			<name>View</name>
@@ -16068,17 +15886,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.АдресныеОбъекты.Attribute.ДополнительныеАдресныеСведения</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ИзмененияОбщихДанныхУзлов.Resource.НомерСообщения</name>
 		<right>
 			<name>View</name>
@@ -16146,6 +15953,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.ОбработчикиОбновления.Attribute.ИтерацияЗапуска</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДомаЗданияСтроения.Dimension.КодСубъектаРФ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -16344,17 +16162,6 @@
 	</object>
 	<object>
 		<name>Catalog.док_ВидеорегистраторыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ЗемельныеУчастки.Dimension.КодСубъектаРФ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -16960,17 +16767,6 @@
 	</object>
 	<object>
 		<name>Catalog.ЗаметкиПрисоединенныеФайлы.Attribute.ХранитьВерсии</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СклоненияПредставленийОбъектов.Resource.ДательныйПадеж</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -18169,50 +17965,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СклоненияПредставленийОбъектов.StandardAttribute.Active</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СклоненияПредставленийОбъектов.StandardAttribute.LineNumber</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СклоненияПредставленийОбъектов.StandardAttribute.Recorder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СклоненияПредставленийОбъектов.StandardAttribute.Period</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.СоответствияОбъектовИнформационныхБаз.Resource.УникальныйИдентификаторИсточникаСтрокой</name>
 		<right>
 			<name>View</name>
@@ -18345,17 +18097,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ОриентирыАдресныхОбъектов.Resource.ПочтовыйИндекс</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.док_КонтрагентыПрисоединенныеФайлы.Attribute.ИндексКартинки</name>
 		<right>
 			<name>View</name>
@@ -18379,50 +18120,6 @@
 	</object>
 	<object>
 		<name>Catalog.НастройкиАвторизацииИнтернетСервисов.Attribute.АдресПеренаправления</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДополнительныеАдресныеСведения.StandardAttribute.Active</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДополнительныеАдресныеСведения.StandardAttribute.LineNumber</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДополнительныеАдресныеСведения.StandardAttribute.Recorder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДополнительныеАдресныеСведения.StandardAttribute.Period</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -18631,7 +18328,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВидыКонтактнойИнформации.Attribute.ПроверятьПоФИАС</name>
+		<name>Catalog.ВидыКонтактнойИнформации.Attribute.УдалитьПроверятьПоФИАС</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -18687,17 +18384,6 @@
 	</object>
 	<object>
 		<name>Catalog.ЗначенияСвойствОбъектов.TabularSection.Представления.Attribute.Наименование</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОриентирыАдресныхОбъектов.Resource.Дополнительно</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -18873,17 +18559,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ИсторияАдресныхОбъектов.Attribute.ТекущийКодСубъектаРФ</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ВерсииОбъектов.Attribute.ДатаВерсии</name>
 		<right>
 			<name>View</name>
@@ -19039,6 +18714,50 @@
 	</object>
 	<object>
 		<name>InformationRegister.ПараметрыОграниченияДоступа.Resource.ХешСуммаПостоянныхПараметров</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДополнительныеАдресныеСведения.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДополнительныеАдресныеСведения.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДополнительныеАдресныеСведения.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДополнительныеАдресныеСведения.StandardAttribute.Period</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -20710,6 +20429,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ЗемельныеУчастки.Dimension.ДополнительныеАдресныеСведения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.док_КассыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи</name>
 		<right>
 			<name>View</name>
@@ -20876,6 +20606,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.НастройкиТранспортаОбменаДанными.Resource.FILEСжиматьФайлИсходящегоСообщения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.АдресныеОбъекты.Attribute.ДополнительныеАдресныеСведения</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -21667,17 +21408,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ОриентирыАдресныхОбъектов.Dimension.Идентификатор</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.НаборыЗначенийДоступа.Attribute.СтандартноеЗначение</name>
 		<right>
 			<name>View</name>
@@ -21965,6 +21695,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.НастройкиПравОбъектов.Resource.НаследованиеРазрешено</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДомаЗданияСтроения.Dimension.ДополнительныеАдресныеСведения</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -23449,6 +23190,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ДополнительныеАдресныеСведения.Dimension.КодСубъектаРФ</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.КлючиДоступа.TabularSection.ТабличнаяЧасть1.Attribute.Значение1</name>
 		<right>
 			<name>View</name>
@@ -23571,17 +23323,6 @@
 	</object>
 	<object>
 		<name>DataProcessor.ПомощникСозданияОбменаДанными.Attribute.FTPСоединениеПользователь</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОриентирыАдресныхОбъектов.Resource.АдресныйОбъект</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -23823,7 +23564,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ДомаЗданияСтроения.Attribute.Строения</name>
+		<name>InformationRegister.ДополнительныеАдресныеСведения.Attribute.ОКТМО</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -24142,6 +23883,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ДополнительныеАдресныеСведения.Dimension.Идентификатор</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.РассылкиОтчетов.TabularSection.ФорматыОтчетов</name>
 		<right>
 			<name>View</name>
@@ -24219,7 +23971,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПравилаДляОбменаДанными.Attribute.ИспользоватьФильтрВыборочнойРегистрацииОбъектов</name>
+		<name>InformationRegister.ПравилаДляОбменаДанными.Attribute.УдалитьИспользоватьФильтрВыборочнойРегистрацииОбъектов</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -24758,29 +24510,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.АдресныеОбъекты.Attribute.Уровень</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.УдалитьХранимыеФайлыВерсий.Dimension.ВерсияФайла</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДлительныеОперации.Attribute.ИдентификаторПроцесса</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -25275,17 +25005,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ДополнительныеАдресныеСведения.Dimension.Идентификатор</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.док_Номенклатура.Attribute.Вид</name>
 		<right>
 			<name>View</name>
@@ -25353,6 +25072,17 @@
 	</object>
 	<object>
 		<name>Catalog.док_ЛицензииПрисоединенныеФайлы.Attribute.Редактирует</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДомаЗданияСтроения.Attribute.Строения</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -26342,17 +26072,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.АдресныеОбъекты.Attribute.КодКЛАДР</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.НастройкиАвторизацииИнтернетСервисов.Attribute.АдресПолученияКлюча</name>
 		<right>
 			<name>View</name>
@@ -26716,50 +26435,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.АдресныеОбъекты.StandardAttribute.Active</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.АдресныеОбъекты.StandardAttribute.LineNumber</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.АдресныеОбъекты.StandardAttribute.Recorder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.АдресныеОбъекты.StandardAttribute.Period</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.док_КонтактныеЛицаКонтрагентов.TabularSection.КонтактнаяИнформация.Attribute.Вид</name>
 		<right>
 			<name>View</name>
@@ -26816,17 +26491,6 @@
 	</object>
 	<object>
 		<name>Catalog.ТомаХраненияФайлов.Attribute.Комментарий</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ИсторияАдресныхОбъектов.Attribute.МуниципальныйРодительскийИдентификатор</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -26937,17 +26601,6 @@
 	</object>
 	<object>
 		<name>Catalog.док_БД.Attribute.Описание</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ЗемельныеУчастки.Attribute.Участки</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -27211,17 +26864,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ИсторияАдресныхОбъектов.Attribute.КодКЛАДР</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.док_Кластеры1СПрисоединенныеФайлы.Attribute.ФайлХранилище</name>
 		<right>
 			<name>View</name>
@@ -27453,6 +27095,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ЗемельныеУчастки.Dimension.АдресныйОбъект</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.док_КонтрагентыПрисоединенныеФайлы.Attribute.Том</name>
 		<right>
 			<name>View</name>
@@ -27630,6 +27283,50 @@
 	</object>
 	<object>
 		<name>InformationRegister.ГруппыЗначенийДоступа.Dimension.ЗначениеДоступа</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ЗемельныеУчастки.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ЗемельныеУчастки.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ЗемельныеУчастки.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ЗемельныеУчастки.StandardAttribute.Period</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -27872,50 +27569,6 @@
 	</object>
 	<object>
 		<name>Catalog.ПредопределенныеВариантыОтчетов.TabularSection.Представления</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СвязиАдресныхОбъектов.StandardAttribute.Active</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СвязиАдресныхОбъектов.StandardAttribute.LineNumber</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СвязиАдресныхОбъектов.StandardAttribute.Recorder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СвязиАдресныхОбъектов.StandardAttribute.Period</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -28476,6 +28129,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.АдресныеОбъекты.Attribute.Наименование</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.док_Устройства.TabularSection.УчетныеДанные.Attribute.ПарольЗашифрован</name>
 		<right>
 			<name>View</name>
@@ -28653,17 +28317,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.НаборыЗначенийДоступа.Attribute.ЗначениеБезГрупп</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДополнительныеАдресныеСведения.Attribute.ПочтовыйИндекс</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -28949,6 +28602,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ДополнительныеАдресныеСведения.Attribute.ПочтовыйИндекс</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.КлючиДоступаВнешнихПользователей.Resource.ПравоИзменение</name>
 		<right>
 			<name>View</name>
@@ -29093,17 +28757,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.НастройкиТранспортаОбменаДанными.Resource.WSИспользоватьПередачуБольшогоОбъемаДанных</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДополнительныеАдресныеСведения.Attribute.КодИФНСЮЛ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -30797,6 +30450,50 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.АдресныеОбъекты.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.АдресныеОбъекты.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.АдресныеОбъекты.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.АдресныеОбъекты.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.док_Сети.Attribute.Маска</name>
 		<right>
 			<name>View</name>
@@ -31853,17 +31550,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ДомаЗданияСтроения.Dimension.КодСубъектаРФ</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.док_КонтактныеЛицаКонтрагентов.TabularSection.КонтактнаяИнформация.Attribute.НомерТелефонаБезКодов</name>
 		<right>
 			<name>View</name>
@@ -32491,17 +32177,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ДополнительныеАдресныеСведения.Attribute.ОКТМО</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ОписаниеОбработчиковОбновления.TabularSection.ОбработчикиОбновления.Attribute.ИмяОбъекта</name>
 		<right>
 			<name>View</name>
@@ -32689,50 +32364,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ЗемельныеУчастки.StandardAttribute.Active</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ЗемельныеУчастки.StandardAttribute.LineNumber</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ЗемельныеУчастки.StandardAttribute.Recorder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ЗемельныеУчастки.StandardAttribute.Period</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ПредопределенныеВариантыОтчетовРасширений.Attribute.КлючЗамеров</name>
 		<right>
 			<name>View</name>
@@ -32865,7 +32496,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Пользователи.Attribute.СвойстваПользователяИБ</name>
+		<name>Catalog.Пользователи.Attribute.УдалитьСвойстваПользователяИБ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -33163,17 +32794,6 @@
 	</object>
 	<object>
 		<name>Catalog.док_СерверыПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ДатаПроверкиПодписи</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.АдресныеОбъекты.Dimension.Идентификатор</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -33746,17 +33366,6 @@
 	</object>
 	<object>
 		<name>Catalog.док_СетевоеОборудование.TabularSection.УчетныеДанные</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДомаЗданияСтроения.Dimension.АдресныйОбъект</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -34614,6 +34223,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ДополнительныеАдресныеСведения.Attribute.КодИФНСЮЛ</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ОбработчикиОбновления.Attribute.ОбрабатываемыеДанные</name>
 		<right>
 			<name>View</name>
@@ -34780,6 +34400,50 @@
 	</object>
 	<object>
 		<name>Catalog.док_СерверыVPNПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования.Attribute.Отпечаток</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДомаЗданияСтроения.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДомаЗданияСтроения.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДомаЗданияСтроения.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДомаЗданияСтроения.StandardAttribute.Period</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -35230,6 +34894,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.АдресныеОбъекты.Dimension.Идентификатор</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.док_АТС.TabularSection.УчетныеДанные.Attribute.ПарольЗашифрован</name>
 		<right>
 			<name>View</name>
@@ -35571,28 +35246,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ДополнительныеАдресныеСведения.Attribute.КодУчасткаИФНСЮЛ</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СклоненияПредставленийОбъектов.Resource.РодительныйПадеж</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.док_Серверы.TabularSection.Комплектующие.Attribute.Описание</name>
 		<right>
 			<name>View</name>
@@ -35748,50 +35401,6 @@
 	</object>
 	<object>
 		<name>Catalog.КлючиДоступа.TabularSection.ТабличнаяЧасть2.Attribute.Значение4</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОриентирыАдресныхОбъектов.StandardAttribute.Active</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОриентирыАдресныхОбъектов.StandardAttribute.LineNumber</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОриентирыАдресныхОбъектов.StandardAttribute.Recorder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОриентирыАдресныхОбъектов.StandardAttribute.Period</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -36165,7 +35774,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.РассылкиОтчетов.Attribute.ВключатьДатуВИмяФайла</name>
+		<name>Catalog.РассылкиОтчетов.Attribute.УдалитьВключатьДатуВИмяФайла</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -37210,17 +36819,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СвязиАдресныхОбъектов.Dimension.МуниципальныйРодительскийИдентификатор</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ОписаниеОбработчиковОбновления.TabularSection.ПриоритетыВыполнения.Attribute.ЗаписьЧитаемых</name>
 		<right>
 			<name>View</name>
@@ -37870,6 +37468,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ЗемельныеУчастки.Attribute.Участки</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.КлючиДоступа.TabularSection.Шапка.Attribute.Значение7</name>
 		<right>
 			<name>View</name>
@@ -38135,6 +37744,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.СведенияОПользователях.Resource.ДатаРазрешенияВходаВПрограмму</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДополнительныеАдресныеСведения.Attribute.КодУчасткаИФНСФЛ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -38652,17 +38272,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ОбщиеНастройкиУзловИнформационныхБаз.Resource.ВыполнитьОтправкуДанных</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.АдресныеОбъекты.Attribute.МуниципальныйРодительскийИдентификатор</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

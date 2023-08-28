@@ -104,16 +104,17 @@
 									<ChildItems>
 										<LabelDecoration name="ДекорацияЗаголовокШапкаДобавление" id="4">
 											<AutoMaxWidth>false</AutoMaxWidth>
+											<MaxWidth>80</MaxWidth>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Будет разрешен доступ к %1 "%2" с помощью автоматического REST-сервиса.
-Для того, чтобы сторонняя программа смогла работать с этим объектом через автоматический REST-сервис требуется дополнительно разрешить доступ через автоматический REST-сервис к следующим объектам:</v8:content>
+Для того чтобы сторонние программы смогли работать с ним через автоматический REST-сервис, требуется дополнительно разрешить доступ к зависимым объектам.</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Access to %1 "%2" will be allowed using the automatic REST service. 
-For a third-party application to be able to work with this object through an automatic REST service you must additionally allow access to the following objects through the automatic REST service:</v8:content>
+													<v8:content>Будет разрешен доступ к %1 "%2" с помощью автоматического REST-сервиса.
+Для того чтобы сторонние программы смогли работать с ним через автоматический REST-сервис, требуется дополнительно разрешить доступ к зависимым объектам.</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ДекорацияЗаголовокШапкаДобавлениеКонтекстноеМеню" id="5"/>
@@ -136,20 +137,98 @@ For a third-party application to be able to work with this object through an aut
 									<ChildItems>
 										<LabelDecoration name="ДекорацияЗаголовокШапкаУдаление" id="67">
 											<AutoMaxWidth>false</AutoMaxWidth>
+											<MaxWidth>80</MaxWidth>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Вы решили запретить доступ к %1 "%2" с помощью автоматического REST-сервиса.
-Этот объект обязательно должен быть разрешен для использования с помощью стандартного REST-сервиса для того, чтобы через автоматический REST-сервис сторонние программы могли взаимодействовать со следующими объектами:</v8:content>
+Однако этот объект должен быть разрешен для того, чтобы сторонние программы могли взаимодействовать с зависимыми объектами.</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>You decided to deny access to %1 "%2" using the automatic REST service.
- This object must be allowed for use with a standard REST service so that third-party applications can interact with the following objects through the automatic REST service:</v8:content>
+													<v8:content>Вы решили запретить доступ к %1 "%2" с помощью автоматического REST-сервиса.
+Однако этот объект должен быть разрешен для того, чтобы сторонние программы могли взаимодействовать с зависимыми объектами.</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ДекорацияЗаголовокШапкаУдалениеКонтекстноеМеню" id="68"/>
 											<ExtendedTooltip name="ДекорацияЗаголовокШапкаУдалениеРасширеннаяПодсказка" id="69"/>
+										</LabelDecoration>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+						<Pages name="ГруппаСтраницыПодвал" id="70">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы подвал</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Pages footer</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalStretch>true</HorizontalStretch>
+							<PagesRepresentation>None</PagesRepresentation>
+							<ExtendedTooltip name="ГруппаСтраницыПодвалРасширеннаяПодсказка" id="71"/>
+							<ChildItems>
+								<Page name="ГруппаСтраницаПодвалДобавление" id="72">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница подвал добавление</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Page footer add</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ГруппаСтраницаПодвалДобавлениеРасширеннаяПодсказка" id="73"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияТекстВопросаДобавление" id="48">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Разрешить доступ к зависимым объектам через автоматический REST-сервис?</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Разрешить доступ к зависимым объектам через автоматический REST-сервис?</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияТекстВопросаДобавлениеКонтекстноеМеню" id="49"/>
+											<ExtendedTooltip name="ДекорацияТекстВопросаДобавлениеРасширеннаяПодсказка" id="50"/>
+										</LabelDecoration>
+									</ChildItems>
+								</Page>
+								<Page name="ГруппаСтраницаПодвалУдаление" id="74">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница подвал удаление</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Page footer delete</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ГруппаСтраницаПодвалУдалениеРасширеннаяПодсказка" id="75"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияТекстВопросаУдаление" id="76">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Запретить доступ к зависимым объектам через автоматический REST-сервис?</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Запретить доступ к зависимым объектам через автоматический REST-сервис?</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияТекстВопросаУдалениеКонтекстноеМеню" id="77"/>
+											<ExtendedTooltip name="ДекорацияТекстВопросаУдалениеРасширеннаяПодсказка" id="78"/>
 										</LabelDecoration>
 									</ChildItems>
 								</Page>
@@ -162,6 +241,8 @@ For a third-party application to be able to work with this object through an aut
 							<ChangeRowSet>false</ChangeRowSet>
 							<ChangeRowOrder>false</ChangeRowOrder>
 							<SelectionMode>SingleRow</SelectionMode>
+							<HorizontalLines>false</HorizontalLines>
+							<VerticalLines>false</VerticalLines>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<InitialListView>Beginning</InitialListView>
 							<InitialTreeView>ExpandAllLevels</InitialTreeView>
@@ -179,7 +260,15 @@ For a third-party application to be able to work with this object through an aut
 									<v8:content>Metadata objects</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="ОбъектыМетаданныхКонтекстноеМеню" id="12"/>
+							<ContextMenu name="ОбъектыМетаданныхКонтекстноеМеню" id="12">
+								<ChildItems>
+									<Button name="ОбъектыМетаданныхКонтекстноеМенюВывестиСписок" id="79">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Item.ОбъектыМетаданных.StandardCommand.OutputList</CommandName>
+										<ExtendedTooltip name="ОбъектыМетаданныхКонтекстноеМенюВывестиСписокРасширеннаяПодсказка" id="80"/>
+									</Button>
+								</ChildItems>
+							</ContextMenu>
 							<AutoCommandBar name="ОбъектыМетаданныхКоманднаяПанель" id="13"/>
 							<ExtendedTooltip name="ОбъектыМетаданныхРасширеннаяПодсказка" id="14"/>
 							<SearchStringAddition name="ОбъектыМетаданныхСтрокаПоиска" id="15">
@@ -226,14 +315,15 @@ For a third-party application to be able to work with this object through an aut
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Объект</v8:content>
+													<v8:content>Зависимый объект</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Object</v8:content>
+													<v8:content>Зависимый объект</v8:content>
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<Width>4</Width>
 											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ОбъектыМетаданныхКартинкаКонтекстноеМеню" id="37"/>
 											<ExtendedTooltip name="ОбъектыМетаданныхКартинкаРасширеннаяПодсказка" id="38"/>
@@ -249,83 +339,6 @@ For a third-party application to be able to work with this object through an aut
 								</ColumnGroup>
 							</ChildItems>
 						</Table>
-						<Pages name="ГруппаСтраницыПодвал" id="70">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Страницы подвал</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Pages footer</v8:content>
-								</v8:item>
-							</Title>
-							<HorizontalStretch>true</HorizontalStretch>
-							<PagesRepresentation>None</PagesRepresentation>
-							<ExtendedTooltip name="ГруппаСтраницыПодвалРасширеннаяПодсказка" id="71"/>
-							<ChildItems>
-								<Page name="ГруппаСтраницаПодвалДобавление" id="72">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Страница подвал добавление</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Page footer add</v8:content>
-										</v8:item>
-									</Title>
-									<ExtendedTooltip name="ГруппаСтраницаПодвалДобавлениеРасширеннаяПодсказка" id="73"/>
-									<ChildItems>
-										<LabelDecoration name="ДекорацияТекстВопросаДобавление" id="48">
-											<AutoMaxWidth>false</AutoMaxWidth>
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Разрешить доступ и к этим объектам через автоматический REST-сервис?</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>Allow access to these objects through the automatic REST service?</v8:content>
-												</v8:item>
-											</Title>
-											<ContextMenu name="ДекорацияТекстВопросаДобавлениеКонтекстноеМеню" id="49"/>
-											<ExtendedTooltip name="ДекорацияТекстВопросаДобавлениеРасширеннаяПодсказка" id="50"/>
-										</LabelDecoration>
-									</ChildItems>
-								</Page>
-								<Page name="ГруппаСтраницаПодвалУдаление" id="74">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Страница подвал удаление</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Page footer delete</v8:content>
-										</v8:item>
-									</Title>
-									<ExtendedTooltip name="ГруппаСтраницаПодвалУдалениеРасширеннаяПодсказка" id="75"/>
-									<ChildItems>
-										<LabelDecoration name="ДекорацияТекстВопросаУдаление" id="76">
-											<AutoMaxWidth>false</AutoMaxWidth>
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Запретить доступ к этим объектам через автоматический REST-сервис?</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>Restrict access to these objects through the automatic REST service?</v8:content>
-												</v8:item>
-											</Title>
-											<ContextMenu name="ДекорацияТекстВопросаУдалениеКонтекстноеМеню" id="77"/>
-											<ExtendedTooltip name="ДекорацияТекстВопросаУдалениеРасширеннаяПодсказка" id="78"/>
-										</LabelDecoration>
-									</ChildItems>
-								</Page>
-							</ChildItems>
-						</Pages>
 						<CommandBar name="Кнопки" id="51">
 							<Title>
 								<v8:item>
@@ -342,6 +355,7 @@ For a third-party application to be able to work with this object through an aut
 							<ChildItems>
 								<Button name="Да" id="53">
 									<Type>CommandBarButton</Type>
+									<DefaultButton>true</DefaultButton>
 									<CommandName>Form.StandardCommand.Yes</CommandName>
 									<ExtendedTooltip name="ДаРасширеннаяПодсказка" id="54"/>
 								</Button>
@@ -384,11 +398,11 @@ For a third-party application to be able to work with this object through an aut
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Представление</v8:content>
+							<v8:content>Зависимый объект</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Presentation</v8:content>
+							<v8:content>Зависимый объект</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
