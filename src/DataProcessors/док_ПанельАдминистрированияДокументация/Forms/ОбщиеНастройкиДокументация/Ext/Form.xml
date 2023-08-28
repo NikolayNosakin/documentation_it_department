@@ -29,6 +29,7 @@
 			<ChildItems>
 				<CheckBoxField name="УведомлятьОбОкончанииФН" id="1">
 					<DataPath>НаборКонстант.док_УведомлятьОбОкончанииФН</DataPath>
+					<Enabled>false</Enabled>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="УведомлятьОбОкончанииФНКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="УведомлятьОбОкончанииФНРасширеннаяПодсказка" id="3"/>
@@ -38,6 +39,7 @@
 				</CheckBoxField>
 				<Button name="НастроитьУведомлениеОбОкончанииФН" id="6">
 					<Type>Hyperlink</Type>
+					<Enabled>false</Enabled>
 					<CommandName>Form.Command.НастроитьУведомлениеОбОкончанииФН</CommandName>
 					<ExtendedTooltip name="НастроитьУведомлениеОбОкончанииФНРасширеннаяПодсказка" id="7"/>
 				</Button>

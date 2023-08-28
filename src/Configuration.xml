@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Носакин Николай Сергеевич</Vendor>
-			<Version>1.2.9.2</Version>
+			<Version>1.2.9.3</Version>
 			<UpdateCatalogAddress>https://github.com/NikolayNosakin/documentation_it_department/releases</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -738,6 +738,7 @@
 			<CommonPicture>ВКонтакте16</CommonPicture>
 			<CommonPicture>ПодключениеОбсуждений</CommonPicture>
 			<CommonPicture>Телеграм16х16</CommonPicture>
+			<CommonPicture>док_Slack</CommonPicture>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
 			<SessionParameter>ВерсииШаблоновОграниченияДоступа</SessionParameter>
@@ -793,6 +794,7 @@
 			<SessionParameter>УстановленныеРасширения</SessionParameter>
 			<Role>АдминистраторСистемы</Role>
 			<Role>Администрирование</Role>
+			<Role>БазовыеПраваБСП</Role>
 			<Role>БазовыеПраваВнешнихПользователейБСП</Role>
 			<Role>ВыводНаПринтерФайлБуферОбмена</Role>
 			<Role>ВыполнениеСинхронизацииДанных</Role>
@@ -811,7 +813,6 @@
 			<Role>ДобавлениеИзменениеРассылокОтчетов</Role>
 			<Role>ДобавлениеИзменениеСнимковОтчетов</Role>
 			<Role>ДобавлениеИзменениеУчетныхЗаписейЭлектроннойПочты</Role>
-			<Role>ЗапускAutomation</Role>
 			<Role>док_БазовыеПрава</Role>
 			<Role>док_ПолныеПраваБезУдаления</Role>
 			<Role>док_Редактирование_WEBСерверы</Role>
@@ -834,9 +835,12 @@
 			<Role>док_Редактирование_Кассы</Role>
 			<Role>док_Редактирование_Кассы_Пароли</Role>
 			<Role>док_Редактирование_КассыПрисоединенныеФайлы</Role>
+			<Role>док_Редактирование_Кластеры1С</Role>
+			<Role>док_Редактирование_Кластеры1С_Пароли</Role>
+			<Role>док_Редактирование_Кластеры1СПрисоединенныеФайлы</Role>
+			<Role>док_Редактирование_КонтактныеЛицаКонтрагентов</Role>
 			<Role>док_Редактирование_Контрагенты</Role>
 			<Role>док_Редактирование_КонтрагентыПрисоединенныеФайлы</Role>
-			<Role>док_Редактирование_КонтактныеЛицаКонтрагентов</Role>
 			<Role>док_Редактирование_Конфигурации</Role>
 			<Role>док_Редактирование_Лицензии</Role>
 			<Role>док_Редактирование_ЛицензииПрисоединенныеФайлы</Role>
@@ -844,6 +848,7 @@
 			<Role>док_Редактирование_НазначенияПортов</Role>
 			<Role>док_Редактирование_Номенклатура</Role>
 			<Role>док_Редактирование_ОперационныеСистемы</Role>
+			<Role>док_Редактирование_ПараметрыЗапуска1С</Role>
 			<Role>док_Редактирование_Принтеры</Role>
 			<Role>док_Редактирование_ПринтерыПрисоединенныеФайлы</Role>
 			<Role>док_Редактирование_Серверы</Role>
@@ -857,9 +862,6 @@
 			<Role>док_Редактирование_СетевоеОборудованиеПрисоединенныеФайлы</Role>
 			<Role>док_Редактирование_Сети</Role>
 			<Role>док_Редактирование_СетиПрисоединенныеФайлы</Role>
-			<Role>док_Редактирование_Кластеры1С</Role>
-			<Role>док_Редактирование_Кластеры1С_Пароли</Role>
-			<Role>док_Редактирование_Кластеры1СПрисоединенныеФайлы</Role>
 			<Role>док_Редактирование_Устройства</Role>
 			<Role>док_Редактирование_Устройства_Пароли</Role>
 			<Role>док_Редактирование_УстройстваПрисоединенныеФайлы</Role>
@@ -887,9 +889,9 @@
 			<Role>док_Чтение_Кассы</Role>
 			<Role>док_Чтение_Кассы_Пароли</Role>
 			<Role>док_Чтение_КассыПрисоединенныеФайлы</Role>
+			<Role>док_Чтение_КонтактныеЛицаКонтрагентов</Role>
 			<Role>док_Чтение_Контрагенты</Role>
 			<Role>док_Чтение_КонтрагентыПрисоединенныеФайлы</Role>
-			<Role>док_Чтение_КонтактныеЛицаКонтрагентов</Role>
 			<Role>док_Чтение_Конфигурации</Role>
 			<Role>док_Чтение_Лицензии</Role>
 			<Role>док_Чтение_ЛицензииПрисоединенныеФайлы</Role>
@@ -897,6 +899,7 @@
 			<Role>док_Чтение_НазначенияПортов</Role>
 			<Role>док_Чтение_Номенклатура</Role>
 			<Role>док_Чтение_ОперационныеСистемы</Role>
+			<Role>док_Чтение_ПараметрыЗапуска1С</Role>
 			<Role>док_Чтение_ПодсистемыБД</Role>
 			<Role>док_Чтение_ПодсистемыВзаимодействия</Role>
 			<Role>док_Чтение_ПодсистемыИнфраструктура</Role>
@@ -926,6 +929,7 @@
 			<Role>док_Чтение_ХранилищаКонфигураций</Role>
 			<Role>док_ЧтениеОбработокБД</Role>
 			<Role>док_ЧтениеОбработокНСИ</Role>
+			<Role>ЗапускAutomation</Role>
 			<Role>ЗапускВебКлиента</Role>
 			<Role>ЗапускВнешнегоСоединения</Role>
 			<Role>ЗапускМобильногоКлиента</Role>
@@ -945,7 +949,7 @@
 			<Role>РедактированиеРеквизитовОбъектов</Role>
 			<Role>РежимТехническогоСпециалиста</Role>
 			<Role>СохранениеДанныхПользователя</Role>
-			<Role>БазовыеПраваБСП</Role>
+			<Role>УдаленныйДоступOData</Role>
 			<Role>УдаленныйДоступБазоваяФункциональность</Role>
 			<Role>ЧтениеВариантовОтчетов</Role>
 			<Role>ЧтениеВерсийОбъектов</Role>
@@ -955,7 +959,6 @@
 			<Role>ЧтениеИнформацииОВерсияхОбъектов</Role>
 			<Role>ЧтениеРассылокОтчетов</Role>
 			<Role>ЧтениеУчетныхЗаписейЭлектроннойПочты</Role>
-			<Role>УдаленныйДоступOData</Role>
 			<CommonTemplate>ДанныеПечатиОбщиеРеквизиты</CommonTemplate>
 			<CommonTemplate>ДанныеПечатиРегистрСимволов</CommonTemplate>
 			<CommonTemplate>ИнструкцияДляУстановкиКодаДляПредопределенногоУзла_ru</CommonTemplate>
@@ -974,9 +977,12 @@
 			<CommonTemplate>док_РабочийСтолМобильный</CommonTemplate>
 			<FilterCriterion>ФайлыВТоме</FilterCriterion>
 			<CommonModule>АдминистрированиеКластера</CommonModule>
-			<CommonModule>АдминистрированиеКластераRAS</CommonModule>
 			<CommonModule>АдминистрированиеКластераCOM</CommonModule>
+			<CommonModule>АдминистрированиеКластераCOMКлиентСервер</CommonModule>
+			<CommonModule>АдминистрированиеКластераRAS</CommonModule>
+			<CommonModule>АдминистрированиеКластераRASКлиентСервер</CommonModule>
 			<CommonModule>АдминистрированиеКластераКлиентСервер</CommonModule>
+			<CommonModule>АдресныйКлассификатор</CommonModule>
 			<CommonModule>АдресныйКлассификаторКлиент</CommonModule>
 			<CommonModule>АдресныйКлассификаторПовтИсп</CommonModule>
 			<CommonModule>АдресныйКлассификаторСлужебный</CommonModule>
@@ -1014,9 +1020,6 @@
 			<CommonModule>ДлительныеОперации</CommonModule>
 			<CommonModule>ДлительныеОперацииВызовСервера</CommonModule>
 			<CommonModule>ДлительныеОперацииКлиент</CommonModule>
-			<CommonModule>ДополнительныеОтчетыИОбработки</CommonModule>
-			<CommonModule>ДополнительныеОтчетыИОбработкиВБезопасномРежимеСлужебный</CommonModule>
-			<CommonModule>ДополнительныеОтчетыИОбработкиВызовСервера</CommonModule>
 			<CommonModule>док_ИнтеграцияSlack</CommonModule>
 			<CommonModule>док_ОбновлениеИнформационнойБазыСлужебный</CommonModule>
 			<CommonModule>док_ОбработкичиРегламентныхЗаданий</CommonModule>
@@ -1027,6 +1030,9 @@
 			<CommonModule>док_СтандартныеПодсистемыСервер</CommonModule>
 			<CommonModule>док_ШифрованиеДанныхКлиент</CommonModule>
 			<CommonModule>док_ШифрованиеДанныхСервер</CommonModule>
+			<CommonModule>ДополнительныеОтчетыИОбработки</CommonModule>
+			<CommonModule>ДополнительныеОтчетыИОбработкиВБезопасномРежимеСлужебный</CommonModule>
+			<CommonModule>ДополнительныеОтчетыИОбработкиВызовСервера</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработкиГлобальный</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработкиКлиент</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработкиКлиентПереопределяемый</CommonModule>
@@ -1053,9 +1059,9 @@
 			<CommonModule>ИнтеграцияПодсистемБСПКлиент</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСПКлиентПовтИсп</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСППовтИсп</CommonModule>
-			<CommonModule>АдминистрированиеКластераCOMКлиентСервер</CommonModule>
-			<CommonModule>АдминистрированиеКластераRASКлиентСервер</CommonModule>
-			<CommonModule>АдресныйКлассификатор</CommonModule>
+			<CommonModule>ИнтерфейсODataПереопределяемый</CommonModule>
+			<CommonModule>ИнтерфейсODataСлужебный</CommonModule>
+			<CommonModule>ИнтерфейсODataСлужебныйПовтИсп</CommonModule>
 			<CommonModule>КонструкторФормул</CommonModule>
 			<CommonModule>КонструкторФормулВызовСервера</CommonModule>
 			<CommonModule>КонструкторФормулКлиент</CommonModule>
@@ -1276,9 +1282,6 @@
 			<CommonModule>ФайловаяСистемаСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ФизическиеЛицаКлиентСервер</CommonModule>
 			<CommonModule>ЯндексДискОбменДанными</CommonModule>
-			<CommonModule>ИнтерфейсODataПереопределяемый</CommonModule>
-			<CommonModule>ИнтерфейсODataСлужебный</CommonModule>
-			<CommonModule>ИнтерфейсODataСлужебныйПовтИсп</CommonModule>
 			<ExchangePlan>ОбновлениеИнформационнойБазы</ExchangePlan>
 			<XDTOPackage>ApplicationExtensionsManifest_1_0_0_1</XDTOPackage>
 			<XDTOPackage>ApplicationExtensionsPermissions_1_0_0_1</XDTOPackage>
